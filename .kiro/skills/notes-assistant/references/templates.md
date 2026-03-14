@@ -1,12 +1,28 @@
+# Note Templates
+
+All templates for the notes-assistant skill. Replace `{{variable}}` with actual values when creating notes.
+
+## Table of Contents
+1. [Daily Note](#daily-note)
+2. [Project](#project)
+3. [Meeting](#meeting)
+4. [Knowledge Card](#knowledge-card)
+5. [Code Snippet](#code-snippet)
+6. [Tech Decision Record (ADR)](#tech-decision-record)
+7. [Problem Solving](#problem-solving)
+8. [Weekly Review](#weekly-review)
+9. [Monthly Review](#monthly-review)
+
 ---
-inclusion: manual
----
 
-# Notes Assistant - 笔记模板
+## Daily Note
 
-创建笔记时，使用以下模板。将 `{{变量}}` 替换为实际值。
+Path: `0-Daily/YYYY/MM/YYYY-MM-DD.md`
 
-## 日常笔记模板 (daily-note)
+Variables:
+- `date`: YYYY-MM-DD
+- `day_of_week`: 星期一~星期日
+- `prev_date` / `next_date`: Adjacent dates
 
 ```markdown
 ---
@@ -48,13 +64,18 @@ next: "[[{{next_date}}]]"
 ### 心情感悟
 ```
 
-变量说明:
-- `date`: 日期 YYYY-MM-DD
-- `day_of_week`: 星期几（周一~周日）
-- `prev_date`: 前一天日期
-- `next_date`: 后一天日期
+---
 
-## 项目模板 (project)
+## Project
+
+Path: `1-Projects/{Work|Personal}/{project_name}/README.md`
+
+Variables:
+- `title`: Project title
+- `category`: work or personal
+- `start_date` / `due_date`: YYYY-MM-DD
+- `project_name`: For tags and folder name
+- `created` / `modified`: YYYY-MM-DD
 
 ```markdown
 ---
@@ -86,7 +107,6 @@ modified: {{modified}}
 
 - [ ] 里程碑 1
 - [ ] 里程碑 2
-- [ ] 里程碑 3
 
 ## 任务列表
 
@@ -94,14 +114,10 @@ modified: {{modified}}
 - [ ] 
 
 ### 进行中
-- [ ] 
 
 ### 已完成
-- [x] 
 
 ## 相关资源
-
-- 
 
 ## 项目日志
 
@@ -109,14 +125,18 @@ modified: {{modified}}
 - 项目创建
 ```
 
-变量说明:
-- `title`: 项目标题
-- `category`: work 或 personal
-- `start_date` / `due_date`: YYYY-MM-DD
-- `project_name`: 项目名（用于标签和文件夹名）
-- `created` / `modified`: YYYY-MM-DD
+---
 
-## 会议记录模板 (meeting)
+## Meeting
+
+Path: `0-Daily/YYYY/MM/YYYY-MM-DD-{title}.md`
+
+Variables:
+- `title`: Meeting title
+- `date` / `time`: Date and time
+- `participants`: Comma-separated names
+- `project_tag`: Related project tag (if any)
+- `created`: YYYY-MM-DD
 
 ```markdown
 ---
@@ -142,13 +162,7 @@ created: {{created}}
 
 ## 讨论内容
 
-### 议题 1
-
-### 议题 2
-
 ## 决策事项
-
-- [ ] 
 
 ## 行动项
 
@@ -160,7 +174,17 @@ created: {{created}}
 **议题**: 
 ```
 
-## 知识卡片模板 (knowledge-card)
+---
+
+## Knowledge Card
+
+Path: `3-Resources/Tech/Knowledge-Cards/{title}.md`
+
+Variables:
+- `title`: Descriptive title (e.g., "React Hooks 闭包陷阱")
+- `main_tag`: Primary tech tag (e.g., `技术/前端/React`)
+- `created`: YYYY-MM-DD
+- `source`: Source note wikilink
 
 ```markdown
 ---
@@ -184,16 +208,22 @@ related:
 
 ## 相关知识
 
-- 
-
 ## 参考资料
-
-- 
 ```
 
-## 代码片段模板 (code-snippet)
+---
 
-```markdown
+## Code Snippet
+
+Path: `3-Resources/Tech/Code-Snippets/{title}.md`
+
+Variables:
+- `title`: Descriptive title
+- `language`: Programming language
+- `language_tag`: Tag like `技术/Python`
+- `created`: YYYY-MM-DD
+
+````markdown
 ---
 title: {{title}}
 type: code-snippet
@@ -212,18 +242,26 @@ created: {{created}}
 
 ## 代码
 
-​```{{language}}
+```{{language}}
 {{code}}
-​```
+```
 
 ## 说明
 
 ## 相关链接
+````
 
-- 
-```
+---
 
-## 技术决策记录模板 (tech-decision-record)
+## Tech Decision Record
+
+Path: `3-Resources/Tech/ADR/ADR-{NNNN}-{title}.md`
+
+Variables:
+- `title`: Decision title
+- `number`: Sequential number (0001, 0002, ...)
+- `status`: 提议 / 已接受 / 已废弃
+- `date` / `created`: YYYY-MM-DD
 
 ```markdown
 ---
@@ -238,7 +276,7 @@ tags:
 created: {{created}}
 ---
 
-# TDR-{{number}}: {{title}}
+# ADR-{{number}}: {{title}}
 
 **状态**: {{status}}
 
@@ -246,11 +284,7 @@ created: {{created}}
 
 ## 背景
 
-描述需要做出决策的背景和问题。
-
 ## 决策内容
-
-描述我们决定采用的方案。
 
 ## 后果
 
@@ -267,15 +301,20 @@ created: {{created}}
 ### 方案 2
 
 ## 相关决策
-
-- 
 ```
 
-状态值: 提议 / 已接受 / 已废弃
+---
 
-## 问题解决模板 (problem-solving)
+## Problem Solving
 
-```markdown
+Path: `3-Resources/Tech/Problem-Solving/{title}.md`
+
+Variables:
+- `title`: Problem description
+- `tech_tag`: Related tech tag
+- `created`: YYYY-MM-DD
+
+````markdown
 ---
 title: {{title}}
 type: problem-solving
@@ -297,20 +336,30 @@ created: {{created}}
 
 ## 错误信息
 
-​```
+```
 {{error_message}}
-​```
+```
 
 ## 解决方案
 
 ## 根本原因
 
 ## 相关资源
+````
 
-- 
-```
+---
 
-## 周回顾模板 (weekly-review)
+## Weekly Review
+
+Path: `0-Daily/YYYY/Week-WW.md`
+
+Variables:
+- `title`: e.g., "2025-W11 周回顾"
+- `week`: ISO week number (01-53)
+- `year`: Year
+- `date_range`: e.g., "2025-03-10 ~ 2025-03-16"
+- `daily_notes_links`: Auto-generated wikilink list for each day
+- `created`: YYYY-MM-DD
 
 ```markdown
 ---
@@ -358,14 +407,18 @@ created: {{created}}
 ### 个人计划
 ```
 
-变量说明:
-- `title`: 如 "2025-W11 周回顾"
-- `week`: ISO 周数 (01-53)
-- `year`: 年份
-- `date_range`: 如 "2025-03-10 ~ 2025-03-16"
-- `daily_notes_links`: 自动生成的日常笔记 wikilink 列表
+---
 
-## 月回顾模板 (monthly-review)
+## Monthly Review
+
+Path: `0-Daily/YYYY/YYYY-MM-Review.md`
+
+Variables:
+- `title`: e.g., "2025-03 月回顾"
+- `month`: Month (01-12)
+- `year`: Year
+- `weekly_reviews_links`: Auto-generated wikilink list
+- `created`: YYYY-MM-DD
 
 ```markdown
 ---
@@ -409,8 +462,3 @@ created: {{created}}
 - 创建笔记数: 
 - 学习时长: 
 ```
-
-变量说明:
-- `title`: 如 "2025-03 月回顾"
-- `month`: 月份 (01-12)
-- `weekly_reviews_links`: 自动生成的周回顾 wikilink 列表
