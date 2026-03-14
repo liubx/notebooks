@@ -1,0 +1,312 @@
+{
+  "nodes": [
+    {
+      "id": "1a2b3c4d5e6f7890",
+      "type": "text",
+      "x": 500,
+      "y": 300,
+      "width": 300,
+      "height": 100,
+      "text": "# 全栈开发\n\n学习路线图",
+      "color": "5"
+    },
+    {
+      "id": "2b3c4d5e6f789012",
+      "type": "text",
+      "x": 100,
+      "y": 100,
+      "width": 250,
+      "height": 150,
+      "text": "## 前端基础\n\n- HTML5\n- CSS3\n- JavaScript ES6+\n- 响应式设计",
+      "color": "3"
+    },
+    {
+      "id": "3c4d5e6f78901234",
+      "type": "text",
+      "x": 100,
+      "y": 300,
+      "width": 250,
+      "height": 150,
+      "text": "## 前端框架\n\n- React\n- Vue.js\n- TypeScript\n- 状态管理",
+      "color": "3"
+    },
+    {
+      "id": "4d5e6f7890123456",
+      "type": "text",
+      "x": 100,
+      "y": 500,
+      "width": 250,
+      "height": 130,
+      "text": "## 构建工具\n\n- Webpack\n- Vite\n- npm/yarn\n- Git",
+      "color": "3"
+    },
+    {
+      "id": "5e6f789012345678",
+      "type": "text",
+      "x": 950,
+      "y": 100,
+      "width": 250,
+      "height": 150,
+      "text": "## 后端基础\n\n- Node.js\n- Express\n- RESTful API\n- 认证授权",
+      "color": "4"
+    },
+    {
+      "id": "6f78901234567890",
+      "type": "text",
+      "x": 950,
+      "y": 300,
+      "width": 250,
+      "height": 150,
+      "text": "## 数据库\n\n- SQL (PostgreSQL)\n- NoSQL (MongoDB)\n- Redis\n- ORM/ODM",
+      "color": "4"
+    },
+    {
+      "id": "789012345678901a",
+      "type": "text",
+      "x": 950,
+      "y": 500,
+      "width": 250,
+      "height": 130,
+      "text": "## 后端进阶\n\n- 微服务\n- GraphQL\n- WebSocket\n- 消息队列",
+      "color": "4"
+    },
+    {
+      "id": "8901234567890abc",
+      "type": "text",
+      "x": 450,
+      "y": 50,
+      "width": 400,
+      "height": 120,
+      "text": "## 开发基础\n\n- 算法与数据结构\n- 设计模式\n- 代码规范\n- 版本控制",
+      "color": "6"
+    },
+    {
+      "id": "901234567890abcd",
+      "type": "text",
+      "x": 450,
+      "y": 550,
+      "width": 400,
+      "height": 140,
+      "text": "## DevOps\n\n- Docker\n- CI/CD\n- 云服务 (AWS/Azure)\n- 监控与日志\n- Kubernetes",
+      "color": "2"
+    },
+    {
+      "id": "01234567890abcde",
+      "type": "text",
+      "x": 1300,
+      "y": 200,
+      "width": 220,
+      "height": 120,
+      "text": "### 测试\n\n- 单元测试\n- 集成测试\n- E2E 测试\n- Jest/Vitest",
+      "color": "1"
+    },
+    {
+      "id": "1234567890abcdef",
+      "type": "text",
+      "x": 1300,
+      "y": 360,
+      "width": 220,
+      "height": 100,
+      "text": "### 性能优化\n\n- 代码优化\n- 缓存策略\n- CDN\n- 负载均衡",
+      "color": "1"
+    },
+    {
+      "id": "234567890abcdef0",
+      "type": "text",
+      "x": -200,
+      "y": 200,
+      "width": 200,
+      "height": 100,
+      "text": "### CSS 框架\n\n- Tailwind\n- Bootstrap\n- Sass/Less",
+      "color": "6"
+    },
+    {
+      "id": "34567890abcdef01",
+      "type": "text",
+      "x": -200,
+      "y": 340,
+      "width": 200,
+      "height": 100,
+      "text": "### 组件库\n\n- Ant Design\n- Material-UI\n- Shadcn/ui",
+      "color": "6"
+    },
+    {
+      "id": "4567890abcdef012",
+      "type": "link",
+      "x": 500,
+      "y": 750,
+      "width": 300,
+      "height": 80,
+      "url": "https://roadmap.sh/full-stack"
+    },
+    {
+      "id": "567890abcdef0123",
+      "type": "group",
+      "x": 50,
+      "y": 50,
+      "width": 350,
+      "height": 620,
+      "label": "前端技术栈",
+      "color": "3"
+    },
+    {
+      "id": "67890abcdef01234",
+      "type": "group",
+      "x": 900,
+      "y": 50,
+      "width": 350,
+      "height": 620,
+      "label": "后端技术栈",
+      "color": "4"
+    }
+  ],
+  "edges": [
+    {
+      "id": "7890abcdef012345",
+      "fromNode": "2b3c4d5e6f789012",
+      "fromSide": "right",
+      "toNode": "1a2b3c4d5e6f7890",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "890abcdef0123456",
+      "fromNode": "3c4d5e6f78901234",
+      "fromSide": "right",
+      "toNode": "1a2b3c4d5e6f7890",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "90abcdef01234567",
+      "fromNode": "4d5e6f7890123456",
+      "fromSide": "right",
+      "toNode": "1a2b3c4d5e6f7890",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "0abcdef012345678",
+      "fromNode": "1a2b3c4d5e6f7890",
+      "fromSide": "right",
+      "toNode": "5e6f789012345678",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "abcdef0123456789",
+      "fromNode": "1a2b3c4d5e6f7890",
+      "fromSide": "right",
+      "toNode": "6f78901234567890",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "bcdef0123456789a",
+      "fromNode": "1a2b3c4d5e6f7890",
+      "fromSide": "right",
+      "toNode": "789012345678901a",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "cdef0123456789ab",
+      "fromNode": "8901234567890abc",
+      "fromSide": "bottom",
+      "toNode": "1a2b3c4d5e6f7890",
+      "toSide": "top",
+      "label": "基础知识",
+      "color": "6"
+    },
+    {
+      "id": "def0123456789abc",
+      "fromNode": "1a2b3c4d5e6f7890",
+      "fromSide": "bottom",
+      "toNode": "901234567890abcd",
+      "toSide": "top",
+      "label": "部署运维",
+      "color": "2"
+    },
+    {
+      "id": "ef0123456789abcd",
+      "fromNode": "6f78901234567890",
+      "fromSide": "right",
+      "toNode": "01234567890abcde",
+      "toSide": "left",
+      "fromEnd": "none",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "f0123456789abcde",
+      "fromNode": "789012345678901a",
+      "fromSide": "right",
+      "toNode": "1234567890abcdef",
+      "toSide": "left",
+      "fromEnd": "none",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "0123456789abcdef",
+      "fromNode": "234567890abcdef0",
+      "fromSide": "right",
+      "toNode": "2b3c4d5e6f789012",
+      "toSide": "left",
+      "fromEnd": "none",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "123456789abcdef0",
+      "fromNode": "34567890abcdef01",
+      "fromSide": "right",
+      "toNode": "3c4d5e6f78901234",
+      "toSide": "left",
+      "fromEnd": "none",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "23456789abcdef01",
+      "fromNode": "2b3c4d5e6f789012",
+      "fromSide": "bottom",
+      "toNode": "3c4d5e6f78901234",
+      "toSide": "top",
+      "label": "进阶",
+      "color": "3"
+    },
+    {
+      "id": "3456789abcdef012",
+      "fromNode": "3c4d5e6f78901234",
+      "fromSide": "bottom",
+      "toNode": "4d5e6f7890123456",
+      "toSide": "top",
+      "label": "工具链",
+      "color": "3"
+    },
+    {
+      "id": "456789abcdef0123",
+      "fromNode": "5e6f789012345678",
+      "fromSide": "bottom",
+      "toNode": "6f78901234567890",
+      "toSide": "top",
+      "label": "数据层",
+      "color": "4"
+    },
+    {
+      "id": "56789abcdef01234",
+      "fromNode": "6f78901234567890",
+      "fromSide": "bottom",
+      "toNode": "789012345678901a",
+      "toSide": "top",
+      "label": "进阶",
+      "color": "4"
+    },
+    {
+      "id": "6789abcdef012345",
+      "fromNode": "901234567890abcd",
+      "fromSide": "bottom",
+      "toNode": "4567890abcdef012",
+      "toSide": "top",
+      "label": "参考资源",
+      "color": "2"
+    }
+  ]
+}

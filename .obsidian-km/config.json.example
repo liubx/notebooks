@@ -1,0 +1,15 @@
+{
+  "vault_path": "/path/to/your/vault",
+  "templates_path": "Templates",
+  "daily_notes_path": "0-Daily",
+  "projects_path": "1-Projects",
+  "areas_path": "2-Areas",
+  "resources_path": "3-Resources",
+  "archives_path": "4-Archives",
+  "attachments_path": "Attachments",
+  "task_center_path": "任务中心.md",
+  "feishu_sync_center_path": "飞书同步中心.md",
+  "auto_sync_interval": 300,
+  "date_format": "YYYY-MM-DD",
+  "time_format": "HH:mm:ss"
+}
