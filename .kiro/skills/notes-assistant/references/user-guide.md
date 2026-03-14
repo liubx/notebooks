@@ -1,31 +1,20 @@
 # Notes Assistant 操作手册
 
-基于 Kiro Skill + PARA + Zettelkasten 的 Obsidian 知识管理系统。无需安装任何依赖，AI 直接操作 Vault 文件。
+基于 PARA + Zettelkasten 的 Obsidian 知识管理系统。通过 AI 对话驱动，无需安装任何依赖，AI 直接操作 Vault 文件。
 
 ## 工作原理
 
 ```
-用户对话 → AI 自动激活 notes-assistant skill → AI 直接读写 Vault 文件
-                                              → AI 调用 lark-mcp 同步飞书
+用户对话 → AI 读取 notes-assistant 规则 → AI 直接读写 Vault 文件
+                                        → AI 调用 lark-mcp 同步飞书
 ```
 
-所有业务逻辑以 Skill 形式存储在 `.kiro/skills/notes-assistant/` 下。当你提到笔记、记录、任务、项目等关键词时，skill 自动激活，无需手动引用。
+当你提到笔记、记录、任务、项目等关键词时，AI 自动按照 notes-assistant 规则执行操作。
 
-## 文件结构
+## Vault 结构
 
 ```
 Vault/
-├── .kiro/
-│   ├── skills/
-│   │   └── notes-assistant/
-│   │       ├── SKILL.md                   # 核心工作流（结构、意图识别、任务、标签）
-│   │       └── references/
-│   │           ├── templates.md           # 9 种笔记模板
-│   │           ├── sync-rules.md          # 飞书同步决策逻辑
-│   │           ├── improvements.md        # 用户偏好记录
-│   │           └── user-guide.md          # 本文件
-│   └── settings/
-│       └── mcp.json                       # lark-mcp 连接配置
 ├── 0-Daily/                               # 日常笔记 (YYYY/MM/YYYY-MM-DD.md)
 ├── 1-Projects/                            # 项目 (Work/ + Personal/)
 ├── 2-Areas/                               # 领域 (Work/ + Life/)
@@ -47,7 +36,7 @@ Vault/
 
 ### 2. 开始使用
 
-直接用自然语言告诉 AI 你想做什么，skill 会自动激活。
+直接用自然语言告诉 AI 你想做什么。
 
 ## 功能说明
 
@@ -128,7 +117,7 @@ AI 会自动判断内容是否需要同步：
 
 ## 配置飞书同步
 
-编辑 `.kiro/settings/mcp.json`，填入飞书应用凭证并启用：
+在你的 AI 工具中配置 lark-mcp，填入飞书应用凭证：
 
 ```json
 {
@@ -165,9 +154,14 @@ AI 会自动判断内容是否需要同步：
 | weekly-review | 周回顾（工作/生活总结、下周计划） |
 | monthly-review | 月回顾（目标达成、数据统计） |
 
-## 自定义与扩展
+## Skill 文件说明
 
-- 修改 `SKILL.md` 可调整文件夹结构、意图识别、分类规则
-- 修改 `references/sync-rules.md` 可调整同步判断逻辑和关键词
-- 修改 `references/templates.md` 可调整模板内容
-- `references/improvements.md` 会随使用逐步积累你的偏好
+| 文件 | 用途 |
+|------|------|
+| `SKILL.md` | 核心工作流：Vault 结构、意图识别、任务分类、标签系统 |
+| `references/templates.md` | 9 种笔记模板定义 |
+| `references/sync-rules.md` | 飞书同步决策逻辑和关键词 |
+| `references/improvements.md` | 用户偏好记录（随使用逐步积累） |
+| `references/user-guide.md` | 本操作手册 |
+
+所有文件均可根据个人需求自行修改。
