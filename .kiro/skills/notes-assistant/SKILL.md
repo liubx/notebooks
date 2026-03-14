@@ -112,7 +112,10 @@ Emoji meanings:
 - `✅` done date (auto-added on completion)
 - `^task-id` block ID for embedding individual tasks
 
-### Task Storage
+### Task Date Rules
+- When user starts working on a task, add `🛫` start date
+- When user completes a task, if no `🛫` start date exists, set it to the same date as `✅` done date
+- This ensures every completed task has a start date, making daily note queries accurate for historical review
 - Tasks live in `1-任务.md` inside each project folder (single source of truth)
 - Other notes in the project can embed tasks using block references: `![[1-任务#^task-id]]`
 - The project `0-总览.md` embeds the full task list: `![[1-任务]]`
@@ -129,7 +132,6 @@ Daily notes use a single Tasks plugin query block in the `📋 任务` section. 
 Daily note sections use emoji headers: `📋 任务`, `💼 工作`, `📖 学习`, `🏠 生活`.
 
 The query block rules:
-- `not done` — only show incomplete tasks
 - Filter: tasks due before tomorrow, scheduled today, or created today
 - Hide: created date, tags, backlink, edit button
 - Group level 1 by `#task/work` → "💼 工作", `#task/personal` → "🏠 个人", else → "📌 其他"
@@ -140,12 +142,14 @@ Wikilinks in daily notes should use full paths with display aliases, e.g. `[[1-P
 ```markdown
 ## 📋 任务
 \`\`\`tasks
-not done
-(due before {{date_plus_1}}) OR (scheduled on {{date}}) OR (created on {{date}})
+((due before {{date_plus_1}}) OR (scheduled on {{date}}) OR (created on {{date}}) OR (starts on {{date}})) AND ((not done) OR (done on {{date}}) OR (starts on {{date}}))
+hide toolbar
 hide created date
+hide start date
 hide tags
 hide backlink
 hide edit button
+hide task count
 group by function task.tags.includes("#task/work") ? "💼 工作" : task.tags.includes("#task/personal") ? "🏠 个人" : "📌 其他"
 group by function task.tags.find(t => t.startsWith("#project/")) ? "项目：" + task.tags.find(t => t.startsWith("#project/")).replace("#project/", "") + " [[1-Projects/" + (task.tags.includes("#task/work") ? "Work" : "Personal") + "/" + task.tags.find(t => t.startsWith("#project/")).replace("#project/", "") + "/1-任务|📋]]" : "临时"
 \`\`\`

@@ -38,12 +38,14 @@ next: "[[{{next_date}}]]"
 
 ## 📋 任务
 \`\`\`tasks
-not done
-(due before {{date_plus_1}}) OR (scheduled on {{date}}) OR (created on {{date}})
+((due before {{date_plus_1}}) OR (scheduled on {{date}}) OR (created on {{date}}) OR (starts on {{date}})) AND ((not done) OR (done on {{date}}) OR (starts on {{date}}))
+hide toolbar
 hide created date
+hide start date
 hide tags
 hide backlink
 hide edit button
+hide task count
 group by function task.tags.includes("#task/work") ? "💼 工作" : task.tags.includes("#task/personal") ? "🏠 个人" : "📌 其他"
 group by function task.tags.find(t => t.startsWith("#project/")) ? "项目：" + task.tags.find(t => t.startsWith("#project/")).replace("#project/", "") + " [[1-Projects/" + (task.tags.includes("#task/work") ? "Work" : "Personal") + "/" + task.tags.find(t => t.startsWith("#project/")).replace("#project/", "") + "/1-任务|📋]]" : "临时"
 \`\`\`
