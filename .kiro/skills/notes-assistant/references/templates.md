@@ -36,20 +36,19 @@ next: "[[{{next_date}}]]"
 
 # {{date}} {{day_of_week}}
 
-## 工作板块
-
-### 今日新增任务
+## 📋 任务
 \`\`\`tasks
 not done
-created today
+(due before {{date_plus_1}}) OR (scheduled on {{date}}) OR (created on {{date}})
+hide created date
+hide tags
+hide backlink
+hide edit button
+group by function task.tags.includes("#task/work") ? "💼 工作" : task.tags.includes("#task/personal") ? "🏠 个人" : "📌 其他"
+group by function task.tags.find(t => t.startsWith("#project/")) ? "项目：" + task.tags.find(t => t.startsWith("#project/")).replace("#project/", "") + " [[1-Projects/" + (task.tags.includes("#task/work") ? "Work" : "Personal") + "/" + task.tags.find(t => t.startsWith("#project/")).replace("#project/", "") + "/1-任务|📋]]" : "临时"
 \`\`\`
 
-### 即将到期任务
-\`\`\`tasks
-not done
-due after yesterday
-due before in 3 days
-\`\`\`
+## 💼 工作
 
 ### 会议记录
 
@@ -57,7 +56,7 @@ due before in 3 days
 
 ### 问题记录
 
-## 学习板块
+## 📖 学习
 
 ### 学习内容
 
@@ -65,7 +64,7 @@ due before in 3 days
 
 ### 阅读记录
 
-## 生活板块
+## 🏠 生活
 
 ### 个人事项
 

@@ -116,22 +116,38 @@ Emoji meanings:
 - Tasks live in `1-任务.md` inside each project folder (single source of truth)
 - Other notes in the project can embed tasks using block references: `![[1-任务#^task-id]]`
 - The project `0-总览.md` embeds the full task list: `![[1-任务]]`
+- When referencing project task lists from outside the project folder (e.g. daily notes), use full paths with display aliases: `[[1-Projects/Work/麦钉项目/1-任务|麦钉项目任务清单]]`
+
+### Task Types & Where to Put Them
+1. **Project tasks** → `1-任务.md` in the project folder. Has a clear end goal.
+2. **Area tasks** → In the corresponding Area note. Ongoing responsibilities, no end date.
+3. **Temporary tasks** → In the daily note's relevant section (e.g. 🏠 生活 > 个人事项). Small, same-day or near-term tasks. Tag with `#task/personal` or `#task/work`, default due date is today.
 
 ### Daily Note Task Display
-Daily notes use Tasks plugin query blocks instead of manually written tasks:
+Daily notes use a single Tasks plugin query block in the `📋 任务` section. Temporary tasks (buy something, reply an email) go in the relevant daily note section (e.g. 🏠 生活 > 个人事项), with default due date set to the current day and `#task/personal` tag.
+
+Daily note sections use emoji headers: `📋 任务`, `💼 工作`, `📖 学习`, `🏠 生活`.
+
+The query block rules:
+- `not done` — only show incomplete tasks
+- Filter: tasks due before tomorrow, scheduled today, or created today
+- Hide: created date, tags, backlink, edit button
+- Group level 1 by `#task/work` → "💼 工作", `#task/personal` → "🏠 个人", else → "📌 其他"
+- Group level 2 by `#project/` tag → "项目：{name} 📋" (with wikilink to project's 1-任务.md), else → "临时"
+
+Wikilinks in daily notes should use full paths with display aliases, e.g. `[[1-Projects/Work/麦钉项目/1-任务|麦钉项目任务清单]]`.
 
 ```markdown
-### 今日新增任务
+## 📋 任务
 \`\`\`tasks
 not done
-created today
-\`\`\`
-
-### 即将到期任务
-\`\`\`tasks
-not done
-due after yesterday
-due before in 3 days
+(due before {{date_plus_1}}) OR (scheduled on {{date}}) OR (created on {{date}})
+hide created date
+hide tags
+hide backlink
+hide edit button
+group by function task.tags.includes("#task/work") ? "💼 工作" : task.tags.includes("#task/personal") ? "🏠 个人" : "📌 其他"
+group by function task.tags.find(t => t.startsWith("#project/")) ? "项目：" + task.tags.find(t => t.startsWith("#project/")).replace("#project/", "") + " [[1-Projects/" + (task.tags.includes("#task/work") ? "Work" : "Personal") + "/" + task.tags.find(t => t.startsWith("#project/")).replace("#project/", "") + "/1-任务|📋]]" : "临时"
 \`\`\`
 ```
 
