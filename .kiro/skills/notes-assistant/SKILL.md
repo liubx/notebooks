@@ -25,7 +25,15 @@ Vault/
 │   └── Monthly-Reviews/  # or YYYY/YYYY-MM-Review.md
 ├── 1-Projects/           # Active projects
 │   ├── Work/             # Work projects
-│   └── Personal/         # Personal projects (买房, 装修, etc.)
+│   │   └── {项目名}/
+│   │       ├── 0-总览.md     # Project overview (index page)
+│   │       ├── 1-任务.md     # Task list (single source of truth)
+│   │       └── *.md          # Meeting notes, design docs, etc.
+│   └── Personal/         # Personal projects
+│       └── {项目名}/
+│           ├── 0-总览.md
+│           ├── 1-任务.md
+│           └── *.md
 ├── 2-Areas/              # Ongoing responsibilities
 │   ├── Work/             # Tech management, team collaboration
 │   └── Life/             # Health, finance, family
@@ -69,8 +77,8 @@ For each note type, determine the path and apply the corresponding template from
 | Type | Path Pattern |
 |------|-------------|
 | Daily note | `0-Daily/YYYY/MM/YYYY-MM-DD.md` |
-| Project (work) | `1-Projects/Work/{name}/README.md` |
-| Project (personal) | `1-Projects/Personal/{name}/README.md` |
+| Project (work) | `1-Projects/Work/{name}/0-总览.md` + `1-Projects/Work/{name}/1-任务.md` |
+| Project (personal) | `1-Projects/Personal/{name}/0-总览.md` + `1-Projects/Personal/{name}/1-任务.md` |
 | Meeting | `0-Daily/YYYY/MM/YYYY-MM-DD-{title}.md` |
 | Knowledge card | `3-Resources/Tech/Knowledge-Cards/{title}.md` |
 | Code snippet | `3-Resources/Tech/Code-Snippets/{title}.md` |
@@ -88,10 +96,43 @@ For each note type, determine the path and apply the corresponding template from
 
 ## Task Management
 
+Tasks are managed using the Obsidian Tasks plugin. Each project has a dedicated `1-任务.md` as the single source of truth for all tasks.
+
 ### Task Syntax
 ```markdown
-- [ ] Task content 📅 2025-03-20 @assignee #task/work #重要
-- [x] Completed task
+- [ ] Task content 📅 2026-03-20 ➕ 2026-03-14 #task/work #project/项目名 ^task-id
+- [x] Completed task ✅ 2026-03-14
+```
+
+Emoji meanings:
+- `📅` due date
+- `➕` created date
+- `⏳` scheduled date
+- `🛫` start date
+- `✅` done date (auto-added on completion)
+- `^task-id` block ID for embedding individual tasks
+
+### Task Storage
+- Tasks live in `1-任务.md` inside each project folder (single source of truth)
+- Other notes in the project can embed tasks using block references: `![[1-任务#^task-id]]`
+- The project `0-总览.md` embeds the full task list: `![[1-任务]]`
+
+### Daily Note Task Display
+Daily notes use Tasks plugin query blocks instead of manually written tasks:
+
+```markdown
+### 今日新增任务
+\`\`\`tasks
+not done
+created today
+\`\`\`
+
+### 即将到期任务
+\`\`\`tasks
+not done
+due after yesterday
+due before in 3 days
+\`\`\`
 ```
 
 ### Task Classification Priority
@@ -134,7 +175,7 @@ Suggest extracting valuable knowledge points into cards. Add backlinks between s
 
 When archiving a project:
 1. Move folder from `1-Projects/{Work|Personal}/{name}` to `4-Archives/YYYY/{name}`
-2. Add `archived_date: YYYY-MM-DD` to README.md front matter
+2. Add `archived_date: YYYY-MM-DD` to `0-总览.md` front matter
 3. Preserve all content, links, and tags unchanged
 
 ## Feishu Sync

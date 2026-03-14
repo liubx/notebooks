@@ -38,8 +38,18 @@ next: "[[{{next_date}}]]"
 
 ## 工作板块
 
-### 今日任务
-- [ ] 
+### 今日新增任务
+\`\`\`tasks
+not done
+created today
+\`\`\`
+
+### 即将到期任务
+\`\`\`tasks
+not done
+due after yesterday
+due before in 3 days
+\`\`\`
 
 ### 会议记录
 
@@ -68,7 +78,11 @@ next: "[[{{next_date}}]]"
 
 ## Project
 
-Path: `1-Projects/{Work|Personal}/{project_name}/README.md`
+A project consists of two core files in a folder: `0-总览.md` (overview/index) and `1-任务.md` (task list). Other notes (meetings, designs, etc.) go in the same folder. No `#` level-1 header in files — Obsidian uses the filename as title.
+
+### Project Overview
+
+Path: `1-Projects/{Work|Personal}/{project_name}/0-总览.md`
 
 Variables:
 - `title`: Project title
@@ -91,9 +105,7 @@ created: {{created}}
 modified: {{modified}}
 ---
 
-# {{title}}
-
-## 项目概述
+# 项目概述
 
 **项目目标**: 
 
@@ -103,26 +115,46 @@ modified: {{modified}}
 - 开始日期: {{start_date}}
 - 截止日期: {{due_date}}
 
-## 里程碑
+# 任务总览
 
-- [ ] 里程碑 1
-- [ ] 里程碑 2
+![[1-任务]]
 
-## 任务列表
+# 相关笔记
 
-### 待办任务
-- [ ] 
+# 项目日志
 
-### 进行中
-
-### 已完成
-
-## 相关资源
-
-## 项目日志
-
-### {{created}}
+## {{created}}
 - 项目创建
+```
+
+### Project Task List
+
+Path: `1-Projects/{Work|Personal}/{project_name}/1-任务.md`
+
+Variables:
+- `title`: Project title
+- `project_name`: For tags
+- `created` / `modified`: YYYY-MM-DD
+
+Tasks should include: due date (📅), created date (➕), tags (#task/work or #task/personal, #project/名称), and a block ID (^task-id) for embedding.
+
+```markdown
+---
+title: {{title}}-任务
+type: task-list
+tags:
+  - project/{{project_name}}
+created: {{created}}
+modified: {{modified}}
+---
+
+# {{section_name}}
+- [ ] {{task_content}} 📅 {{due_date}} ➕ {{created}} #task/{{category}} #project/{{project_name}} ^{{task_id}}
+```
+
+Other notes in the project can embed individual tasks:
+```markdown
+![[1-任务#^task-id]]
 ```
 
 ---
