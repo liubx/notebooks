@@ -169,3 +169,4 @@ Read these when you need detailed information:
 - **`references/templates.md`** — Full templates for all 9 note types. Read when creating any note.
 - **`references/sync-rules.md`** — Feishu sync decision logic, tag conventions, conflict handling, MCP usage. Read when handling sync-related requests.
 - **`references/improvements.md`** — User preferences and improvement history. Read at the start of each conversation and when the user provides feedback about your behavior.
+- **`references/user-guide.md`** — User-facing operation manual with examples. Read when the user asks how to use the system.
