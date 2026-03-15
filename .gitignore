@@ -5,16 +5,7 @@
 *.swo
 *~
 
-
 # OS
 .DS_Store
 Thumbs.db
 
-# Apple Notes archive (large, not needed in git)
-Notes/
-4-Archives/Apple-Notes/
-Apple Notes/
-Apple Notes Archive/
-
-# Large binary files
-*.apk
