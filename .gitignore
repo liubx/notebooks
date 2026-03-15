@@ -9,3 +9,19 @@
 .DS_Store
 Thumbs.db
 
+# Obsidian - 频繁变动的状态文件
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
+
+# Apple Notes 导入相关（大量历史数据）
+Notes/
+Apple Notes/
+Apple Notes Archive/
+4-Archives/Apple-Notes/
+
+# 大二进制文件
+*.apk
+*.ipa
+*.zip
+*.tar.gz
