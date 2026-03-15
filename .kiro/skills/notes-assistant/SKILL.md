@@ -39,10 +39,10 @@ Vault/
 │   └── Life/             # Health, finance, family
 ├── 3-Resources/          # Reference knowledge
 │   └── Tech/
-│       ├── Knowledge-Cards/
-│       ├── Code-Snippets/
-│       ├── ADR/
-│       └── Problem-Solving/
+│       ├── 知识卡片/
+│       ├── 代码片段/
+│       ├── 技术决策/
+│       └── 问题解决/
 ├── 4-Archives/           # Completed projects (by year)
 ├── Attachments/          # Images, PDFs, etc.
 └── Templates/            # Note templates
@@ -59,7 +59,7 @@ When the user sends a message, identify the intent from keywords and context:
 | Meeting | 会议、开会、讨论、meeting | Create meeting note |
 | Knowledge card | 知识卡片、知识点、概念、原理 | Create knowledge card |
 | Code snippet | 代码、snippet、代码片段 | Create code snippet |
-| Tech decision | 技术决策、ADR、架构决策 | Create ADR |
+| Tech decision | 技术决策、架构决策 | Create tech decision record |
 | Problem solving | 问题、解决、bug、错误 | Create problem-solving record |
 | Task | 添加任务、待办、todo、任务 | Create/update/query tasks |
 | Feishu sync | 同步、飞书、feishu | Trigger sync (see references/sync-rules.md) |
@@ -80,10 +80,10 @@ For each note type, determine the path and apply the corresponding template from
 | Project (work) | `1-Projects/Work/{name}/0-总览.md` + `1-Projects/Work/{name}/1-任务.md` |
 | Project (personal) | `1-Projects/Personal/{name}/0-总览.md` + `1-Projects/Personal/{name}/1-任务.md` |
 | Meeting | `0-Daily/YYYY/MM/YYYY-MM-DD-{title}.md` |
-| Knowledge card | `3-Resources/Tech/Knowledge-Cards/{title}.md` |
-| Code snippet | `3-Resources/Tech/Code-Snippets/{title}.md` |
-| ADR | `3-Resources/Tech/ADR/ADR-{NNNN}-{title}.md` |
-| Problem solving | `3-Resources/Tech/Problem-Solving/{title}.md` |
+| 知识卡片 | `3-Resources/Tech/知识卡片/{title}.md` |
+| 代码片段 | `3-Resources/Tech/代码片段/{title}.md` |
+| 技术决策 | `3-Resources/Tech/技术决策/{NNNN}-{title}.md` |
+| 问题解决 | `3-Resources/Tech/问题解决/{title}.md` |
 | Weekly review | `0-Daily/YYYY/Week-WW.md` |
 | Monthly review | `0-Daily/YYYY/YYYY-MM-Review.md` |
 

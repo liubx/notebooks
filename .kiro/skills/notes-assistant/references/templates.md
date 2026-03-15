@@ -8,7 +8,7 @@ All templates for the notes-assistant skill. Replace `{{variable}}` with actual 
 3. [Meeting](#meeting)
 4. [Knowledge Card](#knowledge-card)
 5. [Code Snippet](#code-snippet)
-6. [Tech Decision Record (ADR)](#tech-decision-record)
+6. [Tech Decision Record](#tech-decision-record)
 7. [Problem Solving](#problem-solving)
 8. [Weekly Review](#weekly-review)
 9. [Monthly Review](#monthly-review)
@@ -211,7 +211,7 @@ created: {{created}}
 
 ## Knowledge Card
 
-Path: `3-Resources/Tech/Knowledge-Cards/{title}.md`
+Path: `3-Resources/Tech/知识卡片/{title}.md`
 
 Variables:
 - `title`: Descriptive title (e.g., "React Hooks 闭包陷阱")
@@ -248,7 +248,7 @@ related:
 
 ## Code Snippet
 
-Path: `3-Resources/Tech/Code-Snippets/{title}.md`
+Path: `3-Resources/Tech/代码片段/{title}.md`
 
 Variables:
 - `title`: Descriptive title
@@ -288,7 +288,7 @@ created: {{created}}
 
 ## Tech Decision Record
 
-Path: `3-Resources/Tech/ADR/ADR-{NNNN}-{title}.md`
+Path: `3-Resources/Tech/技术决策/{NNNN}-{title}.md`
 
 Variables:
 - `title`: Decision title
@@ -309,7 +309,7 @@ tags:
 created: {{created}}
 ---
 
-# ADR-{{number}}: {{title}}
+# {{number}}-{{title}}
 
 **状态**: {{status}}
 
@@ -340,7 +340,7 @@ created: {{created}}
 
 ## Problem Solving
 
-Path: `3-Resources/Tech/Problem-Solving/{title}.md`
+Path: `3-Resources/Tech/问题解决/{title}.md`
 
 Variables:
 - `title`: Problem description

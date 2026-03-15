@@ -24,7 +24,7 @@ Auto-classify as work content — sync without asking:
 1. Contains `#task/work` tag
 2. Contains work project tag `#project/xxx` (excluding personal project keywords)
 3. Contains work area tag `#area/xxx` (excluding life area keywords)
-4. Contains tech decision keywords: 技术决策, ADR, 架构决策, 决策记录
+4. Contains tech decision keywords: 技术决策, 架构决策, 决策记录
 5. Contains ≥2 work keywords (see list below)
 
 ### Work Keywords
