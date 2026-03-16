@@ -38,11 +38,27 @@ next: "[[{{next_date}}]]"
 
 ## 📋 任务
 \`\`\`tasks
-((due before {{date_plus_1}}) OR (scheduled on {{date}}) OR (created on {{date}}) OR (starts on {{date}})) AND ((not done) OR (done on {{date}}) OR (starts on {{date}}))
+filter by function \
+  const today = '{{date}}'; \
+  const yesterday = '{{date_minus_1}}'; \
+  const tomorrow = '{{date_plus_1}}'; \
+  const due = task.due?.format('YYYY-MM-DD'); \
+  const done = task.done?.format('YYYY-MM-DD'); \
+  const created = task.created?.format('YYYY-MM-DD'); \
+  const start = task.start?.format('YYYY-MM-DD'); \
+  const isDone = task.isDone; \
+  if (!isDone && due && due < tomorrow) return true; \
+  if (!isDone && !due) return true; \
+  if (done === today || done === yesterday) return true; \
+  if (created === today) return true; \
+  if (start === today) return true; \
+  return false;
 path does not include 4-Archives
+tags include #task/
 hide toolbar
 hide created date
 hide start date
+hide done date
 hide tags
 hide backlink
 hide edit button
@@ -138,7 +154,7 @@ Variables:
 - `project_name`: For tags
 - `created` / `modified`: YYYY-MM-DD
 
-Tasks should include: due date (📅), created date (➕), tags (#task/work or #task/personal, #project/名称), and a block ID (^task-id) for embedding.
+Tasks should include: a ↗️ backlink wikilink, due date (📅), created date (➕), tags (#task/work or #task/personal, #project/名称), and a block ID (^task-id) for embedding.
 
 ```markdown
 ---
@@ -151,7 +167,7 @@ modified: {{modified}}
 ---
 
 # {{section_name}}
-- [ ] {{task_content}} 📅 {{due_date}} ➕ {{created}} #task/{{category}} #project/{{project_name}} ^{{task_id}}
+- [ ] {{task_content}} [[1-Projects/{{Work|Personal}}/{{project_name}}/1-任务|↗️]] 📅 {{due_date}} ➕ {{created}} #task/{{category}} #project/{{project_name}} ^{{task_id}}
 ```
 
 Other notes in the project can embed individual tasks:

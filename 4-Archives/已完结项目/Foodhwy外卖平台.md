@@ -3,7 +3,7 @@ title: Foodhwy外卖平台
 type: archived-project
 status: 已完结
 period: 2016-2019
-company: Foodhwy / 51.CA
+company: Foodhwy
 tags:
   - project/foodhwy
   - 已完结
@@ -31,6 +31,14 @@ modified: 2026-03-16
 - 正式站点：https://wechat.foodhwy.com / https://foodhwy.passquan.com/
 - 正式后台：https://wechat.foodhwy.com/admin/
 - 正式接口：https://wechat.foodhwy.com/api/
+
+# 本地开发环境
+
+hosts 配置：
+```
+# project.foodhwy.com
+127.0.0.1    foodhwy.com / foodhwy.net / phpmyadmin.foodhwy.com / phpredisadmin.foodhwy.com
+```
 
 # 角色权限体系
 

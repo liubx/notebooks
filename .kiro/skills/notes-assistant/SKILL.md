@@ -100,8 +100,8 @@ Tasks are managed using the Obsidian Tasks plugin. Each project has a dedicated 
 
 ### Task Syntax
 ```markdown
-- [ ] Task content 📅 2026-03-20 ➕ 2026-03-14 #task/work #project/项目名 ^task-id
-- [x] Completed task ✅ 2026-03-14
+- [ ] Task content [[1-Projects/Work/项目名/1-任务|↗️]] 📅 2026-03-20 ➕ 2026-03-14 #task/work #project/项目名 ^task-id
+- [x] Completed task [[1-Projects/Work/项目名/1-任务|↗️]] ✅ 2026-03-14
 ```
 
 Emoji meanings:
@@ -111,6 +111,14 @@ Emoji meanings:
 - `🛫` start date
 - `✅` done date (auto-added on completion)
 - `^task-id` block ID for embedding individual tasks
+- `[[path/to/1-任务|↗️]]` backlink to the task's source file (placed after task description, before emoji dates)
+
+### ↗️ Backlink Convention
+Every task (both completed and uncompleted) must include a `[[path/to/1-任务|↗️]]` wikilink placed after the task description text and before the emoji dates. This serves as a compact backlink to the task's source file, replacing the verbose built-in `backlink` display.
+
+Format: `- [ ] 任务描述 [[full/path/to/1-任务|↗️]] 🛫 ... 📅 ... ➕ ...`
+
+Important: Project names (folder names, tags, wikilink paths) must NEVER contain `.` — Obsidian interprets `.` as file extensions in wikilinks and as sub-tag separators in tags. Always replace `.` with `-` (e.g., `平台更新v2-7` not `平台更新v2.7`). The `title` field in frontmatter can keep the original name with `.` for display purposes.
 
 ### Task Date Rules
 - When user starts working on a task, add `🛫` start date
@@ -142,11 +150,27 @@ Wikilinks in daily notes should use full paths with display aliases, e.g. `[[1-P
 ```markdown
 ## 📋 任务
 \`\`\`tasks
-((due before {{date_plus_1}}) OR (scheduled on {{date}}) OR (created on {{date}}) OR (starts on {{date}})) AND ((not done) OR (done on {{date}}) OR (starts on {{date}}))
+filter by function \
+  const today = '{{date}}'; \
+  const yesterday = '{{date_minus_1}}'; \
+  const tomorrow = '{{date_plus_1}}'; \
+  const due = task.due?.format('YYYY-MM-DD'); \
+  const done = task.done?.format('YYYY-MM-DD'); \
+  const created = task.created?.format('YYYY-MM-DD'); \
+  const start = task.start?.format('YYYY-MM-DD'); \
+  const isDone = task.isDone; \
+  if (!isDone && due && due < tomorrow) return true; \
+  if (!isDone && !due) return true; \
+  if (done === today || done === yesterday) return true; \
+  if (created === today) return true; \
+  if (start === today) return true; \
+  return false;
 path does not include 4-Archives
+tags include #task/
 hide toolbar
 hide created date
 hide start date
+hide done date
 hide tags
 hide backlink
 hide edit button
