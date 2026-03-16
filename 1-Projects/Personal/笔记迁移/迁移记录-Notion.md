@@ -24,10 +24,10 @@ modified: 2026-03-16
 
 | 原始笔记 | 迁移到 |
 |----------|--------|
-| SQL相关语句 + MySQL | [[3-Resources/Tech/代码片段/SQL常用语句-Notion]] |
-| Linux相关指令 + 端口转发 + 监听捉包转发 + 挂载nfs | [[3-Resources/Tech/代码片段/Linux运维命令-Notion]] |
-| Kubectl相关指令 | [[3-Resources/Tech/代码片段/Kubectl常用命令-Notion]] |
-| Nginx配置 | [[3-Resources/Tech/代码片段/Nginx反向代理配置-Notion]] |
+| SQL相关语句 + MySQL | [[3-Resources/Tech/代码片段/SQL常用语句]] |
+| Linux相关指令 + 端口转发 + 监听捉包转发 + 挂载nfs | [[3-Resources/Tech/代码片段/Linux运维命令]] |
+| Kubectl相关指令 | [[3-Resources/Tech/代码片段/Kubectl常用命令]] |
+| Nginx配置 | [[3-Resources/Tech/代码片段/Nginx反向代理配置]] |
 | Git相关指令 | [[3-Resources/Tech/代码片段/Git子模块管理]] |
 | Helm Minio | [[3-Resources/Tech/代码片段/Helm-MinIO部署]] |
 
@@ -69,7 +69,7 @@ PostgreSQL 密码截图 + 系统密码 ncadmin/secret。
 |----------|--------|
 | OpenClash | [[3-Resources/Tech/代码片段/OpenClash代理配置]] |
 | 私有化部署方案 | [[3-Resources/Tech/代码片段/私有化部署方案]] |
-| 集群部署相关 | [[3-Resources/Tech/代码片段/K8S集群部署配置-Notion]] |
+| 集群部署相关 | [[3-Resources/Tech/代码片段/K8S集群部署配置]] |
 
 ## 合并到知识卡片（5 个）
 
@@ -85,9 +85,9 @@ PostgreSQL 密码截图 + 系统密码 ncadmin/secret。
 
 | 原始笔记 | 迁移到 |
 |----------|--------|
-| DEVICE数据库修正 | [[3-Resources/Tech/代码片段/SQL常用语句-Notion]]（设备类型初始化 SQL） |
-| 有高度的 geom | [[3-Resources/Tech/代码片段/SQL常用语句-Notion]]（PostGIS 3D 几何操作） |
-| 添加标签和基站类型 | [[3-Resources/Tech/代码片段/SQL常用语句-Notion]]（设备类型初始化 SQL） |
+| DEVICE数据库修正 | [[3-Resources/Tech/代码片段/SQL常用语句]]（设备类型初始化 SQL） |
+| 有高度的 geom | [[3-Resources/Tech/代码片段/SQL常用语句]]（PostGIS 3D 几何操作） |
+| 添加标签和基站类型 | [[3-Resources/Tech/代码片段/SQL常用语句]]（设备类型初始化 SQL） |
 
 ## 归档索引（1 个）
 

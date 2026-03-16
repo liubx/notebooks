@@ -81,3 +81,28 @@ curl http://dev.wms.reliablesense.cn/EHCommon/ModularEink/EinkAPI/publishEink -X
 
 # 盘点/拣选/移库 类似格式
 ```
+
+
+## 地图样式 ID（Yuque 迁移）
+
+| 元素 | ID |
+|------|-----|
+| 基站 | d85b2cc0-7165-45d6-8ea0-ccfa81044d76 |
+| 房间 | 4cc4cc9a-878d-4f2e-840d-b4dcaf659b46 |
+| 空库位 | 80807e4b-c610-4309-8d98-d157a1b3a837 |
+| 可移动家具 | f77a31e2-1e0d-4d1f-8885-119c60488dae |
+| 库位 | e1dd674a-f304-11ea-adc1-0242ac120002 |
+| 绿墙 | 2262a85e-2205-4899-8bf7-756825de822d |
+| 白墙 | bac7ffd9-0920-4161-b401-b9d337a49bbd |
+| 墙-玻璃 | dac9290e-7d3c-4737-ad8f-7d59ac158073 |
+| 门 | 25944d2d-eea6-4b93-aeed-19c74ee671ce |
+| 桌子 | 49d168c6-c67f-4f15-af7a-e43055a1e91e |
+
+墙 style 字段：
+```json
+{
+  "color": "#FFFFFF",
+  "height": 3,
+  "base_height": 0
+}
+```
