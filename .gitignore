@@ -15,8 +15,7 @@ Thumbs.db
 .obsidian/graph.json
 
 # Apple Notes 导入相关（大量历史数据）
-4-Archives/Apple-Notes/
-4-Archives/Notion/
+4-Archives/Notes/
 
 # 大二进制文件
 *.apk
