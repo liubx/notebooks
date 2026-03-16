@@ -39,30 +39,18 @@ next: "[[{{next_date}}]]"
 ## 📋 任务
 \`\`\`tasks
 filter by function \
-  const today = '{{date}}'; \
-  const yesterday = '{{date_minus_1}}'; \
-  const tomorrow = '{{date_plus_1}}'; \
-  const due = task.due?.format('YYYY-MM-DD'); \
-  const done = task.done?.format('YYYY-MM-DD'); \
-  const created = task.created?.format('YYYY-MM-DD'); \
-  const start = task.start?.format('YYYY-MM-DD'); \
-  const isDone = task.isDone; \
-  if (!isDone && due && due < tomorrow) return true; \
-  if (!isDone && !due) return true; \
-  if (done === today || done === yesterday) return true; \
-  if (created === today) return true; \
-  if (start === today) return true; \
-  return false;
+  const t=moment("{{date}}"),d='day',{due:{moment:u},start:{moment:s},created:{moment:c},done:{moment:D}}=task,y=moment(t).subtract(1,d),b=m=>m?.isSameOrBefore(t,d),q=m=>m?.isSame(t,d); \
+  return !task.isDone?!u||b(u)||b(s)||q(c):q(D)||D?.isSame(y,d)||false;
 path does not include 4-Archives
 tags include #task/
 hide toolbar
+hide task count
 hide created date
 hide start date
 hide done date
 hide tags
 hide backlink
 hide edit button
-hide task count
 group by function task.tags.includes("#task/work") ? "💼 工作" : task.tags.includes("#task/personal") ? "🏠 个人" : "📌 其他"
 group by function task.tags.find(t => t.startsWith("#project/")) ? "项目：" + task.tags.find(t => t.startsWith("#project/")).replace("#project/", "") + " [[1-Projects/" + (task.tags.includes("#task/work") ? "Work" : "Personal") + "/" + task.tags.find(t => t.startsWith("#project/")).replace("#project/", "") + "/1-任务|📋]]" : "临时"
 \`\`\`
@@ -135,7 +123,22 @@ modified: {{modified}}
 
 # 任务总览
 
-![[1-任务]]
+\`\`\`tasks
+filter by function \
+  const d='day',{done:{moment:D}}=task; \
+  return !task.isDone||D?.isAfter(moment().subtract(7,d),d)||false;
+path includes 1-Projects/{{Work|Personal}}/{{project_name}}
+tags include #task/
+hide toolbar
+hide task count
+hide created date
+hide start date
+hide done date
+hide tags
+hide backlink
+hide edit button
+group by function task.isDone ? "✅ 已完成" : "📋 进行中"
+\`\`\`
 
 # 相关笔记
 
