@@ -39,6 +39,7 @@ next: "[[{{next_date}}]]"
 ## 📋 任务
 \`\`\`tasks
 ((due before {{date_plus_1}}) OR (scheduled on {{date}}) OR (created on {{date}}) OR (starts on {{date}})) AND ((not done) OR (done on {{date}}) OR (starts on {{date}}))
+path does not include 4-Archives
 hide toolbar
 hide created date
 hide start date
