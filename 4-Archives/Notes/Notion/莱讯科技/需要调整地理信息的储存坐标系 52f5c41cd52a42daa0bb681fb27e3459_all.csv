@@ -1,0 +1,14 @@
+﻿Name,Tags,修改后坐标系,备注,当前坐标系,数据表
+空间 space,Map,wgs84,原始CAD地图一般基于WGS84数据，保持统一,gcj02,t_space
+多边形 polygon,Map,wgs84,同上,gcj02,t_polygon
+楼层 floor,Map,wgs84,同上,gcj02,t_floor
+兴趣点 poi,Map,wgs84,同上,gcj02,t_poi
+模型 scenegraph,Map,wgs84,同上,gcj02,t_scenegraph
+基站 Anchor,Device,wgs84,基站位置可能跟定位对象有关，所以最好选择与t_position一致的坐标系,gcj02,t_anchor（存坐标点）
+定位对象位置 Position,Position,wgs84,"位置需要保留原始x,y数据和 wgs84数据",gcj02,t_position
+摄像头 Camera,Device,gcj02,摄像头可能会需要根据摄像头位置触发事件，所以最好选择与t_position一致的坐标系,gcj02,t_camera（存坐标点）
+告警 Alarm,Position,wgs84,告警发生的位置就是定位对象触发时所在位置，所以最好选择与t_position一致的坐标系,gcj02,t_alarm
+围栏 Fence,Position,gcj02,"1.需要同过比较定位对象和围栏位置来触发告警，所以最好选择与t_position一致的坐标系
+2.围栏需要在gcj02下画的多边形",gcj02,t_fence
+导航路线 route,Map,gcj02,围栏需要在gcj02下画的多边形,gcj02,t_route
+室外地图,Map,gcj02,"使用了 VectorTile, 底图没办法做到动态偏移",gcj02,-
