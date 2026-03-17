@@ -152,11 +152,6 @@ Management(30993) / Device(30230) / Position(31596) / Map(32723)，均为 server
 
 ---
 
-### [[4-Archives/Notes/Notion/莱讯科技/中间件更新]]
-空文件。
-
----
-
 ### [[4-Archives/Notes/Notion/莱讯科技/部署相关]]
 position 配了 druid 连接池导致问题，去掉后恢复。
 
@@ -199,11 +194,6 @@ CSV 数据，历史任务跟踪表。
 
 ### [[4-Archives/Notes/Notion/临时记录/购物清单]]
 家庭购物清单，部分已购：摄像头 ✅、空气炸锅 ✅、小米音箱 ✅、花洒 ✅、药箱 ✅。待购：路由器、净水机、PS5、switch游戏、airpod pro2、ipad 10、4k屏幕等。
-
----
-
-### [[4-Archives/Notes/Notion/临时记录/出行清单]]
-空文件。
 
 ---
 
