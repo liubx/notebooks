@@ -30,7 +30,6 @@ SELECT geoc_cgcs2000togcj02(geom) FROM test_table;
 SELECT geoc_gcj02tobd09(geom) FROM test_table;
 ```
 
-> 完整函数定义见原始文件：`4-Archives/Notes/Yuque/莱讯科技/莱讯科技技术分享/数据库相关文档/Postgis/火星坐标转换.md`
 
 # 坐标迁移操作（旧架构）
 

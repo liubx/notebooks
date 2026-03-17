@@ -10,7 +10,6 @@ modified: 2026-03-17
 # IELTS备考笔记
 
 2016年IELTS备考期间的全部练习记录，包含听力、阅读、口语、写作、句型和翻译练习。
-原始文件保留在 `4-Archives/Notes/Apple-Notes/2016-Archive/`。
 
 ---
 
