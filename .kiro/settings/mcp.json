@@ -1,14 +1,39 @@
 {
   "mcpServers": {
+    "chrome-devtools": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "chrome-devtools-mcp@latest",
+        "--executable-path=/Applications/Microsoft Edge.app/Contents/MacOS/Microsoft Edge"
+      ],
+      "autoApprove": [
+        "navigate_page",
+        "take_snapshot",
+        "click",
+        "evaluate_script",
+        "list_network_requests",
+        "get_network_request"
+      ]
+    },
     "lark-mcp": {
       "command": "npx",
-      "args": ["-y", "@anthropic/lark-mcp"],
-      "env": {
-        "FEISHU_APP_ID": "",
-        "FEISHU_APP_SECRET": ""
-      },
-      "disabled": true,
-      "autoApprove": []
+      "args": [
+        "-y",
+        "@larksuiteoapi/lark-mcp",
+        "mcp",
+        "-a",
+        "cli_a7819fab58b11013",
+        "-s",
+        "aMa8UUE3zZnCpI2HkwCdIeaRY1TdmI3F",
+        "--oauth",
+        "--token-mode",
+        "user_access_token",
+        "-t",
+        "task.v2.task.create,task.v2.task.patch,task.v2.task.addMembers,task.v2.task.addReminders,docx.v1.document.rawContent,docx.builtin.import,docx.builtin.search,wiki.v2.space.getNode,wiki.v1.node.search,im.v1.chat.create,im.v1.chat.list,im.v1.chat.search,im.v1.chatMembers.get,im.v1.message.create,im.v1.message.list,contact.v3.user.batchGetId,contact.v3.user.get,contact.v3.user.search,contact.v3.department.list,contact.v3.contact.me"
+      ],
+      "autoApprove": [],
+      "disabled": false
     }
   }
 }
