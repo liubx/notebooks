@@ -256,3 +256,4 @@ Read these when you need detailed information:
 - **`references/sync-rules.md`** — Feishu sync decision logic, tag conventions, conflict handling, MCP usage. Read when handling sync-related requests.
 - **`references/improvements.md`** — User preferences and improvement history. Read at the start of each conversation and when the user provides feedback about your behavior.
 - **`references/user-guide.md`** — User-facing operation manual with examples. Read when the user asks how to use the system.
+- **`references/feishu-migration.md`** — Feishu document migration guide, scope, type handling, and record format. Read when handling Feishu migration requests.

@@ -60,8 +60,72 @@ lark-mcp 使用 OAuth 用户授权，token 会过期需要重新授权。
 4. 看到 `✅ Successfully logged in` 后，关闭终端进程
 5. 重新启用 MCP 客户端中的 lark-mcp
 
+## 工具权限配置
+
+lark-mcp 通过 `-t` 参数控制启用哪些 API 工具。不指定时使用 `preset.default` 默认集合。
+
+### 查看可用工具
+
+完整工具列表见：https://github.com/larksuite/lark-openapi-mcp/blob/main/docs/reference/tool-presets/tools-zh.md
+
+工具名称格式为 `{业务域}.{版本}.{资源}.{操作}`，例如：
+- `docx.v1.document.rawContent` — 获取文档纯文本
+- `docs.v1.content.get` — 获取云文档 Markdown 内容
+- `drive.v1.exportTask.create` — 创建导出任务
+- `drive.v1.media.batchGetTmpDownloadUrl` — 获取素材临时下载链接
+
+### 配置方式
+
+在 `-t` 参数中用逗号分隔列出需要的工具：
+
+```json
+"-t", "task.v2.task.create,docx.v1.document.rawContent,docs.v1.content.get,drive.v1.exportTask.create"
+```
+
+也可以使用预设：
+- `preset.default` — 默认工具集
+- 具体工具名 — 按需添加
+
+### 飞书开发者后台权限
+
+工具对应的 API 需要在飞书开发者后台开通权限，否则调用会返回 99991672 错误。
+
+配置地址：`https://open.feishu.cn/app/<APP_ID>/security`
+
+常用权限分组：
+- 文档：`docx:document`, `docx:document:readonly`
+- 云空间：`drive:drive`, `drive:drive:readonly`, `drive:file:readonly`
+- 知识库：`wiki:wiki`, `wiki:wiki:readonly`
+- 任务：`task:task`, `task:task:readonly`
+- 消息：`im:message`, `im:message:readonly`
+- 通讯录：`contact:user.base:readonly`, `contact:department.base:readonly`
+
+### 当前配置的工具
+
+```
+task.v2.task.create, task.v2.task.patch, task.v2.task.addMembers,
+task.v2.task.addReminders, docx.v1.document.rawContent,
+docx.builtin.import, docx.builtin.search,
+wiki.v2.space.getNode, wiki.v1.node.search,
+im.v1.chat.create, im.v1.chat.list, im.v1.chat.search,
+im.v1.chatMembers.get, im.v1.message.create, im.v1.message.list,
+contact.v3.user.batchGetId, contact.v3.user.get, contact.v3.user.search,
+contact.v3.department.list, contact.v3.contact.me
+```
+
+### 待添加的工具（文档迁移用）
+
+```
+docs.v1.content.get                        — 获取云文档 Markdown 内容
+drive.v1.exportTask.create                 — 创建导出任务（docx/sheet/bitable → Word/Excel/PDF）
+drive.v1.exportTask.get                    — 查询导出任务结果
+drive.v1.media.batchGetTmpDownloadUrl      — 获取素材临时下载链接
+drive.v1.file.list                         — 获取文件夹中的文件清单
+drive.v1.meta.batchQuery                   — 获取文件元数据
+```
+
 ## 常见问题
 
 - `EADDRINUSE: address already in use 127.0.0.1:3000`：端口被占用，用 `lsof -ti:3000 | xargs kill -9` 释放
 - `user_access_token is invalid or expired`：需要重新 OAuth 授权
-- 权限不足（99991672）：去飞书开发者后台开通对应 API 权限
+- 权限不足（99991672）：去飞书开发者后台开通对应 API 权限，配置地址见上方
