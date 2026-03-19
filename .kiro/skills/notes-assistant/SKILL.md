@@ -230,7 +230,7 @@ Sync decisions and operations are detailed in `references/sync-rules.md`. The ke
 - Private content (personal tags, life areas, sensitive info) → never sync
 - Uncertain → ask the user
 
-Use lark-mcp tools for actual Feishu API calls (tasks, docs, wiki).
+Use lark-mcp tools for actual Feishu API calls (tasks, docs, wiki). See `references/feishu-mcp.md` for connection setup, tool list, OAuth login, and troubleshooting.
 
 ## User Preferences & Self-Improvement
 
@@ -256,4 +256,4 @@ Read these when you need detailed information:
 - **`references/sync-rules.md`** — Feishu sync decision logic, tag conventions, conflict handling, MCP usage. Read when handling sync-related requests.
 - **`references/improvements.md`** — User preferences and improvement history. Read at the start of each conversation and when the user provides feedback about your behavior.
 - **`references/user-guide.md`** — User-facing operation manual with examples. Read when the user asks how to use the system.
-- **`references/feishu-migration.md`** — Feishu document migration guide, scope, type handling, and record format. Read when handling Feishu migration requests.
+- **`references/feishu-mcp.md`** — lark-mcp connection setup, tool list, OAuth login, permissions, and troubleshooting. Read when calling Feishu APIs or debugging MCP issues.
