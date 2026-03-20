@@ -3,8 +3,8 @@ title: MultiFloorLine 组件
 type: code-snippet
 language: TypeScript
 tags:
-  - code-snippet
-  - 技术/前端/React
+  - tech/react
+  - tech/前端
   - project/麦钉项目
 created: 2026-03-15
 ---

@@ -3,8 +3,8 @@ title: OpenClash 代理配置
 type: code-snippet
 language: yaml
 tags:
-  - code-snippet
-  - 技术/网络/代理
+  - tech/网络
+  - tech/代理
 source: "[[4-Archives/Notion/莱讯科技/OpenClash b7f7dcaf807c4cc98961ef0daf778e43]]"
 created: 2026-03-16
 ---

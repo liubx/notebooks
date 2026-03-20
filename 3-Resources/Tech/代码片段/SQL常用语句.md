@@ -3,8 +3,8 @@ title: SQL常用语句（Notion迁移）
 type: code-snippet
 language: sql
 tags:
-  - code-snippet
-  - 技术/数据库/SQL
+  - tech/sql
+  - tech/数据库
 source: "[[4-Archives/Notion/技术相关/SQL 相关语句 35c696dbd3344c0887636f409c4f9ffe]]"
 created: 2026-03-16
 ---

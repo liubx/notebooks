@@ -3,8 +3,8 @@ title: Linux运维命令（Notion迁移）
 type: code-snippet
 language: bash
 tags:
-  - code-snippet
-  - 技术/运维/Linux
+  - tech/linux
+  - tech/运维
 source: "[[4-Archives/Notion/技术相关/Linux相关指令 4e807713bb61406db430d4f17e348f7c]]"
 created: 2026-03-16
 ---

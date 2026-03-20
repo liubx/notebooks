@@ -3,8 +3,8 @@ title: Kubectl常用命令（Notion迁移）
 type: code-snippet
 language: bash
 tags:
-  - code-snippet
-  - 技术/运维/K8S
+  - tech/k8s
+  - tech/运维
 source: "[[4-Archives/Notion/技术相关/Kubectl 相关指令 dd61c2f1d5b54afc9a1b8f9a90383153]]"
 created: 2026-03-16
 ---

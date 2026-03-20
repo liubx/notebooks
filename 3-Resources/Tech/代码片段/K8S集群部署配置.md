@@ -3,8 +3,8 @@ title: K8S集群部署配置（Notion迁移）
 type: code-snippet
 language: yaml
 tags:
-  - code-snippet
-  - 技术/运维/K8S
+  - tech/k8s
+  - tech/运维
 source: "[[4-Archives/Notion/莱讯科技/集群部署相关 c41a2518af6f405cb0c5b960fa27220f]]"
 created: 2026-03-16
 ---

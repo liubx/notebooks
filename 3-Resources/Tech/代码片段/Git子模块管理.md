@@ -3,8 +3,7 @@ title: Git子模块管理
 type: code-snippet
 language: bash
 tags:
-  - code-snippet
-  - 技术/Git
+  - tech/git
 source: "[[4-Archives/Notion/技术相关/Git相关指令 951abbbb0258487d911931258f0cc44b]]"
 created: 2026-03-16
 ---

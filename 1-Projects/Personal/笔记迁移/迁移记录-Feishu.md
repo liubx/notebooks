@@ -3,7 +3,7 @@ title: 迁移记录-Feishu
 type: migration-log
 source: feishu
 created: 2026-03-18
-modified: 2026-03-19
+modified: 2026-03-20
 ---
 
 # 飞书文档迁移记录
@@ -21,8 +21,12 @@ modified: 2026-03-19
   - 知识库 docx/doc（可迁移）：~95
   - 知识库非文档（保留链接）：~8（bitable/sheet/file）
 - 跳过的第三方知识库：21
-- 已迁移：0
-- 迁移方式：docx/doc → Markdown，其他类型保留链接
+- ✅ 已迁移：90（docx 转 Markdown）
+- 🔗 链接索引：51（doc 旧版文档，API 无法读取，创建链接索引文件）
+- 🔗 保留链接：8（bitable/sheet/mindnote/file）
+- ⏳ 会议纪要：97（智能纪要/会议记录，未迁移）
+- 跳过的第三方知识库：21
+- 迁移方式：docx → Markdown，doc → 链接索引，其他类型保留链接
 
 ---
 
@@ -38,13 +42,13 @@ modified: 2026-03-19
 
 | # | 标题 | Token | 类型 | 状态 |
 |---|------|-------|------|------|
-| 1 | API | NoXpdv9A1oSb4gxwWDmciKajnOJ | docx | ⏳ |
-| 2 | 快速启用，属于你的任务管理系统 | X8Y8dLsjZo5wSuxGMu9cc7AAnGf | docx | ⏳ |
-| 3 | 系统整改配置表 | ZpsNdChggodbeaxLg78cgtRBnGc | docx | ⏳ |
-| 4 | 移动应用 - 监控 2025年5月13日 | GBCkdfZNVor1Lcxgs4AcSIZonMe | docx | ⏳ |
-| 5 | 墨水屏数据协议 | P4z0dkpVUoq3jwxUvBtcrRpundd | docx | ⏳ |
-| 6 | 系统架构图 | IYLtdtwDQoaOetxP9Xkc66jfnPf | docx | ⏳ |
-| 7 | 研发部的视频会议 2024年11月22日 | Vu8Nd0VN1ovfrOxpvDzcHcO5nSf | docx | ⏳ |
+| 1 | API | NoXpdv9A1oSb4gxwWDmciKajnOJ | docx | ✅ 已迁移 |
+| 2 | 快速启用，属于你的任务管理系统 | X8Y8dLsjZo5wSuxGMu9cc7AAnGf | docx | ✅ 已迁移 |
+| 3 | 系统整改配置表 | ZpsNdChggodbeaxLg78cgtRBnGc | docx | ✅ 已迁移 |
+| 4 | 移动应用 - 监控 2025年5月13日 | GBCkdfZNVor1Lcxgs4AcSIZonMe | docx | ✅ 已迁移 |
+| 5 | 墨水屏数据协议 | P4z0dkpVUoq3jwxUvBtcrRpundd | docx | ✅ 已迁移 |
+| 6 | 系统架构图 | IYLtdtwDQoaOetxP9Xkc66jfnPf | docx | ✅ 已迁移 |
+| 7 | 研发部的视频会议 2024年11月22日 | Vu8Nd0VN1ovfrOxpvDzcHcO5nSf | docx | ✅ 已迁移 |
 
 ##### 智能纪要/会议记录（docx，约 130+ 条）
 
@@ -121,28 +125,28 @@ modified: 2026-03-19
 
 | # | 标题 | Token | 状态 |
 |---|------|-------|------|
-| 1 | IOT | J5Qndk4g1o0dWBxNCjIcxpcCneb | ⏳ |
-| 2 | 近期会议速递｜要点概览 2025年12月22日 | NJnQd8imdoNmXhxcmjccqoAwnxb | ⏳ |
-| 3 | 月度纪要小结｜11月24日 - 12月19日 | DkxkdBBbFoSr5Axve4GcwIvenjg | ⏳ |
-| 4 | 近期会议速递｜要点概览 2025年12月15日 | U7tmdjSSsoQWqTxMbYFcRLVtnxb | ⏳ |
-| 5 | 月度纪要小结｜10月27日 - 11月21日 | QTUOdDTqkoDqZJxzzbncYw4On2d | ⏳ |
-| 6 | 近期会议速递｜要点概览 2025年11月17日 | LmlMdaCD1oibasxwfDWcMTVenOh | ⏳ |
-| 7 | 智能纪要：管理内容、分支及注释问题讨论 2025年11月6日 | OCCsdy2coohBdmxcVdVcPIlNnof | ⏳ |
-| 8 | 文字记录：管理内容、分支及注释问题讨论 2025年11月6日 | Pvl3dZTnmo8xyPx3dLjcdFf8nqf | ⏳ |
-| 9 | 智能纪要：分子构建与插件使用安装讨论 2025年11月6日 | XmvYdGxTLoHZpJxmb0pcEgZNnbc | ⏳ |
-| 10 | 文字记录：分子构建与插件使用安装讨论 2025年11月6日 | HrTkdTglAohn1pxSxbfcUGPBnIc | ⏳ |
-| 11 | 近期会议速递｜要点概览 2025年11月3日 | CYC3dSQq8oV0jZxBvEncpFYZnKA | ⏳ |
-| 12 | 智能纪要：管理员数据库表及任务归属问题讨论 2025年10月30日 | QDWldDLdjoNx0Bx291QcPcBxnbS | ⏳ |
-| 13 | 文字记录：管理员数据库表及任务归属问题讨论 2025年10月30日 | UfuNdjJLAoTZnaxGRH0c4KAbnwg | ⏳ |
-| 14 | 智能纪要：数据同步、订阅测试及新数据格式讨论 2025年10月28日 | LqMIdcq9Nod1nlxOYGvcxUVwnqh | ⏳ |
-| 15 | 文字记录：数据同步、订阅测试及新数据格式讨论 2025年10月28日 | UHKEdQ12Mo7q1Wxrw3LchCN7ncb | ⏳ |
-| 16 | 智能纪要：8084接口、列表及地图问题讨论 2025年10月27日 | Vyf1d9xi7oSdZVxPUrAcWMIOnEf | ⏳ |
-| 17 | 文字记录：8084接口、列表及地图问题讨论 2025年10月27日 | LdfpdNSktotC7WxY1nAcoQ0gn5g | ⏳ |
-| 18 | 智能纪要：云江项目任务方案及后续安排会 2025年10月27日 | Satnd39gXoHjQYxUzW6cVWvinOe | ⏳ |
-| 19 | 文字记录：云江项目任务方案及后续安排会 2025年10月27日 | KhyYd0clVo2XuGxNWqrc9pGSnVd | ⏳ |
-| 20 | 近期会议速递｜要点概览 2025年10月20日 | S1nAdbGeSo5l7hxb058cIhEwnOd | ⏳ |
-| 21 | 智能纪要：项目依赖、日志及硬盘问题会议 2025年10月13日 | SVJodwciFoT6vGxQGiicoCpBnjg | ⏳ |
-| 22 | 文字记录：项目依赖、日志及硬盘问题会议 2025年10月13日 | K1rBdMgWcopeZjxXKBFc5nACndd | ⏳ |
+| 1 | IOT | J5Qndk4g1o0dWBxNCjIcxpcCneb | ✅ 已迁移 |
+| 2 | 近期会议速递｜要点概览 2025年12月22日 | NJnQd8imdoNmXhxcmjccqoAwnxb | ⏳ 会议纪要 |
+| 3 | 月度纪要小结｜11月24日 - 12月19日 | DkxkdBBbFoSr5Axve4GcwIvenjg | ⏳ 会议纪要 |
+| 4 | 近期会议速递｜要点概览 2025年12月15日 | U7tmdjSSsoQWqTxMbYFcRLVtnxb | ⏳ 会议纪要 |
+| 5 | 月度纪要小结｜10月27日 - 11月21日 | QTUOdDTqkoDqZJxzzbncYw4On2d | ⏳ 会议纪要 |
+| 6 | 近期会议速递｜要点概览 2025年11月17日 | LmlMdaCD1oibasxwfDWcMTVenOh | ⏳ 会议纪要 |
+| 7 | 智能纪要：管理内容、分支及注释问题讨论 2025年11月6日 | OCCsdy2coohBdmxcVdVcPIlNnof | ⏳ 会议纪要 |
+| 8 | 文字记录：管理内容、分支及注释问题讨论 2025年11月6日 | Pvl3dZTnmo8xyPx3dLjcdFf8nqf | ⏳ 会议纪要 |
+| 9 | 智能纪要：分子构建与插件使用安装讨论 2025年11月6日 | XmvYdGxTLoHZpJxmb0pcEgZNnbc | ⏳ 会议纪要 |
+| 10 | 文字记录：分子构建与插件使用安装讨论 2025年11月6日 | HrTkdTglAohn1pxSxbfcUGPBnIc | ⏳ 会议纪要 |
+| 11 | 近期会议速递｜要点概览 2025年11月3日 | CYC3dSQq8oV0jZxBvEncpFYZnKA | ⏳ 会议纪要 |
+| 12 | 智能纪要：管理员数据库表及任务归属问题讨论 2025年10月30日 | QDWldDLdjoNx0Bx291QcPcBxnbS | ⏳ 会议纪要 |
+| 13 | 文字记录：管理员数据库表及任务归属问题讨论 2025年10月30日 | UfuNdjJLAoTZnaxGRH0c4KAbnwg | ⏳ 会议纪要 |
+| 14 | 智能纪要：数据同步、订阅测试及新数据格式讨论 2025年10月28日 | LqMIdcq9Nod1nlxOYGvcxUVwnqh | ⏳ 会议纪要 |
+| 15 | 文字记录：数据同步、订阅测试及新数据格式讨论 2025年10月28日 | UHKEdQ12Mo7q1Wxrw3LchCN7ncb | ⏳ 会议纪要 |
+| 16 | 智能纪要：8084接口、列表及地图问题讨论 2025年10月27日 | Vyf1d9xi7oSdZVxPUrAcWMIOnEf | ⏳ 会议纪要 |
+| 17 | 文字记录：8084接口、列表及地图问题讨论 2025年10月27日 | LdfpdNSktotC7WxY1nAcoQ0gn5g | ⏳ 会议纪要 |
+| 18 | 智能纪要：云江项目任务方案及后续安排会 2025年10月27日 | Satnd39gXoHjQYxUzW6cVWvinOe | ⏳ 会议纪要 |
+| 19 | 文字记录：云江项目任务方案及后续安排会 2025年10月27日 | KhyYd0clVo2XuGxNWqrc9pGSnVd | ⏳ 会议纪要 |
+| 20 | 近期会议速递｜要点概览 2025年10月20日 | S1nAdbGeSo5l7hxb058cIhEwnOd | ⏳ 会议纪要 |
+| 21 | 智能纪要：项目依赖、日志及硬盘问题会议 2025年10月13日 | SVJodwciFoT6vGxQGiicoCpBnjg | ⏳ 会议纪要 |
+| 22 | 文字记录：项目依赖、日志及硬盘问题会议 2025年10月13日 | K1rBdMgWcopeZjxXKBFc5nACndd | ⏳ 会议纪要 |
 
 #### file 附件
 
@@ -342,58 +346,58 @@ modified: 2026-03-19
 
 | # | 标题 | Token | 状态 |
 |---|------|-------|------|
-| 1 | 智能纪要：刷新配置规则变更讨论会议 2025年9月25日 | XHG9dLsmDoBkJxx4bkJcIABInbD | ⏳ |
-| 2 | 文字记录：刷新配置规则变更讨论会议 2025年9月25日 | GUjJdm0rboypogxtgcacRhAEn7e | ⏳ |
-| 3 | 近期会议速递｜要点概览 2025年9月22日 | QBT7d9e5PoMLKlx5DP8c23Agne1 | ⏳ |
-| 4 | 月度纪要小结｜8月25日 - 9月19日 | BlTTdQJKAoia6Kxae4Jc2avHnKe | ⏳ |
-| 5 | 智能纪要：申库、测试及登录存货问题讨论 2025年9月17日 | HNAVdtRgzo4xLFxUjO0c3qi9nJc | ⏳ |
-| 6 | 文字记录：申库、测试及登录存货问题讨论 2025年9月17日 | NrtBdN4sQo4P0cxB0RJc21Ebnse | ⏳ |
-| 7 | 智能纪要：scommon获取及分支合并问题讨论 2025年9月16日 | LCdQdpAf7ozPMtxQUthcZqTKnLh | ⏳ |
-| 8 | 文字记录：scommon获取及分支合并问题讨论 2025年9月16日 | DJOWdV7t5o2Mjdxx8ZacVCh1n3d | ⏳ |
-| 9 | 近期会议速递｜要点概览 2025年8月25日 | JPvNdiIsbo1dmcxRiWLcdD6VnIh | ⏳ |
-| 10 | 智能纪要：办公室 CLE 数据配置及墨水屏问题会议 2025年8月19日 | XAwMd4UStoorpRxKG3scYBLbnQe | ⏳ |
-| 11 | 文字记录：办公室 CLE 数据配置及墨水屏问题会议 2025年8月19日 | QG3ld8j2joWsEDxVOFocVLrAnOg | ⏳ |
-| 12 | 月度纪要小结（播客版）｜5月26日 - 6月20日 | Eoy1dYW8oolqoJxhve3cn5bgncS | ⏳ |
-| 13 | 近期会议速递｜要点概览 2025年6月9日 | RcHbdD8uOoUWj8xecNTcAtFjnmb | ⏳ |
-| 14 | 智能纪要：多方面业务问题及解决方案探讨会 2025年6月3日 | NPkFdqGfUo1Bf2xEQOGclc7anMh | ⏳ |
-| 15 | 文字记录：多方面业务问题及解决方案探讨会 2025年6月3日 | Jtm6dfrULo7SNYxWZZ9cwLULnvd | ⏳ |
-| 16 | 近期会议速递｜要点概览 2025年6月2日 | TC2Od2W9Ko56Wnx5QQkcDqLlnlg | ⏳ |
-| 17 | 智能纪要：平台重启及相关技术问题研讨 2025年5月31日 | LDm7dDpHfoC4DBx6Vthcwqkrn4c | ⏳ |
-| 18 | 文字记录：平台重启及相关技术问题研讨 2025年5月31日 | LRjhdZLUeoMIyKxAoIyciR1qneg | ⏳ |
-| 19 | E-Ink平台安装和使用手册 | BTKgdqfbXowNV5x0DSfcfafpncY | ⏳ |
-| 20 | 智慧工厂电子标牌管理系统软件v1.0.0-json格式 | TYe7doOyNovyfLxfXOScJ2vyngf | ⏳ |
-| 21 | 近期会议速递｜要点概览 2025年5月12日 | CvpwdYui0oKufcxNcFzc4IDVnFe | ⏳ |
-| 22 | 近期会议速递｜要点概览 2025年4月21日 | VUzAdTmbYowa23xouqCcGhiyn8c | ⏳ |
-| 23 | 近期会议速递｜要点概览 2025年4月14日 | Zc4odoDyzo1REVxTrrUcl7gGnPy | ⏳ |
-| 24 | 智能纪要：项目服务、权限及工作进展会议 2025年4月11日 | LKSodmV6loX04TxtDTNcEqmcnLe | ⏳ |
-| 25 | 文字记录：项目服务、权限及工作进展会议 2025年4月11日 | KoC5dKi6koHwTfx8Dkbcgrlon5g | ⏳ |
-| 26 | 近期会议速递｜要点概览 2025年4月7日 | QLdTdlduEoRsZkxNEblc0rlynZf | ⏳ |
-| 27 | 近期会议速递｜要点概览 2025年3月17日 | UV45dVypYoiEOFx9AYXcAGFDnne | ⏳ |
-| 28 | 近期会议速递｜要点概览 2025年3月10日 | JHJ5d6S5QopfyHxPUnwcKyLlnSe | ⏳ |
-| 29 | 智能纪要：内蒙新太项目（新钢联）的视频会议 2025年3月5日 | EePFdqlyQoh4bExphrXcGX3Wnjd | ⏳ |
-| 30 | 文字记录：内蒙新太项目（新钢联）的视频会议 2025年3月5日 | D0aEdYFlYo9REkxhIrwcDDWCnPf | ⏳ |
-| 31 | 近期会议速递｜要点概览 2025年3月3日 | W5AqdUrFvoHX12xnzHFc5JZ2nqg | ⏳ |
-| 32 | 智能纪要：内蒙新太项目（新钢联）的视频会议 2025年2月26日 | IQUqdVOipoy6MUx9pYicAUvrnmd | ⏳ |
-| 33 | 文字记录：内蒙新太项目（新钢联）的视频会议 2025年2月26日 | OgG5dQrQLoGY9FxEchhcSvmknXg | ⏳ |
-| 34 | 智能纪要：研发部的视频会议 2025年2月24日 | C66QdPXJyolJ50xp7JBczVxunQb | ⏳ |
-| 35 | 文字记录：研发部的视频会议 2025年2月24日 | PhfqdTLQ3o5QyyxbK2IcRAkNn0b | ⏳ |
-| 36 | 近期会议速递｜要点概览 2025年2月24日 | NglNdnbykoAAZOxR5hNc8hNHn66 | ⏳ |
-| 37 | 王宗光的视频会议 2025年2月20日 - 智能纪要 | Rr23dKQ8vo2vyYxmepgcq5ktn1c | ⏳ |
-| 38 | 文字记录：王宗光的视频会议 2025年2月20日 | DGyzdAmKkoykTYxVkoxcduRcnCc | ⏳ |
-| 39 | 近期会议速递｜要点概览 2025年2月17日 | AAZBdw0mao7Q4ExDeMTcCEWbnXf | ⏳ |
-| 40 | 近期会议速递｜要点概览 2025年2月10日 | O59Ad3PUIo0fffxtZfBcq1janNc | ⏳ |
-| 41 | 近期会议速递｜要点概览 2025年1月27日 | IpNOd7CAmoRHjjxzosechTohn2e | ⏳ |
-| 42 | 近期会议速递｜要点概览 2025年1月20日 | Owhldv8t2oMiwMxyLw4cR0gpn9c | ⏳ |
-| 43 | 近期会议速递｜要点概览 2025年1月13日 | ODULdAXKIo54etxzWrVcAsrznqd | ⏳ |
-| 44 | 近期会议速递｜要点概览 2025年1月6日 | MC4vdeRzVo29YJxXa7Ncolr2nYf | ⏳ |
-| 45 | 近期会议速递｜要点概览 2024年12月30日 | LMBudjzZUobQUNxeyu0cPa6znUg | ⏳ |
-| 46 | 近期会议速递｜要点概览 2024年12月23日 | DEwIdJiEWo75WNx3acgcUrntnMb | ⏳ |
-| 47 | 近期会议速递｜要点概览 2024年12月16日 | Xn0Id41i2oK3rgxAaVVc5TcFnOf | ⏳ |
-| 48 | 日志说明 | BdUEdhqBIofw1YxY2nGc8jEfn7d | ⏳ |
-| 49 | 莱讯-移动端需求 | U1EedFUBmoNwPQxD9oHcWweanXc | ⏳ |
-| 50 | 标书3 | JBxYdx0OZoySuUx2hkicNerDnNb | ⏳ |
-| 51 | 无动力设备信息融合系统-源代码 | doxcnWD87qgPTeUnEIrenFMqHYf | ⏳ |
-| 52 | 众合Demo环境--软件 功能_20210701 | doxcnF0mpOOrz5DbDYLjwWB6VWb | ⏳ |
+| 1 | 智能纪要：刷新配置规则变更讨论会议 2025年9月25日 | XHG9dLsmDoBkJxx4bkJcIABInbD | ⏳ 会议纪要 |
+| 2 | 文字记录：刷新配置规则变更讨论会议 2025年9月25日 | GUjJdm0rboypogxtgcacRhAEn7e | ⏳ 会议纪要 |
+| 3 | 近期会议速递｜要点概览 2025年9月22日 | QBT7d9e5PoMLKlx5DP8c23Agne1 | ⏳ 会议纪要 |
+| 4 | 月度纪要小结｜8月25日 - 9月19日 | BlTTdQJKAoia6Kxae4Jc2avHnKe | ⏳ 会议纪要 |
+| 5 | 智能纪要：申库、测试及登录存货问题讨论 2025年9月17日 | HNAVdtRgzo4xLFxUjO0c3qi9nJc | ⏳ 会议纪要 |
+| 6 | 文字记录：申库、测试及登录存货问题讨论 2025年9月17日 | NrtBdN4sQo4P0cxB0RJc21Ebnse | ⏳ 会议纪要 |
+| 7 | 智能纪要：scommon获取及分支合并问题讨论 2025年9月16日 | LCdQdpAf7ozPMtxQUthcZqTKnLh | ⏳ 会议纪要 |
+| 8 | 文字记录：scommon获取及分支合并问题讨论 2025年9月16日 | DJOWdV7t5o2Mjdxx8ZacVCh1n3d | ⏳ 会议纪要 |
+| 9 | 近期会议速递｜要点概览 2025年8月25日 | JPvNdiIsbo1dmcxRiWLcdD6VnIh | ⏳ 会议纪要 |
+| 10 | 智能纪要：办公室 CLE 数据配置及墨水屏问题会议 2025年8月19日 | XAwMd4UStoorpRxKG3scYBLbnQe | ⏳ 会议纪要 |
+| 11 | 文字记录：办公室 CLE 数据配置及墨水屏问题会议 2025年8月19日 | QG3ld8j2joWsEDxVOFocVLrAnOg | ⏳ 会议纪要 |
+| 12 | 月度纪要小结（播客版）｜5月26日 - 6月20日 | Eoy1dYW8oolqoJxhve3cn5bgncS | ⏳ 会议纪要 |
+| 13 | 近期会议速递｜要点概览 2025年6月9日 | RcHbdD8uOoUWj8xecNTcAtFjnmb | ⏳ 会议纪要 |
+| 14 | 智能纪要：多方面业务问题及解决方案探讨会 2025年6月3日 | NPkFdqGfUo1Bf2xEQOGclc7anMh | ⏳ 会议纪要 |
+| 15 | 文字记录：多方面业务问题及解决方案探讨会 2025年6月3日 | Jtm6dfrULo7SNYxWZZ9cwLULnvd | ⏳ 会议纪要 |
+| 16 | 近期会议速递｜要点概览 2025年6月2日 | TC2Od2W9Ko56Wnx5QQkcDqLlnlg | ⏳ 会议纪要 |
+| 17 | 智能纪要：平台重启及相关技术问题研讨 2025年5月31日 | LDm7dDpHfoC4DBx6Vthcwqkrn4c | ⏳ 会议纪要 |
+| 18 | 文字记录：平台重启及相关技术问题研讨 2025年5月31日 | LRjhdZLUeoMIyKxAoIyciR1qneg | ⏳ 会议纪要 |
+| 19 | E-Ink平台安装和使用手册 | BTKgdqfbXowNV5x0DSfcfafpncY | ✅ 已迁移 |
+| 20 | 智慧工厂电子标牌管理系统软件v1.0.0-json格式 | TYe7doOyNovyfLxfXOScJ2vyngf | ✅ 已迁移 |
+| 21 | 近期会议速递｜要点概览 2025年5月12日 | CvpwdYui0oKufcxNcFzc4IDVnFe | ⏳ 会议纪要 |
+| 22 | 近期会议速递｜要点概览 2025年4月21日 | VUzAdTmbYowa23xouqCcGhiyn8c | ⏳ 会议纪要 |
+| 23 | 近期会议速递｜要点概览 2025年4月14日 | Zc4odoDyzo1REVxTrrUcl7gGnPy | ⏳ 会议纪要 |
+| 24 | 智能纪要：项目服务、权限及工作进展会议 2025年4月11日 | LKSodmV6loX04TxtDTNcEqmcnLe | ⏳ 会议纪要 |
+| 25 | 文字记录：项目服务、权限及工作进展会议 2025年4月11日 | KoC5dKi6koHwTfx8Dkbcgrlon5g | ⏳ 会议纪要 |
+| 26 | 近期会议速递｜要点概览 2025年4月7日 | QLdTdlduEoRsZkxNEblc0rlynZf | ⏳ 会议纪要 |
+| 27 | 近期会议速递｜要点概览 2025年3月17日 | UV45dVypYoiEOFx9AYXcAGFDnne | ⏳ 会议纪要 |
+| 28 | 近期会议速递｜要点概览 2025年3月10日 | JHJ5d6S5QopfyHxPUnwcKyLlnSe | ⏳ 会议纪要 |
+| 29 | 智能纪要：内蒙新太项目（新钢联）的视频会议 2025年3月5日 | EePFdqlyQoh4bExphrXcGX3Wnjd | ⏳ 会议纪要 |
+| 30 | 文字记录：内蒙新太项目（新钢联）的视频会议 2025年3月5日 | D0aEdYFlYo9REkxhIrwcDDWCnPf | ⏳ 会议纪要 |
+| 31 | 近期会议速递｜要点概览 2025年3月3日 | W5AqdUrFvoHX12xnzHFc5JZ2nqg | ⏳ 会议纪要 |
+| 32 | 智能纪要：内蒙新太项目（新钢联）的视频会议 2025年2月26日 | IQUqdVOipoy6MUx9pYicAUvrnmd | ⏳ 会议纪要 |
+| 33 | 文字记录：内蒙新太项目（新钢联）的视频会议 2025年2月26日 | OgG5dQrQLoGY9FxEchhcSvmknXg | ⏳ 会议纪要 |
+| 34 | 智能纪要：研发部的视频会议 2025年2月24日 | C66QdPXJyolJ50xp7JBczVxunQb | ⏳ 会议纪要 |
+| 35 | 文字记录：研发部的视频会议 2025年2月24日 | PhfqdTLQ3o5QyyxbK2IcRAkNn0b | ⏳ 会议纪要 |
+| 36 | 近期会议速递｜要点概览 2025年2月24日 | NglNdnbykoAAZOxR5hNc8hNHn66 | ⏳ 会议纪要 |
+| 37 | 王宗光的视频会议 2025年2月20日 - 智能纪要 | Rr23dKQ8vo2vyYxmepgcq5ktn1c | ⏳ 会议纪要 |
+| 38 | 文字记录：王宗光的视频会议 2025年2月20日 | DGyzdAmKkoykTYxVkoxcduRcnCc | ⏳ 会议纪要 |
+| 39 | 近期会议速递｜要点概览 2025年2月17日 | AAZBdw0mao7Q4ExDeMTcCEWbnXf | ⏳ 会议纪要 |
+| 40 | 近期会议速递｜要点概览 2025年2月10日 | O59Ad3PUIo0fffxtZfBcq1janNc | ⏳ 会议纪要 |
+| 41 | 近期会议速递｜要点概览 2025年1月27日 | IpNOd7CAmoRHjjxzosechTohn2e | ⏳ 会议纪要 |
+| 42 | 近期会议速递｜要点概览 2025年1月20日 | Owhldv8t2oMiwMxyLw4cR0gpn9c | ⏳ 会议纪要 |
+| 43 | 近期会议速递｜要点概览 2025年1月13日 | ODULdAXKIo54etxzWrVcAsrznqd | ⏳ 会议纪要 |
+| 44 | 近期会议速递｜要点概览 2025年1月6日 | MC4vdeRzVo29YJxXa7Ncolr2nYf | ⏳ 会议纪要 |
+| 45 | 近期会议速递｜要点概览 2024年12月30日 | LMBudjzZUobQUNxeyu0cPa6znUg | ⏳ 会议纪要 |
+| 46 | 近期会议速递｜要点概览 2024年12月23日 | DEwIdJiEWo75WNx3acgcUrntnMb | ⏳ 会议纪要 |
+| 47 | 近期会议速递｜要点概览 2024年12月16日 | Xn0Id41i2oK3rgxAaVVc5TcFnOf | ⏳ 会议纪要 |
+| 48 | 日志说明 | BdUEdhqBIofw1YxY2nGc8jEfn7d | ✅ 已迁移 |
+| 49 | 莱讯-移动端需求 | U1EedFUBmoNwPQxD9oHcWweanXc | ✅ 已迁移 |
+| 50 | 标书3 | JBxYdx0OZoySuUx2hkicNerDnNb | ✅ 已迁移 |
+| 51 | 无动力设备信息融合系统-源代码 | doxcnWD87qgPTeUnEIrenFMqHYf | ✅ 已迁移 |
+| 52 | 众合Demo环境--软件 功能_20210701 | doxcnF0mpOOrz5DbDYLjwWB6VWb | ✅ 已迁移 |
 
 #### bitable 多维表格
 
@@ -439,51 +443,51 @@ modified: 2026-03-19
 
 | #   | 标题                                | Token                       | 状态  |
 | --- | --------------------------------- | --------------------------- | --- |
-| 1   | 近期会议速递｜要点概览 2025年9月22日            | Ij7ddnCqxoTyHsxBjRecEp4JnJc | ⏳   |
-| 2   | 智能纪要：数据、页面状态及功能处理会议 2025年9月17日    | KliDdAtzionSN1xuPXic7YWynUd | ⏳   |
-| 3   | 文字记录：数据、页面状态及功能处理会议 2025年9月17日    | O7UVdlfMSoMkZbxVyWic5N0bnBf | ⏳   |
-| 4   | 流程图                               | BWGKd2466omTdxxjRQdciMNknyh | ⏳   |
-| 5   | 月度纪要小结（播客版）｜5月26日 - 6月20日         | GPoCdJwSDoTzFSx3xsScQEPynCh | ⏳   |
-| 6   | 近期会议速递｜要点概览 2025年6月9日             | WCAQdiwTDoYuKexlMJ0cvK8MnFb | ⏳   |
-| 7   | 智能纪要：移动应用与 TCDM 会议讨论 2025年6月3日    | VARrddtC3oOlFMxENAFcoGBKnl9 | ⏳   |
-| 8   | 文字记录：移动应用与 TCDM 会议讨论 2025年6月3日    | JmwhduJIPouIxsx7Sh6cH5ZOnph | ⏳   |
-| 9   | 近期会议速递｜要点概览 2025年5月19日            | VNq6dqMR2opizBx1E1HcyqVinBg | ⏳   |
-| 10  | 智能纪要：上海东海模型修复及接入方案研讨 2025年5月15日   | BT99d8bucoUruTx4rvZcYbRbnff | ⏳   |
-| 11  | 文字记录：上海东海模型修复及接入方案研讨 2025年5月15日   | Ky4Ldt5hFoe6mQxg8lrctpCRngh | ⏳   |
-| 12  | 近期会议速递｜要点概览 2025年5月12日            | LxV2d0o1VoXVmyxwBdfcFsTanLb | ⏳   |
-| 13  | 近期会议速递｜要点概览 2025年4月21日            | ZIcAduwBcoXGuMxS9q8cXSccn9g | ⏳   |
-| 14  | 近期会议速递｜要点概览 2025年4月14日            | NmAXd423Xo5FbZxFQppcvft6nzf | ⏳   |
-| 15  | 智能纪要：黄佳琪软件工作安排及指导会议 2025年4月11日    | KFRAdFWTjoSKrIxLDPFcQH3Oncg | ⏳   |
-| 16  | 文字记录：黄佳琪软件工作安排及指导会议 2025年4月11日    | MWlJdSwz6o30ykxZGMPcLmdin0f | ⏳   |
-| 17  | 近期会议速递｜要点概览 2025年4月7日             | QsCbdNHr8oPl4Xx0uLicu9GUnAe | ⏳   |
-| 18  | 近期会议速递｜要点概览 2025年3月17日            | LICQdsN5AoOPUax19UJckYmQneb | ⏳   |
-| 19  | 近期会议速递｜要点概览 2025年3月3日             | UscVdJyLcoGhT9xlVCqcm6pSnPh | ⏳   |
-| 20  | 智能纪要：陈子杰的视频会议 2025年2月24日          | XVxUdVtaSo0wu6xtY3Uc7GdHnrc | ⏳   |
-| 21  | 文字记录：陈子杰的视频会议 2025年2月24日          | JhwjdqDfJoBMExxV9btciKO3nhf | ⏳   |
-| 22  | 近期会议速递｜要点概览 2025年2月24日            | ANZcdUqC5opTD0xfs7Cc6OuDnPh | ⏳   |
-| 23  | 近期会议速递｜要点概览 2025年2月17日            | Gna2dHIXQoREOUxBOXbcEYZZnqr | ⏳   |
-| 24  | 近期会议速递｜要点概览 2025年2月10日            | NAkkdVvn0oT5TNxjBvkcNNkmnKe | ⏳   |
-| 25  | 内蒙新太项目（新钢联）的视频会议 2025年2月7日 - 智能纪要 | W7Jid5OiUopoqcxNqJbc8ichnnf | ⏳   |
-| 26  | 近期会议速递｜要点概览 2025年1月27日            | FeykdvimxoVR6qxCjtAcpMFinxe | ⏳   |
-| 27  | 近期会议速递｜要点概览 2025年1月20日            | DCOHdnmZKoZE21xlQ01c7d3Unoe | ⏳   |
-| 28  | 近期会议速递｜要点概览 2025年1月13日            | PQffdQ2NOo3Txyx10TVcQ3UYnbg | ⏳   |
-| 29  | 近期会议速递｜要点概览 2025年1月6日             | L35XdsGSSoygobxzcHjctf4Mnjd | ⏳   |
-| 30  | 近期会议速递｜要点概览 2024年12月30日           | W7MhdWyHeoTWeZxbwVbcG6Whndh | ⏳   |
-| 31  | 2024年终总结                          | RNoYdOrHAoMJchxEtFJc2zHonkX | ⏳   |
-| 32  | 部门季报/半年报/年报                       | AuQldFCasoVwtLxNejocWWv8nqg | ⏳   |
-| 33  | 近期会议速递｜要点概览 2024年12月23日           | BGWhdLW32oWgRgxno7ncyfNNnSd | ⏳   |
-| 34  | 近期会议速递｜要点概览 2024年12月16日           | Z21kdH9RRoWSlXxKCllcwOp9nxe | ⏳   |
-| 35  | 平台地图最新使用                          | QbGcdI4iDok1XPxFdEUckHemnR5 | ⏳   |
-| 36  | 车间定位项目立项报告                        | Iw5cdoeumo3fVhxCZjYcw8j4nBc | ⏳   |
-| 37  | 小程序签到功能方案                         | GxYfddex4oDcpUxG0JHcGbZEndg | ⏳   |
-| 38  | 三方系统调用行李查询接口文档(座位号)20230804       | E3UidCx5No6qqnx2VgjcXVzdnsg | ⏳   |
-| 39  | 招标需求                              | NQXudjxpjo39fpxEYencmva4nke | ⏳   |
-| 40  | 招标需求                              | DYRPdzdhIo9lwQxVESDcUY4inhc | ⏳   |
-| 41  | 大屏页面问题                            | OVEnde4fhoJnAPxjgr9c2WZfnIc | ⏳   |
-| 42  | 大屏页面问题                            | HdftdeOzfobWS1xbkzecCE0unsn | ⏳   |
-| 43  | 大屏页面问题                            | HJB5dyyhmoqQAVxTE89cjIv6n1f | ⏳   |
-| 44  | 大屏页面问题                            | NxFEdepRNoHgzzx8XjxczSuhnwI | ⏳   |
-| 45  | 后端翻译                              | XULYdzrgOoC9TpxsG2GcTFBJnLf | ⏳   |
+| 1   | 近期会议速递｜要点概览 2025年9月22日            | Ij7ddnCqxoTyHsxBjRecEp4JnJc | ⏳ 会议纪要 |
+| 2   | 智能纪要：数据、页面状态及功能处理会议 2025年9月17日    | KliDdAtzionSN1xuPXic7YWynUd | ⏳ 会议纪要 |
+| 3   | 文字记录：数据、页面状态及功能处理会议 2025年9月17日    | O7UVdlfMSoMkZbxVyWic5N0bnBf | ⏳ 会议纪要 |
+| 4   | 流程图                               | BWGKd2466omTdxxjRQdciMNknyh | ✅ 已迁移 |
+| 5   | 月度纪要小结（播客版）｜5月26日 - 6月20日         | GPoCdJwSDoTzFSx3xsScQEPynCh | ⏳ 会议纪要 |
+| 6   | 近期会议速递｜要点概览 2025年6月9日             | WCAQdiwTDoYuKexlMJ0cvK8MnFb | ⏳ 会议纪要 |
+| 7   | 智能纪要：移动应用与 TCDM 会议讨论 2025年6月3日    | VARrddtC3oOlFMxENAFcoGBKnl9 | ⏳ 会议纪要 |
+| 8   | 文字记录：移动应用与 TCDM 会议讨论 2025年6月3日    | JmwhduJIPouIxsx7Sh6cH5ZOnph | ⏳ 会议纪要 |
+| 9   | 近期会议速递｜要点概览 2025年5月19日            | VNq6dqMR2opizBx1E1HcyqVinBg | ⏳ 会议纪要 |
+| 10  | 智能纪要：上海东海模型修复及接入方案研讨 2025年5月15日   | BT99d8bucoUruTx4rvZcYbRbnff | ⏳ 会议纪要 |
+| 11  | 文字记录：上海东海模型修复及接入方案研讨 2025年5月15日   | Ky4Ldt5hFoe6mQxg8lrctpCRngh | ⏳ 会议纪要 |
+| 12  | 近期会议速递｜要点概览 2025年5月12日            | LxV2d0o1VoXVmyxwBdfcFsTanLb | ⏳ 会议纪要 |
+| 13  | 近期会议速递｜要点概览 2025年4月21日            | ZIcAduwBcoXGuMxS9q8cXSccn9g | ⏳ 会议纪要 |
+| 14  | 近期会议速递｜要点概览 2025年4月14日            | NmAXd423Xo5FbZxFQppcvft6nzf | ⏳ 会议纪要 |
+| 15  | 智能纪要：黄佳琪软件工作安排及指导会议 2025年4月11日    | KFRAdFWTjoSKrIxLDPFcQH3Oncg | ⏳ 会议纪要 |
+| 16  | 文字记录：黄佳琪软件工作安排及指导会议 2025年4月11日    | MWlJdSwz6o30ykxZGMPcLmdin0f | ⏳ 会议纪要 |
+| 17  | 近期会议速递｜要点概览 2025年4月7日             | QsCbdNHr8oPl4Xx0uLicu9GUnAe | ⏳ 会议纪要 |
+| 18  | 近期会议速递｜要点概览 2025年3月17日            | LICQdsN5AoOPUax19UJckYmQneb | ⏳ 会议纪要 |
+| 19  | 近期会议速递｜要点概览 2025年3月3日             | UscVdJyLcoGhT9xlVCqcm6pSnPh | ⏳ 会议纪要 |
+| 20  | 智能纪要：陈子杰的视频会议 2025年2月24日          | XVxUdVtaSo0wu6xtY3Uc7GdHnrc | ⏳ 会议纪要 |
+| 21  | 文字记录：陈子杰的视频会议 2025年2月24日          | JhwjdqDfJoBMExxV9btciKO3nhf | ⏳ 会议纪要 |
+| 22  | 近期会议速递｜要点概览 2025年2月24日            | ANZcdUqC5opTD0xfs7Cc6OuDnPh | ⏳ 会议纪要 |
+| 23  | 近期会议速递｜要点概览 2025年2月17日            | Gna2dHIXQoREOUxBOXbcEYZZnqr | ⏳ 会议纪要 |
+| 24  | 近期会议速递｜要点概览 2025年2月10日            | NAkkdVvn0oT5TNxjBvkcNNkmnKe | ⏳ 会议纪要 |
+| 25  | 内蒙新太项目（新钢联）的视频会议 2025年2月7日 - 智能纪要 | W7Jid5OiUopoqcxNqJbc8ichnnf | ⏳ 会议纪要 |
+| 26  | 近期会议速递｜要点概览 2025年1月27日            | FeykdvimxoVR6qxCjtAcpMFinxe | ⏳ 会议纪要 |
+| 27  | 近期会议速递｜要点概览 2025年1月20日            | DCOHdnmZKoZE21xlQ01c7d3Unoe | ⏳ 会议纪要 |
+| 28  | 近期会议速递｜要点概览 2025年1月13日            | PQffdQ2NOo3Txyx10TVcQ3UYnbg | ⏳ 会议纪要 |
+| 29  | 近期会议速递｜要点概览 2025年1月6日             | L35XdsGSSoygobxzcHjctf4Mnjd | ⏳ 会议纪要 |
+| 30  | 近期会议速递｜要点概览 2024年12月30日           | W7MhdWyHeoTWeZxbwVbcG6Whndh | ⏳ 会议纪要 |
+| 31  | 2024年终总结                          | RNoYdOrHAoMJchxEtFJc2zHonkX | ✅ 已迁移 |
+| 32  | 部门季报/半年报/年报                       | AuQldFCasoVwtLxNejocWWv8nqg | ✅ 已迁移 |
+| 33  | 近期会议速递｜要点概览 2024年12月23日           | BGWhdLW32oWgRgxno7ncyfNNnSd | ⏳ 会议纪要 |
+| 34  | 近期会议速递｜要点概览 2024年12月16日           | Z21kdH9RRoWSlXxKCllcwOp9nxe | ⏳ 会议纪要 |
+| 35  | 平台地图最新使用                          | QbGcdI4iDok1XPxFdEUckHemnR5 | ✅ 已迁移 |
+| 36  | 车间定位项目立项报告                        | Iw5cdoeumo3fVhxCZjYcw8j4nBc | ✅ 已迁移 |
+| 37  | 小程序签到功能方案                         | GxYfddex4oDcpUxG0JHcGbZEndg | ✅ 已迁移 |
+| 38  | 三方系统调用行李查询接口文档(座位号)20230804       | E3UidCx5No6qqnx2VgjcXVzdnsg | ✅ 已迁移 |
+| 39  | 招标需求                              | NQXudjxpjo39fpxEYencmva4nke | ✅ 已迁移 |
+| 40  | 招标需求                              | DYRPdzdhIo9lwQxVESDcUY4inhc | ✅ 已迁移 |
+| 41  | 大屏页面问题                            | OVEnde4fhoJnAPxjgr9c2WZfnIc | ✅ 已迁移 |
+| 42  | 大屏页面问题                            | HdftdeOzfobWS1xbkzecCE0unsn | ✅ 已迁移 |
+| 43  | 大屏页面问题                            | HJB5dyyhmoqQAVxTE89cjIv6n1f | ✅ 已迁移 |
+| 44  | 大屏页面问题                            | NxFEdepRNoHgzzx8XjxczSuhnwI | ✅ 已迁移 |
+| 45  | 后端翻译                              | XULYdzrgOoC9TpxsG2GcTFBJnLf | ✅ 已迁移 |
 
 #### bitable 多维表格
 
@@ -523,8 +527,8 @@ modified: 2026-03-19
 
 | # | 标题 | Token | 状态 |
 |---|------|-------|------|
-| 1 | 需翻译！！Matthias 英文稿 - 已翻译 | ZYXldX00mosg8cxjIAucj6pPnRc | ⏳ |
-| 2 | 需翻译！！Matthias 英文稿 | Ks4UdBsYPoMzuaxAqvpcVabDnFd | ⏳ |
+| 1 | 需翻译！！Matthias 英文稿 - 已翻译 | ZYXldX00mosg8cxjIAucj6pPnRc | ✅ 已迁移 |
+| 2 | 需翻译！！Matthias 英文稿 | Ks4UdBsYPoMzuaxAqvpcVabDnFd | ✅ 已迁移 |
 
 ---
 
@@ -545,37 +549,37 @@ modified: 2026-03-19
 
 | # | 标题 | Node Token | Token (obj) | obj_type | has_child | 飞书链接 | 状态 |
 |---|------|-----------|----------|----------|-----------|----------|------|
-| 1 | 地图相关文档 | wikcnsyU0eYzKrwUSEnn8IaU62c | doccnhCl9hokfKaILbP59oauDQe | doc | ✅ | https://reliablesense.feishu.cn/wiki/wikcnsyU0eYzKrwUSEnn8IaU62c | ⏳ |
-| 2 | 前端相关文档 | wikcnkUzLRliQT2oLhwPyIPf93b | doccnZVmB4zMyd5vRGTAsFKOgYb | doc | ✅ | https://reliablesense.feishu.cn/wiki/wikcnkUzLRliQT2oLhwPyIPf93b | ⏳ |
-| 3 | 数据库相关文档 | wikcnixQRqf9WAUn27GaljFP9xe | doccnGq8IMFmjgrgloGuXAzvOCc | doc | ✅ | https://reliablesense.feishu.cn/wiki/wikcnixQRqf9WAUn27GaljFP9xe | ⏳ |
-| 4 | 硬件相关文档 | wikcnKNR23l94UjDLwZeYsAyuDe | doccnfb9EwlR5aYvjxzJbUwtlJh | doc | ✅ | https://reliablesense.feishu.cn/wiki/wikcnKNR23l94UjDLwZeYsAyuDe | ⏳ |
-| 5 | 后端相关文档 | wikcnfRuSAV2GcusBVxUx1jGFUf | doccnnHFcpyirHhQWM3GZh4mkQg | doc | ✅ | https://reliablesense.feishu.cn/wiki/wikcnfRuSAV2GcusBVxUx1jGFUf | ⏳ |
-| 6 | 基础平台相关文档 | wikcnqvwxuVRYnrITuhPdah6tXc | doccnlJ8hk4ih92ZXrCFLFc9Zid | doc | ✅ | https://reliablesense.feishu.cn/wiki/wikcnqvwxuVRYnrITuhPdah6tXc | ⏳ |
-| 7 | 测试相关文档 | wikcnjrlWGjZqbYO2JYyhn7QrSh | doccnxeb0O7SDyKIHQDwBWTL3ie | doc | ✅ | https://reliablesense.feishu.cn/wiki/wikcnjrlWGjZqbYO2JYyhn7QrSh | ⏳ |
-| 8 | 日常运维相关文档 | ENSywo9uHihAmMkXZ6zcftDrnFV | UtKfd14RVooqIvxlDjucNlaSnjd | docx | — | https://reliablesense.feishu.cn/wiki/ENSywo9uHihAmMkXZ6zcftDrnFV | ⏳ |
-| 9 | 后端问题Q/A | NW6zwyxHmiD7v8kHfOBca81hnzb | OpsxdI417oi5i4xLyrhc8Znyn5f | docx | — | https://reliablesense.feishu.cn/wiki/NW6zwyxHmiD7v8kHfOBca81hnzb | ⏳ |
+| 1 | 地图相关文档 | wikcnsyU0eYzKrwUSEnn8IaU62c | doccnhCl9hokfKaILbP59oauDQe | doc | ✅ | https://reliablesense.feishu.cn/wiki/wikcnsyU0eYzKrwUSEnn8IaU62c | 🔗 链接索引 |
+| 2 | 前端相关文档 | wikcnkUzLRliQT2oLhwPyIPf93b | doccnZVmB4zMyd5vRGTAsFKOgYb | doc | ✅ | https://reliablesense.feishu.cn/wiki/wikcnkUzLRliQT2oLhwPyIPf93b | 🔗 链接索引 |
+| 3 | 数据库相关文档 | wikcnixQRqf9WAUn27GaljFP9xe | doccnGq8IMFmjgrgloGuXAzvOCc | doc | ✅ | https://reliablesense.feishu.cn/wiki/wikcnixQRqf9WAUn27GaljFP9xe | 🔗 链接索引 |
+| 4 | 硬件相关文档 | wikcnKNR23l94UjDLwZeYsAyuDe | doccnfb9EwlR5aYvjxzJbUwtlJh | doc | ✅ | https://reliablesense.feishu.cn/wiki/wikcnKNR23l94UjDLwZeYsAyuDe | 🔗 链接索引 |
+| 5 | 后端相关文档 | wikcnfRuSAV2GcusBVxUx1jGFUf | doccnnHFcpyirHhQWM3GZh4mkQg | doc | ✅ | https://reliablesense.feishu.cn/wiki/wikcnfRuSAV2GcusBVxUx1jGFUf | 🔗 链接索引 |
+| 6 | 基础平台相关文档 | wikcnqvwxuVRYnrITuhPdah6tXc | doccnlJ8hk4ih92ZXrCFLFc9Zid | doc | ✅ | https://reliablesense.feishu.cn/wiki/wikcnqvwxuVRYnrITuhPdah6tXc | 🔗 链接索引 |
+| 7 | 测试相关文档 | wikcnjrlWGjZqbYO2JYyhn7QrSh | doccnxeb0O7SDyKIHQDwBWTL3ie | doc | ✅ | https://reliablesense.feishu.cn/wiki/wikcnjrlWGjZqbYO2JYyhn7QrSh | 🔗 链接索引 |
+| 8 | 日常运维相关文档 | ENSywo9uHihAmMkXZ6zcftDrnFV | UtKfd14RVooqIvxlDjucNlaSnjd | docx | — | https://reliablesense.feishu.cn/wiki/ENSywo9uHihAmMkXZ6zcftDrnFV | ✅ 已迁移 |
+| 9 | 后端问题Q/A | NW6zwyxHmiD7v8kHfOBca81hnzb | OpsxdI417oi5i4xLyrhc8Znyn5f | docx | — | https://reliablesense.feishu.cn/wiki/NW6zwyxHmiD7v8kHfOBca81hnzb | ✅ 已迁移 |
 
 #### 地图相关文档 子节点
 
 | # | 标题 | Node Token | Token (obj) | obj_type | 飞书链接 | 状态 |
 |---|------|-----------|----------|----------|----------|------|
-| 1 | 项目建立步骤 | Fw8MwbW40inLaxkekY4cXmqRngg | LapVd88f0oFaKUx4QwRcwrW1neI | docx | https://reliablesense.feishu.cn/wiki/Fw8MwbW40inLaxkekY4cXmqRngg | ⏳ |
-| 2 | QGIS安装 | DW3dwVhP5i7vrwkI090cqUPcnSd | DKP6dIPIHoXYuMxJ5Xoc00LVngp | docx | https://reliablesense.feishu.cn/wiki/DW3dwVhP5i7vrwkI090cqUPcnSd | ⏳ |
-| 3 | QGIS地图绘制注意事项（CAD版） | wikcnOXgiztoNkHOs9FOhTaqQag | doccnKYx4RPxYSXzTH0ssUvvBmf | doc | https://reliablesense.feishu.cn/wiki/wikcnOXgiztoNkHOs9FOhTaqQag | ⏳ |
-| 4 | 麦钉点云图地图绘制注意事项（点云图版） | wikcnwAeT2GA0B7hl5mATlZBaEd | doccn6HL7llLqfP4e5qCI96CdUf | doc | https://reliablesense.feishu.cn/wiki/wikcnwAeT2GA0B7hl5mATlZBaEd | ⏳ |
+| 1 | 项目建立步骤 | Fw8MwbW40inLaxkekY4cXmqRngg | LapVd88f0oFaKUx4QwRcwrW1neI | docx | https://reliablesense.feishu.cn/wiki/Fw8MwbW40inLaxkekY4cXmqRngg | ✅ 已迁移 |
+| 2 | QGIS安装 | DW3dwVhP5i7vrwkI090cqUPcnSd | DKP6dIPIHoXYuMxJ5Xoc00LVngp | docx | https://reliablesense.feishu.cn/wiki/DW3dwVhP5i7vrwkI090cqUPcnSd | ✅ 已迁移 |
+| 3 | QGIS地图绘制注意事项（CAD版） | wikcnOXgiztoNkHOs9FOhTaqQag | doccnKYx4RPxYSXzTH0ssUvvBmf | doc | https://reliablesense.feishu.cn/wiki/wikcnOXgiztoNkHOs9FOhTaqQag | 🔗 链接索引 |
+| 4 | 麦钉点云图地图绘制注意事项（点云图版） | wikcnwAeT2GA0B7hl5mATlZBaEd | doccn6HL7llLqfP4e5qCI96CdUf | doc | https://reliablesense.feishu.cn/wiki/wikcnwAeT2GA0B7hl5mATlZBaEd | 🔗 链接索引 |
 | 5 | QGIS画图说明（详细）.docx | wikcnmIywQmX161Ck8nmngaQpwh | boxcnfcMTBDnuvLMZbMCPWu4p4g | file | https://reliablesense.feishu.cn/wiki/wikcnmIywQmX161Ck8nmngaQpwh | 🔗 保留链接 |
-| 6 | 路网绘制 | wikcne2NQ2nTe07LW7d2fNs4qpc | doxcnmMiCtaR2HkpnlPPrChqyEb | docx | https://reliablesense.feishu.cn/wiki/wikcne2NQ2nTe07LW7d2fNs4qpc | ⏳ |
-| 7 | 地图按钮、视角、控件控制 | IRYzwhW7SiquPtkXevbcRwq8nvc | HUTId5xjFoaRIxxUkQWcEb1Xnge | docx | https://reliablesense.feishu.cn/wiki/IRYzwhW7SiquPtkXevbcRwq8nvc | ⏳ |
-| 8 | QGIS图片及瓦片图添加 | FQMrwJYQQi71zOkhYezcta2BnMc | X68Zdyv98o4AgGx073LcsrscnAh | docx | https://reliablesense.feishu.cn/wiki/FQMrwJYQQi71zOkhYezcta2BnMc | ⏳ |
-| 9 | png图片导入地图（参考不是我们的系统） | wikcn6SDsrfRKEDqyDvg8UvJKHd | doccn3DidLn9ur0mvFbqsnXhstd | doc | https://reliablesense.feishu.cn/wiki/wikcn6SDsrfRKEDqyDvg8UvJKHd | ⏳ |
-| 10 | 瓦片图制作 | Ah0RwVteKibIuXkCzRYckwd2nhh | OvGsdeF3UoAgULxqd9Kc08punEg | docx | https://reliablesense.feishu.cn/wiki/Ah0RwVteKibIuXkCzRYckwd2nhh | ⏳ |
-| 11 | QGIS地图绘制准备 | VuwLwLCAaisQefkpvTHcRe1tnVe | CXjHdQO7JogckXxR6owcL5AcnEb | docx | https://reliablesense.feishu.cn/wiki/VuwLwLCAaisQefkpvTHcRe1tnVe | ⏳ |
+| 6 | 路网绘制 | wikcne2NQ2nTe07LW7d2fNs4qpc | doxcnmMiCtaR2HkpnlPPrChqyEb | docx | https://reliablesense.feishu.cn/wiki/wikcne2NQ2nTe07LW7d2fNs4qpc | ✅ 已迁移 |
+| 7 | 地图按钮、视角、控件控制 | IRYzwhW7SiquPtkXevbcRwq8nvc | HUTId5xjFoaRIxxUkQWcEb1Xnge | docx | https://reliablesense.feishu.cn/wiki/IRYzwhW7SiquPtkXevbcRwq8nvc | ✅ 已迁移 |
+| 8 | QGIS图片及瓦片图添加 | FQMrwJYQQi71zOkhYezcta2BnMc | X68Zdyv98o4AgGx073LcsrscnAh | docx | https://reliablesense.feishu.cn/wiki/FQMrwJYQQi71zOkhYezcta2BnMc | ✅ 已迁移 |
+| 9 | png图片导入地图（参考不是我们的系统） | wikcn6SDsrfRKEDqyDvg8UvJKHd | doccn3DidLn9ur0mvFbqsnXhstd | doc | https://reliablesense.feishu.cn/wiki/wikcn6SDsrfRKEDqyDvg8UvJKHd | 🔗 链接索引 |
+| 10 | 瓦片图制作 | Ah0RwVteKibIuXkCzRYckwd2nhh | OvGsdeF3UoAgULxqd9Kc08punEg | docx | https://reliablesense.feishu.cn/wiki/Ah0RwVteKibIuXkCzRYckwd2nhh | ✅ 已迁移 |
+| 11 | QGIS地图绘制准备 | VuwLwLCAaisQefkpvTHcRe1tnVe | CXjHdQO7JogckXxR6owcL5AcnEb | docx | https://reliablesense.feishu.cn/wiki/VuwLwLCAaisQefkpvTHcRe1tnVe | ✅ 已迁移 |
 
 #### 前端相关文档 子节点
 
 | # | 标题 | Node Token | Token (obj) | obj_type | 飞书链接 | 状态 |
 |---|------|-----------|----------|----------|----------|------|
-| 1 | 前端 React 开发规范 | wikcnspxL6qlUtrWgmRVWORf0Xe | doccnymhDUxjzJsBjuZ5mBGpG4c | doc | https://reliablesense.feishu.cn/wiki/wikcnspxL6qlUtrWgmRVWORf0Xe | ⏳ |
+| 1 | 前端 React 开发规范 | wikcnspxL6qlUtrWgmRVWORf0Xe | doccnymhDUxjzJsBjuZ5mBGpG4c | doc | https://reliablesense.feishu.cn/wiki/wikcnspxL6qlUtrWgmRVWORf0Xe | 🔗 链接索引 |
 
 #### 数据库相关文档 子节点
 
@@ -583,113 +587,113 @@ modified: 2026-03-19
 
 | # | 标题 | Node Token | Token (obj) | obj_type | 飞书链接 | 状态 |
 |---|------|-----------|----------|----------|----------|------|
-| 1 | 生成UUID | wikcngXQDl6DfjjniOLkaXVQGnx | doccnKzX7vdTlRNlsKlQY9oo9vd | doc | https://reliablesense.feishu.cn/wiki/wikcngXQDl6DfjjniOLkaXVQGnx | ⏳ |
-| 2 | 生成 trigger_set_timestamp | wikcnqmSBcurbVVatiPSVkhvaJk | doccnszyZqVAlZhQ6yFE8iVp3uf | doc | https://reliablesense.feishu.cn/wiki/wikcnqmSBcurbVVatiPSVkhvaJk | ⏳ |
-| 3 | 处理 t_position 的 id "not null" 的问题 | wikcnIstgnXcTT02lRl6Vv1Uxkc | doccnDPxocYNEJe0c7YYnRI6R3e | doc | https://reliablesense.feishu.cn/wiki/wikcnIstgnXcTT02lRl6Vv1Uxkc | ⏳ |
-| 4 | 处理连接数的问题 | wikcn9cIwQEuooi5CWUVZs1hkXU | doccnZIMQSFgw5z9FAtvRxqEF4f | doc | https://reliablesense.feishu.cn/wiki/wikcn9cIwQEuooi5CWUVZs1hkXU | ⏳ |
+| 1 | 生成UUID | wikcngXQDl6DfjjniOLkaXVQGnx | doccnKzX7vdTlRNlsKlQY9oo9vd | doc | https://reliablesense.feishu.cn/wiki/wikcngXQDl6DfjjniOLkaXVQGnx | 🔗 链接索引 |
+| 2 | 生成 trigger_set_timestamp | wikcnqmSBcurbVVatiPSVkhvaJk | doccnszyZqVAlZhQ6yFE8iVp3uf | doc | https://reliablesense.feishu.cn/wiki/wikcnqmSBcurbVVatiPSVkhvaJk | 🔗 链接索引 |
+| 3 | 处理 t_position 的 id "not null" 的问题 | wikcnIstgnXcTT02lRl6Vv1Uxkc | doccnDPxocYNEJe0c7YYnRI6R3e | doc | https://reliablesense.feishu.cn/wiki/wikcnIstgnXcTT02lRl6Vv1Uxkc | 🔗 链接索引 |
+| 4 | 处理连接数的问题 | wikcn9cIwQEuooi5CWUVZs1hkXU | doccnZIMQSFgw5z9FAtvRxqEF4f | doc | https://reliablesense.feishu.cn/wiki/wikcn9cIwQEuooi5CWUVZs1hkXU | 🔗 链接索引 |
 
 ##### Postgis (`wikcnAmEcHh2yVPmpoO7wLatPBb`, doc)
 
 | # | 标题 | Node Token | Token (obj) | obj_type | 飞书链接 | 状态 |
 |---|------|-----------|----------|----------|----------|------|
-| 1 | 更新地图中点和边界 | wikcnujbyBxlVvXGkrCOTRmpjmd | doccnI6f4RL5XRKR8R2k2oA6Ykf | doc | https://reliablesense.feishu.cn/wiki/wikcnujbyBxlVvXGkrCOTRmpjmd | ⏳ |
-| 2 | 移动缩放旋转地图 | wikcn4v2EUFhaJ2mMyL6TlDZ8Ue | doccnN1mQdwwDwXCsBhuSsVzTId | doc | https://reliablesense.feishu.cn/wiki/wikcn4v2EUFhaJ2mMyL6TlDZ8Ue | ⏳ |
-| 3 | 移动电子围栏到火星坐标 | wikcnRhtsNYFu5cgAIvF8HXBZzb | doccnvu9gfk9NPRnE1FMF7fpNFe | doc | https://reliablesense.feishu.cn/wiki/wikcnRhtsNYFu5cgAIvF8HXBZzb | ⏳ |
-| 4 | 修改火星坐标完整语句(旧架构) | wikcn1iBq3pcLMxYLT8Zkt0Tebe | doccnZUAaAKBqN3uCPCiAHkWo30 | doc | https://reliablesense.feishu.cn/wiki/wikcn1iBq3pcLMxYLT8Zkt0Tebe | ⏳ |
-| 5 | 偏移位置数据到火星坐标 | wikcnscV1LKfr0QuNP7s4lfXwvg | doccn4JOodvetnzvaKMfs3aIBSh | doc | https://reliablesense.feishu.cn/wiki/wikcnscV1LKfr0QuNP7s4lfXwvg | ⏳ |
-| 6 | 火星坐标转换 | wikcnOERwkqZPArkCAY4lK1xMfb | doccnbSee08xdsJhTWt1nXJccZc | doc | https://reliablesense.feishu.cn/wiki/wikcnOERwkqZPArkCAY4lK1xMfb | ⏳ |
-| 7 | 获取指定范围内的点 | wikcnU17illWrHsuZBjC8NmFpic | doccnhqA2pLGKjd5fnqdDsdRbig | doc | https://reliablesense.feishu.cn/wiki/wikcnU17illWrHsuZBjC8NmFpic | ⏳ |
-| 8 | 将Point转成PointZ | wikcnrI9pMiNAJ69RUUPAWSKGAe | doccnZTs4pwAZPya8zQfIgRf7Yf | doc | https://reliablesense.feishu.cn/wiki/wikcnrI9pMiNAJ69RUUPAWSKGAe | ⏳ |
+| 1 | 更新地图中点和边界 | wikcnujbyBxlVvXGkrCOTRmpjmd | doccnI6f4RL5XRKR8R2k2oA6Ykf | doc | https://reliablesense.feishu.cn/wiki/wikcnujbyBxlVvXGkrCOTRmpjmd | 🔗 链接索引 |
+| 2 | 移动缩放旋转地图 | wikcn4v2EUFhaJ2mMyL6TlDZ8Ue | doccnN1mQdwwDwXCsBhuSsVzTId | doc | https://reliablesense.feishu.cn/wiki/wikcn4v2EUFhaJ2mMyL6TlDZ8Ue | 🔗 链接索引 |
+| 3 | 移动电子围栏到火星坐标 | wikcnRhtsNYFu5cgAIvF8HXBZzb | doccnvu9gfk9NPRnE1FMF7fpNFe | doc | https://reliablesense.feishu.cn/wiki/wikcnRhtsNYFu5cgAIvF8HXBZzb | 🔗 链接索引 |
+| 4 | 修改火星坐标完整语句(旧架构) | wikcn1iBq3pcLMxYLT8Zkt0Tebe | doccnZUAaAKBqN3uCPCiAHkWo30 | doc | https://reliablesense.feishu.cn/wiki/wikcn1iBq3pcLMxYLT8Zkt0Tebe | 🔗 链接索引 |
+| 5 | 偏移位置数据到火星坐标 | wikcnscV1LKfr0QuNP7s4lfXwvg | doccn4JOodvetnzvaKMfs3aIBSh | doc | https://reliablesense.feishu.cn/wiki/wikcnscV1LKfr0QuNP7s4lfXwvg | 🔗 链接索引 |
+| 6 | 火星坐标转换 | wikcnOERwkqZPArkCAY4lK1xMfb | doccnbSee08xdsJhTWt1nXJccZc | doc | https://reliablesense.feishu.cn/wiki/wikcnOERwkqZPArkCAY4lK1xMfb | 🔗 链接索引 |
+| 7 | 获取指定范围内的点 | wikcnU17illWrHsuZBjC8NmFpic | doccnhqA2pLGKjd5fnqdDsdRbig | doc | https://reliablesense.feishu.cn/wiki/wikcnU17illWrHsuZBjC8NmFpic | 🔗 链接索引 |
+| 8 | 将Point转成PointZ | wikcnrI9pMiNAJ69RUUPAWSKGAe | doccnZTs4pwAZPya8zQfIgRf7Yf | doc | https://reliablesense.feishu.cn/wiki/wikcnrI9pMiNAJ69RUUPAWSKGAe | 🔗 链接索引 |
 
 ##### TimescaleDB (`wikcni90D268LpTPiEJKSqkM3Vb`, doc)
 
 | # | 标题 | Node Token | Token (obj) | obj_type | 飞书链接 | 状态 |
 |---|------|-----------|----------|----------|----------|------|
-| 1 | 新建hyper_table时，Trigger "ts_insert_blocker"错误 | wikcnXxfOQCGo9QFhsPQerICWgh | doccnoNAhwDhgg2FpnJ5jOODzZb | doc | https://reliablesense.feishu.cn/wiki/wikcnXxfOQCGo9QFhsPQerICWgh | ⏳ |
-| 2 | Retention policy，定期删除机制 | wikcnAWFOCd4jtv1WIxxaKCQ9ui | doccn2mQON8tP7m08bYrNmq5BYc | doc | https://reliablesense.feishu.cn/wiki/wikcnAWFOCd4jtv1WIxxaKCQ9ui | ⏳ |
-| 3 | 如何实现人员、物体每日在线时间统计 | wikcnmnlgVJKu9VoUXL200yokXe | doccnSG2Jc0Fls0feLdgve23DOe | doc | https://reliablesense.feishu.cn/wiki/wikcnmnlgVJKu9VoUXL200yokXe | ⏳ |
-| 4 | 插入一条t_position数据 | wikcnNqMmyJ88VjScpsZfGe548e | doccnmbpSo3CRnCMyTYEVFTpbIi | doc | https://reliablesense.feishu.cn/wiki/wikcnNqMmyJ88VjScpsZfGe548e | ⏳ |
+| 1 | 新建hyper_table时，Trigger "ts_insert_blocker"错误 | wikcnXxfOQCGo9QFhsPQerICWgh | doccnoNAhwDhgg2FpnJ5jOODzZb | doc | https://reliablesense.feishu.cn/wiki/wikcnXxfOQCGo9QFhsPQerICWgh | 🔗 链接索引 |
+| 2 | Retention policy，定期删除机制 | wikcnAWFOCd4jtv1WIxxaKCQ9ui | doccn2mQON8tP7m08bYrNmq5BYc | doc | https://reliablesense.feishu.cn/wiki/wikcnAWFOCd4jtv1WIxxaKCQ9ui | 🔗 链接索引 |
+| 3 | 如何实现人员、物体每日在线时间统计 | wikcnmnlgVJKu9VoUXL200yokXe | doccnSG2Jc0Fls0feLdgve23DOe | doc | https://reliablesense.feishu.cn/wiki/wikcnmnlgVJKu9VoUXL200yokXe | 🔗 链接索引 |
+| 4 | 插入一条t_position数据 | wikcnNqMmyJ88VjScpsZfGe548e | doccnmbpSo3CRnCMyTYEVFTpbIi | doc | https://reliablesense.feishu.cn/wiki/wikcnNqMmyJ88VjScpsZfGe548e | 🔗 链接索引 |
 
 #### 硬件相关文档 子节点
 
 | # | 标题 | Node Token | Token (obj) | obj_type | 飞书链接 | 状态 |
 |---|------|-----------|----------|----------|----------|------|
-| 1 | RTK设备局域网WiFi使用文档V1.1 | wikcnZt2mzudfssGSngwn2SPEgc | Yr5vdDP3YonYuWxkhZ3cfDGDnGd | docx | https://reliablesense.feishu.cn/wiki/wikcnZt2mzudfssGSngwn2SPEgc | ⏳ |
-| 2 | 烧写设备 | wikcnL0WUbCN7nutgfe20tstRzV | NigodFqlcowXQVxYWh5cVyoDn2g | docx | https://reliablesense.feishu.cn/wiki/wikcnL0WUbCN7nutgfe20tstRzV | ⏳ |
-| 3 | 树莓派 SSD 版本安装 | E5bKw98fhii1ZmkpM4TcqL96nbe | YUSVdEwLVooPMHx3luMcAXh6nlh | docx | https://reliablesense.feishu.cn/wiki/E5bKw98fhii1ZmkpM4TcqL96nbe | ⏳ |
-| 4 | MOKO RSSI 定位基站与树莓派组网 | TxsmwZNpMiU8I5kAH3XcMb4hnyc | TDS8dDE7ToGtUWxMvu7c8bROnwf | docx | https://reliablesense.feishu.cn/wiki/TxsmwZNpMiU8I5kAH3XcMb4hnyc | ⏳ |
-| 5 | (无标题) | EK9EwdPiMiU1xUk8isEcTe2aneh | UNtZdtZjhoZCEIxSHEacw1e0nyf | docx | https://reliablesense.feishu.cn/wiki/EK9EwdPiMiU1xUk8isEcTe2aneh | ⏳ |
+| 1 | RTK设备局域网WiFi使用文档V1.1 | wikcnZt2mzudfssGSngwn2SPEgc | Yr5vdDP3YonYuWxkhZ3cfDGDnGd | docx | https://reliablesense.feishu.cn/wiki/wikcnZt2mzudfssGSngwn2SPEgc | ✅ 已迁移 |
+| 2 | 烧写设备 | wikcnL0WUbCN7nutgfe20tstRzV | NigodFqlcowXQVxYWh5cVyoDn2g | docx | https://reliablesense.feishu.cn/wiki/wikcnL0WUbCN7nutgfe20tstRzV | ✅ 已迁移 |
+| 3 | 树莓派 SSD 版本安装 | E5bKw98fhii1ZmkpM4TcqL96nbe | YUSVdEwLVooPMHx3luMcAXh6nlh | docx | https://reliablesense.feishu.cn/wiki/E5bKw98fhii1ZmkpM4TcqL96nbe | ✅ 已迁移 |
+| 4 | MOKO RSSI 定位基站与树莓派组网 | TxsmwZNpMiU8I5kAH3XcMb4hnyc | TDS8dDE7ToGtUWxMvu7c8bROnwf | docx | https://reliablesense.feishu.cn/wiki/TxsmwZNpMiU8I5kAH3XcMb4hnyc | ✅ 已迁移 |
+| 5 | (无标题) | EK9EwdPiMiU1xUk8isEcTe2aneh | UNtZdtZjhoZCEIxSHEacw1e0nyf | docx | https://reliablesense.feishu.cn/wiki/EK9EwdPiMiU1xUk8isEcTe2aneh | 🔗 链接索引 |
 
 #### 后端相关文档 子节点
 
 | # | 标题 | Node Token | Token (obj) | obj_type | 飞书链接 | 状态 |
 |---|------|-----------|----------|----------|----------|------|
 | 1 | JAVA开发手册.pdf | wikcnWgIKCFhzgVEN8EJ4hO7Ucf | boxcntXN1LT755OgcYuMHHfGhUR | file | https://reliablesense.feishu.cn/wiki/wikcnWgIKCFhzgVEN8EJ4hO7Ucf | 🔗 保留链接 |
-| 2 | 定位平台系统整体改造方案 | wikcnxzCMQulAARtDyfkRDgd50f | doccnVRMcLTfhON3R9OLZT7VHgf | doc | https://reliablesense.feishu.cn/wiki/wikcnxzCMQulAARtDyfkRDgd50f | ⏳ |
-| 3 | 后端开发流程规范 | wikcn6Bh2oD6cUp1yrODCPOM2qh | CUA7dlJrRoTZ3Fx8t5kc1UiRneb | docx | https://reliablesense.feishu.cn/wiki/wikcn6Bh2oD6cUp1yrODCPOM2qh | ⏳ |
-| 4 | 微服务说明 | GKGmwu9YBibrqkk6AJucGBqGngb | F2PhdYeMCoHjP6xd8y0cyz6Mnac | docx | https://reliablesense.feishu.cn/wiki/GKGmwu9YBibrqkk6AJucGBqGngb | ⏳ |
+| 2 | 定位平台系统整体改造方案 | wikcnxzCMQulAARtDyfkRDgd50f | doccnVRMcLTfhON3R9OLZT7VHgf | doc | https://reliablesense.feishu.cn/wiki/wikcnxzCMQulAARtDyfkRDgd50f | 🔗 链接索引 |
+| 3 | 后端开发流程规范 | wikcn6Bh2oD6cUp1yrODCPOM2qh | CUA7dlJrRoTZ3Fx8t5kc1UiRneb | docx | https://reliablesense.feishu.cn/wiki/wikcn6Bh2oD6cUp1yrODCPOM2qh | ✅ 已迁移 |
+| 4 | 微服务说明 | GKGmwu9YBibrqkk6AJucGBqGngb | F2PhdYeMCoHjP6xd8y0cyz6Mnac | docx | https://reliablesense.feishu.cn/wiki/GKGmwu9YBibrqkk6AJucGBqGngb | ✅ 已迁移 |
 
 #### 基础平台相关文档 子节点
 
 | # | 标题 | Node Token | Token (obj) | obj_type | has_child | 飞书链接 | 状态 |
 |---|------|-----------|----------|----------|-----------|----------|------|
-| 1 | CI/CD流程介绍 | wikcn1AfPcjP7uzvomNTgpH4GVd | doccnqi4YxvSVSY23MSLXIkwIKe | doc | — | https://reliablesense.feishu.cn/wiki/wikcn1AfPcjP7uzvomNTgpH4GVd | ⏳ |
-| 2 | Gitlab CI/CD说明 | wikcnfTITMB8SHFIYJpy55dEJnd | doccnUileviuvksypU7AAbSEGwg | doc | ✅ | https://reliablesense.feishu.cn/wiki/wikcnfTITMB8SHFIYJpy55dEJnd | ⏳ |
-| 3 | 开发分支管理规范 | wikcnvRUrCKYizkTNNFDlMVOAfg | doccnlE0yWc24L79rE98oSVsY8d | doc | — | https://reliablesense.feishu.cn/wiki/wikcnvRUrCKYizkTNNFDlMVOAfg | ⏳ |
-| 4 | 私有化部署 | wikcnauUEEAen7cTVwneQruu0Pb | doxcn0gIaETOcyD1LPWPzUjSBTd | docx | ✅ | https://reliablesense.feishu.cn/wiki/wikcnauUEEAen7cTVwneQruu0Pb | ⏳ |
-| 5 | Deployment-English Version | LsYDwKdh9ik0qXkGz4QcKndinQb | Lm19danLpoBMNixbpIxcrSVtn1b | docx | ✅ | https://reliablesense.feishu.cn/wiki/LsYDwKdh9ik0qXkGz4QcKndinQb | ⏳ |
-| 6 | 办公网VPN手册 | wikcnxjaAkdiXVbLMrRbIutJYze | I3SHdzjW6oRYcWxAaHQcGFDansT | docx | ✅ | https://reliablesense.feishu.cn/wiki/wikcnxjaAkdiXVbLMrRbIutJYze | ⏳ |
+| 1 | CI/CD流程介绍 | wikcn1AfPcjP7uzvomNTgpH4GVd | doccnqi4YxvSVSY23MSLXIkwIKe | doc | — | https://reliablesense.feishu.cn/wiki/wikcn1AfPcjP7uzvomNTgpH4GVd | 🔗 链接索引 |
+| 2 | Gitlab CI/CD说明 | wikcnfTITMB8SHFIYJpy55dEJnd | doccnUileviuvksypU7AAbSEGwg | doc | ✅ | https://reliablesense.feishu.cn/wiki/wikcnfTITMB8SHFIYJpy55dEJnd | 🔗 链接索引 |
+| 3 | 开发分支管理规范 | wikcnvRUrCKYizkTNNFDlMVOAfg | doccnlE0yWc24L79rE98oSVsY8d | doc | — | https://reliablesense.feishu.cn/wiki/wikcnvRUrCKYizkTNNFDlMVOAfg | 🔗 链接索引 |
+| 4 | 私有化部署 | wikcnauUEEAen7cTVwneQruu0Pb | doxcn0gIaETOcyD1LPWPzUjSBTd | docx | ✅ | https://reliablesense.feishu.cn/wiki/wikcnauUEEAen7cTVwneQruu0Pb | ✅ 已迁移 |
+| 5 | Deployment-English Version | LsYDwKdh9ik0qXkGz4QcKndinQb | Lm19danLpoBMNixbpIxcrSVtn1b | docx | ✅ | https://reliablesense.feishu.cn/wiki/LsYDwKdh9ik0qXkGz4QcKndinQb | ✅ 已迁移 |
+| 6 | 办公网VPN手册 | wikcnxjaAkdiXVbLMrRbIutJYze | I3SHdzjW6oRYcWxAaHQcGFDansT | docx | ✅ | https://reliablesense.feishu.cn/wiki/wikcnxjaAkdiXVbLMrRbIutJYze | ✅ 已迁移 |
 
 ##### Gitlab CI/CD说明 子节点
 
 | # | 标题 | Node Token | Token (obj) | obj_type | 飞书链接 | 状态 |
 |---|------|-----------|----------|----------|----------|------|
-| 1 | 前/后端 CI/CD | wikcnv7Dtt3zEVyTL8AuEj2Yy7g | doccncqa7DwRv2fD3Z3KA6oO4oh | doc | https://reliablesense.feishu.cn/wiki/wikcnv7Dtt3zEVyTL8AuEj2Yy7g | ⏳ |
+| 1 | 前/后端 CI/CD | wikcnv7Dtt3zEVyTL8AuEj2Yy7g | doccncqa7DwRv2fD3Z3KA6oO4oh | doc | https://reliablesense.feishu.cn/wiki/wikcnv7Dtt3zEVyTL8AuEj2Yy7g | 🔗 链接索引 |
 
 ##### 私有化部署 子节点
 
 | # | 标题 | Node Token | Token (obj) | obj_type | 飞书链接 | 状态 |
 |---|------|-----------|----------|----------|----------|------|
-| 1 | A. 服务器环境准备 | wikcnvUX6f3VFJZ8uMUNP5UKrXe | doxcniK4NdHGlK7G8gccJ5WYnEg | docx | https://reliablesense.feishu.cn/wiki/wikcnvUX6f3VFJZ8uMUNP5UKrXe | ⏳ |
-| 2 | B.1. 集群搭建[K3s] (在线版) | wikcnMjGUant3OpbEaUncdquAbg | doxcn67UW5vdFM5qaPG3tc9zMdd | docx | https://reliablesense.feishu.cn/wiki/wikcnMjGUant3OpbEaUncdquAbg | ⏳ |
-| 3 | B.2. 集群搭建[K3s] (离线版) | wikcnoMmmrEUo2bgOLcESnNBhQe | SuiNdHlegogxpcxnqqhc8AuKnZ1 | docx | https://reliablesense.feishu.cn/wiki/wikcnoMmmrEUo2bgOLcESnNBhQe | ⏳ |
-| 4 | C. 集群内基础服务安装 | wikcnMEraAPj2mBXidl3KhbCNlc | doxcnSbULW58Lp1lXBy2tt8i80e | docx | https://reliablesense.feishu.cn/wiki/wikcnMEraAPj2mBXidl3KhbCNlc | ⏳ |
-| 5 | 命令行工具 oemctl | TIoMwLsjAi6qr9kYRCEcql2dnTb | J1C8daWxto4clexYnaDcKtgQnzf | docx | https://reliablesense.feishu.cn/wiki/TIoMwLsjAi6qr9kYRCEcql2dnTb | ⏳ |
+| 1 | A. 服务器环境准备 | wikcnvUX6f3VFJZ8uMUNP5UKrXe | doxcniK4NdHGlK7G8gccJ5WYnEg | docx | https://reliablesense.feishu.cn/wiki/wikcnvUX6f3VFJZ8uMUNP5UKrXe | ✅ 已迁移 |
+| 2 | B.1. 集群搭建[K3s] (在线版) | wikcnMjGUant3OpbEaUncdquAbg | doxcn67UW5vdFM5qaPG3tc9zMdd | docx | https://reliablesense.feishu.cn/wiki/wikcnMjGUant3OpbEaUncdquAbg | ✅ 已迁移 |
+| 3 | B.2. 集群搭建[K3s] (离线版) | wikcnoMmmrEUo2bgOLcESnNBhQe | SuiNdHlegogxpcxnqqhc8AuKnZ1 | docx | https://reliablesense.feishu.cn/wiki/wikcnoMmmrEUo2bgOLcESnNBhQe | ✅ 已迁移 |
+| 4 | C. 集群内基础服务安装 | wikcnMEraAPj2mBXidl3KhbCNlc | doxcnSbULW58Lp1lXBy2tt8i80e | docx | https://reliablesense.feishu.cn/wiki/wikcnMEraAPj2mBXidl3KhbCNlc | ✅ 已迁移 |
+| 5 | 命令行工具 oemctl | TIoMwLsjAi6qr9kYRCEcql2dnTb | J1C8daWxto4clexYnaDcKtgQnzf | docx | https://reliablesense.feishu.cn/wiki/TIoMwLsjAi6qr9kYRCEcql2dnTb | ✅ 已迁移 |
 
 ##### Deployment-English Version 子节点
 
 | # | 标题 | Node Token | Token (obj) | obj_type | 飞书链接 | 状态 |
 |---|------|-----------|----------|----------|----------|------|
-| 1 | A. Server environment preparation | FZdtwpJutirA7QkcpA8c9KM1nXe | CWnsdq3ryoYTSHxGAC0cpcoenbg | docx | https://reliablesense.feishu.cn/wiki/FZdtwpJutirA7QkcpA8c9KM1nXe | ⏳ |
-| 2 | B.1. Cluster setup [K3s] (online version) | YSIKw2tR8igrlDktqgmcIwwbn2b | Kgifd4mPJo5nuVxkmX2cF76unde | docx | https://reliablesense.feishu.cn/wiki/YSIKw2tR8igrlDktqgmcIwwbn2b | ⏳ |
-| 3 | B.2. Cluster setup [K3s] (offline version) | YbQcwsCptisqkdk3SWFcopjHnvg | NQgadYYYJo5e4sxLhxMcLMZ9nGB | docx | https://reliablesense.feishu.cn/wiki/YbQcwsCptisqkdk3SWFcopjHnvg | ⏳ |
-| 4 | C. Installation of basic services within the cluster | TFnuwaxRriELjQkuyUocgyhOnjf | MXFDdnQvAoKSMAxxdAXc2I9bnYb | docx | https://reliablesense.feishu.cn/wiki/TFnuwaxRriELjQkuyUocgyhOnjf | ⏳ |
+| 1 | A. Server environment preparation | FZdtwpJutirA7QkcpA8c9KM1nXe | CWnsdq3ryoYTSHxGAC0cpcoenbg | docx | https://reliablesense.feishu.cn/wiki/FZdtwpJutirA7QkcpA8c9KM1nXe | ✅ 已迁移 |
+| 2 | B.1. Cluster setup [K3s] (online version) | YSIKw2tR8igrlDktqgmcIwwbn2b | Kgifd4mPJo5nuVxkmX2cF76unde | docx | https://reliablesense.feishu.cn/wiki/YSIKw2tR8igrlDktqgmcIwwbn2b | ✅ 已迁移 |
+| 3 | B.2. Cluster setup [K3s] (offline version) | YbQcwsCptisqkdk3SWFcopjHnvg | NQgadYYYJo5e4sxLhxMcLMZ9nGB | docx | https://reliablesense.feishu.cn/wiki/YbQcwsCptisqkdk3SWFcopjHnvg | ✅ 已迁移 |
+| 4 | C. Installation of basic services within the cluster | TFnuwaxRriELjQkuyUocgyhOnjf | MXFDdnQvAoKSMAxxdAXc2I9bnYb | docx | https://reliablesense.feishu.cn/wiki/TFnuwaxRriELjQkuyUocgyhOnjf | ✅ 已迁移 |
 
 ##### 办公网VPN手册 子节点
 
 | # | 标题 | Node Token | Token (obj) | obj_type | 飞书链接 | 状态 |
 |---|------|-----------|----------|----------|----------|------|
-| 1 | 办公网v2ray操作手册 | wikcnYkN6s2wJU7Mg2O1ElNoT4c | G1OBdhlTSotGV6xRToRcXlzWnoe | docx | https://reliablesense.feishu.cn/wiki/wikcnYkN6s2wJU7Mg2O1ElNoT4c | ⏳ |
-| 2 | 办公网WireGuard操作手册 | wikcnEwrC67xGlAMLxCkttzewsb | Q4OzdL6ZboG5dSxgqqlcNn4WnFf | docx | https://reliablesense.feishu.cn/wiki/wikcnEwrC67xGlAMLxCkttzewsb | ⏳ |
+| 1 | 办公网v2ray操作手册 | wikcnYkN6s2wJU7Mg2O1ElNoT4c | G1OBdhlTSotGV6xRToRcXlzWnoe | docx | https://reliablesense.feishu.cn/wiki/wikcnYkN6s2wJU7Mg2O1ElNoT4c | ✅ 已迁移 |
+| 2 | 办公网WireGuard操作手册 | wikcnEwrC67xGlAMLxCkttzewsb | Q4OzdL6ZboG5dSxgqqlcNn4WnFf | docx | https://reliablesense.feishu.cn/wiki/wikcnEwrC67xGlAMLxCkttzewsb | ✅ 已迁移 |
 
 #### 测试相关文档 子节点
 
 | # | 标题 | Node Token | Token (obj) | obj_type | has_child | 飞书链接 | 状态 |
 |---|------|-----------|----------|----------|-----------|----------|------|
-| 1 | 测试流程1 | wikcng0FqNpajFPemHO3xNQPUle | doccnvKjRt0RgI04vi1UFEuAW4f | doc | — | https://reliablesense.feishu.cn/wiki/wikcng0FqNpajFPemHO3xNQPUle | ⏳ |
+| 1 | 测试流程1 | wikcng0FqNpajFPemHO3xNQPUle | doccnvKjRt0RgI04vi1UFEuAW4f | doc | — | https://reliablesense.feishu.cn/wiki/wikcng0FqNpajFPemHO3xNQPUle | 🔗 链接索引 |
 | 2 | 测试管理规范.doc | wikcnikePj6eb5QoEOYZNdxu8Md | boxcno1BITT4pkz5F6Oq4YuRjgd | file | — | https://reliablesense.feishu.cn/wiki/wikcnikePj6eb5QoEOYZNdxu8Md | 🔗 保留链接 |
-| 3 | 测试的流程及内容 | wikcn3opk036dWpAkU4yOEb91fi | doccnUSmCPXtSpHsITXo3gMqtqd | doc | — | https://reliablesense.feishu.cn/wiki/wikcn3opk036dWpAkU4yOEb91fi | ⏳ |
-| 4 | 测试计划（初稿） | wikcneJwlPPT9hSaaQQLlVRVWbd | doccnXKbFqjR5Up9dVYrzjvUUmh | doc | — | https://reliablesense.feishu.cn/wiki/wikcneJwlPPT9hSaaQQLlVRVWbd | ⏳ |
-| 5 | 测试平台对比 | wikcnPCulBP9nuK1we7GZP8OMgd | doccnoMeCyK1lHtPzzIxxZTmB8U | doc | — | https://reliablesense.feishu.cn/wiki/wikcnPCulBP9nuK1we7GZP8OMgd | ⏳ |
-| 6 | 禅道测试相关操作手册 | wikcnAEHs629QoVPT40ZCpOGLog | doccnTqc7EnZxfZYH0T20rXWLVe | doc | — | https://reliablesense.feishu.cn/wiki/wikcnAEHs629QoVPT40ZCpOGLog | ⏳ |
-| 7 | 性能测试 | wikcnq3SiaY6yUonTyDWxGj8Zjg | doxcnRNCrffisaiX1R2DA9YBcTc | docx | ✅ | https://reliablesense.feishu.cn/wiki/wikcnq3SiaY6yUonTyDWxGj8Zjg | ⏳ |
+| 3 | 测试的流程及内容 | wikcn3opk036dWpAkU4yOEb91fi | doccnUSmCPXtSpHsITXo3gMqtqd | doc | — | https://reliablesense.feishu.cn/wiki/wikcn3opk036dWpAkU4yOEb91fi | 🔗 链接索引 |
+| 4 | 测试计划（初稿） | wikcneJwlPPT9hSaaQQLlVRVWbd | doccnXKbFqjR5Up9dVYrzjvUUmh | doc | — | https://reliablesense.feishu.cn/wiki/wikcneJwlPPT9hSaaQQLlVRVWbd | 🔗 链接索引 |
+| 5 | 测试平台对比 | wikcnPCulBP9nuK1we7GZP8OMgd | doccnoMeCyK1lHtPzzIxxZTmB8U | doc | — | https://reliablesense.feishu.cn/wiki/wikcnPCulBP9nuK1we7GZP8OMgd | 🔗 链接索引 |
+| 6 | 禅道测试相关操作手册 | wikcnAEHs629QoVPT40ZCpOGLog | doccnTqc7EnZxfZYH0T20rXWLVe | doc | — | https://reliablesense.feishu.cn/wiki/wikcnAEHs629QoVPT40ZCpOGLog | 🔗 链接索引 |
+| 7 | 性能测试 | wikcnq3SiaY6yUonTyDWxGj8Zjg | doxcnRNCrffisaiX1R2DA9YBcTc | docx | ✅ | https://reliablesense.feishu.cn/wiki/wikcnq3SiaY6yUonTyDWxGj8Zjg | ✅ 已迁移 |
 
 ##### 性能测试 子节点
 
 | # | 标题 | Node Token | Token (obj) | obj_type | 飞书链接 | 状态 |
 |---|------|-----------|----------|----------|----------|------|
-| 1 | 稳定性测试 | wikcnNPUssjUwOf9Ol3BUOGeVde | doxcnPMwcMjDrt0cdQBUlY9Jldf | docx | https://reliablesense.feishu.cn/wiki/wikcnNPUssjUwOf9Ol3BUOGeVde | ⏳ |
-| 2 | locust报告参数说明 | wikcnE7Y32JZlQ4eiMSfkfTelFe | doxcnyVpKX1V11tJYH2sKdff3Ph | docx | https://reliablesense.feishu.cn/wiki/wikcnE7Y32JZlQ4eiMSfkfTelFe | ⏳ |
+| 1 | 稳定性测试 | wikcnNPUssjUwOf9Ol3BUOGeVde | doxcnPMwcMjDrt0cdQBUlY9Jldf | docx | https://reliablesense.feishu.cn/wiki/wikcnNPUssjUwOf9Ol3BUOGeVde | ✅ 已迁移 |
+| 2 | locust报告参数说明 | wikcnE7Y32JZlQ4eiMSfkfTelFe | doxcnyVpKX1V11tJYH2sKdff3Ph | docx | https://reliablesense.feishu.cn/wiki/wikcnE7Y32JZlQ4eiMSfkfTelFe | ✅ 已迁移 |
 
 ---
 
@@ -697,28 +701,28 @@ modified: 2026-03-19
 
 | # | 标题 | Node Token | Token (obj) | obj_type | has_child | 飞书链接 | 状态 |
 |---|------|-----------|----------|----------|-----------|----------|------|
-| 1 | 项目启动 | XXBIwuZzmiCxfqkwDOVcO6DqnEc | EGXddWSPeoMgiVxG4YIcm4ywnud | docx | — | https://reliablesense.feishu.cn/wiki/XXBIwuZzmiCxfqkwDOVcO6DqnEc | ⏳ |
-| 2 | 项目规划 | IkiEw4MTPieyHrkEcIhcLXGingh | JoYzdWiuUoTsEhx1c0BcK4fCnhc | docx | — | https://reliablesense.feishu.cn/wiki/IkiEw4MTPieyHrkEcIhcLXGingh | ⏳ |
+| 1 | 项目启动 | XXBIwuZzmiCxfqkwDOVcO6DqnEc | EGXddWSPeoMgiVxG4YIcm4ywnud | docx | — | https://reliablesense.feishu.cn/wiki/XXBIwuZzmiCxfqkwDOVcO6DqnEc | ✅ 已迁移 |
+| 2 | 项目规划 | IkiEw4MTPieyHrkEcIhcLXGingh | JoYzdWiuUoTsEhx1c0BcK4fCnhc | docx | — | https://reliablesense.feishu.cn/wiki/IkiEw4MTPieyHrkEcIhcLXGingh | ✅ 已迁移 |
 | 3 | 项目甘特图 | Nw5gwHmWTifcYxkqjPjcWFXlnyc | Pn2Rs9RZvhM3jYtYnJoc6cJQnQd | sheet | — | https://reliablesense.feishu.cn/wiki/Nw5gwHmWTifcYxkqjPjcWFXlnyc | 🔗 保留链接 |
-| 4 | 团队会议 | P7brwY9LkiEslFkgolZcKnubn6c | CfePdOJvxoscSrxXLFFczDUznig | docx | ✅ | https://reliablesense.feishu.cn/wiki/P7brwY9LkiEslFkgolZcKnubn6c | ⏳ |
-| 5 | 项目复盘 | O3eLw6EjDiNBmpk4zNNcO1WnnJc | DhkPdNvBooRivhxL5kMcfjm1nCf | docx | ✅ | https://reliablesense.feishu.cn/wiki/O3eLw6EjDiNBmpk4zNNcO1WnnJc | ⏳ |
-| 6 | 文档模版 | Qb9kwDROEiR50MknBEJcI2K1nQc | Y0F7diEjXo2S0hxCo4ucoYSTnFd | docx | — | https://reliablesense.feishu.cn/wiki/Qb9kwDROEiR50MknBEJcI2K1nQc | ⏳ |
-| 7 | 售前项目 | JEWDwuaz7iT5m2kq5c0c5ScAnOh | OujDdgCTHoXRPzxGLf8cp76pnHc | docx | — | https://reliablesense.feishu.cn/wiki/JEWDwuaz7iT5m2kq5c0c5ScAnOh | ⏳ |
-| 8 | 售中项目 | Dr2qwhgN5i9y0Uks7YpcH5panHf | BREFdC7hBouQESxhGJzcFLWSn6e | docx | — | https://reliablesense.feishu.cn/wiki/Dr2qwhgN5i9y0Uks7YpcH5panHf | ⏳ |
-| 9 | 售后项目 | RDCHwOqDFiqIbBkDbeZchAo6nCf | Tu7EdgwvooFo5oxVZX2c4RWlnjA | docx | — | https://reliablesense.feishu.cn/wiki/RDCHwOqDFiqIbBkDbeZchAo6nCf | ⏳ |
+| 4 | 团队会议 | P7brwY9LkiEslFkgolZcKnubn6c | CfePdOJvxoscSrxXLFFczDUznig | docx | ✅ | https://reliablesense.feishu.cn/wiki/P7brwY9LkiEslFkgolZcKnubn6c | ✅ 已迁移 |
+| 5 | 项目复盘 | O3eLw6EjDiNBmpk4zNNcO1WnnJc | DhkPdNvBooRivhxL5kMcfjm1nCf | docx | ✅ | https://reliablesense.feishu.cn/wiki/O3eLw6EjDiNBmpk4zNNcO1WnnJc | ✅ 已迁移 |
+| 6 | 文档模版 | Qb9kwDROEiR50MknBEJcI2K1nQc | Y0F7diEjXo2S0hxCo4ucoYSTnFd | docx | — | https://reliablesense.feishu.cn/wiki/Qb9kwDROEiR50MknBEJcI2K1nQc | ✅ 已迁移 |
+| 7 | 售前项目 | JEWDwuaz7iT5m2kq5c0c5ScAnOh | OujDdgCTHoXRPzxGLf8cp76pnHc | docx | — | https://reliablesense.feishu.cn/wiki/JEWDwuaz7iT5m2kq5c0c5ScAnOh | 🔗 链接索引 |
+| 8 | 售中项目 | Dr2qwhgN5i9y0Uks7YpcH5panHf | BREFdC7hBouQESxhGJzcFLWSn6e | docx | — | https://reliablesense.feishu.cn/wiki/Dr2qwhgN5i9y0Uks7YpcH5panHf | 🔗 链接索引 |
+| 9 | 售后项目 | RDCHwOqDFiqIbBkDbeZchAo6nCf | Tu7EdgwvooFo5oxVZX2c4RWlnjA | docx | — | https://reliablesense.feishu.cn/wiki/RDCHwOqDFiqIbBkDbeZchAo6nCf | 🔗 链接索引 |
 
 #### 团队会议 子节点
 
 | # | 标题 | Node Token | Token (obj) | obj_type | 飞书链接 | 状态 |
 |---|------|-----------|----------|----------|----------|------|
-| 1 | 每日进展同步 | MzPPw96cFiZzQnkQg9ccE1i6n0f | XPxZdbSObovcRZxyoFdcqnvlnhe | docx | https://reliablesense.feishu.cn/wiki/MzPPw96cFiZzQnkQg9ccE1i6n0f | ⏳ |
-| 2 | 团队周会 | BFEMwNek2izj1wkluMYcC9WynJh | MNAVdRNXqoIQ92x3MkfcrCWfnTf | docx | https://reliablesense.feishu.cn/wiki/BFEMwNek2izj1wkluMYcC9WynJh | ⏳ |
+| 1 | 每日进展同步 | MzPPw96cFiZzQnkQg9ccE1i6n0f | XPxZdbSObovcRZxyoFdcqnvlnhe | docx | https://reliablesense.feishu.cn/wiki/MzPPw96cFiZzQnkQg9ccE1i6n0f | ✅ 已迁移 |
+| 2 | 团队周会 | BFEMwNek2izj1wkluMYcC9WynJh | MNAVdRNXqoIQ92x3MkfcrCWfnTf | docx | https://reliablesense.feishu.cn/wiki/BFEMwNek2izj1wkluMYcC9WynJh | ✅ 已迁移 |
 
 #### 项目复盘 子节点
 
 | # | 标题 | Node Token | Token (obj) | obj_type | 飞书链接 | 状态 |
 |---|------|-----------|----------|----------|----------|------|
-| 1 | 项目实施部署问题复盘 | UMvfwLQ9FiKN43k4ls7cRQInnih | DT9Gd930poFinbxbeIQcv6wZnJ2 | docx | https://reliablesense.feishu.cn/wiki/UMvfwLQ9FiKN43k4ls7cRQInnih | ⏳ |
+| 1 | 项目实施部署问题复盘 | UMvfwLQ9FiKN43k4ls7cRQInnih | DT9Gd930poFinbxbeIQcv6wZnJ2 | docx | https://reliablesense.feishu.cn/wiki/UMvfwLQ9FiKN43k4ls7cRQInnih | 🔗 链接索引 |
 
 ---
 
@@ -726,20 +730,20 @@ modified: 2026-03-19
 
 | # | 标题 | Node Token | Token (obj) | obj_type | has_child | 飞书链接 | 状态 |
 |---|------|-----------|----------|----------|-----------|----------|------|
-| 1 | 人力资源制度 | wikcnJIcJQvqJJXJ7A25QYmCTDc | doccnw7E90pRZqZbad9ZqMraele | doc | ✅ | https://reliablesense.feishu.cn/wiki/wikcnJIcJQvqJJXJ7A25QYmCTDc | ⏳ |
-| 2 | 财务制度 | wikcnn9rN6gVZXVRdHcqu6QMOph | doccn1pktcI7i62LgQO3wTFvCDh | doc | — | https://reliablesense.feishu.cn/wiki/wikcnn9rN6gVZXVRdHcqu6QMOph | ⏳ |
-| 3 | 法务制度 | wikcnh9IhuLrBfkAeUMCQhZDHCb | doccn2IXTE0xjbI4zNUzhNjdOCc | doc | — | https://reliablesense.feishu.cn/wiki/wikcnh9IhuLrBfkAeUMCQhZDHCb | ⏳ |
-| 4 | 公关制度 | wikcnUSiOFEFp7mvFYICWsSkHxh | doccn8tPZL9k9QZy2MzWif1qWDb | doc | — | https://reliablesense.feishu.cn/wiki/wikcnUSiOFEFp7mvFYICWsSkHxh | ⏳ |
-| 5 | 采购制度 | wikcnWKYA5VzSsah041ULifZnbh | doccnNlv7YbCNSsWjdLnLTkRYWb | doc | — | https://reliablesense.feishu.cn/wiki/wikcnWKYA5VzSsah041ULifZnbh | ⏳ |
+| 1 | 人力资源制度 | wikcnJIcJQvqJJXJ7A25QYmCTDc | doccnw7E90pRZqZbad9ZqMraele | doc | ✅ | https://reliablesense.feishu.cn/wiki/wikcnJIcJQvqJJXJ7A25QYmCTDc | 🔗 链接索引 |
+| 2 | 财务制度 | wikcnn9rN6gVZXVRdHcqu6QMOph | doccn1pktcI7i62LgQO3wTFvCDh | doc | — | https://reliablesense.feishu.cn/wiki/wikcnn9rN6gVZXVRdHcqu6QMOph | 🔗 链接索引 |
+| 3 | 法务制度 | wikcnh9IhuLrBfkAeUMCQhZDHCb | doccn2IXTE0xjbI4zNUzhNjdOCc | doc | — | https://reliablesense.feishu.cn/wiki/wikcnh9IhuLrBfkAeUMCQhZDHCb | 🔗 链接索引 |
+| 4 | 公关制度 | wikcnUSiOFEFp7mvFYICWsSkHxh | doccn8tPZL9k9QZy2MzWif1qWDb | doc | — | https://reliablesense.feishu.cn/wiki/wikcnUSiOFEFp7mvFYICWsSkHxh | 🔗 链接索引 |
+| 5 | 采购制度 | wikcnWKYA5VzSsah041ULifZnbh | doccnNlv7YbCNSsWjdLnLTkRYWb | doc | — | https://reliablesense.feishu.cn/wiki/wikcnWKYA5VzSsah041ULifZnbh | 🔗 链接索引 |
 
 #### 人力资源制度 子节点
 
 | # | 标题 | Node Token | Token (obj) | obj_type | 飞书链接 | 状态 |
 |---|------|-----------|----------|----------|----------|------|
-| 1 | 员工管理制度 | wikcnHzVUBllcL5dcNFvWMe2cBc | doccn2AHiWmD3UQoSfsKJOWsTkc | doc | https://reliablesense.feishu.cn/wiki/wikcnHzVUBllcL5dcNFvWMe2cBc | ⏳ |
-| 2 | 薪酬福利制度 | wikcnu2YMoUfFkRiTLD6p2NYUod | doccn1Ub5gQHHvFcnKIkDy1HNmc | doc | https://reliablesense.feishu.cn/wiki/wikcnu2YMoUfFkRiTLD6p2NYUod | ⏳ |
-| 3 | 绩效评估制度 | wikcnakqZiUVkeYxXNHpCIDjmlf | doccn7ZeBuL5f7dFVfYOl9ktgUg | doc | https://reliablesense.feishu.cn/wiki/wikcnakqZiUVkeYxXNHpCIDjmlf | ⏳ |
-| 4 | 人才政策制度 | wikcnt4hNsedpUPzHhSqEH8PqJf | doccnwBIuqGBMP6DDr49tpEK98J | doc | https://reliablesense.feishu.cn/wiki/wikcnt4hNsedpUPzHhSqEH8PqJf | ⏳ |
+| 1 | 员工管理制度 | wikcnHzVUBllcL5dcNFvWMe2cBc | doccn2AHiWmD3UQoSfsKJOWsTkc | doc | https://reliablesense.feishu.cn/wiki/wikcnHzVUBllcL5dcNFvWMe2cBc | 🔗 链接索引 |
+| 2 | 薪酬福利制度 | wikcnu2YMoUfFkRiTLD6p2NYUod | doccn1Ub5gQHHvFcnKIkDy1HNmc | doc | https://reliablesense.feishu.cn/wiki/wikcnu2YMoUfFkRiTLD6p2NYUod | 🔗 链接索引 |
+| 3 | 绩效评估制度 | wikcnakqZiUVkeYxXNHpCIDjmlf | doccn7ZeBuL5f7dFVfYOl9ktgUg | doc | https://reliablesense.feishu.cn/wiki/wikcnakqZiUVkeYxXNHpCIDjmlf | 🔗 链接索引 |
+| 4 | 人才政策制度 | wikcnt4hNsedpUPzHhSqEH8PqJf | doccnwBIuqGBMP6DDr49tpEK98J | doc | https://reliablesense.feishu.cn/wiki/wikcnt4hNsedpUPzHhSqEH8PqJf | 🔗 链接索引 |
 
 ---
 
@@ -751,29 +755,29 @@ modified: 2026-03-19
 
 | # | 标题 | Node Token | Token (obj) | obj_type | 飞书链接 | 状态 |
 |---|------|-----------|----------|----------|----------|------|
-| 1 | 运行有问题的项目及其结果截图 | SAC6wR9XXiiBAKk0uvAcBPI4nmd | YJjcdrAc5o7O7kxtR9Xc9jn9nOh | docx | https://reliablesense.feishu.cn/wiki/SAC6wR9XXiiBAKk0uvAcBPI4nmd | ⏳ |
-| 2 | 订阅压线事件 | UwMHwNSUxie9kNkrqVwc0SwOnKe | YcxMdvp8no99qkx56tncdG4gnpc | docx | https://reliablesense.feishu.cn/wiki/UwMHwNSUxie9kNkrqVwc0SwOnKe | ⏳ |
-| 3 | 车载定位连调总结 | I7C8w9kEBiLR3YkaRyJcbekunVf | F0Aad5kN5oj6BsxpFbfck2K0nAh | docx | https://reliablesense.feishu.cn/wiki/I7C8w9kEBiLR3YkaRyJcbekunVf | ⏳ |
-| 4 | Iot接口对接代码 | PJMvwq7JFipjUIkquXpcVEt2nUf | N4TLdj01ZoN4DvxpLjucSWwcnSF | docx | https://reliablesense.feishu.cn/wiki/PJMvwq7JFipjUIkquXpcVEt2nUf | ⏳ |
-| 5 | Rocket命令行测试 | NECEwJ2pUienKZkrcsRc6Pranyg | VvSpdgrK0orNMuxOEkbcegTpnqh | docx | https://reliablesense.feishu.cn/wiki/NECEwJ2pUienKZkrcsRc6Pranyg | ⏳ |
-| 6 | 测试总结 | Bv23wHWcfi8SuOkDS38c8TAynZc | WnVNdw684oR504x3AykcDWQAnhg | docx | https://reliablesense.feishu.cn/wiki/Bv23wHWcfi8SuOkDS38c8TAynZc | ⏳ |
-| 7 | 重定位 | EcASw46qMijgXFkNqQZcWstJnWe | H1nPdYtz8owyl6x9JEfc2ePQnGd | docx | https://reliablesense.feishu.cn/wiki/EcASw46qMijgXFkNqQZcWstJnWe | ⏳ |
-| 8 | 南宁机场2025年12月26日 | SLcMwfrKlibIwqkwU6ccaTVZnIc | RaiLdwavCo64ICxsJUGc4f41nKc | docx | https://reliablesense.feishu.cn/wiki/SLcMwfrKlibIwqkwU6ccaTVZnIc | ⏳ |
-| 9 | 工作交接 | KumhwCH0JiPH97k7CI5cOVcznsf | OY80dGte7oB63kxe6XlcK3tXnYJ | docx | https://reliablesense.feishu.cn/wiki/KumhwCH0JiPH97k7CI5cOVcznsf | ⏳ |
+| 1 | 运行有问题的项目及其结果截图 | SAC6wR9XXiiBAKk0uvAcBPI4nmd | YJjcdrAc5o7O7kxtR9Xc9jn9nOh | docx | https://reliablesense.feishu.cn/wiki/SAC6wR9XXiiBAKk0uvAcBPI4nmd | ✅ 已迁移 |
+| 2 | 订阅压线事件 | UwMHwNSUxie9kNkrqVwc0SwOnKe | YcxMdvp8no99qkx56tncdG4gnpc | docx | https://reliablesense.feishu.cn/wiki/UwMHwNSUxie9kNkrqVwc0SwOnKe | ✅ 已迁移 |
+| 3 | 车载定位连调总结 | I7C8w9kEBiLR3YkaRyJcbekunVf | F0Aad5kN5oj6BsxpFbfck2K0nAh | docx | https://reliablesense.feishu.cn/wiki/I7C8w9kEBiLR3YkaRyJcbekunVf | ✅ 已迁移 |
+| 4 | Iot接口对接代码 | PJMvwq7JFipjUIkquXpcVEt2nUf | N4TLdj01ZoN4DvxpLjucSWwcnSF | docx | https://reliablesense.feishu.cn/wiki/PJMvwq7JFipjUIkquXpcVEt2nUf | ✅ 已迁移 |
+| 5 | Rocket命令行测试 | NECEwJ2pUienKZkrcsRc6Pranyg | VvSpdgrK0orNMuxOEkbcegTpnqh | docx | https://reliablesense.feishu.cn/wiki/NECEwJ2pUienKZkrcsRc6Pranyg | ✅ 已迁移 |
+| 6 | 测试总结 | Bv23wHWcfi8SuOkDS38c8TAynZc | WnVNdw684oR504x3AykcDWQAnhg | docx | https://reliablesense.feishu.cn/wiki/Bv23wHWcfi8SuOkDS38c8TAynZc | ✅ 已迁移 |
+| 7 | 重定位 | EcASw46qMijgXFkNqQZcWstJnWe | H1nPdYtz8owyl6x9JEfc2ePQnGd | docx | https://reliablesense.feishu.cn/wiki/EcASw46qMijgXFkNqQZcWstJnWe | ✅ 已迁移 |
+| 8 | 南宁机场2025年12月26日 | SLcMwfrKlibIwqkwU6ccaTVZnIc | RaiLdwavCo64ICxsJUGc4f41nKc | docx | https://reliablesense.feishu.cn/wiki/SLcMwfrKlibIwqkwU6ccaTVZnIc | ✅ 已迁移 |
+| 9 | 工作交接 | KumhwCH0JiPH97k7CI5cOVcznsf | OY80dGte7oB63kxe6XlcK3tXnYJ | docx | https://reliablesense.feishu.cn/wiki/KumhwCH0JiPH97k7CI5cOVcznsf | ✅ 已迁移 |
 
 #### Space `7527250303092015107`（2 节点）
 
 | # | 标题 | Node Token | Token (obj) | obj_type | 飞书链接 | 状态 |
 |---|------|-----------|----------|----------|----------|------|
-| 1 | 知识问答 | Mb5Sw96iIiXgDkkgB79ciA13nph | BuUQdbBMWoaB6LxYN3YcA3FEn3f | docx | https://reliablesense.feishu.cn/wiki/Mb5Sw96iIiXgDkkgB79ciA13nph | ⏳ |
+| 1 | 知识问答 | Mb5Sw96iIiXgDkkgB79ciA13nph | BuUQdbBMWoaB6LxYN3YcA3FEn3f | docx | https://reliablesense.feishu.cn/wiki/Mb5Sw96iIiXgDkkgB79ciA13nph | ✅ 已迁移 |
 | 2 | 费用报销单 | YDALwrkOgipenTkarYrcvNEEnPg | Obrtsq2GnhTDubtEQaucpakonZf | sheet | https://reliablesense.feishu.cn/wiki/YDALwrkOgipenTkarYrcvNEEnPg | 🔗 保留链接 |
 
 #### Space `7527246326739157011`（2 节点）
 
 | # | 标题 | Node Token | Token (obj) | obj_type | 飞书链接 | 状态 |
 |---|------|-----------|----------|----------|----------|------|
-| 1 | 知识问答 | AR6QwWP4yiUZUrku6F8c2LUvnDc | BLpTdACDWoAfURxRzP2cPeBmnzd | docx | https://reliablesense.feishu.cn/wiki/AR6QwWP4yiUZUrku6F8c2LUvnDc | ⏳ |
-| 2 | 视频会议助手与陈子杰的会话 2025年8月8日 | AH3AwTtFVizchQky49sc1R4vnYc | NQn2dUZh3otzcCxowijcMVx3nPg | docx | https://reliablesense.feishu.cn/wiki/AH3AwTtFVizchQky49sc1R4vnYc | ⏳ |
+| 1 | 知识问答 | AR6QwWP4yiUZUrku6F8c2LUvnDc | BLpTdACDWoAfURxRzP2cPeBmnzd | docx | https://reliablesense.feishu.cn/wiki/AR6QwWP4yiUZUrku6F8c2LUvnDc | ✅ 已迁移 |
+| 2 | 视频会议助手与陈子杰的会话 2025年8月8日 | AH3AwTtFVizchQky49sc1R4vnYc | NQn2dUZh3otzcCxowijcMVx3nPg | docx | https://reliablesense.feishu.cn/wiki/AH3AwTtFVizchQky49sc1R4vnYc | ✅ 已迁移 |
 
 ---
 
@@ -791,30 +795,30 @@ modified: 2026-03-19
 
 | # | 标题 | Node Token | Token (obj) | obj_type | 飞书链接 | 状态 |
 |---|------|-----------|----------|----------|----------|------|
-| 1 | 后端 2.7更新内容 2026.3.9 | AYprwPzeGiWaPlkUnVxcQWbMndc | RlWWdKLPio9JgQxOM94cqYBCnwg | docx | https://reliablesense.feishu.cn/wiki/AYprwPzeGiWaPlkUnVxcQWbMndc | ⏳ |
-| 2 | 2025年年终总结 | ZSDawo3uLi4lxXkGZP7cHGxBnXc | SKuRd7JuyoVxCyxAdA3cx7GTnzf | docx | https://reliablesense.feishu.cn/wiki/ZSDawo3uLi4lxXkGZP7cHGxBnXc | ⏳ |
+| 1 | 后端 2.7更新内容 2026.3.9 | AYprwPzeGiWaPlkUnVxcQWbMndc | RlWWdKLPio9JgQxOM94cqYBCnwg | docx | https://reliablesense.feishu.cn/wiki/AYprwPzeGiWaPlkUnVxcQWbMndc | ✅ 已迁移 |
+| 2 | 2025年年终总结 | ZSDawo3uLi4lxXkGZP7cHGxBnXc | SKuRd7JuyoVxCyxAdA3cx7GTnzf | docx | https://reliablesense.feishu.cn/wiki/ZSDawo3uLi4lxXkGZP7cHGxBnXc | ✅ 已迁移 |
 
 #### Space `7527985368571756572`（已知 3 节点）
 
 | # | 标题 | Node Token | Token (obj) | obj_type | 飞书链接 | 状态 |
 |---|------|-----------|----------|----------|----------|------|
-| 1 | 2025年度总结 | MqWawqoYkiJsQekf1y2c8Hatnve | Gwf9doDuro4zsjxChktc5zRknbc | docx | https://reliablesense.feishu.cn/wiki/MqWawqoYkiJsQekf1y2c8Hatnve | ⏳ |
-| 2 | Map-mobile v2.7 版本更新报告 2026-03-11 | WiJ2wFB10iQ98skKC4lcgQgqn9b | Pje7dY48koYX1hxbnuEcq5Munmz | docx | https://reliablesense.feishu.cn/wiki/WiJ2wFB10iQ98skKC4lcgQgqn9b | ⏳ |
-| 3 | 前端Admin 2.7更新内容 2026.3.5 | OaQpwHMvhiduTDk5lBqcluCfnPf | HAmwdy6SnohV78xix73cWV0WnSg | docx | https://reliablesense.feishu.cn/wiki/OaQpwHMvhiduTDk5lBqcluCfnPf | ⏳ |
+| 1 | 2025年度总结 | MqWawqoYkiJsQekf1y2c8Hatnve | Gwf9doDuro4zsjxChktc5zRknbc | docx | https://reliablesense.feishu.cn/wiki/MqWawqoYkiJsQekf1y2c8Hatnve | ✅ 已迁移 |
+| 2 | Map-mobile v2.7 版本更新报告 2026-03-11 | WiJ2wFB10iQ98skKC4lcgQgqn9b | Pje7dY48koYX1hxbnuEcq5Munmz | docx | https://reliablesense.feishu.cn/wiki/WiJ2wFB10iQ98skKC4lcgQgqn9b | ✅ 已迁移 |
+| 3 | 前端Admin 2.7更新内容 2026.3.5 | OaQpwHMvhiduTDk5lBqcluCfnPf | HAmwdy6SnohV78xix73cWV0WnSg | docx | https://reliablesense.feishu.cn/wiki/OaQpwHMvhiduTDk5lBqcluCfnPf | ✅ 已迁移 |
 
 #### Space `7533431263699501059`（已知 2 节点）
 
 | # | 标题 | Node Token | Token (obj) | obj_type | 飞书链接 | 状态 |
 |---|------|-----------|----------|----------|----------|------|
-| 1 | 莱讯项目部刘远达 25年 年终总结 | TfMYwzD5citiR0kXrffcRYNUn8d | ZjEEdFBL2oEYqLxV5JDcCHpBnfd | docx | https://reliablesense.feishu.cn/wiki/TfMYwzD5citiR0kXrffcRYNUn8d | ⏳ |
+| 1 | 莱讯项目部刘远达 25年 年终总结 | TfMYwzD5citiR0kXrffcRYNUn8d | ZjEEdFBL2oEYqLxV5JDcCHpBnfd | docx | https://reliablesense.feishu.cn/wiki/TfMYwzD5citiR0kXrffcRYNUn8d | ✅ 已迁移 |
 | 2 | 库房管理 | HVIfwtSHbisE0Bkbc4rcCAhHnIc | PF71bTA9Yaqo3yscmxlcsdsnnVU | bitable | https://reliablesense.feishu.cn/wiki/HVIfwtSHbisE0Bkbc4rcCAhHnIc | 🔗 保留链接 |
 
 #### Space `7530814402510241820`（已知 2 节点）
 
 | # | 标题 | Node Token | Token (obj) | obj_type | 飞书链接 | 状态 |
 |---|------|-----------|----------|----------|----------|------|
-| 1 | 新太项目总结 | TK3Sw7sNkiEFD1kFx27cLTkznAV | NmbtdK5O7oy1lnx8XamcWItRn8d | docx | https://reliablesense.feishu.cn/wiki/TK3Sw7sNkiEFD1kFx27cLTkznAV | ⏳ |
-| 2 | 新太元验收标准总结 | LbYbwPb1QidoL0kpKakcRhCrnPe | Ms75dFCNMobyS0xMoH9c4ECHn2f | docx | https://reliablesense.feishu.cn/wiki/LbYbwPb1QidoL0kpKakcRhCrnPe | ⏳ |
+| 1 | 新太项目总结 | TK3Sw7sNkiEFD1kFx27cLTkznAV | NmbtdK5O7oy1lnx8XamcWItRn8d | docx | https://reliablesense.feishu.cn/wiki/TK3Sw7sNkiEFD1kFx27cLTkznAV | ✅ 已迁移 |
+| 2 | 新太元验收标准总结 | LbYbwPb1QidoL0kpKakcRhCrnPe | Ms75dFCNMobyS0xMoH9c4ECHn2f | docx | https://reliablesense.feishu.cn/wiki/LbYbwPb1QidoL0kpKakcRhCrnPe | ✅ 已迁移 |
 
 #### Space `7552826134947381251`（已知 1 节点）
 

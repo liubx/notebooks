@@ -3,8 +3,8 @@ title: Nginx反向代理配置（Notion迁移）
 type: code-snippet
 language: nginx
 tags:
-  - code-snippet
-  - 技术/运维/Nginx
+  - tech/nginx
+  - tech/运维
 source: "[[4-Archives/Notion/技术相关/Nginx配置 19d5e7a33a544564a81a0118f870fae0]]"
 created: 2026-03-16
 ---
