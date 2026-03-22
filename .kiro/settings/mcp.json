@@ -15,7 +15,8 @@
         "list_network_requests",
         "get_network_request",
         "fill",
-        "take_screenshot"
+        "take_screenshot",
+        "fill_form"
       ]
     },
     "lark-mcp": {

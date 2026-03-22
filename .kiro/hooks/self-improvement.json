@@ -1,0 +1,12 @@
+{
+  "name": "Self Improvement",
+  "version": "1.0.0",
+  "description": "对话结束时检查是否有新的学习、错误或功能需求需要记录到 .learnings/ 目录",
+  "when": {
+    "type": "agentStop"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "回顾刚才的对话，检查是否有以下情况需要记录到 .learnings/ 目录：\n1. 用户纠正了你的错误 → 记录到 .learnings/LEARNINGS.md\n2. 命令执行失败或 API 报错 → 记录到 .learnings/ERRORS.md\n3. 用户提出了新的功能需求 → 记录到 .learnings/FEATURE_REQUESTS.md\n4. 发现了更好的做法 → 记录到 .learnings/LEARNINGS.md\n\n如果没有值得记录的内容，不需要做任何操作。如果有，按照 .learnings/ 中的格式追加记录。记录使用中文。"
+  }
+}
