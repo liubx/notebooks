@@ -84,6 +84,40 @@ sudo systemctl restart iptables
 sudo iptables -L -v
 ```
 
+## Photon OS iptables
+
+Photon OS（VMware 的轻量 Linux，常用于 ESXi 虚拟机）使用 systemd 管理 iptables，配置文件和常规发行版不同。
+
+### 配置文件
+
+规则写在 `/etc/systemd/scripts/ip4save`：
+
+```bash
+vi /etc/systemd/scripts/ip4save
+```
+
+示例（在已有规则中添加端口）：
+
+```
+-A INPUT -p tcp -m tcp --dport 22 -j ACCEPT
+-A INPUT -p tcp -m tcp --dport 6334 -j ACCEPT
+-A INPUT -p tcp -m tcp --dport 8888 -j ACCEPT
+-A INPUT -p tcp -m tcp --dport 8999 -j ACCEPT
+-A INPUT -p tcp -m tcp --dport 5140 -j ACCEPT
+```
+
+### 重启生效
+
+```bash
+systemctl restart iptables
+```
+
+### 注意事项
+
+- 不要用 `iptables-save > /etc/iptables/rules.v4`，Photon OS 不读这个文件
+- 直接编辑 `ip4save` 文件，重启 iptables 服务即可加载
+- IPv6 对应文件是 `/etc/systemd/scripts/ip6save`
+
 ## 经验总结
 
 多次尝试 firewalld 的不同 zone（public → block → drop）配置防火墙，最终发现：
