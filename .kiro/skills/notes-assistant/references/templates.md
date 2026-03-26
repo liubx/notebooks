@@ -40,7 +40,7 @@ next: "[[{{next_date}}]]"
 \`\`\`tasks
 filter by function \
   const t=moment("{{date}}"),d='day',{due:{moment:u},start:{moment:s},created:{moment:c},done:{moment:D}}=task,y=moment(t).subtract(1,d),b=m=>m?.isSameOrBefore(t,d),q=m=>m?.isSame(t,d); \
-  return !task.isDone?!u||b(u)||b(s)||q(c):q(D)||D?.isSame(y,d)||false;
+  return !!(!task.isDone?!u||b(u)||b(s)||q(c):q(D)||D?.isSame(y,d));
 path does not include 4-Archives
 tags include #task/
 hide toolbar
@@ -58,13 +58,14 @@ group by function task.tags.includes("#task/work") ? "💼 工作" : task.tags.i
 group by function \
   const p=task.tags.find(t=>t.startsWith("#project/")),y=task.tags.find(t=>t.startsWith("#type/")),w=task.tags.includes("#task/work")?"Work":"Personal"; \
   return p?"📁 "+p.replace("#project/","")+" [[1-Projects/"+w+"/"+p.replace("#project/","")+"/1-任务|📋]]":y?"📂 "+y.replace("#type/","")+" [[2-Areas/Work/"+y.replace("#type/","")+"|📋]]":"📌 临时"
+group by function task.heading?"📂 "+task.heading:""
 \`\`\`
 
 ## 💼 工作
 
-### 会议记录
-
 ### 工作进展
+
+### 会议记录
 
 ### 问题记录
 

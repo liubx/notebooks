@@ -9,11 +9,13 @@ created: 2026-03-16
 modified: 2026-03-16
 ---
 
-# 坐标系转换函数
+# PostGIS坐标转换与空间操作
+
+## 坐标系转换函数
 
 完整的 PostGIS 坐标转换函数库，支持 WGS84/GCJ02/BD09/CGCS2000 互转。
 
-## 使用方式
+### 使用方式
 
 ```sql
 -- WGS84转GCJ02（火星坐标）
@@ -31,7 +33,7 @@ SELECT geoc_gcj02tobd09(geom) FROM test_table;
 ```
 
 
-# 坐标迁移操作（旧架构）
+## 坐标迁移操作（旧架构）
 
 Polygon 备份 → 转换 → 更新中心点的完整流程：
 
@@ -68,9 +70,9 @@ DROP TABLE IF EXISTS schema.polygon;
 ALTER TABLE schema.polygon_backup RENAME TO polygon;
 ```
 
-# 空间变换操作
+## 空间变换操作
 
-## 移动
+### 移动
 
 ```sql
 UPDATE schema.t_polygon SET geom = ST_Transform(
@@ -79,7 +81,7 @@ UPDATE schema.t_polygon SET geom = ST_Transform(
 WHERE map_id = ?;
 ```
 
-## 缩放
+### 缩放
 
 ```sql
 UPDATE schema.t_polygon SET geom = ST_Affine(geom,
@@ -87,7 +89,7 @@ UPDATE schema.t_polygon SET geom = ST_Affine(geom,
 WHERE map_id = ?;
 ```
 
-## 旋转（绕中心点）
+### 旋转（绕中心点）
 
 ```sql
 -- 先获取中心点
@@ -100,9 +102,9 @@ UPDATE schema.t_polygon SET geom = ST_Transform(
 WHERE map_id = ?;
 ```
 
-# 空间查询
+## 空间查询
 
-## 获取指定范围内的点
+### 获取指定范围内的点
 
 ```sql
 SELECT ST_Force2D(location) FROM t_position
@@ -111,19 +113,19 @@ WHERE ST_Contains(
   location);
 ```
 
-## 移动电子围栏到火星坐标
+### 移动电子围栏到火星坐标
 
 ```sql
 UPDATE schema.t_fence SET geom = ST_SetSRID(geoc_wgs84togcj02(geom), 4326);
 ```
 
-## 偏移位置数据到火星坐标
+### 偏移位置数据到火星坐标
 
 ```sql
 UPDATE schema.t_position SET location = ST_SetSRID(geoc_wgs84togcj02(location), 4326);
 ```
 
-## 生成 UUID
+### 生成 UUID
 
 ```sql
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";

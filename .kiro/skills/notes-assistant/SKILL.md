@@ -137,13 +137,14 @@ Important: Project names (folder names, tags, wikilink paths) must NEVER contain
 ### Daily Note Task Display
 Daily notes use a single Tasks plugin query block in the `📋 任务` section. Temporary tasks (buy something, reply an email) go in the relevant daily note section (e.g. 🏠 生活 > 个人事项), with default due date set to the current day and `#task/personal` tag.
 
-Daily note sections use emoji headers: `📋 任务`, `💼 工作`, `📖 学习`, `🏠 生活`.
+Daily note sections use standard Markdown heading hierarchy: `# 日期标题` (H1, one per file), `## 📋 任务` / `## 💼 工作` / `## 📖 学习` / `## 🏠 生活` (H2 sections), `### 工作进展` / `### 会议记录` etc. (H3 sub-sections).
 
 The query block rules:
 - Filter: tasks due before tomorrow, scheduled today, or created today
 - Hide: created date, tags, backlink, edit button
 - Group level 1 by `#task/work` → "💼 工作", `#task/personal` → "🏠 个人", else → "📌 其他"
 - Group level 2 by `#project/` tag → "项目：{name} 📋" (with wikilink to project's 1-任务.md), else → "临时"
+- Group level 3 by task heading → "📂 {heading}" (shows the section name from the task's source file)
 
 Wikilinks in daily notes should use full paths with display aliases, e.g. `[[1-Projects/Work/麦钉项目/1-任务|麦钉项目任务清单]]`.
 

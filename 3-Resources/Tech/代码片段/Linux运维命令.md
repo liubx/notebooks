@@ -9,6 +9,8 @@ source: "[[4-Archives/Notion/技术相关/Linux相关指令 4e807713bb61406db430
 created: 2026-03-16
 ---
 
+# Linux运维命令（Notion迁移）
+
 > 从 Notion 迁移，与 [[Linux防火墙配置]] 互补。
 
 ## 常用操作

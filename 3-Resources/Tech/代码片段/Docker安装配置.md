@@ -8,7 +8,9 @@ created: 2022-01-01
 modified: 2022-01-01
 ---
 
-# Docker 安装配置（CentOS）
+# Docker 安装配置
+
+## Docker 安装配置（CentOS）
 
 ```bash
 yum update -y
@@ -20,7 +22,7 @@ systemctl enable docker
 systemctl start docker
 ```
 
-## 配置镜像仓库
+### 配置镜像仓库
 
 ```json
 // /etc/docker/daemon.json
@@ -36,7 +38,7 @@ systemctl restart docker
 ```
 
 
-# Yuque 补充 — 快速安装方式
+## Yuque 补充 — 快速安装方式
 
 ```bash
 sudo yum check-update
@@ -48,7 +50,7 @@ sudo usermod -aG docker development
 sudo chmod 666 /var/run/docker.sock
 ```
 
-## 国内镜像加速
+### 国内镜像加速
 
 ```json
 // /etc/docker/daemon.json
@@ -64,7 +66,7 @@ sudo chmod 666 /var/run/docker.sock
 sudo systemctl restart docker
 ```
 
-## Docker Compose 安装
+### Docker Compose 安装
 
 ```bash
 # 官方地址
@@ -76,9 +78,9 @@ curl -L https://get.daocloud.io/docker/compose/releases/download/1.29.2/docker-c
 sudo chmod +x /usr/local/bin/docker-compose
 ```
 
-# CentOS 服务器初始设置（Yuque 补充）
+## CentOS 服务器初始设置（Yuque 补充）
 
-## 新建用户
+### 新建用户
 
 ```bash
 adduser [username]
@@ -86,7 +88,7 @@ passwd [username]
 gpasswd -a [username] wheel
 ```
 
-## 加入 SSH 密钥
+### 加入 SSH 密钥
 
 ```bash
 cat ~/.ssh/id_rsa.pub  # 复制密钥
@@ -98,7 +100,7 @@ vi .ssh/authorized_keys  # 粘贴密钥
 chmod 600 .ssh/authorized_keys
 ```
 
-## 禁用 root 登录
+### 禁用 root 登录
 
 ```bash
 vi /etc/ssh/sshd_config
@@ -111,13 +113,13 @@ ClientAliveCountMax 15
 systemctl reload sshd
 ```
 
-## 修改 Hostname
+### 修改 Hostname
 
 ```bash
 hostnamectl set-hostname [hostname]
 ```
 
-# 定位服务部署脚本（Yuque 补充）
+## 定位服务部署脚本（Yuque 补充）
 
 微服务架构包含：auth（授权）、map（地图）、device（设备）、pos（位置）、sewd（业务）
 

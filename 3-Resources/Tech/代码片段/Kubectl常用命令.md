@@ -9,6 +9,8 @@ source: "[[4-Archives/Notion/技术相关/Kubectl 相关指令 dd61c2f1d5b54afc9
 created: 2026-03-16
 ---
 
+# Kubectl常用命令（Notion迁移）
+
 > 从 Notion 迁移，与 [[K8S常用命令]] 互补，本文侧重实际项目中的具体命令。
 
 ## 查看资源
