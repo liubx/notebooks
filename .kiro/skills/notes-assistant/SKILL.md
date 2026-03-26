@@ -175,6 +175,7 @@ hide tags
 hide backlink
 hide edit button
 hide task count
+sort by priority
 group by function task.tags.includes("#task/work") ? "💼 工作" : task.tags.includes("#task/personal") ? "🏠 个人" : "📌 其他"
 group by function \
   const p=task.tags.find(t=>t.startsWith("#project/")),y=task.tags.find(t=>t.startsWith("#type/")),w=task.tags.includes("#task/work")?"Work":"Personal"; \

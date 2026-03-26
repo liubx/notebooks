@@ -33,7 +33,7 @@ inclusion: manual
 ## 任务格式
 
 ```markdown
-- [ ] 任务标题 👤负责人 🛫 YYYY-MM-DD 📅 YYYY-MM-DD 优先级 [🔗](飞书链接) #task/work #project/项目名 ^block-id
+- [ ] 任务标题 [](飞书链接) 👤负责人 🛫 YYYY-MM-DD 📅 YYYY-MM-DD 优先级 #task/work #project/项目名 ^block-id
   可选的补充说明
 ```
 
