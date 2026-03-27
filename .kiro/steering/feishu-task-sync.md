@@ -32,8 +32,10 @@ inclusion: manual
 
 ## 任务格式
 
+参考 `task-format.md` steering 规则。飞书同步任务的标题做成超链接：
+
 ```markdown
-- [ ] 任务标题 [](飞书链接) 👤负责人 🛫 YYYY-MM-DD 📅 YYYY-MM-DD 优先级 #task/work #project/项目名 ^block-id
+- [ ] [任务标题](飞书链接) [[文件路径#^task-id|↗️]] 👤负责人 🛫 YYYY-MM-DD 📅 YYYY-MM-DD 优先级 #task/work #project/项目名 ^task-id
   可选的补充说明
 ```
 
@@ -87,11 +89,44 @@ inclusion: manual
 
 ## 同步流程
 
-1. 读取本地任务文件，提取已有任务的 guid（从飞书链接中解析）
-2. 调用飞书 API 获取清单中所有未完成任务
-3. 对比差异：
+1. 获取飞书清单的所有分组（section_list）
+2. 按分组逐个获取未完成任务（section_tasks，completed=false），确保分组归属正确
+3. 读取本地任务文件，提取已有任务的 guid（从飞书链接中解析）
+4. 对比差异：
    - 飞书有、本地无 → 新增到对应分组
    - 飞书已完成、本地未勾选 → 标记为完成
    - 飞书分组变更 → 按「分组调整流程」操作飞书端，同时更新本地文件
-4. 纯本地任务（无飞书链接）不受影响
-5. 更新 frontmatter 中的 `modified` 日期
+5. 纯本地任务（无飞书链接）不受影响
+6. 更新 frontmatter 中的 `modified` 日期
+
+### 分组同步规则
+
+- 只同步有未完成任务的分组，空分组不在本地创建
+- 分组名必须与飞书任务清单里的分组名称保持一致，不自行命名
+- 如果飞书分组名变更，本地也要同步更新
+
+### 用户 ID 映射规则
+
+- 遇到未知的用户 ID，必须先调用 `contact_v3_user_get` 查询真实姓名，不得猜测
+- 已知映射缓存在下方表格中，新查到的映射要追加
+
+### 已知用户 ID 映射
+
+| open_id | 姓名 |
+|---------|------|
+| ou_9be76f17d1adc319030bc8d0b883174e | 刘秉欣 |
+| ou_105edcafa5829da753622165782e03ec | 陆东 |
+| ou_a6a57cc5a5b68f1cc1de9303fde95b9e | 姚文羚 |
+| ou_133d6b2efd74de1c18e78c31982e3682 | 闫云江 |
+| ou_5e48e13751c35f6259c4a466b0aa2c2d | 钟申炜 |
+| ou_84805b2c6cc34a5c91cdb5230df5f5aa | 王鹏 |
+| ou_c46553a9025efc0bdd0a9ebd095ff753 | 杨嵘 |
+| ou_d8753db08d55d6d3281f66f9f38d57d9 | 马工 |
+| ou_aed93030c2cf59d0e67dc94d462f4242 | 杨嵘(设计) |
+| ou_d7c6010202b1e198bd3f8c236da29c73 | 伍峥 |
+| ou_b8d3d51fa3d5b6e1200347b625521c58 | 财务 |
+| ou_c7e1e347a7461614127f677249cedb17 | 李工 |
+| ou_de5641e7821fa86d456a3a7e8d48810f | 韩晓龙 |
+| ou_950e3fbd4f3b31d0d662e2107179a2bb | 闫云江(前端) |
+| ou_c745ac63bf3f9874d86ae330114eeb9a | 王工(上港) |
+| ou_430cf085e4a3f107a2d7bf5b1d0555e8 | 马工(洛阳) |
