@@ -28,7 +28,7 @@
 		{"id":"rental_router","type":"text","text":"🔀 **路由器**\n192.168.88.0/24","x":-140,"y":1910,"width":300,"height":80},
 		{"id":"mac_mini","type":"text","text":"🖥️ **Mac Mini（Surge 网关）**\n192.168.88.8\n\n增强模式 · 接管全部流量\nSnell :6160","x":340,"y":1890,"width":340,"height":140,"color":"6"},
 		{"id":"ponte","type":"text","text":"🔗 **Surge Ponte 隧道**\n\nMac Air ⟷ Mac Mini ⟷ Mac Mini Office\n家庭 ⟷ 出租屋 ⟷ 办公室","x":1000,"y":1890,"width":420,"height":140,"color":"3"},
-		{"id":"file_ref","type":"file","file":"2-Areas/Life/家庭网络拓扑.md","x":1600,"y":1890,"width":380,"height":140},
+		{"id":"file_ref","type":"file","file":"2-Areas/Personal/家庭网络拓扑.md","x":1600,"y":1890,"width":380,"height":140},
 		{"id":"mac_pro","type":"text","text":"🖥️ **Mac Pro**\n192.168.80.10 ⟵proxy","x":300,"y":860,"width":260,"height":80}
 	],
 	"edges":[

@@ -54,7 +54,7 @@ When the user sends a message, identify the intent from keywords and context:
 
 | Intent | Keywords | Action |
 |--------|----------|--------|
-| Daily note | 记录、今天、日常、工作、学习、生活、笔记 | Create/append daily note |
+| Daily note | 记录、今天、日常、工作、学习、个人、笔记 | Create/append daily note |
 | Project | 项目、新项目、project | Create project folder + README |
 | Meeting | 会议、开会、讨论、meeting | Create meeting note |
 | Knowledge card | 知识卡片、知识点、概念、原理 | Create knowledge card |
@@ -89,7 +89,7 @@ For each note type, determine the path and apply the corresponding template from
 
 ### Key Behaviors
 
-- **Daily note exists?** Append to the relevant section (工作/学习/生活) instead of creating a new file.
+- **Daily note exists?** Append to the relevant section (工作/学习/个人) instead of creating a new file.
 - **Daily note navigation**: Fill `prev` and `next` links pointing to adjacent dates.
 - **Auto-tagging**: Add `#project/{name}` for project content, `#area/{name}` for area content.
 - **Templates**: Read `references/templates.md` for the full template of each note type. Fill in variables like `{{date}}`, `{{title}}`, etc.
@@ -132,12 +132,12 @@ Important: Project names (folder names, tags, wikilink paths) must NEVER contain
 ### Task Types & Where to Put Them
 1. **Project tasks** → `1-任务.md` in the project folder. Has a clear end goal.
 2. **Area tasks** → In the corresponding Area note. Ongoing responsibilities, no end date.
-3. **Temporary tasks** → In the daily note's relevant section (e.g. 🏠 生活 > 个人事项). Small, same-day or near-term tasks. Tag with `#task/personal` or `#task/work`, default due date is today.
+3. **Temporary tasks** → In the daily note's relevant section (e.g. 🏠 个人 > 个人事项). Small, same-day or near-term tasks. Tag with `#task/personal` or `#task/work`, default due date is today.
 
 ### Daily Note Task Display
-Daily notes use a single Tasks plugin query block in the `📋 任务` section. Temporary tasks (buy something, reply an email) go in the relevant daily note section (e.g. 🏠 生活 > 个人事项), with default due date set to the current day and `#task/personal` tag.
+Daily notes use a single Tasks plugin query block in the `📋 任务` section. Temporary tasks (buy something, reply an email) go in the relevant daily note section (e.g. 🏠 个人 > 个人事项), with default due date set to the current day and `#task/personal` tag.
 
-Daily note sections use standard Markdown heading hierarchy: `# 日期标题` (H1, one per file), `## 📋 任务` / `## 💼 工作` / `## 📖 学习` / `## 🏠 生活` (H2 sections), `### 工作进展` / `### 会议记录` etc. (H3 sub-sections).
+Daily note sections use standard Markdown heading hierarchy: `# 日期标题` (H1, one per file), `## 📋 任务` / `## 💼 工作` / `## 📖 学习` / `## 🏠 个人` (H2 sections), `### 工作进展` / `### 会议记录` etc. (H3 sub-sections).
 
 The query block rules:
 - Filter: tasks due before tomorrow, scheduled today, or created today
@@ -190,7 +190,7 @@ group by function \
 3. `#task/project/{name}` or `#project/{name}` → Project
 4. File in `1-Projects/` → Project (name from path)
 5. File in `2-Areas/Work/` → Work
-6. File in `2-Areas/Life/` → Personal
+6. File in `2-Areas/Personal/` → Personal
 7. Default → Personal
 
 ### Task Center
@@ -244,7 +244,7 @@ Track user corrections and preferences in `references/improvements.md`. When a u
 
 | Category | Format | Examples |
 |----------|--------|---------|
-| Topic | `#技术/子类` | `#技术/前端/React`, `#工作`, `#生活`, `#学习` |
+| Topic | `#技术/子类` | `#技术/前端/React`, `#工作`, `#个人`, `#学习` |
 | Status | `#状态` | `#进行中`, `#已完成`, `#待办` |
 | Priority | `#优先级` | `#重要`, `#紧急` |
 | Project | `#project/名称` | `#project/电商系统` |
