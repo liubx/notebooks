@@ -36,13 +36,15 @@ next: "[[{{next_date}}]]"
 
 # {{date}} {{day_of_week}}
 
-## 📋 任务
+## 💼 工作
+
+### 任务清单
 \`\`\`tasks
 filter by function \
   const t=moment("{{date}}"),d='day',{due:{moment:u},start:{moment:s},created:{moment:c},done:{moment:D}}=task,y=moment(t).subtract(1,d),b=m=>m?.isSameOrBefore(t,d),q=m=>m?.isSame(t,d); \
   return !!(!task.isDone?!u||b(u)||b(s)||q(c):q(D)||D?.isSame(y,d));
 path does not include 4-Archives
-tags include #task/
+tags include #task/work
 hide toolbar
 hide task count
 hide created date
@@ -51,17 +53,15 @@ hide done date
 hide tags
 hide backlink
 hide edit button
+hide postpone button
 sort by priority
 sort by due
 sort by start
-group by function task.tags.includes("#task/work") ? "💼 工作" : task.tags.includes("#task/personal") ? "🏠 个人" : "📌 其他"
 group by function \
-  const p=task.tags.find(t=>t.startsWith("#project/")),y=task.tags.find(t=>t.startsWith("#type/")),w=task.tags.includes("#task/work")?"Work":"Personal"; \
-  return p?"📁 "+p.replace("#project/","")+" [[1-Projects/"+w+"/"+p.replace("#project/","")+"/1-任务|📋]]":y?"📂 "+y.replace("#type/","")+" [[2-Areas/Work/"+y.replace("#type/","")+"|📋]]":"📌 临时"
+  const p=task.tags.find(t=>t.startsWith("#project/")),y=task.tags.find(t=>t.startsWith("#type/")); \
+  return p?"📁 "+p.replace("#project/","")+" [[1-Projects/Work/"+p.replace("#project/","")+"/1-任务|📋]]":y?"📂 "+y.replace("#type/","")+" [[2-Areas/Work/"+y.replace("#type/","")+"|📋]]":"📌 临时"
 group by function task.heading?"📂 "+task.heading:""
 \`\`\`
-
-## 💼 工作
 
 ### 工作进展
 
@@ -71,6 +71,31 @@ group by function task.heading?"📂 "+task.heading:""
 
 ## 📖 学习
 
+### 任务清单
+\`\`\`tasks
+filter by function \
+  const t=moment("{{date}}"),d='day',{due:{moment:u},start:{moment:s},created:{moment:c},done:{moment:D}}=task,y=moment(t).subtract(1,d),b=m=>m?.isSameOrBefore(t,d),q=m=>m?.isSame(t,d); \
+  return !!(!task.isDone?!u||b(u)||b(s)||q(c):q(D)||D?.isSame(y,d));
+path does not include 4-Archives
+tags include #task/study
+hide toolbar
+hide task count
+hide created date
+hide start date
+hide done date
+hide tags
+hide backlink
+hide edit button
+hide postpone button
+sort by priority
+sort by due
+sort by start
+group by function \
+  const p=task.tags.find(t=>t.startsWith("#project/")); \
+  return p?"📁 "+p.replace("#project/","")+" [[1-Projects/Personal/"+p.replace("#project/","")+"/1-任务|📋]]":"📌 临时"
+group by function task.heading?"📂 "+task.heading:""
+\`\`\`
+
 ### 学习内容
 
 ### 技术笔记
@@ -78,6 +103,31 @@ group by function task.heading?"📂 "+task.heading:""
 ### 阅读记录
 
 ## 🏠 个人
+
+### 任务清单
+\`\`\`tasks
+filter by function \
+  const t=moment("{{date}}"),d='day',{due:{moment:u},start:{moment:s},created:{moment:c},done:{moment:D}}=task,y=moment(t).subtract(1,d),b=m=>m?.isSameOrBefore(t,d),q=m=>m?.isSame(t,d); \
+  return !!(!task.isDone?!u||b(u)||b(s)||q(c):q(D)||D?.isSame(y,d));
+path does not include 4-Archives
+tags include #task/personal
+hide toolbar
+hide task count
+hide created date
+hide start date
+hide done date
+hide tags
+hide backlink
+hide edit button
+hide postpone button
+sort by priority
+sort by due
+sort by start
+group by function \
+  const p=task.tags.find(t=>t.startsWith("#project/")); \
+  return p?"📁 "+p.replace("#project/","")+" [[1-Projects/Personal/"+p.replace("#project/","")+"/1-任务|📋]]":"📌 临时"
+group by function task.heading?"📂 "+task.heading:""
+\`\`\`
 
 ### 个人事项
 
