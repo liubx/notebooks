@@ -1,30 +1,26 @@
 #!/usr/bin/env node
 /**
- * 飞书直接 HTTP 调用脚本 — lark-cli / lark-mcp 都无法处理的场景
+ * 飞书直接 HTTP 调用脚本 — lark-cli 无法处理的场景（multipart 上传）
  *
- * 当前唯一必须使用本脚本的场景：任务附件上传（multipart/form-data）
- * 其他场景说明：
- *   - 云空间文件上传/下载 → 用 lark-cli drive +upload/+download
- *   - 任务附件下载 → 可用 lark-mcp task.v2.attachment.get 获取临时 URL 后 curl 下载
- *   - 任务附件列表/删除 → 可用 lark-mcp task.v2.attachment.list/delete
+ * Token 来源：直接读取 lark-cli 的加密存储（macOS Keychain + AES-256-GCM）
+ * 前提：已通过 lark-cli auth login 完成授权
  *
  * 用法：
  *   FT=.kiro/skills/lark-assistant/lark-scripts.js
- *   node $FT auth                                        # 获取/刷新 OAuth token
- *   node $FT task-attach <task_guid> <本地文件>           # 上传任务附件（唯一必须场景）
- *   node $FT task-download <attach_guid> <输出路径>       # 下载任务附件（备用，也可用 lark-mcp + curl）
+ *   node $FT task-attach <task_guid> <本地文件>           # 上传任务附件
+ *   node $FT task-download <attach_guid> <输出路径>       # 下载任务附件
  */
 
 const https = require('https');
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
-const { exec } = require('child_process');
+const { execSync } = require('child_process');
+const crypto = require('crypto');
+const os = require('os');
 
-const APP_ID = 'cli_a7819fab58b11013';
-const APP_SECRET = 'aMa8UUE3zZnCpI2HkwCdIeaRY1TdmI3F';
-const TOKEN_FILE = path.join(__dirname, 'lark-token.json');
-const SCOPES = 'task:attachment:write task:task';
+const LARK_CLI_SERVICE = 'lark-cli';
+const LARK_CLI_CONFIG = path.join(os.homedir(), '.lark-cli', 'config.json');
 
 // ==================== 通用工具 ====================
 
@@ -86,7 +82,6 @@ function multipartUpload(urlPath, token, fields, fileName, fileData, fileField =
     parts.push(`--${boundary}\r\nContent-Disposition: form-data; name="${fileField}"; filename="${fileName}"\r\nContent-Type: ${mime}\r\n\r\n`);
     const ending = `\r\n--${boundary}--\r\n`;
     const body = Buffer.concat([Buffer.from(parts.join('')), fileData, Buffer.from(ending)]);
-
     const req = https.request({
       hostname: 'open.feishu.cn', path: urlPath, method: 'POST',
       headers: { 'Authorization': `Bearer ${token}`, 'Content-Type': `multipart/form-data; boundary=${boundary}`, 'Content-Length': body.length },
@@ -100,58 +95,104 @@ function multipartUpload(urlPath, token, fields, fileName, fileData, fileField =
   });
 }
 
-// ==================== Token 管理 ====================
+// ==================== Token 管理（读取 lark-cli 加密存储） ====================
 
-function getToken() {
-  if (!fs.existsSync(TOKEN_FILE)) return null;
-  const data = JSON.parse(fs.readFileSync(TOKEN_FILE, 'utf-8'));
-  if (new Date(data.expires_at) < new Date()) {
-    console.log('⚠️  Token 已过期，请运行: node ' + __filename + ' auth');
-    return null;
-  }
-  return data.user_access_token;
+// 从 lark-cli 配置读取 appId 和 userOpenId
+function getLarkCliConfig() {
+  try {
+    const config = JSON.parse(fs.readFileSync(LARK_CLI_CONFIG, 'utf-8'));
+    const app = config.apps && config.apps[0];
+    if (!app) return null;
+    const user = app.users && app.users[0];
+    return { appId: app.appId, userOpenId: user ? user.userOpenId : null };
+  } catch { return null; }
 }
 
+// 从 macOS Keychain 读取 lark-cli 的 master key（AES-256 密钥）
+// lark-cli 通过 go-keyring 存储，格式为 "go-keyring-base64:<base64(base64(key))>"
+function getMasterKey() {
+  try {
+    const raw = execSync(
+      `security find-generic-password -s "${LARK_CLI_SERVICE}" -a "master.key" -w`,
+      { encoding: 'utf-8', stdio: ['pipe', 'pipe', 'pipe'] }
+    ).trim();
+    const prefix = 'go-keyring-base64:';
+    const b64 = raw.startsWith(prefix) ? raw.slice(prefix.length) : raw;
+    // 双重 base64：外层是 go-keyring 的编码，内层是 lark-cli 存储的 base64 key
+    const innerB64 = Buffer.from(b64, 'base64').toString();
+    return Buffer.from(innerB64, 'base64');
+  } catch { return null; }
+}
+
+// AES-256-GCM 解密（与 lark-cli keychain_darwin.go 一致）
+// 格式：[12 字节 IV] [密文] [16 字节 GCM Tag]
+function decryptData(data, key) {
+  const IV_BYTES = 12, TAG_BYTES = 16;
+  if (data.length < IV_BYTES + TAG_BYTES) return null;
+  const iv = data.slice(0, IV_BYTES);
+  const ciphertext = data.slice(IV_BYTES, data.length - TAG_BYTES);
+  const tag = data.slice(data.length - TAG_BYTES);
+  const decipher = crypto.createDecipheriv('aes-256-gcm', key, iv);
+  decipher.setAuthTag(tag);
+  try {
+    return Buffer.concat([decipher.update(ciphertext), decipher.final()]).toString('utf-8');
+  } catch { return null; }
+}
+
+// 从 lark-cli 的加密存储中读取 user_access_token
 function requireToken() {
-  const token = getToken();
-  if (!token) { console.error('❌ 无有效 token，请先运行: node ' + __filename + ' auth'); process.exit(1); }
-  return token;
-}
+  const config = getLarkCliConfig();
+  if (!config || !config.appId || !config.userOpenId) {
+    console.error('❌ 未找到 lark-cli 配置，请先运行: lark-cli config init');
+    process.exit(1);
+  }
+  const masterKey = getMasterKey();
+  if (!masterKey) {
+    console.error('❌ 无法从 Keychain 读取 master key');
+    process.exit(1);
+  }
 
-async function cmdAuth() {
-  const REDIRECT_URI = 'http://localhost:3000/callback';
-  const authUrl = `https://open.feishu.cn/open-apis/authen/v1/authorize?app_id=${APP_ID}&redirect_uri=${encodeURIComponent(REDIRECT_URI)}&response_type=code&scope=${encodeURIComponent(SCOPES)}`;
+  // 加密文件路径：~/Library/Application Support/lark-cli/<appId>_<userOpenId>.enc
+  const accountKey = `${config.appId}:${config.userOpenId}`;
+  const safeFileName = accountKey.replace(/[^a-zA-Z0-9._-]/g, '_') + '.enc';
+  const encFile = path.join(os.homedir(), 'Library', 'Application Support', LARK_CLI_SERVICE, safeFileName);
 
-  const server = http.createServer(async (req, res) => {
-    const url = new URL(req.url, 'http://localhost:3000');
-    if (url.pathname === '/callback') {
-      const code = url.searchParams.get('code');
-      if (!code) { res.writeHead(400); res.end('无授权码'); return; }
-      console.log('收到授权码:', code);
+  try {
+    const encData = fs.readFileSync(encFile);
+    const jsonStr = decryptData(encData, masterKey);
+    if (!jsonStr) throw new Error('解密失败');
+    const stored = JSON.parse(jsonStr);
+    const now = Date.now();
+
+    // token 有效（提前 5 分钟判断）
+    if (now < stored.expiresAt - 5 * 60 * 1000) {
+      console.log('🔑 使用 lark-cli 的 user_access_token');
+      return stored.accessToken;
+    }
+
+    // token 过期但 refresh token 有效，触发 lark-cli 刷新
+    if (now < stored.refreshExpiresAt) {
+      console.log('⚠️  token 即将过期，触发 lark-cli 刷新...');
       try {
-        const appRes = await httpsRequest('POST', 'https://open.feishu.cn/open-apis/auth/v3/app_access_token/internal', { app_id: APP_ID, app_secret: APP_SECRET });
-        if (appRes.code !== 0) throw new Error('app_token: ' + JSON.stringify(appRes));
-        const tokenRes = await httpsRequest('POST', 'https://open.feishu.cn/open-apis/authen/v1/oidc/access_token',
-          { grant_type: 'authorization_code', code }, { Authorization: `Bearer ${appRes.app_access_token}` });
-        if (tokenRes.code === 0 && tokenRes.data) {
-          const info = {
-            user_access_token: tokenRes.data.access_token, refresh_token: tokenRes.data.refresh_token,
-            expires_in: tokenRes.data.expires_in, created_at: new Date().toISOString(),
-            expires_at: new Date(Date.now() + tokenRes.data.expires_in * 1000).toISOString(),
-          };
-          fs.writeFileSync(TOKEN_FILE, JSON.stringify(info, null, 2));
-          console.log('✅ Token 获取成功，过期:', info.expires_at);
-          res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
-          res.end('<h1>✅ 授权成功</h1><p>可关闭此页面</p>');
-        } else {
-          console.error('❌ 失败:', JSON.stringify(tokenRes));
-          res.writeHead(500); res.end('失败');
+        execSync('lark-cli auth status --verify', { stdio: 'pipe' });
+        const newJson = decryptData(fs.readFileSync(encFile), masterKey);
+        if (newJson) {
+          const newStored = JSON.parse(newJson);
+          if (Date.now() < newStored.expiresAt - 5 * 60 * 1000) {
+            console.log('🔑 刷新成功');
+            return newStored.accessToken;
+          }
         }
-      } catch (e) { console.error('❌', e.message); res.writeHead(500); res.end(e.message); }
-      setTimeout(() => { server.close(); process.exit(0); }, 1000);
-    } else { res.writeHead(302, { Location: authUrl }); res.end(); }
-  });
-  server.listen(3000, () => { console.log('🚀 http://localhost:3000'); exec('open "' + authUrl + '"'); });
+      } catch { /* 刷新失败 */ }
+    }
+
+    console.error('❌ lark-cli token 已过期，请运行: lark-cli auth login --recommend');
+    process.exit(1);
+  } catch (e) {
+    console.error('❌ 读取 lark-cli token 失败:', e.message);
+    console.error('   请确认已运行: lark-cli auth login --recommend');
+    process.exit(1);
+  }
 }
 
 // ==================== 任务附件操作 ====================
@@ -192,19 +233,19 @@ async function cmdTaskDownload(attachGuid, outPath) {
 
 const [,, cmd, ...args] = process.argv;
 const HELP = `
-飞书直接 HTTP 调用脚本（lark-cli / lark-mcp 无法处理的场景）
+飞书直接 HTTP 调用脚本 — 复用 lark-cli 凭据（macOS Keychain）
+
+前提：已通过 lark-cli auth login 完成授权
 
 用法：
   FT=.kiro/skills/lark-assistant/lark-scripts.js
 
-  node $FT auth                                    获取/刷新 OAuth token
-  node $FT task-attach <task_guid> <文件路径>       上传任务附件（唯一必须场景）
-  node $FT task-download <attach_guid> <输出路径>   下载任务附件（备用）
+  node $FT task-attach <task_guid> <文件路径>       上传任务附件
+  node $FT task-download <attach_guid> <输出路径>   下载任务附件
 `;
 
 (async () => {
   switch (cmd) {
-    case 'auth': await cmdAuth(); break;
     case 'task-attach': await cmdTaskAttach(args[0], args[1]); break;
     case 'task-download': await cmdTaskDownload(args[0], args[1]); break;
     default: console.log(HELP);

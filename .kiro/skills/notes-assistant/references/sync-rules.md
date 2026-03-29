@@ -172,8 +172,57 @@
    - 飞书有、本地无 → 新增到对应分组
    - 飞书已完成、本地未勾选 → 标记为完成
    - 飞书分组变更 → 按分组调整流程操作
-5. 纯本地任务（无飞书链接）不受影响
-6. 更新 frontmatter 中的 `modified` 日期
+5. 检查任务行中的嵌入图片（`![[xxx.png]]`），同步到飞书任务附件（见下方附件同步规则）
+6. 纯本地任务（无飞书链接）不受影响
+7. 更新 frontmatter 中的 `modified` 日期
+
+### 任务附件（图片）同步规则
+
+本地任务行中通过 `![[图片名.png]]` 嵌入的图片，需要同步为飞书任务的附件。
+
+#### 识别规则
+
+任务行的缩进子行中包含 Obsidian 图片嵌入语法：
+```markdown
+- [ ] [任务标题](飞书链接) ... ^task-id
+  ![[截图.png]]
+```
+
+图片文件查找顺序：
+1. 任务文件同目录下的 `Attachments/` 文件夹
+2. 任务文件同目录
+3. Vault 根目录的 `Attachments/`
+
+#### 同步流程
+
+1. 解析任务行下方缩进行中的 `![[xxx.png]]` / `![[xxx.jpg]]` 等图片引用
+2. 查找本地图片文件的实际路径
+3. 获取飞书任务当前附件列表：`lark-cli api GET /open-apis/task/v2/attachments --params '{"resource_type":"task","resource_id":"<task_guid>"}'`
+4. 对比本地图片和飞书附件（按文件名匹配）：
+   - 本地有、飞书无 → 上传：`node lark-scripts.js task-attach <task_guid> <图片路径>`
+   - 本地无、飞书有 → 不删除（飞书端可能有人手动添加的附件）
+   - 同名已存在 → 跳过（不重复上传）
+5. 上传失败时不阻塞任务同步，标记警告继续
+
+#### 工具调用
+
+```bash
+# 列出任务附件
+lark-cli api GET /open-apis/task/v2/attachments --params '{"resource_type":"task","resource_id":"<task_guid>"}' --as user
+
+# 上传任务附件（multipart，必须用 lark-scripts.js）
+node .kiro/skills/lark-assistant/lark-scripts.js task-attach <task_guid> <图片路径>
+
+# 删除任务附件
+lark-cli api DELETE /open-apis/task/v2/attachments/<attach_guid> --as user
+```
+
+#### 注意事项
+
+- lark-scripts.js 复用 lark-cli 的凭据（macOS Keychain），无需单独认证
+- 需要 `task:attachment:write` scope，通过 `lark-cli auth login --scope "task:attachment:write"` 授权
+- 飞书任务附件上传 API 不支持 `lark-cli api`（需要 multipart），只能通过 lark-scripts.js
+- 附件列表和删除可以直接用 `lark-cli api`
 
 #### 分组同步规则
 

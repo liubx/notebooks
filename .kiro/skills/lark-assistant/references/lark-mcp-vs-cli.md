@@ -189,7 +189,8 @@ lark-cli 完全没有覆盖，且 tenant_access_token 可用：
 关键发现：
 - lark-cli api 缺 user scope 时会静默失败（exit 1，无任何输出），容易误判为 bug
 - 授权对应 scope 后 lark-cli api 完全正常
+- lark-cli api 请求体字段名必须与官方文档完全一致（如 `tasklist_guid` 而非 `tasklist`），字段名错误也会导致静默失败
 - lark-cli api 可以覆盖 lark-mcp 的所有功能，且额外支持 user 身份
-- lark-mcp 的唯一优势是工具名自动发现（不用拼 API 路径），但功能上是 lark-cli api 的子集
+- 不确定参数时，先用 `lark-openapi-explorer` skill 查阅飞书官方文档
 
-最终决策：统一使用 lark-cli（Shortcut + 原生 API + api 裸调）+ lark-scripts.js（multipart 上传）。lark-mcp 保留配置但默认 disabled。
+最终决策：统一使用 lark-cli（Shortcut + 原生 API + api 裸调）+ lark-scripts.js（multipart 上传）。lark-mcp 不再需要。

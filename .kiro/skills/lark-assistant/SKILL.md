@@ -81,21 +81,38 @@ lark-cli api POST /open-apis/drive/v1/export_tasks --as user --data '{"file_exte
 | `--data '{}'` | 请求体 JSON |
 | `-o <file>` | 二进制响应输出到文件 |
 
+### 调用前必查文档
+
+`lark-cli api` 裸调时，参数字段名必须与飞书官方文档完全一致（如 `tasklist_guid` 而非 `tasklist`）。不确定时，先用 `lark-openapi-explorer` skill 查阅官方文档：
+
+1. 从 `https://open.feishu.cn/llms.txt` 定位模块
+2. 从模块文档定位具体 API
+3. 获取完整参数规范后再调用
+
+字段名错误会导致 lark-cli api 静默失败（exit 1，无输出），容易误判为 bug。
+
 ## 补充工具：lark-scripts.js
 
 `lark-cli api` 不支持 multipart/form-data（文件上传），通过 `lark-scripts.js` 补充。
 
 唯一必须使用的场景：任务附件上传。
 
+Token 来源：直接读取 lark-cli 的加密存储（macOS Keychain master key + AES-256-GCM 解密），无需单独认证。前提是已通过 `lark-cli auth login` 完成授权且 scope 包含 `task:attachment:write`。
+
 ```bash
 FT=.kiro/skills/lark-assistant/lark-scripts.js
 
-node $FT auth                                    # 首次使用需要 OAuth 认证
 node $FT task-attach <task_guid> <文件路径>       # 上传任务附件
 node $FT task-download <attach_guid> <输出路径>   # 下载任务附件（备用）
 ```
 
-Token 保存在 `.kiro/skills/lark-assistant/lark-token.json`，与 lark-cli 的 token 独立。
+### Token 读取机制
+
+1. 从 `~/.lark-cli/config.json` 读取 appId 和 userOpenId
+2. 从 macOS Keychain 读取 master key（service=`lark-cli`, account=`master.key`）
+3. 解密 `~/Library/Application Support/lark-cli/<appId>_<userOpenId>.enc`（AES-256-GCM）
+4. 从解密后的 JSON 中提取 `accessToken`
+5. token 过期时自动触发 `lark-cli auth status --verify` 刷新
 
 ## 工具选择速查
 
