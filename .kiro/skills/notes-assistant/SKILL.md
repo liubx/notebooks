@@ -234,7 +234,9 @@ Sync decisions and operations are detailed in `references/sync-rules.md`. The ke
 - Private content (personal tags, life areas, sensitive info) → never sync
 - Uncertain → ask the user
 
-Use lark-mcp tools for actual Feishu API calls (tasks, docs, wiki). See `references/feishu-mcp.md` for connection setup, tool list, OAuth login, and troubleshooting.
+Use lark-cli for all Feishu API calls (tasks, docs, wiki, drive, im, contact).
+See `.kiro/skills/lark-assistant/SKILL.md` for command routing (lark-cli → lark-mcp → lark-api) and troubleshooting.
+See `.kiro/skills/lark-*/SKILL.md` for detailed command documentation per domain.
 
 ## User Preferences & Self-Improvement
 
@@ -257,7 +259,8 @@ Track user corrections and preferences in `references/improvements.md`. When a u
 Read these when you need detailed information:
 
 - **`references/templates.md`** — Full templates for all 9 note types. Read when creating any note.
-- **`references/sync-rules.md`** — Feishu sync decision logic, tag conventions, conflict handling, MCP usage. Read when handling sync-related requests.
+- **`references/sync-rules.md`** — Task format spec, Feishu sync decision logic, tasklist sync rules (section mapping, user ID mapping, sync flow), document sync, conflict handling. Read when creating/editing tasks or handling sync-related requests.
 - **`references/improvements.md`** — User preferences and improvement history. Read at the start of each conversation and when the user provides feedback about your behavior.
 - **`references/user-guide.md`** — User-facing operation manual with examples. Read when the user asks how to use the system.
-- **`references/feishu-mcp.md`** — lark-mcp connection setup, tool list, OAuth login, permissions, and troubleshooting. Read when calling Feishu APIs or debugging MCP issues.
+- **`.kiro/skills/lark-assistant/SKILL.md`** — Feishu API routing (lark-cli → lark-cli api → lark-mcp → lark-scripts.js), and troubleshooting. Read when calling Feishu APIs.
+- **`.kiro/skills/lark-*/SKILL.md`** — Detailed lark-cli skill docs per domain (task, doc, drive, wiki, im, contact, etc.). Read the relevant skill before calling lark-cli commands.

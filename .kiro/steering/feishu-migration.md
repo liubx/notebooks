@@ -25,11 +25,10 @@
 ## 文档类型处理
 
 ### 可读取内容（转 Markdown）
-| 类型 | MCP 工具 | 说明 |
-|------|----------|------|
-| docx | `docx.v1.document.rawContent` | 飞书新版文档，获取纯文本 |
-| docx | `docs.v1.content.get`（待开通） | 获取 Markdown 格式，优先使用 |
-| doc | `docx.v1.document.rawContent` | 飞书旧版文档 |
+| 类型 | 工具 | 说明 |
+|------|------|------|
+| docx | `lark-cli docs +fetch --doc <token>` | 飞书新版文档，获取内容 |
+| doc | `lark-cli docs +fetch --doc <token>` | 飞书旧版文档 |
 
 ### 无法直接读取内容（保留链接）
 | 类型 | 说明 | 处理方式 |
@@ -39,10 +38,14 @@
 | sheet | 电子表格 | 记录链接和标题 |
 | mindnote | 思维导图 | 记录链接和标题 |
 
-### 文件下载流程（待开通工具后可用）
-1. `drive.v1.exportTask.create` — 创建导出任务
-2. `drive.v1.exportTask.get` — 轮询导出结果，获取 file_token
-3. 用临时下载链接或 curl 下载文件到本地
+### 文件下载流程
+```bash
+# lark-cli 原生支持
+lark-cli drive +download --file-token <token> --output <输出路径>
+
+# 或通过导出 API（lark-cli api 裸调）
+lark-cli api POST /open-apis/drive/v1/export_tasks --data '{"file_extension":"pdf","token":"<token>","type":"docx"}'
+```
 
 ## 迁移目标路径
 

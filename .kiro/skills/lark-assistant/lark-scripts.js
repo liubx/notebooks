@@ -1,13 +1,18 @@
 #!/usr/bin/env node
 /**
- * 飞书文件操作工具 - lark-mcp 的补充
- * 
+ * 飞书直接 HTTP 调用脚本 — lark-cli / lark-mcp 都无法处理的场景
+ *
+ * 当前唯一必须使用本脚本的场景：任务附件上传（multipart/form-data）
+ * 其他场景说明：
+ *   - 云空间文件上传/下载 → 用 lark-cli drive +upload/+download
+ *   - 任务附件下载 → 可用 lark-mcp task.v2.attachment.get 获取临时 URL 后 curl 下载
+ *   - 任务附件列表/删除 → 可用 lark-mcp task.v2.attachment.list/delete
+ *
  * 用法：
- *   node .kiro/skills/notes-assistant/feishu-tools.js auth                              # 获取/刷新 OAuth token
- *   node .kiro/skills/notes-assistant/feishu-tools.js upload <本地文件> [文件夹token]     # 上传文件到云空间
- *   node .kiro/skills/notes-assistant/feishu-tools.js download <file_token> <输出路径>   # 下载云空间文件
- *   node .kiro/skills/notes-assistant/feishu-tools.js task-attach <task_guid> <本地文件> # 上传任务附件
- *   node .kiro/skills/notes-assistant/feishu-tools.js task-download <attach_guid> <输出路径> # 下载任务附件
+ *   FT=.kiro/skills/lark-assistant/lark-scripts.js
+ *   node $FT auth                                        # 获取/刷新 OAuth token
+ *   node $FT task-attach <task_guid> <本地文件>           # 上传任务附件（唯一必须场景）
+ *   node $FT task-download <attach_guid> <输出路径>       # 下载任务附件（备用，也可用 lark-mcp + curl）
  */
 
 const https = require('https');
@@ -18,8 +23,8 @@ const { exec } = require('child_process');
 
 const APP_ID = 'cli_a7819fab58b11013';
 const APP_SECRET = 'aMa8UUE3zZnCpI2HkwCdIeaRY1TdmI3F';
-const TOKEN_FILE = path.join(__dirname, 'feishu-token.json');
-const SCOPES = 'task:attachment:write task:task drive:drive';
+const TOKEN_FILE = path.join(__dirname, 'lark-token.json');
+const SCOPES = 'task:attachment:write task:task';
 
 // ==================== 通用工具 ====================
 
@@ -101,7 +106,7 @@ function getToken() {
   if (!fs.existsSync(TOKEN_FILE)) return null;
   const data = JSON.parse(fs.readFileSync(TOKEN_FILE, 'utf-8'));
   if (new Date(data.expires_at) < new Date()) {
-    console.log('⚠️  Token 已过期，请运行: node scripts/feishu-tools.js auth');
+    console.log('⚠️  Token 已过期，请运行: node ' + __filename + ' auth');
     return null;
   }
   return data.user_access_token;
@@ -109,7 +114,7 @@ function getToken() {
 
 function requireToken() {
   const token = getToken();
-  if (!token) { console.error('❌ 无有效 token，请先运行: node scripts/feishu-tools.js auth'); process.exit(1); }
+  if (!token) { console.error('❌ 无有效 token，请先运行: node ' + __filename + ' auth'); process.exit(1); }
   return token;
 }
 
@@ -149,56 +154,6 @@ async function cmdAuth() {
   server.listen(3000, () => { console.log('🚀 http://localhost:3000'); exec('open "' + authUrl + '"'); });
 }
 
-// ==================== 云空间文件操作 ====================
-
-async function cmdUpload(filePath, folderToken = '') {
-  const token = requireToken();
-  const fileName = path.basename(filePath);
-  const fileData = fs.readFileSync(filePath);
-  console.log(`上传: ${fileName} (${(fileData.length / 1024).toFixed(1)} KB)`);
-
-  const res = await multipartUpload('/open-apis/drive/v1/files/upload_all', token, {
-    file_name: fileName, parent_type: 'explorer', parent_node: folderToken, size: String(fileData.length),
-  }, fileName, fileData);
-
-  if (res.code === 0) {
-    console.log('✅ 成功 file_token:', res.data.file_token);
-    return res.data.file_token;
-  } else {
-    console.error('❌ 失败:', res.msg); process.exit(1);
-  }
-}
-
-async function cmdDownload(fileToken, outPath) {
-  const token = requireToken();
-  console.log(`下载: ${fileToken} -> ${outPath}`);
-
-  // 先尝试直接下载（file 类型）
-  const url = `https://open.feishu.cn/open-apis/drive/v1/files/${fileToken}/download`;
-  const u = new URL(url);
-  const size = await new Promise((resolve, reject) => {
-    const req = https.request({
-      hostname: u.hostname, path: u.pathname, method: 'GET',
-      headers: { 'Authorization': 'Bearer ' + token },
-    }, (res) => {
-      if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
-        downloadUrl(res.headers.location, outPath).then(resolve).catch(reject); return;
-      }
-      if (res.headers['content-type'] && res.headers['content-type'].includes('json')) {
-        let raw = ''; res.on('data', c => raw += c);
-        res.on('end', () => reject(new Error(raw))); return;
-      }
-      const out = fs.createWriteStream(outPath);
-      res.pipe(out);
-      out.on('finish', () => resolve(fs.statSync(outPath).size));
-    });
-    req.on('error', reject); req.end();
-  });
-
-  console.log(`✅ 成功: ${(size / 1024).toFixed(1)} KB`);
-  return size;
-}
-
 // ==================== 任务附件操作 ====================
 
 async function cmdTaskAttach(taskGuid, filePath) {
@@ -224,7 +179,6 @@ async function cmdTaskDownload(attachGuid, outPath) {
   const token = requireToken();
   console.log(`下载任务附件: ${attachGuid} -> ${outPath}`);
 
-  // 获取附件详情（含临时下载 URL）
   const detail = await httpsRequest('GET', `https://open.feishu.cn/open-apis/task/v2/attachments/${attachGuid}`, null, { 'Authorization': 'Bearer ' + token });
   if (detail.code !== 0) { console.error('❌ 获取附件详情失败:', detail.msg); process.exit(1); }
 
@@ -238,21 +192,19 @@ async function cmdTaskDownload(attachGuid, outPath) {
 
 const [,, cmd, ...args] = process.argv;
 const HELP = `
-飞书文件操作工具（lark-mcp 补充）
+飞书直接 HTTP 调用脚本（lark-cli / lark-mcp 无法处理的场景）
 
 用法：
-  auth                                    获取/刷新 OAuth token
-  upload <文件路径> [文件夹token]           上传文件到云空间
-  download <file_token> <输出路径>         下载云空间文件
-  task-attach <task_guid> <文件路径>       上传任务附件
-  task-download <attach_guid> <输出路径>   下载任务附件
+  FT=.kiro/skills/lark-assistant/lark-scripts.js
+
+  node $FT auth                                    获取/刷新 OAuth token
+  node $FT task-attach <task_guid> <文件路径>       上传任务附件（唯一必须场景）
+  node $FT task-download <attach_guid> <输出路径>   下载任务附件（备用）
 `;
 
 (async () => {
   switch (cmd) {
     case 'auth': await cmdAuth(); break;
-    case 'upload': await cmdUpload(args[0], args[1]); break;
-    case 'download': await cmdDownload(args[0], args[1]); break;
     case 'task-attach': await cmdTaskAttach(args[0], args[1]); break;
     case 'task-download': await cmdTaskDownload(args[0], args[1]); break;
     default: console.log(HELP);
