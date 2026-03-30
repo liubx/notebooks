@@ -273,6 +273,7 @@ lark-cli api DELETE /open-apis/task/v2/attachments/<attach_guid> --as user
 | ou_950e3fbd4f3b31d0d662e2107179a2bb | 闫云江(前端) |
 | ou_c745ac63bf3f9874d86ae330114eeb9a | 王工(上港) |
 | ou_430cf085e4a3f107a2d7bf5b1d0555e8 | 马工(洛阳) |
+| ou_feec774e97c0ffbed06e416157d38409 | 刘仁跃 |
 
 ---
 

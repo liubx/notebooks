@@ -136,6 +136,7 @@ lark-cli auth login --recommend  # token 过期时重新登录
 
 ## 参考文档
 
+- 常见踩坑记录：`.kiro/skills/lark-assistant/references/common-pitfalls.md`
 - 各 lark-cli skill 详细文档：`.kiro/skills/lark-*/SKILL.md`
 - 工具对比和实测记录：`.kiro/skills/lark-assistant/references/lark-mcp-vs-cli.md`
 - lark-cli 认证和权限：`.kiro/skills/lark-shared/SKILL.md`
