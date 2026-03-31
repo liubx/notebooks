@@ -198,11 +198,30 @@ group by function task.isDone ? "✅ 已完成" : "📋 进行中"
 
 # 相关笔记
 
+\`\`\`dataview
+LIST
+FROM "1-Projects/{{Work|Personal}}/{{project_name}}"
+WHERE file.name != "0-总览" AND file.name != "1-任务"
+SORT file.name ASC
+\`\`\`
+
 # 项目日志
 
-## {{created}}
-- 项目创建
+\`\`\`dataview
+LIST L.text + choice(length(L.children) > 0, "<br>" + join(map(L.children, (c) => "　　- " + c.text), "<br>"), "")
+FROM "0-Daily"
+FLATTEN file.lists AS L
+WHERE (contains(L.text, "{{keyword}}") OR contains(L.tags, "#project/{{project_name}}")) AND !L.parent
+SORT file.name DESC
+LIMIT 20
+\`\`\`
 ```
+
+Template notes:
+- `{{keyword}}`: 项目关键词，用于匹配日记中未加 tag 但提到项目名的内容
+- 相关笔记：Dataview 自动列出项目文件夹下除 `0-总览` 和 `1-任务` 之外的所有文件
+- 项目日志：Dataview 从 Daily Notes 中聚合包含项目关键词或 tag 的列表项，含子项展示
+- `!L.parent`：只匹配顶层列表项，避免子项重复出现
 
 ### Project Task List
 
