@@ -25,10 +25,10 @@
 | 标题 | 纯文本或 `[标题](url)` | ✅ | 有外部链接时做成超链接 |
 | ↗️ backlink | `[[路径#^task-id\|↗️]]` | ✅ | 精确定位到任务行 |
 | 👤负责人 | `👤姓名` | 可选 | 飞书同步的任务带负责人 |
-| 🛫 开始日期 | `🛫 YYYY-MM-DD` | 可选 | 任务开始时间 |
-| 📅 截止日期 | `📅 YYYY-MM-DD` | 可选 | 任务截止时间 |
-| ➕ 创建日期 | `➕ YYYY-MM-DD` | 可选 | 任务创建时间 |
-| ✅ 完成日期 | `✅ YYYY-MM-DD` | 自动 | 完成时自动添加 |
+| 🛫 开始日期 | `🛫 YYYY-MM-DD` | ✅ | 飞书有 start 就用，没有则用创建时间 |
+| 📅 截止日期 | `📅 YYYY-MM-DD` | 建议填 | 飞书有 due 就用，没有则评估一个截止时间，除非特意留空 |
+| ➕ 创建日期 | `➕ YYYY-MM-DD` | ✅ | 飞书 created_at 必有值，本地必填 |
+| ✅ 完成日期 | `✅ YYYY-MM-DD` | 自动 | 完成时自动添加，未完成不填 |
 | 优先级 | 🔺高 🔼中 🔽低 | 可选 | Tasks 插件原生优先级 |
 | #tags | `#task/类型 #project/名称` | ✅ | 任务分类和项目归属 |
 | ^task-id | `^task-xxx` | ✅ | block reference ID |
@@ -166,15 +166,100 @@
 ### 同步流程
 
 1. 获取飞书清单的所有分组（section_list）
-2. 按分组逐个获取未完成任务（section_tasks，completed=false）
+2. 获取飞书清单的所有任务（包括已完成）
 3. 读取本地任务文件，提取已有任务的 guid（从飞书链接中解析）
-4. 对比差异：
-   - 飞书有、本地无 → 新增到对应分组
-   - 飞书已完成、本地未勾选 → 标记为完成
-   - 飞书分组变更 → 按分组调整流程操作
-5. 检查任务行中的嵌入图片（`![[xxx.png]]`），同步到飞书任务附件（见下方附件同步规则）
-6. 纯本地任务（无飞书链接）不受影响
-7. 更新 frontmatter 中的 `modified` 日期
+4. 确定"旧任务分界线"：本地任务文件中第一个飞书任务的创建时间（`➕` 日期）
+5. 对比差异：
+   - 飞书有、本地无、未完成 → 新增到本地对应分组
+   - 飞书有、本地无、已完成、完成时间 >= 分界线 → 新增到本地（标记完成）
+   - 飞书有、本地无、已完成、完成时间 < 分界线 → 跳过（旧任务不补录）
+   - 飞书有、本地有 → 检查状态差异（飞书已完成但本地未勾选 → 更新本地）
+   - 本地有飞书链接、飞书无 → 保持不动（可能被删除）
+   - 本地有、无飞书链接 → 纯本地任务，需要同步到飞书
+6. 检查任务行中的嵌入图片（`![[xxx.png]]`），同步到飞书任务附件（见下方附件同步规则）
+7. 更新 frontmatter 中的 `modified` 和 `feishu_synced` 日期
+
+### 日期自动填充规则
+
+| 日期 | 飞书 → 本地 | 本地 → 飞书 |
+|------|------------|------------|
+| ➕ 创建时间 | 飞书 `created_at`，必填 | 不需要（飞书自动生成） |
+| 🛫 开始时间 | 飞书 `start` 有值就用，没有则用 `created_at` | 本地 `🛫` → 飞书 `start` |
+| 📅 截止时间 | 飞书 `due` 有值就用，没有则根据任务内容评估一个截止时间（除非特意留空） | 本地 `📅` → 飞书 `due` |
+| ✅ 完成时间 | 飞书 `completed_at > 0` 就填，否则不填 | 本地勾选完成 → 飞书标记完成 |
+
+#### 日期填充原则
+
+- 所有任务都应尽量填上 🛫 开始日期和 📅 截止日期
+- 截止日期根据任务内容评估：BUG 类通常 1 周内，功能开发 1-2 周，文档类 1 周
+- 如果实在不好估算，给一个偏长的时间（如 2 周或 1 个月），后续再调整
+- 只有用户明确说"不设截止时间"时才留空
+- 新增截止日期后要同步到飞书端（`lark-cli task +update --task-id <guid> --data '{"due":{"timestamp":"<ms>","is_all_day":true}}'`）
+
+### 自定义字段同步规则
+
+每个飞书清单应有两个自定义字段：状态和优先级。如果清单没有这些字段，同步时需要先创建。
+
+#### 状态字段
+
+| 选项 | 本地 tag | 说明 |
+|------|---------|------|
+| （不填） | 无 status tag | 默认状态，代表未开始 |
+| 进行中 | `#status/doing` | 正在处理 |
+| 测试中 | `#status/testing` | 测试验证阶段 |
+| 等待中 | `#status/waiting` | 等待外部条件 |
+| 已完成 | `#status/done` | 已完成（已完成的任务自动设置） |
+| 已取消 | `#status/cancelled` | 已取消 |
+
+同步逻辑：
+- 飞书 → 本地：根据 `custom_fields` 中状态字段的值，添加对应的 `#status/xxx` tag
+- 本地 → 飞书：根据本地 `#status/xxx` tag，设置飞书自定义字段值
+- 新建任务默认不填状态（代表未开始）
+- 任务完成时自动设置状态为"已完成"
+
+#### 优先级字段
+
+| 选项 | 本地标记 | 说明 |
+|------|---------|------|
+| 高 | 🔺 | 高优先级 |
+| 中 | 🔼 | 中优先级 |
+| 低 | 🔽 | 低优先级 |
+| （不填） | 无标记 | 默认，根据任务内容判断是否需要填充 |
+
+同步逻辑：
+- 飞书 → 本地：根据 `custom_fields` 中优先级字段的值，添加对应的优先级 emoji
+- 本地 → 飞书：根据本地优先级 emoji，设置飞书自定义字段值
+- 新建任务时根据任务内容评估优先级
+
+#### 各清单自定义字段 GUID 映射
+
+| 清单 | 状态字段 GUID | 优先级字段 GUID |
+|------|-------------|---------------|
+| 平台更新v2-7 | `26a6b622-c6f8-4b79-b907-96ff0481e74c` | `03b92159-f356-427b-a573-8a0434e9ec10` |
+| 广州机场 | `9890d7c5-ba0d-4f0f-a684-2dd7207245dc` | `f793d9f5-c4b7-4b5a-93dc-4045dac1f6f7` |
+
+> 其他清单的字段 GUID 在首次同步时通过 `lark-cli api GET /open-apis/task/v2/custom_fields --as user --params '{"resource_type":"tasklist","resource_id":"<guid>"}'` 获取，如果没有则创建。
+
+#### 工具调用
+
+```bash
+# 查看清单自定义字段
+lark-cli api GET /open-apis/task/v2/custom_fields --as user --params '{"resource_type":"tasklist","resource_id":"<tasklist_guid>"}'
+
+# 创建自定义字段
+lark-cli api POST /open-apis/task/v2/custom_fields --as user --data '{"resource_type":"tasklist","resource_id":"<tasklist_guid>","name":"状态","type":"single_select","single_select_setting":{"options":[{"name":"进行中","color_index":30},{"name":"测试中","color_index":45},{"name":"等待中","color_index":5},{"name":"已完成","color_index":20},{"name":"已取消","color_index":50}]}}'
+
+# 设置任务自定义字段值（用 +update，不要用 lark-cli api PATCH）
+lark-cli task +update --task-id <task_guid> --data '{"custom_fields":[{"guid":"<field_guid>","single_select_value":"<option_guid>"}]}' --as user
+```
+
+### 负责人同步规则
+
+- 飞书 → 本地：从 `members` 中提取 `role=assignee` 的成员，通过用户映射表转为姓名，写入 `👤姓名`
+- 本地 → 飞书：创建任务时通过 `--assignee <open_id>` 指定负责人
+- 多个负责人用多个 `👤` 表示：`👤姚文羚 👤陆东`
+- 未知的 open_id 必须先调用 `lark-cli contact +search-user` 查询姓名，不得猜测
+- 修改非自己创建的任务前，需要先把自己加为 follower：`lark-cli task +followers --task-id <guid> --add <自己的open_id> --as user`
 
 ### 任务附件（图片）同步规则
 

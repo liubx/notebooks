@@ -79,3 +79,25 @@ lark-cli task tasks get --params '{"task_guid":"c0f368a9-xxx"}' --as user
 ```
 
 所有 lark-cli 原生 API 的 path 参数都通过 `--params` JSON 传递。
+
+## 8. lark-cli api PATCH 静默失败
+
+`lark-cli api PATCH` 对某些 API（如 tasks.patch）会静默失败（exit 1，无输出）。
+
+**正确做法**：用 `lark-cli task +update --task-id <guid> --data '{...}'` 代替裸调 PATCH。
+
+```bash
+# 错误（静默失败）
+lark-cli api PATCH /open-apis/task/v2/tasks/<guid> --as user --params '{"update_fields":"custom_fields"}' --data '...'
+
+# 正确
+lark-cli task +update --task-id <guid> --data '{"custom_fields":[...]}' --as user
+```
+
+## 9. 修改非自己创建的任务需要先加为成员
+
+飞书任务 API 只能操作调用者有权限的任务。如果任务不是自己创建的，需要先加为 follower：
+
+```bash
+lark-cli task +followers --task-id <guid> --add <自己的open_id> --as user
+```

@@ -50,7 +50,7 @@ lark-cli api POST /open-apis/drive/v1/export_tasks --data '{"file_extension":"pd
 ## 迁移目标路径
 
 ```
-4-Archives/Feishu/
+4-Archives/Notes/Feishu/
 ├── 文档/                    # docx/doc 类型，转为 Markdown
 ├── 知识库/                  # 知识库节点，转为 Markdown
 ├── Attachments/            # 下载的附件文件
@@ -82,13 +82,13 @@ modified: YYYY-MM-DD
 
 | 标题 | Token | 类型 | 迁移到 | 状态 |
 |------|-------|------|--------|------|
-| xxx  | xxx   | docx | [[4-Archives/Feishu/文档/xxx]] | ✅ 已迁移 |
+| xxx  | xxx   | docx | [[4-Archives/Notes/Feishu/文档/xxx]] | ✅ 已迁移 |
 
 ## 知识库
 
 | 标题 | Node ID | Space | 迁移到 | 状态 |
 |------|---------|-------|--------|------|
-| xxx  | xxx     | xxx   | [[4-Archives/Feishu/知识库/xxx]] | ✅ 已迁移 |
+| xxx  | xxx     | xxx   | [[4-Archives/Notes/Feishu/知识库/xxx]] | ✅ 已迁移 |
 
 ## 无法迁移内容（保留链接）
 

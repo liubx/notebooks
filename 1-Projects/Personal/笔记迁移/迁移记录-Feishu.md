@@ -212,16 +212,16 @@ modified: 2026-03-20
 
 | # | 标题 | Token | 类型 | 迁移到 | 状态 |
 |---|------|-------|------|--------|------|
-| 1 | 大运控协同管理平台技术要求 | Gy3Pd3Yvho3aqUxqJJOcJqjjnBe | docx | [[4-Archives/Feishu/云空间/莱讯科技/项目资料管理/广州机场/大运控协同管理平台技术要求]] | ✅ 已迁移 |
-| 2 | 广州机场热备 | Gy3Pd3Yvho3aqUxqJJOcJqjjnBe | docx | [[4-Archives/Feishu/云空间/莱讯科技/项目资料管理/广州机场/广州机场热备]] | ✅ 已迁移 |
-| 3 | 航站楼协同决策管理系统（TCMD）技术要求 | Q8aPd8tcio0QHGxbuO6cmW8un3e | docx | [[4-Archives/Feishu/云空间/莱讯科技/项目资料管理/广州机场/航站楼协同决策管理系统（TCMD）技术要求]] | ✅ 已迁移 |
-| 4 | 项目情况汇报 | VDJOdnJhOoGMPixqVWBcFJOznBe | docx | [[4-Archives/Feishu/云空间/莱讯科技/项目资料管理/广州机场/项目情况汇报]] | ✅ 已迁移 |
-| 5 | 表C.2.5 深化评审记录(含附表)(三标段)(1205)最新 | WbRsd7TUgo7ASSx6VhicHCFynwF | docx | [[4-Archives/Feishu/云空间/莱讯科技/项目资料管理/广州机场/表C.2.5 深化评审记录]] | ✅ 已迁移 |
-| 6 | AESB总线业务联调方案 | FM2hdCBaqo3humx0p1ccd8a9nKc | docx | [[4-Archives/Feishu/云空间/莱讯科技/项目资料管理/广州机场/AESB总线业务联调方案]] | ✅ 已迁移 |
-| 7 | 项目情况汇报-2 | Qd1kdHm9lou4GpxZJuRckerQnFb | docx | [[4-Archives/Feishu/云空间/莱讯科技/项目资料管理/广州机场/项目情况汇报-2]] | ✅ 已迁移 |
-| 8 | 综合定位系统运维白皮书 | AMuadobIrozdlZxG96gcHgtPnxe | docx | [[4-Archives/Feishu/云空间/莱讯科技/项目资料管理/广州机场/综合定位系统运维白皮书]] | ✅ 已迁移 |
-| 9 | 综合定位系统技术要求 | Gi0MdNC9ToLxM0xfPDCcsKD2nzf | docx | [[4-Archives/Feishu/云空间/莱讯科技/项目资料管理/广州机场/综合定位系统技术要求]] | ✅ 已迁移 |
-| 10 | 深化设计说明书（移动应用服务平台）-2025 | B2erdpLOJo5lqoxNeyucOFo2nYf | docx | [[4-Archives/Feishu/云空间/莱讯科技/项目资料管理/广州机场/深化设计说明书（移动应用服务平台）-2025]] | ✅ 已迁移 |
+| 1 | 大运控协同管理平台技术要求 | Gy3Pd3Yvho3aqUxqJJOcJqjjnBe | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场/大运控协同管理平台技术要求]] | ✅ 已迁移 |
+| 2 | 广州机场热备 | Gy3Pd3Yvho3aqUxqJJOcJqjjnBe | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场/广州机场热备]] | ✅ 已迁移 |
+| 3 | 航站楼协同决策管理系统（TCMD）技术要求 | Q8aPd8tcio0QHGxbuO6cmW8un3e | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场/航站楼协同决策管理系统（TCMD）技术要求]] | ✅ 已迁移 |
+| 4 | 项目情况汇报 | VDJOdnJhOoGMPixqVWBcFJOznBe | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场/项目情况汇报]] | ✅ 已迁移 |
+| 5 | 表C.2.5 深化评审记录(含附表)(三标段)(1205)最新 | WbRsd7TUgo7ASSx6VhicHCFynwF | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场/表C.2.5 深化评审记录]] | ✅ 已迁移 |
+| 6 | AESB总线业务联调方案 | FM2hdCBaqo3humx0p1ccd8a9nKc | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场/AESB总线业务联调方案]] | ✅ 已迁移 |
+| 7 | 项目情况汇报-2 | Qd1kdHm9lou4GpxZJuRckerQnFb | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场/项目情况汇报-2]] | ✅ 已迁移 |
+| 8 | 综合定位系统运维白皮书 | AMuadobIrozdlZxG96gcHgtPnxe | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场/综合定位系统运维白皮书]] | ✅ 已迁移 |
+| 9 | 综合定位系统技术要求 | Gi0MdNC9ToLxM0xfPDCcsKD2nzf | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场/综合定位系统技术要求]] | ✅ 已迁移 |
+| 10 | 深化设计说明书（移动应用服务平台）-2025 | B2erdpLOJo5lqoxNeyucOFo2nYf | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场/深化设计说明书（移动应用服务平台）-2025]] | ✅ 已迁移 |
 
 散落文件：
 - cle测算报告 (docx, `KsIRdMFKRoRWqQx8yYkce8G0nys`)
@@ -232,11 +232,11 @@ modified: 2026-03-20
 
 | # | 标题 | Token | 类型 | 迁移到 | 状态 |
 |---|------|-------|------|--------|------|
-| 1 | 移动应用平台运维白皮书编写内容框架 | AhnkdGgzroBd8Cx9KxDctcGjnAg | docx | [[4-Archives/Feishu/云空间/莱讯科技/项目资料管理/广州机场-移动应用平台/移动应用平台运维白皮书编写内容框架]] | ✅ 已迁移 |
-| 2 | 移动应用平台进程清单编写内容框架 | YCvydrOqHodVj8xC28EcVVMEnRf | docx | [[4-Archives/Feishu/云空间/莱讯科技/项目资料管理/广州机场-移动应用平台/移动应用平台进程清单编写内容框架]] | ✅ 已迁移 |
-| 3 | 移动应用平台故障处理手册编写内容框架 | RPtLdFSovoD4Yex9QP6c77E2ncg | docx | [[4-Archives/Feishu/云空间/莱讯科技/项目资料管理/广州机场-移动应用平台/移动应用平台故障处理手册编写内容框架]] | ✅ 已迁移 |
-| 4 | 移动应用平台配置清单编写内容框架 | Z5SFdZURjogTZ8xsMf0c5g6enos | docx | [[4-Archives/Feishu/云空间/莱讯科技/项目资料管理/广州机场-移动应用平台/移动应用平台配置清单编写内容框架]] | ✅ 已迁移 |
-| 5 | 移动应用服务平台操作手册 | ZYlPd9RQYoOrXVx90tEccfHEnQg | docx | [[4-Archives/Feishu/云空间/莱讯科技/项目资料管理/广州机场-移动应用平台/移动应用服务平台操作手册]] | ✅ 已迁移 |
+| 1 | 移动应用平台运维白皮书编写内容框架 | AhnkdGgzroBd8Cx9KxDctcGjnAg | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场-移动应用平台/移动应用平台运维白皮书编写内容框架]] | ✅ 已迁移 |
+| 2 | 移动应用平台进程清单编写内容框架 | YCvydrOqHodVj8xC28EcVVMEnRf | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场-移动应用平台/移动应用平台进程清单编写内容框架]] | ✅ 已迁移 |
+| 3 | 移动应用平台故障处理手册编写内容框架 | RPtLdFSovoD4Yex9QP6c77E2ncg | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场-移动应用平台/移动应用平台故障处理手册编写内容框架]] | ✅ 已迁移 |
+| 4 | 移动应用平台配置清单编写内容框架 | Z5SFdZURjogTZ8xsMf0c5g6enos | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场-移动应用平台/移动应用平台配置清单编写内容框架]] | ✅ 已迁移 |
+| 5 | 移动应用服务平台操作手册 | ZYlPd9RQYoOrXVx90tEccfHEnQg | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场-移动应用平台/移动应用服务平台操作手册]] | ✅ 已迁移 |
 
 散落文件（file 类型，保留链接）：
 - 移动应用平台用户手册.docx (file, `UIrtb8LiKoAiUaxpRyWcRgPOnve`) https://reliablesense.feishu.cn/file/UIrtb8LiKoAiUaxpRyWcRgPOnve
@@ -257,9 +257,9 @@ modified: 2026-03-20
 
 | # | 标题 | Token | 类型 | 迁移到 | 状态 |
 |---|------|-------|------|--------|------|
-| 1 | 0 软件项目资料-常州嘉盛半导体 | Sk1fdcud4oXDO0xLblCcpKYDn1c | docx | [[4-Archives/Feishu/云空间/莱讯科技/项目资料管理/项目资料模板/0-软件项目资料-常州嘉盛半导体]] | ✅ 已迁移 |
-| 2 | 0 软件项目资料-中讯邮电 | YjyzdYSYUoXweHxGHljc7vF4nRc | docx | [[4-Archives/Feishu/云空间/莱讯科技/项目资料管理/项目资料模板/0-软件项目资料-中讯邮电]] | ✅ 已迁移 |
-| 3 | 0 软件项目资料-人员定位系统 | doxcnmwgwcdPnrEHAgd4pXZMBgc | docx | [[4-Archives/Feishu/云空间/莱讯科技/项目资料管理/项目资料模板/0-软件项目资料-人员定位系统]] | ✅ 已迁移 |
+| 1 | 0 软件项目资料-常州嘉盛半导体 | Sk1fdcud4oXDO0xLblCcpKYDn1c | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/项目资料模板/0-软件项目资料-常州嘉盛半导体]] | ✅ 已迁移 |
+| 2 | 0 软件项目资料-中讯邮电 | YjyzdYSYUoXweHxGHljc7vF4nRc | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/项目资料模板/0-软件项目资料-中讯邮电]] | ✅ 已迁移 |
+| 3 | 0 软件项目资料-人员定位系统 | doxcnmwgwcdPnrEHAgd4pXZMBgc | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/项目资料模板/0-软件项目资料-人员定位系统]] | ✅ 已迁移 |
 
 > 注：另有 3 个重复 token（均为中讯邮电的副本）：`doxcnYnCagX1SsmAbbSyUtL0SRb`、`QbwZdfpAGoD01Ux19u8cuYuVnYf`、`WeIZdEfmOowHlaxp6IscEEMdnrb`，已跳过。
 
@@ -267,16 +267,16 @@ modified: 2026-03-20
 
 | # | 标题 | Token | 类型 | 迁移到 | 状态 |
 |---|------|-------|------|--------|------|
-| 1 | 项目管理SOP目录 | — | docx | [[4-Archives/Feishu/云空间/莱讯科技/销售管理/项目管理SOP目录]] | ✅ 已迁移（前次session） |
-| 2 | SOW文件 | JeSsdPfEaoy9exxBeD9cBP0pn8M | docx | [[4-Archives/Feishu/云空间/莱讯科技/销售管理/SOW文件]] | ✅ 已迁移 |
+| 1 | 项目管理SOP目录 | — | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/销售管理/项目管理SOP目录]] | ✅ 已迁移（前次session） |
+| 2 | SOW文件 | JeSsdPfEaoy9exxBeD9cBP0pn8M | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/销售管理/SOW文件]] | ✅ 已迁移 |
 
 #### 莱讯科技 > 公司内部资料 散落 docx
 
 | # | 标题 | Token | 类型 | 迁移到 | 状态 |
 |---|------|-------|------|--------|------|
-| 1 | 地图制作设计书 | — | docx | [[4-Archives/Feishu/云空间/莱讯科技/公司内部资料/地图制作设计书]] | ✅ 已迁移（前次session） |
-| 2 | 工作周报管理及考核制度 | MfMRdLUQRovRsExNxjGcTZ8Jnxd | docx | [[4-Archives/Feishu/云空间/莱讯科技/公司内部资料/工作周报管理及考核制度]] | ✅ 已迁移 |
-| 3 | 考勤制度 | ICeIdwPzXo2hSDxtqFqc4757nXd | docx | [[4-Archives/Feishu/云空间/莱讯科技/公司内部资料/考勤制度]] | ✅ 已迁移 |
+| 1 | 地图制作设计书 | — | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/公司内部资料/地图制作设计书]] | ✅ 已迁移（前次session） |
+| 2 | 工作周报管理及考核制度 | MfMRdLUQRovRsExNxjGcTZ8Jnxd | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/公司内部资料/工作周报管理及考核制度]] | ✅ 已迁移 |
+| 3 | 考勤制度 | ICeIdwPzXo2hSDxtqFqc4757nXd | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/公司内部资料/考勤制度]] | ✅ 已迁移 |
 
 #### 莱讯科技 > 公司内部资料 子文件夹
 
