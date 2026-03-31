@@ -64,3 +64,18 @@ lark-cli api POST /open-apis/task/v2/tasks/<task_guid>/add_tasklist --as user --
 `--assignee` 参数需要传 `open_id`（如 `ou_xxx`），不是用户名。
 
 **查找 open_id**：`lark-cli contact +search-user --query "姓名" --as user`
+
+## 7. task tasks get 的 path 参数用 --params 传递
+
+`lark-cli task tasks get` 不支持位置参数或 `--task_guid`，必须用 `--params`：
+
+```bash
+# 错误
+lark-cli task tasks get c0f368a9-xxx --as user
+lark-cli task tasks get --task_guid c0f368a9-xxx --as user
+
+# 正确
+lark-cli task tasks get --params '{"task_guid":"c0f368a9-xxx"}' --as user
+```
+
+所有 lark-cli 原生 API 的 path 参数都通过 `--params` JSON 传递。

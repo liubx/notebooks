@@ -257,22 +257,20 @@ lark-cli api DELETE /open-apis/task/v2/attachments/<attach_guid> --as user
 
 | open_id | 姓名 |
 |---------|------|
-| ou_9be76f17d1adc319030bc8d0b883174e | 刘秉欣 |
-| ou_105edcafa5829da753622165782e03ec | 陆东 |
-| ou_a6a57cc5a5b68f1cc1de9303fde95b9e | 姚文羚 |
-| ou_133d6b2efd74de1c18e78c31982e3682 | 闫云江 |
-| ou_5e48e13751c35f6259c4a466b0aa2c2d | 钟申炜 |
-| ou_84805b2c6cc34a5c91cdb5230df5f5aa | 王鹏 |
-| ou_c46553a9025efc0bdd0a9ebd095ff753 | 杨嵘 |
-| ou_d8753db08d55d6d3281f66f9f38d57d9 | 马工 |
-| ou_aed93030c2cf59d0e67dc94d462f4242 | 杨嵘(设计) |
-| ou_d7c6010202b1e198bd3f8c236da29c73 | 伍峥 |
-| ou_b8d3d51fa3d5b6e1200347b625521c58 | 财务 |
-| ou_c7e1e347a7461614127f677249cedb17 | 李工 |
-| ou_de5641e7821fa86d456a3a7e8d48810f | 韩晓龙 |
-| ou_950e3fbd4f3b31d0d662e2107179a2bb | 闫云江(前端) |
-| ou_c745ac63bf3f9874d86ae330114eeb9a | 王工(上港) |
-| ou_430cf085e4a3f107a2d7bf5b1d0555e8 | 马工(洛阳) |
+| ou_195bb3b8d1d0ca691e44407b827698df | 刘秉欣 |
+| ou_022e1cfd69ddd292f43986257038c358 | 陆东 |
+| ou_e0a91153067efa24e4c14e93e3bb5921 | 姚文羚 |
+| ou_eca076dbfbc5de15f818c2032ed2c563 | 闫云江 |
+| ou_dcdce1f487b53e18401e36b6302559d4 | 钟申炜 |
+| ou_917a04e85c42253cc0c1c481ee50a0e4 | 伍峥 |
+| ou_ea330506b95d595609440cfef93802c2 | 杨嵘 |
+| ou_c0539b45af4070465c5fe10869002f89 | 石佳鑫 |
+| ou_bec03d2498c2eb3eec39ae9d5aca8ddf | 何宜峰 |
+| ou_0eb067ebc0cd266ff2837a7ce865d6fa | 陈子杰 |
+| ou_913d65ef9fd6fb36de8a6d26ebfcfe35 | 王宗光 |
+| ou_a03f60c5e33e97fdf438283d0b965170 | 邓志斌 |
+| ou_48a8b3bbac19df9f243d49e19545c3be | 张函硕 |
+| ou_86ca955bf3801a16cd8935d6e85fbacc | 韩晓龙 |
 | ou_feec774e97c0ffbed06e416157d38409 | 刘仁跃 |
 
 ---
