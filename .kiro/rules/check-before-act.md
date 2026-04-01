@@ -17,6 +17,12 @@
 - Wikilinks 使用 Obsidian 格式 `[[path/to/file]]`，不带 `.md` 后缀，不带别名
 - 用户主要使用中文
 
+## 关联 Vault
+
+- **Yiyan's Vault**：小孩的笔记 vault，路径 `~/Library/Mobile Documents/iCloud~md~obsidian/Documents/Yiyan's Vault`
+- 包含类似的笔记规则（`.kiro`、`.learnings`、`.obsidian`），但有部分修改和简化
+- 当本 vault 的规则更新时，能同步的要同步过去（主要是 `.kiro`、`.learnings`、`.obsidian` 下的规则）
+
 ## Git 提交规则
 
 - 不要频繁提交 git，除非用户明确要求"提交代码"
