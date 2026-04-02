@@ -15,7 +15,7 @@
 | 目录 | Bingxin | Yiyan |
 |------|---------|-------|
 | `1-Projects/` | `Work/` + `Personal/` | `Study/` + `Life/` |
-| `2-Areas/` | `Work/` + `Life/` | `Life/`（无 Work） |
+| `2-Areas/` | `Work/` + `Life/` | `Life/` + `Study/`（多了学习领域） |
 | `3-Resources/` | `Tech/`（知识卡片/代码片段/技术决策） | `Knowledge/` |
 | 根目录特殊文件 | `任务总览.md` | `欢迎.md` + `任务总览.md` + `积分总表.md` |
 
