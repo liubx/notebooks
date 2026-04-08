@@ -3,61 +3,98 @@ title: 迁移记录-Feishu
 type: migration-log
 source: feishu
 created: 2026-03-18
-modified: 2026-04-05
+modified: 2026-04-07
 ---
 
 # 飞书文档迁移记录
 
-## 统计（2026-04-05 全量扫描更新）
+## 统计（2026-04-07 更新）
 
 完整文件清单见 [[飞书完整文件清单.tsv]]
+迁移状态报告见 [[飞书迁移状态报告.tsv]]
 
-### 飞书总文件数：5,800
+### 总览
 
-| 类型 | 总计 | 已迁移 | 未迁移 | 说明 |
-|------|------|--------|--------|------|
-| file | 4,871 | ~40 | ~4,831 | 上传的附件（docx/xlsx/pdf/zip/mp4/dwg 等） |
-| docx | 687 | 119 | 568 | 新版文档（含 274 个会议纪要） |
-| sheet | 109 | ~30 | ~79 | 电子表格（已导出 xlsx） |
-| bitable | 43 | ~14 | ~29 | 多维表格（已导出 xlsx） |
-| mindnote | 43 | 6 | 37 | 思维导图（API 无法导出，需手动） |
-| doc | 28 | 5 | 23 | 旧版文档（通过导出 API + pandoc） |
-| slides | 17 | 0 | 17 | 幻灯片（API 无法导出，需手动导出 PDF） |
-| shortcut | 2 | 0 | 2 | 快捷方式（跳过） |
+- 本地文件：8,083 个，77.5 GB
+- 飞书总文件数：5,800
+- 已迁移：5,133（88%）
+- 会议纪要（可选）：274
+- 未迁移：391（超大 file 332 个 + mindnote 42 个 + slides 17 个）
 
-### 已完成的迁移工作（2026-04-04 ~ 04-05）
+### 按类型统计
 
-1. ✅ 52 个 doc 旧版文档 → Markdown（导出 API → docx → pandoc 转换）
-2. ✅ 63 个 docx 文档的 897 张图片 → 下载并更新 Markdown 引用
-3. ✅ ~30 个 sheet → xlsx 导出（含根目录、王宗光、陈子杰、广州机场等）
-4. ✅ ~14 个 bitable → xlsx 导出（含附件映射）
-5. ✅ ~40 个 file 小文件 → 下载成功
-6. ✅ 6 个 mindnote → 手动导出 .mm（4 个已删除）
-7. ✅ 广州机场-综合定位补充迁移（5 docx + 18 sheet + 1 bitable + 15 file）
-8. ✅ 项目资料管理缺失文件夹迁移（售前项目、中东电子厂、项目评估等）
-9. ✅ 文件夹名称与飞书保持一致（加编号前缀）
-10. ✅ 9 个 slides 手动导出 PDF（广州机场）
+| 类型 | 总计 | 已迁移 | 未迁移 | 完成率 | 说明 |
+|------|------|--------|--------|--------|------|
+| file | 4,871 | 4,539 | 332 | 93% | 332 个为超大文件（120 秒超时）或空文件 |
+| docx | 687 | 413 | 274 | 60% | 274 个为会议纪要（可选迁移） |
+| sheet | 109 | 109 | 0 | 100% | 全部导出为 xlsx |
+| bitable | 43 | 43 | 0 | 100% | 全部导出为 xlsx（含附件映射） |
+| mindnote | 43 | 1 | 42 | 2% | API 不支持导出，需手动导出 .mm（6 个已下载但检测未匹配） |
+| doc | 28 | 28 | 0 | 100% | 全部通过导出 API + pandoc 转 Markdown |
+| slides | 17 | 0 | 17 | 0% | API 不支持导出，需手动导出 PDF（9 个已下载但检测未匹配） |
+| shortcut | 2 | 0 | 2 | 0% | 跳过 |
 
-### 未迁移 docx 分类
+### 已完成的迁移工作
 
-- 会议纪要类：274 个（智能纪要/文字记录/会议速递，自动生成，价值低）
-- 其他 docx：294 个（分布在各项目子文件夹中，需递归迁移）
+**2026-03-18 ~ 03-20（第一轮）**
+1. ✅ 飞书内容盘点（云空间 + 知识库）
+2. ✅ 111 个 docx → Markdown（docs +fetch）
+3. ✅ 51 个 doc → 链接索引文件
 
-### 未迁移大文件（API 下载超时）
+**2026-04-04 ~ 04-05（第二轮，lark-cli 新能力）**
+4. ✅ 52 个 doc 旧版文档 → Markdown（导出 API → docx → pandoc）
+5. ✅ 63 个 docx 文档的 897 张图片 → 下载并更新 Markdown 引用
+6. ✅ 109 个 sheet → xlsx 导出
+7. ✅ 43 个 bitable → xlsx 导出（含附件映射）
+8. ✅ 6 个 mindnote → 手动导出 .mm
+9. ✅ 9 个 slides → 手动导出 PDF
+10. ✅ 294 个非会议纪要 docx → Markdown + 图片（批量迁移）
+11. ✅ 广州机场-综合定位补充迁移（docx + sheet + bitable + file）
+12. ✅ 项目资料管理缺失文件夹迁移（8 个子文件夹）
+13. ✅ 文件夹名称与飞书保持一致（加编号前缀）
 
-大文件（zip/rar/mov/mp4/apk 等）通过 API 下载超时，需在飞书界面手动下载。
+**2026-04-05 ~ 04-07（file 附件批量下载）**
+14. ✅ 4,352 个 file 附件下载（os.fork + 超时控制解决 lark-cli 卡死问题）
+15. ✅ 全量扫描飞书云空间（递归遍历所有文件夹，生成完整文件清单）
+
+### 未迁移内容
+
+**file 附件（332 个）**
+- 超大文件（120 秒超时下载不完）、空文件、或已删除
+- 含 204 个展会资料（已跳过）、~80 个超大文件（rar/mp4/mov/7z 分卷等）
+- 2 个小文件需手动下载：Audit report.txt、VPN登录指导文档v2.docx
+
+**会议纪要（274 个 docx）**
+- 智能纪要/文字记录/会议速递，自动生成，价值低
+- 可选迁移
+
+**mindnote（42 个待手动）**
+- API 不支持导出，需在飞书界面手动导出 FreeMind (.mm)
+- 6 个已下载到本地（检测脚本因文件名格式未匹配）
+
+**slides（17 个待手动）**
+- API 不支持导出，需在飞书界面手动导出 PDF
+- 9 个已手动导出（检测脚本因文件名格式未匹配）
 
 ### 迁移方式汇总
 
 | 类型 | 迁移方式 |
 |------|---------|
-| docx | `docs +fetch` → Markdown + 图片下载 |
+| docx | `docs +fetch` → Markdown + 图片下载（`docs +media-download`） |
 | doc | 导出 API → docx → pandoc → Markdown |
-| sheet | 导出 API → xlsx 或 `sheets +export` |
-| bitable | 导出 API → xlsx + 附件映射 |
-| file（小文件） | `drive +download` 直接下载 |
+| sheet | 导出 API → xlsx |
+| bitable | 导出 API → xlsx + 附件字段下载 + 附件映射 md |
+| file（小文件） | `drive +download`（os.fork + 超时控制） |
 | file（大文件） | 手动在飞书界面下载 |
 | mindnote | 手动导出 FreeMind (.mm) |
+| slides | 手动导出 PDF |
+
+### 技术问题记录
+
+1. **lark-cli 下载卡死**：lark-cli（Go 程序）在下载某些大文件时会进入不可杀状态，`proc.kill()`/`os.killpg(SIGKILL)` 都无法终止。解决方案：使用 `os.fork()` + `os.execvp()` 隔离下载进程，父进程用 `os.waitpid(WNOHANG)` 非阻塞等待 + `signal.SIGCHLD = SIG_IGN` 避免僵尸进程。
+2. **doc 旧版文档**：`docs +fetch` 不支持 doc 类型（`doccn` 前缀），但导出 API 支持导出为 docx，再用 pandoc 转 Markdown。
+3. **doxcn vs doccn**：`doxcn` 前缀是 docx 新版文档（可直接 fetch），`doccn` 前缀是 doc 旧版文档（需导出 API）。
+4. **slides/mindnote**：飞书 OpenAPI 完全没有 slides 和 mindnote 的导出接口，只能手动操作。
 | slides | 手动导出 PDF（API 不支持） |
 
 ---

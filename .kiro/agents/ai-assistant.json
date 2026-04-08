@@ -1,0 +1,17 @@
+{
+  "name": "ai-assistant",
+  "description": "用于个人笔记管理的AI助手",
+  "mcpServers": {
+    "feishu": {
+      "type": "streamable-http",
+      "url": "http://127.0.0.1:9800/mcp"
+    }
+  },
+  "tools": ["*"],
+  "allowedTools": [],
+  "resources": [
+    "file://.kiro/steering/**/*.md",
+    "skill://.kiro/skills/**/SKILL.md"
+  ],
+  "includeMcpJson": true
+}

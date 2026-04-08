@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "name": "自动错误记录",
+  "description": "当 shell 命令或 API 调用执行失败时，自动分析错误原因并记录到 .learnings/ERRORS.md，包含错误描述、根因和正确做法，避免重复犯同样的错误。",
+  "version": "1",
+  "when": {
+    "type": "postToolUse",
+    "toolTypes": [
+      "shell"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "检查刚才执行的命令结果。如果命令执行失败（exit code 非 0、HTTP 4xx/5xx 错误、或返回 ok:false），按以下步骤操作：\n\n1. 先读取 .learnings/ERRORS.md 查看是否已有相同错误的记录\n2. 如果是新错误，追加一条记录，格式如下：\n\n## [ERR-{YYYYMMDD}-{序号}] 简短错误标题\n\n**时间**: YYYY-MM-DD\n**严重性**: high/medium/low\n**领域**: 相关领域标签\n\n### 错误描述\n具体发生了什么错误\n\n### 根因\n为什么会出错\n\n### 正确做法\n下次应该怎么做\n\n3. 如果已有相同错误记录，不重复添加，但可以在已有记录下补充新的场景\n\n如果命令执行成功，不做任何操作。"
+  }
+}

@@ -1,0 +1,11 @@
+log_level = "info"
+
+[im.feishu]
+app_id = "cli_a94d729d6b38dbce"
+app_secret = "BZzHk9dfMB5FJb0b4QjdgeygeAoQEZnV"
+
+[backend]
+cmd = "kiro-cli"
+args = ["acp", "--agent", "ai-assistant"]
+pool_size = 4
+cwd = "~/Library/Mobile Documents/iCloud~md~obsidian/Documents/Bingxin's Vault"
