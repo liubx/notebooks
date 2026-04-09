@@ -117,14 +117,21 @@ lark-cli api POST /open-apis/task/v2/tasks/<task_guid>/add_members \
 lark-cli 原生 API 的路径参数（如 `tasklist_guid`）不是通过 `--flag` 传递的，而是作为位置参数直接跟在命令后面。
 
 ### 正确做法
-路径参数需要通过 `--params` JSON 传递（与查询参数一起）：
+路径参数需要通过 `--params` JSON 传递（与查询参数一起），不能作为位置参数或 flag：
 ```bash
-# 正确
-lark-cli task tasklists tasks --params '{"tasklist_guid":"xxx"}' --as user
+# 正确 — 路径参数放在 --params JSON 里
+lark-cli task tasklists tasks --params '{"tasklist_guid":"xxx","page_size":"100"}' --as user
 
-# 错误
+# 错误 — 作为 flag
 lark-cli task tasklists tasks --tasklist_guid xxx --as user
-lark-cli task tasklists tasks "xxx" --as user
+
+# 错误 — 作为位置参数
+lark-cli task tasklists tasks xxx --params '{"page_size":"100"}' --as user
+```
+
+同理，`tasks get` 也需要把 `task_guid` 放在 `--params` 里：
+```bash
+lark-cli task tasks get --params '{"task_guid":"xxx","user_id_type":"open_id"}' --as user
 ```
 
 
@@ -145,3 +152,60 @@ lark-cli task tasklists tasks "xxx" --as user
 1. 先用 `tasks.get` 查询该任务的详情，确认任务是否还存在
 2. 如果任务存在但不在当前清单中（`tasklists` 字段变了），说明是被移走了，不应删除
 3. 只有当 `tasks.get` 返回 404 或任务确实被删除时，才从本地移除
+
+
+## [ERR-20260408-001] 飞书 API 频率限制导致批量任务同步失败
+
+**时间**: 2026-04-08
+**严重性**: medium
+**领域**: feishu, api, rate-limit
+
+### 错误描述
+使用 Python 脚本通过 subprocess 连续调用 `lark-cli api` 拉取 17 个任务清单数据时，触发飞书 API 频率限制（错误码 99992402），导致所有请求返回空响应或 `ok: false`。即使加了 3~5 秒间隔，限流窗口仍未恢复。而直接在 shell 中手动调用同一命令则正常返回。
+
+### 根因
+1. 飞书任务 API 有频率限制，短时间内大量请求会触发 99992402 错误
+2. 一旦触发限流，恢复窗口可能较长（超过 5 秒间隔仍不够）
+3. 之前多次重试（每个清单 3 次 × 17 个 = 51 次请求）加剧了限流
+
+### 正确做法
+1. 批量拉取飞书数据时，每次请求间隔至少 10 秒
+2. 遇到限流错误时，指数退避（10s → 20s → 40s）
+3. 不要用脚本批量同步所有清单，改为逐个在 shell 中调用，或只同步有变化的清单
+4. 考虑先用 `lark-cli task tasklists list` 获取 `updated_at` 时间戳，只同步最近更新过的清单
+
+
+## [ERR-20260408-002] lark-cli task +create 使用了不存在的 --member 参数
+
+**时间**: 2026-04-08
+**严重性**: low
+**领域**: lark-cli, task
+
+### 错误描述
+创建任务时使用 `--member` 参数指定负责人，报错 `unknown flag: --member`。
+
+### 根因
+`task +create` shortcut 的负责人参数是 `--assignee`，不是 `--member`。
+
+### 正确做法
+```bash
+lark-cli task +create --summary '标题' --description '描述' --assignee 'ou_xxx' --as user
+```
+
+
+## [ERR-20260409-001] iCloud 目录下 os.walk 极慢导致脚本超时
+
+**时间**: 2026-04-09
+**严重性**: medium
+**领域**: icloud, python, performance
+
+### 错误描述
+在 iCloud Drive 同步目录（`~/Library/Mobile Documents/iCloud~md~obsidian/`）下执行 `os.walk()` 遍历 8000+ 文件时，耗时超过 2 分钟，导致 Python 脚本频繁超时。
+
+### 根因
+iCloud Drive 对文件系统操作有额外开销（需要检查文件是否已下载、同步状态等），`os.path.exists()` 和 `os.walk()` 每个文件都会触发 iCloud 的元数据查询。
+
+### 正确做法
+1. 避免在 iCloud 目录下频繁使用 `os.walk()`，改用 `find` 命令或缓存结果
+2. 将脚本放到后台进程运行（`controlBashProcess`），不要用 `executeBash` 带 timeout
+3. 如果必须扫描，先用 `find` 生成文件列表到临时文件，再用 Python 读取

@@ -41,16 +41,6 @@ AI工作流群              →  :9811           →  internal-ai    (cwd: Work/
 > 同一平台项目的不同期分别部署，agent 名称可加期数后缀，如 `gzjc-gzjc-phase1`、`gzjc-gzjc-phase2`。
 > 以上 agent 名称和端口为示例，实际部署时按需调整。
 
-## 部署环境
-
-| 环境 | 机器 | 运行的 agent | 服务管理 |
-|------|------|-------------|---------|
-| 家里 | Mac mini | master（个人助手） | launchd |
-| 办公室 | Mac mini | 所有项目助手 | launchd |
-
-> 两台机器独立运行，通过飞书服务器中转消息，互不依赖。
-> 如果后续有 Linux 服务器，使用 systemd 管理。
-
 ## 设计原则
 
 1. **项目隔离**：项目 agent 的 `cwd` 限制在具体项目期的文件夹（如 `1-Projects/Work/广州机场/`），同事无法访问个人笔记和其他项目
@@ -318,117 +308,9 @@ port = 9801
    ```
 6. 将机器人拉入飞书群
 
-## 服务管理
+## systemd 管理（Linux 服务器）
 
-### macOS（launchd）
-
-#### plist 文件位置
-
-```
-~/Library/LaunchAgents/
-├── com.acp-link.master.plist
-├── com.acp-link.gzjc-gzjc-phase1.plist
-├── com.acp-link.pn-xxx-phase1.plist
-└── ...
-```
-
-#### plist 模板
-
-```xml
-<!-- ~/Library/LaunchAgents/com.acp-link.{agent名称}.plist -->
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-    <key>Label</key>
-    <string>com.acp-link.{agent名称}</string>
-    <key>ProgramArguments</key>
-    <array>
-        <string>/usr/local/bin/acp-link</string>
-    </array>
-    <key>EnvironmentVariables</key>
-    <dict>
-        <key>ACP_LINK_CONFIG</key>
-        <string>/Users/{用户名}/.acp-link/config-{agent名称}.toml</string>
-        <key>PATH</key>
-        <string>/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin</string>
-    </dict>
-    <key>RunAtLoad</key>
-    <true/>
-    <key>KeepAlive</key>
-    <true/>
-    <key>StandardOutPath</key>
-    <string>/Users/{用户名}/.acp-link/logs/{agent名称}.log</string>
-    <key>StandardErrorPath</key>
-    <string>/Users/{用户名}/.acp-link/logs/{agent名称}.err</string>
-</dict>
-</plist>
-```
-
-> `RunAtLoad` = 开机自动启动，`KeepAlive` = 崩溃后自动重启。
-
-#### 常用命令
-
-```bash
-# 创建日志目录
-mkdir -p ~/.acp-link/logs
-
-# 加载并启动
-launchctl load ~/Library/LaunchAgents/com.acp-link.master.plist
-
-# 停止并卸载
-launchctl unload ~/Library/LaunchAgents/com.acp-link.master.plist
-
-# 查看状态
-launchctl list | grep acp-link
-
-# 查看日志
-tail -f ~/.acp-link/logs/master.log
-
-# 重启（先卸载再加载）
-launchctl unload ~/Library/LaunchAgents/com.acp-link.master.plist
-launchctl load ~/Library/LaunchAgents/com.acp-link.master.plist
-
-# 批量查看所有 acp-link 服务状态
-launchctl list | grep acp-link
-```
-
-#### 个人助手 plist 示例
-
-```xml
-<!-- ~/Library/LaunchAgents/com.acp-link.master.plist -->
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-    <key>Label</key>
-    <string>com.acp-link.master</string>
-    <key>ProgramArguments</key>
-    <array>
-        <string>/usr/local/bin/acp-link</string>
-    </array>
-    <key>EnvironmentVariables</key>
-    <dict>
-        <key>ACP_LINK_CONFIG</key>
-        <string>/Users/{用户名}/.acp-link/config-master.toml</string>
-        <key>PATH</key>
-        <string>/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin</string>
-    </dict>
-    <key>RunAtLoad</key>
-    <true/>
-    <key>KeepAlive</key>
-    <true/>
-    <key>StandardOutPath</key>
-    <string>/Users/{用户名}/.acp-link/logs/master.log</string>
-    <key>StandardErrorPath</key>
-    <string>/Users/{用户名}/.acp-link/logs/master.err</string>
-</dict>
-</plist>
-```
-
-### Linux（systemd）
-
-#### template unit
+### template unit
 
 ```ini
 # ~/.config/systemd/user/acp-link@.service
@@ -449,27 +331,24 @@ RestartSec=5s
 WantedBy=default.target
 ```
 
-#### 常用命令
+### 常用命令
 
 ```bash
 # 启用并启动
 systemctl --user enable --now acp-link@master
-systemctl --user enable --now acp-link@gzjc-gzjc-phase1
+systemctl --user enable --now acp-link@gzjc-gzjc
 
 # 查看状态
-systemctl --user status acp-link@gzjc-gzjc-phase1
+systemctl --user status acp-link@gzjc-gzjc
 
 # 查看日志
-journalctl --user -u acp-link@gzjc-gzjc-phase1 -f
+journalctl --user -u acp-link@gzjc-gzjc -f
 
 # 热重载配置（修改 agent 指令后）
-systemctl --user reload acp-link@gzjc-gzjc-phase1
+systemctl --user reload acp-link@gzjc-gzjc
 
 # 重启
-systemctl --user restart acp-link@gzjc-gzjc-phase1
-
-# 查看所有运行中的实例
-systemctl --user list-units 'acp-link@*'
+systemctl --user restart acp-link@gzjc-gzjc
 
 # 确保服务器重启后自动拉起（只需执行一次）
 sudo loginctl enable-linger $USER
@@ -639,34 +518,6 @@ port = {端口号}
 
 ## 附录：常用命令速查
 
-### macOS (launchd)
-
-```bash
-# 创建 kiro-cli agent
-kiro-cli agent create {agent名称}
-
-# 创建日志目录
-mkdir -p ~/.acp-link/logs
-
-# 启动 acp-link 实例
-launchctl load ~/Library/LaunchAgents/com.acp-link.{agent名称}.plist
-
-# 停止实例
-launchctl unload ~/Library/LaunchAgents/com.acp-link.{agent名称}.plist
-
-# 重启实例
-launchctl unload ~/Library/LaunchAgents/com.acp-link.{agent名称}.plist
-launchctl load ~/Library/LaunchAgents/com.acp-link.{agent名称}.plist
-
-# 查看所有运行中的实例
-launchctl list | grep acp-link
-
-# 查看日志
-tail -f ~/.acp-link/logs/{agent名称}.log
-```
-
-### Linux (systemd)
-
 ```bash
 # 创建 kiro-cli agent
 kiro-cli agent create {agent名称}
@@ -730,8 +581,6 @@ systemctl --user list-units 'acp-link@*'
 
 - 2026-04-06：创建方案文档，采用每期独立部署架构
 - 2026-04-06：调整项目 agent 的 `cwd` 为具体项目期文件夹，确保物理隔离
-- 2026-04-06：添加 macOS launchd 服务管理文档，补充部署环境说明（家里 Mac mini + 办公室 Mac mini）
-- 2026-04-06：添加跨项目协作规则，总管 agent 作为信息中转站
 ## 附录：协作流程示例
 
 ### 场景：广州机场群里问 PN 仓库进度
