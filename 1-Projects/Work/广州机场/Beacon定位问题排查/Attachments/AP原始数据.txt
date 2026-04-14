@@ -1,0 +1,892 @@
+开始连接到 T3网络设备(gdbyxx)@10.170.4.21  0.4
+
+Info: Current mode: Standard (working independently).
+Warning: The intelligent upgrade function is disabled. Log in to the web platform and enable this function.
+  -----------------------------------------------------------------------------     
+  User last login information:     
+  -----------------------------------------------------------------------------
+  Access Type: SSH      
+  IP-Address : 10.110.1.137     
+  Time       : 2026-04-11 23:35:13+08:00     
+  -----------------------------------------------------------------------------
+<T3-PCR-SC-AC-AE9700-E11-27U-01>
+<T3-PCR-SC-AC-AE9700-E11-27U-01>
+<T3-PCR-SC-AC-AE9700-E11-27U-01>stelnet ap ap-id 641 
+                                ^
+Error: Unrecognized command found at '^' position.
+<T3-PCR-SC-AC-AE9700-E11-27U-01>sys 
+Enter system view, return user view with Ctrl+Z.
+[T3-PCR-SC-AC-AE9700-E11-27U-01]ste    
+[T3-PCR-SC-AC-AE9700-E11-27U-01]stelnet ap ap
+[T3-PCR-SC-AC-AE9700-E11-27U-01]dis ap all       
+Total AP information:
+fault : fault           [351]
+idle  : idle            [244]
+nor   : normal          [1172]
+ExtraInfo : Extra information
+P     : insufficient power supply
+------------------------------------------------------------------------------------------------------------------------------------
+ID    MAC            Name               Group   IP             Type              State  STA  Uptime           ExtraInfo Scene
+------------------------------------------------------------------------------------------------------------------------------------
+0     9848-74df-32e0 9848-74df-32e0     default 10.170.207.5   AirEngine5762-12  nor    0    188D:16H:5M:14S  -         -    
+1     9848-7479-b4f0 MD-AP01-SNSC-01    default 10.170.207.117 AirEngine5762-12  nor    0    178D:1H:21M:12S  -         -    
+2     9848-74df-dac0 MD-AP01-SNSC-02    default 10.170.204.46  AirEngine5762-12  nor    0    178D:1H:21M:7S   -         -    
+3     9848-74df-d080 MD-AP01-SNSC-03    default 10.170.203.101 AirEngine5762-12  nor    0    178D:1H:17M:5S   -         -    
+4     9848-74de-e0a0 MD-AP01-SNSC-04    default 10.170.204.187 AirEngine5762-12  nor    0    178D:1H:20M:36S  -         -    
+5     9848-74e0-28c0 MD-AP01-SNSC-05    default 10.170.205.209 AirEngine5762-12  nor    0    178D:1H:21M:7S   -         -    
+6     9848-74de-db60 MD-AP01-SNSC-06    default 10.170.206.28  AirEngine5762-12  nor    0    178D:1H:16M:58S  -         -    
+7     9848-74de-dce0 MD-AP01-SNSC-07    default 10.170.205.106 AirEngine5762-12  nor    0    115D:2H:31M:9S   -         -    
+8     9848-74df-d140 MD-AP01-SNSC-08    default 10.170.207.135 AirEngine5762-12  nor    0    92D:23H:9M:53S   -         -    
+9     9848-74de-e0e0 MD-AP01-SNSC-09    default 10.170.206.241 AirEngine5762-12  nor    0    178D:1H:21M:10S  -         -    
+10    9848-74de-ffc0 MD-AP01-SNSC-10    default 10.170.207.167 AirEngine5762-12  nor    0    178D:1H:21M:12S  -         -    
+11    9848-74df-a060 MD-AP02-SNSC-01    default 10.170.206.113 AirEngine5762-12  nor    0    178D:1H:15M:19S  -         -    
+12    9848-74df-a220 MD-AP02-SNSC-02    default 10.170.203.19  AirEngine5762-12  nor    0    178D:1H:14M:53S  -         -    
+13    a070-b743-f260 MD-AP02-SNSC-03    default 10.170.204.52  AirEngine5762-12  nor    0    178D:1H:15M:21S  -         -    
+14    a070-b743-7300 MD-AP02-SNSC-04    default 10.170.206.245 AirEngine5762-12  nor    0    178D:1H:15M:15S  -         -    
+15    a070-b744-0bc0 MD-AP02-SNSC-05    default 10.170.207.140 AirEngine5762-12  nor    0    178D:1H:15M:23S  -         -    
+16    9848-74df-a320 MD-AP02-SNSC-06    default 10.170.204.189 AirEngine5762-12  nor    0    178D:1H:15M:18S  -         -    
+17    9848-74df-a240 MD-AP02-SNSC-07    default 10.170.203.199 AirEngine5762-12  nor    0    178D:1H:15M:15S  -         -    
+18    a070-b743-2600 MD-AP02-SNSC-08    default 10.170.202.189 AirEngine5762-12  nor    0    87D:21H:15M:20S  -         -    
+19    a070-b743-38a0 MD-AP03-SNSC-01    default 10.170.204.223 AirEngine5762-12  nor    0    177D:22H:22M:56S -         -    
+20    a070-b743-7260 MD-AP03-SNSC-02    default 10.170.203.249 AirEngine5762-12  nor    0    177D:22H:23M:30S -         -    
+21    9848-74e0-3140 MD-AP03-SNSC-03    default 10.170.205.185 AirEngine5762-12  nor    0    102D:0H:35M:59S  -         -    
+22    9848-74de-f640 MD-AP03-SNSC-04    default 10.170.204.232 AirEngine5762-12  nor    0    177D:22H:23M:36S -         -    
+23    9848-74df-0280 MD-AP03-SNSC-05    default 10.170.207.238 AirEngine5762-12  nor    0    177D:22H:23M:24S -         -    
+                
+------------------------------------------------------------------------------------------------------------------------------------
+Total: 1767
+[T3-PCR-SC-AC-AE9700-E11-27U-01]ste       
+[T3-PCR-SC-AC-AE9700-E11-27U-01]stelnet ap
+[T3-PCR-SC-AC-AE9700-E11-27U-01]stelnet ap ap
+[T3-PCR-SC-AC-AE9700-E11-27U-01]stelnet ap ap-id 640
+Trying 10.170.201.214 ...
+Press CTRL+K to abort
+Connected to 10.170.201.214 ...
+The server is not authenticated. Continue to access it? [Y/N]:y
+Save the server's public key? [Y/N]:n
+Info: Current mode: Fit (managed by the AC).
+Warning: The intelligent upgrade function is disabled. Log in to the web platform and enable this function.
+<2F-T32A1-SNSC002>
+
+  Please check whether system data has been changed, and save data in time
+
+  Configuration console time out, please press any key to log on
+
+Info: The connection was closed by the remote host.
+[T3-PCR-SC-AC-AE9700-E11-27U-01]
+[T3-PCR-SC-AC-AE9700-E11-27U-01]stelnet ap ap-id 640
+Trying 10.170.201.214 ...
+Press CTRL+K to abort
+Connected to 10.170.201.214 ...
+The server is not authenticated. Continue to access it? [Y/N]:
+Info: The connection was closed by the remote host.
+[T3-PCR-SC-AC-AE9700-E11-27U-01]stelnet ap ap-n     
+[T3-PCR-SC-AC-AE9700-E11-27U-01]stelnet ap ap-name 2F-DCR02-SNSC002
+Error: The AP does not exist.
+[T3-PCR-SC-AC-AE9700-E11-27U-01]dis ap all                         
+Total AP information:
+fault : fault           [351]
+idle  : idle            [244]
+nor   : normal          [1172]
+ExtraInfo : Extra information
+P     : insufficient power supply
+------------------------------------------------------------------------------------------------------------------------------------
+ID    MAC            Name               Group   IP             Type              State  STA  Uptime           ExtraInfo Scene
+------------------------------------------------------------------------------------------------------------------------------------
+0     9848-74df-32e0 9848-74df-32e0     default 10.170.207.5   AirEngine5762-12  nor    0    188D:17H:3M:36S  -         -    
+1     9848-7479-b4f0 MD-AP01-SNSC-01    default 10.170.207.117 AirEngine5762-12  nor    0    178D:2H:19M:34S  -         -    
+2     9848-74df-dac0 MD-AP01-SNSC-02    default 10.170.204.46  AirEngine5762-12  nor    0    178D:2H:19M:29S  -         -    
+3     9848-74df-d080 MD-AP01-SNSC-03    default 10.170.203.101 AirEngine5762-12  nor    0    178D:2H:15M:27S  -         -    
+4     9848-74de-e0a0 MD-AP01-SNSC-04    default 10.170.204.187 AirEngine5762-12  nor    0    178D:2H:18M:58S  -         -    
+5     9848-74e0-28c0 MD-AP01-SNSC-05    default 10.170.205.209 AirEngine5762-12  nor    0    178D:2H:19M:29S  -         -    
+6     9848-74de-db60 MD-AP01-SNSC-06    default 10.170.206.28  AirEngine5762-12  nor    0    178D:2H:15M:20S  -         -    
+7     9848-74de-dce0 MD-AP01-SNSC-07    default 10.170.205.106 AirEngine5762-12  nor    0    115D:3H:29M:31S  -         -    
+8     9848-74df-d140 MD-AP01-SNSC-08    default 10.170.207.135 AirEngine5762-12  nor    0    93D:0H:8M:15S    -         -    
+9     9848-74de-e0e0 MD-AP01-SNSC-09    default 10.170.206.241 AirEngine5762-12  nor    0    178D:2H:19M:32S  -         -    
+10    9848-74de-ffc0 MD-AP01-SNSC-10    default 10.170.207.167 AirEngine5762-12  nor    0    178D:2H:19M:34S  -         -    
+11    9848-74df-a060 MD-AP02-SNSC-01    default 10.170.206.113 AirEngine5762-12  nor    0    178D:2H:13M:41S  -         -    
+12    9848-74df-a220 MD-AP02-SNSC-02    default 10.170.203.19  AirEngine5762-12  nor    0    178D:2H:13M:15S  -         -    
+13    a070-b743-f260 MD-AP02-SNSC-03    default 10.170.204.52  AirEngine5762-12  nor    0    178D:2H:13M:43S  -         -    
+14    a070-b743-7300 MD-AP02-SNSC-04    default 10.170.206.245 AirEngine5762-12  nor    0    178D:2H:13M:37S  -         -    
+15    a070-b744-0bc0 MD-AP02-SNSC-05    default 10.170.207.140 AirEngine5762-12  nor    0    178D:2H:13M:45S  -         -    
+16    9848-74df-a320 MD-AP02-SNSC-06    default 10.170.204.189 AirEngine5762-12  nor    0    178D:2H:13M:40S  -         -    
+17    9848-74df-a240 MD-AP02-SNSC-07    default 10.170.203.199 AirEngine5762-12  nor    0    178D:2H:13M:37S  -         -    
+18    a070-b743-2600 MD-AP02-SNSC-08    default 10.170.202.189 AirEngine5762-12  nor    0    87D:22H:13M:42S  -         -    
+19    a070-b743-38a0 MD-AP03-SNSC-01    default 10.170.204.223 AirEngine5762-12  nor    0    177D:23H:21M:18S -         -    
+20    a070-b743-7260 MD-AP03-SNSC-02    default 10.170.203.249 AirEngine5762-12  nor    0    177D:23H:21M:52S -         -    
+21    9848-74e0-3140 MD-AP03-SNSC-03    default 10.170.205.185 AirEngine5762-12  nor    0    102D:1H:34M:21S  -         -    
+22    9848-74de-f640 MD-AP03-SNSC-04    default 10.170.204.232 AirEngine5762-12  nor    0    177D:23H:21M:58S -         -    
+23    9848-74df-0280 MD-AP03-SNSC-05    default 10.170.207.238 AirEngine5762-12  nor    0    177D:23H:21M:46S -         -    
+24    9848-74e0-3520 MD-AP03-SNSC-06    default 10.170.200.202 AirEngine5762-12  nor    0    176D:6H:14M:37S  -         -    
+25    -              MD-AP04-SNSC-01    default -              -                 idle   0    -                -         -    
+26    9848-74de-f600 MD-AP04-SNSC-02    default 10.170.207.220 AirEngine5762-12  nor    0    102D:1H:44M:31S  -         -    
+27    9848-74df-74c0 MD-AP04-SNSC-03    default 10.170.204.212 AirEngine5762-12  nor    0    176D:6H:10M:5S   -         -    
+28    9848-74e0-35e0 MD-AP04-SNSC-04    default 10.170.206.43  AirEngine5762-12  nor    0    176D:6H:8M:27S   -         -    
+29    9848-74df-cae0 MD-AP04-SNSC-05    default 10.170.206.128 AirEngine5762-12  nor    0    177D:23H:21M:39S -         -    
+30    9848-74e0-4bc0 MD-AP04-SNSC-06    default 10.170.204.127 AirEngine5762-12  nor    0    114D:21H:37M:35S -         -    
+31    9848-74df-7660 9848-74df-7660     default 10.170.203.216 AirEngine5762-12  nor    0    189D:4H:38M:32S  -         -    
+32    9848-74df-eee0 MD-AP04-SNSC-08    default 10.170.200.253 AirEngine5762-12  nor    0    176D:6H:7M:6S    -         -    
+33    -              MD-AP05-SNSC-01    default -              -                 idle   0    -                -         -    
+34    9848-74df-cb00 MD-AP05-SNSC-02    default 10.170.202.88  AirEngine5762-12  nor    0    178D:2H:2M:55S   -         -    
+35    9848-74df-de60 MD-AP05-SNSC-03    default 10.170.203.79  AirEngine5762-12  nor    0    178D:2H:2M:52S   -         -    
+36    9848-747a-4950 MD-AP05-SNSC-04    default 10.170.203.197 AirEngine5762-12  nor    0    176D:5H:51M:36S  -         -    
+37    9848-7479-ed10 MD-AP05-SNSC-05    default 10.170.201.105 AirEngine5762-12  nor    0    176D:5H:47M:46S  -         -    
+38    a070-b743-9800 MD-AP05-SNSC-06    default 10.170.201.49  AirEngine5762-12  nor    0    178D:2H:2M:28S   -         -    
+39    -              MD-AP06-SNSC-01    default -              -                 idle   0    -                -         -    
+40    9848-74df-e660 MD-AP06-SNSC-02    default 10.170.201.31  AirEngine5762-12  nor    0    178D:2H:30M:10S  -         -    
+41    9848-74e0-2d20 MD-AP06-SNSC-03    default 10.170.204.167 AirEngine5762-12  nor    0    178D:2H:31M:38S  -         -    
+42    9848-74df-cee0 MD-AP06-SNSC-04    default 10.170.207.137 AirEngine5762-12  nor    0    178D:2H:31M:39S  -         -    
+43    9848-7479-1ab0 MD-AP06-SNSC-05    default 10.170.205.131 AirEngine5762-12  nor    0    178D:2H:29M:36S  -         -    
+44    -              MD-AP06-SNSC-06    default -              -                 idle   0    -                -         -    
+45    -              MD-AP06-SNSC-07    default -              -                 idle   0    -                -         -    
+46    -              MD-AP07-SNSC-01    default -              -                 idle   0    -                -         -    
+47    -              MD-AP07-SNSC-02    default -              -                 idle   0    -                -         -    
+48    9848-74df-e6c0 MD-AP07-SNSC-03    default 10.170.204.216 AirEngine5762-12  nor    0    178D:0H:13M:11S  -         -    
+49    9848-74df-e380 MD-AP07-SNSC-04    default 10.170.206.210 AirEngine5762-12  nor    0    178D:0H:13M:7S   -         -    
+50    a070-b744-0380 MD-AP07-SNSC-05    default 10.170.207.110 AirEngine5762-12  nor    0    178D:0H:12M:59S  -         -    
+51    -              MD-AP07-SNSC-06    default -              -                 idle   0    -                -         -    
+52    -              MD-AP07-SNSC-07    default -              -                 idle   0    -                -         -    
+53    9848-747a-3850 MD-AP07-SNSC-08    default 10.170.205.226 AirEngine5762-12  nor    0    178D:0H:13M:8S   -         -    
+54    -              MD-AP08-SNSC-01    default -              -                 idle   0    -                -         -    
+55    -              MD-AP08-SNSC-02    default -              -                 idle   0    -                -         -    
+56    9848-74e0-3e40 MD-AP08-SNSC-03    default 10.170.201.60  AirEngine5762-12  nor    0    177D:0H:52M:39S  -         -    
+57    9848-7479-8870 MD-AP08-SNSC-04    default 10.170.205.183 AirEngine5762-12  nor    0    177D:0H:52M:28S  -         -    
+58    9848-747a-48b0 MD-AP08-SNSC-05    default 10.170.204.82  AirEngine5762-12  nor    0    177D:0H:52M:44S  -         -    
+59    9848-7479-2a50 MD-AP08-SNSC-06    default 10.170.203.28  AirEngine5762-12  nor    0    177D:0H:52M:41S  -         -    
+60    9848-7479-d150 MD-AP08-SNSC-07    default 10.170.205.88  AirEngine5762-12  nor    0    177D:0H:52M:28S  -         -    
+61    9848-74de-df60 MD-AP08-SNSC-08    default 10.170.205.77  AirEngine5762-12  nor    0    177D:0H:52M:30S  -         -    
+62    9848-74e0-2fa0 MD-AP08-SNSC-09    default 10.170.202.39  AirEngine5762-12  nor    0    177D:0H:52M:24S  -         -    
+63    9848-74df-f220 MD-AP08-SNSC-10    default 10.170.202.24  AirEngine5762-12  nor    0    177D:0H:52M:18S  -         -    
+64    9848-7479-9690 MD-AP09-SNSC-01    default 10.170.202.109 AirEngine5762-12  nor    0    184D:18H:37M:25S -         -    
+65    -              MD-AP09-SNSC-02    default -              -                 idle   0    -                -         -    
+66    9848-74df-f4a0 MD-AP09-SNSC-03    default 10.170.205.78  AirEngine5762-12  nor    0    184D:18H:40M:16S -         -    
+67    -              MD-AP09-SNSC-04    default -              -                 idle   0    -                -         -    
+68    -              MD-AP09-SNSC-05    default -              -                 idle   0    -                -         -    
+69    -              MD-AP09-SNSC-06    default -              -                 idle   0    -                -         -    
+70    -              MD-AP09-SNSC-07    default -              -                 idle   0    -                -         -    
+71    -              MD-AP09-SNSC-08    default -              -                 idle   0    -                -         -    
+                
+------------------------------------------------------------------------------------------------------------------------------------
+Total: 1767
+[T3-PCR-SC-AC-AE9700-E11-27U-01]dis ap all | in eb50    
+Total AP information:
+fault : fault           [351]
+idle  : idle            [244]
+nor   : normal          [1172]
+ExtraInfo : Extra information
+P     : insufficient power supply
+------------------------------------------------------------------------------------------------------------------------------------
+ID    MAC            Name               Group   IP             Type              State  STA  Uptime           ExtraInfo Scene
+------------------------------------------------------------------------------------------------------------------------------------
+750   9848-7479-eb50 2F-DCRO2-SNSC002   default 10.170.200.166 AirEngine5762-12  nor    0    114D:5H:11M:24S  -         -
+------------------------------------------------------------------------------------------------------------------------------------
+Total: 1767
+[T3-PCR-SC-AC-AE9700-E11-27U-01]ste
+[T3-PCR-SC-AC-AE9700-E11-27U-01]stelnet ap
+[T3-PCR-SC-AC-AE9700-E11-27U-01]stelnet ap ap
+[T3-PCR-SC-AC-AE9700-E11-27U-01]stelnet ap ap-id
+[T3-PCR-SC-AC-AE9700-E11-27U-01]stelnet ap ap-name 2F-DCRO2-SNSC002
+Trying 10.170.200.166 ...
+Press CTRL+K to abort
+Connected to 10.170.200.166 ...
+The server is not authenticated. Continue to access it? [Y/N]:y
+Save the server's public key? [Y/N]:n
+Info: Current mode: Fit (managed by the AC).
+Warning: The intelligent upgrade function is disabled. Log in to the web platform and enable this function.
+<2F-DCRO2-SNSC002>
+<2F-DCRO2-SNSC002>
+<2F-DCRO2-SNSC002>
+<2F-DCRO2-SNSC002>
+<2F-DCRO2-SNSC002>
+<2F-DCRO2-SNSC002>
+<2F-DCRO2-SNSC002>
+<2F-DCRO2-SNSC002>
+<2F-DCRO2-SNSC002>
+
+  Please check whether system data has been changed, and save data in time
+
+  Configuration console time out, please press any key to log on
+
+Info: The connection was closed by the remote host.
+[T3-PCR-SC-AC-AE9700-E11-27U-01]stelnet ap ap-name 2F-DCRO2-SNSC002
+Trying 10.170.200.166 ...
+Press CTRL+K to abort
+Connected to 10.170.200.166 ...
+The server is not authenticated. Continue to access it? [Y/N]:y
+Save the server's public key? [Y/N]:n
+Info: Current mode: Fit (managed by the AC).
+Warning: The intelligent upgrade function is disabled. Log in to the web platform and enable this function.
+  -----------------------------------------------------------------------------     
+  User last login information:     
+  -----------------------------------------------------------------------------
+  Access Type: SSH      
+  IP-Address : 10.170.207.252     
+  Time       : 2026-04-12 16:22:59+08:00     
+  -----------------------------------------------------------------------------
+<2F-DCRO2-SNSC002>
+<2F-DCRO2-SNSC002>
+<2F-DCRO2-SNSC002>
+<2F-DCRO2-SNSC002>
+
+  Please check whether system data has been changed, and save data in time
+
+  Configuration console time out, please press any key to log on
+
+Info: The connection was closed by the remote host.
+[T3-PCR-SC-AC-AE9700-E11-27U-01]stelnet ap ap-name 2F-DCRO2-SNSC009
+Trying 10.170.200.169 ...
+Press CTRL+K to abort
+Connected to 10.170.200.169 ...
+The server is not authenticated. Continue to access it? [Y/N]:y
+Save the server's public key? [Y/N]:n
+Info: Current mode: Fit (managed by the AC).
+Warning: The intelligent upgrade function is disabled. Log in to the web platform and enable this function.
+<2F-DCRO2-SNSC009>
+<2F-DCRO2-SNSC009>
+<2F-DCRO2-SNSC009>debu
+<2F-DCRO2-SNSC009>debugging ws
+<2F-DCRO2-SNSC009>debugging wsrv wc
+<2F-DCRO2-SNSC009>debugging wsrv wcfg
+<2F-DCRO2-SNSC009>debugging wsrv wcom sw
+<2F-DCRO2-SNSC009>debugging wsrv wcom switch sc
+<2F-DCRO2-SNSC009>debugging wsrv wcom switch sco
+<2F-DCRO2-SNSC009>debugging wsrv wcom switch soc
+<2F-DCRO2-SNSC009>debugging wsrv wcom switch socket-recv
+<2F-DCRO2-SNSC009>debugging wsrv wcom switch socket-send
+
+<2F-DCRO2-SNSC009>t m
+Info: Current terminal monitor is on.
+<2F-DCRO2-SNSC009>t d
+Info: Current terminal debugging is on.
+<2F-DCRO2-SNSC009>sys
+Enter system view, return user view with Ctrl+Z.
+[2F-DCRO2-SNSC009]dia
+Now enter a diagnostic command view for developer's testing, some commands 
+may affect operation by wrong use, please carefully use it with HUAWEI 
+engineer's direction.
+[2F-DCRO2-SNSC009-diagnose]te d
+Info: Current terminal diagnostic logging is on
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:54:05+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[0]:DEBUG WCOM_SocketSendPkt[389]: Enter!ulMsgType[25]
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:54:05+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[1]:
+Send pkt at WCOM_SocketSendPkt, 427. Len: 1081
+
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:54:05+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[2]:
+ 48 57 01 98 48 74 7A 17 B0 00 00 1B 5A AE 00 D9
+ 3C 72 69 DB 5D AD C1 FF 00 1F 02 01 02 17 FF 8F
+ 03 2B 11 34 35 30 39 10 30 41 A2 01 15 26 29 7D
+ F0 57 01 03 02 03 03 AA FD C3 00 00 4C F7 86 69
+ DB 5D A7 A3 FF 00 1E 02 01 06 1A FF 4C 00 02 15
+ FD A5 06 93 A4 E2 4F B1 AF CF C6 EB 07 64 78 25
+ 09 C8 05 9B C5 C3 00 00 4C F7 87 69 DB 5D AB B1
+ FF 00 1E 02 01 06 1A FF 4C 00 02 15 FD A5 06 93
+ A4 E2 4F B1 AF CF C6 EB 07 64 78 25 09 C8 05 9C
+ C5 C3 00 00 4C F7 88 69 DB 5D AD AE FF 00 1E 02
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:54:05+08:00 2F-DCRO2-SNSC009 %%01IPLRN/5/IPLRN-DIAGLOG(D)[3]:Enter func IPLRN_ProcAddrSuppressAgingTimer..
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:54:15+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[4]:DEBUG WCOM_SocketSendPkt[389]: Enter!ulMsgType[25]
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:54:15+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[5]:
+Send pkt at WCOM_SocketSendPkt, 427. Len: 1215
+
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:54:15+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[6]:
+ 48 57 01 98 48 74 7A 17 B0 00 00 1E 5A AE 00 D9
+ 3C 72 69 DB 5D B6 C7 FF 00 1F 02 01 02 17 FF 8F
+ 03 2B 11 34 35 30 39 10 30 41 A2 01 15 26 29 7D
+ F0 57 01 03 02 03 03 AA FD C3 00 00 5B 25 84 69
+ DB 5D B3 B3 FF 00 1E 02 01 06 1A FF 39 06 02 09
+ C8 04 4A B5 09 C8 04 63 B4 09 C8 04 68 C1 09 C8
+ 05 9E B2 84 0E C3 00 00 4C F7 86 69 DB 5D B7 A6
+ FF 00 1E 02 01 06 1A FF 4C 00 02 15 FD A5 06 93
+ A4 E2 4F B1 AF CF C6 EB 07 64 78 25 09 C8 05 9B
+ C5 C3 00 00 4C F7 87 69 DB 5D B4 B1 FF 00 1E 02
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:54:15+08:00 2F-DCRO2-SNSC009 %%01IPLRN/5/IPLRN-DIAGLOG(D)[7]:Enter func IPLRN_ProcAddrSuppressAgingTimer..
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:54:25+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[8]:DEBUG WCOM_SocketSendPkt[389]: Enter!ulMsgType[25]
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:54:25+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[9]:
+Send pkt at WCOM_SocketSendPkt, 427. Len: 983
+
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:54:25+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[10]:
+ 48 57 01 98 48 74 7A 17 B0 00 00 18 5A AE 00 D9
+ 3C 72 69 DB 5D C1 C6 FF 00 1F 02 01 02 17 FF 8F
+ 03 2B 11 34 35 30 39 10 30 41 A2 01 15 26 29 7D
+ F0 57 01 03 02 03 03 AA FD C3 00 00 4C F7 86 69
+ DB 5D BE A6 FF 00 1E 02 01 06 1A FF 4C 00 02 15
+ FD A5 06 93 A4 E2 4F B1 AF CF C6 EB 07 64 78 25
+ 09 C8 05 9B C5 C3 00 00 4C F7 87 69 DB 5D C1 B0
+ FF 00 1E 02 01 06 1A FF 4C 00 02 15 FD A5 06 93
+ A4 E2 4F B1 AF CF C6 EB 07 64 78 25 09 C8 05 9C
+ C5 C3 00 00 4C F7 88 69 DB 5D C1 B6 FF 00 1E 02
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:54:25+08:00 2F-DCRO2-SNSC009 %%01IPLRN/5/IPLRN-DIAGLOG(D)[11]:Enter func IPLRN_ProcAddrSuppressAgingTimer..
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:54:33+08:00 2F-DCRO2-SNSC009 %%01MFPI/4/Mfpi Common(D)[12]:Common log: The CAP average CPU usage of last 30s is 0%, BC is 0%
+ Last 30s average CPU usage : CoreID1: 0%
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:54:35+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[13]:DEBUG WCOM_SocketSendPkt[389]: Enter!ulMsgType[25]
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:54:35+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[14]:
+Send pkt at WCOM_SocketSendPkt, 427. Len: 893
+
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:54:35+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[15]:
+ 48 57 01 98 48 74 7A 17 B0 00 00 15 5A AE 00 D9
+ 3C 72 69 DB 5D CB C6 FF 00 1F 02 01 02 17 FF 8F
+ 03 2B 11 34 35 30 39 10 30 41 A2 01 15 26 29 7D
+ F0 57 01 03 02 03 03 AA FD C3 00 00 5B 25 84 69
+ DB 5D C7 AE FF 00 1E 02 01 06 1A FF 39 06 02 09
+ C8 05 9E AD 09 C8 04 6D B5 09 C8 04 4A B1 09 C8
+ 04 68 C0 84 0E C3 00 00 4C F7 87 69 DB 5D C9 B2
+ FF 00 1E 02 01 06 1A FF 4C 00 02 15 FD A5 06 93
+ A4 E2 4F B1 AF CF C6 EB 07 64 78 25 09 C8 05 9C
+ C5 C3 00 00 4C F7 88 69 DB 5D CB B6 FF 00 1E 02
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:54:35+08:00 2F-DCRO2-SNSC009 %%01IPLRN/5/IPLRN-DIAGLOG(D)[16]:Enter func IPLRN_ProcAddrSuppressAgingTimer..
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:54:45+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[17]:DEBUG WCOM_SocketSendPkt[389]: Enter!ulMsgType[25]
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:54:45+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[18]:
+Send pkt at WCOM_SocketSendPkt, 427. Len: 967
+
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:54:45+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[19]:
+ 48 57 01 98 48 74 7A 17 B0 00 00 17 5A AE 00 D9
+ 3C 72 69 DB 5D D5 C8 FF 00 1F 02 01 02 17 FF 8F
+ 03 2B 11 34 35 30 39 10 30 41 A2 01 15 26 29 7D
+ F0 57 01 03 02 03 03 AA FD C3 00 00 5B 25 84 69
+ DB 5D D1 B4 FF 00 1E 02 01 06 1A FF 39 06 02 09
+ C8 05 9E AD 09 C8 04 6D B5 09 C8 04 4A B1 09 C8
+ 04 68 C0 84 0E C3 00 00 4C F7 86 69 DB 5D D2 A4
+ FF 00 1E 02 01 06 1A FF 4C 00 02 15 FD A5 06 93
+ A4 E2 4F B1 AF CF C6 EB 07 64 78 25 09 C8 05 9B
+ C5 C3 00 00 4C F7 87 69 DB 5D CF B0 FF 00 1E 02
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:54:45+08:00 2F-DCRO2-SNSC009 %%01IPLRN/5/IPLRN-DIAGLOG(D)[20]:Enter func IPLRN_ProcAddrSuppressAgingTimer..
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:54:55+08:00 2F-DCRO2-SNSC009 %%01INFO/4/SUPPRESS_DIAGLOG(D)[21]:Last diagnostic message repeated 1 times.(InfoID=4289941505, ModuleName=IPLRN, InfoAlias=IPLRN-DIAGLOG) 
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:54:55+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[22]:DEBUG WCOM_SocketSendPkt[389]: Enter!ulMsgType[25]
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:54:55+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[23]:
+Send pkt at WCOM_SocketSendPkt, 427. Len: 1090
+
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:54:55+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[24]:
+ 48 57 01 98 48 74 7A 17 B0 00 00 1A 5A AE 00 D9
+ 3C 72 69 DB 5D DF CB FF 00 1F 02 01 02 17 FF 8F
+ 03 2B 11 34 35 30 39 10 30 41 A2 01 15 26 29 7D
+ F0 57 01 03 02 03 03 AA FD 14 07 36 07 C8 91 69
+ DB 5D DE A9 FF 00 14 07 FF 14 07 36 07 C8 91 03
+ 03 4D 1F 07 09 64 65 76 31 38 31 C3 00 00 5B 25
+ 84 69 DB 5D DB AE FF 00 1E 02 01 06 1A FF 39 06
+ 02 09 C8 05 9E AD 09 C8 04 6D B5 09 C8 04 4A B1
+ 09 C8 04 68 C0 84 0E C3 00 00 4C F7 87 69 DB 5D
+ DD B0 FF 00 1E 02 01 06 1A FF 4C 00 02 15 FD A5
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:55:05+08:00 2F-DCRO2-SNSC009 %%01IPLRN/5/IPLRN-DIAGLOG(D)[25]:Enter func IPLRN_ProcAddrSuppressAgingTimer..
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:55:05+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[26]:DEBUG WCOM_SocketSendPkt[389]: Enter!ulMsgType[25]
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:55:05+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[27]:
+Send pkt at WCOM_SocketSendPkt, 427. Len: 956
+
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:55:05+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[28]:
+ 48 57 01 98 48 74 7A 17 B0 00 00 17 5A AE 00 D9
+ 3C 72 69 DB 5D E9 CA FF 00 1F 02 01 02 17 FF 8F
+ 03 2B 11 34 35 30 39 10 30 41 A2 01 15 26 29 7D
+ F0 57 01 03 02 03 03 AA FD 14 07 36 07 C8 91 69
+ DB 5D E9 A8 FF 00 14 07 FF 14 07 36 07 C8 91 03
+ 03 4D 1F 07 09 64 65 76 31 38 31 C3 00 00 5B 25
+ 84 69 DB 5D E5 B4 FF 00 1E 02 01 06 1A FF 39 06
+ 02 09 C8 05 9E B1 09 C8 04 4A AF 09 C8 04 6D AB
+ 09 C8 04 68 C1 84 0E C3 00 00 4C F7 86 69 DB 5D
+ E6 A7 FF 00 1E 02 01 06 1A FF 4C 00 02 15 FD A5
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:55:11+08:00 2F-DCRO2-SNSC009 %%01UMAC/6/UMAC_INFOR(D)[29]:(WCTRL) [info]WCTRL_ACCESS_FillSyncStaListCapwapMsg[90]: sync sta num[0], info size[12]
+
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:55:15+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[30]:DEBUG WCOM_SocketSendPkt[389]: Enter!ulMsgType[25]
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:55:15+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[31]:
+Send pkt at WCOM_SocketSendPkt, 427. Len: 1088
+
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:55:15+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[32]:
+ 48 57 01 98 48 74 7A 17 B0 00 00 1A 5A AE 00 D9
+ 3C 72 69 DB 5D F3 C5 FF 00 1F 02 01 02 17 FF 8F
+ 03 2B 11 34 35 30 39 10 30 41 A2 01 15 26 29 7D
+ F0 57 01 03 02 03 03 AA FD 14 07 36 07 C8 91 69
+ DB 5D EE A9 FF 00 14 07 FF 14 07 36 07 C8 91 03
+ 03 4D 1F 07 09 64 65 76 31 38 31 C3 00 00 5B 25
+ 84 69 DB 5D ED AE FF 00 1F 1E FF 01 00 01 00 00
+ 00 00 2C 75 50 BD 84 B1 32 9F 14 9D DD 6F D3 10
+ 0F 38 72 2D A8 5E C2 58 C3 00 00 4C F7 86 69 DB
+ 5D E9 A4 FF 00 1E 02 01 06 1A FF 4C 00 02 15 FD
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:55:15+08:00 2F-DCRO2-SNSC009 %%01IPLRN/5/IPLRN-DIAGLOG(D)[33]:Enter func IPLRN_ProcAddrSuppressAgingTimer..
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:55:25+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[34]:DEBUG WCOM_SocketSendPkt[389]: Enter!ulMsgType[25]
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:55:25+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[35]:
+Send pkt at WCOM_SocketSendPkt, 427. Len: 1000
+
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:55:25+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[36]:
+ 48 57 01 98 48 74 7A 17 B0 00 00 18 5A AE 00 D9
+ 3C 72 69 DB 5D FD CF FF 00 1F 02 01 02 17 FF 8F
+ 03 2B 11 34 35 30 39 10 30 41 A2 01 15 26 29 7D
+ F0 57 01 03 02 03 03 AA FD 14 07 36 07 C8 91 69
+ DB 5D F8 A8 FF 00 14 07 FF 14 07 36 07 C8 91 03
+ 03 4D 1F 07 09 64 65 76 31 38 31 C3 00 00 4C F7
+ 87 69 DB 5D FD B3 FF 00 1E 02 01 06 1A FF 4C 00
+ 02 15 FD A5 06 93 A4 E2 4F B1 AF CF C6 EB 07 64
+ 78 25 09 C8 05 9C C5 C3 00 00 4C F7 88 69 DB 5D
+ FD AF FF 00 1E 02 01 06 1A FF 4C 00 02 15 FD A5
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:55:25+08:00 2F-DCRO2-SNSC009 %%01IPLRN/5/IPLRN-DIAGLOG(D)[37]:Enter func IPLRN_ProcAddrSuppressAgingTimer..
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:55:33+08:00 2F-DCRO2-SNSC009 %%01MFPI/4/Mfpi Common(D)[38]:Common log: The CAP average CPU usage of last 30s is 0%, BC is 0%
+ Last 30s average CPU usage : CoreID1: 0%
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:55:35+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[39]:DEBUG WCOM_SocketSendPkt[389]: Enter!ulMsgType[25]
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:55:35+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[40]:
+Send pkt at WCOM_SocketSendPkt, 427. Len: 1066
+
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:55:35+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[41]:
+ 48 57 01 98 48 74 7A 17 B0 00 00 1A 5A AE 00 D9
+ 3C 72 69 DB 5E 07 CA FF 00 1F 02 01 02 17 FF 8F
+ 03 2B 11 34 35 30 39 10 30 41 A2 01 15 26 29 7D
+ F0 57 01 03 02 03 03 AA FD 14 07 36 07 C8 91 69
+ DB 5E 04 A7 FF 00 14 07 FF 14 07 36 07 C8 91 03
+ 03 4D 1F 07 09 64 65 76 31 38 31 C3 00 00 5B 25
+ 84 69 DB 5E 03 AE FF 00 1E 02 01 06 1A FF 39 06
+ 02 09 C8 04 4A B5 09 C8 04 6D B5 09 C8 04 68 C1
+ 09 C8 04 63 B4 84 0E C3 00 00 4C F7 87 69 DB 5E
+ 07 B2 FF 00 1E 02 01 06 1A FF 4C 00 02 15 FD A5
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:55:35+08:00 2F-DCRO2-SNSC009 %%01IPLRN/5/IPLRN-DIAGLOG(D)[42]:Enter func IPLRN_ProcAddrSuppressAgingTimer..
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:55:45+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[43]:DEBUG WCOM_SocketSendPkt[389]: Enter!ulMsgType[25]
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:55:45+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[44]:
+Send pkt at WCOM_SocketSendPkt, 427. Len: 1031
+
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:55:45+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[45]:
+ 48 57 01 98 48 74 7A 17 B0 00 00 19 5A AE 00 D9
+ 3C 72 69 DB 5E 11 CC FF 00 1F 02 01 02 17 FF 8F
+ 03 2B 11 34 35 30 39 10 30 41 A2 01 15 26 29 7D
+ F0 57 01 03 02 03 03 AA FD C3 00 00 5B 25 84 69
+ DB 5E 0D AE FF 00 1E 02 01 06 1A FF 39 06 02 09
+ C8 04 4A B5 09 C8 04 6D B5 09 C8 04 68 C1 09 C8
+ 04 63 B4 84 0E C3 00 00 4C F7 86 69 DB 5E 09 A5
+ FF 00 1E 02 01 06 1A FF 4C 00 02 15 FD A5 06 93
+ A4 E2 4F B1 AF CF C6 EB 07 64 78 25 09 C8 05 9B
+ C5 C3 00 00 4C F7 87 69 DB 5E 11 B0 FF 00 1E 02
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:55:45+08:00 2F-DCRO2-SNSC009 %%01IPLRN/5/IPLRN-DIAGLOG(D)[46]:Enter func IPLRN_ProcAddrSuppressAgingTimer..
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:55:55+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[47]:DEBUG WCOM_SocketSendPkt[389]: Enter!ulMsgType[25]
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:55:55+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[48]:
+Send pkt at WCOM_SocketSendPkt, 427. Len: 1120
+
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:55:55+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[49]:
+ 48 57 01 98 48 74 7A 17 B0 00 00 1B 5A AE 00 D9
+ 3C 72 69 DB 5E 1B C5 FF 00 1F 02 01 02 17 FF 8F
+ 03 2B 11 34 35 30 39 10 30 41 A2 01 15 26 29 7D
+ F0 57 01 03 02 03 03 AA FD 14 07 36 07 C8 91 69
+ DB 5E 18 AA FF 00 14 07 FF 14 07 36 07 C8 91 03
+ 03 4D 1F 07 09 64 65 76 31 38 31 C3 00 00 4C F7
+ 86 69 DB 5E 1A A7 FF 00 1E 02 01 06 1A FF 4C 00
+ 02 15 FD A5 06 93 A4 E2 4F B1 AF CF C6 EB 07 64
+ 78 25 09 C8 05 9B C5 C3 00 00 4C F7 87 69 DB 5E
+ 17 B0 FF 00 1E 02 01 06 1A FF 4C 00 02 15 FD A5
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:55:55+08:00 2F-DCRO2-SNSC009 %%01IPLRN/5/IPLRN-DIAGLOG(D)[50]:Enter func IPLRN_ProcAddrSuppressAgingTimer..
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:56:05+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[51]:DEBUG WCOM_SocketSendPkt[389]: Enter!ulMsgType[25]
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:56:05+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[52]:
+Send pkt at WCOM_SocketSendPkt, 427. Len: 1119
+
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:56:05+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[53]:
+ 48 57 01 98 48 74 7A 17 B0 00 00 1B 5A AE 00 D9
+ 3C 72 69 DB 5E 25 CA FF 00 1F 02 01 02 17 FF 8F
+ 03 2B 11 34 35 30 39 10 30 41 A2 01 15 26 29 7D
+ F0 57 01 03 02 03 03 AA FD 14 07 36 07 C8 91 69
+ DB 5E 25 A7 FF 00 14 07 FF 14 07 36 07 C8 91 03
+ 03 4D 1F 07 09 64 65 76 31 38 31 C3 00 00 5B 25
+ 84 69 DB 5E 21 AF FF 00 1E 02 01 06 1A FF 39 06
+ 02 09 C8 04 6D AF 09 C8 04 68 BF 09 C8 05 90 AC
+ 09 C8 04 4A AF 84 0E C3 00 00 4C F7 86 69 DB 5E
+ 1E A5 FF 00 1E 02 01 06 1A FF 4C 00 02 15 FD A5
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:56:05+08:00 2F-DCRO2-SNSC009 %%01IPLRN/5/IPLRN-DIAGLOG(D)[54]:Enter func IPLRN_ProcAddrSuppressAgingTimer..
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:56:15+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[55]:DEBUG WCOM_SocketSendPkt[389]: Enter!ulMsgType[25]
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:56:15+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[56]:
+Send pkt at WCOM_SocketSendPkt, 427. Len: 1099
+
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:56:15+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[57]:
+ 48 57 01 98 48 74 7A 17 B0 00 00 1B 5A AE 00 D9
+ 3C 72 69 DB 5E 2F C0 FF 00 1F 02 01 02 17 FF 8F
+ 03 2B 11 34 35 30 39 10 30 41 A2 01 15 26 29 7D
+ F0 57 01 03 02 03 03 AA FD 14 07 36 07 C8 91 69
+ DB 5E 2D A4 FF 00 14 07 FF 14 07 36 07 C8 91 03
+ 03 4D 1F 07 09 64 65 76 31 38 31 C3 00 00 5B 25
+ 84 69 DB 5E 2B B0 FF 00 1E 02 01 06 1A FF 39 06
+ 02 09 C8 04 6D AF 09 C8 04 68 BF 09 C8 05 90 AC
+ 09 C8 04 4A AF 84 0E C3 00 00 4C F7 86 69 DB 5E
+ 2D A4 FF 00 1E 02 01 06 1A FF 4C 00 02 15 FD A5
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:56:15+08:00 2F-DCRO2-SNSC009 %%01IPLRN/5/IPLRN-DIAGLOG(D)[58]:Enter func IPLRN_ProcAddrSuppressAgingTimer..
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:56:25+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[59]:DEBUG WCOM_SocketSendPkt[389]: Enter!ulMsgType[25]
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:56:25+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[60]:
+Send pkt at WCOM_SocketSendPkt, 427. Len: 1263
+
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:56:25+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[61]:
+ 48 57 01 98 48 74 7A 17 B0 00 00 1F 5A AE 00 D9
+ 3C 72 69 DB 5E 39 CA FF 00 1F 02 01 02 17 FF 8F
+ 03 2B 11 34 35 30 39 10 30 41 A2 01 15 26 29 7D
+ F0 57 01 03 02 03 03 AA FD 14 07 36 07 C8 91 69
+ DB 5E 35 A6 FF 00 14 07 FF 14 07 36 07 C8 91 03
+ 03 4D 1F 07 09 64 65 76 31 38 31 C3 00 00 5B 25
+ 84 69 DB 5E 35 AE FF 00 1E 02 01 06 1A FF 39 06
+ 02 09 C8 04 6D AF 09 C8 04 68 BF 09 C8 05 90 AC
+ 09 C8 04 4A AF 84 0E C3 00 00 4C F7 87 69 DB 5E
+ 38 B0 FF 00 1E 02 01 06 1A FF 4C 00 02 15 FD A5
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:56:25+08:00 2F-DCRO2-SNSC009 %%01IPLRN/5/IPLRN-DIAGLOG(D)[62]:Enter func IPLRN_ProcAddrSuppressAgingTimer..
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:56:32+08:00 2F-DCRO2-SNSC009 %%01MFPI/4/Mfpi Common(D)[63]:Common log: The CAP average CPU usage of last 30s is 0%, BC is 0%
+ Last 30s average CPU usage : CoreID1: 0%
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:56:35+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[64]:DEBUG WCOM_SocketSendPkt[389]: Enter!ulMsgType[25]
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:56:35+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[65]:
+Send pkt at WCOM_SocketSendPkt, 427. Len: 1114
+
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:56:35+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[66]:
+ 48 57 01 98 48 74 7A 17 B0 00 00 1B 5A AE 00 D9
+ 3C 72 69 DB 5E 43 CC FF 00 1F 02 01 02 17 FF 8F
+ 03 2B 11 34 35 30 39 10 30 41 A2 01 15 26 29 7D
+ F0 57 01 03 02 03 03 AA FD 14 07 36 07 C8 91 69
+ DB 5E 41 A9 FF 00 14 07 FF 14 07 36 07 C8 91 03
+ 03 4D 1F 07 09 64 65 76 31 38 31 C3 00 00 5B 25
+ 84 69 DB 5E 42 AF FF 00 1F 1E FF 01 00 01 00 00
+ 00 00 2C 75 50 BD 84 B1 32 9F 14 9D DD 6F D3 10
+ 0F 38 72 2D A8 5E C2 58 C3 00 00 4C F7 87 69 DB
+ 5E 42 B0 FF 00 1E 02 01 06 1A FF 4C 00 02 15 FD
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:56:35+08:00 2F-DCRO2-SNSC009 %%01IPLRN/5/IPLRN-DIAGLOG(D)[67]:Enter func IPLRN_ProcAddrSuppressAgingTimer..
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:56:45+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[68]:DEBUG WCOM_SocketSendPkt[389]: Enter!ulMsgType[25]
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:56:45+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[69]:
+Send pkt at WCOM_SocketSendPkt, 427. Len: 1198
+
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:56:45+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[70]:
+ 48 57 01 98 48 74 7A 17 B0 00 00 1D C1 8A 50 94
+ 4A 67 69 DB 5E 48 A2 FF 00 08 07 FF 4C 00 12 02
+ 00 01 5A AE 00 D9 3C 72 69 DB 5E 4D D0 FF 00 1F
+ 02 01 02 17 FF 8F 03 2B 11 34 35 30 39 10 30 41
+ A2 01 15 26 29 7D F0 57 01 03 02 03 03 AA FD 14
+ 07 36 07 C8 91 69 DB 5E 46 A9 FF 00 14 07 FF 14
+ 07 36 07 C8 91 03 03 4D 1F 07 09 64 65 76 31 38
+ 31 C3 00 00 5B 25 84 69 DB 5E 49 AF FF 00 1E 02
+ 01 06 1A FF 39 06 02 09 C8 04 4A B4 09 C8 04 68
+ C1 09 C8 05 90 AD 09 C8 05 9E B2 84 0E C3 00 00
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:56:45+08:00 2F-DCRO2-SNSC009 %%01IPLRN/5/IPLRN-DIAGLOG(D)[71]:Enter func IPLRN_ProcAddrSuppressAgingTimer..
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:56:55+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[72]:DEBUG WCOM_SocketSendPkt[389]: Enter!ulMsgType[25]
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:56:55+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[73]:
+Send pkt at WCOM_SocketSendPkt, 427. Len: 1055
+
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:56:55+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[74]:
+ 48 57 01 98 48 74 7A 17 B0 00 00 19 5A AE 00 D9
+ 3C 72 69 DB 5E 57 CB FF 00 1F 02 01 02 17 FF 8F
+ 03 2B 11 34 35 30 39 10 30 41 A2 01 15 26 29 7D
+ F0 57 01 03 02 03 03 AA FD C3 00 00 5B 25 84 69
+ DB 5E 51 AD FF 00 1F 1E FF 01 00 01 00 00 00 00
+ 2C 75 50 BD 84 B1 32 9F 14 9D DD 6F D3 10 0F 38
+ 72 2D A8 5E C2 58 C3 00 00 4C F7 86 69 DB 5E 56
+ A7 FF 00 1E 02 01 06 1A FF 4C 00 02 15 FD A5 06
+ 93 A4 E2 4F B1 AF CF C6 EB 07 64 78 25 09 C8 05
+ 9B C5 C3 00 00 4C F7 87 69 DB 5E 57 B2 FF 00 1E
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:56:55+08:00 2F-DCRO2-SNSC009 %%01IPLRN/5/IPLRN-DIAGLOG(D)[75]:Enter func IPLRN_ProcAddrSuppressAgingTimer..
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:57:05+08:00 2F-DCRO2-SNSC009 %%01INFO/4/SUPPRESS_DIAGLOG(D)[76]:Last diagnostic message repeated 1 times.(InfoID=4289941505, ModuleName=IPLRN, InfoAlias=IPLRN-DIAGLOG) 
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:57:05+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[77]:DEBUG WCOM_SocketSendPkt[389]: Enter!ulMsgType[25]
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:57:05+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[78]:
+Send pkt at WCOM_SocketSendPkt, 427. Len: 1177
+
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:57:05+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[79]:
+ 48 57 01 98 48 74 7A 17 B0 00 00 1C 5A AE 00 D9
+ 3C 72 69 DB 5E 61 CC FF 00 1F 02 01 02 17 FF 8F
+ 03 2B 11 34 35 30 39 10 30 41 A2 01 15 26 29 7D
+ F0 57 01 03 02 03 03 AA FD 14 07 36 07 C8 91 69
+ DB 5E 59 A9 FF 00 14 07 FF 14 07 36 07 C8 91 03
+ 03 4D 1F 07 09 64 65 76 31 38 31 C3 00 00 5B 25
+ 84 69 DB 5E 60 B0 FF 00 1F 1E FF 01 00 01 00 00
+ 00 00 2C 75 50 BD 84 B1 32 9F 14 9D DD 6F D3 10
+ 0F 38 72 2D A8 5E C2 58 C3 00 00 4C F7 86 69 DB
+ 5E 5B A7 FF 00 1E 02 01 06 1A FF 4C 00 02 15 FD
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:57:15+08:00 2F-DCRO2-SNSC009 %%01IPLRN/5/IPLRN-DIAGLOG(D)[80]:Enter func IPLRN_ProcAddrSuppressAgingTimer..
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:57:15+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[81]:DEBUG WCOM_SocketSendPkt[389]: Enter!ulMsgType[25]
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:57:15+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[82]:
+Send pkt at WCOM_SocketSendPkt, 427. Len: 1054
+
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:57:15+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[83]:
+ 48 57 01 98 48 74 7A 17 B0 00 00 19 5A AE 00 D9
+ 3C 72 69 DB 5E 6B C2 FF 00 1F 02 01 02 17 FF 8F
+ 03 2B 11 34 35 30 39 10 30 41 A2 01 15 26 29 7D
+ F0 57 01 03 02 03 03 AA FD C3 00 00 5B 25 84 69
+ DB 5E 6A B0 FF 00 1F 1E FF 01 00 01 00 00 00 00
+ 2C 75 50 BD 84 B1 32 9F 14 9D DD 6F D3 10 0F 38
+ 72 2D A8 5E C2 58 C3 00 00 4C F7 86 69 DB 5E 6A
+ A4 FF 00 1E 02 01 06 1A FF 4C 00 02 15 FD A5 06
+ 93 A4 E2 4F B1 AF CF C6 EB 07 64 78 25 09 C8 05
+ 9B C5 C3 00 00 4C F7 87 69 DB 5E 69 B0 FF 00 1E
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:57:25+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[84]:DEBUG WCOM_SocketSendPkt[389]: Enter!ulMsgType[25]
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:57:25+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[85]:
+Send pkt at WCOM_SocketSendPkt, 427. Len: 1012
+
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:57:25+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[86]:
+ 48 57 01 98 48 74 7A 17 B0 00 00 19 C1 8A 50 94
+ 4A 67 69 DB 5E 6C 9D FF 00 08 07 FF 4C 00 12 02
+ 00 01 08 16 D5 CE 80 1D 69 DB 5E 72 A3 FF 00 12
+ 02 01 08 0E 16 95 FE 13 59 A8 44 7B 1D 80 CE D5
+ 16 08 5A AE 00 D9 3C 72 69 DB 5E 75 C2 FF 00 1F
+ 02 01 02 17 FF 8F 03 2B 11 34 35 30 39 10 30 41
+ A2 01 15 26 29 7D F0 57 01 03 02 03 03 AA FD 14
+ 07 36 07 C8 91 69 DB 5E 6C A5 FF 00 14 07 FF 14
+ 07 36 07 C8 91 03 03 4D 1F 07 09 64 65 76 31 38
+ 31 C3 00 00 5B 25 84 69 DB 5E 6F B0 FF 00 1F 1E
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:57:25+08:00 2F-DCRO2-SNSC009 %%01IPLRN/5/IPLRN-DIAGLOG(D)[87]:Enter func IPLRN_ProcAddrSuppressAgingTimer..
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:57:32+08:00 2F-DCRO2-SNSC009 %%01MFPI/4/Mfpi Common(D)[88]:Common log: The CAP average CPU usage of last 30s is 0%, BC is 0%
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:57:35+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[89]:DEBUG WCOM_SocketSendPkt[389]: Enter!ulMsgType[25]
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:57:35+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[90]:
+Send pkt at WCOM_SocketSendPkt, 427. Len: 1099
+
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:57:35+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[91]:
+ 48 57 01 98 48 74 7A 17 B0 00 00 1A 5A AE 00 D9
+ 3C 72 69 DB 5E 7F CA FF 00 1F 02 01 02 17 FF 8F
+ 03 2B 11 34 35 30 39 10 30 41 A2 01 15 26 29 7D
+ F0 57 01 03 02 03 03 AA FD C3 00 00 4C F7 86 69
+ DB 5E 7E A6 FF 00 1E 02 01 06 1A FF 4C 00 02 15
+ FD A5 06 93 A4 E2 4F B1 AF CF C6 EB 07 64 78 25
+ 09 C8 05 9B C5 C3 00 00 4C F7 87 69 DB 5E 7B B1
+ FF 00 1E 02 01 06 1A FF 4C 00 02 15 FD A5 06 93
+ A4 E2 4F B1 AF CF C6 EB 07 64 78 25 09 C8 05 9C
+ C5 32 16 78 E9 12 3B 69 DB 5E 7F B2 FF 00 1D 1C
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:57:35+08:00 2F-DCRO2-SNSC009 %%01IPLRN/5/IPLRN-DIAGLOG(D)[92]:Enter func IPLRN_ProcAddrSuppressAgingTimer..
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:57:45+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[93]:DEBUG WCOM_SocketSendPkt[389]: Enter!ulMsgType[25]
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:57:45+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[94]:
+Send pkt at WCOM_SocketSendPkt, 427. Len: 1230
+
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:57:45+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[95]:
+ 48 57 01 98 48 74 7A 17 B0 00 00 1D 5A AE 00 D9
+ 3C 72 69 DB 5E 89 C5 FF 00 1F 02 01 02 17 FF 8F
+ 03 2B 11 34 35 30 39 10 30 41 A2 01 15 26 29 7D
+ F0 57 01 03 02 03 03 AA FD C3 00 00 5B 25 84 69
+ DB 5E 89 AF FF 00 1F 1E FF 01 00 01 00 00 00 00
+ 2C 75 50 BD 84 B1 32 9F 14 9D DD 6F D3 10 0F 38
+ 72 2D A8 5E C2 58 C3 00 00 4C F7 86 69 DB 5E 86
+ A6 FF 00 1E 02 01 06 1A FF 4C 00 02 15 FD A5 06
+ 93 A4 E2 4F B1 AF CF C6 EB 07 64 78 25 09 C8 05
+ 9B C5 C3 00 00 4C F7 87 69 DB 5E 87 B2 FF 00 1E
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:57:45+08:00 2F-DCRO2-SNSC009 %%01IPLRN/5/IPLRN-DIAGLOG(D)[96]:Enter func IPLRN_ProcAddrSuppressAgingTimer..
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:57:55+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[97]:DEBUG WCOM_SocketSendPkt[389]: Enter!ulMsgType[25]
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:57:55+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[98]:
+Send pkt at WCOM_SocketSendPkt, 427. Len: 1077
+
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:57:55+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[99]:
+ 48 57 01 98 48 74 7A 17 B0 00 00 1A 5A AE 00 D9
+ 3C 72 69 DB 5E 93 C9 FF 00 1F 02 01 02 17 FF 8F
+ 03 2B 11 34 35 30 39 10 30 41 A2 01 15 26 29 7D
+ F0 57 01 03 02 03 03 AA FD C3 00 00 5B 25 84 69
+ DB 5E 8F B0 FF 00 1E 02 01 06 1A FF 39 06 02 09
+ C8 05 91 AB 09 C8 04 63 AD 09 C8 04 4A AF 09 C8
+ 04 68 C1 84 0E C3 00 00 4C F7 86 69 DB 5E 90 A7
+ FF 00 1E 02 01 06 1A FF 4C 00 02 15 FD A5 06 93
+ A4 E2 4F B1 AF CF C6 EB 07 64 78 25 09 C8 05 9B
+ C5 C3 00 00 4C F7 87 69 DB 5E 93 B2 FF 00 1E 02
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:57:55+08:00 2F-DCRO2-SNSC009 %%01IPLRN/5/IPLRN-DIAGLOG(D)[100]:Enter func IPLRN_ProcAddrSuppressAgingTimer..
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:58:05+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[101]:DEBUG WCOM_SocketSendPkt[389]: Enter!ulMsgType[25]
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:58:05+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[102]:
+Send pkt at WCOM_SocketSendPkt, 427. Len: 1076
+
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:58:05+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[103]:
+ 48 57 01 98 48 74 7A 17 B0 00 00 1A 5A AE 00 D9
+ 3C 72 69 DB 5E 9D C7 FF 00 1F 02 01 02 17 FF 8F
+ 03 2B 11 34 35 30 39 10 30 41 A2 01 15 26 29 7D
+ F0 57 01 03 02 03 03 AA FD C3 00 00 5B 25 84 69
+ DB 5E 9A B2 FF 00 1E 02 01 06 1A FF 39 06 02 09
+ C8 04 4A B5 09 C8 04 68 C1 09 C8 04 6D B5 09 C8
+ 05 9E AD 84 0E C3 00 00 4C F7 86 69 DB 5E 97 A7
+ FF 00 1E 02 01 06 1A FF 4C 00 02 15 FD A5 06 93
+ A4 E2 4F B1 AF CF C6 EB 07 64 78 25 09 C8 05 9B
+ C5 C3 00 00 4C F7 87 69 DB 5E 9D B1 FF 00 1E 02
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:58:05+08:00 2F-DCRO2-SNSC009 %%01IPLRN/5/IPLRN-DIAGLOG(D)[104]:Enter func IPLRN_ProcAddrSuppressAgingTimer..
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:58:15+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[105]:DEBUG WCOM_SocketSendPkt[389]: Enter!ulMsgType[25]
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:58:15+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[106]:
+Send pkt at WCOM_SocketSendPkt, 427. Len: 1130
+
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:58:15+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[107]:
+ 48 57 01 98 48 74 7A 17 B0 00 00 1B 5A AE 00 D9
+ 3C 72 69 DB 5E A7 C7 FF 00 1F 02 01 02 17 FF 8F
+ 03 2B 11 34 35 30 39 10 30 41 A2 01 15 26 29 7D
+ F0 57 01 03 02 03 03 AA FD C3 00 00 5B 25 84 69
+ DB 5E A3 AF FF 00 1E 02 01 06 1A FF 39 06 02 09
+ C8 04 4A B5 09 C8 04 68 C1 09 C8 04 6D B5 09 C8
+ 05 9E AD 84 0E C3 00 00 4C F7 87 69 DB 5E A4 AF
+ FF 00 1E 02 01 06 1A FF 4C 00 02 15 FD A5 06 93
+ A4 E2 4F B1 AF CF C6 EB 07 64 78 25 09 C8 05 9C
+ C5 32 16 78 E9 12 3B 69 DB 5E A6 AF FF 00 1D 1C
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:58:15+08:00 2F-DCRO2-SNSC009 %%01IPLRN/5/IPLRN-DIAGLOG(D)[108]:Enter func IPLRN_ProcAddrSuppressAgingTimer..
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:58:25+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[109]:DEBUG WCOM_SocketSendPkt[389]: Enter!ulMsgType[25]
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:58:25+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[110]:
+Send pkt at WCOM_SocketSendPkt, 427. Len: 972
+
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:58:25+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[111]:
+ 48 57 01 98 48 74 7A 17 B0 00 00 17 5A AE 00 D9
+ 3C 72 69 DB 5E B1 BC FF 00 1F 02 01 02 17 FF 8F
+ 03 2B 11 34 35 30 39 10 30 41 A2 01 15 26 29 7D
+ F0 57 01 03 02 03 03 AA FD 14 07 36 07 C8 91 69
+ DB 5E AD A3 FF 00 14 07 FF 14 07 36 07 C8 91 03
+ 03 4D 1F 07 09 64 65 76 31 38 31 C3 00 00 4C F7
+ 86 69 DB 5E A9 A4 FF 00 1E 02 01 06 1A FF 4C 00
+ 02 15 FD A5 06 93 A4 E2 4F B1 AF CF C6 EB 07 64
+ 78 25 09 C8 05 9B C5 C3 00 00 4C F7 87 69 DB 5E
+ AF A5 FF 00 1E 02 01 06 1A FF 4C 00 02 15 FD A5
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:58:25+08:00 2F-DCRO2-SNSC009 %%01IPLRN/5/IPLRN-DIAGLOG(D)[112]:Enter func IPLRN_ProcAddrSuppressAgingTimer..
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:58:33+08:00 2F-DCRO2-SNSC009 %%01MFPI/4/Mfpi Common(D)[113]:Common log: The CAP average CPU usage of last 30s is 0%, BC is 0%
+ Last 30s average CPU usage : CoreID1: 0%
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:58:35+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[114]:DEBUG WCOM_SocketSendPkt[389]: Enter!ulMsgType[25]
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:58:35+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[115]:
+Send pkt at WCOM_SocketSendPkt, 427. Len: 855
+
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:58:35+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[116]:
+ 48 57 01 98 48 74 7A 17 B0 00 00 15 5A AE 00 D9
+ 3C 72 69 DB 5E BB C2 FF 00 1F 02 01 02 17 FF 8F
+ 03 2B 11 34 35 30 39 10 30 41 A2 01 15 26 29 7D
+ F0 57 01 03 02 03 03 AA FD C3 00 00 5B 25 84 69
+ DB 5E B7 AE FF 00 1E 02 01 06 1A FF 39 06 02 09
+ C8 04 68 BF 09 C8 05 91 AC 09 C8 04 63 B4 09 C8
+ 04 4A B3 84 0E C3 00 00 4C F7 87 69 DB 5E BB AD
+ FF 00 1E 02 01 06 1A FF 4C 00 02 15 FD A5 06 93
+ A4 E2 4F B1 AF CF C6 EB 07 64 78 25 09 C8 05 9C
+ C5 32 16 78 E9 12 3B 69 DB 5E BB B0 FF 00 1D 1C
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:58:35+08:00 2F-DCRO2-SNSC009 %%01IPLRN/5/IPLRN-DIAGLOG(D)[117]:Enter func IPLRN_ProcAddrSuppressAgingTimer..
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:58:45+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[118]:DEBUG WCOM_SocketSendPkt[389]: Enter!ulMsgType[25]
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:58:45+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[119]:
+Send pkt at WCOM_SocketSendPkt, 427. Len: 1053
+
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:58:45+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[120]:
+ 48 57 01 98 48 74 7A 17 B0 00 00 19 5A AE 00 D9
+ 3C 72 69 DB 5E C5 BA FF 00 1F 02 01 02 17 FF 8F
+ 03 2B 11 34 35 30 39 10 30 41 A2 01 15 26 29 7D
+ F0 57 01 03 02 03 03 AA FD C3 00 00 5B 25 84 69
+ DB 5E C2 AE FF 00 1E 02 01 06 1A FF 39 06 02 09
+ C8 04 68 BF 09 C8 05 91 AC 09 C8 04 63 B4 09 C8
+ 04 4A B3 84 0E C3 00 00 4C F7 87 69 DB 5E C4 AE
+ FF 00 1E 02 01 06 1A FF 4C 00 02 15 FD A5 06 93
+ A4 E2 4F B1 AF CF C6 EB 07 64 78 25 09 C8 05 9C
+ C5 32 16 78 E9 12 3B 69 DB 5E C5 AE FF 00 1D 1C
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:58:45+08:00 2F-DCRO2-SNSC009 %%01IPLRN/5/IPLRN-DIAGLOG(D)[121]:Enter func IPLRN_ProcAddrSuppressAgingTimer..
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:58:55+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[122]:DEBUG WCOM_SocketSendPkt[389]: Enter!ulMsgType[25]
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:58:55+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[123]:
+Send pkt at WCOM_SocketSendPkt, 427. Len: 1044
+
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:58:55+08:00 2F-DCRO2-SNSC009 %%01WSRV/7/WSRV_DEBUG(D)[124]:
+ 48 57 01 98 48 74 7A 17 B0 00 00 19 5A AE 00 D9
+ 3C 72 69 DB 5E CF C4 FF 00 1F 02 01 02 17 FF 8F
+ 03 2B 11 34 35 30 39 10 30 41 A2 01 15 26 29 7D
+ F0 57 01 03 02 03 03 AA FD 14 07 36 07 C8 91 69
+ DB 5E CC A7 FF 00 14 07 FF 14 07 36 07 C8 91 03
+ 03 4D 1F 07 09 64 65 76 31 38 31 C3 00 00 5B 25
+ 84 69 DB 5E CF AE FF 00 1F 1E FF 01 00 01 00 00
+ 00 00 2C 75 50 BD 84 B1 32 9F 14 9D DD 6F D3 10
+ 0F 38 72 2D A8 5E C2 58 C3 00 00 4C F7 87 69 DB
+ 5E C8 B0 FF 00 1E 02 01 06 1A FF 4C 00 02 15 FD
+[2F-DCRO2-SNSC009-diagnose]
+Apr 12 2026 16:58:55+08:00 2F-DCRO2-SNSC009 %%01IPLRN/5/IPLRN-DIAGLOG(D)[125]:Enter func IPLRN_ProcAddrSuppressAgingTimer..
+[2F-DCRO2-SNSC009-diagnose]
+
+  Please check whether system data has been changed, and save data in time
+
+  Configuration console time out, please press any key to log on
+
+
