@@ -14,13 +14,16 @@ created: 2026-04-11
 
 ## 迁移原则
 
-1. 只提取有持续参考价值的内容到 PARA，一次性/过时的留归档
-2. 会议纪要、智能纪要、近期会议速递、月度纪要小结 → 全部留归档不动
-3. 年终总结、工作周报 → 留归档不动
+1. 只提取有持续参考价值的内容到 PARA，一次性/过时的按以下规则处理：
+   - **有归属的** → 移到 `4-Archives/` 下对应分类目录（如 `4-Archives/Areas/Work/团队管理/团队成员/{姓名}/`、`4-Archives/Projects/Work/{项目}/` 等），不留在 Notes 里
+   - **真正无用的**（无上下文临时文件、飞书模板等）→ 留 `4-Archives/Notes/Feishu/` 原位不动
+   - 原则：`4-Archives/Notes/` 目录以后可能整体移走，有价值的归档内容不应留在里面
+2. 会议纪要、智能纪要 → 按内容归入对应项目或团队管理目录；近期会议速递、月度纪要小结 → 按所属同事归入 `4-Archives/Areas/Work/团队管理/团队成员/{姓名}/`
+3. 年终总结、工作周报 → 按所属同事归入团队成员目录
 4. 同一文档有多个副本的，只提取最新/最完整版本
-5. file 类型附件（上传的 .docx/.xlsx/.pptx/.pdf 等）→ 留归档不动
-6. README.md 索引文件、链接索引.md → 留归档不动
-7. bitable 导出的 .xlsx → 留归档不动
+5. file 类型附件（上传的 .docx/.xlsx/.pptx/.pdf 等）→ 跟随所在目录规则决策，无明确归属的留原位
+6. README.md 索引文件、链接索引.md → 留原位不动（仅供归档索引用）
+7. bitable 导出的 .xlsx → 留原位不动（原始 bitable 数据已按目录规则处理）
 8. 进行中项目的资料提取到 `1-Projects/Work/对应项目/`
 9. 已结束项目整体归档到 `4-Archives/Projects/Work/`
 10. 同事个人文档中不属于特定项目的内容（AI汇总、工作总结、散落文件等）→ 按人归类到团队成员目录：
@@ -94,7 +97,7 @@ created: 2026-04-11
 | 项目进度会（刘秉欣） | 35 | `2-Areas/Work/团队管理/周会纪要/` |
 | 技术讨论 | 6 | `3-Resources/Tech/问题解决/` |
 | 待确认 | 36 | 需人工判断 |
-| 留归档（AI 汇总） | 84 | 近期会议速递、月度纪要小结，留归档不动 |
+| 留归档（AI 汇总） | 84 | 近期会议速递、月度纪要小结，按所属同事归入团队成员目录 |
 
 ### 分类规则
 
@@ -338,7 +341,7 @@ created: 2026-04-11
 | 文字记录：数据、页面状态及功能处理会议 2025年9月17日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/文字记录：数据、页面状态及功能处理会议 2025年9月17日]] | [飞书](https://reliablesense.feishu.cn/docx/O7UVdlfMSoMkZbxVyWic5N0bnBf) | `2-Areas/Work/产品研发/会议纪要/` |
 | 智能纪要：数据、页面状态及功能处理会议 2025年9月17日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/智能纪要：数据、页面状态及功能处理会议 2025年9月17日]] | [飞书](https://reliablesense.feishu.cn/docx/KliDdAtzionSN1xuPXic7YWynUd) | `2-Areas/Work/产品研发/会议纪要/` |
 
-#### 留归档 → 团队成员目录（84 个）
+#### AI 汇总 → 团队成员目录（84 个）
 
 > 近期会议速递、月度纪要小结等飞书 AI 生成的汇总，共 84 个，按所属同事归入对应的团队成员目录：
 > - 何宜峰的 → `4-Archives/Areas/Work/团队管理/团队成员/何宜峰/`
@@ -801,8 +804,8 @@ created: 2026-04-11
 | 车载定位连调总结.md | [[4-Archives/Notes/Feishu/知识库/个人知识库/车载定位连调总结]] | [飞书](https://reliablesense.feishu.cn/wiki/I7C8w9kEBiLR3YkaRyJcbekunVf) | → 提取 | `3-Resources/Tech/知识卡片/车载定位连调总结.md` |
 | 重定位.md | [[4-Archives/Notes/Feishu/知识库/个人知识库/重定位]] | [飞书](https://reliablesense.feishu.cn/wiki/EcASw46qMijgXFkNqQZcWstJnWe) | → 提取 | `3-Resources/Tech/知识卡片/重定位.md` |
 | 南宁机场2025年12月26日.md | [[4-Archives/Notes/Feishu/知识库/个人知识库/南宁机场2025年12月26日]] | [飞书](https://reliablesense.feishu.cn/wiki/SLcMwfrKlibIwqkwU6ccaTVZnIc) | → 提取 | `1-Projects/Work/南宁机场/南宁机场记录.md` |
-| 工作交接.md | [[4-Archives/Notes/Feishu/知识库/个人知识库/工作交接]] | [飞书](https://reliablesense.feishu.cn/wiki/KumhwCH0JiPH97k7CI5cOVcznsf) | 留归档 | 个人工作交接 |
-| 测试总结.md | [[4-Archives/Notes/Feishu/知识库/个人知识库/测试总结]] | [飞书](https://reliablesense.feishu.cn/wiki/Bv23wHWcfi8SuOkDS38c8TAynZc) | 留归档 | 测试记录 |
+| 工作交接.md | [[4-Archives/Notes/Feishu/知识库/个人知识库/工作交接]] | [飞书](https://reliablesense.feishu.cn/wiki/KumhwCH0JiPH97k7CI5cOVcznsf) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` | 同事工作交接文档，按人归档 |
+| 测试总结.md | [[4-Archives/Notes/Feishu/知识库/个人知识库/测试总结]] | [飞书](https://reliablesense.feishu.cn/wiki/Bv23wHWcfi8SuOkDS38c8TAynZc) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` | 同事测试总结，按人归档 |
 | 运行有问题的项目及其结果截图.md | [[4-Archives/Notes/Feishu/知识库/个人知识库/运行有问题的项目及其结果截图]] | [飞书](https://reliablesense.feishu.cn/wiki/SAC6wR9XXiiBAKk0uvAcBPI4nmd) | 留归档 | 临时记录 |
 | 知识问答-Space7527246326739157011.md | [[4-Archives/Notes/Feishu/知识库/个人知识库/知识问答-Space7527246326739157011]] | [飞书](https://reliablesense.feishu.cn/wiki/AR6QwWP4yiUZUrku6F8c2LUvnDc) | 留归档 | 飞书 AI 问答 |
 | 知识问答-Space7527250303092015107.md | [[4-Archives/Notes/Feishu/知识库/个人知识库/知识问答-Space7527250303092015107]] | [飞书](https://reliablesense.feishu.cn/wiki/Mb5Sw96iIiXgDkkgB79ciA13nph) | 留归档 | 飞书 AI 问答 |
@@ -818,9 +821,9 @@ created: 2026-04-11
 | 后端2.7更新内容.md | [[4-Archives/Notes/Feishu/知识库/受限知识库/后端2.7更新内容]] | [飞书](https://reliablesense.feishu.cn/wiki/AYprwPzeGiWaPlkUnVxcQWbMndc) | → 提取 | `2-Areas/Work/产品研发/后端2.7更新内容.md` |
 | 新太元验收标准总结.md | [[4-Archives/Notes/Feishu/知识库/受限知识库/新太元验收标准总结]] | [飞书](https://reliablesense.feishu.cn/wiki/LbYbwPb1QidoL0kpKakcRhCrnPe) | → 提取 | `1-Projects/Work/新太项目/验收标准总结.md` |
 | 新太项目总结.md | [[4-Archives/Notes/Feishu/知识库/受限知识库/新太项目总结]] | [飞书](https://reliablesense.feishu.cn/wiki/TK3Sw7sNkiEFD1kFx27cLTkznAV) | → 提取 | `1-Projects/Work/新太项目/项目总结.md` |
-| 2025年年终总结-后端.md | [[4-Archives/Notes/Feishu/知识库/受限知识库/2025年年终总结-后端]] | [飞书](https://reliablesense.feishu.cn/wiki/ZSDawo3uLi4lxXkGZP7cHGxBnXc) | 留归档 | 年终总结 |
-| 2025年度总结-前端.md | [[4-Archives/Notes/Feishu/知识库/受限知识库/2025年度总结-前端]] | [飞书](https://reliablesense.feishu.cn/wiki/MqWawqoYkiJsQekf1y2c8Hatnve) | 留归档 | 年终总结 |
-| 刘远达25年年终总结.md | [[4-Archives/Notes/Feishu/知识库/受限知识库/刘远达25年年终总结]] | [飞书](https://reliablesense.feishu.cn/wiki/TfMYwzD5citiR0kXrffcRYNUn8d) | 留归档 | 年终总结 |
+| 2025年年终总结-后端.md | [[4-Archives/Notes/Feishu/知识库/受限知识库/2025年年终总结-后端]] | [飞书](https://reliablesense.feishu.cn/wiki/ZSDawo3uLi4lxXkGZP7cHGxBnXc) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/王宗光/` | 年终总结，按人归档 |
+| 2025年度总结-前端.md | [[4-Archives/Notes/Feishu/知识库/受限知识库/2025年度总结-前端]] | [飞书](https://reliablesense.feishu.cn/wiki/MqWawqoYkiJsQekf1y2c8Hatnve) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` | 年终总结，按人归档 |
+| 刘远达25年年终总结.md | [[4-Archives/Notes/Feishu/知识库/受限知识库/刘远达25年年终总结]] | [飞书](https://reliablesense.feishu.cn/wiki/TfMYwzD5citiR0kXrffcRYNUn8d) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/刘远达/` | 年终总结，按人归档 |
 
 ---
 
@@ -854,7 +857,7 @@ created: 2026-04-11
 | → 提取到 2-Areas/Work/ | ~55 个 .md | 运维管理、制度、模板、品牌宣传、团队管理 |
 | → 提取到 1-Projects/Work/ | ~30 个 .md | 进行中项目的技术文档 |
 | → 归档到 4-Archives/Projects/Work/ | ~90 个项目目录 | 已结束项目 |
-| 留归档不动 | ~5000+ 个文件 | 会议纪要、附件、表格、临时文件 |
+| 留归档不动 | ~5000+ 个文件 | 无上下文临时文件、旧版本重复文件、媒体附件、安装包等真正无用的文件 |
 
 ---
 
