@@ -21,6 +21,11 @@ created: 2026-04-11
 7. bitable 导出的 .xlsx → 留归档不动
 8. 进行中项目的资料提取到 `1-Projects/Work/对应项目/`
 9. 已结束项目整体归档到 `4-Archives/Projects/Work/`
+10. 同事个人文档中不属于特定项目的内容（AI汇总、工作总结、散落文件等）→ 按人归类到团队成员目录：
+    - 在职：`2-Areas/Work/团队管理/团队成员/{姓名}/`
+    - 已离职：`4-Archives/Areas/Work/团队管理/团队成员/{姓名}/`
+    - 属于特定项目的文件仍然跟项目走，不放团队成员目录
+11. 文档内嵌图片（`Attachments/` 目录下的 .png/.jpg 等）跟随所属文档移动到目标路径的 `Attachments/` 子目录，不单独决策
 
 ---
 
@@ -45,27 +50,27 @@ created: 2026-04-11
 | 翻译.docx | [[4-Archives/Notes/Feishu/云空间/根目录/翻译.docx]] | [飞书](https://reliablesense.feishu.cn/file/FoTYbNSjwoE1trxSOvWce7rxntf) | → 归档 | `4-Archives/Projects/Work/中东电子厂/翻译.docx` | 伊朗项目翻译文件 |
 | 认证文件.zip | [[4-Archives/Notes/Feishu/云空间/根目录/认证文件.zip]] | [飞书](https://reliablesense.feishu.cn/file/GCxtbICnZo5X1QxwnzfcMzErnGf) | → 提取 | `2-Areas/Work/综合管理/软著立项/认证文件.zip` | 软著和ISO质量检测认证文件 |
 | 综合定位系统-深化设计方案.docx | [[4-Archives/Notes/Feishu/云空间/根目录/综合定位系统-深化设计方案.docx]] | [飞书](https://reliablesense.feishu.cn/file/OVHGbClJOoavkLx3gStcUVGAngh) | → 提取 | `1-Projects/Work/广州机场/综合定位系统-深化设计方案.docx` | 含"综合定位系统"，属广州机场 |
-| 14号夜班差异分析.xlsx | [[4-Archives/Notes/Feishu/云空间/根目录/14号夜班差异分析.xlsx]] | [飞书](https://reliablesense.feishu.cn/file/JXLib9uFkoA5F3xWLfxcD2jlnKf) | → 提取 | `1-Projects/Work/内蒙新太/14号夜班差异分析.xlsx` | 新太项目 |
-| 5.20日洛阳石化系统bug问题汇总.xlsx | [[4-Archives/Notes/Feishu/云空间/根目录/5.20日洛阳石化系统bug问题汇总.xlsx]] | [飞书](https://reliablesense.feishu.cn/file/YUCNbnhyMooytWxAZVZcntx4nff) | → 归档 | `4-Archives/Projects/Work/洛阳石化/5.20日洛阳石化系统bug问题汇总.xlsx` | 洛阳项目 BUG 汇总 |
+| 14号夜班差异分析.xlsx | [[4-Archives/Notes/Feishu/云空间/根目录/14号夜班差异分析.xlsx]] | [飞书](https://reliablesense.feishu.cn/file/JXLib9uFkoA5F3xWLfxcD2jlnKf) | → 提取 | `1-Projects/Work/新太项目/14号夜班差异分析.xlsx` | 新太项目 |
+| 5.20日洛阳石化系统bug问题汇总.xlsx | [[4-Archives/Notes/Feishu/云空间/根目录/5.20日洛阳石化系统bug问题汇总.xlsx]] | [飞书](https://reliablesense.feishu.cn/file/YUCNbnhyMooytWxAZVZcntx4nff) | → 归档 | `1-Projects/Work/洛阳化工厂/5.20日洛阳石化系统bug问题汇总.xlsx` | 洛阳项目 BUG 汇总 |
 | MAC-Address.xlsx | [[4-Archives/Notes/Feishu/云空间/根目录/MAC-Address.xlsx]] | [飞书](https://reliablesense.feishu.cn/file/MFjsbb7bBoHIr5xo4v7c95kqnvb) | → 提取 | `2-Areas/Work/设备管理/MAC-Address.xlsx` | 设备 MAC 地址表 |
 | 员工花名册-在职.xlsx | [[4-Archives/Notes/Feishu/云空间/根目录/员工花名册-在职.xlsx]] | [飞书](https://reliablesense.feishu.cn/sheets/HQsEseKUKhovu0t1ewnclLSAnte) | → 提取 | `1-Projects/Work/广州机场/员工花名册-在职.xlsx` | 机场导入数据 |
 | 周报测试.xlsx | [[4-Archives/Notes/Feishu/云空间/根目录/周报测试.xlsx]] | [飞书](https://reliablesense.feishu.cn/base/NepGb0sWdaPfnosidcMc7yspnFg) | → 提取 | `2-Areas/Work/团队管理/周报提交记录.xlsx` | 周报提交记录 |
 | 定位对象在线时长导出表.xlsx | [[4-Archives/Notes/Feishu/云空间/根目录/定位对象在线时长导出表.xlsx]] | [飞书](https://reliablesense.feishu.cn/sheets/W95RsJ1SahTaeJt0xDgcM4d6n7f) | → 提取 | `2-Areas/Work/产品研发/定位对象在线时长导出表.xlsx` | 产品数据导出模板 |
 | 广州市公办小学招生报名系统入学申请表.xls | [[4-Archives/Notes/Feishu/云空间/根目录/广州市公办小学招生报名系统入学申请表.xls]] | [飞书](https://reliablesense.feishu.cn/file/T41fbSI4xoRMTJxtiWkctSUxnvp) | 留归档 | - | 个人文件 |
 | 广州机场综合定位.xlsx | [[4-Archives/Notes/Feishu/云空间/根目录/广州机场综合定位.xlsx]] | [飞书](https://reliablesense.feishu.cn/base/NbIPbswwSaCfPpsWak7cbCHsnwe) | → 提取 | `1-Projects/Work/广州机场/广州机场综合定位.xlsx` | 广州机场项目数据 |
-| 数字化.xlsx | [[4-Archives/Notes/Feishu/云空间/根目录/数字化.xlsx]] | [飞书](https://reliablesense.feishu.cn/file/E1b4biPmsoA4Ztx5Zj8c7CC0n6q) | → 提取 | `1-Projects/Work/内蒙新太/数字化措施表.xlsx` | 新太项目数字化改造措施（堆垛、铲车、料坑） |
-| 红柳林筛分楼部署内容.xlsx | [[4-Archives/Notes/Feishu/云空间/根目录/红柳林筛分楼部署内容.xlsx]] | [飞书](https://reliablesense.feishu.cn/sheets/shtcnuIgoeyPvXu60pwR4XsEc1g) | → 归档 | `4-Archives/Projects/Work/麦钉/红柳林筛分楼部署内容.xlsx` | 红柳林项目 |
+| 数字化.xlsx | [[4-Archives/Notes/Feishu/云空间/根目录/数字化.xlsx]] | [飞书](https://reliablesense.feishu.cn/file/E1b4biPmsoA4Ztx5Zj8c7CC0n6q) | → 提取 | `1-Projects/Work/新太项目/数字化措施表.xlsx` | 新太项目数字化改造措施（堆垛、铲车、料坑） |
+| 红柳林筛分楼部署内容.xlsx | [[4-Archives/Notes/Feishu/云空间/根目录/红柳林筛分楼部署内容.xlsx]] | [飞书](https://reliablesense.feishu.cn/sheets/shtcnuIgoeyPvXu60pwR4XsEc1g) | → 归档 | `1-Projects/Work/麦钉项目/红柳林筛分楼部署内容.xlsx` | 红柳林项目 |
 | 综合定位系统功能清单.xlsx | [[4-Archives/Notes/Feishu/云空间/根目录/综合定位系统功能清单.xlsx]] | [飞书](https://reliablesense.feishu.cn/file/JV2ibGyG9oVohcxlBwJcQdbenJe) | → 提取 | `1-Projects/Work/广州机场/综合定位系统功能清单.xlsx` | 广州机场功能清单 |
 | 广州白云国际机场三期扩建项目-综合定位-接口规范-V1.0.2.docx | [[4-Archives/Notes/Feishu/云空间/根目录/广州白云国际机场三期扩建项目-综合定位-接口规范-V1.0.2.docx]] | [飞书](https://reliablesense.feishu.cn/file/UGbJbaqiUoWBJaxH4Hpc9totngd) | → 提取 | `1-Projects/Work/广州机场/接口规范-V1.0.2.docx` | 广州机场接口规范 |
-| 智慧仓储物流早会汇报v1.5.pptx | [[4-Archives/Notes/Feishu/云空间/根目录/智慧仓储物流早会汇报v1.5.pptx]] | [飞书](https://reliablesense.feishu.cn/file/QeNlbb8xyoOSVPxfVMgcR8uCnKc) | → 提取 | `1-Projects/Work/内蒙新太/智慧仓储物流早会汇报v1.5.pptx` | 新太项目汇报 |
+| 智慧仓储物流早会汇报v1.5.pptx | [[4-Archives/Notes/Feishu/云空间/根目录/智慧仓储物流早会汇报v1.5.pptx]] | [飞书](https://reliablesense.feishu.cn/file/QeNlbb8xyoOSVPxfVMgcR8uCnKc) | → 提取 | `1-Projects/Work/新太项目/智慧仓储物流早会汇报v1.5.pptx` | 新太项目汇报 |
 
 > **归类规则补充**：
 > - 项目相关的接口/技术文档 → 跟对应项目走（`1-Projects/Work/` 或 `4-Archives/Projects/Work/`），不放通用 Tech 目录
 > - 设备协议类文档 → `2-Areas/Work/设备管理/`
 > - 产品架构文档（系统架构图、概要设计等描述产品整体的） → `2-Areas/Work/产品研发/`
 > - 含"综合定位"、"A域/B域"、"巡检app"等广州机场特征关键词的文档 → `1-Projects/Work/广州机场/`
-> - 含"新太"、"料棚"、"新钢联"等关键词的文档 → `1-Projects/Work/内蒙新太/`（进行中项目）
-> - 含"红柳林"、"李家壕"、"韩家村"、"高安屯"、"柠条塔"、"madinat_hll"、"madinat_xmc"、"madinat_hjc"、"madinat_gat"、"madinat_ntt" → 麦钉项目（`4-Archives/Projects/Work/麦钉/`）
+> - 含"新太"、"料棚"、"新钢联"等关键词的文档 → `1-Projects/Work/新太项目/`
+> - 含"红柳林"、"李家壕"、"韩家村"、"高安屯"、"柠条塔"、"madinat_hll"、"madinat_xmc"、"madinat_hjc"、"madinat_gat"、"madinat_ntt" → `1-Projects/Work/麦钉项目/`
 
 ---
 
@@ -77,11 +82,11 @@ created: 2026-04-11
 
 | 分类 | 数量 | 目标路径 |
 |------|------|---------|
-| 新太项目会议 | 23 | `1-Projects/Work/内蒙新太/会议纪要/` |
+| 新太项目会议 | 23 | `1-Projects/Work/新太项目/会议纪要/` |
 | 广州机场会议 | 12 | `1-Projects/Work/广州机场/会议纪要/` |
 | 上港项目会议 | 2 | `1-Projects/Work/上港仓储管理/会议纪要/` |
 | 武汉机场会议 | 3 | `4-Archives/Projects/Work/武汉机场/会议纪要/` |
-| 洛阳石化会议 | 1 | `4-Archives/Projects/Work/洛阳石化/会议纪要/` |
+| 洛阳化工厂会议 | 1 | `1-Projects/Work/洛阳化工厂/会议纪要/` |
 | 研发部早会 | 36 | `2-Areas/Work/团队管理/早会纪要/` |
 | 项目部周会 | 18 | `2-Areas/Work/团队管理/周会纪要/项目部/` |
 | 项目进度会（刘秉欣） | 35 | `2-Areas/Work/团队管理/周会纪要/` |
@@ -113,40 +118,40 @@ created: 2026-04-11
 
 | 文件 | 本地路径 | 飞书链接 | 目标路径 |
 |------|---------|---------|---------|
-| 内蒙新太项目（新钢联）的视频会议 2025年2月20日 - 智能纪要.md | [[4-Archives/Notes/Feishu/云空间/内蒙新太项目（新钢联）的视频会议 2025年2月20日 - 智能纪要]] | [飞书](https://reliablesense.feishu.cn/docx/KYotdrd3iovBS6xtsLFcrpl7nOb) | `1-Projects/Work/内蒙新太/会议纪要/` |
-| 文字记录：上料 APP 及卸货问题研讨会  2025年4月10日.md | [[4-Archives/Notes/Feishu/云空间/文字记录：上料 APP 及卸货问题研讨会  2025年4月10日]] | [飞书](https://reliablesense.feishu.cn/docx/Q02Gd51NFov3FlxnOpgcfUe0n2d) | `1-Projects/Work/内蒙新太/会议纪要/` |
-| 文字记录：五人工作安排与系统问题会议 2025年4月8日.md | [[4-Archives/Notes/Feishu/云空间/文字记录：五人工作安排与系统问题会议 2025年4月8日]] | [飞书](https://reliablesense.feishu.cn/docx/DDIddzu4uorHx3xVcmPc8d7Wnih) | `1-Projects/Work/内蒙新太/会议纪要/` |
-| 文字记录：内蒙新太项目（新钢联）的视频会议 2025年2月20日.md | [[4-Archives/Notes/Feishu/云空间/文字记录：内蒙新太项目（新钢联）的视频会议 2025年2月20日]] | [飞书](https://reliablesense.feishu.cn/docx/Qdl2dygpBoeSexx0CEzcjhsFnNf) | `1-Projects/Work/内蒙新太/会议纪要/` |
-| 文字记录：内蒙新太项目（新钢联）的视频会议 2025年2月26日.md | [[4-Archives/Notes/Feishu/云空间/文字记录：内蒙新太项目（新钢联）的视频会议 2025年2月26日]] | [飞书](https://reliablesense.feishu.cn/docx/Pt9ydazeCozgTCxOleBcBkWnnzd) | `1-Projects/Work/内蒙新太/会议纪要/` |
-| 文字记录：卸货条件设定及测试问题研讨 2025年4月17日.md | [[4-Archives/Notes/Feishu/云空间/文字记录：卸货条件设定及测试问题研讨 2025年4月17日]] | [飞书](https://reliablesense.feishu.cn/docx/TKuQdMeP9oG3HExLFz3cAFrknje) | `1-Projects/Work/内蒙新太/会议纪要/` |
-| 文字记录：多项工作安排与检查会议  2025年5月8日.md | [[4-Archives/Notes/Feishu/云空间/文字记录：多项工作安排与检查会议  2025年5月8日]] | [飞书](https://reliablesense.feishu.cn/docx/ThZ5dZTgGofFRLxZibRcQm7mnBc) | `1-Projects/Work/内蒙新太/会议纪要/` |
-| 文字记录：导航程序测试问题研讨会 2025年4月10日.md | [[4-Archives/Notes/Feishu/云空间/文字记录：导航程序测试问题研讨会 2025年4月10日]] | [飞书](https://reliablesense.feishu.cn/docx/GLSldDcEWoCwNOxaGlBcB86znwd) | `1-Projects/Work/内蒙新太/会议纪要/` |
-| 文字记录：小程序堆垛定位路线问题会议 2025年4月22日.md | [[4-Archives/Notes/Feishu/云空间/文字记录：小程序堆垛定位路线问题会议 2025年4月22日]] | [飞书](https://reliablesense.feishu.cn/docx/BECFddgmZobgXGxpjZqcnPGRnwf) | `1-Projects/Work/内蒙新太/会议纪要/` |
-| 文字记录：平板使用问题及解决措施研讨 2025年4月7日.md | [[4-Archives/Notes/Feishu/云空间/文字记录：平板使用问题及解决措施研讨 2025年4月7日]] | [飞书](https://reliablesense.feishu.cn/docx/KmwodbUhLokRuAxjmCWce9IHn5d) | `1-Projects/Work/内蒙新太/会议纪要/` |
-| 文字记录：跑步速度与通知次数安排会议  2025年4月10日.md | [[4-Archives/Notes/Feishu/云空间/文字记录：跑步速度与通知次数安排会议  2025年4月10日]] | [飞书](https://reliablesense.feishu.cn/docx/ItNldtWzZolX9NxW28Tcr3tFnVf) | `1-Projects/Work/内蒙新太/会议纪要/` |
-| 文字记录：项目工作进展与规划会议纪要  2025年5月6日.md | [[4-Archives/Notes/Feishu/云空间/文字记录：项目工作进展与规划会议纪要  2025年5月6日]] | [飞书](https://reliablesense.feishu.cn/docx/DsJ3dv1Jwo7jXHxNSyZckJz6nve) | `1-Projects/Work/内蒙新太/会议纪要/` |
-| 智能纪要：上料 APP 及卸货问题研讨会 2025年4月10日.md | [[4-Archives/Notes/Feishu/云空间/智能纪要：上料 APP 及卸货问题研讨会 2025年4月10日]] | [飞书](https://reliablesense.feishu.cn/docx/BgwNddiWwouTVAxTA3wcb982nRh) | `1-Projects/Work/内蒙新太/会议纪要/` |
-| 智能纪要：五人工作安排与系统问题会议 2025年4月8日.md | [[4-Archives/Notes/Feishu/云空间/智能纪要：五人工作安排与系统问题会议 2025年4月8日]] | [飞书](https://reliablesense.feishu.cn/docx/TiYHdhhLMoGcIhxLTEKcT3MKnqe) | `1-Projects/Work/内蒙新太/会议纪要/` |
-| 智能纪要：内蒙新太项目（新钢联）的视频会议 2025年2月26日.md | [[4-Archives/Notes/Feishu/云空间/智能纪要：内蒙新太项目（新钢联）的视频会议 2025年2月26日]] | [飞书](https://reliablesense.feishu.cn/docx/ZLRHd5XrUoztV0xtcXucyWZMnrb) | `1-Projects/Work/内蒙新太/会议纪要/` |
-| 智能纪要：卸货条件设定及测试问题研讨 2025年4月17日.md | [[4-Archives/Notes/Feishu/云空间/智能纪要：卸货条件设定及测试问题研讨 2025年4月17日]] | [飞书](https://reliablesense.feishu.cn/docx/UHRbdu9XLoa9PUxi2szcKHAinPb) | `1-Projects/Work/内蒙新太/会议纪要/` |
-| 智能纪要：多项工作安排与检查会议 2025年5月8日.md | [[4-Archives/Notes/Feishu/云空间/智能纪要：多项工作安排与检查会议 2025年5月8日]] | [飞书](https://reliablesense.feishu.cn/docx/AawEdXIyAo7h2XxcMoUcWvGbnBc) | `1-Projects/Work/内蒙新太/会议纪要/` |
-| 智能纪要：导航程序测试问题研讨会 2025年4月10日.md | [[4-Archives/Notes/Feishu/云空间/智能纪要：导航程序测试问题研讨会 2025年4月10日]] | [飞书](https://reliablesense.feishu.cn/docx/SMRPdLb1soQz30xhdILcFV0Cnnc) | `1-Projects/Work/内蒙新太/会议纪要/` |
-| 智能纪要：小程序堆垛定位路线问题会议 2025年4月22日.md | [[4-Archives/Notes/Feishu/云空间/智能纪要：小程序堆垛定位路线问题会议 2025年4月22日]] | [飞书](https://reliablesense.feishu.cn/docx/MyVSdaYrtoz7GdxuRcGce2k7nyc) | `1-Projects/Work/内蒙新太/会议纪要/` |
-| 智能纪要：平板使用问题及解决措施研讨 2025年4月7日.md | [[4-Archives/Notes/Feishu/云空间/智能纪要：平板使用问题及解决措施研讨 2025年4月7日]] | [飞书](https://reliablesense.feishu.cn/docx/RGhodDXbEo2X70xK8WLcGZEOnXd) | `1-Projects/Work/内蒙新太/会议纪要/` |
-| 智能纪要：跑步速度与通知次数安排会议 2025年4月10日.md | [[4-Archives/Notes/Feishu/云空间/智能纪要：跑步速度与通知次数安排会议 2025年4月10日]] | [飞书](https://reliablesense.feishu.cn/docx/PZyHddVcpoJOndxfhdscRdC5npe) | `1-Projects/Work/内蒙新太/会议纪要/` |
-| 智能纪要：项目工作进展与规划会议纪要 2025年5月6日.md | [[4-Archives/Notes/Feishu/云空间/智能纪要：项目工作进展与规划会议纪要 2025年5月6日]] | [飞书](https://reliablesense.feishu.cn/docx/BosQdhobYolHEFxRpWdcMbMgnYd) | `1-Projects/Work/内蒙新太/会议纪要/` |
-| 文字记录：内蒙新太项目（新钢联）的视频会议 2025年2月26日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/文字记录：内蒙新太项目（新钢联）的视频会议 2025年2月26日]] | [飞书](https://reliablesense.feishu.cn/docx/OgG5dQrQLoGY9FxEchhcSvmknXg) | `1-Projects/Work/内蒙新太/会议纪要/` |
-| 文字记录：内蒙新太项目（新钢联）的视频会议 2025年3月5日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/文字记录：内蒙新太项目（新钢联）的视频会议 2025年3月5日]] | [飞书](https://reliablesense.feishu.cn/docx/D0aEdYFlYo9REkxhIrwcDDWCnPf) | `1-Projects/Work/内蒙新太/会议纪要/` |
-| 文字记录：王宗光的视频会议 2025年2月20日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/文字记录：王宗光的视频会议 2025年2月20日]] | [飞书](https://reliablesense.feishu.cn/docx/DGyzdAmKkoykTYxVkoxcduRcnCc) | `1-Projects/Work/内蒙新太/会议纪要/` |
-| 文字记录：项目服务、权限及工作进展会议 2025年4月11日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/文字记录：项目服务、权限及工作进展会议 2025年4月11日]] | [飞书](https://reliablesense.feishu.cn/docx/KoC5dKi6koHwTfx8Dkbcgrlon5g) | `1-Projects/Work/内蒙新太/会议纪要/` |
-| 智能纪要：内蒙新太项目（新钢联）的视频会议 2025年2月26日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/智能纪要：内蒙新太项目（新钢联）的视频会议 2025年2月26日]] | [飞书](https://reliablesense.feishu.cn/docx/IQUqdVOipoy6MUx9pYicAUvrnmd) | `1-Projects/Work/内蒙新太/会议纪要/` |
-| 智能纪要：内蒙新太项目（新钢联）的视频会议 2025年3月5日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/智能纪要：内蒙新太项目（新钢联）的视频会议 2025年3月5日]] | [飞书](https://reliablesense.feishu.cn/docx/EePFdqlyQoh4bExphrXcGX3Wnjd) | `1-Projects/Work/内蒙新太/会议纪要/` |
-| 智能纪要：多方面业务问题及解决方案探讨会 2025年6月3日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/智能纪要：多方面业务问题及解决方案探讨会 2025年6月3日]] | [飞书](https://reliablesense.feishu.cn/docx/NPkFdqGfUo1Bf2xEQOGclc7anMh) | `1-Projects/Work/内蒙新太/会议纪要/` |
-| 智能纪要：项目服务、权限及工作进展会议 2025年4月11日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/智能纪要：项目服务、权限及工作进展会议 2025年4月11日]] | [飞书](https://reliablesense.feishu.cn/docx/LKSodmV6loX04TxtDTNcEqmcnLe) | `1-Projects/Work/内蒙新太/会议纪要/` |
-| 王宗光的视频会议 2025年2月20日 - 智能纪要.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/王宗光的视频会议 2025年2月20日 - 智能纪要]] | [飞书](https://reliablesense.feishu.cn/docx/Rr23dKQ8vo2vyYxmepgcq5ktn1c) | `1-Projects/Work/内蒙新太/会议纪要/` |
-| 内蒙新太项目（新钢联）的视频会议 2025年2月7日 - 智能纪要.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/内蒙新太项目（新钢联）的视频会议 2025年2月7日 - 智能纪要]] | [飞书](https://reliablesense.feishu.cn/docx/W7Jid5OiUopoqcxNqJbc8ichnnf) | `1-Projects/Work/内蒙新太/会议纪要/` |
-| 文字记录：陈子杰的视频会议 2025年2月24日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/文字记录：陈子杰的视频会议 2025年2月24日]] | [飞书](https://reliablesense.feishu.cn/docx/JhwjdqDfJoBMExxV9btciKO3nhf) | `1-Projects/Work/内蒙新太/会议纪要/` |
-| 智能纪要：陈子杰的视频会议 2025年2月24日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/智能纪要：陈子杰的视频会议 2025年2月24日]] | [飞书](https://reliablesense.feishu.cn/docx/XVxUdVtaSo0wu6xtY3Uc7GdHnrc) | `1-Projects/Work/内蒙新太/会议纪要/` |
+| 内蒙新太项目（新钢联）的视频会议 2025年2月20日 - 智能纪要.md | [[4-Archives/Notes/Feishu/云空间/内蒙新太项目（新钢联）的视频会议 2025年2月20日 - 智能纪要]] | [飞书](https://reliablesense.feishu.cn/docx/KYotdrd3iovBS6xtsLFcrpl7nOb) | `1-Projects/Work/新太项目/会议纪要/` |
+| 文字记录：上料 APP 及卸货问题研讨会  2025年4月10日.md | [[4-Archives/Notes/Feishu/云空间/文字记录：上料 APP 及卸货问题研讨会  2025年4月10日]] | [飞书](https://reliablesense.feishu.cn/docx/Q02Gd51NFov3FlxnOpgcfUe0n2d) | `1-Projects/Work/新太项目/会议纪要/` |
+| 文字记录：五人工作安排与系统问题会议 2025年4月8日.md | [[4-Archives/Notes/Feishu/云空间/文字记录：五人工作安排与系统问题会议 2025年4月8日]] | [飞书](https://reliablesense.feishu.cn/docx/DDIddzu4uorHx3xVcmPc8d7Wnih) | `1-Projects/Work/新太项目/会议纪要/` |
+| 文字记录：内蒙新太项目（新钢联）的视频会议 2025年2月20日.md | [[4-Archives/Notes/Feishu/云空间/文字记录：内蒙新太项目（新钢联）的视频会议 2025年2月20日]] | [飞书](https://reliablesense.feishu.cn/docx/Qdl2dygpBoeSexx0CEzcjhsFnNf) | `1-Projects/Work/新太项目/会议纪要/` |
+| 文字记录：内蒙新太项目（新钢联）的视频会议 2025年2月26日.md | [[4-Archives/Notes/Feishu/云空间/文字记录：内蒙新太项目（新钢联）的视频会议 2025年2月26日]] | [飞书](https://reliablesense.feishu.cn/docx/Pt9ydazeCozgTCxOleBcBkWnnzd) | `1-Projects/Work/新太项目/会议纪要/` |
+| 文字记录：卸货条件设定及测试问题研讨 2025年4月17日.md | [[4-Archives/Notes/Feishu/云空间/文字记录：卸货条件设定及测试问题研讨 2025年4月17日]] | [飞书](https://reliablesense.feishu.cn/docx/TKuQdMeP9oG3HExLFz3cAFrknje) | `1-Projects/Work/新太项目/会议纪要/` |
+| 文字记录：多项工作安排与检查会议  2025年5月8日.md | [[4-Archives/Notes/Feishu/云空间/文字记录：多项工作安排与检查会议  2025年5月8日]] | [飞书](https://reliablesense.feishu.cn/docx/ThZ5dZTgGofFRLxZibRcQm7mnBc) | `1-Projects/Work/新太项目/会议纪要/` |
+| 文字记录：导航程序测试问题研讨会 2025年4月10日.md | [[4-Archives/Notes/Feishu/云空间/文字记录：导航程序测试问题研讨会 2025年4月10日]] | [飞书](https://reliablesense.feishu.cn/docx/GLSldDcEWoCwNOxaGlBcB86znwd) | `1-Projects/Work/新太项目/会议纪要/` |
+| 文字记录：小程序堆垛定位路线问题会议 2025年4月22日.md | [[4-Archives/Notes/Feishu/云空间/文字记录：小程序堆垛定位路线问题会议 2025年4月22日]] | [飞书](https://reliablesense.feishu.cn/docx/BECFddgmZobgXGxpjZqcnPGRnwf) | `1-Projects/Work/新太项目/会议纪要/` |
+| 文字记录：平板使用问题及解决措施研讨 2025年4月7日.md | [[4-Archives/Notes/Feishu/云空间/文字记录：平板使用问题及解决措施研讨 2025年4月7日]] | [飞书](https://reliablesense.feishu.cn/docx/KmwodbUhLokRuAxjmCWce9IHn5d) | `1-Projects/Work/新太项目/会议纪要/` |
+| 文字记录：跑步速度与通知次数安排会议  2025年4月10日.md | [[4-Archives/Notes/Feishu/云空间/文字记录：跑步速度与通知次数安排会议  2025年4月10日]] | [飞书](https://reliablesense.feishu.cn/docx/ItNldtWzZolX9NxW28Tcr3tFnVf) | `1-Projects/Work/新太项目/会议纪要/` |
+| 文字记录：项目工作进展与规划会议纪要  2025年5月6日.md | [[4-Archives/Notes/Feishu/云空间/文字记录：项目工作进展与规划会议纪要  2025年5月6日]] | [飞书](https://reliablesense.feishu.cn/docx/DsJ3dv1Jwo7jXHxNSyZckJz6nve) | `1-Projects/Work/新太项目/会议纪要/` |
+| 智能纪要：上料 APP 及卸货问题研讨会 2025年4月10日.md | [[4-Archives/Notes/Feishu/云空间/智能纪要：上料 APP 及卸货问题研讨会 2025年4月10日]] | [飞书](https://reliablesense.feishu.cn/docx/BgwNddiWwouTVAxTA3wcb982nRh) | `1-Projects/Work/新太项目/会议纪要/` |
+| 智能纪要：五人工作安排与系统问题会议 2025年4月8日.md | [[4-Archives/Notes/Feishu/云空间/智能纪要：五人工作安排与系统问题会议 2025年4月8日]] | [飞书](https://reliablesense.feishu.cn/docx/TiYHdhhLMoGcIhxLTEKcT3MKnqe) | `1-Projects/Work/新太项目/会议纪要/` |
+| 智能纪要：内蒙新太项目（新钢联）的视频会议 2025年2月26日.md | [[4-Archives/Notes/Feishu/云空间/智能纪要：内蒙新太项目（新钢联）的视频会议 2025年2月26日]] | [飞书](https://reliablesense.feishu.cn/docx/ZLRHd5XrUoztV0xtcXucyWZMnrb) | `1-Projects/Work/新太项目/会议纪要/` |
+| 智能纪要：卸货条件设定及测试问题研讨 2025年4月17日.md | [[4-Archives/Notes/Feishu/云空间/智能纪要：卸货条件设定及测试问题研讨 2025年4月17日]] | [飞书](https://reliablesense.feishu.cn/docx/UHRbdu9XLoa9PUxi2szcKHAinPb) | `1-Projects/Work/新太项目/会议纪要/` |
+| 智能纪要：多项工作安排与检查会议 2025年5月8日.md | [[4-Archives/Notes/Feishu/云空间/智能纪要：多项工作安排与检查会议 2025年5月8日]] | [飞书](https://reliablesense.feishu.cn/docx/AawEdXIyAo7h2XxcMoUcWvGbnBc) | `1-Projects/Work/新太项目/会议纪要/` |
+| 智能纪要：导航程序测试问题研讨会 2025年4月10日.md | [[4-Archives/Notes/Feishu/云空间/智能纪要：导航程序测试问题研讨会 2025年4月10日]] | [飞书](https://reliablesense.feishu.cn/docx/SMRPdLb1soQz30xhdILcFV0Cnnc) | `1-Projects/Work/新太项目/会议纪要/` |
+| 智能纪要：小程序堆垛定位路线问题会议 2025年4月22日.md | [[4-Archives/Notes/Feishu/云空间/智能纪要：小程序堆垛定位路线问题会议 2025年4月22日]] | [飞书](https://reliablesense.feishu.cn/docx/MyVSdaYrtoz7GdxuRcGce2k7nyc) | `1-Projects/Work/新太项目/会议纪要/` |
+| 智能纪要：平板使用问题及解决措施研讨 2025年4月7日.md | [[4-Archives/Notes/Feishu/云空间/智能纪要：平板使用问题及解决措施研讨 2025年4月7日]] | [飞书](https://reliablesense.feishu.cn/docx/RGhodDXbEo2X70xK8WLcGZEOnXd) | `1-Projects/Work/新太项目/会议纪要/` |
+| 智能纪要：跑步速度与通知次数安排会议 2025年4月10日.md | [[4-Archives/Notes/Feishu/云空间/智能纪要：跑步速度与通知次数安排会议 2025年4月10日]] | [飞书](https://reliablesense.feishu.cn/docx/PZyHddVcpoJOndxfhdscRdC5npe) | `1-Projects/Work/新太项目/会议纪要/` |
+| 智能纪要：项目工作进展与规划会议纪要 2025年5月6日.md | [[4-Archives/Notes/Feishu/云空间/智能纪要：项目工作进展与规划会议纪要 2025年5月6日]] | [飞书](https://reliablesense.feishu.cn/docx/BosQdhobYolHEFxRpWdcMbMgnYd) | `1-Projects/Work/新太项目/会议纪要/` |
+| 文字记录：内蒙新太项目（新钢联）的视频会议 2025年2月26日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/文字记录：内蒙新太项目（新钢联）的视频会议 2025年2月26日]] | [飞书](https://reliablesense.feishu.cn/docx/OgG5dQrQLoGY9FxEchhcSvmknXg) | `1-Projects/Work/新太项目/会议纪要/` |
+| 文字记录：内蒙新太项目（新钢联）的视频会议 2025年3月5日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/文字记录：内蒙新太项目（新钢联）的视频会议 2025年3月5日]] | [飞书](https://reliablesense.feishu.cn/docx/D0aEdYFlYo9REkxhIrwcDDWCnPf) | `1-Projects/Work/新太项目/会议纪要/` |
+| 文字记录：王宗光的视频会议 2025年2月20日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/文字记录：王宗光的视频会议 2025年2月20日]] | [飞书](https://reliablesense.feishu.cn/docx/DGyzdAmKkoykTYxVkoxcduRcnCc) | `1-Projects/Work/新太项目/会议纪要/` |
+| 文字记录：项目服务、权限及工作进展会议 2025年4月11日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/文字记录：项目服务、权限及工作进展会议 2025年4月11日]] | [飞书](https://reliablesense.feishu.cn/docx/KoC5dKi6koHwTfx8Dkbcgrlon5g) | `1-Projects/Work/新太项目/会议纪要/` |
+| 智能纪要：内蒙新太项目（新钢联）的视频会议 2025年2月26日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/智能纪要：内蒙新太项目（新钢联）的视频会议 2025年2月26日]] | [飞书](https://reliablesense.feishu.cn/docx/IQUqdVOipoy6MUx9pYicAUvrnmd) | `1-Projects/Work/新太项目/会议纪要/` |
+| 智能纪要：内蒙新太项目（新钢联）的视频会议 2025年3月5日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/智能纪要：内蒙新太项目（新钢联）的视频会议 2025年3月5日]] | [飞书](https://reliablesense.feishu.cn/docx/EePFdqlyQoh4bExphrXcGX3Wnjd) | `1-Projects/Work/新太项目/会议纪要/` |
+| 智能纪要：多方面业务问题及解决方案探讨会 2025年6月3日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/智能纪要：多方面业务问题及解决方案探讨会 2025年6月3日]] | [飞书](https://reliablesense.feishu.cn/docx/NPkFdqGfUo1Bf2xEQOGclc7anMh) | `1-Projects/Work/新太项目/会议纪要/` |
+| 智能纪要：项目服务、权限及工作进展会议 2025年4月11日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/智能纪要：项目服务、权限及工作进展会议 2025年4月11日]] | [飞书](https://reliablesense.feishu.cn/docx/LKSodmV6loX04TxtDTNcEqmcnLe) | `1-Projects/Work/新太项目/会议纪要/` |
+| 王宗光的视频会议 2025年2月20日 - 智能纪要.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/王宗光的视频会议 2025年2月20日 - 智能纪要]] | [飞书](https://reliablesense.feishu.cn/docx/Rr23dKQ8vo2vyYxmepgcq5ktn1c) | `1-Projects/Work/新太项目/会议纪要/` |
+| 内蒙新太项目（新钢联）的视频会议 2025年2月7日 - 智能纪要.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/内蒙新太项目（新钢联）的视频会议 2025年2月7日 - 智能纪要]] | [飞书](https://reliablesense.feishu.cn/docx/W7Jid5OiUopoqcxNqJbc8ichnnf) | `1-Projects/Work/新太项目/会议纪要/` |
+| 文字记录：陈子杰的视频会议 2025年2月24日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/文字记录：陈子杰的视频会议 2025年2月24日]] | [飞书](https://reliablesense.feishu.cn/docx/JhwjdqDfJoBMExxV9btciKO3nhf) | `1-Projects/Work/新太项目/会议纪要/` |
+| 智能纪要：陈子杰的视频会议 2025年2月24日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/智能纪要：陈子杰的视频会议 2025年2月24日]] | [飞书](https://reliablesense.feishu.cn/docx/XVxUdVtaSo0wu6xtY3Uc7GdHnrc) | `1-Projects/Work/新太项目/会议纪要/` |
 
 #### 广州机场（26 个）
 
@@ -196,11 +201,11 @@ created: 2026-04-11
 | 文字记录：武汉机场图标、手册及任务讨论 2026年3月12日.md | [[4-Archives/Notes/Feishu/云空间/文字记录：武汉机场图标、手册及任务讨论 2026年3月12日]] | [飞书](https://reliablesense.feishu.cn/docx/NYnMdj5MsoHJ5oxhf6ZcgZrvnOh) | `4-Archives/Projects/Work/武汉机场/会议纪要/` |
 | 智能纪要：武汉机场图标、手册及任务讨论 2026年3月12日.md | [[4-Archives/Notes/Feishu/云空间/智能纪要：武汉机场图标、手册及任务讨论 2026年3月12日]] | [飞书](https://reliablesense.feishu.cn/docx/ZXTIdfp9ao2RZXxWF0scCEgCnNd) | `4-Archives/Projects/Work/武汉机场/会议纪要/` |
 
-#### 洛阳石化（1 个）
+#### 洛阳化工厂（1 个）
 
 | 文件 | 本地路径 | 飞书链接 | 目标路径 |
 |------|---------|---------|---------|
-| 智能纪要：平台重启及相关技术问题研讨 2025年5月31日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/智能纪要：平台重启及相关技术问题研讨 2025年5月31日]] | [飞书](https://reliablesense.feishu.cn/docx/LDm7dDpHfoC4DBx6Vthcwqkrn4c) | `4-Archives/Projects/Work/洛阳石化/会议纪要/` |
+| 智能纪要：平台重启及相关技术问题研讨 2025年5月31日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/智能纪要：平台重启及相关技术问题研讨 2025年5月31日]] | [飞书](https://reliablesense.feishu.cn/docx/LDm7dDpHfoC4DBx6Vthcwqkrn4c) | `1-Projects/Work/洛阳化工厂/会议纪要/` |
 
 #### 研发部早会（36 个）
 
@@ -331,9 +336,13 @@ created: 2026-04-11
 | 文字记录：数据、页面状态及功能处理会议 2025年9月17日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/文字记录：数据、页面状态及功能处理会议 2025年9月17日]] | [飞书](https://reliablesense.feishu.cn/docx/O7UVdlfMSoMkZbxVyWic5N0bnBf) | `2-Areas/Work/产品研发/会议纪要/` |
 | 智能纪要：数据、页面状态及功能处理会议 2025年9月17日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/智能纪要：数据、页面状态及功能处理会议 2025年9月17日]] | [飞书](https://reliablesense.feishu.cn/docx/KliDdAtzionSN1xuPXic7YWynUd) | `2-Areas/Work/产品研发/会议纪要/` |
 
-#### 留归档（AI汇总）（84 个）
+#### 留归档 → 团队成员目录（84 个）
 
-> 近期会议速递、月度纪要小结等飞书 AI 生成的汇总，共 84 个，留归档不动。
+> 近期会议速递、月度纪要小结等飞书 AI 生成的汇总，共 84 个，按所属同事归入对应的团队成员目录：
+> - 何宜峰的 → `4-Archives/Areas/Work/团队管理/团队成员/何宜峰/`
+> - 陈子杰的 → `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/`
+> - 王宗光的 → `4-Archives/Areas/Work/团队管理/团队成员/王宗光/`
+> - 孙永霖的 → `4-Archives/Areas/Work/团队管理/团队成员/孙永霖/`
 
 
 
@@ -345,7 +354,7 @@ created: 2026-04-11
 
 | 文件 | 本地路径 | 飞书链接 | 分类 | 目标路径 |
 |------|---------|---------|------|---------|
-| 员工入职表-空白(1).xls | [[4-Archives/Notes/Feishu/云空间/何宜峰的个人文档/员工入职表-空白(1).xls]] | [飞书](https://reliablesense.feishu.cn/file/L3hKbcijfohKN2xtueVc88dcnEd) | 留归档 | - | HR 模板 |
+| 员工入职表-空白(1).xls | [[4-Archives/Notes/Feishu/云空间/何宜峰的个人文档/员工入职表-空白(1).xls]] | [飞书](https://reliablesense.feishu.cn/file/L3hKbcijfohKN2xtueVc88dcnEd) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/何宜峰/` |
 | 文字记录：8084接口、列表及地图问题讨论 2025年10月27日.md | [[4-Archives/Notes/Feishu/云空间/何宜峰的个人文档/文字记录：8084接口、列表及地图问题讨论 2025年10月27日]] | [飞书](https://reliablesense.feishu.cn/docx/LdfpdNSktotC7WxY1nAcoQ0gn5g) | → 提取 | `1-Projects/Work/广州机场/会议纪要/`  |
 | 文字记录：云江项目任务方案及后续安排会 2025年10月27日.md | [[4-Archives/Notes/Feishu/云空间/何宜峰的个人文档/文字记录：云江项目任务方案及后续安排会 2025年10月27日]] | [飞书](https://reliablesense.feishu.cn/docx/KhyYd0clVo2XuGxNWqrc9pGSnVd) | → 提取 | `1-Projects/Work/广州机场/会议纪要/`  |
 | 文字记录：分子构建与插件使用安装讨论 2025年11月6日.md | [[4-Archives/Notes/Feishu/云空间/何宜峰的个人文档/文字记录：分子构建与插件使用安装讨论 2025年11月6日]] | [飞书](https://reliablesense.feishu.cn/docx/HrTkdTglAohn1pxSxbfcUGPBnIc) | → 提取 | `1-Projects/Work/广州机场/会议纪要/`  |
@@ -360,54 +369,54 @@ created: 2026-04-11
 | 智能纪要：管理内容、分支及注释问题讨论 2025年11月6日.md | [[4-Archives/Notes/Feishu/云空间/何宜峰的个人文档/智能纪要：管理内容、分支及注释问题讨论 2025年11月6日]] | [飞书](https://reliablesense.feishu.cn/docx/OCCsdy2coohBdmxcVdVcPIlNnof) | → 提取 | `1-Projects/Work/广州机场/会议纪要/`  |
 | 智能纪要：管理员数据库表及任务归属问题讨论 2025年10月30日.md | [[4-Archives/Notes/Feishu/云空间/何宜峰的个人文档/智能纪要：管理员数据库表及任务归属问题讨论 2025年10月30日]] | [飞书](https://reliablesense.feishu.cn/docx/QDWldDLdjoNx0Bx291QcPcBxnbS) | → 提取 | `1-Projects/Work/广州机场/会议纪要/`  |
 | 智能纪要：项目依赖、日志及硬盘问题会议 2025年10月13日.md | [[4-Archives/Notes/Feishu/云空间/何宜峰的个人文档/智能纪要：项目依赖、日志及硬盘问题会议 2025年10月13日]] | [飞书](https://reliablesense.feishu.cn/docx/SVJodwciFoT6vGxQGiicoCpBnjg) | → 提取 | `1-Projects/Work/广州机场/会议纪要/`  |
-| 月度纪要小结｜10月27日 - 11月21日.md | [[4-Archives/Notes/Feishu/云空间/何宜峰的个人文档/月度纪要小结｜10月27日 - 11月21日]] | [飞书](https://reliablesense.feishu.cn/docx/QTUOdDTqkoDqZJxzzbncYw4On2d) | 留归档（AI汇总） | 留归档（AI汇总） |
-| 月度纪要小结｜11月24日 - 12月19日.md | [[4-Archives/Notes/Feishu/云空间/何宜峰的个人文档/月度纪要小结｜11月24日 - 12月19日]] | [飞书](https://reliablesense.feishu.cn/docx/DkxkdBBbFoSr5Axve4GcwIvenjg) | 留归档（AI汇总） | 留归档（AI汇总） |
-| 近期会议速递｜要点概览 2025年10月20日.md | [[4-Archives/Notes/Feishu/云空间/何宜峰的个人文档/近期会议速递｜要点概览 2025年10月20日]] | [飞书](https://reliablesense.feishu.cn/docx/S1nAdbGeSo5l7hxb058cIhEwnOd) | 留归档（AI汇总） | 留归档（AI汇总） |
-| 近期会议速递｜要点概览 2025年11月17日.md | [[4-Archives/Notes/Feishu/云空间/何宜峰的个人文档/近期会议速递｜要点概览 2025年11月17日]] | [飞书](https://reliablesense.feishu.cn/docx/LmlMdaCD1oibasxwfDWcMTVenOh) | 留归档（AI汇总） | 留归档（AI汇总） |
-| 近期会议速递｜要点概览 2025年11月3日.md | [[4-Archives/Notes/Feishu/云空间/何宜峰的个人文档/近期会议速递｜要点概览 2025年11月3日]] | [飞书](https://reliablesense.feishu.cn/docx/CYC3dSQq8oV0jZxBvEncpFYZnKA) | 留归档（AI汇总） | 留归档（AI汇总） |
-| 近期会议速递｜要点概览 2025年12月15日.md | [[4-Archives/Notes/Feishu/云空间/何宜峰的个人文档/近期会议速递｜要点概览 2025年12月15日]] | [飞书](https://reliablesense.feishu.cn/docx/U7tmdjSSsoQWqTxMbYFcRLVtnxb) | 留归档（AI汇总） | 留归档（AI汇总） |
-| 近期会议速递｜要点概览 2025年12月22日.md | [[4-Archives/Notes/Feishu/云空间/何宜峰的个人文档/近期会议速递｜要点概览 2025年12月22日]] | [飞书](https://reliablesense.feishu.cn/docx/NJnQd8imdoNmXhxcmjccqoAwnxb) | 留归档（AI汇总） | 留归档（AI汇总） |
+| 月度纪要小结｜10月27日 - 11月21日.md | [[4-Archives/Notes/Feishu/云空间/何宜峰的个人文档/月度纪要小结｜10月27日 - 11月21日]] | [飞书](https://reliablesense.feishu.cn/docx/QTUOdDTqkoDqZJxzzbncYw4On2d) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/何宜峰/` |
+| 月度纪要小结｜11月24日 - 12月19日.md | [[4-Archives/Notes/Feishu/云空间/何宜峰的个人文档/月度纪要小结｜11月24日 - 12月19日]] | [飞书](https://reliablesense.feishu.cn/docx/DkxkdBBbFoSr5Axve4GcwIvenjg) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/何宜峰/` |
+| 近期会议速递｜要点概览 2025年10月20日.md | [[4-Archives/Notes/Feishu/云空间/何宜峰的个人文档/近期会议速递｜要点概览 2025年10月20日]] | [飞书](https://reliablesense.feishu.cn/docx/S1nAdbGeSo5l7hxb058cIhEwnOd) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/何宜峰/` |
+| 近期会议速递｜要点概览 2025年11月17日.md | [[4-Archives/Notes/Feishu/云空间/何宜峰的个人文档/近期会议速递｜要点概览 2025年11月17日]] | [飞书](https://reliablesense.feishu.cn/docx/LmlMdaCD1oibasxwfDWcMTVenOh) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/何宜峰/` |
+| 近期会议速递｜要点概览 2025年11月3日.md | [[4-Archives/Notes/Feishu/云空间/何宜峰的个人文档/近期会议速递｜要点概览 2025年11月3日]] | [飞书](https://reliablesense.feishu.cn/docx/CYC3dSQq8oV0jZxBvEncpFYZnKA) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/何宜峰/` |
+| 近期会议速递｜要点概览 2025年12月15日.md | [[4-Archives/Notes/Feishu/云空间/何宜峰的个人文档/近期会议速递｜要点概览 2025年12月15日]] | [飞书](https://reliablesense.feishu.cn/docx/U7tmdjSSsoQWqTxMbYFcRLVtnxb) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/何宜峰/` |
+| 近期会议速递｜要点概览 2025年12月22日.md | [[4-Archives/Notes/Feishu/云空间/何宜峰的个人文档/近期会议速递｜要点概览 2025年12月22日]] | [飞书](https://reliablesense.feishu.cn/docx/NJnQd8imdoNmXhxcmjccqoAwnxb) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/何宜峰/` |
 
 ### 陈子杰的个人文档（43 个文件）
 
 | 文件 | 本地路径 | 飞书链接 | 分类 | 目标路径 |
 |------|---------|---------|------|---------|
-| 2023-05-07 20-54-59.mkv | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/2023-05-07 20-54-59.mkv]] | [飞书](https://reliablesense.feishu.cn/file/BRc2bmrbKoPzjvxIKmPcBoOFnof) | 留归档 | - | 录屏文件 |
+| 2023-05-07 20-54-59.mkv | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/2023-05-07 20-54-59.mkv]] | [飞书](https://reliablesense.feishu.cn/file/BRc2bmrbKoPzjvxIKmPcBoOFnof) | → 提取 | - | 录屏文件 |
 | oemusers.xlsx | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/oemusers.xlsx]] | [飞书](https://reliablesense.feishu.cn/sheets/GBc0sFzfKhEtBztmsAPcp5m5n4w) | → 提取 | `1-Projects/Work/广州机场/` | 广州机场 OEM 用户数据 |
 | t_poi_type.xlsx | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/t_poi_type.xlsx]] | [飞书](https://reliablesense.feishu.cn/sheets/EKkcsQr7MhV8S7teOsTcf1ISnUc) | → 提取 | `2-Areas/Work/产品研发/` | 产品 POI 类型数据 |
-| 内蒙新太项目（新钢联）的视频会议 2025年2月7日 - 智能纪要.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/内蒙新太项目（新钢联）的视频会议 2025年2月7日 - 智能纪要]] | [飞书](https://reliablesense.feishu.cn/docx/W7Jid5OiUopoqcxNqJbc8ichnnf) | 新太项目 | `1-Projects/Work/内蒙新太/` |
+| 内蒙新太项目（新钢联）的视频会议 2025年2月7日 - 智能纪要.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/内蒙新太项目（新钢联）的视频会议 2025年2月7日 - 智能纪要]] | [飞书](https://reliablesense.feishu.cn/docx/W7Jid5OiUopoqcxNqJbc8ichnnf) | 新太项目 | `1-Projects/Work/新太项目/` |
 | 室内定位系统工作进度.xlsx | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/室内定位系统工作进度.xlsx]] | [飞书](https://reliablesense.feishu.cn/sheets/Xl6HsOeCMhUrDwtMewMcElDGnyd) | → 提取 | `2-Areas/Work/产品研发/` | 产品开发进度 |
 | 文字记录：上海东海模型修复及接入方案研讨 2025年5月15日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/文字记录：上海东海模型修复及接入方案研讨 2025年5月15日]] | [飞书](https://reliablesense.feishu.cn/docx/Ky4Ldt5hFoe6mQxg8lrctpCRngh) | → 提取 | `1-Projects/Work/广州机场/会议纪要/`  |
 | 文字记录：数据、页面状态及功能处理会议 2025年9月17日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/文字记录：数据、页面状态及功能处理会议 2025年9月17日]] | [飞书](https://reliablesense.feishu.cn/docx/O7UVdlfMSoMkZbxVyWic5N0bnBf) | → 提取 | `2-Areas/Work/产品研发/会议纪要/`  |
 | 文字记录：移动应用与 TCDM 会议讨论  2025年6月3日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/文字记录：移动应用与 TCDM 会议讨论  2025年6月3日]] | [飞书](https://reliablesense.feishu.cn/docx/JmwhduJIPouIxsx7Sh6cH5ZOnph) | 广州机场 | `1-Projects/Work/广州机场/` |
-| 文字记录：陈子杰的视频会议 2025年2月24日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/文字记录：陈子杰的视频会议 2025年2月24日]] | [飞书](https://reliablesense.feishu.cn/docx/JhwjdqDfJoBMExxV9btciKO3nhf) | → 提取 | `1-Projects/Work/内蒙新太/会议纪要/`  |
+| 文字记录：陈子杰的视频会议 2025年2月24日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/文字记录：陈子杰的视频会议 2025年2月24日]] | [飞书](https://reliablesense.feishu.cn/docx/JhwjdqDfJoBMExxV9btciKO3nhf) | → 提取 | `1-Projects/Work/新太项目/会议纪要/`  |
 | 文字记录：黄佳琪软件工作安排及指导会议 2025年4月11日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/文字记录：黄佳琪软件工作安排及指导会议 2025年4月11日]] | [飞书](https://reliablesense.feishu.cn/docx/MWlJdSwz6o30ykxZGMPcLmdin0f) | → 提取 | `1-Projects/Work/广州机场/会议纪要/`  |
 | 智能纪要：上海东海模型修复及接入方案研讨 2025年5月15日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/智能纪要：上海东海模型修复及接入方案研讨 2025年5月15日]] | [飞书](https://reliablesense.feishu.cn/docx/BT99d8bucoUruTx4rvZcYbRbnff) | → 提取 | `1-Projects/Work/广州机场/会议纪要/`  |
 | 智能纪要：数据、页面状态及功能处理会议 2025年9月17日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/智能纪要：数据、页面状态及功能处理会议 2025年9月17日]] | [飞书](https://reliablesense.feishu.cn/docx/KliDdAtzionSN1xuPXic7YWynUd) | → 提取 | `2-Areas/Work/产品研发/会议纪要/`  |
 | 智能纪要：移动应用与 TCDM 会议讨论 2025年6月3日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/智能纪要：移动应用与 TCDM 会议讨论 2025年6月3日]] | [飞书](https://reliablesense.feishu.cn/docx/VARrddtC3oOlFMxENAFcoGBKnl9) | 广州机场 | `1-Projects/Work/广州机场/` |
-| 智能纪要：陈子杰的视频会议 2025年2月24日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/智能纪要：陈子杰的视频会议 2025年2月24日]] | [飞书](https://reliablesense.feishu.cn/docx/XVxUdVtaSo0wu6xtY3Uc7GdHnrc) | → 提取 | `1-Projects/Work/内蒙新太/会议纪要/`  |
+| 智能纪要：陈子杰的视频会议 2025年2月24日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/智能纪要：陈子杰的视频会议 2025年2月24日]] | [飞书](https://reliablesense.feishu.cn/docx/XVxUdVtaSo0wu6xtY3Uc7GdHnrc) | → 提取 | `1-Projects/Work/新太项目/会议纪要/`  |
 | 智能纪要：黄佳琪软件工作安排及指导会议 2025年4月11日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/智能纪要：黄佳琪软件工作安排及指导会议 2025年4月11日]] | [飞书](https://reliablesense.feishu.cn/docx/KFRAdFWTjoSKrIxLDPFcQH3Oncg) | → 提取 | `1-Projects/Work/广州机场/会议纪要/`  |
-| 月度纪要小结（播客版）｜5月26日 - 6月20日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/月度纪要小结（播客版）｜5月26日 - 6月20日]] | [飞书](https://reliablesense.feishu.cn/docx/GPoCdJwSDoTzFSx3xsScQEPynCh) | 留归档（AI汇总） | 留归档（AI汇总） |
-| 近期会议速递｜要点概览  2024年12月16日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览  2024年12月16日]] | [飞书](https://reliablesense.feishu.cn/docx/Z21kdH9RRoWSlXxKCllcwOp9nxe) | 留归档（AI汇总） | 留归档（AI汇总） |
-| 近期会议速递｜要点概览  2024年12月23日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览  2024年12月23日]] | [飞书](https://reliablesense.feishu.cn/docx/BGWhdLW32oWgRgxno7ncyfNNnSd) | 留归档（AI汇总） | 留归档（AI汇总） |
-| 近期会议速递｜要点概览  2024年12月30日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览  2024年12月30日]] | [飞书](https://reliablesense.feishu.cn/docx/W7MhdWyHeoTWeZxbwVbcG6Whndh) | 留归档（AI汇总） | 留归档（AI汇总） |
-| 近期会议速递｜要点概览  2025年1月13日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览  2025年1月13日]] | [飞书](https://reliablesense.feishu.cn/docx/PQffdQ2NOo3Txyx10TVcQ3UYnbg) | 留归档（AI汇总） | 留归档（AI汇总） |
-| 近期会议速递｜要点概览  2025年1月20日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览  2025年1月20日]] | [飞书](https://reliablesense.feishu.cn/docx/DCOHdnmZKoZE21xlQ01c7d3Unoe) | 留归档（AI汇总） | 留归档（AI汇总） |
-| 近期会议速递｜要点概览  2025年1月27日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览  2025年1月27日]] | [飞书](https://reliablesense.feishu.cn/docx/FeykdvimxoVR6qxCjtAcpMFinxe) | 留归档（AI汇总） | 留归档（AI汇总） |
-| 近期会议速递｜要点概览  2025年1月6日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览  2025年1月6日]] | [飞书](https://reliablesense.feishu.cn/docx/L35XdsGSSoygobxzcHjctf4Mnjd) | 留归档（AI汇总） | 留归档（AI汇总） |
-| 近期会议速递｜要点概览  2025年2月10日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览  2025年2月10日]] | [飞书](https://reliablesense.feishu.cn/docx/NAkkdVvn0oT5TNxjBvkcNNkmnKe) | 留归档（AI汇总） | 留归档（AI汇总） |
-| 近期会议速递｜要点概览  2025年2月17日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览  2025年2月17日]] | [飞书](https://reliablesense.feishu.cn/docx/Gna2dHIXQoREOUxBOXbcEYZZnqr) | 留归档（AI汇总） | 留归档（AI汇总） |
-| 近期会议速递｜要点概览  2025年2月24日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览  2025年2月24日]] | [飞书](https://reliablesense.feishu.cn/docx/ANZcdUqC5opTD0xfs7Cc6OuDnPh) | 留归档（AI汇总） | 留归档（AI汇总） |
-| 近期会议速递｜要点概览  2025年3月17日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览  2025年3月17日]] | [飞书](https://reliablesense.feishu.cn/docx/LICQdsN5AoOPUax19UJckYmQneb) | 留归档（AI汇总） | 留归档（AI汇总） |
-| 近期会议速递｜要点概览  2025年3月3日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览  2025年3月3日]] | [飞书](https://reliablesense.feishu.cn/docx/UscVdJyLcoGhT9xlVCqcm6pSnPh) | 留归档（AI汇总） | 留归档（AI汇总） |
-| 近期会议速递｜要点概览  2025年4月14日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览  2025年4月14日]] | [飞书](https://reliablesense.feishu.cn/docx/NmAXd423Xo5FbZxFQppcvft6nzf) | 留归档（AI汇总） | 留归档（AI汇总） |
-| 近期会议速递｜要点概览  2025年4月21日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览  2025年4月21日]] | [飞书](https://reliablesense.feishu.cn/docx/ZIcAduwBcoXGuMxS9q8cXSccn9g) | 留归档（AI汇总） | 留归档（AI汇总） |
-| 近期会议速递｜要点概览  2025年4月7日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览  2025年4月7日]] | [飞书](https://reliablesense.feishu.cn/docx/QsCbdNHr8oPl4Xx0uLicu9GUnAe) | 留归档（AI汇总） | 留归档（AI汇总） |
-| 近期会议速递｜要点概览  2025年5月12日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览  2025年5月12日]] | [飞书](https://reliablesense.feishu.cn/docx/LxV2d0o1VoXVmyxwBdfcFsTanLb) | 留归档（AI汇总） | 留归档（AI汇总） |
-| 近期会议速递｜要点概览  2025年5月19日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览  2025年5月19日]] | [飞书](https://reliablesense.feishu.cn/docx/VNq6dqMR2opizBx1E1HcyqVinBg) | 留归档（AI汇总） | 留归档（AI汇总） |
-| 近期会议速递｜要点概览  2025年6月9日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览  2025年6月9日]] | [飞书](https://reliablesense.feishu.cn/docx/WCAQdiwTDoYuKexlMJ0cvK8MnFb) | 留归档（AI汇总） | 留归档（AI汇总） |
-| 近期会议速递｜要点概览 2025年9月22日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览 2025年9月22日]] | [飞书](https://reliablesense.feishu.cn/docx/Ij7ddnCqxoTyHsxBjRecEp4JnJc) | 留归档（AI汇总） | 留归档（AI汇总） |
-| 问题记录-2023-09-22.xlsx | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/问题记录-2023-09-22.xlsx]] | [飞书](https://reliablesense.feishu.cn/sheets/ILedsU7eShMXojtZmy0cTiHln9c) | 留归档 | - | 历史问题记录 |
+| 月度纪要小结（播客版）｜5月26日 - 6月20日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/月度纪要小结（播客版）｜5月26日 - 6月20日]] | [飞书](https://reliablesense.feishu.cn/docx/GPoCdJwSDoTzFSx3xsScQEPynCh) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` |
+| 近期会议速递｜要点概览  2024年12月16日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览  2024年12月16日]] | [飞书](https://reliablesense.feishu.cn/docx/Z21kdH9RRoWSlXxKCllcwOp9nxe) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` |
+| 近期会议速递｜要点概览  2024年12月23日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览  2024年12月23日]] | [飞书](https://reliablesense.feishu.cn/docx/BGWhdLW32oWgRgxno7ncyfNNnSd) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` |
+| 近期会议速递｜要点概览  2024年12月30日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览  2024年12月30日]] | [飞书](https://reliablesense.feishu.cn/docx/W7MhdWyHeoTWeZxbwVbcG6Whndh) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` |
+| 近期会议速递｜要点概览  2025年1月13日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览  2025年1月13日]] | [飞书](https://reliablesense.feishu.cn/docx/PQffdQ2NOo3Txyx10TVcQ3UYnbg) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` |
+| 近期会议速递｜要点概览  2025年1月20日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览  2025年1月20日]] | [飞书](https://reliablesense.feishu.cn/docx/DCOHdnmZKoZE21xlQ01c7d3Unoe) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` |
+| 近期会议速递｜要点概览  2025年1月27日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览  2025年1月27日]] | [飞书](https://reliablesense.feishu.cn/docx/FeykdvimxoVR6qxCjtAcpMFinxe) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` |
+| 近期会议速递｜要点概览  2025年1月6日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览  2025年1月6日]] | [飞书](https://reliablesense.feishu.cn/docx/L35XdsGSSoygobxzcHjctf4Mnjd) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` |
+| 近期会议速递｜要点概览  2025年2月10日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览  2025年2月10日]] | [飞书](https://reliablesense.feishu.cn/docx/NAkkdVvn0oT5TNxjBvkcNNkmnKe) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` |
+| 近期会议速递｜要点概览  2025年2月17日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览  2025年2月17日]] | [飞书](https://reliablesense.feishu.cn/docx/Gna2dHIXQoREOUxBOXbcEYZZnqr) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` |
+| 近期会议速递｜要点概览  2025年2月24日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览  2025年2月24日]] | [飞书](https://reliablesense.feishu.cn/docx/ANZcdUqC5opTD0xfs7Cc6OuDnPh) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` |
+| 近期会议速递｜要点概览  2025年3月17日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览  2025年3月17日]] | [飞书](https://reliablesense.feishu.cn/docx/LICQdsN5AoOPUax19UJckYmQneb) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` |
+| 近期会议速递｜要点概览  2025年3月3日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览  2025年3月3日]] | [飞书](https://reliablesense.feishu.cn/docx/UscVdJyLcoGhT9xlVCqcm6pSnPh) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` |
+| 近期会议速递｜要点概览  2025年4月14日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览  2025年4月14日]] | [飞书](https://reliablesense.feishu.cn/docx/NmAXd423Xo5FbZxFQppcvft6nzf) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` |
+| 近期会议速递｜要点概览  2025年4月21日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览  2025年4月21日]] | [飞书](https://reliablesense.feishu.cn/docx/ZIcAduwBcoXGuMxS9q8cXSccn9g) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` |
+| 近期会议速递｜要点概览  2025年4月7日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览  2025年4月7日]] | [飞书](https://reliablesense.feishu.cn/docx/QsCbdNHr8oPl4Xx0uLicu9GUnAe) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` |
+| 近期会议速递｜要点概览  2025年5月12日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览  2025年5月12日]] | [飞书](https://reliablesense.feishu.cn/docx/LxV2d0o1VoXVmyxwBdfcFsTanLb) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` |
+| 近期会议速递｜要点概览  2025年5月19日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览  2025年5月19日]] | [飞书](https://reliablesense.feishu.cn/docx/VNq6dqMR2opizBx1E1HcyqVinBg) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` |
+| 近期会议速递｜要点概览  2025年6月9日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览  2025年6月9日]] | [飞书](https://reliablesense.feishu.cn/docx/WCAQdiwTDoYuKexlMJ0cvK8MnFb) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` |
+| 近期会议速递｜要点概览 2025年9月22日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览 2025年9月22日]] | [飞书](https://reliablesense.feishu.cn/docx/Ij7ddnCqxoTyHsxBjRecEp4JnJc) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` |
+| 问题记录-2023-09-22.xlsx | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/问题记录-2023-09-22.xlsx]] | [飞书](https://reliablesense.feishu.cn/sheets/ILedsU7eShMXojtZmy0cTiHln9c) | → 提取 | - | 历史问题记录 |
 | 需求及 Bug 管理.xlsx | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/需求及 Bug 管理.xlsx]] | [飞书](https://reliablesense.feishu.cn/base/BSDnb80vUaGm4hsjM06cIE0bncD) | → 提取 | `2-Areas/Work/产品研发/` | 需求和 Bug 管理 |
 | 移动应用平台开发与测试进展汇报.pdf | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/广州机场-移动应用平台/移动应用平台开发与测试进展汇报.pdf]] | [飞书](https://reliablesense.feishu.cn/file/Kkf6bl2V4oAr5vx5m4QccUDDniI) | 广州机场 | `1-Projects/Work/广州机场/` |
 | 移动终端目前缺失功能.xlsx | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/广州机场-移动应用平台/移动终端目前缺失功能.xlsx]] | [飞书](https://reliablesense.feishu.cn/base/RLRqbFnrPaokuRsVtTbcjkMLnZd) | → 提取 | `1-Projects/Work/广州机场/` | 广州机场移动应用缺失功能 |
@@ -425,25 +434,25 @@ created: 2026-04-11
 | SaaS使用手册V4 new 英文.docx | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/SaaS使用手册V4 new 英文.docx]] | [飞书](https://reliablesense.feishu.cn/file/boxcnrTNYMWwqMq49WzzapEj30g) | → 提取 | `2-Areas/Work/产品研发/` | 产品 SaaS 英文使用手册 |
 | SaaS使用手册V4 new.docx | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/SaaS使用手册V4 new.docx]] | [飞书](https://reliablesense.feishu.cn/file/boxcnKrzYX5prPEiZIv33AL6mlc) | → 提取 | `2-Areas/Work/产品研发/` | 产品 SaaS 使用手册 |
 | saas英文版.md | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/saas英文版]] | [飞书](https://reliablesense.feishu.cn/docx/LZgYdpRnzouGpKxnOdZc4vDRnPg) | → 提取 | `2-Areas/Work/产品研发/` | 产品 SaaS 英文版文档 |
-| boxcn5whZmWzb6xt0T2Bfwbo8Qg.png | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/Attachments/boxcn5whZmWzb6xt0T2Bfwbo8Qg.png]] | [飞书](https://reliablesense.feishu.cn/file/boxcn5whZmWzb6xt0T2Bfwbo8Qg) | 留归档 | - | 文档内嵌图片 |
-| boxcnAXiWzdFee83pTIlUz4I2sb.png | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/Attachments/boxcnAXiWzdFee83pTIlUz4I2sb.png]] | [飞书](https://reliablesense.feishu.cn/file/boxcnAXiWzdFee83pTIlUz4I2sb) | 留归档 | - | 文档内嵌图片 |
-| boxcnCvKWqI9Vu1CBRZ1hjkLvEd.png | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/Attachments/boxcnCvKWqI9Vu1CBRZ1hjkLvEd.png]] | [飞书](https://reliablesense.feishu.cn/file/boxcnCvKWqI9Vu1CBRZ1hjkLvEd) | 留归档 | - | 文档内嵌图片 |
-| boxcnDkc7WQyBowbMfqCy6c0X0d.png | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/Attachments/boxcnDkc7WQyBowbMfqCy6c0X0d.png]] | [飞书](https://reliablesense.feishu.cn/file/boxcnDkc7WQyBowbMfqCy6c0X0d) | 留归档 | - | 文档内嵌图片 |
-| boxcnLYHovN34VDGy5EkCL1Nawh.png | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/Attachments/boxcnLYHovN34VDGy5EkCL1Nawh.png]] | [飞书](https://reliablesense.feishu.cn/file/boxcnLYHovN34VDGy5EkCL1Nawh) | 留归档 | - | 文档内嵌图片 |
-| boxcnMENxDxKZyWmFxcpzm7KRRf.png | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/Attachments/boxcnMENxDxKZyWmFxcpzm7KRRf.png]] | [飞书](https://reliablesense.feishu.cn/file/boxcnMENxDxKZyWmFxcpzm7KRRf) | 留归档 | - | 文档内嵌图片 |
-| boxcnODrGjqz5ocEqaTAbKfZvVe.png | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/Attachments/boxcnODrGjqz5ocEqaTAbKfZvVe.png]] | [飞书](https://reliablesense.feishu.cn/file/boxcnODrGjqz5ocEqaTAbKfZvVe) | 留归档 | - | 文档内嵌图片 |
-| boxcnQlrEgwhWvStw47Xr06QpAh.png | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/Attachments/boxcnQlrEgwhWvStw47Xr06QpAh.png]] | [飞书](https://reliablesense.feishu.cn/file/boxcnQlrEgwhWvStw47Xr06QpAh) | 留归档 | - | 文档内嵌图片 |
-| boxcnQy1uAaY57GtvYo7wT2oAwd.png | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/Attachments/boxcnQy1uAaY57GtvYo7wT2oAwd.png]] | [飞书](https://reliablesense.feishu.cn/file/boxcnQy1uAaY57GtvYo7wT2oAwd) | 留归档 | - | 文档内嵌图片 |
-| boxcnRN9pcf6QWygTj7OPyeGaxe.png | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/Attachments/boxcnRN9pcf6QWygTj7OPyeGaxe.png]] | [飞书](https://reliablesense.feishu.cn/file/boxcnRN9pcf6QWygTj7OPyeGaxe) | 留归档 | - | 文档内嵌图片 |
-| boxcnT6Muz2GbtaT31e2Gl0ADPe.png | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/Attachments/boxcnT6Muz2GbtaT31e2Gl0ADPe.png]] | [飞书](https://reliablesense.feishu.cn/file/boxcnT6Muz2GbtaT31e2Gl0ADPe) | 留归档 | - | 文档内嵌图片 |
-| boxcncQ5fIRU875xINJTZu1lNTf.png | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/Attachments/boxcncQ5fIRU875xINJTZu1lNTf.png]] | [飞书](https://reliablesense.feishu.cn/file/boxcncQ5fIRU875xINJTZu1lNTf) | 留归档 | - | 文档内嵌图片 |
-| boxcnh6Uax5jwOgMsXzcoG7thuh.png | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/Attachments/boxcnh6Uax5jwOgMsXzcoG7thuh.png]] | [飞书](https://reliablesense.feishu.cn/file/boxcnh6Uax5jwOgMsXzcoG7thuh) | 留归档 | - | 文档内嵌图片 |
-| boxcnkOcZLQt9nXWC1e1YWNM3fc.png | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/Attachments/boxcnkOcZLQt9nXWC1e1YWNM3fc.png]] | [飞书](https://reliablesense.feishu.cn/file/boxcnkOcZLQt9nXWC1e1YWNM3fc) | 留归档 | - | 文档内嵌图片 |
-| boxcnlehyCUpSJKoD0omuclUGue.png | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/Attachments/boxcnlehyCUpSJKoD0omuclUGue.png]] | [飞书](https://reliablesense.feishu.cn/file/boxcnlehyCUpSJKoD0omuclUGue) | 留归档 | - | 文档内嵌图片 |
-| boxcnqphPdO91JLopkr035K9jUc.png | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/Attachments/boxcnqphPdO91JLopkr035K9jUc.png]] | [飞书](https://reliablesense.feishu.cn/file/boxcnqphPdO91JLopkr035K9jUc) | 留归档 | - | 文档内嵌图片 |
-| boxcnyLy0jFnbi6yeVcHodc6bsf.png | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/Attachments/boxcnyLy0jFnbi6yeVcHodc6bsf.png]] | [飞书](https://reliablesense.feishu.cn/file/boxcnyLy0jFnbi6yeVcHodc6bsf) | 留归档 | - | 文档内嵌图片 |
-| boxcnyULVjHIEbES042oawOsZag.png | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/Attachments/boxcnyULVjHIEbES042oawOsZag.png]] | [飞书](https://reliablesense.feishu.cn/file/boxcnyULVjHIEbES042oawOsZag) | 留归档 | - | 文档内嵌图片 |
-| boxcnzeFMj9LWq9NabhlExDF2H3.png | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/Attachments/boxcnzeFMj9LWq9NabhlExDF2H3.png]] | [飞书](https://reliablesense.feishu.cn/file/boxcnzeFMj9LWq9NabhlExDF2H3) | 留归档 | - | 文档内嵌图片 |
+| boxcn5whZmWzb6xt0T2Bfwbo8Qg.png | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/Attachments/boxcn5whZmWzb6xt0T2Bfwbo8Qg.png]] | 跟随文档 | - | 文档内嵌图片 |
+| boxcnAXiWzdFee83pTIlUz4I2sb.png | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/Attachments/boxcnAXiWzdFee83pTIlUz4I2sb.png]] | 跟随文档 | - | 文档内嵌图片 |
+| boxcnCvKWqI9Vu1CBRZ1hjkLvEd.png | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/Attachments/boxcnCvKWqI9Vu1CBRZ1hjkLvEd.png]] | 跟随文档 | - | 文档内嵌图片 |
+| boxcnDkc7WQyBowbMfqCy6c0X0d.png | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/Attachments/boxcnDkc7WQyBowbMfqCy6c0X0d.png]] | 跟随文档 | - | 文档内嵌图片 |
+| boxcnLYHovN34VDGy5EkCL1Nawh.png | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/Attachments/boxcnLYHovN34VDGy5EkCL1Nawh.png]] | 跟随文档 | - | 文档内嵌图片 |
+| boxcnMENxDxKZyWmFxcpzm7KRRf.png | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/Attachments/boxcnMENxDxKZyWmFxcpzm7KRRf.png]] | 跟随文档 | - | 文档内嵌图片 |
+| boxcnODrGjqz5ocEqaTAbKfZvVe.png | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/Attachments/boxcnODrGjqz5ocEqaTAbKfZvVe.png]] | 跟随文档 | - | 文档内嵌图片 |
+| boxcnQlrEgwhWvStw47Xr06QpAh.png | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/Attachments/boxcnQlrEgwhWvStw47Xr06QpAh.png]] | 跟随文档 | - | 文档内嵌图片 |
+| boxcnQy1uAaY57GtvYo7wT2oAwd.png | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/Attachments/boxcnQy1uAaY57GtvYo7wT2oAwd.png]] | 跟随文档 | - | 文档内嵌图片 |
+| boxcnRN9pcf6QWygTj7OPyeGaxe.png | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/Attachments/boxcnRN9pcf6QWygTj7OPyeGaxe.png]] | 跟随文档 | - | 文档内嵌图片 |
+| boxcnT6Muz2GbtaT31e2Gl0ADPe.png | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/Attachments/boxcnT6Muz2GbtaT31e2Gl0ADPe.png]] | 跟随文档 | - | 文档内嵌图片 |
+| boxcncQ5fIRU875xINJTZu1lNTf.png | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/Attachments/boxcncQ5fIRU875xINJTZu1lNTf.png]] | 跟随文档 | - | 文档内嵌图片 |
+| boxcnh6Uax5jwOgMsXzcoG7thuh.png | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/Attachments/boxcnh6Uax5jwOgMsXzcoG7thuh.png]] | 跟随文档 | - | 文档内嵌图片 |
+| boxcnkOcZLQt9nXWC1e1YWNM3fc.png | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/Attachments/boxcnkOcZLQt9nXWC1e1YWNM3fc.png]] | 跟随文档 | - | 文档内嵌图片 |
+| boxcnlehyCUpSJKoD0omuclUGue.png | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/Attachments/boxcnlehyCUpSJKoD0omuclUGue.png]] | 跟随文档 | - | 文档内嵌图片 |
+| boxcnqphPdO91JLopkr035K9jUc.png | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/Attachments/boxcnqphPdO91JLopkr035K9jUc.png]] | 跟随文档 | - | 文档内嵌图片 |
+| boxcnyLy0jFnbi6yeVcHodc6bsf.png | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/Attachments/boxcnyLy0jFnbi6yeVcHodc6bsf.png]] | 跟随文档 | - | 文档内嵌图片 |
+| boxcnyULVjHIEbES042oawOsZag.png | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/Attachments/boxcnyULVjHIEbES042oawOsZag.png]] | 跟随文档 | - | 文档内嵌图片 |
+| boxcnzeFMj9LWq9NabhlExDF2H3.png | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/Attachments/boxcnzeFMj9LWq9NabhlExDF2H3.png]] | 跟随文档 | - | 文档内嵌图片 |
 
 
 
@@ -457,17 +466,17 @@ created: 2026-04-11
 |------|---------|---------|------|---------|
 | 前端运维手册.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/前端运维手册]] | [飞书](https://reliablesense.feishu.cn/docx/CT42dawUcoGhYLx2UIjcjVuTnYf) | → 提取 | `3-Resources/Tech/代码片段/前端运维手册.md` |
 | 后端运维手册.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/后端运维手册]] | [飞书](https://reliablesense.feishu.cn/docx/OGLIdpLsJoaVecxBWuZcD41xnEf) | → 提取 | `3-Resources/Tech/代码片段/后端运维手册.md` |
-| 新太运维手册.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/新太运维手册]] | [飞书](https://reliablesense.feishu.cn/docx/NFOVdlWSFoZJ91xTXMbcvY7mnSg) | → 提取 | `3-Resources/Tech/代码片段/新太运维手册.md` |
+| 新太运维手册.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/新太运维手册]] | [飞书](https://reliablesense.feishu.cn/docx/NFOVdlWSFoZJ91xTXMbcvY7mnSg) | → 提取 | `1-Projects/Work/新太项目/新太运维手册.md` | 新太项目专用运维手册 |
 | 区域功能后端开发文档.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/区域功能后端开发文档]] | [飞书](https://reliablesense.feishu.cn/docx/JknBdu9hEon9gJxuC4ycEBhOnjb) | → 提取 | `3-Resources/Tech/知识卡片/区域功能后端开发文档.md` |
 | 数据库操作说明.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/数据库操作说明]] | [飞书](https://reliablesense.feishu.cn/docx/KjS8dWiAvoxdCIxgkEEcDktinSU) | → 提取 | `3-Resources/Tech/代码片段/数据库操作说明.md` |
 | 数据库 pg-backup 使用方法说明.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/数据库 pg-backup 使用方法说明]] | [飞书](https://reliablesense.feishu.cn/docx/LfEodRSmnoOopsxju9kckxCtnng) | → 提取 | `3-Resources/Tech/代码片段/pg-backup使用方法.md` |
-| 综合定位系统运维白皮书.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/综合定位系统运维白皮书]] | [飞书](https://reliablesense.feishu.cn/docx/AMuadobIrozdlZxG96gcHgtPnxe) | → 提取 | `1-Projects/Work/广州机场/综合定位系统运维白皮书.md` |
-| 综合定位系统运维白皮书编写内容框架.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/综合定位系统运维白皮书编写内容框架]] | [飞书](https://reliablesense.feishu.cn/docx/GkcQdk58kocgF7x6ytNc4ikYnvg) | 留归档 | - | 白皮书已有完整版 |
-| 移动应用平台运维白皮书编写内容框架.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/移动应用平台运维白皮书编写内容框架]] | [飞书](https://reliablesense.feishu.cn/docx/AhnkdGgzroBd8Cx9KxDctcGjnAg) | 留归档 | - | 框架文档 |
-| 综合定位系统进程清单编写内容框架.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/综合定位系统进程清单编写内容框架]] | [飞书](https://reliablesense.feishu.cn/docx/NibpdCR4coY77ex8qIrcRo7Dnjh) | 留归档 | - | 框架文档 |
-| 综合定位系统配置清单编写内容框架.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/综合定位系统配置清单编写内容框架]] | [飞书](https://reliablesense.feishu.cn/docx/JUInd4Gmwo2B29xizZQcJtq0nKe) | 留归档 | - | 框架文档 |
-| 移动应用平台进程清单编写内容框架.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/移动应用平台进程清单编写内容框架]] | [飞书](https://reliablesense.feishu.cn/docx/YCvydrOqHodVj8xC28EcVVMEnRf) | 留归档 | - | 框架文档 |
-| 移动应用平台配置清单编写内容框架.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/移动应用平台配置清单编写内容框架]] | [飞书](https://reliablesense.feishu.cn/docx/Z5SFdZURjogTZ8xsMf0c5g6enos) | 留归档 | - | 框架文档 |
+| 综合定位系统运维白皮书.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/综合定位系统运维白皮书]] | [飞书](https://reliablesense.feishu.cn/docx/AMuadobIrozdlZxG96gcHgtPnxe) | → 提取 | `1-Projects/Work/广州机场/综合定位系统运维白皮书.md` | 广州机场运维白皮书 |
+| 综合定位系统运维白皮书编写内容框架.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/综合定位系统运维白皮书编写内容框架]] | [飞书](https://reliablesense.feishu.cn/docx/GkcQdk58kocgF7x6ytNc4ikYnvg) | → 提取 | `1-Projects/Work/广州机场/综合定位系统运维白皮书编写内容框架.md` | 广州机场 |
+| 移动应用平台运维白皮书编写内容框架.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/移动应用平台运维白皮书编写内容框架]] | [飞书](https://reliablesense.feishu.cn/docx/AhnkdGgzroBd8Cx9KxDctcGjnAg) | → 提取 | `1-Projects/Work/广州机场/移动应用平台运维白皮书编写内容框架.md` | 广州机场 |
+| 综合定位系统进程清单编写内容框架.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/综合定位系统进程清单编写内容框架]] | [飞书](https://reliablesense.feishu.cn/docx/NibpdCR4coY77ex8qIrcRo7Dnjh) | → 提取 | `1-Projects/Work/广州机场/综合定位系统进程清单编写内容框架.md` | 广州机场 |
+| 综合定位系统配置清单编写内容框架.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/综合定位系统配置清单编写内容框架]] | [飞书](https://reliablesense.feishu.cn/docx/JUInd4Gmwo2B29xizZQcJtq0nKe) | → 提取 | `1-Projects/Work/广州机场/综合定位系统配置清单编写内容框架.md` | 广州机场 |
+| 移动应用平台进程清单编写内容框架.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/移动应用平台进程清单编写内容框架]] | [飞书](https://reliablesense.feishu.cn/docx/YCvydrOqHodVj8xC28EcVVMEnRf) | → 提取 | `1-Projects/Work/广州机场/移动应用平台进程清单编写内容框架.md` | 广州机场 |
+| 移动应用平台配置清单编写内容框架.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/移动应用平台配置清单编写内容框架]] | [飞书](https://reliablesense.feishu.cn/docx/Z5SFdZURjogTZ8xsMf0c5g6enos) | → 提取 | `1-Projects/Work/广州机场/移动应用平台配置清单编写内容框架.md` | 广州机场 |
 | 数据库字典注释.xlsx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/数据库字典注释.xlsx]] | [飞书](https://reliablesense.feishu.cn/base/WOpRbugDgamNOKsHG7scmCGSnZg) | → 提取 | `2-Areas/Work/产品研发/数据库字典注释.xlsx` | 产品数据库字典 |
 
 ### 4b. 升级文档
@@ -712,7 +721,7 @@ created: 2026-04-11
 | 路网绘制.md | [[4-Archives/Notes/Feishu/知识库/技术分享/地图相关文档/路网绘制]] | [飞书](https://reliablesense.feishu.cn/docx/doxcnmMiCtaR2HkpnlPPrChqyEb) | → 提取 | `3-Resources/Tech/代码片段/路网绘制.md` |
 | 地图按钮、视角、控件控制.md | [[4-Archives/Notes/Feishu/知识库/技术分享/地图相关文档/地图按钮、视角、控件控制]] | [飞书](https://reliablesense.feishu.cn/docx/HUTId5xjFoaRIxxUkQWcEb1Xnge) | → 提取 | `3-Resources/Tech/知识卡片/地图控件控制.md` |
 | 项目建立步骤.md | [[4-Archives/Notes/Feishu/知识库/技术分享/地图相关文档/项目建立步骤]] | [飞书](https://reliablesense.feishu.cn/docx/LapVd88f0oFaKUx4QwRcwrW1neI) | → 提取 | `3-Resources/Tech/代码片段/地图项目建立步骤.md` |
-| 麦钉点云图地图绘制注意事项.md | [[4-Archives/Notes/Feishu/知识库/技术分享/地图相关文档/麦钉点云图地图绘制注意事项]] | [飞书](https://reliablesense.feishu.cn/doc/doccn6HL7llLqfP4e5qCI96CdUf) | → 提取 | `3-Resources/Tech/知识卡片/麦钉点云图地图绘制注意事项.md` |
+| 麦钉点云图地图绘制注意事项.md | [[4-Archives/Notes/Feishu/知识库/技术分享/地图相关文档/麦钉点云图地图绘制注意事项]] | [飞书](https://reliablesense.feishu.cn/doc/doccn6HL7llLqfP4e5qCI96CdUf) | → 提取 | `1-Projects/Work/麦钉项目/麦钉点云图地图绘制注意事项.md` | 麦钉项目专用 |
 | CICD流程介绍.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/CICD流程介绍]] | [飞书](https://reliablesense.feishu.cn/doc/doccnqi4YxvSVSY23MSLXIkwIKe) | → 提取 | `3-Resources/Tech/知识卡片/CICD流程介绍.md` |
 | Gitlab-CICD说明.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/Gitlab-CICD说明]] | [飞书](https://reliablesense.feishu.cn/doc/doccnUileviuvksypU7AAbSEGwg) | → 提取 | `3-Resources/Tech/代码片段/Gitlab-CICD说明.md` |
 | 前后端CICD.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/前后端CICD]] | [飞书](https://reliablesense.feishu.cn/doc/doccncqa7DwRv2fD3Z3KA6oO4oh) | → 提取 | `3-Resources/Tech/代码片段/前后端CICD.md` |
@@ -795,7 +804,7 @@ created: 2026-04-11
 | 运行有问题的项目及其结果截图.md | [[4-Archives/Notes/Feishu/知识库/个人知识库/运行有问题的项目及其结果截图]] | [飞书](https://reliablesense.feishu.cn/wiki/SAC6wR9XXiiBAKk0uvAcBPI4nmd) | 留归档 | 临时记录 |
 | 知识问答-Space7527246326739157011.md | [[4-Archives/Notes/Feishu/知识库/个人知识库/知识问答-Space7527246326739157011]] | [飞书](https://reliablesense.feishu.cn/wiki/AR6QwWP4yiUZUrku6F8c2LUvnDc) | 留归档 | 飞书 AI 问答 |
 | 知识问答-Space7527250303092015107.md | [[4-Archives/Notes/Feishu/知识库/个人知识库/知识问答-Space7527250303092015107]] | [飞书](https://reliablesense.feishu.cn/wiki/Mb5Sw96iIiXgDkkgB79ciA13nph) | 留归档 | 飞书 AI 问答 |
-| 视频会议助手与陈子杰的会话.md | [[4-Archives/Notes/Feishu/知识库/个人知识库/视频会议助手与陈子杰的会话]] | [飞书](https://reliablesense.feishu.cn/wiki/AH3AwTtFVizchQky49sc1R4vnYc) | 留归档 | 会议记录 |
+| 视频会议助手与陈子杰的会话.md | [[4-Archives/Notes/Feishu/知识库/个人知识库/视频会议助手与陈子杰的会话]] | [飞书](https://reliablesense.feishu.cn/wiki/AH3AwTtFVizchQky49sc1R4vnYc) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` |
 | 费用报销单.xlsx | [[4-Archives/Notes/Feishu/知识库/个人知识库/费用报销单.xlsx]] | [飞书](https://reliablesense.feishu.cn/wiki/YDALwrkOgipenTkarYrcvNEEnPg?table=tbl8OSrYcXrhnivM) | 留归档 | 个人财务 |
 
 ### 9e. 受限知识库
@@ -805,8 +814,8 @@ created: 2026-04-11
 | Map-mobile-v2.7版本更新报告.md | [[4-Archives/Notes/Feishu/知识库/受限知识库/Map-mobile-v2.7版本更新报告]] | [飞书](https://reliablesense.feishu.cn/wiki/WiJ2wFB10iQ98skKC4lcgQgqn9b) | → 提取 | `2-Areas/Work/产品研发/Map-mobile-v2.7更新报告.md` |
 | 前端Admin-2.7更新内容.md | [[4-Archives/Notes/Feishu/知识库/受限知识库/前端Admin-2.7更新内容]] | [飞书](https://reliablesense.feishu.cn/wiki/OaQpwHMvhiduTDk5lBqcluCfnPf) | → 提取 | `2-Areas/Work/产品研发/前端Admin-2.7更新内容.md` |
 | 后端2.7更新内容.md | [[4-Archives/Notes/Feishu/知识库/受限知识库/后端2.7更新内容]] | [飞书](https://reliablesense.feishu.cn/wiki/AYprwPzeGiWaPlkUnVxcQWbMndc) | → 提取 | `2-Areas/Work/产品研发/后端2.7更新内容.md` |
-| 新太元验收标准总结.md | [[4-Archives/Notes/Feishu/知识库/受限知识库/新太元验收标准总结]] | [飞书](https://reliablesense.feishu.cn/wiki/LbYbwPb1QidoL0kpKakcRhCrnPe) | → 提取 | `1-Projects/Work/内蒙新太/验收标准总结.md` |
-| 新太项目总结.md | [[4-Archives/Notes/Feishu/知识库/受限知识库/新太项目总结]] | [飞书](https://reliablesense.feishu.cn/wiki/TK3Sw7sNkiEFD1kFx27cLTkznAV) | → 提取 | `1-Projects/Work/内蒙新太/项目总结.md` |
+| 新太元验收标准总结.md | [[4-Archives/Notes/Feishu/知识库/受限知识库/新太元验收标准总结]] | [飞书](https://reliablesense.feishu.cn/wiki/LbYbwPb1QidoL0kpKakcRhCrnPe) | → 提取 | `1-Projects/Work/新太项目/验收标准总结.md` |
+| 新太项目总结.md | [[4-Archives/Notes/Feishu/知识库/受限知识库/新太项目总结]] | [飞书](https://reliablesense.feishu.cn/wiki/TK3Sw7sNkiEFD1kFx27cLTkznAV) | → 提取 | `1-Projects/Work/新太项目/项目总结.md` |
 | 2025年年终总结-后端.md | [[4-Archives/Notes/Feishu/知识库/受限知识库/2025年年终总结-后端]] | [飞书](https://reliablesense.feishu.cn/wiki/ZSDawo3uLi4lxXkGZP7cHGxBnXc) | 留归档 | 年终总结 |
 | 2025年度总结-前端.md | [[4-Archives/Notes/Feishu/知识库/受限知识库/2025年度总结-前端]] | [飞书](https://reliablesense.feishu.cn/wiki/MqWawqoYkiJsQekf1y2c8Hatnve) | 留归档 | 年终总结 |
 | 刘远达25年年终总结.md | [[4-Archives/Notes/Feishu/知识库/受限知识库/刘远达25年年终总结]] | [飞书](https://reliablesense.feishu.cn/wiki/TfMYwzD5citiR0kXrffcRYNUn8d) | 留归档 | 年终总结 |
@@ -860,10 +869,331 @@ created: 2026-04-11
 
 ---
 
-## 十三、待确认事项
+## 十三、王宗光个人文档（补充）
 
-1. **参考/ 目录**：公司内部资料下的"参考"和莱讯科技下的"~参考资料"，需逐个查看
-2. **定制版项目子目录**：14 个定制化项目子目录，需逐个确认是否已结束
-3. **企业版/文档资料/ 子目录**：需查看具体内容
-4. **路网维护/**：如有 .md 格式路网说明文档，需按项目归属分配
-5. **售前项目/ 下 5 个客户目录**：需确认是否有正式立项
+### 工作总结 → `4-Archives/Areas/Work/团队管理/团队成员/王宗光/`
+
+| 文件 | 本地路径 | 飞书链接 | 决策 | 理由 |
+|------|---------|---------|------|------|
+| 2024年度工作总结 | 云空间/王宗光的个人文档/工作总结/ | - | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/王宗光/` |
+| 2024年中工作总结 | 云空间/王宗光的个人文档/工作总结/ | - | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/王宗光/` |
+| 2023年度工作总结 | 云空间/王宗光的个人文档/工作总结/ | - | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/王宗光/` |
+| 2023年度工作总结.mm | 云空间/王宗光的个人文档/工作总结/ | - | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/王宗光/` |
+
+### 项目资料
+
+#### 嘉盛工厂 → `4-Archives/Projects/Work/嘉盛工厂/`
+
+| 文件 | 类型 | 飞书链接 | 目标路径 |
+|------|------|---------|---------|
+| 1-2502211H23Q59 | docx | [飞书](https://reliablesense.feishu.cn/docx/...) | `4-Archives/Projects/Work/嘉盛工厂/` |
+| 工作记录 | docx | - | `4-Archives/Projects/Work/嘉盛工厂/` |
+| 嘉盛工厂项目进度计划表 副本 | sheet | - | `4-Archives/Projects/Work/嘉盛工厂/` |
+| 蓝牙定位平台接口文档V1.61_250409.pdf | file | [飞书](https://reliablesense.feishu.cn/file/TwdAbVtybo6bYyxamOhcemubnTf) | `4-Archives/Projects/Work/嘉盛工厂/` |
+| 需求说明书.docx | file | [飞书](https://reliablesense.feishu.cn/file/N4HubB8QNoU07nxIX7Fc16XWnde) | `4-Archives/Projects/Work/嘉盛工厂/` |
+| JT808_部标精简协议(2021-11-24更改).pdf | file | [飞书](https://reliablesense.feishu.cn/file/N6v1bgyQcon6ahx1jPyc9U3NnSc) | `4-Archives/Projects/Work/嘉盛工厂/` |
+| 808协议集成 & 指令下发.txt | file | [飞书](https://reliablesense.feishu.cn/file/BkaIbNoeSo2Nb7xZ1wQckNYRn1b) | `4-Archives/Projects/Work/嘉盛工厂/` |
+
+#### 赛力斯 → `2-Areas/Work/业务管理/售前项目/赛力斯/`
+
+| 文件 | 类型 | 目标路径 |
+|------|------|---------|
+| 数字化循环载具管理平台统一接口协议V1.4 | docx | `2-Areas/Work/业务管理/售前项目/赛力斯/` |
+| 设备相关资料 | docx | `2-Areas/Work/业务管理/售前项目/赛力斯/` |
+
+#### 博实结 → `4-Archives/Projects/Work/博实结/`
+
+| 文件 | 类型 | 目标路径 |
+|------|------|---------|
+| 智能硬件定位服务（2024-07-12） | docx | `4-Archives/Projects/Work/博实结/` |
+| EG10E部标协议 | docx | `4-Archives/Projects/Work/博实结/` |
+| EG10E产品使用说明书(4) | docx | `4-Archives/Projects/Work/博实结/` |
+| 联调记录 | docx | `4-Archives/Projects/Work/博实结/` |
+
+#### 洛阳化工 → `1-Projects/Work/洛阳化工厂/`
+
+| 文件 | 类型 | 目标路径 |
+|------|------|---------|
+| 洛阳化工（定制功能）系统设计 | docx | `1-Projects/Work/洛阳化工厂/` |
+| 应用系统联调测试报告-模板v5.docx | file | `1-Projects/Work/洛阳化工厂/` |
+| 中国石化统一身份OAuth2.0认证集成指南v2.8.pdf | file | `1-Projects/Work/洛阳化工厂/` |
+| 中国石化统一身份管理系统操作手册v1.1.pdf | file | `1-Projects/Work/洛阳化工厂/` |
+| 中国石化统一身份消息订阅.NET版v4.3.pdf | file | `1-Projects/Work/洛阳化工厂/` |
+| 中国石化统一身份JWT认证集成指南v3.1.pdf | file | `1-Projects/Work/洛阳化工厂/` |
+
+#### 广州机场 → `1-Projects/Work/广州机场/`
+
+| 文件 | 类型 | 目标路径 |
+|------|------|---------|
+| 广州机场App登录验证码 | docx | `1-Projects/Work/广州机场/` |
+
+### 定制化项目
+
+| 文件 | 类型 | 目标路径 | 理由 |
+|------|------|---------|------|
+| NFC读卡器接口配置文档 | docx | `1-Projects/Work/新太项目/` | 新太项目NFC |
+
+### 后端架构（有价值的技术文档）
+
+| 文件 | 类型 | 目标路径 | 理由 |
+|------|------|---------|------|
+| LBS系统梳理 | docx | `2-Areas/Work/产品研发/` | 后端架构文档 |
+| RS-LBS后端平台架构重构方案(v2.0.0) | docx | `2-Areas/Work/产品研发/` | 后端架构 |
+| RS-MID中间件平台架构方案(v1.0.0) | docx | `2-Areas/Work/产品研发/` | 中间件架构 |
+| Zone + tile38功能实现备忘 | docx | `3-Resources/Tech/知识卡片/` | 平台功能备忘 |
+| position重构 | mindnote | 留归档 | mindnote保留链接 |
+
+### 测试/压测
+
+| 文件 | 类型 | 目标路径 | 理由 |
+|------|------|---------|------|
+| 230环境 | docx | `3-Resources/Tech/代码片段/` | 压测环境配置 |
+| 压测备忘录 | docx | `3-Resources/Tech/代码片段/` | 压测操作 |
+| 标签数量压测数据统计_3.0 | sheet | `3-Resources/Tech/代码片段/` | 最新版压测数据 |
+| 标签数量压测数据统计_2.0 | sheet | `4-Archives/Areas/Work/团队管理/团队成员/王宗光/` | 旧版本压测 |
+| 标签数量压测数据统计_1.0 | sheet | `4-Archives/Areas/Work/团队管理/团队成员/王宗光/` | 旧版本压测 |
+| 获取规划路线接口性能测试 | sheet | `3-Resources/Tech/代码片段/` | 路网性能测试 |
+
+### 散落文档
+
+| 文件 | 类型 | 决策 | 目标路径 | 理由 |
+|------|------|------|---------|------|
+| E-Ink平台安装和使用手册 | docx | → 提取 | `2-Areas/Work/设备管理/` | 墨水屏手册 |
+| 智慧工厂电子标牌管理系统软件v1.0.0-json格式 | docx | → 提取 | `2-Areas/Work/产品研发/` | 电子标牌系统 |
+| 日志说明 | docx | → 提取 | `3-Resources/Tech/知识卡片/` | 日志说明 |
+| 莱讯-移动端需求 | docx | → 提取 | `2-Areas/Work/产品研发/` | 移动端需求 |
+| 无动力设备信息融合系统-源代码 | docx | → 提取 | `1-Projects/Work/广州机场/` | 无动力设备系统 |
+| 交接文档 | docx | → 提取 | `3-Resources/Tech/代码片段/` | 项目交接文档 |
+| 问题处理记录/工作记录 | docx | → 提取 | `3-Resources/Tech/问题解决/` | 问题处理记录 |
+| 用户敏感信息处理.md | file | → 提取 | `3-Resources/Tech/知识卡片/` | 敏感信息处理 |
+| 🚩会议签到表 | bitable | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/王宗光/` | bitable |
+| 远端接口新需求问题反馈-20230323 | sheet | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/王宗光/` | 历史需求反馈 |
+| 标书3 | docx | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/王宗光/` | 历史标书 |
+| 众合Demo环境--软件 功能_20210701 | docx | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/王宗光/` | 历史Demo |
+| 王宗光24年周报.xlsx | file | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/王宗光/` | 周报 |
+| 莱讯科技（苏州）与博世（中国）家电展厅会议纪要 | docx | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/王宗光/` | 博世会议 |
+| 莱讯智能定位安全管理系统报价-20220422 | bitable | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/王宗光/` | 历史报价 |
+| 2023-7-10 来邦沟通会 | mindnote | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/王宗光/` | mindnote |
+
+---
+
+## 十四、陈子杰个人文档（补充）
+
+### 广州机场-移动应用平台
+
+| 文件 | 类型 | 目标路径 | 理由 |
+|------|------|---------|------|
+| 移动终端目前缺失功能 | bitable | `1-Projects/Work/广州机场/` | 移动应用缺失功能 |
+| 深化设计说明书（移动应用服务平台）-2025 | docx | `1-Projects/Work/广州机场/` | 移动应用深化设计 |
+| 移动应用平台开发与测试进展汇报.pdf | file | `1-Projects/Work/广州机场/` | 移动应用进展 |
+| app_store_back-main.zip | file | `1-Projects/Work/广州机场/` | 应用商店后端代码 |
+| app_store_flutter_module-main.zip | file | `1-Projects/Work/广州机场/` | Flutter模块 |
+| appstoreaf-main.zip | file | `1-Projects/Work/广州机场/` | 应用商店前端 |
+| readme.txt | file | `1-Projects/Work/广州机场/` | 应用商店说明 |
+
+### 散落文档
+
+| 文件 | 类型 | 决策 | 目标路径 | 理由 |
+|------|------|------|---------|------|
+| oemusers | sheet | → 提取 | `1-Projects/Work/广州机场/` | OEM用户数据 |
+| t_poi_type | sheet | → 提取 | `2-Areas/Work/产品研发/` | POI类型数据 |
+| 三方系统调用行李查询接口文档(座位号)20230804 | docx | → 提取 | `1-Projects/Work/广州机场/` | 行李查询接口 |
+| 平台地图最新使用 | docx | → 提取 | `3-Resources/Tech/知识卡片/` | 地图使用文档 |
+| 小程序签到功能方案 | docx | → 提取 | `2-Areas/Work/产品研发/` | 小程序签到方案 |
+| 大屏页面问题 | docx | → 提取 | `3-Resources/Tech/问题解决/` | 大屏页面问题 |
+| 流程图 | docx | → 提取 | `2-Areas/Work/产品研发/` | 产品流程图 |
+| 部门季报/半年报/年报 | docx | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` | 部门报告 |
+| 车间定位项目立项报告 | docx | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` | 历史立项 |
+| 需求及 Bug 管理 | bitable | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` | bitable |
+| 问题记录-2023-09-22 | sheet | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` | 历史问题记录 |
+| 室内定位系统工作进度 | sheet | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` | 历史进度 |
+| 招标需求 | docx | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` | 历史招标 |
+| 后端翻译 | docx | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` | 翻译文件 |
+| 核心物联资料.zip | file | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` | 压缩包 |
+| 2023-05-07 20-54-59.mkv | file | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` | 录屏文件 |
+
+---
+
+## 十五、孙永霖个人文档（补充）
+
+| 文件 | 类型 | 决策 | 目标路径 | 理由 |
+|------|------|------|---------|------|
+| saas英文版 | docx | → 提取 | `2-Areas/Work/产品研发/` | SaaS英文文档 |
+| SaaS使用手册V4 new 英文.docx | file | → 提取 | `2-Areas/Work/产品研发/` | SaaS英文手册 |
+| SaaS使用手册V4 new.docx | file | → 提取 | `2-Areas/Work/产品研发/` | SaaS中文手册 |
+| 地图管理的问题 | docx | → 提取 | `3-Resources/Tech/问题解决/` | 地图管理问题 |
+| Help Center Template | docx | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/孙永霖/` | 模板文档 |
+| 需翻译！！Matthias 英文稿 - 已翻译 | docx | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/孙永霖/` | 翻译稿 |
+| 需翻译！！Matthias 英文稿 | docx | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/孙永霖/` | 翻译稿 |
+| doc/Attachments/*.png（17个） | file | 跟随文档 | saas英文版 → `2-Areas/Work/产品研发/Attachments/`，Help Center Template → `4-Archives/Areas/Work/团队管理/团队成员/孙永霖/Attachments/` | 文档内嵌图片，跟随所属文档移动 |
+
+---
+
+## 十六、云空间根目录散落文件（补充）
+
+之前第一章已覆盖大部分，以下是补充的散落文件：
+
+| 文件 | 类型 | 决策 | 目标路径 | 理由 |
+|------|------|------|---------|------|
+| 广州机场综合定位 v.2025-12-19 | bitable | → 提取 | `1-Projects/Work/广州机场/` | 广州机场综合定位数据 |
+| 信息平台消息交换标准协议_1.0.0(1).doc | file | → 归档 | `4-Archives/Projects/Work/武汉机场/` | 武汉机场接口协议 |
+| 李家豪轨迹室内异常.png | file | 留归档 | - | 临时截图 |
+| 韩家村统计时长缺失.png | file | 留归档 | - | 临时截图 |
+| 教学比赛.mov | file | 留归档 | - | 个人文件 |
+| 宏兴裁切.rar | file | 留归档 | - | 压缩包 |
+| FRP_GithubArm64_version_1_3_6.apk | file | 留归档 | - | 安装包 |
+| 定位平台安装文件及文档.zip | file | 留归档 | - | 安装包 |
+| madinat_hjc.zip | file | 留归档 | - | 项目数据包 |
+| 转化后数据.zip | file | 留归档 | - | 临时数据 |
+
+---
+
+## 十七、莱讯科技其他子目录（补充）
+
+### 公司内部资料散落文件
+
+| 文件 | 类型 | 决策 | 目标路径 | 理由 |
+|------|------|------|---------|------|
+| 库房管理 | bitable | 留归档 | - | bitable保留链接 |
+| 合同订单管理 | bitable | 留归档 | - | bitable保留链接 |
+| 任务管理 | bitable | 留归档 | - | bitable保留链接 |
+| 组织架构图 | doc | → 提取 | `2-Areas/Work/综合管理/` | 公司组织架构 |
+| 莱讯公司文档分类 | mindnote | 留归档 | - | mindnote保留链接 |
+
+### ~参考资料（留归档）
+
+`~参考资料/` 下 6 个文档类附件全部为竞品参考资料，留归档不进 PARA：
+
+- v1.0版-5-必须反馈文件-技术响应及技术方案-C122高精度定位系统.docx
+- 叉车安全管理产品(2).pdf
+- 防撞预警系统.pptx
+- 中弈科技智慧矿山部分需确认资料(修改).pptx
+- 功能截图.docx
+- 易景空间-2024十二届电子信息博览会-路演ppt20240410.pdf
+
+### 公司内部资料/参考（留归档）
+
+`参考/` 下 18 个文档类附件为行业报告和管理参考，留归档不进 PARA：
+
+- 2019智能硬件终端行业研究报告.pdf
+- 2020年中国智能物联网（AIoT）白皮书.pdf
+- 5G 室内融合定位白皮书 - ZTE.pdf
+- 合作方案-20200910.docx
+- 智能蓝牙照明app二期详细设计书Ver1.0.pptx
+- 4敏捷组织设计原则.docx / 3五个关键推动敏捷绩效.docx / 5识别真正的敏捷组织.docx（管理参考）
+- 其余为历史行业报告和参考文档
+
+### 共享文件（全部留归档）
+
+共享文件夹是临时网盘，全部留归档不进 PARA。包含 4 个 .txt 文件（登陆方式、MD5校验）和各种项目数据包。
+
+### 画板文档
+
+| 文件 | 类型 | 决策 | 理由 |
+|------|------|------|------|
+| 画板文档 | docx | 留归档 | 画板文档无实质内容 |
+
+### 项目开发管理散落文件
+
+| 文件 | 类型 | 决策 | 理由 |
+|------|------|------|------|
+| 项目管理流程 | mindnote | 留归档 | mindnote保留链接 |
+| 需求生命周期 | mindnote | 留归档 | mindnote保留链接 |
+| 项目迭代流程 | mindnote | 留归档 | mindnote保留链接 |
+
+### 项目运维管理散落文件
+
+| 文件 | 类型 | 决策 | 目标路径 | 理由 |
+|------|------|------|---------|------|
+| 莱讯科技-小程序管理文档 | docx | → 提取 | `3-Resources/Tech/知识卡片/` | 小程序管理 |
+| 位置压测相关服务器配置.xlsx | file | → 提取 | `3-Resources/Tech/环境配置/` | 压测服务器配置 |
+
+---
+
+## 十八、全量文件统计（2026-04-16 更新）
+
+基于 `飞书文件清单与迁移状态.tsv` 的 5,800 个文件全量分析：
+
+### 文件类型分布
+
+| 类型 | 数量 | 说明 |
+|------|------|------|
+| file | 4,871 | 上传附件（.docx/.xlsx/.pptx/.pdf/.jpg/.mp4 等） |
+| docx | 687 | 飞书新版文档（已转 Markdown） |
+| sheet | 109 | 电子表格 |
+| bitable | 43 | 多维表格 |
+| mindnote | 43 | 思维导图 |
+| doc | 28 | 旧版文档 |
+| slides | 17 | 幻灯片 |
+| shortcut | 2 | 快捷方式 |
+
+### file 类型扩展名分布（Top 20）
+
+| 扩展名 | 数量 | 处理方式 |
+|--------|------|---------|
+| jpg | 871 | 跟随目录规则 |
+| png | 605 | 跟随目录规则 |
+| docx | 562 | 按目录规则决策，重要的用 markitdown 查看 |
+| pdf | 489 | 按目录规则决策 |
+| mp4 | 365 | 跟随目录规则（视频） |
+| xlsx | 247 | 按目录规则决策 |
+| pptx | 238 | 按目录规则决策 |
+| heic | 179 | 跟随目录规则（照片） |
+| zip | 130 | 留归档 |
+| dwg | 119 | 跟随目录规则（CAD图纸） |
+| ds_store | 93 | 忽略 |
+| ai | 92 | 跟随目录规则（设计文件） |
+| doc | 88 | 按目录规则决策 |
+| mov | 86 | 跟随目录规则（视频） |
+| skp | 77 | 跟随目录规则（SketchUp） |
+| psd | 72 | 跟随目录规则（Photoshop） |
+| jpeg | 58 | 跟随目录规则 |
+| cpa | 46 | 跟随目录规则 |
+| txt | 33 | 按目录规则决策 |
+| rar | 31 | 留归档 |
+
+### 决策覆盖统计
+
+| 分类 | 数量 | 说明 |
+|------|------|------|
+| 已按目录规则决策 | 2,451 | docx/doc/sheet/bitable/slides 等按映射规则分配 |
+| 媒体/设计文件跟随目录 | 3,182 | 图片/视频/CAD/设计等跟随所在目录的规则 |
+| 手动补充决策 | 160 | 本文档中逐个列出的散落文件 |
+| 需人工判断 | 0 | 全部已决策 |
+| **合计** | **5,794** | 覆盖率 99.9% |
+
+### 目标路径分布
+
+| 目标路径 | 文件数 | 说明 |
+|---------|-------|------|
+| `4-Archives/Projects/Work/` | ~912 | 已结束项目归档 |
+| `1-Projects/Work/广州机场/` | ~180 | 进行中项目 |
+| `2-Areas/Work/设备管理/供应商管理/` | ~228 | 供应商资料 |
+| `2-Areas/Work/综合管理/公司制度/` | ~182 | ISO/规章制度 |
+| `3-Resources/Business/解决方案/` | ~175 | 行业方案 |
+| `2-Areas/Work/产品研发/` | ~160 | 产品文档 |
+| `会议纪要（按分类规则）` | ~270 | 会议纪要 |
+| `2-Areas/Work/综合管理/软著立项/` | ~76 | 软著资料 |
+| `3-Resources/Tech/环境配置/` | ~55 | 集群/环境配置 |
+| `2-Areas/Work/品牌宣传/` | ~100 | 品牌/展会/宣传 |
+| `2-Areas/Work/业务管理/` | ~70 | 售前/模板/评估 |
+| `3-Resources/Tech/代码片段/` | ~30 | 运维/部署/升级手册 |
+| `3-Resources/Tech/知识卡片/` | ~15 | 技术知识文档 |
+| `3-Resources/Tech/问题解决/` | ~10 | 问题解决记录 |
+| `留归档` | ~3,200+ | 媒体文件+历史文件+临时文件 |
+
+---
+
+## 十九、待确认事项（更新）
+
+### ✅ 全部已决策（0 个待确认）
+
+### 已解决的待确认事项
+
+1. ~~**参考/ 目录**~~ → 全部留归档（行业报告和管理参考）
+2. ~~**~参考资料/**~~ → 全部留归档（竞品参考）
+3. ~~**路网维护/**~~ → 留归档（路网文件无法读取）
+4. ~~**共享文件/**~~ → 全部留归档（临时网盘）
+5. **定制版项目子目录**：14 个定制化项目子目录，需逐个确认是否已结束（待执行时逐个处理）
+6. **企业版/文档资料/ 子目录**：需查看具体内容（待执行时处理）
+7. **售前项目/ 下 5 个客户目录**：需确认是否有正式立项（待执行时处理）
