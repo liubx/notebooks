@@ -77,13 +77,12 @@ fileMatchPattern: "**/1-任务.md"
 ### 1. 准备阶段
 
 ```
-1) 读取目标任务文件的 frontmatter，获取 feishu_tasklist_guid
-2) 读取对应项目的 0-总览.md，获取自定义字段 ID（优先级字段 ID、状态字段 ID 及各选项 ID）
-3) 如果 0-总览.md 中没有自定义字段 ID，先查询并补充：
+1) 读取目标任务文件的 frontmatter，获取 feishu_tasklist_guid 和 feishu_custom_fields（优先级字段 ID、状态字段 ID 及各选项 ID）
+2) 如果 frontmatter 中没有 feishu_custom_fields，先查询并补充：
    lark-cli api GET /open-apis/task/v2/custom_fields \
      --params '{"resource_type":"tasklist","resource_id":"<tasklist_guid>","page_size":"50"}' \
      --as user --timeout 30000
-4) 读取人员映射表：2-Areas/Work/公司人员.md
+3) 读取人员映射表：2-Areas/Work/公司人员.md
 ```
 
 ### 2. 获取飞书数据
@@ -368,21 +367,31 @@ lark-cli api GET /open-apis/task/v2/custom_fields \
 
 ### 存储位置
 
-在项目 `0-总览.md` 的"飞书信息"部分，格式：
+在项目 `1-任务.md` 的 frontmatter 中，格式：
 
-```markdown
-## 飞书信息
-
-- 任务清单：项目名（`<tasklist_guid>`）→ [[1-任务]]
-- 项目群组：项目名（`<chat_id>`）
-- 自定义字段：
-  - 状态：`<field_guid>`（进行中=`<option_id>`、等待中=`<option_id>`、已完成=`<option_id>`、已取消=`<option_id>`、测试中=`<option_id>`）
-  - 优先级：`<field_guid>`（高=`<option_id>`、中=`<option_id>`、低=`<option_id>`）
+```yaml
+---
+feishu_custom_fields:
+  status:
+    guid: "<field_guid>"
+    options:
+      doing: "<option_id>"
+      testing: "<option_id>"
+      waiting: "<option_id>"
+      done: "<option_id>"
+      cancelled: "<option_id>"
+  priority:
+    guid: "<field_guid>"
+    options:
+      high: "<option_id>"
+      medium: "<option_id>"
+      low: "<option_id>"
+---
 ```
 
 ### 已知清单字段 ID
 
-同步前先读 0-总览.md 确认，不要硬编码。如果缺失，查询后写回 0-总览.md。
+同步前先读 1-任务.md 的 frontmatter 确认，不要硬编码。如果缺失，查询后写回 1-任务.md 的 frontmatter。
 
 ---
 
@@ -424,7 +433,7 @@ lark-cli api GET /open-apis/task/v2/custom_fields \
 | API 超时 | 相同命令重试一次（timeout 不变）→ 简化参数重试 → 报告用户 |
 | 权限不足 | 按 lark-shared 规则处理，提示用户授权 |
 | 任务不存在 | 可能已被飞书端删除，本地标记 ~~已从飞书删除~~ |
-| 字段 ID 不匹配 | 重新查询自定义字段，更新 0-总览.md |
+| 字段 ID 不匹配 | 重新查询自定义字段，更新 1-任务.md 的 frontmatter |
 | 同步失败 | 本地任务行加 `#sync-error/feishu`，不阻塞其他操作 |
 
 ---
