@@ -1202,7 +1202,7 @@ created: 2026-04-11
 | 上港仓储管理 | 002. 上海上港 | [飞书](https://reliablesense.feishu.cn/drive/folder/IwSpfxmL5lfpO8dLuoccbdnLnre) | `1-Projects/Work/上港仓储管理/` | `上港`, `仓储`, `出入库`, `RFID`, `shwl_shsg` |
 | 洛阳化工厂 | 998. 售后项目/麦钉洛阳石化 | [飞书](https://reliablesense.feishu.cn/drive/folder/S3JWftxHWl14R5dz9FncpUPUnsd) | `1-Projects/Work/洛阳化工厂/` | `洛阳`, `石化`, `化工`, `宏兴`, `lyrydw`, `lyhx` |
 | 南宁机场 | 南宁机场项目 | [飞书](https://reliablesense.feishu.cn/drive/folder/JuNOf2llHlkIa9dKw73cJm5pn3w) | `1-Projects/Work/南宁机场/` | `南宁机场` |
-| 麦钉项目 | 998. 售后项目/麦钉 + 红柳林/韩家村/柠条塔/李家壕等 | [飞书](https://reliablesense.feishu.cn/drive/folder/RTvgfEDMZlvXcod1aQScqUCdnXb) | `1-Projects/Work/麦钉项目/` | `红柳林`, `李家壕`, `韩家村`, `高安屯`, `柠条塔`, `madinat_hll`, `madinat_xmc`, `madinat_hjc`, `madinat_gat`, `madinat_ntt` |
+| 麦钉项目 | 998. 售后项目/麦钉 + 红柳林/韩家村/柠条塔/李家壕等 | [飞书](https://reliablesense.feishu.cn/drive/folder/RTvgfEDMZlvXcod1aQScqUCdnXb) | `1-Projects/Work/麦钉项目/` | `红柳林`, `李家壕`, `韩家村`, `高安屯`, `柠条塔`, `孝感`, `恩菲`, `固废`, `污水处理`, `madinat_hll`, `madinat_xmc`, `madinat_hjc`, `madinat_gat`, `madinat_ntt` |
 
 ### 已结束项目（→ `4-Archives/Projects/Work/`）
 
@@ -1212,9 +1212,9 @@ created: 2026-04-11
 
 | 项目名 | 飞书来源目录 | 飞书链接 | 文件数 | 归档方式 | 关键字 |
 |--------|------------|---------|--------|---------|--------|
-| 众合Demo环境--杭州地铁 | 众合Demo环境--杭州地铁定位应用 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn9ihucqqZa3fG3Px0Gloixc) | 148 | 📁 Project | `众合`, `杭州地铁`, `Demo环境` |
+| 众合人员管理 | 众合Demo环境--杭州地铁定位应用 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn9ihucqqZa3fG3Px0Gloixc) | 148 | 📁 Project | `众合`, `杭州地铁`, `Demo环境` |
 | 博世项目 | Bosch 项目 | [飞书](https://reliablesense.feishu.cn/drive/folder/P4GJfXpDolZ4EodGUF9cUCBonkc) | 105 | 📁 Project | `Bosch`, `博世` |
-| 国和一号（威海） | 国和一号（威海） | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnKTgV6OtJkwR2ijJyY5rVsc) | 84 | 📁 Project | `国和一号`, `威海` |
+| 国核智慧工地 | 国和一号（威海） | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnKTgV6OtJkwR2ijJyY5rVsc) | 84 | 📁 Project | `国和一号`, `威海`, `国核`, `智慧工地` |
 | 海尔工厂 | 海尔工厂 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn9yq74Lu525sk4tf7ayUr0c) | 72 | 📁 Project | `海尔` |
 | 供电局库位定位 | 供电局库位定位 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnhoSboKetpXvMBzbKRSmGAb) | 63 | 📁 Project | `供电局`, `库位定位` |
 | 百度水厂 | 百度-水厂定位导航平台 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnCovrCdcKMYR4Ba3AybOCz2) | 56 | 📁 Project | `百度`, `水厂` |
@@ -1223,11 +1223,11 @@ created: 2026-04-11
 | 国家电网 | 北京技新科技有限公司（国家电网） | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnfcM9BxoadzLHM41eJujMUh) | 42 | 📁 Project | `国家电网`, `技新` |
 | 武汉机场 | 武汉机场 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnHmHajD7TQATmdiqbTIuGRe) | 38 | 📁 Project | `武汉机场` |
 | 加气站 | 加气站-北京时代启程物联科技有限公司 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnoreuJsFnFpBJ6rVWisEtWc) | 32 | 📁 Project | `加气站`, `时代启程` |
-| 山东国核 | 山东国核 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnDKqBIiko7la9mEC6iWzlHf) | 28 | 📁 Project | `山东国核` |
-| 联通数据中心 | IDC | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnnpIG8G9K1vU3IH1XexyQpb) | 26 | 📁 Project | `联通`, `IDC`, `数据中心` |
+| 山东国核 | 山东国核 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnDKqBIiko7la9mEC6iWzlHf) | 28 | 归入国核智慧工地 | `山东国核` |
+| 数讯云人员服务系统 | IDC | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnnpIG8G9K1vU3IH1XexyQpb) | 26 | 📁 Project | `数讯`, `IDC`, `数据中心` |
 | 北京GE | 北京GE | [飞书](https://reliablesense.feishu.cn/drive/folder/VL31fp5utl2g59dU3CbcBV1Onkc) | 21 | 📁 Project | `GE`, `北京GE` |
 | 松下照明 | 松下照明 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnvFOcvpYap90lcIGxwbRTVf) | 19 | 📁 Project | `松下照明` |
-| 孝感污水处理 | 孝感污水处理 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnzHlG6xjy4ECXtD2za7G62e) | 19 | 📁 Project | `孝感`, `污水处理` |
+| 孝感污水处理 | 孝感污水处理 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnzHlG6xjy4ECXtD2za7G62e) | 19 | 归入麦钉项目 | `孝感`, `污水处理` |
 | 合众思壮 | 合众思壮 | [飞书](https://reliablesense.feishu.cn/drive/folder/KS3BfWiA0lszPFdzHPHcltflnre) | 18 | 📁 Project | `合众思壮` |
 | 广东康利达物联 | 广东康利达物联科技有限公司 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnPZ5u2pC8jXrwCWYmW0zKsN) | 16 | 📁 Project | `康利达` |
 | 天津眼科医院 | 天津眼科医院 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn4LNTqNz05fkkDD51VReUoh) | 16 | 📁 Project | `天津眼科` |
@@ -1245,10 +1245,10 @@ created: 2026-04-11
 | 上海易同科技 | 上海易同科技 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn8pIA6ElregB1Fggx07tGKg) | 3 | 📋 业务管理 | `易同` |
 | 清华大学 | 清华大学 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnpJzwab38BtPYZAFQgcicrf) | 2 | 📋 业务管理 | `清华大学` |
 | 振华项目 | 振华项目 | [飞书](https://reliablesense.feishu.cn/drive/folder/S9lCfVWTwlUyORda8c5cb3BGnsb) | 2 | 📋 业务管理 | `振华` |
-| 恩菲固废（孝感） | 恩菲固废(孝感)项目 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnbKqOCYwFonGRakDFNNiXIc) | 2 | 📋 业务管理 | `恩菲`, `固废` |
-| 威海核电 | 威海核电项目 | [飞书](https://reliablesense.feishu.cn/drive/folder/CxMIfqTrnlwHNcd2Spmc5KEinnh) | 2 | 📋 业务管理 | `威海核电` |
+| 恩菲固废（孝感） | 恩菲固废(孝感)项目 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnbKqOCYwFonGRakDFNNiXIc) | 2 | 归入麦钉项目 | `恩菲`, `固废` |
+| 威海核电 | 威海核电项目 | [飞书](https://reliablesense.feishu.cn/drive/folder/CxMIfqTrnlwHNcd2Spmc5KEinnh) | 2 | 归入国核智慧工地 | `威海核电` |
 | 天津医科大学总医院 | 天津医科大学总医院 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnIVDi2da6SfdGwkyejbPZ1g) | 1 | 📋 业务管理 | `天津医科大学` |
-| 赛峰 | （散落文件 deploy.yaml） | | — | 📋 业务管理 | `赛峰` |
+| 赛峰 | （散落文件 deploy.yaml） | | — | 📁 Project | `赛峰`, `SAML`, `SSO` |
 
 #### 003. 中东电子厂
 
