@@ -1231,17 +1231,17 @@ created: 2026-04-11
 | 合众思壮 | 合众思壮 | [飞书](https://reliablesense.feishu.cn/drive/folder/KS3BfWiA0lszPFdzHPHcltflnre) | 18 | 📁 Project | `合众思壮` |
 | 广东康利达物联 | 广东康利达物联科技有限公司 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnPZ5u2pC8jXrwCWYmW0zKsN) | 16 | 📁 Project | `康利达` |
 | 天津眼科医院 | 天津眼科医院 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn4LNTqNz05fkkDD51VReUoh) | 16 | 📁 Project | `天津眼科` |
-| 内蒙古洗煤厂 | 内蒙古洗煤厂的煤棚 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn0XgPdqYb7z218keyA7wyhd) | 15 | 📁 Project | `内蒙古洗煤厂`, `煤棚` |
-| 电子价签管理（Bossard） | 电子价签管理项目（Bossard） | [飞书](https://reliablesense.feishu.cn/drive/folder/E3NmfOQ5Pl5w9wdaRkjcEAvHntf) | 14 | 📁 Project | `电子价签`, `Bossard` |
+| 内蒙古洗煤厂 | 内蒙古洗煤厂的煤棚 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn0XgPdqYb7z218keyA7wyhd) | 15 | 归入麦钉项目 | `内蒙古洗煤厂`, `煤棚` |
+| 电子价签管理 | 电子价签管理项目（Bossard） | [飞书](https://reliablesense.feishu.cn/drive/folder/E3NmfOQ5Pl5w9wdaRkjcEAvHntf) | 14 | 📁 Project | `电子价签`, `Bossard` |
 | 地磁 | 地磁 | | 13 | 📁 Project | `地磁` |
-| 众合科技 | 众合科技 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcndJIt8gCWm2aGkk20nLuU3d) | 13 | 📁 Project | `众合科技` |
-| 南方电网 | 南方电网 - 智能仓库项目 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnFfYXhVMbffAXURuPEYFZHg) | 12 | 📁 Project | `南方电网` |
+| 众合科技 | 众合科技 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcndJIt8gCWm2aGkk20nLuU3d) | 13 | 归入众合人员管理 | `众合科技` |
+| 电网智能仓库 | 南方电网 - 智能仓库项目 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnFfYXhVMbffAXURuPEYFZHg) | 12 | 📁 Project | `南方电网`, `智能仓库` |
 | 广西电网 | 广西电网项目 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcndXOeB44cYlW012D2C05Hcf) | 8 | 📋 业务管理 | `广西电网` |
 | 国家图书馆 | 国家图书馆 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn6yxWW1ngHsX0GkzZZdVkEc) | 8 | 📋 业务管理 | `国家图书馆` |
 | 厦门医院 | 厦门医院项目 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnH7FhGrBf94gG9RsIrIa8Zg) | 5 | 📋 业务管理 | `厦门医院` |
 | 无动力设备信息融合 | 机场-无动力设备信息融合系统 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnByfvqKI5s5vK8WVniVvNMe) | 4 | 📋 业务管理 | `无动力设备`, `信息融合` |
 | 核电站 | 核电站项目 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcneAiPn70Fw4xDazm6L26llg) | 3 | 📋 业务管理 | `核电站` |
-| 宏兴新能 | 宏兴新能人员定位管理系统 | [飞书](https://reliablesense.feishu.cn/drive/folder/BKYCfWVwOlXZRpdgjpscVhannlc) | 3 | 📋 业务管理 | `宏兴新能` |
+| 宏兴新能 | 宏兴新能人员定位管理系统 | [飞书](https://reliablesense.feishu.cn/drive/folder/BKYCfWVwOlXZRpdgjpscVhannlc) | 3 | 归入洛阳化工厂 | `宏兴新能` |
 | 上海易同科技 | 上海易同科技 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn8pIA6ElregB1Fggx07tGKg) | 3 | 📋 业务管理 | `易同` |
 | 清华大学 | 清华大学 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnpJzwab38BtPYZAFQgcicrf) | 2 | 📋 业务管理 | `清华大学` |
 | 振华项目 | 振华项目 | [飞书](https://reliablesense.feishu.cn/drive/folder/S9lCfVWTwlUyORda8c5cb3BGnsb) | 2 | 📋 业务管理 | `振华` |
