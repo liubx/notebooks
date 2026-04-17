@@ -402,3 +402,29 @@ lark-cli task tasklists tasks --params '{"tasklist_guid":"xxx","section_guid":"x
 # 已完成任务
 lark-cli task tasklists tasks --params '{"tasklist_guid":"xxx","section_guid":"xxx","page_size":"100","completed":"true"}' --as user
 ```
+
+
+## [ERR-20260417-001] markitdown 命令行工具未安装（exit code 127）
+
+**时间**: 2026-04-17
+**严重性**: low
+**领域**: markitdown, cli
+
+### 错误描述
+执行 `markitdown "xxx.pdf"` 时返回 exit code 127（command not found），说明 markitdown 未作为全局 CLI 工具安装。
+
+### 根因
+markitdown 是 Python 包，需要通过 `pip install markitdown` 安装后才能在命令行使用，或者通过 `python3 -m markitdown` 调用。
+
+### 正确做法
+```bash
+# 方式一：通过 Python 模块调用
+python3 -m markitdown document.pdf
+
+# 方式二：先安装再使用（需要包含 pdf 依赖）
+pip install 'markitdown[all]'
+markitdown document.pdf
+```
+
+### 补充场景：markitdown 已安装但缺少 pdf 依赖
+即使 markitdown 包已安装，如果没有安装 `[pdf]` 可选依赖，转换 PDF 时会报 `MissingDependencyException`。需要 `pip install 'markitdown[pdf]'` 或 `pip install 'markitdown[all]'`。
