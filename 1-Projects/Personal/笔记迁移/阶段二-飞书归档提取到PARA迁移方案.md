@@ -320,13 +320,13 @@ created: 2026-04-11
 
 | 文件 | 本地路径 | 飞书链接 | 目标路径 |
 |------|---------|---------|---------|
-| 文字记录：launchable查询及告警管理问题讨论 2026年3月12日.md | [[4-Archives/Notes/Feishu/云空间/文字记录：launchable查询及告警管理问题讨论 2026年3月12日]] | [飞书](https://reliablesense.feishu.cn/docx/ZUWmdKM1yogZNuxSWYocJO3ynpg) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
-| 文字记录：代码修改：Beacon与网关定位差异 2026年3月11日.md | [[4-Archives/Notes/Feishu/云空间/文字记录：代码修改：Beacon与网关定位差异 2026年3月11日]] | [飞书](https://reliablesense.feishu.cn/docx/NoSpdy20moXWLWxGp0hcjFa2n3f) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
-| 智能纪要：launchable查询及告警管理问题讨论 2026年3月12日.md | [[4-Archives/Notes/Feishu/云空间/智能纪要：launchable查询及告警管理问题讨论 2026年3月12日]] | [飞书](https://reliablesense.feishu.cn/docx/PZD8dz0C6ouiH6xY4HVc1GJjnGh) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
-| 智能纪要：代码修改：Beacon与网关定位差异 2026年3月11日.md | [[4-Archives/Notes/Feishu/云空间/智能纪要：代码修改：Beacon与网关定位差异 2026年3月11日]] | [飞书](https://reliablesense.feishu.cn/docx/EGwqdnH6voVInSxT8eicfj7znPf) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
-| 文字记录：办公室 CLE 数据配置及墨水屏问题会议 2025年8月19日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/文字记录：办公室 CLE 数据配置及墨水屏问题会议 2025年8月19日]] | [飞书](https://reliablesense.feishu.cn/docx/QG3ld8j2joWsEDxVOFocVLrAnOg) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
-| 文字记录：平台重启及相关技术问题研讨 2025年5月31日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/文字记录：平台重启及相关技术问题研讨 2025年5月31日]] | [飞书](https://reliablesense.feishu.cn/docx/LRjhdZLUeoMIyKxAoIyciR1qneg) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
-| 智能纪要：办公室 CLE 数据配置及墨水屏问题会议 2025年8月19日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/智能纪要：办公室 CLE 数据配置及墨水屏问题会议 2025年8月19日]] | [飞书](https://reliablesense.feishu.cn/docx/XAwMd4UStoorpRxKG3scYBLbnQe) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
+| 文字记录：launchable查询及告警管理问题讨论 2026年3月12日.md | [[4-Archives/Notes/Feishu/云空间/文字记录：launchable查询及告警管理问题讨论 2026年3月12日]] | [飞书](https://reliablesense.feishu.cn/docx/ZUWmdKM1yogZNuxSWYocJO3ynpg) | → 提取 | `2-Areas/Work/产品研发/会议纪要/` |
+| 文字记录：代码修改：Beacon与网关定位差异 2026年3月11日.md | [[4-Archives/Notes/Feishu/云空间/文字记录：代码修改：Beacon与网关定位差异 2026年3月11日]] | [飞书](https://reliablesense.feishu.cn/docx/NoSpdy20moXWLWxGp0hcjFa2n3f) | → 提取 | `2-Areas/Work/产品研发/会议纪要/` |
+| 智能纪要：launchable查询及告警管理问题讨论 2026年3月12日.md | [[4-Archives/Notes/Feishu/云空间/智能纪要：launchable查询及告警管理问题讨论 2026年3月12日]] | [飞书](https://reliablesense.feishu.cn/docx/PZD8dz0C6ouiH6xY4HVc1GJjnGh) | → 提取 | `2-Areas/Work/产品研发/会议纪要/` |
+| 智能纪要：代码修改：Beacon与网关定位差异 2026年3月11日.md | [[4-Archives/Notes/Feishu/云空间/智能纪要：代码修改：Beacon与网关定位差异 2026年3月11日]] | [飞书](https://reliablesense.feishu.cn/docx/EGwqdnH6voVInSxT8eicfj7znPf) | → 提取 | `2-Areas/Work/产品研发/会议纪要/` |
+| 文字记录：办公室 CLE 数据配置及墨水屏问题会议 2025年8月19日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/文字记录：办公室 CLE 数据配置及墨水屏问题会议 2025年8月19日]] | [飞书](https://reliablesense.feishu.cn/docx/QG3ld8j2joWsEDxVOFocVLrAnOg) | → 归档 | `4-Archives/Projects/Work/赛峰/会议纪要/` |
+| 文字记录：平台重启及相关技术问题研讨 2025年5月31日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/文字记录：平台重启及相关技术问题研讨 2025年5月31日]] | [飞书](https://reliablesense.feishu.cn/docx/LRjhdZLUeoMIyKxAoIyciR1qneg) | → 归档 | `1-Projects/Work/洛阳化工厂/会议纪要/` |
+| 智能纪要：办公室 CLE 数据配置及墨水屏问题会议 2025年8月19日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/智能纪要：办公室 CLE 数据配置及墨水屏问题会议 2025年8月19日]] | [飞书](https://reliablesense.feishu.cn/docx/XAwMd4UStoorpRxKG3scYBLbnQe) | → 归档 | `4-Archives/Projects/Work/赛峰/会议纪要/` |
 
 #### 产品研发（8 个）
 
@@ -472,7 +472,7 @@ created: 2026-04-11
 | 前端运维手册.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/前端运维手册]] | [飞书](https://reliablesense.feishu.cn/docx/CT42dawUcoGhYLx2UIjcjVuTnYf) | → 提取 | `2-Areas/Work/运维管理/前端运维手册.md` |
 | 后端运维手册.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/后端运维手册]] | [飞书](https://reliablesense.feishu.cn/docx/OGLIdpLsJoaVecxBWuZcD41xnEf) | → 提取 | `2-Areas/Work/运维管理/后端运维手册.md` |
 | 新太运维手册.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/新太运维手册]] | [飞书](https://reliablesense.feishu.cn/docx/NFOVdlWSFoZJ91xTXMbcvY7mnSg) | → 提取 | `1-Projects/Work/新太项目/新太运维手册.md` | 新太项目专用运维手册 |
-| 区域功能后端开发文档.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/区域功能后端开发文档]] | [飞书](https://reliablesense.feishu.cn/docx/JknBdu9hEon9gJxuC4ycEBhOnjb) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
+| 区域功能后端开发文档.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/区域功能后端开发文档]] | [飞书](https://reliablesense.feishu.cn/docx/JknBdu9hEon9gJxuC4ycEBhOnjb) | → 提取 | `2-Areas/Work/产品研发/区域功能后端开发文档.md` |
 | 数据库操作说明.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/数据库操作说明]] | [飞书](https://reliablesense.feishu.cn/docx/KjS8dWiAvoxdCIxgkEEcDktinSU) | → 提取 | `2-Areas/Work/运维管理/数据库操作说明.md` |
 | 数据库 pg-backup 使用方法说明.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/数据库 pg-backup 使用方法说明]] | [飞书](https://reliablesense.feishu.cn/docx/LfEodRSmnoOopsxju9kckxCtnng) | → 提取 | `2-Areas/Work/运维管理/pg-backup使用方法.md` |
 | 综合定位系统运维白皮书.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/综合定位系统运维白皮书]] | [飞书](https://reliablesense.feishu.cn/docx/AMuadobIrozdlZxG96gcHgtPnxe) | → 提取 | `1-Projects/Work/广州机场/综合定位系统运维白皮书.md` | 广州机场运维白皮书 |
@@ -488,11 +488,11 @@ created: 2026-04-11
 
 | 文件 | 本地路径 | 飞书链接 | 决策 | 目标路径 |
 |------|---------|---------|------|---------|
-| 升级文档--20260126.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/升级文档/升级文档--20260126]] | [飞书](https://reliablesense.feishu.cn/docx/YNlKdlNzMogEq3xSsrscEDcQnqg) | → 提取 | `2-Areas/Work/运维管理/平台升级文档-最新版.md` |
-| 导航服务器更新文档.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/升级文档/导航服务器更新文档]] | [飞书](https://reliablesense.feishu.cn/docx/Ffvddci64oATfcx9BVbckMwgnnh) | → 提取 | `2-Areas/Work/运维管理/导航服务器更新文档.md` |
-| 导航服务器重启文档.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/升级文档/导航服务器重启文档]] | [飞书](https://reliablesense.feishu.cn/docx/JusGdT3I3oe2guxmy6SclellnYe) | → 提取 | `2-Areas/Work/运维管理/导航服务器重启文档.md` |
-| 2.5升级文档.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/升级文档/2.5升级文档]] | [飞书](https://reliablesense.feishu.cn/docx/K2X3di1MWo7vymxykJecGQoZnFb) | 留归档 | 旧版本 |
-| 2.4升级版本流程.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/升级文档/2.4升级版本流程]] | [飞书](https://reliablesense.feishu.cn/docx/YtbEdiE8boGjbyxtPK3cB3tXnmg) | 留归档 | 旧版本 |
+| 升级文档--20260126.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/升级文档/升级文档--20260126]] | [飞书](https://reliablesense.feishu.cn/docx/YNlKdlNzMogEq3xSsrscEDcQnqg) | → 提取 | `1-Projects/Work/麦钉项目/升级文档-最新版.md` |
+| 导航服务器更新文档.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/升级文档/导航服务器更新文档]] | [飞书](https://reliablesense.feishu.cn/docx/Ffvddci64oATfcx9BVbckMwgnnh) | → 归档 | `4-Archives/Projects/Work/百度水厂/导航服务器更新文档.md` |
+| 导航服务器重启文档.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/升级文档/导航服务器重启文档]] | [飞书](https://reliablesense.feishu.cn/docx/JusGdT3I3oe2guxmy6SclellnYe) | → 归档 | `4-Archives/Projects/Work/百度水厂/导航服务器重启文档.md` |
+| 2.5升级文档.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/升级文档/2.5升级文档]] | [飞书](https://reliablesense.feishu.cn/docx/K2X3di1MWo7vymxykJecGQoZnFb) | → 提取 | `2-Areas/Work/运维管理/平台2.5升级文档.md` |
+| 2.4升级版本流程.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/升级文档/2.4升级版本流程]] | [飞书](https://reliablesense.feishu.cn/docx/YtbEdiE8boGjbyxtPK3cB3tXnmg) | → 提取 | `2-Areas/Work/运维管理/平台2.4升级版本流程.md` |
 
 ### 4c. 交付文档
 
