@@ -1195,14 +1195,14 @@ created: 2026-04-11
 
 ### 进行中项目（→ `1-Projects/Work/`）
 
-| 项目名 | 飞书来源目录 | 飞书链接 | 目标路径 |
-|--------|------------|---------|---------|
-| 广州机场 | 004. 广州机场-综合定位 + 005. 移动应用平台 | [飞书](https://reliablesense.feishu.cn/drive/folder/NQ2RfyZM7lO2iadqk3rcmDjPnsb) [飞书](https://reliablesense.feishu.cn/drive/folder/D0HIfmaPgleaANd8Cw1cDwpGnhb) | `1-Projects/Work/广州机场/` |
-| 新太项目 | 998. 售后项目/内蒙新太元铬业 | [飞书](https://reliablesense.feishu.cn/drive/folder/IGJBfaqbJljC6adrtbCcumrrnCf) | `1-Projects/Work/新太项目/` |
-| 上港仓储管理 | 002. 上海上港 | [飞书](https://reliablesense.feishu.cn/drive/folder/IwSpfxmL5lfpO8dLuoccbdnLnre) | `1-Projects/Work/上港仓储管理/` |
-| 洛阳化工厂 | 998. 售后项目/麦钉洛阳石化 | [飞书](https://reliablesense.feishu.cn/drive/folder/S3JWftxHWl14R5dz9FncpUPUnsd) | `1-Projects/Work/洛阳化工厂/` |
-| 南宁机场 | 南宁机场项目 | [飞书](https://reliablesense.feishu.cn/drive/folder/JuNOf2llHlkIa9dKw73cJm5pn3w) | `1-Projects/Work/南宁机场/` |
-| 麦钉项目 | 998. 售后项目/麦钉 + 红柳林/韩家村/柠条塔/李家壕等 | [飞书](https://reliablesense.feishu.cn/drive/folder/RTvgfEDMZlvXcod1aQScqUCdnXb) | `1-Projects/Work/麦钉项目/` |
+| 项目名 | 飞书来源目录 | 飞书链接 | 目标路径 | 关键字 |
+|--------|------------|---------|---------|--------|
+| 广州机场 | 004. 广州机场-综合定位 + 005. 移动应用平台 | [飞书](https://reliablesense.feishu.cn/drive/folder/NQ2RfyZM7lO2iadqk3rcmDjPnsb) [飞书](https://reliablesense.feishu.cn/drive/folder/D0HIfmaPgleaANd8Cw1cDwpGnhb) | `1-Projects/Work/广州机场/` | `综合定位`, `A域/B域`, `巡检app`, `AESB`, `TCDM`, `gjtsg`, `shwl_gzhft` |
+| 新太项目 | 998. 售后项目/内蒙新太元铬业 | [飞书](https://reliablesense.feishu.cn/drive/folder/IGJBfaqbJljC6adrtbCcumrrnCf) | `1-Projects/Work/新太项目/` | `新太`, `新钢联`, `料棚`, `卸料`, `上料`, `铲车`, `堆垛`, `xintai` |
+| 上港仓储管理 | 002. 上海上港 | [飞书](https://reliablesense.feishu.cn/drive/folder/IwSpfxmL5lfpO8dLuoccbdnLnre) | `1-Projects/Work/上港仓储管理/` | `上港`, `仓储`, `出入库`, `RFID`, `shwl_shsg` |
+| 洛阳化工厂 | 998. 售后项目/麦钉洛阳石化 | [飞书](https://reliablesense.feishu.cn/drive/folder/S3JWftxHWl14R5dz9FncpUPUnsd) | `1-Projects/Work/洛阳化工厂/` | `洛阳`, `石化`, `化工`, `宏兴`, `lyrydw`, `lyhx` |
+| 南宁机场 | 南宁机场项目 | [飞书](https://reliablesense.feishu.cn/drive/folder/JuNOf2llHlkIa9dKw73cJm5pn3w) | `1-Projects/Work/南宁机场/` | `南宁机场` |
+| 麦钉项目 | 998. 售后项目/麦钉 + 红柳林/韩家村/柠条塔/李家壕等 | [飞书](https://reliablesense.feishu.cn/drive/folder/RTvgfEDMZlvXcod1aQScqUCdnXb) | `1-Projects/Work/麦钉项目/` | `红柳林`, `李家壕`, `韩家村`, `高安屯`, `柠条塔`, `madinat_hll`, `madinat_xmc`, `madinat_hjc`, `madinat_gat`, `madinat_ntt` |
 
 ### 已结束项目（→ `4-Archives/Projects/Work/`）
 
@@ -1252,19 +1252,19 @@ created: 2026-04-11
 
 #### 003. 中东电子厂
 
-| 项目名 | 飞书来源目录 | 飞书链接 |
-|--------|------------|---------|
-| 中东电子厂 | 003. 中东电子厂客户 | [飞书](https://reliablesense.feishu.cn/drive/folder/UF9cfyxN7lnWIwd02auc28fFnOg) |
+| 项目名 | 飞书来源目录 | 飞书链接 | 归档方式 | 关键字 |
+|--------|------------|---------|---------|--------|
+| 中东电子厂 | 003. 中东电子厂客户 | [飞书](https://reliablesense.feishu.cn/drive/folder/UF9cfyxN7lnWIwd02auc28fFnOg) | 📁 Project | `中东电子厂`, `伊朗`, `波斯语` |
 
 #### 其他已结束项目
 
-| 项目名 | 飞书来源目录 | 飞书链接 |
-|--------|------------|---------|
-| 中联核信 | 中联核信 | [飞书](https://reliablesense.feishu.cn/drive/folder/LaOOfNGfBlvZqOdTmgtcRQzxnJc) |
-| 红点定位 | 红点定位 | [飞书](https://reliablesense.feishu.cn/docx/YBASdNrzWo8e9ExCrZYcdClTnfg) |
-| 嘉盛工厂 | 王宗光/项目资料/嘉盛工厂 | [飞书](https://reliablesense.feishu.cn/drive/folder/Q4jDfQS0alQqv2d0LjWcSR6rnVd) |
-| 博实结 | 王宗光/项目资料/博实结 | [飞书](https://reliablesense.feishu.cn/drive/folder/BudrfapCnl9fLkd8Rl3cXhwjnve) |
-| 哒咖项目 | （画板文档） | |
+| 项目名 | 飞书来源目录 | 飞书链接 | 归档方式 | 关键字 |
+|--------|------------|---------|---------|--------|
+| 中联核信 | 中联核信 | [飞书](https://reliablesense.feishu.cn/drive/folder/LaOOfNGfBlvZqOdTmgtcRQzxnJc) | 📁 Project | `中联核信`, `核信` |
+| 红点定位 | 红点定位 | [飞书](https://reliablesense.feishu.cn/docx/YBASdNrzWo8e9ExCrZYcdClTnfg) | 📁 Project | `红点定位`, `redpoint` |
+| 嘉盛工厂 | 王宗光/项目资料/嘉盛工厂 | [飞书](https://reliablesense.feishu.cn/drive/folder/Q4jDfQS0alQqv2d0LjWcSR6rnVd) | 📁 Project | `嘉盛` |
+| 博实结 | 王宗光/项目资料/博实结 | [飞书](https://reliablesense.feishu.cn/drive/folder/BudrfapCnl9fLkd8Rl3cXhwjnve) | 📁 Project | `博实结`, `EG10E` |
+| 哒咖项目 | （画板文档） | | 📋 业务管理 | `哒咖` |
 
 #### 999. 归档项目
 
