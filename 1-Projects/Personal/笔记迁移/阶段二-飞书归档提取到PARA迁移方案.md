@@ -434,7 +434,7 @@ created: 2026-04-11
 
 | 文件 | 本地路径 | 飞书链接 | 分类 | 目标路径 |
 |------|---------|---------|------|---------|
-| 地图管理的问题.md | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/地图管理问题/地图管理的问题]] | [飞书](https://reliablesense.feishu.cn/docx/doxcnesMSLP6dXGeKzB6EibeSCx) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
+| 地图管理的问题.md | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/地图管理问题/地图管理的问题]] | [飞书](https://reliablesense.feishu.cn/docx/doxcnesMSLP6dXGeKzB6EibeSCx) | 留归档 | - |
 | Help Center Template.md | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/Help Center Template]] | [飞书](https://reliablesense.feishu.cn/docx/DaQhd5gMxowrj6xCReccmQKanIg) | → 提取 | `2-Areas/Work/产品研发/` | 产品帮助中心模板（英文） |
 | SaaS使用手册V4 new 英文.docx | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/SaaS使用手册V4 new 英文.docx]] | [飞书](https://reliablesense.feishu.cn/file/boxcnrTNYMWwqMq49WzzapEj30g) | → 提取 | `2-Areas/Work/产品研发/` | 产品 SaaS 英文使用手册 |
 | SaaS使用手册V4 new.docx | [[4-Archives/Notes/Feishu/云空间/孙永霖的个人文档/doc/SaaS使用手册V4 new.docx]] | [飞书](https://reliablesense.feishu.cn/file/boxcnKrzYX5prPEiZIv33AL6mlc) | → 提取 | `2-Areas/Work/产品研发/` | 产品 SaaS 使用手册 |
@@ -1012,11 +1012,11 @@ created: 2026-04-11
 | 部门季报/半年报/年报 | docx | [飞书](https://reliablesense.feishu.cn/docx/AuQldFCasoVwtLxNejocWWv8nqg) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` | 部门报告 |
 | 车间定位项目立项报告 | docx | [飞书](https://reliablesense.feishu.cn/docx/Iw5cdoeumo3fVhxCZjYcw8j4nBc) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` | 历史立项 |
 | 需求及 Bug 管理 | bitable | [飞书](https://reliablesense.feishu.cn/base/ZmmjbljSpa3KWBskm40cPgWGnPg) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` | bitable |
-| 问题记录-2023-09-22 | sheet | [飞书](https://reliablesense.feishu.cn/sheets/ILedsU7eShMXojtZmy0cTiHln9c) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` | 历史问题记录 |
-| 室内定位系统工作进度 | sheet | [飞书](https://reliablesense.feishu.cn/sheets/Xl6HsOeCMhUrDwtMewMcElDGnyd) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` | 历史进度 |
-| 招标需求 | docx | [飞书](https://reliablesense.feishu.cn/docx/NQXudjxpjo39fpxEYencmva4nke) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` | 历史招标 |
+| 问题记录-2023-09-22 | sheet | [飞书](https://reliablesense.feishu.cn/sheets/ILedsU7eShMXojtZmy0cTiHln9c) | 留归档 | - | 历史问题记录 |
+| 室内定位系统工作进度 | sheet | [飞书](https://reliablesense.feishu.cn/sheets/Xl6HsOeCMhUrDwtMewMcElDGnyd) | 留归档 | - | 历史进度 |
+| 招标需求 | docx | [飞书](https://reliablesense.feishu.cn/docx/NQXudjxpjo39fpxEYencmva4nke) | → 归档 | `4-Archives/Projects/Work/武汉机场/` | 武汉机场招标需求 |
 | 后端翻译 | docx | [飞书](https://reliablesense.feishu.cn/docx/XULYdzrgOoC9TpxsG2GcTFBJnLf) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` | 翻译文件 |
-| 核心物联资料.zip | file | [飞书](https://reliablesense.feishu.cn/file/MAbLblaVGoQUsEx9a4NcxF5Kn0g) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` | 压缩包 |
+| 核心物联资料.zip | file | [飞书](https://reliablesense.feishu.cn/file/MAbLblaVGoQUsEx9a4NcxF5Kn0g) | → 提取 | `2-Areas/Work/设备管理/核芯物联蓝牙AOA/` | 核芯物联资料 |
 | 2023-05-07 20-54-59.mkv | file | [飞书](https://reliablesense.feishu.cn/file/BRc2bmrbKoPzjvxIKmPcBoOFnof) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` | 录屏文件 |
 
 ---
@@ -1028,7 +1028,7 @@ created: 2026-04-11
 | saas英文版 | docx | [飞书](https://reliablesense.feishu.cn/docx/LZgYdpRnzouGpKxnOdZc4vDRnPg) | → 提取 | `2-Areas/Work/产品研发/` | SaaS英文文档 |
 | SaaS使用手册V4 new 英文.docx | file | [飞书](https://reliablesense.feishu.cn/file/boxcnrTNYMWwqMq49WzzapEj30g) | → 提取 | `2-Areas/Work/产品研发/` | SaaS英文手册 |
 | SaaS使用手册V4 new.docx | file | [飞书](https://reliablesense.feishu.cn/file/boxcnKrzYX5prPEiZIv33AL6mlc) | → 提取 | `2-Areas/Work/产品研发/` | SaaS中文手册 |
-| 地图管理的问题 | docx | [飞书](https://reliablesense.feishu.cn/docx/doxcnesMSLP6dXGeKzB6EibeSCx) | → 提取 | `3-Resources/Tech/问题解决/` | 地图管理问题 |
+| 地图管理的问题 | docx | [飞书](https://reliablesense.feishu.cn/docx/doxcnesMSLP6dXGeKzB6EibeSCx) | 留归档 | - | 地图管理问题 |
 | Help Center Template | docx | [飞书](https://reliablesense.feishu.cn/docx/DaQhd5gMxowrj6xCReccmQKanIg) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/孙永霖/` | 模板文档 |
 | 需翻译！！Matthias 英文稿 - 已翻译 | docx | [飞书](https://reliablesense.feishu.cn/docx/ZYXldX00mosg8cxjIAucj6pPnRc) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/孙永霖/` | 翻译稿 |
 | 需翻译！！Matthias 英文稿 | docx | [飞书](https://reliablesense.feishu.cn/docx/Ks4UdBsYPoMzuaxAqvpcVabDnFd) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/孙永霖/` | 翻译稿 |
@@ -1044,14 +1044,14 @@ created: 2026-04-11
 |------|------|---------|------|---------|------|
 | 广州机场综合定位 v.2025-12-19 | bitable | [飞书](https://reliablesense.feishu.cn/base/NbIPbswwSaCfPpsWak7cbCHsnwe) | → 提取 | `1-Projects/Work/广州机场/` | 广州机场综合定位数据 |
 | 信息平台消息交换标准协议_1.0.0(1).doc | file | [飞书](https://reliablesense.feishu.cn/file/RGtdbb0EYogQjHxMaxmcnf57n5b) | → 归档 | `4-Archives/Projects/Work/武汉机场/` | 武汉机场接口协议 |
-| 李家豪轨迹室内异常.png | file | [飞书](https://reliablesense.feishu.cn/file/NYJ9b9PpRo1IgMxmAvgcjaYZnMh) | 留归档 | - | 临时截图 |
-| 韩家村统计时长缺失.png | file | [飞书](https://reliablesense.feishu.cn/file/B5bHb0v8goCfnZxMCD4cyJvjnn9) | 留归档 | - | 临时截图 |
+| 李家豪轨迹室内异常.png | file | [飞书](https://reliablesense.feishu.cn/file/NYJ9b9PpRo1IgMxmAvgcjaYZnMh) | → 归档 | `1-Projects/Work/麦钉项目/` | 麦钉项目截图 |
+| 韩家村统计时长缺失.png | file | [飞书](https://reliablesense.feishu.cn/file/B5bHb0v8goCfnZxMCD4cyJvjnn9) | → 归档 | `1-Projects/Work/麦钉项目/` | 麦钉项目截图 |
 | 教学比赛.mov | file | [飞书](https://reliablesense.feishu.cn/file/AUT0b1zsdo1SQdxXCgHc9epunIf) | 留归档 | - | 个人文件 |
-| 宏兴裁切.rar | file | [飞书](https://reliablesense.feishu.cn/file/P5MBb8Cy6oYsYfx3MZjc8BhonCd) | 留归档 | - | 压缩包 |
+| 宏兴裁切.rar | file | [飞书](https://reliablesense.feishu.cn/file/P5MBb8Cy6oYsYfx3MZjc8BhonCd) | → 归档 | `1-Projects/Work/洛阳化工厂/` | 洛阳项目文件 |
 | FRP_GithubArm64_version_1_3_6.apk | file | [飞书](https://reliablesense.feishu.cn/file/YMF3bIlvFoTvxaxPI6IcKLwMnNc) | 留归档 | - | 安装包 |
 | 定位平台安装文件及文档.zip | file | [飞书](https://reliablesense.feishu.cn/file/Hr8bbKyRUoKdDtxgtLhcfDCknug) | 留归档 | - | 安装包 |
-| madinat_hjc.zip | file | [飞书](https://reliablesense.feishu.cn/file/UnIjb9C7qocVGExPTZpc9wkAnog) | 留归档 | - | 项目数据包 |
-| 转化后数据.zip | file | [飞书](https://reliablesense.feishu.cn/file/NXVgbTKQioF6Kkx26yScwwRbnjg) | 留归档 | - | 临时数据 |
+| madinat_hjc.zip | file | [飞书](https://reliablesense.feishu.cn/file/UnIjb9C7qocVGExPTZpc9wkAnog) | → 归档 | `1-Projects/Work/麦钉项目/` | 麦钉项目数据包 |
+| 转化后数据.zip | file | [飞书](https://reliablesense.feishu.cn/file/NXVgbTKQioF6Kkx26yScwwRbnjg) | → 归档 | `1-Projects/Work/麦钉项目/` | 麦钉项目数据 |
 
 ---
 
@@ -1061,10 +1061,10 @@ created: 2026-04-11
 
 | 文件 | 类型 | 飞书链接 | 决策 | 目标路径 | 理由 |
 |------|------|---------|------|---------|------|
-| 库房管理 | bitable | [飞书](https://reliablesense.feishu.cn/base/PF71bTA9Yaqo3yscmxlcsdsnnVU) | 留归档 | - | bitable保留链接 |
-| 合同订单管理 | bitable | [飞书](https://reliablesense.feishu.cn/base/bascnemc8tozwPeCvL2GmUfG9Tg) | 留归档 | - | bitable保留链接 |
+| 库房管理 | bitable | [飞书](https://reliablesense.feishu.cn/base/PF71bTA9Yaqo3yscmxlcsdsnnVU) | → 提取 | `2-Areas/Work/设备管理/` | 库房管理 |
+| 合同订单管理 | bitable | [飞书](https://reliablesense.feishu.cn/base/bascnemc8tozwPeCvL2GmUfG9Tg) | → 提取 | `2-Areas/Work/综合管理/` | 合同订单管理 |
 | 任务管理 | bitable | [飞书](https://reliablesense.feishu.cn/base/bascnm0yQj7bRGrIZE1vSUXMOGg) | 留归档 | - | bitable保留链接 |
-| 组织架构图 | doc | [飞书](https://reliablesense.feishu.cn/docs/doccnyI23DHQUFVPNJX7wFsoF0f) | → 提取 | `2-Areas/Work/综合管理/` | 公司组织架构 |
+| 组织架构图 | doc | [飞书](https://reliablesense.feishu.cn/docs/doccnyI23DHQUFVPNJX7wFsoF0f) | → 提取 | `2-Areas/Work/团队管理/` | 公司组织架构 |
 | 莱讯公司文档分类 | mindnote | [飞书](https://reliablesense.feishu.cn/mindnotes/bmncnqFUTE8JqcJrJH049rDxF9b) | 留归档 | - | mindnote保留链接 |
 
 ### ~参考资料（留归档）
@@ -1098,22 +1098,22 @@ created: 2026-04-11
 
 | 文件 | 类型 | 飞书链接 | 决策 | 理由 |
 |------|------|---------|------|------|
-| 画板文档 | docx | [飞书](https://reliablesense.feishu.cn/docx/RTWGd8ENYo9JSOxqoiRcEH3mnVf) | 留归档 | 画板文档无实质内容 |
+| 画板文档 | docx | [飞书](https://reliablesense.feishu.cn/docx/RTWGd8ENYo9JSOxqoiRcEH3mnVf) | → 归档 | `4-Archives/Projects/Work/哒咖项目/` | 哒咖项目画板文档 |
 
 ### 项目开发管理散落文件
 
 | 文件 | 类型 | 飞书链接 | 决策 | 理由 |
 |------|------|---------|------|------|
-| 项目管理流程 | mindnote | [飞书](https://reliablesense.feishu.cn/mindnotes/N0oObHdeam3taTnEDovcLbUFnmc) | 留归档 | mindnote保留链接 |
-| 需求生命周期 | mindnote | [飞书](https://reliablesense.feishu.cn/mindnotes/QoDWb7hy7mPUXMnjnVDc7jArnvg) | 留归档 | mindnote保留链接 |
-| 项目迭代流程 | mindnote | [飞书](https://reliablesense.feishu.cn/mindnotes/bmncnMWfRCAQqIY4UdwaMe12dVb) | 留归档 | mindnote保留链接 |
+| 项目管理流程 | mindnote | [飞书](https://reliablesense.feishu.cn/mindnotes/N0oObHdeam3taTnEDovcLbUFnmc) | → 提取 | `2-Areas/Work/业务管理/` | 项目管理流程思维导图 |
+| 需求生命周期 | mindnote | [飞书](https://reliablesense.feishu.cn/mindnotes/QoDWb7hy7mPUXMnjnVDc7jArnvg) | → 提取 | `2-Areas/Work/产品研发/` | 需求生命周期思维导图 |
+| 项目迭代流程 | mindnote | [飞书](https://reliablesense.feishu.cn/mindnotes/bmncnMWfRCAQqIY4UdwaMe12dVb) | → 提取 | `2-Areas/Work/产品研发/` | 项目迭代流程思维导图 |
 
 ### 项目运维管理散落文件
 
 | 文件 | 类型 | 飞书链接 | 决策 | 目标路径 | 理由 |
 |------|------|---------|------|---------|------|
-| 莱讯科技-小程序管理文档 | docx | [飞书](https://reliablesense.feishu.cn/docx/JgCpdERLho9N3zxiGpqcQ7GAnov) | → 提取 | `3-Resources/Tech/知识卡片/` | 小程序管理 |
-| 位置压测相关服务器配置.xlsx | file | [飞书](https://reliablesense.feishu.cn/file/JPHkbo3MZoCvClxqavvcqNvynKf) | → 提取 | `3-Resources/Tech/环境配置/` | 压测服务器配置 |
+| 莱讯科技-小程序管理文档 | docx | [飞书](https://reliablesense.feishu.cn/docx/JgCpdERLho9N3zxiGpqcQ7GAnov) | → 提取 | `2-Areas/Work/产品研发/` | 小程序管理 |
+| 位置压测相关服务器配置.xlsx | file | [飞书](https://reliablesense.feishu.cn/file/JPHkbo3MZoCvClxqavvcqNvynKf) | → 提取 | `2-Areas/Work/产品研发/` | 压测服务器配置 |
 
 ---
 
