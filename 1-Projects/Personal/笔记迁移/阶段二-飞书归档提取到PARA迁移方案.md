@@ -471,26 +471,26 @@ created: 2026-04-11
 |------|---------|---------|------|---------|
 | 前端运维手册.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/前端运维手册]] | [飞书](https://reliablesense.feishu.cn/docx/CT42dawUcoGhYLx2UIjcjVuTnYf) | → 提取 | `2-Areas/Work/运维管理/前端运维手册.md` |
 | 后端运维手册.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/后端运维手册]] | [飞书](https://reliablesense.feishu.cn/docx/OGLIdpLsJoaVecxBWuZcD41xnEf) | → 提取 | `2-Areas/Work/运维管理/后端运维手册.md` |
-| 新太运维手册.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/新太运维手册]] | [飞书](https://reliablesense.feishu.cn/docx/NFOVdlWSFoZJ91xTXMbcvY7mnSg) | → 提取 | `1-Projects/Work/新太项目/新太运维手册.md` | 新太项目专用运维手册 |
+| 新太运维手册.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/998. 售后项目/内蒙新太元铬业/新太运维手册]] | [飞书](https://reliablesense.feishu.cn/docx/NFOVdlWSFoZJ91xTXMbcvY7mnSg) | → 提取 | `1-Projects/Work/新太项目/新太运维手册.md` | 新太项目专用运维手册 |
 | 区域功能后端开发文档.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/区域功能后端开发文档]] | [飞书](https://reliablesense.feishu.cn/docx/JknBdu9hEon9gJxuC4ycEBhOnjb) | → 提取 | `2-Areas/Work/产品研发/区域功能后端开发文档.md` |
 | 数据库操作说明.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/数据库操作说明]] | [飞书](https://reliablesense.feishu.cn/docx/KjS8dWiAvoxdCIxgkEEcDktinSU) | → 提取 | `2-Areas/Work/运维管理/数据库操作说明.md` |
 | 数据库 pg-backup 使用方法说明.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/数据库 pg-backup 使用方法说明]] | [飞书](https://reliablesense.feishu.cn/docx/LfEodRSmnoOopsxju9kckxCtnng) | → 提取 | `2-Areas/Work/运维管理/pg-backup使用方法.md` |
-| 综合定位系统运维白皮书.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/综合定位系统运维白皮书]] | [飞书](https://reliablesense.feishu.cn/docx/AMuadobIrozdlZxG96gcHgtPnxe) | → 提取 | `1-Projects/Work/广州机场/综合定位系统运维白皮书.md` | 广州机场运维白皮书 |
-| 综合定位系统运维白皮书编写内容框架.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/综合定位系统运维白皮书编写内容框架]] | [飞书](https://reliablesense.feishu.cn/docx/GkcQdk58kocgF7x6ytNc4ikYnvg) | → 提取 | `1-Projects/Work/广州机场/综合定位系统运维白皮书编写内容框架.md` | 广州机场 |
-| 移动应用平台运维白皮书编写内容框架.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/移动应用平台运维白皮书编写内容框架]] | [飞书](https://reliablesense.feishu.cn/docx/AhnkdGgzroBd8Cx9KxDctcGjnAg) | → 提取 | `1-Projects/Work/广州机场/移动应用平台运维白皮书编写内容框架.md` | 广州机场 |
-| 综合定位系统进程清单编写内容框架.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/综合定位系统进程清单编写内容框架]] | [飞书](https://reliablesense.feishu.cn/docx/NibpdCR4coY77ex8qIrcRo7Dnjh) | → 提取 | `1-Projects/Work/广州机场/综合定位系统进程清单编写内容框架.md` | 广州机场 |
-| 综合定位系统配置清单编写内容框架.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/综合定位系统配置清单编写内容框架]] | [飞书](https://reliablesense.feishu.cn/docx/JUInd4Gmwo2B29xizZQcJtq0nKe) | → 提取 | `1-Projects/Work/广州机场/综合定位系统配置清单编写内容框架.md` | 广州机场 |
-| 移动应用平台进程清单编写内容框架.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/移动应用平台进程清单编写内容框架]] | [飞书](https://reliablesense.feishu.cn/docx/YCvydrOqHodVj8xC28EcVVMEnRf) | → 提取 | `1-Projects/Work/广州机场/移动应用平台进程清单编写内容框架.md` | 广州机场 |
-| 移动应用平台配置清单编写内容框架.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/移动应用平台配置清单编写内容框架]] | [飞书](https://reliablesense.feishu.cn/docx/Z5SFdZURjogTZ8xsMf0c5g6enos) | → 提取 | `1-Projects/Work/广州机场/移动应用平台配置清单编写内容框架.md` | 广州机场 |
+| 综合定位系统运维白皮书.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/004. 广州机场-综合定位/运维白皮书/综合定位系统运维白皮书]] | [飞书](https://reliablesense.feishu.cn/docx/AMuadobIrozdlZxG96gcHgtPnxe) | → 提取 | `1-Projects/Work/广州机场/综合定位系统运维白皮书.md` | 广州机场运维白皮书 |
+| 综合定位系统运维白皮书编写内容框架.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/004. 广州机场-综合定位/运维白皮书/综合定位系统运维白皮书编写内容框架]] | [飞书](https://reliablesense.feishu.cn/docx/GkcQdk58kocgF7x6ytNc4ikYnvg) | → 提取 | `1-Projects/Work/广州机场/综合定位系统运维白皮书编写内容框架.md` | 广州机场 |
+| 移动应用平台运维白皮书编写内容框架.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/005. 广州机场-移动应用平台/运维白皮书/移动应用平台运维白皮书编写内容框架]] | [飞书](https://reliablesense.feishu.cn/docx/AhnkdGgzroBd8Cx9KxDctcGjnAg) | → 提取 | `1-Projects/Work/广州机场/移动应用平台运维白皮书编写内容框架.md` | 广州机场 |
+| 综合定位系统进程清单编写内容框架.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/004. 广州机场-综合定位/运维白皮书/综合定位系统进程清单编写内容框架]] | [飞书](https://reliablesense.feishu.cn/docx/NibpdCR4coY77ex8qIrcRo7Dnjh) | → 提取 | `1-Projects/Work/广州机场/综合定位系统进程清单编写内容框架.md` | 广州机场 |
+| 综合定位系统配置清单编写内容框架.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/004. 广州机场-综合定位/运维白皮书/综合定位系统配置清单编写内容框架]] | [飞书](https://reliablesense.feishu.cn/docx/JUInd4Gmwo2B29xizZQcJtq0nKe) | → 提取 | `1-Projects/Work/广州机场/综合定位系统配置清单编写内容框架.md` | 广州机场 |
+| 移动应用平台进程清单编写内容框架.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/005. 广州机场-移动应用平台/运维白皮书/移动应用平台进程清单编写内容框架]] | [飞书](https://reliablesense.feishu.cn/docx/YCvydrOqHodVj8xC28EcVVMEnRf) | → 提取 | `1-Projects/Work/广州机场/移动应用平台进程清单编写内容框架.md` | 广州机场 |
+| 移动应用平台配置清单编写内容框架.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/005. 广州机场-移动应用平台/运维白皮书/移动应用平台配置清单编写内容框架]] | [飞书](https://reliablesense.feishu.cn/docx/Z5SFdZURjogTZ8xsMf0c5g6enos) | → 提取 | `1-Projects/Work/广州机场/移动应用平台配置清单编写内容框架.md` | 广州机场 |
 | 数据库字典注释.xlsx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/数据库字典注释.xlsx]] | [飞书](https://reliablesense.feishu.cn/base/WOpRbugDgamNOKsHG7scmCGSnZg) | → 提取 | `2-Areas/Work/产品研发/数据库字典注释.xlsx` | 产品数据库字典 |
 
 ### 4b. 升级文档
 
 | 文件 | 本地路径 | 飞书链接 | 决策 | 目标路径 |
 |------|---------|---------|------|---------|
-| 升级文档--20260126.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/升级文档/升级文档--20260126]] | [飞书](https://reliablesense.feishu.cn/docx/YNlKdlNzMogEq3xSsrscEDcQnqg) | → 提取 | `1-Projects/Work/麦钉项目/升级文档-最新版.md` |
-| 导航服务器更新文档.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/升级文档/导航服务器更新文档]] | [飞书](https://reliablesense.feishu.cn/docx/Ffvddci64oATfcx9BVbckMwgnnh) | → 归档 | `4-Archives/Projects/Work/百度水厂/导航服务器更新文档.md` |
-| 导航服务器重启文档.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/升级文档/导航服务器重启文档]] | [飞书](https://reliablesense.feishu.cn/docx/JusGdT3I3oe2guxmy6SclellnYe) | → 归档 | `4-Archives/Projects/Work/百度水厂/导航服务器重启文档.md` |
+| 升级文档--20260126.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/升级文档/麦钉备份/升级文档--20260126]] | [飞书](https://reliablesense.feishu.cn/docx/YNlKdlNzMogEq3xSsrscEDcQnqg) | → 提取 | `1-Projects/Work/麦钉项目/升级文档-最新版.md` |
+| 导航服务器更新文档.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/998. 售后项目/百度-水厂定位导航平台/导航服务器更新文档]] | [飞书](https://reliablesense.feishu.cn/docx/Ffvddci64oATfcx9BVbckMwgnnh) | → 归档 | `4-Archives/Projects/Work/百度水厂/导航服务器更新文档.md` |
+| 导航服务器重启文档.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/998. 售后项目/百度-水厂定位导航平台/导航服务器重启文档]] | [飞书](https://reliablesense.feishu.cn/docx/JusGdT3I3oe2guxmy6SclellnYe) | → 归档 | `4-Archives/Projects/Work/百度水厂/导航服务器重启文档.md` |
 | 2.5升级文档.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/升级文档/2.5升级文档]] | [飞书](https://reliablesense.feishu.cn/docx/K2X3di1MWo7vymxykJecGQoZnFb) | → 提取 | `2-Areas/Work/运维管理/平台2.5升级文档.md` |
 | 2.4升级版本流程.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/升级文档/2.4升级版本流程]] | [飞书](https://reliablesense.feishu.cn/docx/YtbEdiE8boGjbyxtPK3cB3tXnmg) | → 提取 | `2-Areas/Work/运维管理/平台2.4升级版本流程.md` |
 
@@ -498,13 +498,13 @@ created: 2026-04-11
 
 | 文件 | 本地路径 | 飞书链接 | 决策 | 目标路径 |
 |------|---------|---------|------|---------|
-| 部署手册.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/交付文档/部署手册]] | [飞书](https://reliablesense.feishu.cn/docs/doxcn3NLUHLJwrpSxVsnCtVfTfd) | → 提取 | `2-Areas/Work/运维管理/部署手册.md` |
+| 部署手册.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/998. 售后项目/百度-水厂定位导航平台/项目文档/部署手册]] | [飞书](https://reliablesense.feishu.cn/docs/doxcn3NLUHLJwrpSxVsnCtVfTfd) | → 提取 | `2-Areas/Work/运维管理/部署手册.md` |
 | 部署文档离线版.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/交付文档/部署文档离线版]] | [飞书](https://reliablesense.feishu.cn/docx/LsHXdLWbmogiEKxZtK5c229nnad) | → 提取 | `2-Areas/Work/运维管理/部署文档-离线版.md` |
 | 私有化部署数据库生成步骤.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/交付文档/私有化部署数据库生成步骤]] | [飞书](https://reliablesense.feishu.cn/docx/ArEWdDLrCoeAMpxJV7tc2YC7ntb) | → 提取 | `2-Areas/Work/运维管理/私有化部署-数据库生成步骤.md` |
 | 地图交付标准.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/交付文档/地图交付标准]] | [飞书](https://reliablesense.feishu.cn/docx/CHvwd4VPboHEtpxyhsWcP7PonPe) | → 提取 | `2-Areas/Work/运维管理/地图交付标准.md` |
-| 交接文档.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/交付文档/交接文档]] | [飞书](https://reliablesense.feishu.cn/docx/UOvmd7dz4oFkXVxuq3OczvtrnHf) | → 提取 | `2-Areas/Work/运维管理/项目交接文档.md` |
-| 中间件实施标准化文档.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/交付文档/中间件实施标准化文档]] | [飞书](https://reliablesense.feishu.cn/docx/CmG7d0TpIo93M8xpgWucRUSKnYb) | → 提取 | `2-Areas/Work/运维管理/中间件实施标准化文档.md` |
-| 现场测试实施标准化文档.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/交付文档/现场测试实施标准化文档]] | [飞书](https://reliablesense.feishu.cn/docx/Xsj8dUH5IoKCRuxYRL8ceVTOnKh) | → 提取 | `2-Areas/Work/运维管理/现场测试实施标准化文档.md` |
+| 交接文档.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/交接文档/交接文档]] | [飞书](https://reliablesense.feishu.cn/docx/UOvmd7dz4oFkXVxuq3OczvtrnHf) | → 提取 | `2-Areas/Work/运维管理/项目交接文档.md` |
+| 中间件实施标准化文档.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/中间件实施标准化文档]] | [飞书](https://reliablesense.feishu.cn/docx/CmG7d0TpIo93M8xpgWucRUSKnYb) | → 提取 | `2-Areas/Work/运维管理/中间件实施标准化文档.md` |
+| 现场测试实施标准化文档.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/现场测试实施标准化文档]] | [飞书](https://reliablesense.feishu.cn/docx/Xsj8dUH5IoKCRuxYRL8ceVTOnKh) | → 提取 | `2-Areas/Work/运维管理/现场测试实施标准化文档.md` |
 | 无动力设备管理系统部署指南.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/交付文档/无动力设备管理系统部署指南]] | [飞书](https://reliablesense.feishu.cn/docx/NsKCdYwf3okiEPxw0yScBOeGnNh) | → 提取 | `1-Projects/Work/广州机场/无动力设备管理系统部署指南.md` |
 | 验收会议流程.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/交付文档/验收会议流程]] | [飞书](https://reliablesense.feishu.cn/docx/F9ufd0xoxoa5n0xXlWdcvRrEnJf) | → 提取 | `2-Areas/Work/业务管理/验收会议流程.md` |
 | 验收确认报告.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/交付文档/验收确认报告]] | [飞书](https://reliablesense.feishu.cn/docx/CwTrdyjpIoh9CcxFymscde3Jnq6) | → 提取 | `2-Areas/Work/业务管理/验收确认报告-模板.md` |
@@ -538,7 +538,7 @@ created: 2026-04-11
 | madinat_xmc集群.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/集群资料/madinat_xmc集群]] | [飞书](https://reliablesense.feishu.cn/docs/doccnRbr2ps3Rpla22Se3M7vnFc) | → 提取 | `2-Areas/Work/运维管理/环境配置/` | 麦钉项目（柠条塔） |
 | madinat_sewd集群.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/集群资料/madinat_sewd集群]] | [飞书](https://reliablesense.feishu.cn/docx/SGYudVlmgoEJ0ixNyuhcC94rncf) | → 提取 | `2-Areas/Work/运维管理/环境配置/` | 麦钉项目 |
 | madinat_ntt集群.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/集群资料/madinat_ntt集群]] | [飞书](https://reliablesense.feishu.cn/docx/GmiydvdkdotNEWxPntpcFGXZnmd) | → 提取 | `2-Areas/Work/运维管理/环境配置/` | 麦钉项目 |
-| madinat_lyrydw集群.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/集群资料/madinat_lyrydw集群]] | [飞书](https://reliablesense.feishu.cn/docx/O5P2dVdVMoc3pWx0GVic4cpenhc) | → 提取 | `2-Areas/Work/运维管理/环境配置/` | 洛阳化工厂 |
+| madinat_lyrydw集群.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/集群资料/私有化部署/madinat_lyrydw集群]] | [飞书](https://reliablesense.feishu.cn/docx/O5P2dVdVMoc3pWx0GVic4cpenhc) | → 提取 | `2-Areas/Work/运维管理/环境配置/` | 洛阳化工厂 |
 | madinat_lyhx集群.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/集群资料/madinat_lyhx集群]] | [飞书](https://reliablesense.feishu.cn/docx/HDKcdM8myoW1RExNYvac0N4pnuJ) | → 提取 | `2-Areas/Work/运维管理/环境配置/` | 洛阳化工厂 |
 | xintai_xintai集群.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/集群资料/xintai_xintai集群]] | [飞书](https://reliablesense.feishu.cn/docx/MbA7diPTJosC1Gxn3XPcfdMznVg) | → 提取 | `2-Areas/Work/运维管理/环境配置/` | 新太项目 |
 | gjtsg_zhdl集群.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/集群资料/gjtsg_zhdl集群]] | [飞书](https://reliablesense.feishu.cn/docx/FxjUdZYiyoDWmOxHklhcjvMlnZb) | → 提取 | `2-Areas/Work/运维管理/环境配置/` | 广州机场 |
@@ -561,7 +561,7 @@ created: 2026-04-11
 |------|---------|---------|------|---------|
 | 综合定位系统技术要求.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/基础设施/综合定位系统技术要求]] | [飞书](https://reliablesense.feishu.cn/docx/Gi0MdNC9ToLxM0xfPDCcsKD2nzf) | → 提取 | `1-Projects/Work/广州机场/综合定位系统技术要求.md` | 广州机场技术规格 |
 | 系统功能清单.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/基础设施/系统功能清单]] | [飞书](https://reliablesense.feishu.cn/docx/WdNtdRhPxoN8VoxwzI5cjocCntK) | → 提取 | `1-Projects/Work/广州机场/综合定位系统功能清单.md` | 广州机场功能列表 |
-| 信息安全问题回复.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/基础设施/信息安全问题回复]] | [飞书](https://reliablesense.feishu.cn/docx/YIs2dQZh4o3v3axaC0ccR2TInGe) | → 提取 | `1-Projects/Work/广州机场/信息安全问题回复.md` | 含综合定位系统特征，归广州机场 |
+| 信息安全问题回复.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/998. 售后项目/Bosch 项目/验收文档整理/信息安全问题回复]] | [飞书](https://reliablesense.feishu.cn/docx/YIs2dQZh4o3v3axaC0ccR2TInGe) | → 归档 | `4-Archives/Projects/Work/Bosch/信息安全问题回复.md` | Bosch 项目 |
 | Nexus相关地址.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/基础设施/Nexus相关地址]] | [飞书](https://reliablesense.feishu.cn/docs/doccnMTqpCuBzz3UTWyYm6iiF2e) | → 提取 | `2-Areas/Work/运维管理/Nexus相关地址.md` |
 | 系统架构图.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/基础设施/系统架构图]] | [飞书](https://reliablesense.feishu.cn/docx/IYLtdtwDQoaOetxP9Xkc66jfnPf) | 留归档 | 根目录已提取到产品研发 |
 | 系统架构图-v2.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/基础设施/系统架构图-v2]] | [飞书](https://reliablesense.feishu.cn/docx/JdRpdI6QKoDIICx8qducxh97nWh) | 留归档 | 根目录已提取到产品研发 |
@@ -585,7 +585,7 @@ created: 2026-04-11
 | 软件架构图.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目开发管理/定位平台企业版/软件架构图]] | [飞书](https://reliablesense.feishu.cn/docs/doccnNYXYzLw4jvVOBOTjTmjswh) | → 提取 | `2-Areas/Work/产品研发/定位平台软件架构图.md` |
 | 定位平台后端汇总.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目开发管理/定位平台企业版/定位平台后端汇总]] | [飞书](https://reliablesense.feishu.cn/docs/doccnYL2wLoROVlZqKWO39CnGMh) | → 提取 | `2-Areas/Work/产品研发/定位平台后端汇总.md` |
 | 定位平台关键接口.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目开发管理/定位平台企业版/定位平台关键接口]] | [飞书](https://reliablesense.feishu.cn/docx/ZTNPdFqmQo3zRvxUrZJcsdU4nGg) | → 提取 | `2-Areas/Work/产品研发/定位平台关键接口.md` |
-| 定位平台服务器.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目开发管理/定位平台企业版/定位平台服务器]] | [飞书](https://reliablesense.feishu.cn/docx/UqgAd09BRoZ306xMBW4cvIK2npg) | → 提取 | `2-Areas/Work/产品研发/定位平台服务器说明.md` |
+| 定位平台服务器.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/998. 售后项目/武汉机场/定位平台服务器]] | [飞书](https://reliablesense.feishu.cn/docx/UqgAd09BRoZ306xMBW4cvIK2npg) | → 提取 | `2-Areas/Work/产品研发/定位平台服务器说明.md` |
 | 定位平台操作手册.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目开发管理/定位平台企业版/定位平台操作手册]] | [飞书](https://reliablesense.feishu.cn/docx/A2jXdJxm7o6ilNxFx8ac86MYndh) | → 提取 | `2-Areas/Work/产品研发/定位平台操作手册.md` |
 
 ### 5b. 定位平台定制版
