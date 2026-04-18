@@ -1344,40 +1344,40 @@ created: 2026-04-11
 | MOKO蓝牙 | `设备管理/MOKO蓝牙/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn8QCZ8QW3d8vz2CjJFcXPUd) | 4 | 📂 定位硬件厂商/MOKO | `MOKO`, `RSSI` |
 | 合众思壮GPS | `设备管理/合众思壮GPS/` | [飞书](https://reliablesense.feishu.cn/drive/folder/KS3BfWiA0lszPFdzHPHcltflnre) | 18 | 📂 998.售后项目/合众思壮（整体搬） | `合众思壮` |
 | 博实结GPS | `设备管理/博实结GPS/` | | 4 | 📄 散落：王宗光/项目资料/博实结(13章) — EG10E设备资料 | `博实结`, `EG10E` |
-| 墨水屏E-Ink | `设备管理/墨水屏E-Ink/` | | 2 | 📄 散落：墨水屏数据协议(1章)、E-Ink平台安装和使用手册(13章) | `墨水屏`, `E-Ink`, `电子标牌` |
-| 华云时空 | `设备管理/华云时空/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnulnDAIMY2OG75W9xFgPcqb) | 29 | 📂 合作企业/华云时空 | `华云时空` |
-| 太和电子 | `设备管理/太和电子/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnOYX43nyKPQ8QgDqlmNSDBb) | 24 | 📂 合作企业/太和 | `太和` |
-| 空循环科技 | `设备管理/空循环科技/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn5CQzCM2a2WuDgI4Vix8MTe) | 20 | 📂 合作企业/空循环 | `空循环` |
-| Omlox标准 | `设备管理/Omlox标准/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnQLncLx6t2CPFn41cOAh9vh) | 15 | 📂 合作企业/Omlox | `Omlox` |
-| 技新科技 | `设备管理/技新科技/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn51N82KOJGtQueuinfKCK5c) | 8 | 📂 合作企业/技新科技 | `技新` |
-| Seeklane | `设备管理/Seeklane/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnc1qIh2bDM7Vu1kAQhIirJc) | 6 | 📂 合作企业/Seeklane | `Seeklane` |
-| NAVIECARE | `设备管理/NAVIECARE/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn8zvDHtZ8BKmirwSypSvmRg) | 6 | 📂 合作企业/NAVIECARE | `NAVIECARE`, `固定资产定位器` |
-| Keeplink | `设备管理/Keeplink/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnbJ44nH3c2PbShIdBpBY1fe) | 6 | 📂 合作企业/Keeplink | `Keeplink` |
-| Cainiao菜鸟 | `设备管理/Cainiao菜鸟/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnY6fK1Z3wPfNmlj7ZCC2Xle) | 6 | 📂 合作企业/Cainiao | `Cainiao`, `菜鸟` |
-| 深圳讯通 | `设备管理/深圳讯通/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnCsb1aNaiazOQiih0sN7lcg) | 5 | 📂 合作企业/深圳讯通 | `深圳讯通` |
-| TP-LINK | `设备管理/TP-LINK/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnK8XL2Y2qXe93G5LWt0f8HG) | 5 | 📂 合作企业/TP-LINK | `TP-LINK` |
-| 麦思物联 | `设备管理/麦思物联/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnIFzxWuwJd4glZ1JR3lDIUd) | 4 | 📂 合作企业/麦思物联 | `麦思物联` |
-| 吾控健康 | `设备管理/吾控健康/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnM0EeDq7fNjHTMRz4pFCCNd) | 3 | 📂 合作企业/深圳吾控 | `吾控`, `健康科技` |
-| 成都顺势为 | `设备管理/成都顺势为/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnRAr9w9fOsC73011wxqkMVp) | 3 | 📂 合作企业/成都顺势为 | `顺势为` |
-| 威思客 | `设备管理/威思客/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnl6Gfv6ZGcpElm3qs4vsWYf) | 2 | 📂 合作企业/威思客 | `威思客` |
-| 马蹄铁科技 | `设备管理/马蹄铁科技/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnZhyASlAoZjhKqy6xCRlLWh) | 1 | 📂 合作企业/马蹄铁 | `马蹄铁` |
-| 浪潮集团 | `设备管理/浪潮集团/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnQYvZc2pFzMwFoyCtCtZFJb) | 1 | 📂 合作企业/浪潮 | `浪潮` |
+| 阿法迪蓝牙墨水屏 | `设备管理/阿法迪蓝牙墨水屏/` | | 2 | 📄 散落：墨水屏数据协议(1章)、E-Ink平台安装和使用手册(13章) | `墨水屏`, `E-Ink`, `电子标牌` |
+| 华云时空UWB | `设备管理/华云时空UWB/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnulnDAIMY2OG75W9xFgPcqb) | 29 | 📂 合作企业/华云时空 | `华云时空` |
+| 太和电子UWB | `设备管理/太和电子UWB/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnOYX43nyKPQ8QgDqlmNSDBb) | 24 | 📂 合作企业/太和 | `太和` |
+| 空循环UWB | `设备管理/空循环UWB/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn5CQzCM2a2WuDgI4Vix8MTe) | 20 | 📂 合作企业/空循环 | `空循环` |
+| Omlox | `设备管理/合作企业/Omlox/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnQLncLx6t2CPFn41cOAh9vh) | 15 | 📂 合作企业/Omlox | `Omlox` |
+| 技新科技 | `设备管理/合作企业/技新科技/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn51N82KOJGtQueuinfKCK5c) | 8 | 📂 合作企业/技新科技 | `技新` |
+| Seeklane | `设备管理/合作企业/Seeklane/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnc1qIh2bDM7Vu1kAQhIirJc) | 6 | 📂 合作企业/Seeklane | `Seeklane` |
+| 在那科技GPS | `设备管理/在那科技GPS/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn8zvDHtZ8BKmirwSypSvmRg) | 6 | 📂 合作企业/NAVIECARE | `NAVIECARE`, `固定资产定位器` |
+| Keeplink交换机 | `设备管理/Keeplink交换机/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnbJ44nH3c2PbShIdBpBY1fe) | 6 | 📂 合作企业/Keeplink | `Keeplink` |
+| 菜鸟蓝牙AOA | `设备管理/菜鸟蓝牙AOA/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnY6fK1Z3wPfNmlj7ZCC2Xle) | 6 | 📂 合作企业/Cainiao | `Cainiao`, `菜鸟` |
+| 深圳讯通蓝牙AOA终端 | `设备管理/深圳讯通蓝牙AOA终端/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnCsb1aNaiazOQiih0sN7lcg) | 5 | 📂 合作企业/深圳讯通 | `深圳讯通` |
+| TP-LINK交换机 | `设备管理/TP-LINK交换机/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnK8XL2Y2qXe93G5LWt0f8HG) | 5 | 📂 合作企业/TP-LINK | `TP-LINK` |
+| 麦思物联蓝牙 | `设备管理/麦思物联蓝牙/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnIFzxWuwJd4glZ1JR3lDIUd) | 4 | 📂 合作企业/麦思物联 | `麦思物联` |
+| 吾控健康蓝牙AOA终端 | `设备管理/吾控健康蓝牙AOA终端/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnM0EeDq7fNjHTMRz4pFCCNd) | 3 | 📂 合作企业/深圳吾控 | `吾控`, `健康科技` |
+| 顺势为蓝牙终端 | `设备管理/顺势为蓝牙终端/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnRAr9w9fOsC73011wxqkMVp) | 3 | 📂 合作企业/成都顺势为 | `顺势为` |
+| 威思客 | `设备管理/合作企业/威思客/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnl6Gfv6ZGcpElm3qs4vsWYf) | 2 | 📂 合作企业/威思客 | `威思客` |
+| 马蹄铁科技 | `设备管理/合作企业/马蹄铁科技/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnZhyASlAoZjhKqy6xCRlLWh) | 1 | 📂 合作企业/马蹄铁 | `马蹄铁` |
+| 浪潮集团 | `设备管理/合作企业/浪潮集团/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnQYvZc2pFzMwFoyCtCtZFJb) | 1 | 📂 合作企业/浪潮 | `浪潮` |
 
 #### 通用设备资料（不属于特定厂家）
 
 | 厂家名 | 目标路径 | 飞书链接 | 文件数 | 来源 | 关键字 |
 |--------|---------|---------|--------|------|--------|
-| 北斗定位硬件 | `2-Areas/Work/设备管理/北斗定位硬件/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnddM5N5RHC7GzmLb2K2EE1f) | 2 | 定位硬件厂商/北斗-硬件 | `北斗` |
-| GPS硬件 | `2-Areas/Work/设备管理/GPS硬件/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnEQj7iSJUFva6t1KavOcvoe) | 7 | 定位硬件厂商/GPS硬件 | `GPS硬件` |
-| 公司自有硬件 | `2-Areas/Work/设备管理/公司自有硬件/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnyprtlz9Jw58wK5kv8y9jZd) | 19 | 定位硬件厂商/公司硬件 | `公司硬件` |
-| 硬件通用资料 | `2-Areas/Work/设备管理/硬件通用资料/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcniTi1Xu5xfD1hgrUKEXYpfc) | 22 | 定位硬件厂商/硬件不分类 | `硬件` |
+| 菲曼科技RTK | `2-Areas/Work/设备管理/菲曼科技RTK/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnddM5N5RHC7GzmLb2K2EE1f) | 2 | 定位硬件厂商/北斗-硬件 | `北斗`, `菲曼`, `RTK` |
+| 莱讯科技GPS | `2-Areas/Work/设备管理/莱讯科技GPS/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnEQj7iSJUFva6t1KavOcvoe) | 7 | 定位硬件厂商/GPS硬件 | `GPS硬件` |
+| 莱讯科技设备 | `2-Areas/Work/设备管理/莱讯科技设备/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnyprtlz9Jw58wK5kv8y9jZd) | 19 | 定位硬件厂商/公司硬件 | `公司硬件` |
+| 其他厂家设备 | `2-Areas/Work/设备管理/其他厂家设备/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcniTi1Xu5xfD1hgrUKEXYpfc) | 22 | 定位硬件厂商/硬件不分类 | `硬件` |
 
 #### 供应商管理通用文件
 
 | 文件 | 目标路径 |
 |------|---------|
-| 供应商合同管理.xlsx | `2-Areas/Work/设备管理/供应商管理/` |
-| 供应商管理.xlsx | `2-Areas/Work/设备管理/供应商管理/` |
+| 供应商合同管理.xlsx | `2-Areas/Work/设备管理/` |
+| 供应商管理.xlsx | `2-Areas/Work/设备管理/` |
 | 库房管理 bitable | `2-Areas/Work/设备管理/` |
 | MAC-Address.xlsx | `2-Areas/Work/设备管理/` |
 | rssi数据.docx | `2-Areas/Work/设备管理/` |
