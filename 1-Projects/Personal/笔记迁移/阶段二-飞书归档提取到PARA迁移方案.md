@@ -1198,12 +1198,12 @@ created: 2026-04-11
 | 项目名 | 飞书来源目录 | 飞书链接 | 目标路径 | 关键字 |
 |--------|------------|---------|---------|--------|
 | 广州机场 | 004. 广州机场-综合定位 + 005. 移动应用平台 | [飞书](https://reliablesense.feishu.cn/drive/folder/NQ2RfyZM7lO2iadqk3rcmDjPnsb) [飞书](https://reliablesense.feishu.cn/drive/folder/D0HIfmaPgleaANd8Cw1cDwpGnhb) | `1-Projects/Work/广州机场/` | `综合定位`, `A域/B域`, `巡检app`, `AESB`, `TCDM`, `gjtsg`, `shwl_gzhft` |
-| 新太项目 | 998. 售后项目/内蒙新太元铬业 | [飞书](https://reliablesense.feishu.cn/drive/folder/IGJBfaqbJljC6adrtbCcumrrnCf) | `1-Projects/Work/新太项目/` | `新太`, `新钢联`, `料棚`, `卸料`, `上料`, `铲车`, `堆垛`, `xintai` |
-| 上港仓储管理 | 002. 上海上港 | [飞书](https://reliablesense.feishu.cn/drive/folder/IwSpfxmL5lfpO8dLuoccbdnLnre) | `1-Projects/Work/上港仓储管理/` | `上港`, `仓储`, `出入库`, `RFID`, `shwl_shsg` |
+| 新太 | 998. 售后项目/内蒙新太元铬业 | [飞书](https://reliablesense.feishu.cn/drive/folder/IGJBfaqbJljC6adrtbCcumrrnCf) | `1-Projects/Work/新太项目/` | `新太`, `新钢联`, `料棚`, `卸料`, `上料`, `铲车`, `堆垛`, `xintai` |
+| 上港仓储 | 002. 上海上港 | [飞书](https://reliablesense.feishu.cn/drive/folder/IwSpfxmL5lfpO8dLuoccbdnLnre) | `1-Projects/Work/上港仓储管理/` | `上港`, `仓储`, `出入库`, `RFID`, `shwl_shsg` |
 | 洛阳化工厂 | 998. 售后项目/麦钉洛阳石化 | [飞书](https://reliablesense.feishu.cn/drive/folder/S3JWftxHWl14R5dz9FncpUPUnsd) | `1-Projects/Work/洛阳化工厂/` | `洛阳`, `石化`, `化工`, `宏兴`, `lyrydw`, `lyhx` |
 | 南宁机场 | 南宁机场项目 | [飞书](https://reliablesense.feishu.cn/drive/folder/JuNOf2llHlkIa9dKw73cJm5pn3w) | `1-Projects/Work/南宁机场/` | `南宁机场` |
-| 麦钉项目 | 998. 售后项目/麦钉 + 红柳林/韩家村/柠条塔/李家壕等 | [飞书](https://reliablesense.feishu.cn/drive/folder/RTvgfEDMZlvXcod1aQScqUCdnXb) | `1-Projects/Work/麦钉项目/` | `红柳林`, `李家壕`, `韩家村`, `高安屯`, `柠条塔`, `孝感`, `恩菲`, `固废`, `污水处理`, `地磁`, `madinat_hll`, `madinat_xmc`, `madinat_hjc`, `madinat_gat`, `madinat_ntt` |
-| 赛峰项目 | 998. 售后项目/赛峰 | | `1-Projects/Work/赛峰项目/` | `赛峰`, `SAML`, `SSO`, `CLE`, `墨水屏` |
+| 麦钉 | 998. 售后项目/麦钉 + 红柳林/韩家村/柠条塔/李家壕等 | [飞书](https://reliablesense.feishu.cn/drive/folder/RTvgfEDMZlvXcod1aQScqUCdnXb) | `1-Projects/Work/麦钉项目/` | `红柳林`, `李家壕`, `韩家村`, `高安屯`, `柠条塔`, `孝感`, `恩菲`, `固废`, `污水处理`, `地磁`, `madinat_hll`, `madinat_xmc`, `madinat_hjc`, `madinat_gat`, `madinat_ntt` |
+| 赛峰 | 998. 售后项目/赛峰 | | `1-Projects/Work/赛峰项目/` | `赛峰`, `SAML`, `SSO`, `CLE`, `墨水屏` |
 
 ### 已结束项目（→ `4-Archives/Projects/Work/`）
 
@@ -1214,12 +1214,12 @@ created: 2026-04-11
 | 项目名 | 飞书来源目录 | 飞书链接 | 文件数 | 归档方式 | 关键字 |
 |--------|------------|---------|--------|---------|--------|
 | 众合人员管理 | 众合Demo环境--杭州地铁定位应用 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn9ihucqqZa3fG3Px0Gloixc) | 148 | 📁 Project | `众合`, `杭州地铁`, `Demo环境` |
-| 博世项目 | Bosch 项目 | [飞书](https://reliablesense.feishu.cn/drive/folder/P4GJfXpDolZ4EodGUF9cUCBonkc) | 105 | 📁 Project | `Bosch`, `博世` |
+| 博世 | Bosch 项目 | [飞书](https://reliablesense.feishu.cn/drive/folder/P4GJfXpDolZ4EodGUF9cUCBonkc) | 105 | 📁 Project | `Bosch`, `博世` |
 | 国核智慧工地 | 国和一号（威海） | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnKTgV6OtJkwR2ijJyY5rVsc) | 84 | 📁 Project | `国和一号`, `威海`, `国核`, `智慧工地` |
 | 海尔工厂 | 海尔工厂 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn9yq74Lu525sk4tf7ayUr0c) | 72 | 📁 Project | `海尔` |
-| 供电局库位定位 | 供电局库位定位 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnhoSboKetpXvMBzbKRSmGAb) | 63 | 📁 Project | `供电局`, `库位定位` |
+| 供电局库位 | 供电局库位定位 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnhoSboKetpXvMBzbKRSmGAb) | 63 | 📁 Project | `供电局`, `库位定位` |
 | 百度水厂 | 百度-水厂定位导航平台 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnCovrCdcKMYR4Ba3AybOCz2) | 56 | 📁 Project | `百度`, `水厂` |
-| 联通室内外一体化 | 联通室内外一体化 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnlVHJxmUEdxDWjt8LvVcTjc) | 54 | 📁 Project | `联通`, `室内外一体化` |
+| 联通一体化 | 联通室内外一体化 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnlVHJxmUEdxDWjt8LvVcTjc) | 54 | 📁 Project | `联通`, `室内外一体化` |
 | 兰州机场 | 兰州机场 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn42BLWazsHzYslg6A34LLCd) | 49 | 📁 Project | `兰州机场` |
 | 国家电网 | 北京技新科技有限公司（国家电网） | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnfcM9BxoadzLHM41eJujMUh) | 42 | 归入电网智能仓库 | `国家电网`, `技新` |
 | 武汉机场 | 武汉机场 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnHmHajD7TQATmdiqbTIuGRe) | 38 | 📁 Project | `武汉机场` |
@@ -1230,7 +1230,7 @@ created: 2026-04-11
 | 松下照明 | 松下照明 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnvFOcvpYap90lcIGxwbRTVf) | 19 | 📁 Project | `松下照明` |
 | 孝感污水处理 | 孝感污水处理 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnzHlG6xjy4ECXtD2za7G62e) | 19 | 归入麦钉项目 | `孝感`, `污水处理` |
 | 合众思壮 | 合众思壮 | [飞书](https://reliablesense.feishu.cn/drive/folder/KS3BfWiA0lszPFdzHPHcltflnre) | 18 | 归入设备管理 | `合众思壮`, `GPS` |
-| 康利达物联科技 | 广东康利达物联科技有限公司 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnPZ5u2pC8jXrwCWYmW0zKsN) | 16 | 📋 业务管理 | `康利达` |
+| 康利达 | 广东康利达物联科技有限公司 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnPZ5u2pC8jXrwCWYmW0zKsN) | 16 | 📋 业务管理 | `康利达` |
 | 天津眼科医院 | 天津眼科医院 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn4LNTqNz05fkkDD51VReUoh) | 16 | 📁 Project | `天津眼科` |
 | 内蒙古洗煤厂 | 内蒙古洗煤厂的煤棚 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn0XgPdqYb7z218keyA7wyhd) | 15 | 归入麦钉项目 | `内蒙古洗煤厂`, `煤棚` |
 | 电子价签管理 | 电子价签管理项目（Bossard） | [飞书](https://reliablesense.feishu.cn/drive/folder/E3NmfOQ5Pl5w9wdaRkjcEAvHntf) | 14 | 📁 Project | `电子价签`, `Bossard` |
@@ -1261,7 +1261,7 @@ created: 2026-04-11
 | 项目名 | 飞书来源目录 | 飞书链接 | 归档方式 | 关键字 |
 |--------|------------|---------|---------|--------|
 | 中联核信 | 中联核信 | [飞书](https://reliablesense.feishu.cn/drive/folder/LaOOfNGfBlvZqOdTmgtcRQzxnJc) | 📁 Project | `中联核信`, `核信` |
-| 红点定位 | 红点定位 | [飞书](https://reliablesense.feishu.cn/docx/YBASdNrzWo8e9ExCrZYcdClTnfg) | 📁 Project | `红点定位`, `redpoint` |
+| 红点 | 红点定位 | [飞书](https://reliablesense.feishu.cn/docx/YBASdNrzWo8e9ExCrZYcdClTnfg) | 📁 Project | `红点定位`, `redpoint` |
 | 嘉盛工厂 | 王宗光/项目资料/嘉盛工厂 | [飞书](https://reliablesense.feishu.cn/drive/folder/Q4jDfQS0alQqv2d0LjWcSR6rnVd) | 📁 Project | `嘉盛` |
 | 博实结 | 王宗光/项目资料/博实结 | [飞书](https://reliablesense.feishu.cn/drive/folder/BudrfapCnl9fLkd8Rl3cXhwjnve) | 📁 Project | `博实结`, `EG10E` |
 | 哒咖项目 | （画板文档） | | 📋 业务管理 | `哒咖` |
@@ -1270,20 +1270,20 @@ created: 2026-04-11
 
 | 项目名 | 飞书链接 | 文件数 | 归档方式 | 关键字 |
 |--------|---------|--------|---------|--------|
-| 长沙酒店样板 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnYRwI8knNNUXUtof87Fyajb) | 96 | 📁 Project | `长沙酒店`, `酒店样板` |
+| 长沙酒店 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnYRwI8knNNUXUtof87Fyajb) | 96 | 📁 Project | `长沙酒店`, `酒店样板` |
 | 民生物流 | [飞书](https://reliablesense.feishu.cn/drive/folder/R07Dfa4FIlnT58dO8eWcFJ7WnXc) | 79 | 📁 Project | `民生物流` |
 | 中粮可口可乐 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn0qXGrnl4W8rKS5z6C6uilc) | 49 | 📁 Project | `中粮`, `可口可乐` |
-| 二手车辆管理平台 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnu9ueOQWmpUM4axmkmYh7mf) | 44 | 📁 Project | `二手车`, `车辆管理` |
-| 苏州KIT展会 | [飞书](https://reliablesense.feishu.cn/drive/folder/WWclfhyFulfuTYdxFAWcYvc4nLe) | 31 | 📁 Project | `KIT`, `苏州展会` |
-| 叉车定位（丰田） | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnoZ28nWI3HHes9jTUz2hcGe) | 31 | 📁 Project | `叉车定位`, `丰田` |
+| 二手车管理 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnu9ueOQWmpUM4axmkmYh7mf) | 44 | 📁 Project | `二手车`, `车辆管理` |
+| 苏州KIT | [飞书](https://reliablesense.feishu.cn/drive/folder/WWclfhyFulfuTYdxFAWcYvc4nLe) | 31 | 📁 Project | `KIT`, `苏州展会` |
+| 丰田叉车 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnoZ28nWI3HHes9jTUz2hcGe) | 31 | 📁 Project | `叉车定位`, `丰田` |
 | 泰康养老院 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn7OgGvIC4ToMxhxVQBS3Srh) | 23 | 📁 Project | `泰康`, `养老院` |
-| 中远 | [飞书](https://reliablesense.feishu.cn/drive/folder/Bnp4fUMeol0U1xdisfTcqv2xnCd) | 16 | 📁 Project | `中远` |
-| 业睿 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnO0LHPDLthNOwEOzl87p3bg) | 15 | 📁 Project | `业睿` |
+| 中远海运 | [飞书](https://reliablesense.feishu.cn/drive/folder/Bnp4fUMeol0U1xdisfTcqv2xnCd) | 16 | 📁 Project | `中远` |
+| 业睿展厅 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnO0LHPDLthNOwEOzl87p3bg) | 15 | 📁 Project | `业睿` |
 | 中科海微 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnDM4BkLZD0CfnzKBQZte1Og) | 11 | 📁 Project | `中科海微` |
 | 扬州群鑫 | [飞书](https://reliablesense.feishu.cn/drive/folder/FEzCf5OfWlFFZgdDptVcgBiYnQh) | 10 | 📁 Project | `扬州群鑫`, `群鑫` |
-| 运输机场景大屏 | [飞书](https://reliablesense.feishu.cn/drive/folder/Uh1Nfl3eml9Nq1d3jhAc1kJ8nWg) | 9 | 📋 业务管理 | `运输机`, `场景大屏` |
-| 南通丝路咖精机工厂 | [飞书](https://reliablesense.feishu.cn/drive/folder/MOK6fhlmalZiZGdMGHbcPdHgnjf) | 8 | 📋 业务管理 | `南通`, `丝路咖`, `精机` |
-| 中软国际护理院 | [飞书](https://reliablesense.feishu.cn/drive/folder/EE6nf30qtlkLzwdOkkmcLfHanGf) | 7 | 📋 业务管理 | `中软国际`, `护理院` |
+| 运输机大屏 | [飞书](https://reliablesense.feishu.cn/drive/folder/Uh1Nfl3eml9Nq1d3jhAc1kJ8nWg) | 9 | 📋 业务管理 | `运输机`, `场景大屏` |
+| 南通精机 | [飞书](https://reliablesense.feishu.cn/drive/folder/MOK6fhlmalZiZGdMGHbcPdHgnjf) | 8 | 📋 业务管理 | `南通`, `丝路咖`, `精机` |
+| 中软护理院 | [飞书](https://reliablesense.feishu.cn/drive/folder/EE6nf30qtlkLzwdOkkmcLfHanGf) | 7 | 📋 业务管理 | `中软国际`, `护理院` |
 | 胶州湾 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn03OeBw3cqEZQLPCLDKMsUe) | 5 | 📋 业务管理 | `胶州湾` |
 | 中奕信息 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnGYdaFxc8EybWdmNf25npwc) | 5 | 📋 业务管理 | `中奕` |
 | 天津展厅 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcniIKrxUSjvz71AJ07dL5Rhz) | 4 | 📋 业务管理 | `天津展厅` |
@@ -1295,8 +1295,8 @@ created: 2026-04-11
 | 船只定位 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnp91z9Kb0b3Oz9k8SxYL7Mh) | 2 | 📋 业务管理 | `船只定位` |
 | 深圳物联AIoT | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnqBKqbikUuASzpKbKOzAgEN) | 2 | 📋 业务管理 | `深圳物联`, `AIoT` |
 | 宝冶钢厂 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnoKLaAoSMItdOsjC8O7A5ub) | 2 | 📋 业务管理 | `宝冶`, `钢厂` |
-| 百度需求-上海化工 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn9H00DYxSAKglF8eSOezXTd) | 1 | 📋 业务管理 | `百度需求`, `上海化工` |
-| 机车检修智能管理 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnL3DdEr4YbUvw1eeUZi8W2g) | 1 | 📋 业务管理 | `机车检修` |
+| 上海化工 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn9H00DYxSAKglF8eSOezXTd) | 1 | 📋 业务管理 | `百度需求`, `上海化工` |
+| 机车检修 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnL3DdEr4YbUvw1eeUZi8W2g) | 1 | 📋 业务管理 | `机车检修` |
 | 保定轮毂厂 | [飞书](https://reliablesense.feishu.cn/drive/folder/SPS1fUblzlJcLRdqh9UcJUJtnJK) | 1 | 📋 业务管理 | `保定`, `轮毂` |
 | 仁爱 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnyvb2Wvj908C5k8Yi5xlPJb) | 1 | 📋 业务管理 | `仁爱` |
 | 世博软件 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnIJEAyzC7kpOvwBhFkhIVvg) | 1 | 📋 业务管理 | `世博` |
@@ -1305,24 +1305,24 @@ created: 2026-04-11
 
 | 项目名 | 飞书链接 | 文件数 | 归档方式 | 关键字 |
 |--------|---------|--------|---------|--------|
-| 兰州机场定位应用 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnTnuXhdZedD0zw7DZ6Hqr5f) | 50 | 📁 Project | `兰州机场`, `定位应用` |
+| 兰州机场 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnTnuXhdZedD0zw7DZ6Hqr5f) | 50 | 📁 Project | `兰州机场`, `定位应用` |
 | 电厂储煤棚 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn807AdSNZzZn4mJwa5qPv6b) | 34 | 📁 Project | `电厂`, `储煤棚` |
 | 松下LED灯 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnCb3VmyuRzhftSufgN2Caah) | 26 | 📁 Project | `松下`, `LED` |
-| 可口可乐叉车安全管理 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnIAC2gwnUWTyYULDObMLhGe) | 19 | 📁 Project | `可口可乐`, `叉车安全` |
+| 可口可乐叉车 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnIAC2gwnUWTyYULDObMLhGe) | 19 | 📁 Project | `可口可乐`, `叉车安全` |
 | 眼罩 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn6YEXgcxuHbZEpMs51QtkEd) | 17 | 📁 Project | `眼罩` |
 | 核电站 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcneO36olE18KDvp2NxfMPYZb) | 17 | 📁 Project | `核电站` |
 | 报价记录 | | 12 | 📁 Project | `报价记录`, `报价` |
 | 政府库房 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcni2L4SfC0jkmmESlKTeLskd) | 11 | 📁 Project | `政府库房` |
 | 科学馆展厅 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnMImMbAFHE9aR8oVR9ehPDb) | 8 | 📋 业务管理 | `科学馆`, `展厅` |
 | 弘冉智能 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcncDxpMwrMVeHMX6drrDqwsf) | 6 | 📋 业务管理 | `弘冉` |
-| 天津地铁列车进站 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnZ7jRUe6KGGbATWoCYnakjh) | 6 | 📋 业务管理 | `天津地铁`, `列车进站` |
+| 天津地铁 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnZ7jRUe6KGGbATWoCYnakjh) | 6 | 📋 业务管理 | `天津地铁`, `列车进站` |
 | 人效考勤 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnQPoRYuKFpdLFxVHYL0zzhf) | 6 | 📋 业务管理 | `人效`, `考勤` |
-| 吉林--人员与工艺车 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn0GT2pYTiFSVAWnJyLplgab) | 4 | 📋 业务管理 | `吉林`, `工艺车` |
-| 长兴视通报价 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn0597TNerxmay7zHPUgshoh) | 3 | 📋 业务管理 | `长兴视通` |
+| 吉林工艺车 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn0GT2pYTiFSVAWnJyLplgab) | 4 | 📋 业务管理 | `吉林`, `工艺车` |
+| 长兴视通 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn0597TNerxmay7zHPUgshoh) | 3 | 📋 业务管理 | `长兴视通` |
 | 安庆项目 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnOACxDl3JS0sASvaxzCXwSg) | 3 | 📋 业务管理 | `安庆` |
-| 红点---国投生物能源 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnvOTu0YqJ8PADcq1QR4aUVe) | 2 | 📋 业务管理 | `红点`, `国投生物` |
-| 百威仓库叉车人员安全管理 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn3JnJx1DXaiSnrCKFBsTc6d) | 2 | 📋 业务管理 | `百威`, `仓库叉车` |
-| 政府小区定位 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnFoCVwuLOSrlPm7BvgLWJ6e) | 2 | 📋 业务管理 | `政府小区` |
+| 国投生物 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnvOTu0YqJ8PADcq1QR4aUVe) | 2 | 📋 业务管理 | `红点`, `国投生物` |
+| 百威仓库 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn3JnJx1DXaiSnrCKFBsTc6d) | 2 | 📋 业务管理 | `百威`, `仓库叉车` |
+| 政府小区 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnFoCVwuLOSrlPm7BvgLWJ6e) | 2 | 📋 业务管理 | `政府小区` |
 | 如视 | [飞书](https://reliablesense.feishu.cn/drive/folder/YB4ufHQhYlm0jSdEovRcOvQ1nuh) | 2 | 📋 业务管理 | `如视` |
 
 ### 售前项目（未正式立项）
