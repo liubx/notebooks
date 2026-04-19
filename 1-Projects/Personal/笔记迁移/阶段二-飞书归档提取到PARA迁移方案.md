@@ -908,14 +908,14 @@ created: 2026-04-11
 | 数字化循环载具管理平台统一接口协议V1.4 | docx | [飞书](https://reliablesense.feishu.cn/docx/Af4wdLHdhoaaeJxzscucmKyQnEf) | `2-Areas/Work/业务管理/售前项目/赛力斯/` |
 | 设备相关资料 | docx | [飞书](https://reliablesense.feishu.cn/docx/Vw2ZdVXLloMFarxu7BscvzlxnKb) | `2-Areas/Work/业务管理/售前项目/赛力斯/` |
 
-#### 博实结 → `4-Archives/Projects/Work/博实结/`
+#### 博实结 → `2-Areas/Work/设备管理/博实结GPS/`
 
 | 文件 | 类型 | 飞书链接 | 目标路径 |
 |------|------|---------|---------|
-| 智能硬件定位服务（2024-07-12） | docx | [飞书](https://reliablesense.feishu.cn/docx/Z2DKdMZxBoDiiKxyXtUch3d6nFc) | `4-Archives/Projects/Work/博实结/` |
-| EG10E部标协议 | docx | [飞书](https://reliablesense.feishu.cn/docx/EV9gdgpxdoguXbxvhTjc8rVSn2d) | `4-Archives/Projects/Work/博实结/` |
-| EG10E产品使用说明书(4) | docx | [飞书](https://reliablesense.feishu.cn/docx/GuqpdulGkoBsZUxm10pc1PwWnld) | `4-Archives/Projects/Work/博实结/` |
-| 联调记录 | docx | [飞书](https://reliablesense.feishu.cn/docx/MzxSduc4soHPCZxY1aTcta0Dnfe) | `4-Archives/Projects/Work/博实结/` |
+| 智能硬件定位服务（2024-07-12） | docx | [飞书](https://reliablesense.feishu.cn/docx/Z2DKdMZxBoDiiKxyXtUch3d6nFc) | `2-Areas/Work/设备管理/博实结GPS/` |
+| EG10E部标协议 | docx | [飞书](https://reliablesense.feishu.cn/docx/EV9gdgpxdoguXbxvhTjc8rVSn2d) | `2-Areas/Work/设备管理/博实结GPS/` |
+| EG10E产品使用说明书(4) | docx | [飞书](https://reliablesense.feishu.cn/docx/GuqpdulGkoBsZUxm10pc1PwWnld) | `2-Areas/Work/设备管理/博实结GPS/` |
+| 联调记录 | docx | [飞书](https://reliablesense.feishu.cn/docx/MzxSduc4soHPCZxY1aTcta0Dnfe) | `2-Areas/Work/设备管理/博实结GPS/` |
 
 #### 洛阳化工 → `1-Projects/Work/洛阳化工厂/`
 
