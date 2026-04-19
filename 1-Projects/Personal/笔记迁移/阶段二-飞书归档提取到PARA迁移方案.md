@@ -1261,10 +1261,10 @@ created: 2026-04-11
 | 项目名 | 飞书来源目录 | 飞书链接 | 归档方式 | 关键字 |
 |--------|------------|---------|---------|--------|
 | 中联核信 | 中联核信 | [飞书](https://reliablesense.feishu.cn/drive/folder/LaOOfNGfBlvZqOdTmgtcRQzxnJc) | 📁 Project | `中联核信`, `核信` |
-| 红点定位 | 红点定位 | [飞书](https://reliablesense.feishu.cn/docx/YBASdNrzWo8e9ExCrZYcdClTnfg) | 📁 Project | `红点定位`, `redpoint` |
+| 红点定位 | 红点定位 | [飞书](https://reliablesense.feishu.cn/docx/YBASdNrzWo8e9ExCrZYcdClTnfg) | 归入设备管理 | `红点定位`, `redpoint` |
 | 嘉盛工厂 | 王宗光/项目资料/嘉盛工厂 | [飞书](https://reliablesense.feishu.cn/drive/folder/Q4jDfQS0alQqv2d0LjWcSR6rnVd) | 📁 Project | `嘉盛` |
 | 博实结 | 王宗光/项目资料/博实结 | [飞书](https://reliablesense.feishu.cn/drive/folder/BudrfapCnl9fLkd8Rl3cXhwjnve) | 归入设备管理 | `博实结`, `EG10E` |
-| 哒咔定位 | （画板文档） | | 📋 业务管理 | `哒咖` |
+| 哒咔定位 | （画板文档） | | 归入报价记录 | `哒咖` |
 
 #### 999. 归档项目
 
@@ -1311,7 +1311,7 @@ created: 2026-04-11
 | 可口可乐叉车定位 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnIAC2gwnUWTyYULDObMLhGe) | 19 | 归入999可口可乐叉车定位 | `可口可乐`, `叉车安全` |
 | 智能眼罩 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn6YEXgcxuHbZEpMs51QtkEd) | 17 | 📁 Project | `眼罩` |
 | 中广核电厂 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcneO36olE18KDvp2NxfMPYZb) | 17 | 📁 Project | `核电站`, `中广核` |
-| 报价记录 | | 12 | 📁 Project | `报价记录`, `报价` |
+| 报价记录 | | 12 | 📋 业务管理 | `报价记录`, `报价` |
 | 政府库房 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcni2L4SfC0jkmmESlKTeLskd) | 11 | 📁 Project | `政府库房` |
 | 科学馆展厅 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnMImMbAFHE9aR8oVR9ehPDb) | 8 | 📋 业务管理 | `科学馆`, `展厅` |
 | 弘冉智能 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcncDxpMwrMVeHMX6drrDqwsf) | 6 | 📋 业务管理 | `弘冉` |
@@ -1383,7 +1383,7 @@ created: 2026-04-11
 | 国家图书馆 | `4-Archives/Projects/Work/国家图书馆/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn6yxWW1ngHsX0GkzZZdVkEc) |
 | 中东电子厂 | `4-Archives/Projects/Work/中东电子厂/` | [飞书](https://reliablesense.feishu.cn/drive/folder/UF9cfyxN7lnWIwd02auc28fFnOg) |
 | 中联核信 | `4-Archives/Projects/Work/中联核信/` | [飞书](https://reliablesense.feishu.cn/drive/folder/LaOOfNGfBlvZqOdTmgtcRQzxnJc) |
-| 红点定位 | `4-Archives/Projects/Work/红点定位/` | [飞书](https://reliablesense.feishu.cn/docx/YBASdNrzWo8e9ExCrZYcdClTnfg) |
+| 红点定位 | `2-Areas/Work/设备管理/红点UWB/` | [飞书](https://reliablesense.feishu.cn/docx/YBASdNrzWo8e9ExCrZYcdClTnfg) |
 | 嘉盛工厂 | `4-Archives/Projects/Work/嘉盛工厂/` | [飞书](https://reliablesense.feishu.cn/drive/folder/Q4jDfQS0alQqv2d0LjWcSR6rnVd) |
 | 长沙酒店 | `4-Archives/Projects/Work/长沙酒店/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnYRwI8knNNUXUtof87Fyajb) |
 | 民生物流 | `4-Archives/Projects/Work/民生物流/` | [飞书](https://reliablesense.feishu.cn/drive/folder/R07Dfa4FIlnT58dO8eWcFJ7WnXc) |
@@ -1399,7 +1399,7 @@ created: 2026-04-11
 | 电厂煤棚定位 | `4-Archives/Projects/Work/电厂煤棚定位/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn807AdSNZzZn4mJwa5qPv6b) |
 | 智能眼罩 | `4-Archives/Projects/Work/智能眼罩/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn6YEXgcxuHbZEpMs51QtkEd) |
 | 中广核电厂 | `4-Archives/Projects/Work/中广核电厂/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcneO36olE18KDvp2NxfMPYZb) |
-| 报价记录 | `4-Archives/Projects/Work/报价记录/` | （无飞书目录链接） |
+| 报价记录 | `4-Archives/Areas/Work/业务管理/报价记录/` | （无飞书目录链接） |
 | 政府库房 | `4-Archives/Projects/Work/政府库房/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcni2L4SfC0jkmmESlKTeLskd) |
 
 #### `4-Archives/Areas/Work/业务管理/`（已结束小项目）
@@ -1444,7 +1444,7 @@ created: 2026-04-11
 | 百威仓库 | `4-Archives/Areas/Work/业务管理/百威仓库/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn3JnJx1DXaiSnrCKFBsTc6d) |
 | 政府小区 | `4-Archives/Areas/Work/业务管理/政府小区/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnFoCVwuLOSrlPm7BvgLWJ6e) |
 | 如视项目 | `4-Archives/Areas/Work/业务管理/如视项目/` | [飞书](https://reliablesense.feishu.cn/drive/folder/YB4ufHQhYlm0jSdEovRcOvQ1nuh) |
-| 哒咔定位 | `4-Archives/Areas/Work/业务管理/哒咔定位/` | （画板文档，无目录链接） |
+| 哒咔定位 | `4-Archives/Areas/Work/业务管理/报价记录/` | （画板文档，无目录链接） |
 | 赛力斯（售前） | `4-Archives/Areas/Work/业务管理/赛力斯/` | [飞书](https://reliablesense.feishu.cn/drive/folder/CAIWftFMilP7c1dCwg9cewJ3nKc) |
 
 #### `2-Areas/Work/设备管理/`（归入设备管理）
@@ -1453,6 +1453,7 @@ created: 2026-04-11
 |--------|---------|---------|
 | 合众思壮 | `2-Areas/Work/设备管理/合众思壮GPS/` | [飞书](https://reliablesense.feishu.cn/drive/folder/KS3BfWiA0lszPFdzHPHcltflnre) |
 | 博实结 | `2-Areas/Work/设备管理/博实结GPS/` | [飞书](https://reliablesense.feishu.cn/drive/folder/BudrfapCnl9fLkd8Rl3cXhwjnve) |
+| 红点定位 | `2-Areas/Work/设备管理/红点UWB/` | [飞书](https://reliablesense.feishu.cn/docx/YBASdNrzWo8e9ExCrZYcdClTnfg) |
 
 ### 设备管理 — 设备厂家清单（→ `2-Areas/Work/设备管理/`）
 
