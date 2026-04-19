@@ -405,10 +405,10 @@ feishu_custom_fields:
 | 进行中项目 | 平台更新v2.7 | `1-Projects/Work/平台更新v2-7/1-任务.md` | ✅ |
 | 进行中项目 | 广州机场 | `1-Projects/Work/广州机场/1-任务.md` | ✅ |
 | 进行中项目 | 上港仓储管理 | `1-Projects/Work/上港仓储管理/1-任务.md` | ✅ |
-| 进行中项目 | 新太项目 | `1-Projects/Work/新太项目/1-任务.md` | ✅ |
+| 进行中项目 | 新太定位 | `1-Projects/Work/新太定位/1-任务.md` | ✅ |
 | 进行中项目 | 南宁机场项目 | `1-Projects/Work/南宁机场/1-任务.md` | ✅ |
 | 进行中项目 | PN仓库项目 | `1-Projects/Work/PN仓库项目/1-任务.md` | ✅ |
-| 进行中项目 | 麦钉项目 | `1-Projects/Work/麦钉项目/1-任务.md` | ✅ |
+| 进行中项目 | 麦钉定位 | `1-Projects/Work/麦钉定位/1-任务.md` | ✅ |
 | 进行中项目 | 洛阳化工厂 | `1-Projects/Work/洛阳化工厂/1-任务.md` | ✅ |
 | 进行中项目 | 测试流程建立 | `1-Projects/Work/测试流程建立/1-任务.md` | ✅ |
 | 综合任务 | 售前项目支持 | `2-Areas/Work/业务管理/1-售前项目支持.md` | ✅ |

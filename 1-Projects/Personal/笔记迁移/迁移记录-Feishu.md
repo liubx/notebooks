@@ -161,7 +161,7 @@ modified: 2026-04-11
 - 智能纪要 + 文字记录（成对出现）
 - Video meeting AI notes（英文版，2024年12月期间）
 
-> 数量过多，不逐条列出。主要涉及：研发部会议、项目部会议、刘秉欣会议、内蒙新太项目会议等。
+> 数量过多，不逐条列出。主要涉及：研发部会议、项目部会议、刘秉欣会议、内蒙新太定位会议等。
 > 时间范围：2024年11月 ~ 2026年3月
 
 ##### bitable 多维表格
@@ -542,11 +542,11 @@ modified: 2026-04-11
 | 26 | 近期会议速递｜要点概览 2025年4月7日 | QLdTdlduEoRsZkxNEblc0rlynZf | ✅ 已迁移 |
 | 27 | 近期会议速递｜要点概览 2025年3月17日 | UV45dVypYoiEOFx9AYXcAGFDnne | ✅ 已迁移 |
 | 28 | 近期会议速递｜要点概览 2025年3月10日 | JHJ5d6S5QopfyHxPUnwcKyLlnSe | ✅ 已迁移 |
-| 29 | 智能纪要：内蒙新太项目（新钢联）的视频会议 2025年3月5日 | EePFdqlyQoh4bExphrXcGX3Wnjd | ✅ 已迁移 |
-| 30 | 文字记录：内蒙新太项目（新钢联）的视频会议 2025年3月5日 | D0aEdYFlYo9REkxhIrwcDDWCnPf | ✅ 已迁移 |
+| 29 | 智能纪要：内蒙新太定位（新钢联）的视频会议 2025年3月5日 | EePFdqlyQoh4bExphrXcGX3Wnjd | ✅ 已迁移 |
+| 30 | 文字记录：内蒙新太定位（新钢联）的视频会议 2025年3月5日 | D0aEdYFlYo9REkxhIrwcDDWCnPf | ✅ 已迁移 |
 | 31 | 近期会议速递｜要点概览 2025年3月3日 | W5AqdUrFvoHX12xnzHFc5JZ2nqg | ✅ 已迁移 |
-| 32 | 智能纪要：内蒙新太项目（新钢联）的视频会议 2025年2月26日 | IQUqdVOipoy6MUx9pYicAUvrnmd | ✅ 已迁移 |
-| 33 | 文字记录：内蒙新太项目（新钢联）的视频会议 2025年2月26日 | OgG5dQrQLoGY9FxEchhcSvmknXg | ✅ 已迁移 |
+| 32 | 智能纪要：内蒙新太定位（新钢联）的视频会议 2025年2月26日 | IQUqdVOipoy6MUx9pYicAUvrnmd | ✅ 已迁移 |
+| 33 | 文字记录：内蒙新太定位（新钢联）的视频会议 2025年2月26日 | OgG5dQrQLoGY9FxEchhcSvmknXg | ✅ 已迁移 |
 | 34 | 智能纪要：研发部的视频会议 2025年2月24日 | C66QdPXJyolJ50xp7JBczVxunQb | ✅ 已迁移 |
 | 35 | 文字记录：研发部的视频会议 2025年2月24日 | PhfqdTLQ3o5QyyxbK2IcRAkNn0b | ✅ 已迁移 |
 | 36 | 近期会议速递｜要点概览 2025年2月24日 | NglNdnbykoAAZOxR5hNc8hNHn66 | ✅ 已迁移 |
@@ -635,7 +635,7 @@ modified: 2026-04-11
 | 22  | 近期会议速递｜要点概览 2025年2月24日            | ANZcdUqC5opTD0xfs7Cc6OuDnPh | ✅ 已迁移 |
 | 23  | 近期会议速递｜要点概览 2025年2月17日            | Gna2dHIXQoREOUxBOXbcEYZZnqr | ✅ 已迁移 |
 | 24  | 近期会议速递｜要点概览 2025年2月10日            | NAkkdVvn0oT5TNxjBvkcNNkmnKe | ✅ 已迁移 |
-| 25  | 内蒙新太项目（新钢联）的视频会议 2025年2月7日 - 智能纪要 | W7Jid5OiUopoqcxNqJbc8ichnnf | ✅ 已迁移 |
+| 25  | 内蒙新太定位（新钢联）的视频会议 2025年2月7日 - 智能纪要 | W7Jid5OiUopoqcxNqJbc8ichnnf | ✅ 已迁移 |
 | 26  | 近期会议速递｜要点概览 2025年1月27日            | FeykdvimxoVR6qxCjtAcpMFinxe | ✅ 已迁移 |
 | 27  | 近期会议速递｜要点概览 2025年1月20日            | DCOHdnmZKoZE21xlQ01c7d3Unoe | ✅ 已迁移 |
 | 28  | 近期会议速递｜要点概览 2025年1月13日            | PQffdQ2NOo3Txyx10TVcQ3UYnbg | ✅ 已迁移 |
@@ -985,7 +985,7 @@ modified: 2026-04-11
 
 | # | 标题 | Node Token | Token (obj) | obj_type | 飞书链接 | 状态 |
 |---|------|-----------|----------|----------|----------|------|
-| 1 | 新太项目总结 | TK3Sw7sNkiEFD1kFx27cLTkznAV | NmbtdK5O7oy1lnx8XamcWItRn8d | docx | https://reliablesense.feishu.cn/wiki/TK3Sw7sNkiEFD1kFx27cLTkznAV | ✅ 已迁移 |
+| 1 | 新太定位总结 | TK3Sw7sNkiEFD1kFx27cLTkznAV | NmbtdK5O7oy1lnx8XamcWItRn8d | docx | https://reliablesense.feishu.cn/wiki/TK3Sw7sNkiEFD1kFx27cLTkznAV | ✅ 已迁移 |
 | 2 | 新太元验收标准总结 | LbYbwPb1QidoL0kpKakcRhCrnPe | Ms75dFCNMobyS0xMoH9c4ECHn2f | docx | https://reliablesense.feishu.cn/wiki/LbYbwPb1QidoL0kpKakcRhCrnPe | ✅ 已迁移 |
 
 #### Space `7552826134947381251`（已知 1 节点）

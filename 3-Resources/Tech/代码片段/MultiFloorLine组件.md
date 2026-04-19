@@ -5,7 +5,7 @@ language: TypeScript
 tags:
   - tech/react
   - tech/前端
-  - project/麦钉项目
+  - project/麦钉定位
 created: 2026-03-15
 ---
 

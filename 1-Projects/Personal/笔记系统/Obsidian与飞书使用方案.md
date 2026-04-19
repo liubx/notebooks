@@ -69,9 +69,9 @@ Areas vs Resources 的细分标准：**谁在驱动它改？**
 │   │   ├── 1-任务.md
 │   │   └── 公司测试体系建设方案.md
 │   ├── 南宁机场/
-│   ├── 新太项目/
+│   ├── 新太定位/
 │   ├── 洛阳化工厂/
-│   ├── 麦钉项目/
+│   ├── 麦钉定位/
 │   ├── PN仓库项目/
 │   ├── 赛峰项目/
 │   └── AI工作流/
@@ -246,10 +246,10 @@ Obsidian 任务（本地视图）
 | 上港仓储管理 | `1-Projects/Work/上港仓储管理/1-任务.md` |
 | 平台更新v2.7 | `1-Projects/Work/平台更新v2-7/1-任务.md` |
 | 南宁机场项目 | `1-Projects/Work/南宁机场/1-任务.md` |
-| 新太项目 | `1-Projects/Work/新太项目/1-任务.md` |
+| 新太定位 | `1-Projects/Work/新太定位/1-任务.md` |
 | PN仓库项目 | `1-Projects/Work/PN仓库项目/1-任务.md` |
 | 洛阳化工厂 | `1-Projects/Work/洛阳化工厂/1-任务.md` |
-| 麦钉项目 | `1-Projects/Work/麦钉项目/1-任务.md` |
+| 麦钉定位 | `1-Projects/Work/麦钉定位/1-任务.md` |
 | 测试流程建立 | `1-Projects/Work/测试流程建立/1-任务.md` |
 | AI工作流 | `1-Projects/Work/AI工作流/1-任务.md` |
 | 赛峰项目 | `1-Projects/Work/赛峰项目/1-任务.md` |

@@ -55,7 +55,7 @@ created: 2026-04-11
 | 翻译.docx | [[4-Archives/Notes/Feishu/云空间/根目录/翻译.docx]] | [飞书](https://reliablesense.feishu.cn/file/FoTYbNSjwoE1trxSOvWce7rxntf) | → 归档 | `4-Archives/Projects/Work/中东电子厂/翻译.docx` | 伊朗项目翻译文件 |
 | 认证文件.zip | [[4-Archives/Notes/Feishu/云空间/根目录/认证文件.zip]] | [飞书](https://reliablesense.feishu.cn/file/GCxtbICnZo5X1QxwnzfcMzErnGf) | → 提取 | `2-Areas/Work/综合管理/软著立项/认证文件.zip` | 软著和ISO质量检测认证文件 |
 | 综合定位系统-深化设计方案.docx | [[4-Archives/Notes/Feishu/云空间/根目录/综合定位系统-深化设计方案.docx]] | [飞书](https://reliablesense.feishu.cn/file/OVHGbClJOoavkLx3gStcUVGAngh) | → 提取 | `1-Projects/Work/广州机场/综合定位系统-深化设计方案.docx` | 含"综合定位系统"，属广州机场 |
-| 14号夜班差异分析.xlsx | [[4-Archives/Notes/Feishu/云空间/根目录/14号夜班差异分析.xlsx]] | [飞书](https://reliablesense.feishu.cn/file/JXLib9uFkoA5F3xWLfxcD2jlnKf) | → 提取 | `1-Projects/Work/新太定位/14号夜班差异分析.xlsx` | 新太项目 |
+| 14号夜班差异分析.xlsx | [[4-Archives/Notes/Feishu/云空间/根目录/14号夜班差异分析.xlsx]] | [飞书](https://reliablesense.feishu.cn/file/JXLib9uFkoA5F3xWLfxcD2jlnKf) | → 提取 | `1-Projects/Work/新太定位/14号夜班差异分析.xlsx` | 新太定位 |
 | 5.20日洛阳石化系统bug问题汇总.xlsx | [[4-Archives/Notes/Feishu/云空间/根目录/5.20日洛阳石化系统bug问题汇总.xlsx]] | [飞书](https://reliablesense.feishu.cn/file/YUCNbnhyMooytWxAZVZcntx4nff) | → 归档 | `1-Projects/Work/洛阳化工厂/5.20日洛阳石化系统bug问题汇总.xlsx` | 洛阳项目 BUG 汇总 |
 | MAC-Address.xlsx | [[4-Archives/Notes/Feishu/云空间/根目录/MAC-Address.xlsx]] | [飞书](https://reliablesense.feishu.cn/file/MFjsbb7bBoHIr5xo4v7c95kqnvb) | → 提取 | `2-Areas/Work/设备管理/MAC-Address.xlsx` | 设备 MAC 地址表 |
 | 员工花名册-在职.xlsx | [[4-Archives/Notes/Feishu/云空间/根目录/员工花名册-在职.xlsx]] | [飞书](https://reliablesense.feishu.cn/sheets/HQsEseKUKhovu0t1ewnclLSAnte) | → 提取 | `1-Projects/Work/广州机场/员工花名册-在职.xlsx` | 机场导入数据 |
@@ -63,11 +63,11 @@ created: 2026-04-11
 | 定位对象在线时长导出表.xlsx | [[4-Archives/Notes/Feishu/云空间/根目录/定位对象在线时长导出表.xlsx]] | [飞书](https://reliablesense.feishu.cn/sheets/W95RsJ1SahTaeJt0xDgcM4d6n7f) | → 提取 | `2-Areas/Work/产品研发/定位对象在线时长导出表.xlsx` | 产品数据导出模板 |
 | 广州市公办小学招生报名系统入学申请表.xls | [[4-Archives/Notes/Feishu/云空间/根目录/广州市公办小学招生报名系统入学申请表.xls]] | [飞书](https://reliablesense.feishu.cn/file/T41fbSI4xoRMTJxtiWkctSUxnvp) | 留归档 | - | 个人文件 |
 | 广州机场综合定位.xlsx | [[4-Archives/Notes/Feishu/云空间/根目录/广州机场综合定位.xlsx]] | [飞书](https://reliablesense.feishu.cn/base/NbIPbswwSaCfPpsWak7cbCHsnwe) | → 提取 | `1-Projects/Work/广州机场/广州机场综合定位.xlsx` | 广州机场项目数据 |
-| 数字化.xlsx | [[4-Archives/Notes/Feishu/云空间/根目录/数字化.xlsx]] | [飞书](https://reliablesense.feishu.cn/file/E1b4biPmsoA4Ztx5Zj8c7CC0n6q) | → 提取 | `1-Projects/Work/新太定位/数字化措施表.xlsx` | 新太项目数字化改造措施（堆垛、铲车、料坑） |
+| 数字化.xlsx | [[4-Archives/Notes/Feishu/云空间/根目录/数字化.xlsx]] | [飞书](https://reliablesense.feishu.cn/file/E1b4biPmsoA4Ztx5Zj8c7CC0n6q) | → 提取 | `1-Projects/Work/新太定位/数字化措施表.xlsx` | 新太定位数字化改造措施（堆垛、铲车、料坑） |
 | 红柳林筛分楼部署内容.xlsx | [[4-Archives/Notes/Feishu/云空间/根目录/红柳林筛分楼部署内容.xlsx]] | [飞书](https://reliablesense.feishu.cn/sheets/shtcnuIgoeyPvXu60pwR4XsEc1g) | → 归档 | `1-Projects/Work/麦钉定位/红柳林筛分楼部署内容.xlsx` | 红柳林项目 |
 | 综合定位系统功能清单.xlsx | [[4-Archives/Notes/Feishu/云空间/根目录/综合定位系统功能清单.xlsx]] | [飞书](https://reliablesense.feishu.cn/file/JV2ibGyG9oVohcxlBwJcQdbenJe) | → 提取 | `1-Projects/Work/广州机场/综合定位系统功能清单.xlsx` | 广州机场功能清单 |
 | 广州白云国际机场三期扩建项目-综合定位-接口规范-V1.0.2.docx | [[4-Archives/Notes/Feishu/云空间/根目录/广州白云国际机场三期扩建项目-综合定位-接口规范-V1.0.2.docx]] | [飞书](https://reliablesense.feishu.cn/file/UGbJbaqiUoWBJaxH4Hpc9totngd) | → 提取 | `1-Projects/Work/广州机场/接口规范-V1.0.2.docx` | 广州机场接口规范 |
-| 智慧仓储物流早会汇报v1.5.pptx | [[4-Archives/Notes/Feishu/云空间/根目录/智慧仓储物流早会汇报v1.5.pptx]] | [飞书](https://reliablesense.feishu.cn/file/QeNlbb8xyoOSVPxfVMgcR8uCnKc) | → 提取 | `1-Projects/Work/新太定位/智慧仓储物流早会汇报v1.5.pptx` | 新太项目汇报 |
+| 智慧仓储物流早会汇报v1.5.pptx | [[4-Archives/Notes/Feishu/云空间/根目录/智慧仓储物流早会汇报v1.5.pptx]] | [飞书](https://reliablesense.feishu.cn/file/QeNlbb8xyoOSVPxfVMgcR8uCnKc) | → 提取 | `1-Projects/Work/新太定位/智慧仓储物流早会汇报v1.5.pptx` | 新太定位汇报 |
 
 > **归类规则补充**：
 > - 项目相关的接口/技术文档 → 跟对应项目走（`1-Projects/Work/` 或 `4-Archives/Projects/Work/`），不放通用 Tech 目录
@@ -87,7 +87,7 @@ created: 2026-04-11
 
 | 分类 | 数量 | 目标路径 |
 |------|------|---------|
-| 新太项目会议 | 34 | `1-Projects/Work/新太定位/会议纪要/` |
+| 新太定位会议 | 34 | `1-Projects/Work/新太定位/会议纪要/` |
 | 广州机场会议 | 26 | `1-Projects/Work/广州机场/会议纪要/` |
 | 上港项目会议 | 4 | `1-Projects/Work/上港仓储管理/会议纪要/` |
 | 武汉机场会议 | 3 | `4-Archives/Projects/Work/武汉机场/会议纪要/` |
@@ -104,7 +104,7 @@ created: 2026-04-11
 
 | 会议类型 | 判断依据 |
 |---------|---------|
-| 新太项目 | 标题/内容含"新太"、"新钢联"、"料棚"、"卸料"、"上料"、"铲车"、"堆垛" |
+| 新太定位 | 标题/内容含"新太"、"新钢联"、"料棚"、"卸料"、"上料"、"铲车"、"堆垛" |
 | 广州机场 | 标题/内容含"综合定位"、"A域/B域"、"电子围栏"、"AESB"、"TCDM" |
 | 上港项目 | 标题/内容含"仓储"、"出入库"、"RFID" |
 | 研发部早会 | 标题含"研发部的视频会议"或"Video meeting—研发部" |
@@ -120,15 +120,15 @@ created: 2026-04-11
 
 ### 详细文件列表
 
-#### 新太项目（34 个）
+#### 新太定位（34 个）
 
 | 文件 | 本地路径 | 飞书链接 | 目标路径 |
 |------|---------|---------|---------|
-| 内蒙新太项目（新钢联）的视频会议 2025年2月20日 - 智能纪要.md | [[4-Archives/Notes/Feishu/云空间/内蒙新太项目（新钢联）的视频会议 2025年2月20日 - 智能纪要]] | [飞书](https://reliablesense.feishu.cn/docx/KYotdrd3iovBS6xtsLFcrpl7nOb) | `1-Projects/Work/新太定位/会议纪要/` |
+| 内蒙新太定位（新钢联）的视频会议 2025年2月20日 - 智能纪要.md | [[4-Archives/Notes/Feishu/云空间/内蒙新太定位（新钢联）的视频会议 2025年2月20日 - 智能纪要]] | [飞书](https://reliablesense.feishu.cn/docx/KYotdrd3iovBS6xtsLFcrpl7nOb) | `1-Projects/Work/新太定位/会议纪要/` |
 | 文字记录：上料 APP 及卸货问题研讨会  2025年4月10日.md | [[4-Archives/Notes/Feishu/云空间/文字记录：上料 APP 及卸货问题研讨会  2025年4月10日]] | [飞书](https://reliablesense.feishu.cn/docx/Q02Gd51NFov3FlxnOpgcfUe0n2d) | `1-Projects/Work/新太定位/会议纪要/` |
 | 文字记录：五人工作安排与系统问题会议 2025年4月8日.md | [[4-Archives/Notes/Feishu/云空间/文字记录：五人工作安排与系统问题会议 2025年4月8日]] | [飞书](https://reliablesense.feishu.cn/docx/DDIddzu4uorHx3xVcmPc8d7Wnih) | `1-Projects/Work/新太定位/会议纪要/` |
-| 文字记录：内蒙新太项目（新钢联）的视频会议 2025年2月20日.md | [[4-Archives/Notes/Feishu/云空间/文字记录：内蒙新太项目（新钢联）的视频会议 2025年2月20日]] | [飞书](https://reliablesense.feishu.cn/docx/Qdl2dygpBoeSexx0CEzcjhsFnNf) | `1-Projects/Work/新太定位/会议纪要/` |
-| 文字记录：内蒙新太项目（新钢联）的视频会议 2025年2月26日.md | [[4-Archives/Notes/Feishu/云空间/文字记录：内蒙新太项目（新钢联）的视频会议 2025年2月26日]] | [飞书](https://reliablesense.feishu.cn/docx/Pt9ydazeCozgTCxOleBcBkWnnzd) | `1-Projects/Work/新太定位/会议纪要/` |
+| 文字记录：内蒙新太定位（新钢联）的视频会议 2025年2月20日.md | [[4-Archives/Notes/Feishu/云空间/文字记录：内蒙新太定位（新钢联）的视频会议 2025年2月20日]] | [飞书](https://reliablesense.feishu.cn/docx/Qdl2dygpBoeSexx0CEzcjhsFnNf) | `1-Projects/Work/新太定位/会议纪要/` |
+| 文字记录：内蒙新太定位（新钢联）的视频会议 2025年2月26日.md | [[4-Archives/Notes/Feishu/云空间/文字记录：内蒙新太定位（新钢联）的视频会议 2025年2月26日]] | [飞书](https://reliablesense.feishu.cn/docx/Pt9ydazeCozgTCxOleBcBkWnnzd) | `1-Projects/Work/新太定位/会议纪要/` |
 | 文字记录：卸货条件设定及测试问题研讨 2025年4月17日.md | [[4-Archives/Notes/Feishu/云空间/文字记录：卸货条件设定及测试问题研讨 2025年4月17日]] | [飞书](https://reliablesense.feishu.cn/docx/TKuQdMeP9oG3HExLFz3cAFrknje) | `1-Projects/Work/新太定位/会议纪要/` |
 | 文字记录：多项工作安排与检查会议  2025年5月8日.md | [[4-Archives/Notes/Feishu/云空间/文字记录：多项工作安排与检查会议  2025年5月8日]] | [飞书](https://reliablesense.feishu.cn/docx/ThZ5dZTgGofFRLxZibRcQm7mnBc) | `1-Projects/Work/新太定位/会议纪要/` |
 | 文字记录：导航程序测试问题研讨会 2025年4月10日.md | [[4-Archives/Notes/Feishu/云空间/文字记录：导航程序测试问题研讨会 2025年4月10日]] | [飞书](https://reliablesense.feishu.cn/docx/GLSldDcEWoCwNOxaGlBcB86znwd) | `1-Projects/Work/新太定位/会议纪要/` |
@@ -138,7 +138,7 @@ created: 2026-04-11
 | 文字记录：项目工作进展与规划会议纪要  2025年5月6日.md | [[4-Archives/Notes/Feishu/云空间/文字记录：项目工作进展与规划会议纪要  2025年5月6日]] | [飞书](https://reliablesense.feishu.cn/docx/DsJ3dv1Jwo7jXHxNSyZckJz6nve) | `1-Projects/Work/新太定位/会议纪要/` |
 | 智能纪要：上料 APP 及卸货问题研讨会 2025年4月10日.md | [[4-Archives/Notes/Feishu/云空间/智能纪要：上料 APP 及卸货问题研讨会 2025年4月10日]] | [飞书](https://reliablesense.feishu.cn/docx/BgwNddiWwouTVAxTA3wcb982nRh) | `1-Projects/Work/新太定位/会议纪要/` |
 | 智能纪要：五人工作安排与系统问题会议 2025年4月8日.md | [[4-Archives/Notes/Feishu/云空间/智能纪要：五人工作安排与系统问题会议 2025年4月8日]] | [飞书](https://reliablesense.feishu.cn/docx/TiYHdhhLMoGcIhxLTEKcT3MKnqe) | `1-Projects/Work/新太定位/会议纪要/` |
-| 智能纪要：内蒙新太项目（新钢联）的视频会议 2025年2月26日.md | [[4-Archives/Notes/Feishu/云空间/智能纪要：内蒙新太项目（新钢联）的视频会议 2025年2月26日]] | [飞书](https://reliablesense.feishu.cn/docx/ZLRHd5XrUoztV0xtcXucyWZMnrb) | `1-Projects/Work/新太定位/会议纪要/` |
+| 智能纪要：内蒙新太定位（新钢联）的视频会议 2025年2月26日.md | [[4-Archives/Notes/Feishu/云空间/智能纪要：内蒙新太定位（新钢联）的视频会议 2025年2月26日]] | [飞书](https://reliablesense.feishu.cn/docx/ZLRHd5XrUoztV0xtcXucyWZMnrb) | `1-Projects/Work/新太定位/会议纪要/` |
 | 智能纪要：卸货条件设定及测试问题研讨 2025年4月17日.md | [[4-Archives/Notes/Feishu/云空间/智能纪要：卸货条件设定及测试问题研讨 2025年4月17日]] | [飞书](https://reliablesense.feishu.cn/docx/UHRbdu9XLoa9PUxi2szcKHAinPb) | `1-Projects/Work/新太定位/会议纪要/` |
 | 智能纪要：多项工作安排与检查会议 2025年5月8日.md | [[4-Archives/Notes/Feishu/云空间/智能纪要：多项工作安排与检查会议 2025年5月8日]] | [飞书](https://reliablesense.feishu.cn/docx/AawEdXIyAo7h2XxcMoUcWvGbnBc) | `1-Projects/Work/新太定位/会议纪要/` |
 | 智能纪要：导航程序测试问题研讨会 2025年4月10日.md | [[4-Archives/Notes/Feishu/云空间/智能纪要：导航程序测试问题研讨会 2025年4月10日]] | [飞书](https://reliablesense.feishu.cn/docx/SMRPdLb1soQz30xhdILcFV0Cnnc) | `1-Projects/Work/新太定位/会议纪要/` |
@@ -146,16 +146,16 @@ created: 2026-04-11
 | 智能纪要：平板使用问题及解决措施研讨 2025年4月7日.md | [[4-Archives/Notes/Feishu/云空间/智能纪要：平板使用问题及解决措施研讨 2025年4月7日]] | [飞书](https://reliablesense.feishu.cn/docx/RGhodDXbEo2X70xK8WLcGZEOnXd) | `1-Projects/Work/新太定位/会议纪要/` |
 | 智能纪要：跑步速度与通知次数安排会议 2025年4月10日.md | [[4-Archives/Notes/Feishu/云空间/智能纪要：跑步速度与通知次数安排会议 2025年4月10日]] | [飞书](https://reliablesense.feishu.cn/docx/PZyHddVcpoJOndxfhdscRdC5npe) | `1-Projects/Work/新太定位/会议纪要/` |
 | 智能纪要：项目工作进展与规划会议纪要 2025年5月6日.md | [[4-Archives/Notes/Feishu/云空间/智能纪要：项目工作进展与规划会议纪要 2025年5月6日]] | [飞书](https://reliablesense.feishu.cn/docx/BosQdhobYolHEFxRpWdcMbMgnYd) | `1-Projects/Work/新太定位/会议纪要/` |
-| 文字记录：内蒙新太项目（新钢联）的视频会议 2025年2月26日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/文字记录：内蒙新太项目（新钢联）的视频会议 2025年2月26日]] | [飞书](https://reliablesense.feishu.cn/docx/OgG5dQrQLoGY9FxEchhcSvmknXg) | `1-Projects/Work/新太定位/会议纪要/` |
-| 文字记录：内蒙新太项目（新钢联）的视频会议 2025年3月5日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/文字记录：内蒙新太项目（新钢联）的视频会议 2025年3月5日]] | [飞书](https://reliablesense.feishu.cn/docx/D0aEdYFlYo9REkxhIrwcDDWCnPf) | `1-Projects/Work/新太定位/会议纪要/` |
+| 文字记录：内蒙新太定位（新钢联）的视频会议 2025年2月26日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/文字记录：内蒙新太定位（新钢联）的视频会议 2025年2月26日]] | [飞书](https://reliablesense.feishu.cn/docx/OgG5dQrQLoGY9FxEchhcSvmknXg) | `1-Projects/Work/新太定位/会议纪要/` |
+| 文字记录：内蒙新太定位（新钢联）的视频会议 2025年3月5日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/文字记录：内蒙新太定位（新钢联）的视频会议 2025年3月5日]] | [飞书](https://reliablesense.feishu.cn/docx/D0aEdYFlYo9REkxhIrwcDDWCnPf) | `1-Projects/Work/新太定位/会议纪要/` |
 | 文字记录：王宗光的视频会议 2025年2月20日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/文字记录：王宗光的视频会议 2025年2月20日]] | [飞书](https://reliablesense.feishu.cn/docx/DGyzdAmKkoykTYxVkoxcduRcnCc) | `1-Projects/Work/新太定位/会议纪要/` |
 | 文字记录：项目服务、权限及工作进展会议 2025年4月11日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/文字记录：项目服务、权限及工作进展会议 2025年4月11日]] | [飞书](https://reliablesense.feishu.cn/docx/KoC5dKi6koHwTfx8Dkbcgrlon5g) | `1-Projects/Work/新太定位/会议纪要/` |
-| 智能纪要：内蒙新太项目（新钢联）的视频会议 2025年2月26日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/智能纪要：内蒙新太项目（新钢联）的视频会议 2025年2月26日]] | [飞书](https://reliablesense.feishu.cn/docx/IQUqdVOipoy6MUx9pYicAUvrnmd) | `1-Projects/Work/新太定位/会议纪要/` |
-| 智能纪要：内蒙新太项目（新钢联）的视频会议 2025年3月5日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/智能纪要：内蒙新太项目（新钢联）的视频会议 2025年3月5日]] | [飞书](https://reliablesense.feishu.cn/docx/EePFdqlyQoh4bExphrXcGX3Wnjd) | `1-Projects/Work/新太定位/会议纪要/` |
+| 智能纪要：内蒙新太定位（新钢联）的视频会议 2025年2月26日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/智能纪要：内蒙新太定位（新钢联）的视频会议 2025年2月26日]] | [飞书](https://reliablesense.feishu.cn/docx/IQUqdVOipoy6MUx9pYicAUvrnmd) | `1-Projects/Work/新太定位/会议纪要/` |
+| 智能纪要：内蒙新太定位（新钢联）的视频会议 2025年3月5日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/智能纪要：内蒙新太定位（新钢联）的视频会议 2025年3月5日]] | [飞书](https://reliablesense.feishu.cn/docx/EePFdqlyQoh4bExphrXcGX3Wnjd) | `1-Projects/Work/新太定位/会议纪要/` |
 | 智能纪要：多方面业务问题及解决方案探讨会 2025年6月3日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/智能纪要：多方面业务问题及解决方案探讨会 2025年6月3日]] | [飞书](https://reliablesense.feishu.cn/docx/NPkFdqGfUo1Bf2xEQOGclc7anMh) | `1-Projects/Work/新太定位/会议纪要/` |
 | 智能纪要：项目服务、权限及工作进展会议 2025年4月11日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/智能纪要：项目服务、权限及工作进展会议 2025年4月11日]] | [飞书](https://reliablesense.feishu.cn/docx/LKSodmV6loX04TxtDTNcEqmcnLe) | `1-Projects/Work/新太定位/会议纪要/` |
 | 王宗光的视频会议 2025年2月20日 - 智能纪要.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/王宗光的视频会议 2025年2月20日 - 智能纪要]] | [飞书](https://reliablesense.feishu.cn/docx/Rr23dKQ8vo2vyYxmepgcq5ktn1c) | `1-Projects/Work/新太定位/会议纪要/` |
-| 内蒙新太项目（新钢联）的视频会议 2025年2月7日 - 智能纪要.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/内蒙新太项目（新钢联）的视频会议 2025年2月7日 - 智能纪要]] | [飞书](https://reliablesense.feishu.cn/docx/W7Jid5OiUopoqcxNqJbc8ichnnf) | `1-Projects/Work/新太定位/会议纪要/` |
+| 内蒙新太定位（新钢联）的视频会议 2025年2月7日 - 智能纪要.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/内蒙新太定位（新钢联）的视频会议 2025年2月7日 - 智能纪要]] | [飞书](https://reliablesense.feishu.cn/docx/W7Jid5OiUopoqcxNqJbc8ichnnf) | `1-Projects/Work/新太定位/会议纪要/` |
 | 文字记录：陈子杰的视频会议 2025年2月24日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/文字记录：陈子杰的视频会议 2025年2月24日]] | [飞书](https://reliablesense.feishu.cn/docx/JhwjdqDfJoBMExxV9btciKO3nhf) | `1-Projects/Work/新太定位/会议纪要/` |
 | 智能纪要：陈子杰的视频会议 2025年2月24日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/智能纪要：陈子杰的视频会议 2025年2月24日]] | [飞书](https://reliablesense.feishu.cn/docx/XVxUdVtaSo0wu6xtY3Uc7GdHnrc) | `1-Projects/Work/新太定位/会议纪要/` |
 
@@ -390,7 +390,7 @@ created: 2026-04-11
 | 2023-05-07 20-54-59.mkv | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/2023-05-07 20-54-59.mkv]] | [飞书](https://reliablesense.feishu.cn/file/BRc2bmrbKoPzjvxIKmPcBoOFnof) | → 提取 | - | 录屏文件 |
 | oemusers.xlsx | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/oemusers.xlsx]] | [飞书](https://reliablesense.feishu.cn/sheets/GBc0sFzfKhEtBztmsAPcp5m5n4w) | → 提取 | `1-Projects/Work/广州机场/` | 广州机场 OEM 用户数据 |
 | t_poi_type.xlsx | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/t_poi_type.xlsx]] | [飞书](https://reliablesense.feishu.cn/sheets/EKkcsQr7MhV8S7teOsTcf1ISnUc) | → 提取 | `2-Areas/Work/产品研发/` | 产品 POI 类型数据 |
-| 内蒙新太项目（新钢联）的视频会议 2025年2月7日 - 智能纪要.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/内蒙新太项目（新钢联）的视频会议 2025年2月7日 - 智能纪要]] | [飞书](https://reliablesense.feishu.cn/docx/W7Jid5OiUopoqcxNqJbc8ichnnf) | 新太项目 | `1-Projects/Work/新太定位/` |
+| 内蒙新太定位（新钢联）的视频会议 2025年2月7日 - 智能纪要.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/内蒙新太定位（新钢联）的视频会议 2025年2月7日 - 智能纪要]] | [飞书](https://reliablesense.feishu.cn/docx/W7Jid5OiUopoqcxNqJbc8ichnnf) | 新太定位 | `1-Projects/Work/新太定位/` |
 | 室内定位系统工作进度.xlsx | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/室内定位系统工作进度.xlsx]] | [飞书](https://reliablesense.feishu.cn/sheets/Xl6HsOeCMhUrDwtMewMcElDGnyd) | → 提取 | `2-Areas/Work/产品研发/` | 产品开发进度 |
 | 文字记录：上海东海模型修复及接入方案研讨 2025年5月15日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/文字记录：上海东海模型修复及接入方案研讨 2025年5月15日]] | [飞书](https://reliablesense.feishu.cn/docx/Ky4Ldt5hFoe6mQxg8lrctpCRngh) | → 提取 | `1-Projects/Work/广州机场/会议纪要/`  |
 | 文字记录：数据、页面状态及功能处理会议 2025年9月17日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/文字记录：数据、页面状态及功能处理会议 2025年9月17日]] | [飞书](https://reliablesense.feishu.cn/docx/O7UVdlfMSoMkZbxVyWic5N0bnBf) | → 提取 | `2-Areas/Work/产品研发/会议纪要/`  |
@@ -472,7 +472,7 @@ created: 2026-04-11
 |------|---------|---------|------|---------|
 | 前端运维手册.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/前端运维手册]] | [飞书](https://reliablesense.feishu.cn/docx/CT42dawUcoGhYLx2UIjcjVuTnYf) | → 提取 | `2-Areas/Work/运维管理/前端运维手册.md` |
 | 后端运维手册.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/后端运维手册]] | [飞书](https://reliablesense.feishu.cn/docx/OGLIdpLsJoaVecxBWuZcD41xnEf) | → 提取 | `2-Areas/Work/运维管理/后端运维手册.md` |
-| 新太运维手册.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/998. 售后项目/内蒙新太元铬业/新太运维手册]] | [飞书](https://reliablesense.feishu.cn/docx/NFOVdlWSFoZJ91xTXMbcvY7mnSg) | → 提取 | `1-Projects/Work/新太定位/新太运维手册.md` | 新太项目专用运维手册 |
+| 新太运维手册.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/998. 售后项目/内蒙新太元铬业/新太运维手册]] | [飞书](https://reliablesense.feishu.cn/docx/NFOVdlWSFoZJ91xTXMbcvY7mnSg) | → 提取 | `1-Projects/Work/新太定位/新太运维手册.md` | 新太定位专用运维手册 |
 | 区域功能后端开发文档.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/区域功能后端开发文档]] | [飞书](https://reliablesense.feishu.cn/docx/JknBdu9hEon9gJxuC4ycEBhOnjb) | → 提取 | `2-Areas/Work/产品研发/区域功能后端开发文档.md` |
 | 数据库操作说明.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/数据库操作说明]] | [飞书](https://reliablesense.feishu.cn/docx/KjS8dWiAvoxdCIxgkEEcDktinSU) | → 提取 | `2-Areas/Work/运维管理/数据库操作说明.md` |
 | 数据库 pg-backup 使用方法说明.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/数据库 pg-backup 使用方法说明]] | [飞书](https://reliablesense.feishu.cn/docx/LfEodRSmnoOopsxju9kckxCtnng) | → 提取 | `2-Areas/Work/运维管理/pg-backup使用方法.md` |
@@ -533,15 +533,15 @@ created: 2026-04-11
 | 文件 | 本地路径 | 飞书链接 | 决策 | 目标路径 | 对应项目 |
 |------|---------|---------|------|---------|---------|
 | cnnc_qshdz集群.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/集群资料/cnnc_qshdz集群]] | [飞书](https://reliablesense.feishu.cn/docx/MKTNd2yCQoXoGqxc7ylcO5DcnOd) | → 提取 | `2-Areas/Work/运维管理/环境配置/` | 中联核信 |
-| madinat_gat集群.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/集群资料/madinat_gat集群]] | [飞书](https://reliablesense.feishu.cn/docx/N7gMdz5ukoIv1Bxj38bcBobInCc) | → 提取 | `2-Areas/Work/运维管理/环境配置/` | 麦钉项目（高安屯） |
-| madinat_hjc集群.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/集群资料/madinat_hjc集群]] | [飞书](https://reliablesense.feishu.cn/docs/doccn6POZJyaWmcGGsWDbuyGARb) | → 提取 | `2-Areas/Work/运维管理/环境配置/` | 麦钉项目（韩家村） |
-| madinat_hll集群.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/集群资料/madinat_hll集群]] | [飞书](https://reliablesense.feishu.cn/docx/JdWOdanhvo8Yl8xAs9pc4xWGnI9) | → 提取 | `2-Areas/Work/运维管理/环境配置/` | 麦钉项目（红柳林） |
-| madinat_xmc集群.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/集群资料/madinat_xmc集群]] | [飞书](https://reliablesense.feishu.cn/docs/doccnRbr2ps3Rpla22Se3M7vnFc) | → 提取 | `2-Areas/Work/运维管理/环境配置/` | 麦钉项目（柠条塔） |
-| madinat_sewd集群.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/集群资料/madinat_sewd集群]] | [飞书](https://reliablesense.feishu.cn/docx/SGYudVlmgoEJ0ixNyuhcC94rncf) | → 提取 | `2-Areas/Work/运维管理/环境配置/` | 麦钉项目 |
-| madinat_ntt集群.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/集群资料/madinat_ntt集群]] | [飞书](https://reliablesense.feishu.cn/docx/GmiydvdkdotNEWxPntpcFGXZnmd) | → 提取 | `2-Areas/Work/运维管理/环境配置/` | 麦钉项目 |
+| madinat_gat集群.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/集群资料/madinat_gat集群]] | [飞书](https://reliablesense.feishu.cn/docx/N7gMdz5ukoIv1Bxj38bcBobInCc) | → 提取 | `2-Areas/Work/运维管理/环境配置/` | 麦钉定位（高安屯） |
+| madinat_hjc集群.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/集群资料/madinat_hjc集群]] | [飞书](https://reliablesense.feishu.cn/docs/doccn6POZJyaWmcGGsWDbuyGARb) | → 提取 | `2-Areas/Work/运维管理/环境配置/` | 麦钉定位（韩家村） |
+| madinat_hll集群.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/集群资料/madinat_hll集群]] | [飞书](https://reliablesense.feishu.cn/docx/JdWOdanhvo8Yl8xAs9pc4xWGnI9) | → 提取 | `2-Areas/Work/运维管理/环境配置/` | 麦钉定位（红柳林） |
+| madinat_xmc集群.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/集群资料/madinat_xmc集群]] | [飞书](https://reliablesense.feishu.cn/docs/doccnRbr2ps3Rpla22Se3M7vnFc) | → 提取 | `2-Areas/Work/运维管理/环境配置/` | 麦钉定位（柠条塔） |
+| madinat_sewd集群.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/集群资料/madinat_sewd集群]] | [飞书](https://reliablesense.feishu.cn/docx/SGYudVlmgoEJ0ixNyuhcC94rncf) | → 提取 | `2-Areas/Work/运维管理/环境配置/` | 麦钉定位 |
+| madinat_ntt集群.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/集群资料/madinat_ntt集群]] | [飞书](https://reliablesense.feishu.cn/docx/GmiydvdkdotNEWxPntpcFGXZnmd) | → 提取 | `2-Areas/Work/运维管理/环境配置/` | 麦钉定位 |
 | madinat_lyrydw集群.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/集群资料/私有化部署/madinat_lyrydw集群]] | [飞书](https://reliablesense.feishu.cn/docx/O5P2dVdVMoc3pWx0GVic4cpenhc) | → 提取 | `2-Areas/Work/运维管理/环境配置/` | 洛阳化工厂 |
 | madinat_lyhx集群.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/集群资料/madinat_lyhx集群]] | [飞书](https://reliablesense.feishu.cn/docx/HDKcdM8myoW1RExNYvac0N4pnuJ) | → 提取 | `2-Areas/Work/运维管理/环境配置/` | 洛阳化工厂 |
-| xintai_xintai集群.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/集群资料/xintai_xintai集群]] | [飞书](https://reliablesense.feishu.cn/docx/MbA7diPTJosC1Gxn3XPcfdMznVg) | → 提取 | `2-Areas/Work/运维管理/环境配置/` | 新太项目 |
+| xintai_xintai集群.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/集群资料/xintai_xintai集群]] | [飞书](https://reliablesense.feishu.cn/docx/MbA7diPTJosC1Gxn3XPcfdMznVg) | → 提取 | `2-Areas/Work/运维管理/环境配置/` | 新太定位 |
 | gjtsg_zhdl集群.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/集群资料/gjtsg_zhdl集群]] | [飞书](https://reliablesense.feishu.cn/docx/FxjUdZYiyoDWmOxHklhcjvMlnZb) | → 提取 | `2-Areas/Work/运维管理/环境配置/` | 广州机场 |
 | shwl_shsg集群.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/集群资料/shwl_shsg集群]] | [飞书](https://reliablesense.feishu.cn/docx/MJ2KdoekEoS4jyxuHWfcx2UMnUb) | → 提取 | `2-Areas/Work/运维管理/环境配置/` | 上港仓储管理 |
 | shwl_gzhft集群.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/集群资料/shwl_gzhft集群]] | [飞书](https://reliablesense.feishu.cn/docx/WY2Hd2wu5oHOI1xJb3UculFSn1d) | → 提取 | `2-Areas/Work/运维管理/环境配置/` | 广州机场 |
@@ -728,7 +728,7 @@ created: 2026-04-11
 | 路网绘制.md | [[4-Archives/Notes/Feishu/知识库/技术分享/地图相关文档/路网绘制]] | [飞书](https://reliablesense.feishu.cn/docx/doxcnmMiCtaR2HkpnlPPrChqyEb) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
 | 地图按钮、视角、控件控制.md | [[4-Archives/Notes/Feishu/知识库/技术分享/地图相关文档/地图按钮、视角、控件控制]] | [飞书](https://reliablesense.feishu.cn/docx/HUTId5xjFoaRIxxUkQWcEb1Xnge) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
 | 项目建立步骤.md | [[4-Archives/Notes/Feishu/知识库/技术分享/地图相关文档/项目建立步骤]] | [飞书](https://reliablesense.feishu.cn/docx/LapVd88f0oFaKUx4QwRcwrW1neI) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
-| 麦钉点云图地图绘制注意事项.md | [[4-Archives/Notes/Feishu/知识库/技术分享/地图相关文档/麦钉点云图地图绘制注意事项]] | [飞书](https://reliablesense.feishu.cn/doc/doccn6HL7llLqfP4e5qCI96CdUf) | → 提取 | `1-Projects/Work/麦钉定位/麦钉点云图地图绘制注意事项.md` | 麦钉项目专用 |
+| 麦钉点云图地图绘制注意事项.md | [[4-Archives/Notes/Feishu/知识库/技术分享/地图相关文档/麦钉点云图地图绘制注意事项]] | [飞书](https://reliablesense.feishu.cn/doc/doccn6HL7llLqfP4e5qCI96CdUf) | → 提取 | `1-Projects/Work/麦钉定位/麦钉点云图地图绘制注意事项.md` | 麦钉定位专用 |
 | CICD流程介绍.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/CICD流程介绍]] | [飞书](https://reliablesense.feishu.cn/doc/doccnqi4YxvSVSY23MSLXIkwIKe) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
 | Gitlab-CICD说明.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/Gitlab-CICD说明]] | [飞书](https://reliablesense.feishu.cn/doc/doccnUileviuvksypU7AAbSEGwg) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
 | 前后端CICD.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/前后端CICD]] | [飞书](https://reliablesense.feishu.cn/doc/doccncqa7DwRv2fD3Z3KA6oO4oh) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
@@ -822,7 +822,7 @@ created: 2026-04-11
 | 前端Admin-2.7更新内容.md | [[4-Archives/Notes/Feishu/知识库/受限知识库/前端Admin-2.7更新内容]] | [飞书](https://reliablesense.feishu.cn/wiki/OaQpwHMvhiduTDk5lBqcluCfnPf) | → 提取 | `2-Areas/Work/产品研发/前端Admin-2.7更新内容.md` |
 | 后端2.7更新内容.md | [[4-Archives/Notes/Feishu/知识库/受限知识库/后端2.7更新内容]] | [飞书](https://reliablesense.feishu.cn/wiki/AYprwPzeGiWaPlkUnVxcQWbMndc) | → 提取 | `2-Areas/Work/产品研发/后端2.7更新内容.md` |
 | 新太元验收标准总结.md | [[4-Archives/Notes/Feishu/知识库/受限知识库/新太元验收标准总结]] | [飞书](https://reliablesense.feishu.cn/wiki/LbYbwPb1QidoL0kpKakcRhCrnPe) | → 提取 | `1-Projects/Work/新太定位/验收标准总结.md` |
-| 新太项目总结.md | [[4-Archives/Notes/Feishu/知识库/受限知识库/新太项目总结]] | [飞书](https://reliablesense.feishu.cn/wiki/TK3Sw7sNkiEFD1kFx27cLTkznAV) | → 提取 | `1-Projects/Work/新太定位/项目总结.md` |
+| 新太定位总结.md | [[4-Archives/Notes/Feishu/知识库/受限知识库/新太定位总结]] | [飞书](https://reliablesense.feishu.cn/wiki/TK3Sw7sNkiEFD1kFx27cLTkznAV) | → 提取 | `1-Projects/Work/新太定位/项目总结.md` |
 | 2025年年终总结-后端.md | [[4-Archives/Notes/Feishu/知识库/受限知识库/2025年年终总结-后端]] | [飞书](https://reliablesense.feishu.cn/wiki/ZSDawo3uLi4lxXkGZP7cHGxBnXc) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/王宗光/` | 年终总结，按人归档 |
 | 2025年度总结-前端.md | [[4-Archives/Notes/Feishu/知识库/受限知识库/2025年度总结-前端]] | [飞书](https://reliablesense.feishu.cn/wiki/MqWawqoYkiJsQekf1y2c8Hatnve) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` | 年终总结，按人归档 |
 | 刘远达25年年终总结.md | [[4-Archives/Notes/Feishu/知识库/受限知识库/刘远达25年年终总结]] | [飞书](https://reliablesense.feishu.cn/wiki/TfMYwzD5citiR0kXrffcRYNUn8d) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/刘远达/` | 年终总结，按人归档 |
@@ -939,7 +939,7 @@ created: 2026-04-11
 
 | 文件 | 类型 | 飞书链接 | 目标路径 | 理由 |
 |------|------|---------|---------|------|
-| NFC读卡器接口配置文档 | docx | [飞书](https://reliablesense.feishu.cn/docx/BYIudCklRoDYMixFu6Xc9HA9n1d) | `1-Projects/Work/新太定位/` | 新太项目NFC |
+| NFC读卡器接口配置文档 | docx | [飞书](https://reliablesense.feishu.cn/docx/BYIudCklRoDYMixFu6Xc9HA9n1d) | `1-Projects/Work/新太定位/` | 新太定位NFC |
 
 ### 后端架构（有价值的技术文档）
 
@@ -1045,14 +1045,14 @@ created: 2026-04-11
 |------|------|---------|------|---------|------|
 | 广州机场综合定位 v.2025-12-19 | bitable | [飞书](https://reliablesense.feishu.cn/base/NbIPbswwSaCfPpsWak7cbCHsnwe) | → 提取 | `1-Projects/Work/广州机场/` | 广州机场综合定位数据 |
 | 信息平台消息交换标准协议_1.0.0(1).doc | file | [飞书](https://reliablesense.feishu.cn/file/RGtdbb0EYogQjHxMaxmcnf57n5b) | → 归档 | `4-Archives/Projects/Work/武汉机场/` | 武汉机场接口协议 |
-| 李家豪轨迹室内异常.png | file | [飞书](https://reliablesense.feishu.cn/file/NYJ9b9PpRo1IgMxmAvgcjaYZnMh) | → 归档 | `1-Projects/Work/麦钉定位/` | 麦钉项目截图 |
-| 韩家村统计时长缺失.png | file | [飞书](https://reliablesense.feishu.cn/file/B5bHb0v8goCfnZxMCD4cyJvjnn9) | → 归档 | `1-Projects/Work/麦钉定位/` | 麦钉项目截图 |
+| 李家豪轨迹室内异常.png | file | [飞书](https://reliablesense.feishu.cn/file/NYJ9b9PpRo1IgMxmAvgcjaYZnMh) | → 归档 | `1-Projects/Work/麦钉定位/` | 麦钉定位截图 |
+| 韩家村统计时长缺失.png | file | [飞书](https://reliablesense.feishu.cn/file/B5bHb0v8goCfnZxMCD4cyJvjnn9) | → 归档 | `1-Projects/Work/麦钉定位/` | 麦钉定位截图 |
 | 教学比赛.mov | file | [飞书](https://reliablesense.feishu.cn/file/AUT0b1zsdo1SQdxXCgHc9epunIf) | 留归档 | - | 个人文件 |
 | 宏兴裁切.rar | file | [飞书](https://reliablesense.feishu.cn/file/P5MBb8Cy6oYsYfx3MZjc8BhonCd) | → 归档 | `1-Projects/Work/洛阳化工厂/` | 洛阳项目文件 |
 | FRP_GithubArm64_version_1_3_6.apk | file | [飞书](https://reliablesense.feishu.cn/file/YMF3bIlvFoTvxaxPI6IcKLwMnNc) | 留归档 | - | 安装包 |
 | 定位平台安装文件及文档.zip | file | [飞书](https://reliablesense.feishu.cn/file/Hr8bbKyRUoKdDtxgtLhcfDCknug) | 留归档 | - | 安装包 |
-| madinat_hjc.zip | file | [飞书](https://reliablesense.feishu.cn/file/UnIjb9C7qocVGExPTZpc9wkAnog) | → 归档 | `1-Projects/Work/麦钉定位/` | 麦钉项目数据包 |
-| 转化后数据.zip | file | [飞书](https://reliablesense.feishu.cn/file/NXVgbTKQioF6Kkx26yScwwRbnjg) | → 归档 | `1-Projects/Work/麦钉定位/` | 麦钉项目数据 |
+| madinat_hjc.zip | file | [飞书](https://reliablesense.feishu.cn/file/UnIjb9C7qocVGExPTZpc9wkAnog) | → 归档 | `1-Projects/Work/麦钉定位/` | 麦钉定位数据包 |
+| 转化后数据.zip | file | [飞书](https://reliablesense.feishu.cn/file/NXVgbTKQioF6Kkx26yScwwRbnjg) | → 归档 | `1-Projects/Work/麦钉定位/` | 麦钉定位数据 |
 
 ---
 
@@ -1200,7 +1200,7 @@ created: 2026-04-11
 |--------|------------|---------|---------|--------|
 | 广州机场 | 004. 广州机场-综合定位 + 005. 移动应用平台 | [飞书](https://reliablesense.feishu.cn/drive/folder/NQ2RfyZM7lO2iadqk3rcmDjPnsb) [飞书](https://reliablesense.feishu.cn/drive/folder/D0HIfmaPgleaANd8Cw1cDwpGnhb) | `1-Projects/Work/广州机场/` | `综合定位`, `A域/B域`, `巡检app`, `AESB`, `TCDM`, `gjtsg`, `shwl_gzhft` |
 | 新太定位 | 998. 售后项目/内蒙新太元铬业 | [飞书](https://reliablesense.feishu.cn/drive/folder/IGJBfaqbJljC6adrtbCcumrrnCf) | `1-Projects/Work/新太定位/` | `新太`, `新钢联`, `料棚`, `卸料`, `上料`, `铲车`, `堆垛`, `xintai` |
-| 上港仓储 | 002. 上海上港 | [飞书](https://reliablesense.feishu.cn/drive/folder/IwSpfxmL5lfpO8dLuoccbdnLnre) | `1-Projects/Work/上港仓储管理/` | `上港`, `仓储`, `出入库`, `RFID`, `shwl_shsg` |
+| 上港仓储管理 | 002. 上海上港 | [飞书](https://reliablesense.feishu.cn/drive/folder/IwSpfxmL5lfpO8dLuoccbdnLnre) | `1-Projects/Work/上港仓储管理/` | `上港`, `仓储`, `出入库`, `RFID`, `shwl_shsg` |
 | 洛阳化工厂 | 998. 售后项目/麦钉洛阳石化 | [飞书](https://reliablesense.feishu.cn/drive/folder/S3JWftxHWl14R5dz9FncpUPUnsd) | `1-Projects/Work/洛阳化工厂/` | `洛阳`, `石化`, `化工`, `宏兴`, `lyrydw`, `lyhx` |
 | 南宁机场 | 南宁机场项目 | [飞书](https://reliablesense.feishu.cn/drive/folder/JuNOf2llHlkIa9dKw73cJm5pn3w) | `1-Projects/Work/南宁机场/` | `南宁机场` |
 | 麦钉定位 | 998. 售后项目/麦钉 + 红柳林/韩家村/柠条塔/李家壕等 | [飞书](https://reliablesense.feishu.cn/drive/folder/RTvgfEDMZlvXcod1aQScqUCdnXb) | `1-Projects/Work/麦钉定位/` | `红柳林`, `李家壕`, `韩家村`, `高安屯`, `柠条塔`, `孝感`, `恩菲`, `固废`, `污水处理`, `地磁`, `madinat_hll`, `madinat_xmc`, `madinat_hjc`, `madinat_gat`, `madinat_ntt` |
@@ -1210,7 +1210,7 @@ created: 2026-04-11
 
 #### 998. 售后项目
 
-> 归入进行中项目：李家壕洗煤厂(183)、红柳林洗煤厂(51)、韩家村洗煤厂(50)、柠条塔(19) → 麦钉项目；内蒙新太元铬业(182) → 新太项目；麦钉洛阳石化(14) → 洛阳化工厂；麦钉(7) → 麦钉项目
+> 归入进行中项目：李家壕洗煤厂(183)、红柳林洗煤厂(51)、韩家村洗煤厂(50)、柠条塔(19) → 麦钉定位；内蒙新太元铬业(182) → 新太定位；麦钉洛阳石化(14) → 洛阳化工厂；麦钉(7) → 麦钉定位
 
 | 项目名 | 飞书来源目录 | 飞书链接 | 文件数 | 归档方式 | 关键字 |
 |--------|------------|---------|--------|---------|--------|
@@ -1229,13 +1229,13 @@ created: 2026-04-11
 | 数讯云人员服务系统 | IDC | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnnpIG8G9K1vU3IH1XexyQpb) | 26 | 📁 Project | `数讯`, `IDC`, `数据中心` |
 | 北京GE | 北京GE | [飞书](https://reliablesense.feishu.cn/drive/folder/VL31fp5utl2g59dU3CbcBV1Onkc) | 21 | 📁 Project | `GE`, `北京GE` |
 | 松下LED灯 | 松下照明 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnvFOcvpYap90lcIGxwbRTVf) | 19 | 📁 Project | `松下照明`, `松下`, `LED` |
-| 孝感污水处理 | 孝感污水处理 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnzHlG6xjy4ECXtD2za7G62e) | 19 | 归入麦钉项目 | `孝感`, `污水处理` |
+| 孝感污水处理 | 孝感污水处理 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnzHlG6xjy4ECXtD2za7G62e) | 19 | 归入麦钉定位 | `孝感`, `污水处理` |
 | 合众思壮 | 合众思壮 | [飞书](https://reliablesense.feishu.cn/drive/folder/KS3BfWiA0lszPFdzHPHcltflnre) | 18 | 归入设备管理 | `合众思壮`, `GPS` |
 | 康利达定位 | 广东康利达物联科技有限公司 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnPZ5u2pC8jXrwCWYmW0zKsN) | 16 | 📋 业务管理 | `康利达` |
 | 天津眼科医院 | 天津眼科医院 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn4LNTqNz05fkkDD51VReUoh) | 16 | 📁 Project | `天津眼科` |
-| 内蒙古洗煤厂 | 内蒙古洗煤厂的煤棚 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn0XgPdqYb7z218keyA7wyhd) | 15 | 归入麦钉项目 | `内蒙古洗煤厂`, `煤棚` |
+| 内蒙古洗煤厂 | 内蒙古洗煤厂的煤棚 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn0XgPdqYb7z218keyA7wyhd) | 15 | 归入麦钉定位 | `内蒙古洗煤厂`, `煤棚` |
 | 电子价签管理 | 电子价签管理项目（Bossard） | [飞书](https://reliablesense.feishu.cn/drive/folder/E3NmfOQ5Pl5w9wdaRkjcEAvHntf) | 14 | 📁 Project | `电子价签`, `Bossard` |
-| 地磁 | 地磁 | | 13 | 归入麦钉项目 | `地磁` |
+| 地磁 | 地磁 | | 13 | 归入麦钉定位 | `地磁` |
 | 众合科技 | 众合科技 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcndJIt8gCWm2aGkk20nLuU3d) | 13 | 归入众合人员管理 | `众合科技` |
 | 电网智能仓库 | 南方电网 - 智能仓库项目 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnFfYXhVMbffAXURuPEYFZHg) | 12 | 📁 Project | `南方电网`, `智能仓库`, `国家电网`, `技新`, `广西电网` |
 | 广西电网 | 广西电网项目 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcndXOeB44cYlW012D2C05Hcf) | 8 | 📋 业务管理 | `广西电网` |
@@ -1247,7 +1247,7 @@ created: 2026-04-11
 | 上海易同科技 | 上海易同科技 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn8pIA6ElregB1Fggx07tGKg) | 3 | 📋 业务管理 | `易同` |
 | 清华大学 | 清华大学 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnpJzwab38BtPYZAFQgcicrf) | 2 | 📋 业务管理 | `清华大学` |
 | 振华项目 | 振华项目 | [飞书](https://reliablesense.feishu.cn/drive/folder/S9lCfVWTwlUyORda8c5cb3BGnsb) | 2 | 📋 业务管理 | `振华` |
-| 恩菲固废（孝感） | 恩菲固废(孝感)项目 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnbKqOCYwFonGRakDFNNiXIc) | 2 | 归入麦钉项目 | `恩菲`, `固废` |
+| 恩菲固废（孝感） | 恩菲固废(孝感)项目 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnbKqOCYwFonGRakDFNNiXIc) | 2 | 归入麦钉定位 | `恩菲`, `固废` |
 | 威海核电 | 威海核电项目 | [飞书](https://reliablesense.feishu.cn/drive/folder/CxMIfqTrnlwHNcd2Spmc5KEinnh) | 2 | 归入国核智慧工地 | `威海核电` |
 | 天津医科大学总医院 | 天津医科大学总医院 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnIVDi2da6SfdGwkyejbPZ1g) | 1 | 📋 业务管理 | `天津医科大学` |
 
@@ -1355,7 +1355,7 @@ created: 2026-04-11
 |--------|---------|---------|
 | 广州机场 | `1-Projects/Work/广州机场/` | [综合定位](https://reliablesense.feishu.cn/drive/folder/NQ2RfyZM7lO2iadqk3rcmDjPnsb) [移动应用平台](https://reliablesense.feishu.cn/drive/folder/D0HIfmaPgleaANd8Cw1cDwpGnhb) |
 | 新太定位 | `1-Projects/Work/新太定位/` | [内蒙新太元铬业](https://reliablesense.feishu.cn/drive/folder/IGJBfaqbJljC6adrtbCcumrrnCf) |
-| 上港仓储 | `1-Projects/Work/上港仓储管理/` | [上海上港](https://reliablesense.feishu.cn/drive/folder/IwSpfxmL5lfpO8dLuoccbdnLnre) |
+| 上港仓储管理 | `1-Projects/Work/上港仓储管理/` | [上海上港](https://reliablesense.feishu.cn/drive/folder/IwSpfxmL5lfpO8dLuoccbdnLnre) |
 | 洛阳化工厂 | `1-Projects/Work/洛阳化工厂/` | [麦钉洛阳石化](https://reliablesense.feishu.cn/drive/folder/S3JWftxHWl14R5dz9FncpUPUnsd) [宏兴新能](https://reliablesense.feishu.cn/drive/folder/BKYCfWVwOlXZRpdgjpscVhannlc) |
 | 南宁机场 | `1-Projects/Work/南宁机场/` | [南宁机场](https://reliablesense.feishu.cn/drive/folder/JuNOf2llHlkIa9dKw73cJm5pn3w) |
 | 麦钉定位 | `1-Projects/Work/麦钉定位/` | [麦钉+红柳林等](https://reliablesense.feishu.cn/drive/folder/RTvgfEDMZlvXcod1aQScqUCdnXb) [孝感污水处理](https://reliablesense.feishu.cn/drive/folder/fldcnzHlG6xjy4ECXtD2za7G62e) [内蒙古洗煤厂](https://reliablesense.feishu.cn/drive/folder/fldcn0XgPdqYb7z218keyA7wyhd) [恩菲固废](https://reliablesense.feishu.cn/drive/folder/fldcnbKqOCYwFonGRakDFNNiXIc) |

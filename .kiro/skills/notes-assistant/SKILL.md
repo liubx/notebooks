@@ -127,7 +127,7 @@ Important: Project names (folder names, tags, wikilink paths) must NEVER contain
 - Tasks live in `1-任务.md` inside each project folder (single source of truth)
 - Other notes in the project can embed tasks using block references: `![[1-任务#^task-id]]`
 - The project `0-总览.md` embeds the full task list: `![[1-任务]]`
-- When referencing project task lists from outside the project folder (e.g. daily notes), use full paths with display aliases: `[[1-Projects/Work/麦钉项目/1-任务|麦钉项目任务清单]]`
+- When referencing project task lists from outside the project folder (e.g. daily notes), use full paths with display aliases: `[[1-Projects/Work/麦钉定位/1-任务|麦钉定位任务清单]]`
 
 ### Task Types & Where to Put Them
 1. **Project tasks** → `1-任务.md` in the project folder. Has a clear end goal.
@@ -146,7 +146,7 @@ The query block rules:
 - Group level 2 by `#project/` tag → "项目：{name} 📋" (with wikilink to project's 1-任务.md), else → "临时"
 - Group level 3 by task heading → "📂 {heading}" (shows the section name from the task's source file)
 
-Wikilinks in daily notes should use full paths with display aliases, e.g. `[[1-Projects/Work/麦钉项目/1-任务|麦钉项目任务清单]]`.
+Wikilinks in daily notes should use full paths with display aliases, e.g. `[[1-Projects/Work/麦钉定位/1-任务|麦钉定位任务清单]]`.
 
 ```markdown
 ## 📋 任务

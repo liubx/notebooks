@@ -16,7 +16,7 @@ COLLEAGUES = [
 def classify(fname, content=''):
     text = fname + ' ' + content
     if any(k in text for k in ['新太','新钢联','料棚','卸料','上料','铲车','堆垛']):
-        return '新太项目', '1-Projects/Work/内蒙新太/'
+        return '新太定位', '1-Projects/Work/内蒙新太/'
     if any(k in text for k in ['广州机场','综合定位','A域','B域','电子围栏','AESB','TCDM','白云','移动应用平台','陪伴运行']):
         return '广州机场', '1-Projects/Work/广州机场/'
     if any(k in text for k in ['上港','仓储','出入库']):
