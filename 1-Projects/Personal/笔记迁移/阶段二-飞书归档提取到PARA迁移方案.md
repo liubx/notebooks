@@ -1473,7 +1473,7 @@ created: 2026-04-11
 | 红点UWB | `设备管理/红点UWB/` | [飞书(硬件)](https://reliablesense.feishu.cn/drive/folder/fldcnioGA6B5UmWMhaZFnKLzush) [飞书(合作)](https://reliablesense.feishu.cn/drive/folder/fldcn6ICwAl87p2HaNSaZxSAOyg) | 67 | 📂 定位硬件厂商/红点-硬件(54) + 合作企业/红点(13) | `红点`, `redpoint`, `UWB` |
 | MOKO蓝牙 | `设备管理/MOKO蓝牙/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn8QCZ8QW3d8vz2CjJFcXPUd) | 4 | 📂 定位硬件厂商/MOKO | `MOKO`, `RSSI` |
 | 合众思壮GPS | `设备管理/合众思壮GPS/` | [飞书](https://reliablesense.feishu.cn/drive/folder/KS3BfWiA0lszPFdzHPHcltflnre) | 18 | 📂 998.售后项目/合众思壮（整体搬） | `合众思壮` |
-| 博实结GPS | `设备管理/博实结GPS/` | | 4 | 📄 散落：王宗光/项目资料/博实结(13章) — EG10E设备资料 | `博实结`, `EG10E` |
+| 博实结GPS | `设备管理/博实结GPS/` | [飞书](https://reliablesense.feishu.cn/drive/folder/BudrfapCnl9fLkd8Rl3cXhwjnve) | 4 | 📄 散落：王宗光/项目资料/博实结(13章) — EG10E设备资料 | `博实结`, `EG10E` |
 | 阿法迪蓝牙墨水屏 | `设备管理/阿法迪蓝牙墨水屏/` | | 2 | 📄 散落：墨水屏数据协议(1章)、E-Ink平台安装和使用手册(13章) | `墨水屏`, `E-Ink`, `电子标牌` |
 | 华云时空UWB | `设备管理/华云时空UWB/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnulnDAIMY2OG75W9xFgPcqb) | 29 | 📂 合作企业/华云时空 | `华云时空` |
 | 太和电子UWB | `设备管理/太和电子UWB/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnOYX43nyKPQ8QgDqlmNSDBb) | 24 | 📂 合作企业/太和 | `太和` |
