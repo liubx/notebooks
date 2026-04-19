@@ -29,7 +29,7 @@ PN仓库群                →  :9802           →  pn-xxx         (cwd: Work/)
 上港仓储群              →  :9804           →  sg-sgcc        (cwd: Work/)
 新太定位群              →  :9805           →  xt-xt          (cwd: Work/)
 洛阳化工厂群            →  :9806           →  madinat-ly     (cwd: Work/)
-赛峰项目群              →  :9807           →  sf-sf          (cwd: Work/)
+赛峰定位群              →  :9807           →  sf-sf          (cwd: Work/)
 麦钉定位群              →  :9808           →  madinat-md     (cwd: Work/)
 平台更新群              →  :9809           →  platform-v27   (cwd: Work/)
 测试流程群              →  :9810           →  internal-test  (cwd: Work/)
@@ -189,7 +189,7 @@ port = 9800
 - 上港仓储管理 — 群：oc_251532efe2c85ee7ffb55dfef4b1cccd
 - 新太定位 — 群：oc_69a95f0dbc2ff16982e455a3ba53f109
 - 洛阳化工厂 — 群：oc_eb18ffd4120a65c95979e5bee934ccee
-- 赛峰项目 — 群：oc_02a8c3b9cc699cb77bc928410a679503
+- 赛峰定位 — 群：oc_02a8c3b9cc699cb77bc928410a679503
 - 麦钉定位 — 群：oc_84748d35d2014854793a3001a6cc448a
 - 平台更新v2.7 — 群：oc_85ba568036c47e354e2ec3448372e700
 - 测试流程建立 — 群：oc_4823f95f2a48c82b03880165f33efcab
@@ -365,7 +365,7 @@ sudo loginctl enable-linger $USER
 | 上港仓储管理 | sg-sgcc-phase1 | oc_251532efe2c85ee7ffb55dfef4b1cccd | 9804 | | 平台项目 ID 待确认 |
 | 新太定位 | xt-xt-phase1 | oc_69a95f0dbc2ff16982e455a3ba53f109 | 9805 | | 平台项目 ID 待确认 |
 | 洛阳化工厂 | madinat-ly-phase1 | oc_eb18ffd4120a65c95979e5bee934ccee | 9806 | | 平台项目 ID: madinat-lyrydw 等 |
-| 赛峰项目 | sf-sf-phase1 | oc_02a8c3b9cc699cb77bc928410a679503 | 9807 | | 平台项目 ID 待确认 |
+| 赛峰定位 | sf-sf-phase1 | oc_02a8c3b9cc699cb77bc928410a679503 | 9807 | | 平台项目 ID 待确认 |
 | 麦钉定位 | madinat-md-phase1 | oc_84748d35d2014854793a3001a6cc448a | 9808 | | 平台项目 ID: madinat-* 系列 |
 | 平台更新v2.7 | platform-v27 | oc_85ba568036c47e354e2ec3448372e700 | 9809 | | 内部项目 |
 | 测试流程建立 | internal-test | oc_4823f95f2a48c82b03880165f33efcab | 9810 | | 内部项目 |

@@ -73,7 +73,7 @@ Areas vs Resources 的细分标准：**谁在驱动它改？**
 │   ├── 洛阳化工厂/
 │   ├── 麦钉定位/
 │   ├── PN仓库项目/
-│   ├── 赛峰项目/
+│   ├── 赛峰定位/
 │   └── AI工作流/
 └── Personal/
     ├── 笔记系统/
@@ -252,7 +252,7 @@ Obsidian 任务（本地视图）
 | 麦钉定位 | `1-Projects/Work/麦钉定位/1-任务.md` |
 | 测试流程建立 | `1-Projects/Work/测试流程建立/1-任务.md` |
 | AI工作流 | `1-Projects/Work/AI工作流/1-任务.md` |
-| 赛峰项目 | `1-Projects/Work/赛峰项目/1-任务.md` |
+| 赛峰定位 | `1-Projects/Work/赛峰定位/1-任务.md` |
 
 **综合任务清单：**
 

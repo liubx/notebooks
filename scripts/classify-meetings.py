@@ -19,7 +19,7 @@ RULES = [
     (['南宁机场', '无动力设备', '车载定位'], '南宁机场', '1-Projects/Work/南宁机场/会议纪要/'),
     (['武汉机场', '商铺'], '武汉机场', '4-Archives/Projects/Work/武汉机场/会议纪要/'),
     (['洛阳石化', '洛阳化工'], '洛阳石化', '4-Archives/Projects/Work/洛阳石化/会议纪要/'),
-    (['赛峰', 'ADFS', 'SAML'], '赛峰项目', '4-Archives/Projects/Work/赛峰/会议纪要/'),
+    (['赛峰', 'ADFS', 'SAML'], '赛峰定位', '4-Archives/Projects/Work/赛峰/会议纪要/'),
     (['研发部的视频会议', 'Video meeting—研发部'], '研发部周会', '2-Areas/Work/团队管理/周会纪要/研发部/'),
     (['项目部的视频会议', 'Video meeting—项目部'], '项目部周会', '2-Areas/Work/团队管理/周会纪要/项目部/'),
     (['刘秉欣'], '项目进度会', '2-Areas/Work/团队管理/周会纪要/'),

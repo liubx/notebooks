@@ -42,7 +42,7 @@ created: 2026-04-11
 | 墨水屏数据协议.md | [[4-Archives/Notes/Feishu/云空间/根目录/墨水屏数据协议]] | [飞书](https://reliablesense.feishu.cn/docx/P4z0dkpVUoq3jwxUvBtcrRpundd) | → 提取 | `2-Areas/Work/设备管理/墨水屏数据协议.md` | 设备协议文档，归设备管理 |
 | 系统架构图.md | [[4-Archives/Notes/Feishu/云空间/根目录/系统架构图]] | [飞书](https://reliablesense.feishu.cn/docx/IYLtdtwDQoaOetxP9Xkc66jfnPf) | → 提取 | `1-Projects/Work/广州机场/综合定位系统架构图.md` | 含"综合定位系统"，归广州机场 |
 | 系统整改配置表.md | [[4-Archives/Notes/Feishu/云空间/根目录/系统整改配置表]] | [飞书](https://reliablesense.feishu.cn/docx/ZpsNdChggodbeaxLg78cgtRBnGc) | → 提取 | `1-Projects/Work/广州机场/系统整改配置表.md` | 含 A域/B域、巡检app，属广州机场项目 |
-| deploy.yaml | [[4-Archives/Notes/Feishu/云空间/根目录/deploy.yaml]] | [飞书](https://reliablesense.feishu.cn/file/RwsBbb50NoKUaKxeVutcaFWBnVd) | → 提取 | `1-Projects/Work/赛峰定位/deploy-sso.yaml` | 赛峰项目 SAML2/SSO 配置 |
+| deploy.yaml | [[4-Archives/Notes/Feishu/云空间/根目录/deploy.yaml]] | [飞书](https://reliablesense.feishu.cn/file/RwsBbb50NoKUaKxeVutcaFWBnVd) | → 提取 | `1-Projects/Work/赛峰定位/deploy-sso.yaml` | 赛峰定位 SAML2/SSO 配置 |
 | Doc2.docx | [[4-Archives/Notes/Feishu/云空间/根目录/Doc2.docx]] | [飞书](https://reliablesense.feishu.cn/file/VvsMbbh4OoziMkxwQGTcUXwMnYf) | → 归档 | `4-Archives/Projects/Work/中东电子厂/Doc2-波斯语翻译.docx` | 伊朗项目 UI 翻译 |
 | 优化后.txt | [[4-Archives/Notes/Feishu/云空间/根目录/优化后.txt]] | [飞书](https://reliablesense.feishu.cn/file/OuyFbuM1touvroxyPjEcki2on0d) | 留归档 | - | 无上下文的临时文件 |
 | map-mobile.mm | [[4-Archives/Notes/Feishu/云空间/根目录/map-mobile.mm]] | [飞书](https://reliablesense.feishu.cn/mindnotes/G7S6b8VC3mxDsPnZ1yDc4XItn2d) | → 提取 | `2-Areas/Work/产品研发/map-mobile参数设置.mm` | 手机端网页（小程序/APP嵌入）参数设置思维导图 |
