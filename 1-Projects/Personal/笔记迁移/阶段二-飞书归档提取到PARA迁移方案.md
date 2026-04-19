@@ -714,11 +714,11 @@ created: 2026-04-11
 
 | 文件 | 本地路径 | 飞书链接 | 决策 | 目标路径 |
 |------|---------|---------|------|---------|
-| 前端React开发规范.md | [[4-Archives/Notes/Feishu/知识库/技术分享/前端相关文档/前端React开发规范]] | [飞书](https://reliablesense.feishu.cn/doc/doccnymhDUxjzJsBjuZ5mBGpG4c) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
+| 前端React开发规范.md | [[4-Archives/Notes/Feishu/知识库/技术分享/前端相关文档/前端React开发规范]] | [飞书](https://reliablesense.feishu.cn/doc/doccnymhDUxjzJsBjuZ5mBGpG4c) | → 提取 | `3-Resources/Tech/知识卡片/前端React开发规范.md` |
 | 后端开发流程规范.md | [[4-Archives/Notes/Feishu/知识库/技术分享/后端相关文档/后端开发流程规范]] | [飞书](https://reliablesense.feishu.cn/docx/CUA7dlJrRoTZ3Fx8t5kc1UiRneb) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
 | 定位平台系统整体改造方案.md | [[4-Archives/Notes/Feishu/知识库/技术分享/后端相关文档/定位平台系统整体改造方案]] | [飞书](https://reliablesense.feishu.cn/doc/doccnVRMcLTfhON3R9OLZT7VHgf) | → 提取 | `2-Areas/Work/产品研发/定位平台系统整体改造方案.md` |
-| 微服务说明.md | [[4-Archives/Notes/Feishu/知识库/技术分享/后端相关文档/微服务说明]] | [飞书](https://reliablesense.feishu.cn/docx/F2PhdYeMCoHjP6xd8y0cyz6Mnac) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
-| 后端问题QA.md | [[4-Archives/Notes/Feishu/知识库/技术分享/后端问题QA]] | [飞书](https://reliablesense.feishu.cn/docx/OpsxdI417oi5i4xLyrhc8Znyn5f) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
+| 微服务说明.md | [[4-Archives/Notes/Feishu/知识库/技术分享/后端相关文档/微服务说明]] | [飞书](https://reliablesense.feishu.cn/docx/F2PhdYeMCoHjP6xd8y0cyz6Mnac) | → 提取 | `2-Areas/Work/产品研发/微服务说明.md` |
+| 后端问题QA.md | [[4-Archives/Notes/Feishu/知识库/技术分享/后端问题QA]] | [飞书](https://reliablesense.feishu.cn/docx/OpsxdI417oi5i4xLyrhc8Znyn5f) | → 提取 | `2-Areas/Work/产品研发/后端问题QA.md` |
 | QGIS地图绘制准备.md | [[4-Archives/Notes/Feishu/知识库/技术分享/地图相关文档/QGIS地图绘制准备]] | [飞书](https://reliablesense.feishu.cn/docx/CXjHdQO7JogckXxR6owcL5AcnEb) | → 提取 | `3-Resources/Tech/知识卡片/QGIS地图绘制准备.md` |
 | QGIS安装.md | [[4-Archives/Notes/Feishu/知识库/技术分享/地图相关文档/QGIS安装]] | [飞书](https://reliablesense.feishu.cn/docx/DKP6dIPIHoXYuMxJ5Xoc00LVngp) | → 提取 | `3-Resources/Tech/知识卡片/QGIS安装.md` |
 | QGIS图片及瓦片图添加.md | [[4-Archives/Notes/Feishu/知识库/技术分享/地图相关文档/QGIS图片及瓦片图添加]] | [飞书](https://reliablesense.feishu.cn/docx/X68Zdyv98o4AgGx073LcsrscnAh) | → 提取 | `3-Resources/Tech/知识卡片/QGIS图片及瓦片图添加.md` |
@@ -733,17 +733,17 @@ created: 2026-04-11
 | Gitlab-CICD说明.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/Gitlab-CICD说明]] | [飞书](https://reliablesense.feishu.cn/doc/doccnUileviuvksypU7AAbSEGwg) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
 | 前后端CICD.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/前后端CICD]] | [飞书](https://reliablesense.feishu.cn/doc/doccncqa7DwRv2fD3Z3KA6oO4oh) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
 | 开发分支管理规范.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/开发分支管理规范]] | [飞书](https://reliablesense.feishu.cn/doc/doccnlE0yWc24L79rE98oSVsY8d) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
-| 办公网v2ray操作手册.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/办公网VPN/办公网v2ray操作手册]] | [飞书](https://reliablesense.feishu.cn/docx/G1OBdhlTSotGV6xRToRcXlzWnoe) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
-| 办公网WireGuard操作手册.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/办公网VPN/办公网WireGuard操作手册]] | [飞书](https://reliablesense.feishu.cn/docx/Q4OzdL6ZboG5dSxgqqlcNn4WnFf) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
-| A-Server-environment-preparation.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/Deployment英文版/A-Server-environment-preparation]] | [飞书](https://reliablesense.feishu.cn/docx/CWnsdq3ryoYTSHxGAC0cpcoenbg) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
-| B1-Cluster-setup-K3s-online.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/Deployment英文版/B1-Cluster-setup-K3s-online]] | [飞书](https://reliablesense.feishu.cn/docx/Kgifd4mPJo5nuVxkmX2cF76unde) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
-| B2-Cluster-setup-K3s-offline.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/Deployment英文版/B2-Cluster-setup-K3s-offline]] | [飞书](https://reliablesense.feishu.cn/docx/NQgadYYYJo5e4sxLhxMcLMZ9nGB) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
-| C-Installation-of-basic-services.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/Deployment英文版/C-Installation-of-basic-services]] | [飞书](https://reliablesense.feishu.cn/docx/MXFDdnQvAoKSMAxxdAXc2I9bnYb) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
-| A-服务器环境准备.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/私有化部署/A-服务器环境准备]] | [飞书](https://reliablesense.feishu.cn/docx/doxcniK4NdHGlK7G8gccJ5WYnEg) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
-| B1-集群搭建K3s在线版.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/私有化部署/B1-集群搭建K3s在线版]] | [飞书](https://reliablesense.feishu.cn/docx/doxcn67UW5vdFM5qaPG3tc9zMdd) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
-| B2-集群搭建K3s离线版.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/私有化部署/B2-集群搭建K3s离线版]] | [飞书](https://reliablesense.feishu.cn/docx/SuiNdHlegogxpcxnqqhc8AuKnZ1) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
-| C-集群内基础服务安装.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/私有化部署/C-集群内基础服务安装]] | [飞书](https://reliablesense.feishu.cn/docx/doxcnSbULW58Lp1lXBy2tt8i80e) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
-| 命令行工具oemctl.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/私有化部署/命令行工具oemctl]] | [飞书](https://reliablesense.feishu.cn/docx/J1C8daWxto4clexYnaDcKtgQnzf) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
+| 办公网v2ray操作手册.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/办公网VPN/办公网v2ray操作手册]] | [飞书](https://reliablesense.feishu.cn/docx/G1OBdhlTSotGV6xRToRcXlzWnoe) | → 提取 | `2-Areas/Work/运维管理/办公网v2ray操作手册.md` |
+| 办公网WireGuard操作手册.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/办公网VPN/办公网WireGuard操作手册]] | [飞书](https://reliablesense.feishu.cn/docx/Q4OzdL6ZboG5dSxgqqlcNn4WnFf) | → 提取 | `2-Areas/Work/运维管理/办公网WireGuard操作手册.md` |
+| A-Server-environment-preparation.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/Deployment英文版/A-Server-environment-preparation]] | [飞书](https://reliablesense.feishu.cn/docx/CWnsdq3ryoYTSHxGAC0cpcoenbg) | → 提取 | `2-Areas/Work/运维管理/私有化部署/A-Server-environment-preparation.md` |
+| B1-Cluster-setup-K3s-online.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/Deployment英文版/B1-Cluster-setup-K3s-online]] | [飞书](https://reliablesense.feishu.cn/docx/Kgifd4mPJo5nuVxkmX2cF76unde) | → 提取 | `2-Areas/Work/运维管理/私有化部署/B1-Cluster-setup-K3s-online.md` |
+| B2-Cluster-setup-K3s-offline.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/Deployment英文版/B2-Cluster-setup-K3s-offline]] | [飞书](https://reliablesense.feishu.cn/docx/NQgadYYYJo5e4sxLhxMcLMZ9nGB) | → 提取 | `2-Areas/Work/运维管理/私有化部署/B2-Cluster-setup-K3s-offline.md` |
+| C-Installation-of-basic-services.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/Deployment英文版/C-Installation-of-basic-services]] | [飞书](https://reliablesense.feishu.cn/docx/MXFDdnQvAoKSMAxxdAXc2I9bnYb) | → 提取 | `2-Areas/Work/运维管理/私有化部署/C-Installation-of-basic-services.md` |
+| A-服务器环境准备.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/私有化部署/A-服务器环境准备]] | [飞书](https://reliablesense.feishu.cn/docx/doxcniK4NdHGlK7G8gccJ5WYnEg) | → 提取 | `2-Areas/Work/运维管理/私有化部署/A-服务器环境准备.md` |
+| B1-集群搭建K3s在线版.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/私有化部署/B1-集群搭建K3s在线版]] | [飞书](https://reliablesense.feishu.cn/docx/doxcn67UW5vdFM5qaPG3tc9zMdd) | → 提取 | `2-Areas/Work/运维管理/私有化部署/B1-集群搭建K3s在线版.md` |
+| B2-集群搭建K3s离线版.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/私有化部署/B2-集群搭建K3s离线版]] | [飞书](https://reliablesense.feishu.cn/docx/SuiNdHlegogxpcxnqqhc8AuKnZ1) | → 提取 | `2-Areas/Work/运维管理/私有化部署/B2-集群搭建K3s离线版.md` |
+| C-集群内基础服务安装.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/私有化部署/C-集群内基础服务安装]] | [飞书](https://reliablesense.feishu.cn/docx/doxcnSbULW58Lp1lXBy2tt8i80e) | → 提取 | `2-Areas/Work/运维管理/私有化部署/C-集群内基础服务安装.md` |
+| 命令行工具oemctl.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/私有化部署/命令行工具oemctl]] | [飞书](https://reliablesense.feishu.cn/docx/J1C8daWxto4clexYnaDcKtgQnzf) | → 提取 | `2-Areas/Work/运维管理/私有化部署/命令行工具oemctl.md` |
 | 偏移位置数据到火星坐标.md | [[4-Archives/Notes/Feishu/知识库/技术分享/数据库相关文档/Postgis/偏移位置数据到火星坐标]] | [飞书](https://reliablesense.feishu.cn/doc/doccn4JOodvetnzvaKMfs3aIBSh) | → 提取 | `3-Resources/Tech/代码片段/` |
 | 火星坐标转换.md | [[4-Archives/Notes/Feishu/知识库/技术分享/数据库相关文档/Postgis/火星坐标转换]] | [飞书](https://reliablesense.feishu.cn/doc/doccnbSee08xdsJhTWt1nXJccZc) | → 提取 | `3-Resources/Tech/代码片段/` |
 | 获取指定范围内的点.md | [[4-Archives/Notes/Feishu/知识库/技术分享/数据库相关文档/Postgis/获取指定范围内的点]] | [飞书](https://reliablesense.feishu.cn/doc/doccnhqA2pLGKjd5fnqdDsdRbig) | → 提取 | `3-Resources/Tech/代码片段/` |
@@ -752,12 +752,12 @@ created: 2026-04-11
 | 移动电子围栏到火星坐标.md | [[4-Archives/Notes/Feishu/知识库/技术分享/数据库相关文档/Postgis/移动电子围栏到火星坐标]] | [飞书](https://reliablesense.feishu.cn/doc/doccnvu9gfk9NPRnE1FMF7fpNFe) | → 提取 | `3-Resources/Tech/代码片段/` |
 | 修改火星坐标完整语句.md | [[4-Archives/Notes/Feishu/知识库/技术分享/数据库相关文档/Postgis/修改火星坐标完整语句]] | [飞书](https://reliablesense.feishu.cn/doc/doccnZUAaAKBqN3uCPCiAHkWo30) | → 提取 | `3-Resources/Tech/代码片段/` |
 | 将Point转成PointZ.md | [[4-Archives/Notes/Feishu/知识库/技术分享/数据库相关文档/Postgis/将Point转成PointZ]] | [飞书](https://reliablesense.feishu.cn/doc/doccnZTs4pwAZPya8zQfIgRf7Yf) | → 提取 | `3-Resources/Tech/代码片段/` |
-| 处理连接数的问题.md | [[4-Archives/Notes/Feishu/知识库/技术分享/数据库相关文档/Postgres/处理连接数的问题]] | [飞书](https://reliablesense.feishu.cn/doc/doccnZIMQSFgw5z9FAtvRxqEF4f) | → 提取 | `3-Resources/Tech/代码片段/` |
-| 处理t_position的id问题.md | [[4-Archives/Notes/Feishu/知识库/技术分享/数据库相关文档/Postgres/处理t_position的id问题]] | [飞书](https://reliablesense.feishu.cn/doc/doccnDPxocYNEJe0c7YYnRI6R3e) | → 提取 | `3-Resources/Tech/代码片段/` |
+| 处理连接数的问题.md | [[4-Archives/Notes/Feishu/知识库/技术分享/数据库相关文档/Postgres/处理连接数的问题]] | [飞书](https://reliablesense.feishu.cn/doc/doccnZIMQSFgw5z9FAtvRxqEF4f) | → 提取 | `3-Resources/Tech/问题解决/处理连接数的问题.md` |
+| 处理t_position的id问题.md | [[4-Archives/Notes/Feishu/知识库/技术分享/数据库相关文档/Postgres/处理t_position的id问题]] | [飞书](https://reliablesense.feishu.cn/doc/doccnDPxocYNEJe0c7YYnRI6R3e) | → 提取 | `3-Resources/Tech/问题解决/处理t_position的id问题.md` |
 | 生成trigger_set_timestamp.md | [[4-Archives/Notes/Feishu/知识库/技术分享/数据库相关文档/Postgres/生成trigger_set_timestamp]] | [飞书](https://reliablesense.feishu.cn/doc/doccnszyZqVAlZhQ6yFE8iVp3uf) | → 提取 | `3-Resources/Tech/代码片段/` |
 | 生成UUID.md | [[4-Archives/Notes/Feishu/知识库/技术分享/数据库相关文档/Postgres/生成UUID]] | [飞书](https://reliablesense.feishu.cn/doc/doccnKzX7vdTlRNlsKlQY9oo9vd) | → 提取 | `3-Resources/Tech/代码片段/` |
-| 人员物体每日在线时间统计.md | [[4-Archives/Notes/Feishu/知识库/技术分享/数据库相关文档/TimescaleDB/人员物体每日在线时间统计]] | [飞书](https://reliablesense.feishu.cn/doc/doccnSG2Jc0Fls0feLdgve23DOe) | → 提取 | `3-Resources/Tech/代码片段/` |
-| 新建hyper_table时Trigger错误.md | [[4-Archives/Notes/Feishu/知识库/技术分享/数据库相关文档/TimescaleDB/新建hyper_table时Trigger错误]] | [飞书](https://reliablesense.feishu.cn/doc/doccnoNAhwDhgg2FpnJ5jOODzZb) | → 提取 | `3-Resources/Tech/代码片段/` |
+| 人员物体每日在线时间统计.md | [[4-Archives/Notes/Feishu/知识库/技术分享/数据库相关文档/TimescaleDB/人员物体每日在线时间统计]] | [飞书](https://reliablesense.feishu.cn/doc/doccnSG2Jc0Fls0feLdgve23DOe) | → 提取 | `2-Areas/Work/产品研发/人员物体每日在线时间统计.md` |
+| 新建hyper_table时Trigger错误.md | [[4-Archives/Notes/Feishu/知识库/技术分享/数据库相关文档/TimescaleDB/新建hyper_table时Trigger错误]] | [飞书](https://reliablesense.feishu.cn/doc/doccnoNAhwDhgg2FpnJ5jOODzZb) | → 提取 | `3-Resources/Tech/问题解决/新建hyper_table时Trigger错误.md` |
 | Retention-policy定期删除机制.md | [[4-Archives/Notes/Feishu/知识库/技术分享/数据库相关文档/TimescaleDB/Retention-policy定期删除机制]] | [飞书](https://reliablesense.feishu.cn/doc/doccn2mQON8tP7m08bYrNmq5BYc) | → 提取 | `3-Resources/Tech/代码片段/` |
 | 插入一条t_position数据.md | [[4-Archives/Notes/Feishu/知识库/技术分享/数据库相关文档/TimescaleDB/插入一条t_position数据]] | [飞书](https://reliablesense.feishu.cn/doc/doccnmbpSo3CRnCMyTYEVFTpbIi) | → 提取 | `3-Resources/Tech/代码片段/` |
 | locust报告参数说明.md | [[4-Archives/Notes/Feishu/知识库/技术分享/测试相关文档/locust报告参数说明]] | [飞书](https://reliablesense.feishu.cn/docx/doxcnyVpKX1V11tJYH2sKdff3Ph) | → 提取 | `3-Resources/Tech/知识卡片/locust报告参数说明.md` |
@@ -767,10 +767,10 @@ created: 2026-04-11
 | 测试计划初稿.md | [[4-Archives/Notes/Feishu/知识库/技术分享/测试相关文档/测试计划初稿]] | [飞书](https://reliablesense.feishu.cn/doc/doccnXKbFqjR5Up9dVYrzjvUUmh) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
 | 禅道测试相关操作手册.md | [[4-Archives/Notes/Feishu/知识库/技术分享/测试相关文档/禅道测试相关操作手册]] | [飞书](https://reliablesense.feishu.cn/doc/doccnTqc7EnZxfZYH0T20rXWLVe) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
 | 稳定性测试.md | [[4-Archives/Notes/Feishu/知识库/技术分享/测试相关文档/稳定性测试]] | [飞书](https://reliablesense.feishu.cn/docx/doxcnPMwcMjDrt0cdQBUlY9Jldf) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
-| MOKO-RSSI定位基站与树莓派组网.md | [[4-Archives/Notes/Feishu/知识库/技术分享/硬件相关文档/MOKO-RSSI定位基站与树莓派组网]] | [飞书](https://reliablesense.feishu.cn/docx/TDS8dDE7ToGtUWxMvu7c8bROnwf) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
-| RTK设备局域网WiFi使用文档.md | [[4-Archives/Notes/Feishu/知识库/技术分享/硬件相关文档/RTK设备局域网WiFi使用文档]] | [飞书](https://reliablesense.feishu.cn/docx/Yr5vdDP3YonYuWxkhZ3cfDGDnGd) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
+| MOKO-RSSI定位基站与树莓派组网.md | [[4-Archives/Notes/Feishu/知识库/技术分享/硬件相关文档/MOKO-RSSI定位基站与树莓派组网]] | [飞书](https://reliablesense.feishu.cn/docx/TDS8dDE7ToGtUWxMvu7c8bROnwf) | → 提取 | `2-Areas/Work/设备管理/MOKO蓝牙/MOKO-RSSI定位基站与树莓派组网.md` |
+| RTK设备局域网WiFi使用文档.md | [[4-Archives/Notes/Feishu/知识库/技术分享/硬件相关文档/RTK设备局域网WiFi使用文档]] | [飞书](https://reliablesense.feishu.cn/docx/Yr5vdDP3YonYuWxkhZ3cfDGDnGd) | → 提取 | `2-Areas/Work/设备管理/莱讯科技设备/RTK设备局域网WiFi使用文档.md` |
 | 树莓派SSD版本安装.md | [[4-Archives/Notes/Feishu/知识库/技术分享/硬件相关文档/树莓派SSD版本安装]] | [飞书](https://reliablesense.feishu.cn/docx/YUSVdEwLVooPMHx3luMcAXh6nlh) | → 提取 | `3-Resources/Tech/知识卡片/树莓派SSD版本安装.md` |
-| 烧写设备.md | [[4-Archives/Notes/Feishu/知识库/技术分享/硬件相关文档/烧写设备]] | [飞书](https://reliablesense.feishu.cn/docx/NigodFqlcowXQVxYWh5cVyoDn2g) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
+| 烧写设备.md | [[4-Archives/Notes/Feishu/知识库/技术分享/硬件相关文档/烧写设备]] | [飞书](https://reliablesense.feishu.cn/docx/NigodFqlcowXQVxYWh5cVyoDn2g) | → 提取 | `2-Areas/Work/设备管理/莱讯科技设备/烧写设备.md` |
 | 日常运维相关文档.md | [[4-Archives/Notes/Feishu/知识库/技术分享/日常运维相关文档]] | [飞书](https://reliablesense.feishu.cn/doc/doccnlJ8hk4ih92ZXrCFLFc9Zid) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
 
 ### 9b. 项目管理
