@@ -1325,6 +1325,25 @@ created: 2026-04-11
 | 政府小区 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnFoCVwuLOSrlPm7BvgLWJ6e) | 2 | 📋 业务管理 | `政府小区` |
 | 如视项目 | [飞书](https://reliablesense.feishu.cn/drive/folder/YB4ufHQhYlm0jSdEovRcOvQ1nuh) | 2 | 📋 业务管理 | `如视` |
 
+### 售前项目（未正式立项）
+
+| 项目名 | 飞书来源目录 | 飞书链接 |
+|--------|------------|---------|
+| 赛力斯 | 王宗光/项目资料/赛力斯 | [飞书](https://reliablesense.feishu.cn/drive/folder/CAIWftFMilP7c1dCwg9cewJ3nKc) |
+
+### 统计
+
+| 分类 | 数量 |
+|------|------|
+| 进行中 | 7 |
+| 已结束（998. 售后） | 35 |
+| 已结束（003. 中东电子厂） | 1 |
+| 已结束（其他） | 5 |
+| 已结束（999. 归档） | 30 |
+| 已结束（~其他项目） | 18 |
+| 售前 | 1 |
+| **合计** | **97** |
+
 ### 设备管理 — 设备厂家清单（→ `2-Areas/Work/设备管理/`）
 
 已在方案中标记"归入设备管理"的文件，以及供应商管理目录下的厂家，统一按厂家建目录。
@@ -1362,15 +1381,10 @@ created: 2026-04-11
 | 威思客 | `设备管理/合作企业/威思客/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnl6Gfv6ZGcpElm3qs4vsWYf) | 2 | 📂 合作企业/威思客 | `威思客` |
 | 马蹄铁科技 | `设备管理/合作企业/马蹄铁科技/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnZhyASlAoZjhKqy6xCRlLWh) | 1 | 📂 合作企业/马蹄铁 | `马蹄铁` |
 | 浪潮集团 | `设备管理/合作企业/浪潮集团/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnQYvZc2pFzMwFoyCtCtZFJb) | 1 | 📂 合作企业/浪潮 | `浪潮` |
-
-#### 通用设备资料（不属于特定厂家）
-
-| 厂家名 | 目标路径 | 飞书链接 | 文件数 | 来源 | 关键字 |
-|--------|---------|---------|--------|------|--------|
-| 菲曼科技RTK | `2-Areas/Work/设备管理/菲曼科技RTK/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnddM5N5RHC7GzmLb2K2EE1f) | 2 | 定位硬件厂商/北斗-硬件 | `北斗`, `菲曼`, `RTK` |
-| 莱讯科技GPS | `2-Areas/Work/设备管理/莱讯科技GPS/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnEQj7iSJUFva6t1KavOcvoe) | 7 | 定位硬件厂商/GPS硬件 | `GPS硬件` |
-| 莱讯科技设备 | `2-Areas/Work/设备管理/莱讯科技设备/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnyprtlz9Jw58wK5kv8y9jZd) | 19 | 定位硬件厂商/公司硬件 | `公司硬件` |
-| 其他厂家设备 | `2-Areas/Work/设备管理/其他厂家设备/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcniTi1Xu5xfD1hgrUKEXYpfc) | 22 | 定位硬件厂商/硬件不分类 | `硬件` |
+| 菲曼科技RTK | `设备管理/菲曼科技RTK/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnddM5N5RHC7GzmLb2K2EE1f) | 2 | 📂 定位硬件厂商/北斗-硬件 | `北斗`, `菲曼`, `RTK` |
+| 莱讯科技GPS | `设备管理/莱讯科技GPS/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnEQj7iSJUFva6t1KavOcvoe) | 7 | 📂 定位硬件厂商/GPS硬件 | `GPS硬件` |
+| 莱讯科技设备 | `设备管理/莱讯科技设备/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnyprtlz9Jw58wK5kv8y9jZd) | 19 | 📂 定位硬件厂商/公司硬件 | `公司硬件` |
+| 其他厂家设备 | `设备管理/其他厂家设备/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcniTi1Xu5xfD1hgrUKEXYpfc) | 22 | 📂 定位硬件厂商/硬件不分类 | `硬件` |
 
 #### 供应商管理通用文件
 
@@ -1381,25 +1395,6 @@ created: 2026-04-11
 | 库房管理 bitable | `2-Areas/Work/设备管理/` |
 | MAC-Address.xlsx | `2-Areas/Work/设备管理/` |
 | rssi数据.docx | `2-Areas/Work/设备管理/` |
-
-### 售前项目（未正式立项）
-
-| 项目名 | 飞书来源目录 | 飞书链接 |
-|--------|------------|---------|
-| 赛力斯 | 王宗光/项目资料/赛力斯 | [飞书](https://reliablesense.feishu.cn/drive/folder/CAIWftFMilP7c1dCwg9cewJ3nKc) |
-
-### 统计
-
-| 分类 | 数量 |
-|------|------|
-| 进行中 | 6 |
-| 已结束（998. 售后） | 35 |
-| 已结束（003. 中东电子厂） | 1 |
-| 已结束（其他） | 5 |
-| 已结束（999. 归档） | 30 |
-| 已结束（~其他项目） | 18 |
-| 售前 | 1 |
-| **合计** | **96** |
 
 ---
 
