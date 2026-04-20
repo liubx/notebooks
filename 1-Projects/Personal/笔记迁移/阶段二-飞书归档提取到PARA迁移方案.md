@@ -152,7 +152,7 @@ created: 2026-04-11
 | 文字记录：项目服务、权限及工作进展会议 2025年4月11日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/文字记录：项目服务、权限及工作进展会议 2025年4月11日]] | [飞书](https://reliablesense.feishu.cn/docx/KoC5dKi6koHwTfx8Dkbcgrlon5g) | `1-Projects/Work/洛阳化工厂/会议纪要/` |
 | 智能纪要：内蒙新太定位（新钢联）的视频会议 2025年2月26日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/智能纪要：内蒙新太定位（新钢联）的视频会议 2025年2月26日]] | [飞书](https://reliablesense.feishu.cn/docx/IQUqdVOipoy6MUx9pYicAUvrnmd) | `1-Projects/Work/新太定位/会议纪要/` |
 | 智能纪要：内蒙新太定位（新钢联）的视频会议 2025年3月5日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/智能纪要：内蒙新太定位（新钢联）的视频会议 2025年3月5日]] | [飞书](https://reliablesense.feishu.cn/docx/EePFdqlyQoh4bExphrXcGX3Wnjd) | `1-Projects/Work/新太定位/会议纪要/` |
-| 智能纪要：多方面业务问题及解决方案探讨会 2025年6月3日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/智能纪要：多方面业务问题及解决方案探讨会 2025年6月3日]] | [飞书](https://reliablesense.feishu.cn/docx/NPkFdqGfUo1Bf2xEQOGclc7anMh) | `1-Projects/Work/新太定位/会议纪要/` |
+| 智能纪要：多方面业务问题及解决方案探讨会 2025年6月3日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/智能纪要：多方面业务问题及解决方案探讨会 2025年6月3日]] | [飞书](https://reliablesense.feishu.cn/docx/NPkFdqGfUo1Bf2xEQOGclc7anMh) | `1-Projects/Work/洛阳化工厂/会议纪要/` |
 | 智能纪要：项目服务、权限及工作进展会议 2025年4月11日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/智能纪要：项目服务、权限及工作进展会议 2025年4月11日]] | [飞书](https://reliablesense.feishu.cn/docx/LKSodmV6loX04TxtDTNcEqmcnLe) | `1-Projects/Work/新太定位/会议纪要/` |
 | 王宗光的视频会议 2025年2月20日 - 智能纪要.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/王宗光的视频会议 2025年2月20日 - 智能纪要]] | [飞书](https://reliablesense.feishu.cn/docx/Rr23dKQ8vo2vyYxmepgcq5ktn1c) | `2-Areas/Work/产品研发/会议纪要/` |
 | 内蒙新太定位（新钢联）的视频会议 2025年2月7日 - 智能纪要.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/内蒙新太定位（新钢联）的视频会议 2025年2月7日 - 智能纪要]] | [飞书](https://reliablesense.feishu.cn/docx/W7Jid5OiUopoqcxNqJbc8ichnnf) | `1-Projects/Work/新太定位/会议纪要/` |
@@ -338,7 +338,7 @@ created: 2026-04-11
 | 智能纪要：会议研讨多项工作进展情况 2026年3月11日.md | [[4-Archives/Notes/Feishu/云空间/智能纪要：会议研讨多项工作进展情况 2026年3月11日]] | [飞书](https://reliablesense.feishu.cn/docx/ZlJrd2jI2og5rAxI38LcMaWxnfd) | `2-Areas/Work/产品研发/会议纪要/` |
 | 智能纪要：接口、登录及缓存相关问题研讨 2025年4月14日.md | [[4-Archives/Notes/Feishu/云空间/智能纪要：接口、登录及缓存相关问题研讨 2025年4月14日]] | [飞书](https://reliablesense.feishu.cn/docx/BwYtdGuyxov5I2xi2XJcsfULnef) | `2-Areas/Work/产品研发/会议纪要/` |
 | 智能纪要：数据修改、卡顿及操作异常讨论 2026年3月12日.md | [[4-Archives/Notes/Feishu/云空间/智能纪要：数据修改、卡顿及操作异常讨论 2026年3月12日]] | [飞书](https://reliablesense.feishu.cn/docx/QrfYdgZQloxUTMxVcLOcaSvDnNo) | `1-Projects/Work/广州机场/会议纪要/` |
-| 文字记录：多方面业务问题及解决方案探讨会 2025年6月3日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/文字记录：多方面业务问题及解决方案探讨会 2025年6月3日]] | [飞书](https://reliablesense.feishu.cn/docx/Jtm6dfrULo7SNYxWZZ9cwLULnvd) | `2-Areas/Work/产品研发/会议纪要/` |
+| 文字记录：多方面业务问题及解决方案探讨会 2025年6月3日.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/文字记录：多方面业务问题及解决方案探讨会 2025年6月3日]] | [飞书](https://reliablesense.feishu.cn/docx/Jtm6dfrULo7SNYxWZZ9cwLULnvd) | `1-Projects/Work/洛阳化工厂/会议纪要/` |
 | 文字记录：数据、页面状态及功能处理会议 2025年9月17日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/文字记录：数据、页面状态及功能处理会议 2025年9月17日]] | [飞书](https://reliablesense.feishu.cn/docx/O7UVdlfMSoMkZbxVyWic5N0bnBf) | `2-Areas/Work/产品研发/会议纪要/` |
 | 智能纪要：数据、页面状态及功能处理会议 2025年9月17日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/智能纪要：数据、页面状态及功能处理会议 2025年9月17日]] | [飞书](https://reliablesense.feishu.cn/docx/KliDdAtzionSN1xuPXic7YWynUd) | `2-Areas/Work/产品研发/会议纪要/` |
 
