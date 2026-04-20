@@ -391,7 +391,7 @@ created: 2026-04-11
 | oemusers.xlsx | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/oemusers.xlsx]] | [飞书](https://reliablesense.feishu.cn/sheets/GBc0sFzfKhEtBztmsAPcp5m5n4w) | → 提取 | `1-Projects/Work/广州机场/` | 广州机场 OEM 用户数据 |
 | t_poi_type.xlsx | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/t_poi_type.xlsx]] | [飞书](https://reliablesense.feishu.cn/sheets/EKkcsQr7MhV8S7teOsTcf1ISnUc) | → 提取 | `2-Areas/Work/产品研发/` | 产品 POI 类型数据 |
 | 内蒙新太定位（新钢联）的视频会议 2025年2月7日 - 智能纪要.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/内蒙新太定位（新钢联）的视频会议 2025年2月7日 - 智能纪要]] | [飞书](https://reliablesense.feishu.cn/docx/W7Jid5OiUopoqcxNqJbc8ichnnf) | 新太定位 | `1-Projects/Work/新太定位/` |
-| 室内定位系统工作进度.xlsx | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/室内定位系统工作进度.xlsx]] | [飞书](https://reliablesense.feishu.cn/sheets/Xl6HsOeCMhUrDwtMewMcElDGnyd) | → 提取 | `2-Areas/Work/产品研发/` | 产品开发进度 |
+| 室内定位系统工作进度.xlsx | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/室内定位系统工作进度.xlsx]] | [飞书](https://reliablesense.feishu.cn/sheets/Xl6HsOeCMhUrDwtMewMcElDGnyd) | 留归档 | - | 历史进度 |
 | 文字记录：上海东海模型修复及接入方案研讨 2025年5月15日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/文字记录：上海东海模型修复及接入方案研讨 2025年5月15日]] | [飞书](https://reliablesense.feishu.cn/docx/Ky4Ldt5hFoe6mQxg8lrctpCRngh) | → 提取 | `1-Projects/Work/广州机场/会议纪要/`  |
 | 文字记录：数据、页面状态及功能处理会议 2025年9月17日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/文字记录：数据、页面状态及功能处理会议 2025年9月17日]] | [飞书](https://reliablesense.feishu.cn/docx/O7UVdlfMSoMkZbxVyWic5N0bnBf) | → 提取 | `2-Areas/Work/产品研发/会议纪要/`  |
 | 文字记录：移动应用与 TCDM 会议讨论  2025年6月3日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/文字记录：移动应用与 TCDM 会议讨论  2025年6月3日]] | [飞书](https://reliablesense.feishu.cn/docx/JmwhduJIPouIxsx7Sh6cH5ZOnph) | 广州机场 | `1-Projects/Work/广州机场/` |
@@ -422,8 +422,8 @@ created: 2026-04-11
 | 近期会议速递｜要点概览  2025年5月19日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览  2025年5月19日]] | [飞书](https://reliablesense.feishu.cn/docx/VNq6dqMR2opizBx1E1HcyqVinBg) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` |
 | 近期会议速递｜要点概览  2025年6月9日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览  2025年6月9日]] | [飞书](https://reliablesense.feishu.cn/docx/WCAQdiwTDoYuKexlMJ0cvK8MnFb) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` |
 | 近期会议速递｜要点概览 2025年9月22日.md | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/近期会议速递｜要点概览 2025年9月22日]] | [飞书](https://reliablesense.feishu.cn/docx/Ij7ddnCqxoTyHsxBjRecEp4JnJc) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` |
-| 问题记录-2023-09-22.xlsx | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/问题记录-2023-09-22.xlsx]] | [飞书](https://reliablesense.feishu.cn/sheets/ILedsU7eShMXojtZmy0cTiHln9c) | → 提取 | - | 历史问题记录 |
-| 需求及 Bug 管理.xlsx | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/需求及 Bug 管理.xlsx]] | [飞书](https://reliablesense.feishu.cn/base/BSDnb80vUaGm4hsjM06cIE0bncD) | → 提取 | `2-Areas/Work/产品研发/` | 需求和 Bug 管理 |
+| 问题记录-2023-09-22.xlsx | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/问题记录-2023-09-22.xlsx]] | [飞书](https://reliablesense.feishu.cn/sheets/ILedsU7eShMXojtZmy0cTiHln9c) | → 归档 | `4-Archives/Projects/Work/武汉机场/` | 武汉机场问题记录 |
+| 需求及 Bug 管理.xlsx | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/需求及 Bug 管理.xlsx]] | [飞书](https://reliablesense.feishu.cn/base/BSDnb80vUaGm4hsjM06cIE0bncD) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` | 需求和 Bug 管理 |
 | 移动应用平台开发与测试进展汇报.pdf | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/广州机场-移动应用平台/移动应用平台开发与测试进展汇报.pdf]] | [飞书](https://reliablesense.feishu.cn/file/Kkf6bl2V4oAr5vx5m4QccUDDniI) | 广州机场 | `1-Projects/Work/广州机场/` |
 | 移动终端目前缺失功能.xlsx | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/广州机场-移动应用平台/移动终端目前缺失功能.xlsx]] | [飞书](https://reliablesense.feishu.cn/base/RLRqbFnrPaokuRsVtTbcjkMLnZd) | → 提取 | `1-Projects/Work/广州机场/` | 广州机场移动应用缺失功能 |
 | app_store_back-main.zip | [[4-Archives/Notes/Feishu/云空间/陈子杰的个人文档/广州机场-移动应用平台/appstore/app_store_back-main.zip]] | [飞书](https://reliablesense.feishu.cn/file/Ugv8bHqsAosoRmxmBQxcUBcOnDb) | → 提取 | `1-Projects/Work/广州机场/` | 广州机场应用商店后端代码 |
