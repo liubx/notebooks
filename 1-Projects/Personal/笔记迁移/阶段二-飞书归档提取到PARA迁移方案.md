@@ -506,7 +506,7 @@ created: 2026-04-11
 | 交接文档.md | [[4-Archives/Notes/Feishu/云空间/王宗光的个人文档/交接文档/交接文档]] | [飞书](https://reliablesense.feishu.cn/docx/UOvmd7dz4oFkXVxuq3OczvtrnHf) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/王宗光/交接文档.md` |
 | 中间件实施标准化文档.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/中间件实施标准化文档]] | [飞书](https://reliablesense.feishu.cn/docx/CmG7d0TpIo93M8xpgWucRUSKnYb) | → 提取 | `2-Areas/Work/运维管理/中间件实施标准化文档.md` |
 | 现场测试实施标准化文档.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/运维文档/现场测试实施标准化文档]] | [飞书](https://reliablesense.feishu.cn/docx/Xsj8dUH5IoKCRuxYRL8ceVTOnKh) | → 提取 | `2-Areas/Work/运维管理/现场测试实施标准化文档.md` |
-| 无动力设备管理系统部署指南.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/交付文档/无动力设备管理系统部署指南]] | [飞书](https://reliablesense.feishu.cn/docx/NsKCdYwf3okiEPxw0yScBOeGnNh) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
+| 无动力设备管理系统部署指南.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/交付文档/无动力设备管理系统部署指南]] | [飞书](https://reliablesense.feishu.cn/docx/NsKCdYwf3okiEPxw0yScBOeGnNh) | 留归档 | - |
 | 验收会议流程.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/交付文档/验收会议流程]] | [飞书](https://reliablesense.feishu.cn/docx/F9ufd0xoxoa5n0xXlWdcvRrEnJf) | → 提取 | `2-Areas/Work/业务管理/验收会议流程.md` |
 | 验收确认报告.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/交付文档/验收确认报告]] | [飞书](https://reliablesense.feishu.cn/docx/CwTrdyjpIoh9CcxFymscde3Jnq6) | → 提取 | `2-Areas/Work/业务管理/验收确认报告-模板.md` |
 | 确认报告（软件）.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/交付文档/确认报告（软件）]] | [飞书](https://reliablesense.feishu.cn/docx/doxcnljrKooELVNhrut5pZswMzc) | → 提取 | `2-Areas/Work/业务管理/软件确认报告-模板.md` |
@@ -715,7 +715,7 @@ created: 2026-04-11
 | 文件 | 本地路径 | 飞书链接 | 决策 | 目标路径 |
 |------|---------|---------|------|---------|
 | 前端React开发规范.md | [[4-Archives/Notes/Feishu/知识库/技术分享/前端相关文档/前端React开发规范]] | [飞书](https://reliablesense.feishu.cn/doc/doccnymhDUxjzJsBjuZ5mBGpG4c) | → 提取 | `3-Resources/Tech/知识卡片/前端React开发规范.md` |
-| 后端开发流程规范.md | [[4-Archives/Notes/Feishu/知识库/技术分享/后端相关文档/后端开发流程规范]] | [飞书](https://reliablesense.feishu.cn/docx/CUA7dlJrRoTZ3Fx8t5kc1UiRneb) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
+| 后端开发流程规范.md | [[4-Archives/Notes/Feishu/知识库/技术分享/后端相关文档/后端开发流程规范]] | [飞书](https://reliablesense.feishu.cn/docx/CUA7dlJrRoTZ3Fx8t5kc1UiRneb) | → 提取 | `2-Areas/Work/产品研发/后端开发流程规范.md` |
 | 定位平台系统整体改造方案.md | [[4-Archives/Notes/Feishu/知识库/技术分享/后端相关文档/定位平台系统整体改造方案]] | [飞书](https://reliablesense.feishu.cn/doc/doccnVRMcLTfhON3R9OLZT7VHgf) | → 提取 | `2-Areas/Work/产品研发/定位平台系统整体改造方案.md` |
 | 微服务说明.md | [[4-Archives/Notes/Feishu/知识库/技术分享/后端相关文档/微服务说明]] | [飞书](https://reliablesense.feishu.cn/docx/F2PhdYeMCoHjP6xd8y0cyz6Mnac) | → 提取 | `2-Areas/Work/产品研发/微服务说明.md` |
 | 后端问题QA.md | [[4-Archives/Notes/Feishu/知识库/技术分享/后端问题QA]] | [飞书](https://reliablesense.feishu.cn/docx/OpsxdI417oi5i4xLyrhc8Znyn5f) | → 提取 | `2-Areas/Work/产品研发/后端问题QA.md` |
@@ -728,7 +728,7 @@ created: 2026-04-11
 | 路网绘制.md | [[4-Archives/Notes/Feishu/知识库/技术分享/地图相关文档/路网绘制]] | [飞书](https://reliablesense.feishu.cn/docx/doxcnmMiCtaR2HkpnlPPrChqyEb) | → 提取 | `3-Resources/Tech/知识卡片/路网绘制.md` |
 | 地图按钮、视角、控件控制.md | [[4-Archives/Notes/Feishu/知识库/技术分享/地图相关文档/地图按钮、视角、控件控制]] | [飞书](https://reliablesense.feishu.cn/docx/HUTId5xjFoaRIxxUkQWcEb1Xnge) | → 提取 | `3-Resources/Tech/知识卡片/地图控件控制.md` |
 | 项目建立步骤.md | [[4-Archives/Notes/Feishu/知识库/技术分享/地图相关文档/项目建立步骤]] | [飞书](https://reliablesense.feishu.cn/docx/LapVd88f0oFaKUx4QwRcwrW1neI) | → 提取 | `3-Resources/Tech/知识卡片/地图项目建立步骤.md` |
-| 麦钉点云图地图绘制注意事项.md | [[4-Archives/Notes/Feishu/知识库/技术分享/地图相关文档/麦钉点云图地图绘制注意事项]] | [飞书](https://reliablesense.feishu.cn/doc/doccn6HL7llLqfP4e5qCI96CdUf) | → 提取 | `3-Resources/Tech/知识卡片/麦钉点云图地图绘制注意事项.md` |
+| 麦钉点云图地图绘制注意事项.md | [[4-Archives/Notes/Feishu/知识库/技术分享/地图相关文档/麦钉点云图地图绘制注意事项]] | [飞书](https://reliablesense.feishu.cn/doc/doccn6HL7llLqfP4e5qCI96CdUf) | → 提取 | `1-Projects/Work/麦钉定位/麦钉点云图地图绘制注意事项.md` |
 | CICD流程介绍.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/CICD流程介绍]] | [飞书](https://reliablesense.feishu.cn/doc/doccnqi4YxvSVSY23MSLXIkwIKe) | → 提取 | `3-Resources/Tech/知识卡片/CICD流程介绍.md` |
 | Gitlab-CICD说明.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/Gitlab-CICD说明]] | [飞书](https://reliablesense.feishu.cn/doc/doccnUileviuvksypU7AAbSEGwg) | → 提取 | `3-Resources/Tech/知识卡片/Gitlab-CICD说明.md` |
 | 前后端CICD.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/前后端CICD]] | [飞书](https://reliablesense.feishu.cn/doc/doccncqa7DwRv2fD3Z3KA6oO4oh) | → 提取 | `3-Resources/Tech/知识卡片/前后端CICD.md` |
@@ -771,7 +771,7 @@ created: 2026-04-11
 | RTK设备局域网WiFi使用文档.md | [[4-Archives/Notes/Feishu/知识库/技术分享/硬件相关文档/RTK设备局域网WiFi使用文档]] | [飞书](https://reliablesense.feishu.cn/docx/Yr5vdDP3YonYuWxkhZ3cfDGDnGd) | → 提取 | `2-Areas/Work/设备管理/莱讯科技设备/RTK设备局域网WiFi使用文档.md` |
 | 树莓派SSD版本安装.md | [[4-Archives/Notes/Feishu/知识库/技术分享/硬件相关文档/树莓派SSD版本安装]] | [飞书](https://reliablesense.feishu.cn/docx/YUSVdEwLVooPMHx3luMcAXh6nlh) | → 提取 | `3-Resources/Tech/知识卡片/树莓派SSD版本安装.md` |
 | 烧写设备.md | [[4-Archives/Notes/Feishu/知识库/技术分享/硬件相关文档/烧写设备]] | [飞书](https://reliablesense.feishu.cn/docx/NigodFqlcowXQVxYWh5cVyoDn2g) | → 提取 | `2-Areas/Work/设备管理/莱讯科技设备/烧写设备.md` |
-| 日常运维相关文档.md | [[4-Archives/Notes/Feishu/知识库/技术分享/日常运维相关文档]] | [飞书](https://reliablesense.feishu.cn/doc/doccnlJ8hk4ih92ZXrCFLFc9Zid) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
+| 日常运维相关文档.md | [[4-Archives/Notes/Feishu/知识库/技术分享/日常运维相关文档]] | [飞书](https://reliablesense.feishu.cn/doc/doccnlJ8hk4ih92ZXrCFLFc9Zid) | 留归档 | - |
 
 ### 9b. 项目管理
 
@@ -1009,7 +1009,7 @@ created: 2026-04-11
 | 平台地图最新使用 | docx | [飞书](https://reliablesense.feishu.cn/docx/QbGcdI4iDok1XPxFdEUckHemnR5) | → 提取 | `2-Areas/Work/产品研发/` | 产品地图使用文档 |
 | 小程序签到功能方案 | docx | [飞书](https://reliablesense.feishu.cn/docx/GxYfddex4oDcpUxG0JHcGbZEndg) | → 提取 | `2-Areas/Work/产品研发/` | 小程序签到方案 |
 | 大屏页面问题 | docx | [飞书](https://reliablesense.feishu.cn/docx/OVEnde4fhoJnAPxjgr9c2WZfnIc) | → 提取 | `2-Areas/Work/产品研发/` | 产品大屏问题 |
-| 流程图 | docx | [飞书](https://reliablesense.feishu.cn/docx/BWGKd2466omTdxxjRQdciMNknyh) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] | 产品流程图 |
+| 流程图 | docx | [飞书](https://reliablesense.feishu.cn/docx/BWGKd2466omTdxxjRQdciMNknyh) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` | 产品流程图 |
 | 部门季报/半年报/年报 | docx | [飞书](https://reliablesense.feishu.cn/docx/AuQldFCasoVwtLxNejocWWv8nqg) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` | 部门报告 |
 | 车间定位项目立项报告 | docx | [飞书](https://reliablesense.feishu.cn/docx/Iw5cdoeumo3fVhxCZjYcw8j4nBc) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` | 历史立项 |
 | 需求及 Bug 管理 | bitable | [飞书](https://reliablesense.feishu.cn/base/ZmmjbljSpa3KWBskm40cPgWGnPg) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/陈子杰/` | bitable |
