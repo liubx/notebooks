@@ -724,15 +724,15 @@ created: 2026-04-11
 | QGIS图片及瓦片图添加.md | [[4-Archives/Notes/Feishu/知识库/技术分享/地图相关文档/QGIS图片及瓦片图添加]] | [飞书](https://reliablesense.feishu.cn/docx/X68Zdyv98o4AgGx073LcsrscnAh) | → 提取 | `3-Resources/Tech/知识卡片/QGIS图片及瓦片图添加.md` |
 | QGIS地图绘制注意事项CAD版.md | [[4-Archives/Notes/Feishu/知识库/技术分享/地图相关文档/QGIS地图绘制注意事项CAD版]] | [飞书](https://reliablesense.feishu.cn/doc/doccnKYx4RPxYSXzTH0ssUvvBmf) | → 提取 | `3-Resources/Tech/知识卡片/QGIS地图绘制注意事项CAD版.md` |
 | png图片导入地图.md | [[4-Archives/Notes/Feishu/知识库/技术分享/地图相关文档/png图片导入地图]] | [飞书](https://reliablesense.feishu.cn/doc/doccn3DidLn9ur0mvFbqsnXhstd) | → 提取 | `3-Resources/Tech/知识卡片/png图片导入地图.md` |
-| 瓦片图制作.md | [[4-Archives/Notes/Feishu/知识库/技术分享/地图相关文档/瓦片图制作]] | [飞书](https://reliablesense.feishu.cn/docx/OvGsdeF3UoAgULxqd9Kc08punEg) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
-| 路网绘制.md | [[4-Archives/Notes/Feishu/知识库/技术分享/地图相关文档/路网绘制]] | [飞书](https://reliablesense.feishu.cn/docx/doxcnmMiCtaR2HkpnlPPrChqyEb) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
-| 地图按钮、视角、控件控制.md | [[4-Archives/Notes/Feishu/知识库/技术分享/地图相关文档/地图按钮、视角、控件控制]] | [飞书](https://reliablesense.feishu.cn/docx/HUTId5xjFoaRIxxUkQWcEb1Xnge) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
-| 项目建立步骤.md | [[4-Archives/Notes/Feishu/知识库/技术分享/地图相关文档/项目建立步骤]] | [飞书](https://reliablesense.feishu.cn/docx/LapVd88f0oFaKUx4QwRcwrW1neI) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
-| 麦钉点云图地图绘制注意事项.md | [[4-Archives/Notes/Feishu/知识库/技术分享/地图相关文档/麦钉点云图地图绘制注意事项]] | [飞书](https://reliablesense.feishu.cn/doc/doccn6HL7llLqfP4e5qCI96CdUf) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
-| CICD流程介绍.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/CICD流程介绍]] | [飞书](https://reliablesense.feishu.cn/doc/doccnqi4YxvSVSY23MSLXIkwIKe) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
-| Gitlab-CICD说明.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/Gitlab-CICD说明]] | [飞书](https://reliablesense.feishu.cn/doc/doccnUileviuvksypU7AAbSEGwg) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
-| 前后端CICD.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/前后端CICD]] | [飞书](https://reliablesense.feishu.cn/doc/doccncqa7DwRv2fD3Z3KA6oO4oh) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
-| 开发分支管理规范.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/开发分支管理规范]] | [飞书](https://reliablesense.feishu.cn/doc/doccnlE0yWc24L79rE98oSVsY8d) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
+| 瓦片图制作.md | [[4-Archives/Notes/Feishu/知识库/技术分享/地图相关文档/瓦片图制作]] | [飞书](https://reliablesense.feishu.cn/docx/OvGsdeF3UoAgULxqd9Kc08punEg) | → 提取 | `3-Resources/Tech/知识卡片/瓦片图制作.md` |
+| 路网绘制.md | [[4-Archives/Notes/Feishu/知识库/技术分享/地图相关文档/路网绘制]] | [飞书](https://reliablesense.feishu.cn/docx/doxcnmMiCtaR2HkpnlPPrChqyEb) | → 提取 | `3-Resources/Tech/知识卡片/路网绘制.md` |
+| 地图按钮、视角、控件控制.md | [[4-Archives/Notes/Feishu/知识库/技术分享/地图相关文档/地图按钮、视角、控件控制]] | [飞书](https://reliablesense.feishu.cn/docx/HUTId5xjFoaRIxxUkQWcEb1Xnge) | → 提取 | `3-Resources/Tech/知识卡片/地图控件控制.md` |
+| 项目建立步骤.md | [[4-Archives/Notes/Feishu/知识库/技术分享/地图相关文档/项目建立步骤]] | [飞书](https://reliablesense.feishu.cn/docx/LapVd88f0oFaKUx4QwRcwrW1neI) | → 提取 | `3-Resources/Tech/知识卡片/地图项目建立步骤.md` |
+| 麦钉点云图地图绘制注意事项.md | [[4-Archives/Notes/Feishu/知识库/技术分享/地图相关文档/麦钉点云图地图绘制注意事项]] | [飞书](https://reliablesense.feishu.cn/doc/doccn6HL7llLqfP4e5qCI96CdUf) | → 提取 | `3-Resources/Tech/知识卡片/麦钉点云图地图绘制注意事项.md` |
+| CICD流程介绍.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/CICD流程介绍]] | [飞书](https://reliablesense.feishu.cn/doc/doccnqi4YxvSVSY23MSLXIkwIKe) | → 提取 | `3-Resources/Tech/知识卡片/CICD流程介绍.md` |
+| Gitlab-CICD说明.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/Gitlab-CICD说明]] | [飞书](https://reliablesense.feishu.cn/doc/doccnUileviuvksypU7AAbSEGwg) | → 提取 | `3-Resources/Tech/知识卡片/Gitlab-CICD说明.md` |
+| 前后端CICD.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/前后端CICD]] | [飞书](https://reliablesense.feishu.cn/doc/doccncqa7DwRv2fD3Z3KA6oO4oh) | → 提取 | `3-Resources/Tech/知识卡片/前后端CICD.md` |
+| 开发分支管理规范.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/开发分支管理规范]] | [飞书](https://reliablesense.feishu.cn/doc/doccnlE0yWc24L79rE98oSVsY8d) | → 提取 | `3-Resources/Tech/知识卡片/开发分支管理规范.md` |
 | 办公网v2ray操作手册.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/办公网VPN/办公网v2ray操作手册]] | [飞书](https://reliablesense.feishu.cn/docx/G1OBdhlTSotGV6xRToRcXlzWnoe) | → 提取 | `2-Areas/Work/运维管理/办公网v2ray操作手册.md` |
 | 办公网WireGuard操作手册.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/办公网VPN/办公网WireGuard操作手册]] | [飞书](https://reliablesense.feishu.cn/docx/Q4OzdL6ZboG5dSxgqqlcNn4WnFf) | → 提取 | `2-Areas/Work/运维管理/办公网WireGuard操作手册.md` |
 | A-Server-environment-preparation.md | [[4-Archives/Notes/Feishu/知识库/技术分享/基础平台相关文档/Deployment英文版/A-Server-environment-preparation]] | [飞书](https://reliablesense.feishu.cn/docx/CWnsdq3ryoYTSHxGAC0cpcoenbg) | → 提取 | `2-Areas/Work/运维管理/私有化部署/A-Server-environment-preparation.md` |
@@ -762,11 +762,11 @@ created: 2026-04-11
 | 插入一条t_position数据.md | [[4-Archives/Notes/Feishu/知识库/技术分享/数据库相关文档/TimescaleDB/插入一条t_position数据]] | [飞书](https://reliablesense.feishu.cn/doc/doccnmbpSo3CRnCMyTYEVFTpbIi) | → 提取 | `3-Resources/Tech/代码片段/` |
 | locust报告参数说明.md | [[4-Archives/Notes/Feishu/知识库/技术分享/测试相关文档/locust报告参数说明]] | [飞书](https://reliablesense.feishu.cn/docx/doxcnyVpKX1V11tJYH2sKdff3Ph) | → 提取 | `3-Resources/Tech/知识卡片/locust报告参数说明.md` |
 | 测试平台对比.md | [[4-Archives/Notes/Feishu/知识库/技术分享/测试相关文档/测试平台对比]] | [飞书](https://reliablesense.feishu.cn/doc/doccnoMeCyK1lHtPzzIxxZTmB8U) | → 提取 | `3-Resources/Tech/知识卡片/测试平台对比.md` |
-| 测试流程1.md | [[4-Archives/Notes/Feishu/知识库/技术分享/测试相关文档/测试流程1]] | [飞书](https://reliablesense.feishu.cn/doc/doccnvKjRt0RgI04vi1UFEuAW4f) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
-| 测试的流程及内容.md | [[4-Archives/Notes/Feishu/知识库/技术分享/测试相关文档/测试的流程及内容]] | [飞书](https://reliablesense.feishu.cn/doc/doccnUSmCPXtSpHsITXo3gMqtqd) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
-| 测试计划初稿.md | [[4-Archives/Notes/Feishu/知识库/技术分享/测试相关文档/测试计划初稿]] | [飞书](https://reliablesense.feishu.cn/doc/doccnXKbFqjR5Up9dVYrzjvUUmh) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
-| 禅道测试相关操作手册.md | [[4-Archives/Notes/Feishu/知识库/技术分享/测试相关文档/禅道测试相关操作手册]] | [飞书](https://reliablesense.feishu.cn/doc/doccnTqc7EnZxfZYH0T20rXWLVe) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
-| 稳定性测试.md | [[4-Archives/Notes/Feishu/知识库/技术分享/测试相关文档/稳定性测试]] | [飞书](https://reliablesense.feishu.cn/docx/doxcnPMwcMjDrt0cdQBUlY9Jldf) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] |
+| 测试流程1.md | [[4-Archives/Notes/Feishu/知识库/技术分享/测试相关文档/测试流程1]] | [飞书](https://reliablesense.feishu.cn/doc/doccnvKjRt0RgI04vi1UFEuAW4f) | → 提取 | `1-Projects/Work/测试流程建立/测试流程1.md` |
+| 测试的流程及内容.md | [[4-Archives/Notes/Feishu/知识库/技术分享/测试相关文档/测试的流程及内容]] | [飞书](https://reliablesense.feishu.cn/doc/doccnUSmCPXtSpHsITXo3gMqtqd) | → 提取 | `1-Projects/Work/测试流程建立/测试的流程及内容.md` |
+| 测试计划初稿.md | [[4-Archives/Notes/Feishu/知识库/技术分享/测试相关文档/测试计划初稿]] | [飞书](https://reliablesense.feishu.cn/doc/doccnXKbFqjR5Up9dVYrzjvUUmh) | → 提取 | `1-Projects/Work/测试流程建立/测试计划初稿.md` |
+| 禅道测试相关操作手册.md | [[4-Archives/Notes/Feishu/知识库/技术分享/测试相关文档/禅道测试相关操作手册]] | [飞书](https://reliablesense.feishu.cn/doc/doccnTqc7EnZxfZYH0T20rXWLVe) | → 提取 | `1-Projects/Work/测试流程建立/禅道测试操作手册.md` |
+| 稳定性测试.md | [[4-Archives/Notes/Feishu/知识库/技术分享/测试相关文档/稳定性测试]] | [飞书](https://reliablesense.feishu.cn/docx/doxcnPMwcMjDrt0cdQBUlY9Jldf) | → 提取 | `3-Resources/Tech/知识卡片/稳定性测试.md` |
 | MOKO-RSSI定位基站与树莓派组网.md | [[4-Archives/Notes/Feishu/知识库/技术分享/硬件相关文档/MOKO-RSSI定位基站与树莓派组网]] | [飞书](https://reliablesense.feishu.cn/docx/TDS8dDE7ToGtUWxMvu7c8bROnwf) | → 提取 | `2-Areas/Work/设备管理/MOKO蓝牙/MOKO-RSSI定位基站与树莓派组网.md` |
 | RTK设备局域网WiFi使用文档.md | [[4-Archives/Notes/Feishu/知识库/技术分享/硬件相关文档/RTK设备局域网WiFi使用文档]] | [飞书](https://reliablesense.feishu.cn/docx/Yr5vdDP3YonYuWxkhZ3cfDGDnGd) | → 提取 | `2-Areas/Work/设备管理/莱讯科技设备/RTK设备局域网WiFi使用文档.md` |
 | 树莓派SSD版本安装.md | [[4-Archives/Notes/Feishu/知识库/技术分享/硬件相关文档/树莓派SSD版本安装]] | [飞书](https://reliablesense.feishu.cn/docx/YUSVdEwLVooPMHx3luMcAXh6nlh) | → 提取 | `3-Resources/Tech/知识卡片/树莓派SSD版本安装.md` |
@@ -955,12 +955,12 @@ created: 2026-04-11
 
 | 文件 | 类型 | 飞书链接 | 目标路径 | 理由 |
 |------|------|---------|---------|------|
-| 230环境 | docx | [飞书](https://reliablesense.feishu.cn/docx/MUo8dYBWXoBwpBxdHfTcV2UJnag) | `3-Resources/Tech/代码片段/` | 压测环境配置 |
-| 压测备忘录 | docx | [飞书](https://reliablesense.feishu.cn/docx/TEUJd4UxnocvIIxgsy3cA58qn9g) | `3-Resources/Tech/代码片段/` | 压测操作 |
-| 标签数量压测数据统计_3.0 | sheet | [飞书](https://reliablesense.feishu.cn/sheets/BuXPsjDGhhwrAKtNlX8c8vttnPx) | `3-Resources/Tech/代码片段/` | 最新版压测数据 |
+| 230环境 | docx | [飞书](https://reliablesense.feishu.cn/docx/MUo8dYBWXoBwpBxdHfTcV2UJnag) | `2-Areas/Work/运维管理/` | 压测环境配置 |
+| 压测备忘录 | docx | [飞书](https://reliablesense.feishu.cn/docx/TEUJd4UxnocvIIxgsy3cA58qn9g) | `2-Areas/Work/产品研发/` | 压测操作 |
+| 标签数量压测数据统计_3.0 | sheet | [飞书](https://reliablesense.feishu.cn/sheets/BuXPsjDGhhwrAKtNlX8c8vttnPx) | `2-Areas/Work/产品研发/` | 最新版压测数据 |
 | 标签数量压测数据统计_2.0 | sheet | [飞书](https://reliablesense.feishu.cn/sheets/P6SJsvzAOhu9RvtlnQtc3P4snkf) | `4-Archives/Areas/Work/团队管理/团队成员/王宗光/` | 旧版本压测 |
 | 标签数量压测数据统计_1.0 | sheet | [飞书](https://reliablesense.feishu.cn/sheets/QGicsCeb2hEFrAtSqK6cfsBkn0d) | `4-Archives/Areas/Work/团队管理/团队成员/王宗光/` | 旧版本压测 |
-| 获取规划路线接口性能测试 | sheet | [飞书](https://reliablesense.feishu.cn/sheets/QaM9sFjaihS6dotCVfgcEk48n2g) | `3-Resources/Tech/代码片段/` | 路网性能测试 |
+| 获取规划路线接口性能测试 | sheet | [飞书](https://reliablesense.feishu.cn/sheets/QaM9sFjaihS6dotCVfgcEk48n2g) | `2-Areas/Work/产品研发/` | 路网性能测试 |
 
 ### 散落文档
 
@@ -968,12 +968,12 @@ created: 2026-04-11
 |------|------|---------|------|---------|------|
 | E-Ink平台安装和使用手册 | docx | [飞书](https://reliablesense.feishu.cn/docx/BTKgdqfbXowNV5x0DSfcfafpncY) | → 提取 | `2-Areas/Work/设备管理/` | 墨水屏手册 |
 | 智慧工厂电子标牌管理系统软件v1.0.0-json格式 | docx | [飞书](https://reliablesense.feishu.cn/docx/TYe7doOyNovyfLxfXOScJ2vyngf) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] | 电子标牌系统 |
-| 日志说明 | docx | [飞书](https://reliablesense.feishu.cn/docx/BdUEdhqBIofw1YxY2nGc8jEfn7d) | → 提取 | `3-Resources/Tech/知识卡片/` | 日志说明 |
+| 日志说明 | docx | [飞书](https://reliablesense.feishu.cn/docx/BdUEdhqBIofw1YxY2nGc8jEfn7d) | → 提取 | `2-Areas/Work/产品研发/` | 产品日志说明 |
 | 莱讯-移动端需求 | docx | [飞书](https://reliablesense.feishu.cn/docx/U1EedFUBmoNwPQxD9oHcWweanXc) | → 提取 | `2-Areas/Work/产品研发/` | 移动端需求 |
 | 无动力设备信息融合系统-源代码 | docx | [飞书](https://reliablesense.feishu.cn/docx/doxcnWD87qgPTeUnEIrenFMqHYf) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] | 无动力设备系统 |
 | 交接文档 | docx | [飞书](https://reliablesense.feishu.cn/docx/UOvmd7dz4oFkXVxuq3OczvtrnHf) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] | 项目交接文档 |
-| 问题处理记录/工作记录 | docx | [飞书](https://reliablesense.feishu.cn/docx/LHvPda1imoHU2Jxj4SncmovqnRf) | → 提取 | `3-Resources/Tech/问题解决/` | 问题处理记录 |
-| 用户敏感信息处理.md | file | [飞书](https://reliablesense.feishu.cn/file/N4wvbKBhfoKdLMxIlQRckQAlnpd) | → 提取 | `3-Resources/Tech/知识卡片/` | 敏感信息处理 |
+| 问题处理记录/工作记录 | docx | [飞书](https://reliablesense.feishu.cn/docx/LHvPda1imoHU2Jxj4SncmovqnRf) | → 提取 | `2-Areas/Work/产品研发/` | 产品问题处理记录 |
+| 用户敏感信息处理.md | file | [飞书](https://reliablesense.feishu.cn/file/N4wvbKBhfoKdLMxIlQRckQAlnpd) | → 提取 | `2-Areas/Work/产品研发/` | 产品敏感信息处理 |
 | 🚩会议签到表 | bitable | [飞书](https://reliablesense.feishu.cn/base/ZQj0bMC5eaghvxsBxzGcBWDznUc) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/王宗光/` | bitable |
 | 远端接口新需求问题反馈-20230323 | sheet | [飞书](https://reliablesense.feishu.cn/sheets/shtcniz2m6u89tCpHodDRbIhDxd) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/王宗光/` | 历史需求反馈 |
 | 标书3 | docx | [飞书](https://reliablesense.feishu.cn/docx/JBxYdx0OZoySuUx2hkicNerDnNb) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/王宗光/` | 历史标书 |
@@ -1006,7 +1006,7 @@ created: 2026-04-11
 | oemusers | sheet | [飞书](https://reliablesense.feishu.cn/sheets/GBc0sFzfKhEtBztmsAPcp5m5n4w) | → 提取 | `1-Projects/Work/广州机场/` | OEM用户数据 |
 | t_poi_type | sheet | [飞书](https://reliablesense.feishu.cn/sheets/EKkcsQr7MhV8S7teOsTcf1ISnUc) | → 提取 | `2-Areas/Work/产品研发/` | POI类型数据 |
 | 三方系统调用行李查询接口文档(座位号)20230804 | docx | [飞书](https://reliablesense.feishu.cn/docx/E3UidCx5No6qqnx2VgjcXVzdnsg) | → 归档 | `4-Archives/Projects/Work/武汉机场/` | 武汉机场行李查询接口 |
-| 平台地图最新使用 | docx | [飞书](https://reliablesense.feishu.cn/docx/QbGcdI4iDok1XPxFdEUckHemnR5) | → 提取 | `3-Resources/Tech/知识卡片/` | 地图使用文档 |
+| 平台地图最新使用 | docx | [飞书](https://reliablesense.feishu.cn/docx/QbGcdI4iDok1XPxFdEUckHemnR5) | → 提取 | `2-Areas/Work/产品研发/` | 产品地图使用文档 |
 | 小程序签到功能方案 | docx | [飞书](https://reliablesense.feishu.cn/docx/GxYfddex4oDcpUxG0JHcGbZEndg) | → 提取 | `2-Areas/Work/产品研发/` | 小程序签到方案 |
 | 大屏页面问题 | docx | [飞书](https://reliablesense.feishu.cn/docx/OVEnde4fhoJnAPxjgr9c2WZfnIc) | → 提取 | `2-Areas/Work/产品研发/` | 产品大屏问题 |
 | 流程图 | docx | [飞书](https://reliablesense.feishu.cn/docx/BWGKd2466omTdxxjRQdciMNknyh) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] | 产品流程图 |
