@@ -588,6 +588,10 @@ created: 2026-04-11
 | 定位平台关键接口.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目开发管理/定位平台企业版/定位平台关键接口]] | [飞书](https://reliablesense.feishu.cn/docx/ZTNPdFqmQo3zRvxUrZJcsdU4nGg) | → 提取 | `2-Areas/Work/产品研发/定位平台关键接口.md` |
 | 定位平台服务器.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/998. 售后项目/武汉机场/定位平台服务器]] | [飞书](https://reliablesense.feishu.cn/docx/UqgAd09BRoZ306xMBW4cvIK2npg) | → 归档 | `4-Archives/Projects/Work/武汉机场/定位平台服务器.md` |
 | 定位平台操作手册.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目开发管理/定位平台企业版/定位平台操作手册]] | [飞书](https://reliablesense.feishu.cn/docx/A2jXdJxm7o6ilNxFx8ac86MYndh) | → 提取 | `2-Areas/Work/产品研发/定位平台操作手册.md` |
+| 数据中心管理平台软件功能说明.docx | - | [飞书](https://reliablesense.feishu.cn/file/boxcnWm6KjLykr4WRCMKkQnzU8c) | → 归档 | `4-Archives/Projects/Work/数讯云人员服务系统/数据中心管理平台软件功能说明.docx` |
+| 人员室内定位系统说明 1.docx | - | [飞书](https://reliablesense.feishu.cn/file/boxcnwfSd5TXpiHw2CwR0eufuPg) | → 归档 | `4-Archives/Projects/Work/数讯云人员服务系统/人员室内定位系统说明 1.docx` |
+| 物资管理平台软件功能说明.docx | - | [飞书](https://reliablesense.feishu.cn/file/boxcnJDVPSgGOIWbUR9NHjXBHJg) | → 归档 | `4-Archives/Projects/Work/联通定位一体化/物资管理平台软件功能说明.docx` |
+| 系统软件功能.docx | - | [飞书](https://reliablesense.feishu.cn/file/boxcn0vb3E82eDSw8ElpuI2ZT0g) | → 归档 | `4-Archives/Projects/Work/联通定位一体化/系统软件功能.docx` |
 
 ### 5b. 定位平台定制版
 
@@ -1220,7 +1224,7 @@ created: 2026-04-11
 | 海尔工厂 | 海尔工厂 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn9yq74Lu525sk4tf7ayUr0c) | 72 | 📁 Project | `海尔` |
 | 供电局库位 | 供电局库位定位 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnhoSboKetpXvMBzbKRSmGAb) | 63 | 📁 Project | `供电局`, `库位定位` |
 | 百度水厂 | 百度-水厂定位导航平台 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnCovrCdcKMYR4Ba3AybOCz2) | 56 | 📁 Project | `百度`, `水厂` |
-| 联通一体化 | 联通室内外一体化 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnlVHJxmUEdxDWjt8LvVcTjc) | 54 | 📁 Project | `联通`, `室内外一体化` |
+| 联通定位一体化 | 联通室内外一体化 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnlVHJxmUEdxDWjt8LvVcTjc) | 54 | 📁 Project | `联通`, `室内外一体化` |
 | 兰州机场 | 兰州机场 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn42BLWazsHzYslg6A34LLCd) | 49 | 📁 Project | `兰州机场` |
 | 国家电网 | 北京技新科技有限公司（国家电网） | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnfcM9BxoadzLHM41eJujMUh) | 42 | 归入电网智能仓库 | `国家电网`, `技新` |
 | 武汉机场 | 武汉机场 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnHmHajD7TQATmdiqbTIuGRe) | 38 | 📁 Project | `武汉机场` |
@@ -1371,7 +1375,7 @@ created: 2026-04-11
 | 海尔工厂 | `4-Archives/Projects/Work/海尔工厂/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn9yq74Lu525sk4tf7ayUr0c) |
 | 供电局库位 | `4-Archives/Projects/Work/供电局库位/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnhoSboKetpXvMBzbKRSmGAb) |
 | 百度水厂 | `4-Archives/Projects/Work/百度水厂/` | [百度水厂](https://reliablesense.feishu.cn/drive/folder/fldcnCovrCdcKMYR4Ba3AybOCz2) [核电站](https://reliablesense.feishu.cn/drive/folder/fldcneAiPn70Fw4xDazm6L26llg) |
-| 联通一体化 | `4-Archives/Projects/Work/联通一体化/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnlVHJxmUEdxDWjt8LvVcTjc) |
+| 联通定位一体化 | `4-Archives/Projects/Work/联通定位一体化/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnlVHJxmUEdxDWjt8LvVcTjc) |
 | 兰州机场 | `4-Archives/Projects/Work/兰州机场/` | [998兰州机场](https://reliablesense.feishu.cn/drive/folder/fldcn42BLWazsHzYslg6A34LLCd) [~其他兰州机场](https://reliablesense.feishu.cn/drive/folder/fldcnTnuXhdZedD0zw7DZ6Hqr5f) |
 | 武汉机场 | `4-Archives/Projects/Work/武汉机场/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnHmHajD7TQATmdiqbTIuGRe) |
 | 启程科技加气站 | `4-Archives/Projects/Work/启程科技加气站/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnoreuJsFnFpBJ6rVWisEtWc) |
@@ -1534,5 +1538,5 @@ created: 2026-04-11
 3. ~~**路网维护/**~~ → 留归档（路网文件无法读取）
 4. ~~**共享文件/**~~ → 全部留归档（临时网盘）
 5. **定制版项目子目录**：5 个子目录已确认（武汉机场→归档，新太/广州/洛阳/赛峰→进行中项目，无动力设备→`4-Archives/Projects/Work/无动力设备管理/`）
-6. **企业版/文档资料/ 子目录**：待确认，详见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]]
+6. **企业版/文档资料/ 子目录**：软件功能说明 4 个已确认（数讯云 2 个 + 联通定位一体化 2 个），其余待确认，详见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]]
 7. **售前项目/ 下 2 个客户目录**：待确认，详见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]]
