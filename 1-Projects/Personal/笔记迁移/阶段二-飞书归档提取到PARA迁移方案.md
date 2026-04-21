@@ -1159,15 +1159,15 @@ created: 2026-04-11
 | 图片资料/功能截图.docx | [飞书](https://reliablesense.feishu.cn/file/boxcn4GHkkPu2XBcBBSwcJ1kXqd) | `2-Areas/Work/产品研发/功能截图.docx` |
 | 图片资料/移动端小程序图片/（14 个 png） | [飞书目录](https://reliablesense.feishu.cn/drive/folder/fldcnpp8JeCmpzMuPLsbsIczAif) | `2-Areas/Work/产品研发/移动端小程序截图/` |
 
-#### 竞品/外部资料（待确认）
+#### 竞品/外部资料（已确认 2026-04-22）
 
-| 文件 | 飞书链接 | 疑问 |
-|------|---------|------|
-| 其他资料/C122高精度定位系统.docx | [飞书](https://reliablesense.feishu.cn/file/boxcn3mtxYM6vHAX78XBUOH7NNb) | 留归档？还是竞品参考有价值？ |
-| 其他资料/中弈科技智慧矿山.pptx | [飞书](https://reliablesense.feishu.cn/file/boxcnNFpbk35EFKXYin3ov4deQe) | 同上 |
-| 其他资料/叉车安全管理产品.pdf | [飞书](https://reliablesense.feishu.cn/file/boxcn7MB73uMU8yx6oYLo1bXCbe) | 同上 |
-| 其他资料/防撞预警系统.pptx | [飞书](https://reliablesense.feishu.cn/file/boxcnlgd76R50T1K97lNvr2xOVh) | 同上 |
-| 易景空间路演ppt.pdf | [飞书](https://reliablesense.feishu.cn/file/WQH1bQdUPoMOKTxB71PcLcQznCd) | 同上 |
+| 文件 | 飞书链接 | 决策 | 目标路径 |
+|------|---------|------|---------|
+| 其他资料/C122高精度定位系统.docx | [飞书](https://reliablesense.feishu.cn/file/boxcn3mtxYM6vHAX78XBUOH7NNb) | → 提取 | `1-Projects/Work/广州机场/C122高精度定位系统技术方案.docx` |
+| 其他资料/中弈科技智慧矿山.pptx | [飞书](https://reliablesense.feishu.cn/file/boxcnNFpbk35EFKXYin3ov4deQe) | → 提取 | `2-Areas/Work/业务管理/中弈科技智慧矿山/中弈科技智慧矿山.pptx` |
+| 其他资料/叉车安全管理产品.pdf | [飞书](https://reliablesense.feishu.cn/file/boxcn7MB73uMU8yx6oYLo1bXCbe) | → 提取 | `2-Areas/Work/设备管理/合作企业/唯创安全/叉车安全管理产品.pdf` |
+| 其他资料/防撞预警系统.pptx | [飞书](https://reliablesense.feishu.cn/file/boxcnlgd76R50T1K97lNvr2xOVh) | → 提取 | `2-Areas/Work/设备管理/合作企业/唯创安全/防撞预警系统.pptx` |
+| 易景空间路演ppt.pdf | [飞书](https://reliablesense.feishu.cn/file/WQH1bQdUPoMOKTxB71PcLcQznCd) | → 提取 | `2-Areas/Work/设备管理/合作企业/易景空间/易景空间路演ppt.pdf` |
 
 ### 公司内部资料/参考（留归档）
 
