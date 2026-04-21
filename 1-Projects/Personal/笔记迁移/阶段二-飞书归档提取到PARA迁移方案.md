@@ -592,6 +592,20 @@ created: 2026-04-11
 | 人员室内定位系统说明 1.docx | - | [飞书](https://reliablesense.feishu.cn/file/boxcnwfSd5TXpiHw2CwR0eufuPg) | → 归档 | `4-Archives/Projects/Work/数讯云人员服务系统/人员室内定位系统说明 1.docx` |
 | 物资管理平台软件功能说明.docx | - | [飞书](https://reliablesense.feishu.cn/file/boxcnJDVPSgGOIWbUR9NHjXBHJg) | → 归档 | `4-Archives/Projects/Work/联通定位一体化/物资管理平台软件功能说明.docx` |
 | 系统软件功能.docx | - | [飞书](https://reliablesense.feishu.cn/file/boxcn0vb3E82eDSw8ElpuI2ZT0g) | → 归档 | `4-Archives/Projects/Work/联通定位一体化/系统软件功能.docx` |
+| GIT项目架构.mm | - | [飞书](https://reliablesense.feishu.cn/mindnotes/bmncnuGBjIbFqBI3cE9W858YYye) | → 提取 | `2-Areas/Work/产品研发/GIT项目架构.mm` |
+| 平台部署.mm | - | [飞书](https://reliablesense.feishu.cn/mindnotes/bmncnMOlj5n1meGIFIfoarmKVQf) | → 提取 | `2-Areas/Work/产品研发/平台部署.mm` |
+| 需求池管理.xlsx | - | [飞书](https://reliablesense.feishu.cn/sheets/shtcn6nHN1jUZTChiTWKcdjzpig) | → 提取 | `2-Areas/Work/产品研发/需求池管理.xlsx` |
+| 产品介绍.md | - | [飞书](https://reliablesense.feishu.cn/docs/doccnNq1YJTyHP2IGOIZ4C9Y0qe) | → 提取 | `2-Areas/Work/业务管理/品牌宣传/产品介绍.md` |
+| 旧集群数据库地址.md | - | [飞书](https://reliablesense.feishu.cn/docs/doccnAhmPjNxK3hk9LkIxXfpL2b) | → 提取 | `2-Areas/Work/运维管理/旧集群数据库地址.md` |
+| 软件架构图.md（文档资料） | - | [飞书](https://reliablesense.feishu.cn/docs/doccnNYXYzLw4jvVOBOTjTmjswh) | → 提取 | `2-Areas/Work/产品研发/定位平台软件架构图.md`（同上方已有条目） |
+| KeyCloakgetJWTToken.xlsx | - | [飞书](https://reliablesense.feishu.cn/sheets/shtcnvteMVovUBaN8rS8NQ1Raed) | 留归档 | - |
+| SAAS平台---告警功能修改.docx | - | [飞书](https://reliablesense.feishu.cn/file/boxcndpOpTARv88CTxsmgZlYoMd) | → 提取 | `2-Areas/Work/产品研发/SAAS平台---告警功能修改.docx` |
+| SAAS平台---围栏功能修改.docx | - | [飞书](https://reliablesense.feishu.cn/file/boxcn6q1GX7yiyjgaJ84WA331Fd) | → 提取 | `2-Areas/Work/产品研发/SAAS平台---围栏功能修改.docx` |
+| SAAS平台---巡检功能修改.docx | - | [飞书](https://reliablesense.feishu.cn/file/boxcnUwxy1MxqCG2NIO9ko3mSCe) | → 提取 | `2-Areas/Work/产品研发/SAAS平台---巡检功能修改.docx` |
+| SAAS平台---考勤功能修改.docx | - | [飞书](https://reliablesense.feishu.cn/file/boxcndqLj9IzKRMnUzjpT6RZj8I) | → 提取 | `2-Areas/Work/产品研发/SAAS平台---考勤功能修改.docx` |
+| Saas 云平台功能点列表.xlsx | - | [飞书](https://reliablesense.feishu.cn/file/boxcnRxxOFcqGLRdXuYv1qmsrXf) | → 提取 | `2-Areas/Work/产品研发/Saas 云平台功能点列表.xlsx` |
+| 导航手册.docx | - | [飞书](https://reliablesense.feishu.cn/file/boxcnr1wKdPID0Vb2s1k0KhNnkh) | → 归档 | `4-Archives/Projects/Work/众合人员管理/导航手册.docx` |
+| 识路室内定位应用功能对比.pptx | - | [飞书](https://reliablesense.feishu.cn/file/boxcn2AdaMjt4GUGOkOUAzzLbvc) | → 提取 | `2-Areas/Work/产品研发/识路室内定位应用功能对比.pptx` |
 
 ### 5b. 定位平台定制版
 
@@ -692,7 +706,7 @@ created: 2026-04-11
 | 往期展会资料合集/ | [[4-Archives/Notes/Feishu/云空间/莱讯科技/往期展会资料合集/README]] | [飞书（目录）](https://reliablesense.feishu.cn/drive/folder/fldcnLJHIahqTfcscC7zPIMN6cQ) | → 提取 | `2-Areas/Work/品牌宣传/展会/` |
 | 公司英文资料/ | [[4-Archives/Notes/Feishu/云空间/莱讯科技/公司英文资料/README]] | [飞书（目录）](https://reliablesense.feishu.cn/drive/folder/ICuefj7fVl2yr7dFDNycWa4An2g) | → 提取 | `2-Areas/Work/品牌宣传/英文资料/` |
 | 路网维护/ | [[4-Archives/Notes/Feishu/云空间/莱讯科技/路网维护/README]] | [飞书（目录）](https://reliablesense.feishu.cn/drive/folder/fldcnLHpkn823HAgGZwpcki8omf) | 留归档 | - | .osm 路网文件，Obsidian 无法打开 |
-| ~参考资料/ | [[4-Archives/Notes/Feishu/云空间/莱讯科技/~参考资料/README]] | [飞书（目录）](https://reliablesense.feishu.cn/drive/folder/fldcnpp8JeCmpzMuPLsbsIczAif) | 留归档 | - | 竞品方案、宣传素材截图，全是附件 |
+| ~参考资料/ | [[4-Archives/Notes/Feishu/云空间/莱讯科技/~参考资料/README]] | [飞书（目录）](https://reliablesense.feishu.cn/drive/folder/fldcnpp8JeCmpzMuPLsbsIczAif) | 部分提取 | 自家素材→品牌宣传/产品研发，竞品资料→待确认 |
 | 共享文件/ | [[4-Archives/Notes/Feishu/云空间/莱讯科技/共享文件/README]] | [飞书（目录）](https://reliablesense.feishu.cn/drive/folder/KAzWfCcrMlNrOQdRqPhchfz2n2c) | 留归档 | - | 临时网盘 |
 
 ### 公司内部资料重点文件
@@ -1072,16 +1086,27 @@ created: 2026-04-11
 | 组织架构图 | doc | [飞书](https://reliablesense.feishu.cn/docs/doccnyI23DHQUFVPNJX7wFsoF0f) | → 提取 | `2-Areas/Work/团队管理/` | 公司组织架构 |
 | 莱讯公司文档分类 | mindnote | [飞书](https://reliablesense.feishu.cn/mindnotes/bmncnqFUTE8JqcJrJH049rDxF9b) | 留归档 | - | mindnote保留链接 |
 
-### ~参考资料（留归档）
+### ~参考资料
 
-`~参考资料/` 下 6 个文档类附件全部为竞品参考资料，留归档不进 PARA：
+`~参考资料/` 下内容按类型分别处理：
 
-- v1.0版-5-必须反馈文件-技术响应及技术方案-C122高精度定位系统.docx
-- 叉车安全管理产品(2).pdf
-- 防撞预警系统.pptx
-- 中弈科技智慧矿山部分需确认资料(修改).pptx
-- 功能截图.docx
-- 易景空间-2024十二届电子信息博览会-路演ppt20240410.pdf
+#### 自家产品素材（→ 提取）
+
+| 文件 | 飞书链接 | 目标路径 |
+|------|---------|---------|
+| 莱讯宣传单页素材/（10 个 png） | [飞书目录](https://reliablesense.feishu.cn/drive/folder/fldcnpp8JeCmpzMuPLsbsIczAif) | `2-Areas/Work/业务管理/品牌宣传/宣传单页素材/` |
+| 图片资料/功能截图.docx | [飞书](https://reliablesense.feishu.cn/file/boxcn4GHkkPu2XBcBBSwcJ1kXqd) | `2-Areas/Work/产品研发/功能截图.docx` |
+| 图片资料/移动端小程序图片/（14 个 png） | [飞书目录](https://reliablesense.feishu.cn/drive/folder/fldcnpp8JeCmpzMuPLsbsIczAif) | `2-Areas/Work/产品研发/移动端小程序截图/` |
+
+#### 竞品/外部资料（待确认）
+
+| 文件 | 飞书链接 | 疑问 |
+|------|---------|------|
+| 其他资料/C122高精度定位系统.docx | [飞书](https://reliablesense.feishu.cn/file/boxcn3mtxYM6vHAX78XBUOH7NNb) | 留归档？还是竞品参考有价值？ |
+| 其他资料/中弈科技智慧矿山.pptx | [飞书](https://reliablesense.feishu.cn/file/boxcnNFpbk35EFKXYin3ov4deQe) | 同上 |
+| 其他资料/叉车安全管理产品.pdf | [飞书](https://reliablesense.feishu.cn/file/boxcn7MB73uMU8yx6oYLo1bXCbe) | 同上 |
+| 其他资料/防撞预警系统.pptx | [飞书](https://reliablesense.feishu.cn/file/boxcnlgd76R50T1K97lNvr2xOVh) | 同上 |
+| 易景空间路演ppt.pdf | [飞书](https://reliablesense.feishu.cn/file/WQH1bQdUPoMOKTxB71PcLcQznCd) | 同上 |
 
 ### 公司内部资料/参考（留归档）
 
@@ -1534,7 +1559,7 @@ created: 2026-04-11
 ### 已解决的待确认事项
 
 1. ~~**参考/ 目录**~~ → 全部留归档（行业报告和管理参考）
-2. ~~**~参考资料/**~~ → 全部留归档（竞品参考）
+2. **~参考资料/**：自家素材→品牌宣传/产品研发，竞品资料 5 个→待确认，详见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]]
 3. ~~**路网维护/**~~ → 留归档（路网文件无法读取）
 4. ~~**共享文件/**~~ → 全部留归档（临时网盘）
 5. **定制版项目子目录**：5 个子目录已确认（武汉机场→归档，新太/广州/洛阳/赛峰→进行中项目，无动力设备→`4-Archives/Projects/Work/无动力设备管理/`）
