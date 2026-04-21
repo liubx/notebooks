@@ -39,6 +39,7 @@ created: 2026-04-11
 | 文件 | 本地路径 | 飞书链接 | 决策 | 目标路径 | 理由 |
 |------|---------|---------|------|---------|------|
 | API.md | [[4-Archives/Notes/Feishu/云空间/根目录/API]] | [飞书](https://reliablesense.feishu.cn/docx/NoXpdv9A1oSb4gxwWDmciKajnOJ) | → 提取 | `1-Projects/Work/上港仓储管理/WMS-API接口文档.md` | 上港项目的 WMS 对接接口，跟项目走 |
+| API.docx（莱讯科技根目录） | - | [飞书](https://reliablesense.feishu.cn/file/EmmnbY7kboTZBMxx5pncq5cUnXe) | → 提取 | `1-Projects/Work/上港仓储管理/API.docx` | 上港项目相关 |
 | 墨水屏数据协议.md | [[4-Archives/Notes/Feishu/云空间/根目录/墨水屏数据协议]] | [飞书](https://reliablesense.feishu.cn/docx/P4z0dkpVUoq3jwxUvBtcrRpundd) | → 提取 | `2-Areas/Work/设备管理/阿法迪蓝牙墨水屏/墨水屏数据协议.md` | 设备协议文档，归设备管理/阿法迪蓝牙墨水屏 |
 | 系统架构图.md | [[4-Archives/Notes/Feishu/云空间/根目录/系统架构图]] | [飞书](https://reliablesense.feishu.cn/docx/IYLtdtwDQoaOetxP9Xkc66jfnPf) | → 提取 | `2-Areas/Work/产品研发/系统架构图.md` | 产品通用架构 |
 | 系统整改配置表.md | [[4-Archives/Notes/Feishu/云空间/根目录/系统整改配置表]] | [飞书](https://reliablesense.feishu.cn/docx/ZpsNdChggodbeaxLg78cgtRBnGc) | → 提取 | `1-Projects/Work/广州机场/系统整改配置表.md` | 含 A域/B域、巡检app，属广州机场项目 |
@@ -606,6 +607,35 @@ created: 2026-04-11
 | Saas 云平台功能点列表.xlsx | - | [飞书](https://reliablesense.feishu.cn/file/boxcnRxxOFcqGLRdXuYv1qmsrXf) | → 提取 | `2-Areas/Work/产品研发/Saas 云平台功能点列表.xlsx` |
 | 导航手册.docx | - | [飞书](https://reliablesense.feishu.cn/file/boxcnr1wKdPID0Vb2s1k0KhNnkh) | → 归档 | `4-Archives/Projects/Work/众合人员管理/导航手册.docx` |
 | 识路室内定位应用功能对比.pptx | - | [飞书](https://reliablesense.feishu.cn/file/boxcn2AdaMjt4GUGOkOUAzzLbvc) | → 提取 | `2-Areas/Work/产品研发/识路室内定位应用功能对比.pptx` |
+| 2023年项目管理.xlsx | - | [飞书](https://reliablesense.feishu.cn/base/bascnJYavmFDqZuOCPFO8LDSZku) | → 提取 | `2-Areas/Work/产品研发/2023年项目管理.xlsx` |
+| 2024年项目管理.xlsx | - | [飞书](https://reliablesense.feishu.cn/base/PgwrbohXQa7IZEsVrG1cjOcUnXf) | → 提取 | `2-Areas/Work/产品研发/2024年项目管理.xlsx` |
+| BUG管理.xlsx | - | [飞书](https://reliablesense.feishu.cn/base/JkumbQWa2ahQ7AsVlIIcVCaenXZ) | → 提取 | `2-Areas/Work/产品研发/BUG管理.xlsx` |
+| 围栏需求重构/区域产品架构.mm | - | [飞书](https://reliablesense.feishu.cn/mindnotes/M8hDbdE6bm8XWLnLOvSc222xn9c) | → 提取 | `2-Areas/Work/产品研发/区域产品架构.mm` |
+| 围栏需求重构/区域和告警产品架构.mm | - | [飞书](https://reliablesense.feishu.cn/mindnotes/bmncnBYdUDda1FKYFCtZpE5r0Vb) | → 提取 | `2-Areas/Work/产品研发/区域和告警产品架构.mm` |
+| 围栏需求重构/区域管理.mm | - | [飞书](https://reliablesense.feishu.cn/mindnotes/Y7Dnb6aXZmy2w7nMUL7c8zcXnoh) | → 提取 | `2-Areas/Work/产品研发/区域管理.mm` |
+| 传感器服务.mm | - | [飞书](https://reliablesense.feishu.cn/mindnotes/JepTbLLBFmAltWn3MgXczHfBnEb) | → 提取 | `2-Areas/Work/产品研发/传感器服务.mm` |
+| 物资管理.mm | - | [飞书](https://reliablesense.feishu.cn/mindnotes/IQNGbY8v0mb0ubncPqHcLxxqnRe) | → 提取 | `2-Areas/Work/产品研发/物资管理.mm` |
+| 思维导图.md | - | [飞书](https://reliablesense.feishu.cn/docx/F71LdvKrso6RjIxYW75ckNJAn6b) | → 提取 | `2-Areas/Work/产品研发/思维导图.md` |
+| 产品规划.mm | - | [飞书](https://reliablesense.feishu.cn/mindnotes/FQcVbGFGAmoPs8nkYoHc04bYnTh) | → 提取 | `2-Areas/Work/产品研发/产品规划.mm` |
+| defaultMapState 排序.mm | - | [飞书](https://reliablesense.feishu.cn/mindnotes/WEo3bEcijmu6FbnNRswcMQusn4e) | → 提取 | `2-Areas/Work/产品研发/defaultMapState排序.mm` |
+| 获取在线数量接口.xlsx | - | [飞书](https://reliablesense.feishu.cn/sheets/ZnJEsCd5Hh7NYetsorBco7kHnA9) | → 提取 | `2-Areas/Work/产品研发/获取在线数量接口.xlsx` |
+| 统计在线时长接口.xlsx | - | [飞书](https://reliablesense.feishu.cn/sheets/Ea0ssu4RahSisJtGrvHc1LhSnKe) | → 提取 | `2-Areas/Work/产品研发/统计在线时长接口.xlsx` |
+| 统计在线离线数量接口.xlsx | - | [飞书](https://reliablesense.feishu.cn/sheets/ZnDjsr5SWhoeAnta8p8cex93nje) | → 提取 | `2-Areas/Work/产品研发/统计在线离线数量接口.xlsx` |
+| v2.1/标签类型和模组.mm | - | [飞书](https://reliablesense.feishu.cn/mindnotes/bmncnrNwLI3pDukiVV5qZjJpIQh) | → 提取 | `2-Areas/Work/产品研发/标签类型和模组.mm` |
+| v2.1/自行添加编辑删除标签.mm | - | [飞书](https://reliablesense.feishu.cn/mindnotes/bmncn6X1Bz6kOT5GeOcN4RFqBEc) | → 提取 | `2-Areas/Work/产品研发/自行添加编辑删除标签.mm` |
+| v2.1/后端扩展运行服务数量.mm | - | [飞书](https://reliablesense.feishu.cn/mindnotes/bmncnhvyA4hYJXEk0oEE4B8R5vb) | → 提取 | `2-Areas/Work/产品研发/后端扩展运行服务数量.mm` |
+| 2024-03-20前端三个需求.xlsx | - | [飞书](https://reliablesense.feishu.cn/sheets/CJGzsk2rIhTcrktIx4JciYYSnSc) | → 提取 | `2-Areas/Work/产品研发/2024-03-20前端三个需求.xlsx` |
+| web端功能介绍.pptx | - | [飞书](https://reliablesense.feishu.cn/file/boxcnHMdjFMQaGBSMfqAChAMucd) | → 提取 | `2-Areas/Work/业务管理/品牌宣传/web端功能介绍.pptx` |
+| 室内外一体化定位管理方案.pdf | - | [飞书](https://reliablesense.feishu.cn/file/boxcnFhbtKDiwkFolETLU4KkN5f) | → 提取 | `2-Areas/Work/业务管理/品牌宣传/室内外一体化定位管理方案.pdf` |
+| 室内外一体化定位.pptx | - | [飞书](https://reliablesense.feishu.cn/file/boxcnOW0qQo6KYlsaHkVSiLfdac) | → 提取 | `2-Areas/Work/业务管理/品牌宣传/室内外一体化定位.pptx` |
+| 莱讯科技项目介绍0523.docx | - | [飞书](https://reliablesense.feishu.cn/file/boxcnRhmEB4n4xjrvqPkYBijqHb) | → 提取 | `2-Areas/Work/业务管理/品牌宣传/莱讯科技项目介绍0523.docx` |
+| 莱讯科技-软件系统功能（APP）.pptx | - | [飞书](https://reliablesense.feishu.cn/file/boxcnqMjNBaMWLJxCCPHEFAOvff) | → 提取 | `2-Areas/Work/业务管理/品牌宣传/莱讯科技-软件系统功能（APP）.pptx` |
+| 室内外一体化定位管理方案.pptx | - | [飞书](https://reliablesense.feishu.cn/file/boxcnuMD4ndgOrU7DI7rY2FfMJb) | → 提取 | `2-Areas/Work/业务管理/品牌宣传/室内外一体化定位管理方案.pptx` |
+| 图片.pptx | - | [飞书](https://reliablesense.feishu.cn/file/boxcn8vBVpxuneZFgvXrZ68ePJf) | → 提取 | `2-Areas/Work/业务管理/品牌宣传/图片.pptx` |
+| 莱讯科技-软件系统功能（PC）.pdf | - | [飞书](https://reliablesense.feishu.cn/file/boxcnmGko5EMBFc6BgWSR8rnGSf) | → 提取 | `2-Areas/Work/业务管理/品牌宣传/莱讯科技-软件系统功能（PC）.pdf` |
+| 莱讯公司产品介绍_20220104.pptx | - | [飞书](https://reliablesense.feishu.cn/file/boxcnxtQYZ1LrsB9rA01EokY3dS) | → 提取 | `2-Areas/Work/业务管理/品牌宣传/莱讯公司产品介绍_20220104.pptx` |
+| 莱讯科技项目介绍0526.docx | - | [飞书](https://reliablesense.feishu.cn/file/boxcnRtMGw6YimwHjVdkjnsUzVg) | → 提取 | `2-Areas/Work/业务管理/品牌宣传/莱讯科技项目介绍0526.docx` |
+| 莱讯科技-软件系统功能（PC）-无巡检.pptx | - | [飞书](https://reliablesense.feishu.cn/file/boxcnxFLTnKySZwmwsBIcajpYfd) | → 提取 | `2-Areas/Work/业务管理/品牌宣传/莱讯科技-软件系统功能（PC）-无巡检.pptx` |
 
 ### 5b. 定位平台定制版
 
@@ -620,6 +650,10 @@ created: 2026-04-11
 | 文件 | 本地路径 | 飞书链接 | 决策 | 目标路径 |
 |------|---------|---------|------|---------|
 | 软件项目资料-中间件.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目开发管理/定位平台中间件/软件项目资料-中间件]] | [飞书](https://reliablesense.feishu.cn/docx/QbwZdfpAGoD01Ux19u8cuYuVnYf) | → 提取 | `2-Areas/Work/产品研发/软件项目资料-中间件.md` |
+| MOKO Bluetooth 中间件 | - | [飞书](https://reliablesense.feishu.cn/file/M4LZbGtg0oOIaRxbFfUcNQrZnAf) | → 提取 | `2-Areas/Work/设备管理/MOKO蓝牙/` |
+| MOKO GPS 中间件 | - | [飞书](https://reliablesense.feishu.cn/docx/Mhsjd6Qz2oaCzoxduhEcYiWznwg) | → 提取 | `2-Areas/Work/设备管理/MOKO蓝牙/` |
+| 盈商云服 BLUETOOTH 中间件 | - | [飞书](https://reliablesense.feishu.cn/docx/FXa7d1fR2oplTOx4S0wcfCeLnXg) | → 提取 | `2-Areas/Work/设备管理/盈商云服蓝牙/` |
+| 铨顺宏 UWB 中间件 | - | [飞书](https://reliablesense.feishu.cn/file/Tn7NbJjWGoTHI5xn6kRcVFHHnWb) | → 提取 | `2-Areas/Work/设备管理/铨顺宏UWB/` |
 | 软件项目资料-云端版.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目开发管理/定位平台云端版/软件项目资料-云端版]] | [飞书](https://reliablesense.feishu.cn/docx/doxcnYnCagX1SsmAbbSyUtL0SRb) | → 提取 | `2-Areas/Work/产品研发/软件项目资料-云端版.md` |
 
 ---
@@ -656,6 +690,9 @@ created: 2026-04-11
 | 001. 项目资料模板/ | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/001. 项目资料模板/README]] | [飞书（目录）](https://reliablesense.feishu.cn/drive/folder/XHMvfo59aln6mfd4sqpcHpI0neh) | → 提取 | `2-Areas/Work/业务管理/项目资料模板/` |
 | 软著立项/ | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/软著立项/README]] | [飞书（目录）](https://reliablesense.feishu.cn/drive/folder/SscHfr1iClEid6dcPsrc5cTJnNb) | → 提取 | `2-Areas/Work/综合管理/软著立项/` |
 | 项目评估/ | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/项目评估/README]] | [飞书（目录）](https://reliablesense.feishu.cn/drive/folder/WW7df5NEglBmvCdYGDQcFZNKnEe) | → 提取 | `2-Areas/Work/业务管理/项目评估/` |
+| 展会/ | - | [飞书](https://reliablesense.feishu.cn/file/OWd6bsifDoWOGhxclnkcLzMjnxg) | → 提取 | `2-Areas/Work/业务管理/品牌宣传/展会/` |
+| 项目管理-bitable.xlsx | - | [飞书](https://reliablesense.feishu.cn/base/bascn8p8PpJEyLNk6UovDb1V6Of) | → 提取 | `2-Areas/Work/业务管理/` |
+| 项目管理-附件映射.md | - | 无飞书链接（迁移生成） | → 提取 | `2-Areas/Work/业务管理/`（跟随 bitable） |
 | cle测算报告.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/cle测算报告]] | [飞书](https://reliablesense.feishu.cn/docx/KsIRdMFKRoRWqQx8yYkce8G0nys) | → 提取 | `2-Areas/Work/设备管理/核芯物联蓝牙AOA/CLE定位引擎测算报告.md` |
 
 ---
@@ -723,6 +760,30 @@ created: 2026-04-11
 | 软著的立项资料/ | [[4-Archives/Notes/Feishu/云空间/莱讯科技/公司内部资料/软著的立项资料/README]] | [飞书（目录）](https://reliablesense.feishu.cn/drive/folder/SscHfr1iClEid6dcPsrc5cTJnNb) | → 提取 | `2-Areas/Work/综合管理/软著立项/` |
 | 小程序管理文档.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/小程序管理文档]] | [飞书](https://reliablesense.feishu.cn/docx/JgCpdERLho9N3zxiGpqcQ7GAnov) | → 提取 | `2-Areas/Work/产品研发/小程序账号管理.md` |
 | 参考/ | [[4-Archives/Notes/Feishu/云空间/莱讯科技/公司内部资料/参考/README]] | - | 留归档 | - | 行业白皮书（5G定位、AIoT）、敏捷管理文章、竞品方案，全是 .pdf/.docx 附件 |
+| 考勤制度-原版.md | - | [飞书](https://reliablesense.feishu.cn/docx/ICeIdwPzXo2hSDxtqFqc4757nXd) | → 提取 | `2-Areas/Work/团队管理/考勤制度-原版.md` |
+
+### 公司内部资料子目录
+
+| 目录 | 飞书链接 | 文件数 | 决策 | 目标路径 |
+|------|---------|--------|------|---------|
+| 2022定位视频/ | [飞书](https://reliablesense.feishu.cn/file/boxcn1t83XNqLAuZq9F9mEKly1b) | 4 | → 提取 | `2-Areas/Work/业务管理/品牌宣传/` |
+| 2023宣传视频/ | [飞书](https://reliablesense.feishu.cn/file/DMccbTFYpoSz91xIuv2cyXCKnJe) | 13 | → 提取 | `2-Areas/Work/业务管理/品牌宣传/` |
+| 2023年研发项目立项资料/ | [飞书](https://reliablesense.feishu.cn/file/UYoXbzqTUoOZscxKuhacKzqyn8g) | 9 | → 提取 | `2-Areas/Work/综合管理/` |
+| 2023年终总结/ | [飞书](https://reliablesense.feishu.cn/docx/CZj2dxw1LogAk6xxLqucPwEvngf) | 3 | → 归档 | `4-Archives/Areas/Work/团队管理/` |
+| 2023年项目内容/Bosch | [飞书](https://reliablesense.feishu.cn/sheets/FG67snAd3hBsbStDZUjcHpotnhe) | 3 | → 提取 | `2-Areas/Work/综合管理/` |
+| 2023年项目内容/Bossard | [飞书](https://reliablesense.feishu.cn/sheets/NORxsbRtvhK7Ggtrtb8cyWw5ndf) | 3 | → 提取 | `2-Areas/Work/综合管理/` |
+| 2023年项目内容/国图 | [飞书](https://reliablesense.feishu.cn/docx/ScLMdCwAro02gjxZfnIcPEqOnTb) | 3 | → 提取 | `2-Areas/Work/综合管理/` |
+| 公司网站/ | [飞书](https://reliablesense.feishu.cn/file/boxcnSTAzy0wrZa2ZqKMX1w9msM) | 8+子目录 | → 提取 | `2-Areas/Work/业务管理/品牌宣传/网站素材/` |
+| 名片电子版/ | [飞书](https://reliablesense.feishu.cn/file/XiyXbkRRAooP07xecJZc1399nfG) | 5+子目录 | → 提取 | `2-Areas/Work/业务管理/品牌宣传/` |
+| 员工管理/2022年终总结 | [飞书](https://reliablesense.feishu.cn/docx/AqesdgLmCoxGJExG8rhcJGXKnEz) | 11 | → 归档 | `4-Archives/Areas/Work/团队管理/团队成员/` |
+| 商业计划书/ | [飞书](https://reliablesense.feishu.cn/file/boxcnzkIOJ3HZgyXBtGe7kK862e) | 7+子目录 | → 提取 | `2-Areas/Work/业务管理/商业计划书/` |
+| 地图绘制步骤/ | [飞书](https://reliablesense.feishu.cn/file/boxcndhHyiVoqsMusxGM9xfTzIc) | 15 | → 提取 | `2-Areas/Work/产品研发/` |
+| 宣传物料/ | [飞书](https://reliablesense.feishu.cn/file/E73ob0v4yof5R7xfW2HcjCWdnuf) | 6+子目录 | → 提取 | `2-Areas/Work/业务管理/品牌宣传/` |
+| 展会/ | [飞书](https://reliablesense.feishu.cn/file/boxcnKyHGiZPqpDgI9AkHDMnGec) | 7+子目录 | → 提取 | `2-Areas/Work/业务管理/品牌宣传/展会/` |
+| 沙溪办公室/ | [飞书](https://reliablesense.feishu.cn/file/boxcnntBkT4MffCt00Jan2z9czd) | 3 | → 提取 | `2-Areas/Work/综合管理/` |
+| 照片/ | - | ~102 | → 提取 | `2-Areas/Work/业务管理/品牌宣传/` |
+| 财务/ | [飞书](https://reliablesense.feishu.cn/file/boxcn2lqM177PAuDExODeTY4Cmg) | 1 | → 提取 | `2-Areas/Work/综合管理/` |
+| 项目说明综合/ | [飞书](https://reliablesense.feishu.cn/file/boxcnzJVGenDANt0bPUvqc39Hih) | 3 | → 提取 | `2-Areas/Work/业务管理/品牌宣传/` |
 
 ---
 
@@ -1357,9 +1418,13 @@ created: 2026-04-11
 
 ### 售前项目（未正式立项）
 
-| 项目名 | 飞书来源目录 | 飞书链接 |
-|--------|------------|---------|
-| 赛力斯 | 王宗光/项目资料/赛力斯 | [飞书](https://reliablesense.feishu.cn/drive/folder/CAIWftFMilP7c1dCwg9cewJ3nKc) |
+| 项目名 | 飞书来源目录 | 飞书链接 | 文件数 | 内容 |
+|--------|------------|---------|--------|------|
+| 赛力斯 | 000. 售前项目/赛力斯 + 王宗光/项目资料/赛力斯 | [飞书](https://reliablesense.feishu.cn/drive/folder/CAIWftFMilP7c1dCwg9cewJ3nKc) | 30+ | ✅ 已升级为正式项目 `1-Projects/Work/赛力斯定位/` |
+| 安费诺 | 000. 售前项目/安费诺 | [飞书](https://reliablesense.feishu.cn/docx/EhDyd1X29omJiHx63d7cT5X0nrf) | 1 | 测试计划文档，待确认 |
+| 美的净饮成品仓库 | 000. 售前项目/美的净饮成品仓库 | [飞书](https://reliablesense.feishu.cn/file/TnMFb5ha5o243IxcAFYcp77onVg) | 3 | 现场视频 + 技术方案，待确认 |
+| 长春车城乐园 | 000. 售前项目/长春车城乐园 | [飞书](https://reliablesense.feishu.cn/drive/folder/JgzWfy33SlvnsSdrg5Uc3Fdrnm1) | 28 | 项目考察 + 楼层图纸，待确认 |
+| 湖南金旭 | 000. 售前项目/湖南金旭仓储物流有限公司 | [飞书](https://reliablesense.feishu.cn/drive/folder/JgzWfy33SlvnsSdrg5Uc3Fdrnm1) | 20 | 全是现场照片视频，待确认 |
 
 ### 统计
 
@@ -1371,8 +1436,8 @@ created: 2026-04-11
 | 已结束（其他） | 5 |
 | 已结束（999. 归档） | 30 |
 | 已结束（~其他项目） | 18 |
-| 售前 | 1 |
-| **合计** | **97** |
+| 售前 | 5 |
+| **合计** | **101** |
 
 ### 项目最终目标路径汇总
 
@@ -1563,5 +1628,9 @@ created: 2026-04-11
 3. ~~**路网维护/**~~ → 留归档（路网文件无法读取）
 4. ~~**共享文件/**~~ → 全部留归档（临时网盘）
 5. **定制版项目子目录**：5 个子目录已确认（武汉机场→归档，新太/广州/洛阳/赛峰→进行中项目，无动力设备→`4-Archives/Projects/Work/无动力设备管理/`）
-6. **企业版/文档资料/ 子目录**：软件功能说明 4 个已确认（数讯云 2 个 + 联通定位一体化 2 个），其余待确认，详见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]]
-7. **售前项目/ 下 2 个客户目录**：待确认，详见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]]
+6. ~~**企业版/文档资料/ 子目录**~~ → 全部已确认（散落文件14个、bitable 3个、需求管理8个、测试用例7个、莱讯总平台11个、软件功能说明4个）
+7. **售前项目/ 下 4 个客户目录**：待确认（安费诺、美的净饮、长春车城乐园、湖南金旭），详见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]]
+8. **公司内部资料/ 子目录**：16 个子目录已补充到迁移方案
+9. **定位平台中间件/ 子目录**：4 个设备中间件已补充到迁移方案
+10. **项目资料管理/展会/**：已补充到迁移方案
+11. **~参考资料/竞品资料 5 个**：待确认，详见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]]
