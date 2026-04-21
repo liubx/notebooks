@@ -1421,10 +1421,10 @@ created: 2026-04-11
 | 项目名 | 飞书来源目录 | 飞书链接 | 文件数 | 内容 |
 |--------|------------|---------|--------|------|
 | 赛力斯 | 000. 售前项目/赛力斯 + 王宗光/项目资料/赛力斯 | [飞书](https://reliablesense.feishu.cn/drive/folder/CAIWftFMilP7c1dCwg9cewJ3nKc) | 30+ | ✅ 已升级为正式项目 `1-Projects/Work/赛力斯定位/` |
-| 安费诺 | 000. 售前项目/安费诺 | [飞书](https://reliablesense.feishu.cn/docx/EhDyd1X29omJiHx63d7cT5X0nrf) | 1 | 测试计划文档，待确认 |
-| 美的净饮成品仓库 | 000. 售前项目/美的净饮成品仓库 | [飞书](https://reliablesense.feishu.cn/file/TnMFb5ha5o243IxcAFYcp77onVg) | 3 | 现场视频 + 技术方案，待确认 |
-| 长春车城乐园 | 000. 售前项目/长春车城乐园 | [飞书](https://reliablesense.feishu.cn/drive/folder/JgzWfy33SlvnsSdrg5Uc3Fdrnm1) | 28 | 项目考察 + 楼层图纸，待确认 |
-| 湖南金旭 | 000. 售前项目/湖南金旭仓储物流有限公司 | [飞书](https://reliablesense.feishu.cn/drive/folder/JgzWfy33SlvnsSdrg5Uc3Fdrnm1) | 20 | 全是现场照片视频，待确认 |
+| 安费诺 | 000. 售前项目/安费诺 | [飞书](https://reliablesense.feishu.cn/docx/EhDyd1X29omJiHx63d7cT5X0nrf) | 1 | → `2-Areas/Work/业务管理/安费诺/` |
+| 美的净饮成品仓库 | 000. 售前项目/美的净饮成品仓库 | [飞书](https://reliablesense.feishu.cn/file/TnMFb5ha5o243IxcAFYcp77onVg) | 3 | → `2-Areas/Work/业务管理/美的净饮仓储管理/` |
+| 长春车城乐园 | 000. 售前项目/长春车城乐园 | [飞书](https://reliablesense.feishu.cn/drive/folder/JgzWfy33SlvnsSdrg5Uc3Fdrnm1) | 28 | → `2-Areas/Work/业务管理/长春车城乐园/` |
+| 湖南金旭 | 000. 售前项目/湖南金旭仓储物流有限公司 | [飞书](https://reliablesense.feishu.cn/drive/folder/JgzWfy33SlvnsSdrg5Uc3Fdrnm1) | 20 | → `2-Areas/Work/业务管理/湖南金旭仓储管理/` |
 
 ### 统计
 
@@ -1629,7 +1629,7 @@ created: 2026-04-11
 4. ~~**共享文件/**~~ → 全部留归档（临时网盘）
 5. **定制版项目子目录**：5 个子目录已确认（武汉机场→归档，新太/广州/洛阳/赛峰→进行中项目，无动力设备→`4-Archives/Projects/Work/无动力设备管理/`）
 6. ~~**企业版/文档资料/ 子目录**~~ → 全部已确认（散落文件14个、bitable 3个、需求管理8个、测试用例7个、莱讯总平台11个、软件功能说明4个）
-7. **售前项目/ 下 4 个客户目录**：待确认（安费诺、美的净饮、长春车城乐园、湖南金旭），详见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]]
+7. ~~**售前项目/ 下 4 个客户目录**~~：已确认（安费诺→业务管理、美的净饮→业务管理、长春车城乐园→业务管理、湖南金旭→业务管理）
 8. **公司内部资料/ 子目录**：16 个子目录已补充到迁移方案
 9. **定位平台中间件/ 子目录**：4 个设备中间件已补充到迁移方案
 10. **项目资料管理/展会/**：已补充到迁移方案
