@@ -902,12 +902,12 @@ created: 2026-04-11
 | JT808_部标精简协议(2021-11-24更改).pdf | file | [飞书](https://reliablesense.feishu.cn/file/N6v1bgyQcon6ahx1jPyc9U3NnSc) | `4-Archives/Projects/Work/嘉盛工厂/` |
 | 808协议集成 & 指令下发.txt | file | [飞书](https://reliablesense.feishu.cn/file/BkaIbNoeSo2Nb7xZ1wQckNYRn1b) | `4-Archives/Projects/Work/嘉盛工厂/` |
 
-#### 赛力斯 → `2-Areas/Work/业务管理/售前项目/赛力斯/`
+#### 赛力斯 → `1-Projects/Work/赛力斯定位/`
 
 | 文件 | 类型 | 飞书链接 | 目标路径 |
 |------|------|---------|---------|
-| 数字化循环载具管理平台统一接口协议V1.4 | docx | [飞书](https://reliablesense.feishu.cn/docx/Af4wdLHdhoaaeJxzscucmKyQnEf) | `2-Areas/Work/业务管理/售前项目/赛力斯/` |
-| 设备相关资料 | docx | [飞书](https://reliablesense.feishu.cn/docx/Vw2ZdVXLloMFarxu7BscvzlxnKb) | `2-Areas/Work/业务管理/售前项目/赛力斯/` |
+| 数字化循环载具管理平台统一接口协议V1.4 | docx | [飞书](https://reliablesense.feishu.cn/docx/Af4wdLHdhoaaeJxzscucmKyQnEf) | `1-Projects/Work/赛力斯定位/` |
+| 设备相关资料 | docx | [飞书](https://reliablesense.feishu.cn/docx/Vw2ZdVXLloMFarxu7BscvzlxnKb) | `1-Projects/Work/赛力斯定位/` |
 
 #### 博实结 → `2-Areas/Work/设备管理/博实结GPS/`
 
@@ -1444,7 +1444,7 @@ created: 2026-04-11
 | 政府小区 | `4-Archives/Areas/Work/业务管理/政府小区/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnFoCVwuLOSrlPm7BvgLWJ6e) |
 | 如视项目 | `4-Archives/Areas/Work/业务管理/如视项目/` | [飞书](https://reliablesense.feishu.cn/drive/folder/YB4ufHQhYlm0jSdEovRcOvQ1nuh) |
 | 哒咔定位 | `4-Archives/Areas/Work/业务管理/报价记录/` | （画板文档，无目录链接） |
-| 赛力斯（售前） | `4-Archives/Areas/Work/业务管理/赛力斯/` | [飞书](https://reliablesense.feishu.cn/drive/folder/CAIWftFMilP7c1dCwg9cewJ3nKc) |
+| 赛力斯定位 | `1-Projects/Work/赛力斯定位/` | [飞书](https://reliablesense.feishu.cn/drive/folder/CAIWftFMilP7c1dCwg9cewJ3nKc) |
 | 报价记录 | `4-Archives/Areas/Work/业务管理/报价记录/` | （无飞书目录链接） |
 
 #### `2-Areas/Work/设备管理/`（归入设备管理）
