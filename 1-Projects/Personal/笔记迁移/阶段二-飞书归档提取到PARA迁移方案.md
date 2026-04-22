@@ -10,7 +10,7 @@ created: 2026-04-11
 
 基于 `4-Archives/Notes/Feishu/` 中已拉取的全量内容，逐文件审查后制定的迁移策略。
 
-> ⚠️ 部分文件的目标路径尚未确定（主要是 `3-Resources/Tech/` 与 `2-Areas/Work/` 的边界），详见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]]。确认后再移入本文档。
+> ✅ 所有文件的目标路径已全部确认。
 
 ## 迁移原则
 
@@ -1049,8 +1049,8 @@ created: 2026-04-11
 | 智慧工厂电子标牌管理系统软件v1.0.0-json格式 | docx | [飞书](https://reliablesense.feishu.cn/docx/TYe7doOyNovyfLxfXOScJ2vyngf) | → 提取 | `2-Areas/Work/设备管理/阿法迪蓝牙墨水屏/` | 电子标牌系统 |
 | 日志说明 | docx | [飞书](https://reliablesense.feishu.cn/docx/BdUEdhqBIofw1YxY2nGc8jEfn7d) | → 提取 | `2-Areas/Work/产品研发/` | 产品日志说明 |
 | 莱讯-移动端需求 | docx | [飞书](https://reliablesense.feishu.cn/docx/U1EedFUBmoNwPQxD9oHcWweanXc) | → 提取 | `2-Areas/Work/产品研发/` | 移动端需求 |
-| 无动力设备信息融合系统-源代码 | docx | [飞书](https://reliablesense.feishu.cn/docx/doxcnWD87qgPTeUnEIrenFMqHYf) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] | 无动力设备系统 |
-| 交接文档 | docx | [飞书](https://reliablesense.feishu.cn/docx/UOvmd7dz4oFkXVxuq3OczvtrnHf) | ⚠️ 待确认 | 见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]] | 项目交接文档 |
+| 无动力设备信息融合系统-源代码 | docx | [飞书](https://reliablesense.feishu.cn/docx/doxcnWD87qgPTeUnEIrenFMqHYf) | → 归档 | `4-Archives/Projects/Work/无动力设备管理/` | 无动力设备系统 |
+| 交接文档 | docx | [飞书](https://reliablesense.feishu.cn/docx/UOvmd7dz4oFkXVxuq3OczvtrnHf) | → 归档 | `4-Archives/Areas/Work/团队管理/团队成员/王宗光/` | 王宗光交接文档 |
 | 问题处理记录/工作记录 | docx | [飞书](https://reliablesense.feishu.cn/docx/LHvPda1imoHU2Jxj4SncmovqnRf) | → 提取 | `2-Areas/Work/产品研发/` | 产品问题处理记录 |
 | 用户敏感信息处理.md | file | [飞书](https://reliablesense.feishu.cn/file/N4wvbKBhfoKdLMxIlQRckQAlnpd) | → 提取 | `2-Areas/Work/产品研发/` | 产品敏感信息处理 |
 | 🚩会议签到表 | bitable | [飞书](https://reliablesense.feishu.cn/base/ZQj0bMC5eaghvxsBxzGcBWDznUc) | → 提取 | `4-Archives/Areas/Work/团队管理/团队成员/王宗光/` | bitable |
@@ -1607,7 +1607,7 @@ created: 2026-04-11
 
 ### 待确认条目统计
 
-详见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]]，共约 130+ 个待确认条目：
+✅ 所有待确认条目已全部确认完毕（2026-04-22）。
 
 | 分类 | 数量 | 说明 |
 |------|------|------|
@@ -1624,7 +1624,7 @@ created: 2026-04-11
 ### 已解决的待确认事项
 
 1. ~~**参考/ 目录**~~ → 全部留归档（行业报告和管理参考）
-2. **~参考资料/**：自家素材→品牌宣传/产品研发，竞品资料 5 个→待确认，详见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]]
+2. ~~**~参考资料/**~~：自家素材→品牌宣传/产品研发，竞品资料 5 个已确认
 3. ~~**路网维护/**~~ → 留归档（路网文件无法读取）
 4. ~~**共享文件/**~~ → 全部留归档（临时网盘）
 5. **定制版项目子目录**：5 个子目录已确认（武汉机场→归档，新太/广州/洛阳/赛峰→进行中项目，无动力设备→`4-Archives/Projects/Work/无动力设备管理/`）
@@ -1633,4 +1633,4 @@ created: 2026-04-11
 8. **公司内部资料/ 子目录**：16 个子目录已补充到迁移方案
 9. **定位平台中间件/ 子目录**：4 个设备中间件已补充到迁移方案
 10. **项目资料管理/展会/**：已补充到迁移方案
-11. **~参考资料/竞品资料 5 个**：待确认，详见 [[1-Projects/Personal/笔记迁移/阶段二-待确认分类]]
+11. ~~**~参考资料/竞品资料 5 个**~~：已确认
