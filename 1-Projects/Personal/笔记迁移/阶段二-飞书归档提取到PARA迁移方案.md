@@ -1404,13 +1404,13 @@ created: 2026-04-11
 | 项目名 | 飞书链接 | 文件数 | 归档方式 | 关键字 |
 |--------|---------|--------|---------|--------|
 | 兰州机场 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnTnuXhdZedD0zw7DZ6Hqr5f) | 50 | 归入998兰州机场 | `兰州机场`, `定位应用` |
-| 电厂煤棚定位 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn807AdSNZzZn4mJwa5qPv6b) | 34 | 📁 Project | `电厂`, `储煤棚` |
+| 电厂煤棚定位 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn807AdSNZzZn4mJwa5qPv6b) | 34 | 📋 归档业务管理 | `电厂`, `储煤棚` |
 | 松下LED灯 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnCb3VmyuRzhftSufgN2Caah) | 26 | 归入998松下LED灯 | `松下`, `LED` |
 | 可口可乐叉车定位 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnIAC2gwnUWTyYULDObMLhGe) | 19 | 归入999可口可乐叉车定位 | `可口可乐`, `叉车安全` |
-| 智能眼罩 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn6YEXgcxuHbZEpMs51QtkEd) | 17 | 📁 Project | `眼罩` |
-| 中广核电厂 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcneO36olE18KDvp2NxfMPYZb) | 17 | 📁 Project | `核电站`, `中广核` |
+| 智能眼罩 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn6YEXgcxuHbZEpMs51QtkEd) | 17 | 📋 归档业务管理 | `眼罩` |
+| 中广核电厂 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcneO36olE18KDvp2NxfMPYZb) | 17 | 📋 归档业务管理 | `核电站`, `中广核` |
 | 报价记录 | | 12 | 📋 归档业务管理 | `报价记录`, `报价` |
-| 政府库房 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcni2L4SfC0jkmmESlKTeLskd) | 11 | 📁 Project | `政府库房` |
+| 政府库房 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcni2L4SfC0jkmmESlKTeLskd) | 11 | 📋 归档业务管理 | `政府库房` |
 | 科学馆展厅 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnMImMbAFHE9aR8oVR9ehPDb) | 8 | 📋 归档业务管理 | `科学馆`, `展厅` |
 | 弘冉智能 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcncDxpMwrMVeHMX6drrDqwsf) | 6 | 📋 归档业务管理 | `弘冉` |
 | 天津地铁 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnZ7jRUe6KGGbATWoCYnakjh) | 6 | 📋 归档业务管理 | `天津地铁`, `列车进站` |
