@@ -1448,7 +1448,7 @@ created: 2026-04-11
 
 ### 项目最终目标路径汇总
 
-按 4 个目标路径分组，列出每个项目的最终目标目录和飞书链接。
+按 5 个目标路径分组，列出每个项目的最终目标目录和飞书链接。
 
 #### `1-Projects/Work/`（进行中项目）
 
@@ -1504,7 +1504,7 @@ created: 2026-04-11
 | 政府库房 | `4-Archives/Projects/Work/政府库房/` | 2022-02-24 | 2022-02-24 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcni2L4SfC0jkmmESlKTeLskd) |
 | 无动力设备管理 | `4-Archives/Projects/Work/无动力设备管理/` | - | - | （定制版子目录） |
 
-#### `4-Archives/Areas/Work/业务管理/`（已结束小项目）
+#### `4-Archives/Areas/Work/业务管理/`（已结束售前项目）
 
 | 项目名 | 目标路径 | 创建时间 | 最后修改 | 飞书链接 |
 |--------|---------|---------|---------|---------|
@@ -1550,8 +1550,13 @@ created: 2026-04-11
 | 安费诺 | `4-Archives/Areas/Work/业务管理/安费诺/` | 2025-01-10 | 2025-01-10 | [飞书](https://reliablesense.feishu.cn/docx/EhDyd1X29omJiHx63d7cT5X0nrf) |
 | 美的净饮成品仓库 | `4-Archives/Areas/Work/业务管理/美的净饮仓储管理/` | 2025-02-11 | 2025-02-11 | [飞书](https://reliablesense.feishu.cn/file/TnMFb5ha5o243IxcAFYcp77onVg) |
 | 长春车城乐园 | `4-Archives/Areas/Work/业务管理/长春车城乐园/` | 2024-08-23 | 2024-12-31 | [飞书](https://reliablesense.feishu.cn/drive/folder/JgzWfy33SlvnsSdrg5Uc3Fdrnm1) |
-| 湖南金旭 | `2-Areas/Work/业务管理/湖南金旭仓储管理/` | 2026-04-03 | ⚠️ 2026-04-07 | [飞书](https://reliablesense.feishu.cn/drive/folder/JgzWfy33SlvnsSdrg5Uc3Fdrnm1) |
 | 报价记录 | `4-Archives/Areas/Work/业务管理/报价记录/` | - | - | （无飞书目录链接） |
+
+#### `2-Areas/Work/业务管理/`（进行中售前项目）
+
+| 项目名 | 目标路径 | 创建时间 | 最后修改 | 飞书链接 |
+|--------|---------|---------|---------|---------|
+| 湖南金旭 | `2-Areas/Work/业务管理/湖南金旭仓储管理/` | 2026-04-03 | 2026-04-07 | [飞书](https://reliablesense.feishu.cn/drive/folder/JgzWfy33SlvnsSdrg5Uc3Fdrnm1) |
 
 #### `2-Areas/Work/设备管理/`（归入设备管理）
 
