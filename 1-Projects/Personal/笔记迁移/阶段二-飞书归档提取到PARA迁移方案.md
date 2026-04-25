@@ -596,7 +596,7 @@ created: 2026-04-11
 | GIT项目架构.mm | - | [飞书](https://reliablesense.feishu.cn/mindnotes/bmncnuGBjIbFqBI3cE9W858YYye) | → 提取 | `2-Areas/Work/产品研发/GIT项目架构.mm` |
 | 平台部署.mm | - | [飞书](https://reliablesense.feishu.cn/mindnotes/bmncnMOlj5n1meGIFIfoarmKVQf) | → 提取 | `2-Areas/Work/产品研发/平台部署.mm` |
 | 需求池管理.xlsx | - | [飞书](https://reliablesense.feishu.cn/sheets/shtcn6nHN1jUZTChiTWKcdjzpig) | → 提取 | `2-Areas/Work/产品研发/需求池管理.xlsx` |
-| 产品介绍.md | - | [飞书](https://reliablesense.feishu.cn/docs/doccnNq1YJTyHP2IGOIZ4C9Y0qe) | → 提取 | `2-Areas/Work/业务管理/品牌宣传/产品介绍.md` |
+| 产品介绍.md | - | [飞书](https://reliablesense.feishu.cn/docs/doccnNq1YJTyHP2IGOIZ4C9Y0qe) | → 提取 | `2-Areas/Work/品牌宣传/产品介绍.md` |
 | 旧集群数据库地址.md | - | [飞书](https://reliablesense.feishu.cn/docs/doccnAhmPjNxK3hk9LkIxXfpL2b) | → 提取 | `2-Areas/Work/运维管理/旧集群数据库地址.md` |
 | 软件架构图.md（文档资料） | - | [飞书](https://reliablesense.feishu.cn/docs/doccnNYXYzLw4jvVOBOTjTmjswh) | → 提取 | `2-Areas/Work/产品研发/定位平台软件架构图.md`（同上方已有条目） |
 | KeyCloakgetJWTToken.xlsx | - | [飞书](https://reliablesense.feishu.cn/sheets/shtcnvteMVovUBaN8rS8NQ1Raed) | 留归档 | - |
@@ -625,17 +625,17 @@ created: 2026-04-11
 | v2.1/自行添加编辑删除标签.mm | - | [飞书](https://reliablesense.feishu.cn/mindnotes/bmncn6X1Bz6kOT5GeOcN4RFqBEc) | → 提取 | `2-Areas/Work/产品研发/自行添加编辑删除标签.mm` |
 | v2.1/后端扩展运行服务数量.mm | - | [飞书](https://reliablesense.feishu.cn/mindnotes/bmncnhvyA4hYJXEk0oEE4B8R5vb) | → 提取 | `2-Areas/Work/产品研发/后端扩展运行服务数量.mm` |
 | 2024-03-20前端三个需求.xlsx | - | [飞书](https://reliablesense.feishu.cn/sheets/CJGzsk2rIhTcrktIx4JciYYSnSc) | → 提取 | `2-Areas/Work/产品研发/2024-03-20前端三个需求.xlsx` |
-| web端功能介绍.pptx | - | [飞书](https://reliablesense.feishu.cn/file/boxcnHMdjFMQaGBSMfqAChAMucd) | → 提取 | `2-Areas/Work/业务管理/品牌宣传/web端功能介绍.pptx` |
-| 室内外一体化定位管理方案.pdf | - | [飞书](https://reliablesense.feishu.cn/file/boxcnFhbtKDiwkFolETLU4KkN5f) | → 提取 | `2-Areas/Work/业务管理/品牌宣传/室内外一体化定位管理方案.pdf` |
-| 室内外一体化定位.pptx | - | [飞书](https://reliablesense.feishu.cn/file/boxcnOW0qQo6KYlsaHkVSiLfdac) | → 提取 | `2-Areas/Work/业务管理/品牌宣传/室内外一体化定位.pptx` |
-| 莱讯科技项目介绍0523.docx | - | [飞书](https://reliablesense.feishu.cn/file/boxcnRhmEB4n4xjrvqPkYBijqHb) | → 提取 | `2-Areas/Work/业务管理/品牌宣传/莱讯科技项目介绍0523.docx` |
-| 莱讯科技-软件系统功能（APP）.pptx | - | [飞书](https://reliablesense.feishu.cn/file/boxcnqMjNBaMWLJxCCPHEFAOvff) | → 提取 | `2-Areas/Work/业务管理/品牌宣传/莱讯科技-软件系统功能（APP）.pptx` |
-| 室内外一体化定位管理方案.pptx | - | [飞书](https://reliablesense.feishu.cn/file/boxcnuMD4ndgOrU7DI7rY2FfMJb) | → 提取 | `2-Areas/Work/业务管理/品牌宣传/室内外一体化定位管理方案.pptx` |
-| 图片.pptx | - | [飞书](https://reliablesense.feishu.cn/file/boxcn8vBVpxuneZFgvXrZ68ePJf) | → 提取 | `2-Areas/Work/业务管理/品牌宣传/图片.pptx` |
-| 莱讯科技-软件系统功能（PC）.pdf | - | [飞书](https://reliablesense.feishu.cn/file/boxcnmGko5EMBFc6BgWSR8rnGSf) | → 提取 | `2-Areas/Work/业务管理/品牌宣传/莱讯科技-软件系统功能（PC）.pdf` |
-| 莱讯公司产品介绍_20220104.pptx | - | [飞书](https://reliablesense.feishu.cn/file/boxcnxtQYZ1LrsB9rA01EokY3dS) | → 提取 | `2-Areas/Work/业务管理/品牌宣传/莱讯公司产品介绍_20220104.pptx` |
-| 莱讯科技项目介绍0526.docx | - | [飞书](https://reliablesense.feishu.cn/file/boxcnRtMGw6YimwHjVdkjnsUzVg) | → 提取 | `2-Areas/Work/业务管理/品牌宣传/莱讯科技项目介绍0526.docx` |
-| 莱讯科技-软件系统功能（PC）-无巡检.pptx | - | [飞书](https://reliablesense.feishu.cn/file/boxcnxFLTnKySZwmwsBIcajpYfd) | → 提取 | `2-Areas/Work/业务管理/品牌宣传/莱讯科技-软件系统功能（PC）-无巡检.pptx` |
+| web端功能介绍.pptx | - | [飞书](https://reliablesense.feishu.cn/file/boxcnHMdjFMQaGBSMfqAChAMucd) | → 提取 | `2-Areas/Work/品牌宣传/web端功能介绍.pptx` |
+| 室内外一体化定位管理方案.pdf | - | [飞书](https://reliablesense.feishu.cn/file/boxcnFhbtKDiwkFolETLU4KkN5f) | → 提取 | `2-Areas/Work/品牌宣传/室内外一体化定位管理方案.pdf` |
+| 室内外一体化定位.pptx | - | [飞书](https://reliablesense.feishu.cn/file/boxcnOW0qQo6KYlsaHkVSiLfdac) | → 提取 | `2-Areas/Work/品牌宣传/室内外一体化定位.pptx` |
+| 莱讯科技项目介绍0523.docx | - | [飞书](https://reliablesense.feishu.cn/file/boxcnRhmEB4n4xjrvqPkYBijqHb) | → 提取 | `2-Areas/Work/品牌宣传/莱讯科技项目介绍0523.docx` |
+| 莱讯科技-软件系统功能（APP）.pptx | - | [飞书](https://reliablesense.feishu.cn/file/boxcnqMjNBaMWLJxCCPHEFAOvff) | → 提取 | `2-Areas/Work/品牌宣传/莱讯科技-软件系统功能（APP）.pptx` |
+| 室内外一体化定位管理方案.pptx | - | [飞书](https://reliablesense.feishu.cn/file/boxcnuMD4ndgOrU7DI7rY2FfMJb) | → 提取 | `2-Areas/Work/品牌宣传/室内外一体化定位管理方案.pptx` |
+| 图片.pptx | - | [飞书](https://reliablesense.feishu.cn/file/boxcn8vBVpxuneZFgvXrZ68ePJf) | → 提取 | `2-Areas/Work/品牌宣传/图片.pptx` |
+| 莱讯科技-软件系统功能（PC）.pdf | - | [飞书](https://reliablesense.feishu.cn/file/boxcnmGko5EMBFc6BgWSR8rnGSf) | → 提取 | `2-Areas/Work/品牌宣传/莱讯科技-软件系统功能（PC）.pdf` |
+| 莱讯公司产品介绍_20220104.pptx | - | [飞书](https://reliablesense.feishu.cn/file/boxcnxtQYZ1LrsB9rA01EokY3dS) | → 提取 | `2-Areas/Work/品牌宣传/莱讯公司产品介绍_20220104.pptx` |
+| 莱讯科技项目介绍0526.docx | - | [飞书](https://reliablesense.feishu.cn/file/boxcnRtMGw6YimwHjVdkjnsUzVg) | → 提取 | `2-Areas/Work/品牌宣传/莱讯科技项目介绍0526.docx` |
+| 莱讯科技-软件系统功能（PC）-无巡检.pptx | - | [飞书](https://reliablesense.feishu.cn/file/boxcnxFLTnKySZwmwsBIcajpYfd) | → 提取 | `2-Areas/Work/品牌宣传/莱讯科技-软件系统功能（PC）-无巡检.pptx` |
 
 ### 5b. 定位平台定制版
 
@@ -690,7 +690,7 @@ created: 2026-04-11
 | 001. 项目资料模板/ | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/001. 项目资料模板/README]] | [飞书（目录）](https://reliablesense.feishu.cn/drive/folder/XHMvfo59aln6mfd4sqpcHpI0neh) | → 提取 | `2-Areas/Work/业务管理/项目资料模板/` |
 | 软著立项/ | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/软著立项/README]] | [飞书（目录）](https://reliablesense.feishu.cn/drive/folder/SscHfr1iClEid6dcPsrc5cTJnNb) | → 提取 | `2-Areas/Work/综合管理/软著立项/` |
 | 项目评估/ | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/项目评估/README]] | [飞书（目录）](https://reliablesense.feishu.cn/drive/folder/WW7df5NEglBmvCdYGDQcFZNKnEe) | → 提取 | `2-Areas/Work/业务管理/项目评估/` |
-| 展会/ | - | [飞书](https://reliablesense.feishu.cn/file/OWd6bsifDoWOGhxclnkcLzMjnxg) | → 提取 | `2-Areas/Work/业务管理/品牌宣传/展会/` |
+| 展会/ | - | [飞书](https://reliablesense.feishu.cn/file/OWd6bsifDoWOGhxclnkcLzMjnxg) | → 提取 | `2-Areas/Work/品牌宣传/展会/` |
 | 项目管理-bitable.xlsx | - | [飞书](https://reliablesense.feishu.cn/base/bascn8p8PpJEyLNk6UovDb1V6Of) | → 提取 | `2-Areas/Work/业务管理/` |
 | 项目管理-附件映射.md | - | 无飞书链接（迁移生成） | → 提取 | `2-Areas/Work/业务管理/`（跟随 bitable） |
 | cle测算报告.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/cle测算报告]] | [飞书](https://reliablesense.feishu.cn/docx/KsIRdMFKRoRWqQx8yYkce8G0nys) | → 提取 | `2-Areas/Work/设备管理/核芯物联蓝牙AOA/CLE定位引擎测算报告.md` |
@@ -766,24 +766,24 @@ created: 2026-04-11
 
 | 目录 | 飞书链接 | 文件数 | 决策 | 目标路径 |
 |------|---------|--------|------|---------|
-| 2022定位视频/ | [飞书](https://reliablesense.feishu.cn/file/boxcn1t83XNqLAuZq9F9mEKly1b) | 4 | → 提取 | `2-Areas/Work/业务管理/品牌宣传/` |
-| 2023宣传视频/ | [飞书](https://reliablesense.feishu.cn/file/DMccbTFYpoSz91xIuv2cyXCKnJe) | 13 | → 提取 | `2-Areas/Work/业务管理/品牌宣传/` |
+| 2022定位视频/ | [飞书](https://reliablesense.feishu.cn/file/boxcn1t83XNqLAuZq9F9mEKly1b) | 4 | → 提取 | `2-Areas/Work/品牌宣传/` |
+| 2023宣传视频/ | [飞书](https://reliablesense.feishu.cn/file/DMccbTFYpoSz91xIuv2cyXCKnJe) | 13 | → 提取 | `2-Areas/Work/品牌宣传/` |
 | 2023年研发项目立项资料/ | [飞书](https://reliablesense.feishu.cn/file/UYoXbzqTUoOZscxKuhacKzqyn8g) | 9 | → 提取 | `2-Areas/Work/综合管理/` |
 | 2023年终总结/ | [飞书](https://reliablesense.feishu.cn/docx/CZj2dxw1LogAk6xxLqucPwEvngf) | 3 | → 归档 | `4-Archives/Areas/Work/团队管理/` |
 | 2023年项目内容/Bosch | [飞书](https://reliablesense.feishu.cn/sheets/FG67snAd3hBsbStDZUjcHpotnhe) | 3 | → 提取 | `2-Areas/Work/综合管理/` |
 | 2023年项目内容/Bossard | [飞书](https://reliablesense.feishu.cn/sheets/NORxsbRtvhK7Ggtrtb8cyWw5ndf) | 3 | → 提取 | `2-Areas/Work/综合管理/` |
 | 2023年项目内容/国图 | [飞书](https://reliablesense.feishu.cn/docx/ScLMdCwAro02gjxZfnIcPEqOnTb) | 3 | → 提取 | `2-Areas/Work/综合管理/` |
-| 公司网站/ | [飞书](https://reliablesense.feishu.cn/file/boxcnSTAzy0wrZa2ZqKMX1w9msM) | 8+子目录 | → 提取 | `2-Areas/Work/业务管理/品牌宣传/网站素材/` |
-| 名片电子版/ | [飞书](https://reliablesense.feishu.cn/file/XiyXbkRRAooP07xecJZc1399nfG) | 5+子目录 | → 提取 | `2-Areas/Work/业务管理/品牌宣传/` |
+| 公司网站/ | [飞书](https://reliablesense.feishu.cn/file/boxcnSTAzy0wrZa2ZqKMX1w9msM) | 8+子目录 | → 提取 | `2-Areas/Work/品牌宣传/网站素材/` |
+| 名片电子版/ | [飞书](https://reliablesense.feishu.cn/file/XiyXbkRRAooP07xecJZc1399nfG) | 5+子目录 | → 提取 | `2-Areas/Work/品牌宣传/` |
 | 员工管理/2022年终总结 | [飞书](https://reliablesense.feishu.cn/docx/AqesdgLmCoxGJExG8rhcJGXKnEz) | 11 | → 归档 | `4-Archives/Areas/Work/团队管理/团队成员/` |
 | 商业计划书/ | [飞书](https://reliablesense.feishu.cn/file/boxcnzkIOJ3HZgyXBtGe7kK862e) | 7+子目录 | → 提取 | `2-Areas/Work/业务管理/商业计划书/` |
 | 地图绘制步骤/ | [飞书](https://reliablesense.feishu.cn/file/boxcndhHyiVoqsMusxGM9xfTzIc) | 15 | → 提取 | `2-Areas/Work/产品研发/` |
-| 宣传物料/ | [飞书](https://reliablesense.feishu.cn/file/E73ob0v4yof5R7xfW2HcjCWdnuf) | 6+子目录 | → 提取 | `2-Areas/Work/业务管理/品牌宣传/` |
-| 展会/ | [飞书](https://reliablesense.feishu.cn/file/boxcnKyHGiZPqpDgI9AkHDMnGec) | 7+子目录 | → 提取 | `2-Areas/Work/业务管理/品牌宣传/展会/` |
+| 宣传物料/ | [飞书](https://reliablesense.feishu.cn/file/E73ob0v4yof5R7xfW2HcjCWdnuf) | 6+子目录 | → 提取 | `2-Areas/Work/品牌宣传/` |
+| 展会/ | [飞书](https://reliablesense.feishu.cn/file/boxcnKyHGiZPqpDgI9AkHDMnGec) | 7+子目录 | → 提取 | `2-Areas/Work/品牌宣传/展会/` |
 | 沙溪办公室/ | [飞书](https://reliablesense.feishu.cn/file/boxcnntBkT4MffCt00Jan2z9czd) | 3 | → 提取 | `2-Areas/Work/综合管理/` |
-| 照片/ | - | ~102 | → 提取 | `2-Areas/Work/业务管理/品牌宣传/` |
+| 照片/ | - | ~102 | → 提取 | `2-Areas/Work/品牌宣传/` |
 | 财务/ | [飞书](https://reliablesense.feishu.cn/file/boxcn2lqM177PAuDExODeTY4Cmg) | 1 | → 提取 | `2-Areas/Work/综合管理/` |
-| 项目说明综合/ | [飞书](https://reliablesense.feishu.cn/file/boxcnzJVGenDANt0bPUvqc39Hih) | 3 | → 提取 | `2-Areas/Work/业务管理/品牌宣传/` |
+| 项目说明综合/ | [飞书](https://reliablesense.feishu.cn/file/boxcnzJVGenDANt0bPUvqc39Hih) | 3 | → 提取 | `2-Areas/Work/品牌宣传/` |
 
 ---
 
@@ -1155,7 +1155,7 @@ created: 2026-04-11
 
 | 文件 | 飞书链接 | 目标路径 |
 |------|---------|---------|
-| 莱讯宣传单页素材/（10 个 png） | [飞书目录](https://reliablesense.feishu.cn/drive/folder/fldcnpp8JeCmpzMuPLsbsIczAif) | `2-Areas/Work/业务管理/品牌宣传/宣传单页素材/` |
+| 莱讯宣传单页素材/（10 个 png） | [飞书目录](https://reliablesense.feishu.cn/drive/folder/fldcnpp8JeCmpzMuPLsbsIczAif) | `2-Areas/Work/品牌宣传/宣传单页素材/` |
 | 图片资料/功能截图.docx | [飞书](https://reliablesense.feishu.cn/file/boxcn4GHkkPu2XBcBBSwcJ1kXqd) | `2-Areas/Work/产品研发/功能截图.docx` |
 | 图片资料/移动端小程序图片/（14 个 png） | [飞书目录](https://reliablesense.feishu.cn/drive/folder/fldcnpp8JeCmpzMuPLsbsIczAif) | `2-Areas/Work/产品研发/移动端小程序截图/` |
 
@@ -1431,7 +1431,7 @@ created: 2026-04-11
 | 安费诺 | 000. 售前项目/安费诺 | [飞书](https://reliablesense.feishu.cn/docx/EhDyd1X29omJiHx63d7cT5X0nrf) | 1 | → `4-Archives/Areas/Work/业务管理/安费诺/` |
 | 美的净饮成品仓库 | 000. 售前项目/美的净饮成品仓库 | [飞书](https://reliablesense.feishu.cn/file/TnMFb5ha5o243IxcAFYcp77onVg) | 3 | → `4-Archives/Areas/Work/业务管理/美的净饮仓储管理/` |
 | 长春车城乐园 | 000. 售前项目/长春车城乐园 | [飞书](https://reliablesense.feishu.cn/drive/folder/JgzWfy33SlvnsSdrg5Uc3Fdrnm1) | 28 | → `4-Archives/Areas/Work/业务管理/长春车城乐园/` |
-| 湖南金旭 | 000. 售前项目/湖南金旭仓储物流有限公司 | [飞书](https://reliablesense.feishu.cn/drive/folder/JgzWfy33SlvnsSdrg5Uc3Fdrnm1) | 20 | → `4-Archives/Areas/Work/业务管理/湖南金旭仓储管理/` |
+| 湖南金旭 | 000. 售前项目/湖南金旭仓储物流有限公司 | [飞书](https://reliablesense.feishu.cn/drive/folder/JgzWfy33SlvnsSdrg5Uc3Fdrnm1) | 20 | → `2-Areas/Work/业务管理/湖南金旭仓储管理/` |
 
 ### 统计
 
@@ -1452,109 +1452,114 @@ created: 2026-04-11
 
 #### `1-Projects/Work/`（进行中项目）
 
-| 项目名 | 目标路径 | 飞书链接 |
-|--------|---------|---------|
-| 广州机场 | `1-Projects/Work/广州机场/` | [综合定位](https://reliablesense.feishu.cn/drive/folder/NQ2RfyZM7lO2iadqk3rcmDjPnsb) [移动应用平台](https://reliablesense.feishu.cn/drive/folder/D0HIfmaPgleaANd8Cw1cDwpGnhb) |
-| 新太定位 | `1-Projects/Work/新太定位/` | [内蒙新太元铬业](https://reliablesense.feishu.cn/drive/folder/IGJBfaqbJljC6adrtbCcumrrnCf) |
-| 上港仓储管理 | `1-Projects/Work/上港仓储管理/` | [上海上港](https://reliablesense.feishu.cn/drive/folder/IwSpfxmL5lfpO8dLuoccbdnLnre) |
-| 洛阳化工厂 | `1-Projects/Work/洛阳化工厂/` | [麦钉洛阳石化](https://reliablesense.feishu.cn/drive/folder/S3JWftxHWl14R5dz9FncpUPUnsd) [宏兴新能](https://reliablesense.feishu.cn/drive/folder/BKYCfWVwOlXZRpdgjpscVhannlc) |
-| 南宁机场 | `1-Projects/Work/南宁机场/` | [南宁机场](https://reliablesense.feishu.cn/drive/folder/JuNOf2llHlkIa9dKw73cJm5pn3w) |
-| 麦钉定位 | `1-Projects/Work/麦钉定位/` | [麦钉+红柳林等](https://reliablesense.feishu.cn/drive/folder/RTvgfEDMZlvXcod1aQScqUCdnXb) [孝感污水处理](https://reliablesense.feishu.cn/drive/folder/fldcnzHlG6xjy4ECXtD2za7G62e) [内蒙古洗煤厂](https://reliablesense.feishu.cn/drive/folder/fldcn0XgPdqYb7z218keyA7wyhd) [恩菲固废](https://reliablesense.feishu.cn/drive/folder/fldcnbKqOCYwFonGRakDFNNiXIc) |
-| 赛峰定位 | `1-Projects/Work/赛峰定位/` | （无飞书目录链接） |
+| 项目名 | 目标路径 | 创建时间 | 最后修改 | 飞书链接 |
+|--------|---------|---------|---------|---------|
+| 广州机场 | `1-Projects/Work/广州机场/` | 2023-12-19 | 2026-04-17 | [综合定位](https://reliablesense.feishu.cn/drive/folder/NQ2RfyZM7lO2iadqk3rcmDjPnsb) [移动应用平台](https://reliablesense.feishu.cn/drive/folder/D0HIfmaPgleaANd8Cw1cDwpGnhb) |
+| 新太定位 | `1-Projects/Work/新太定位/` | 2024-12-31 | 2025-09-04 | [内蒙新太元铬业](https://reliablesense.feishu.cn/drive/folder/IGJBfaqbJljC6adrtbCcumrrnCf) |
+| 上港仓储管理 | `1-Projects/Work/上港仓储管理/` | 2023-12-25 | 2026-03-01 | [上海上港](https://reliablesense.feishu.cn/drive/folder/IwSpfxmL5lfpO8dLuoccbdnLnre) |
+| 洛阳化工厂 | `1-Projects/Work/洛阳化工厂/` | 2024-06-05 | 2025-02-11 | [麦钉洛阳石化](https://reliablesense.feishu.cn/drive/folder/S3JWftxHWl14R5dz9FncpUPUnsd) [宏兴新能](https://reliablesense.feishu.cn/drive/folder/BKYCfWVwOlXZRpdgjpscVhannlc) |
+| 南宁机场 | `1-Projects/Work/南宁机场/` | 2025-11-04 | 2026-02-27 | [南宁机场](https://reliablesense.feishu.cn/drive/folder/JuNOf2llHlkIa9dKw73cJm5pn3w) |
+| 麦钉定位 | `1-Projects/Work/麦钉定位/` | 2024-04-22 | 2025-06-24 | [麦钉+红柳林等](https://reliablesense.feishu.cn/drive/folder/RTvgfEDMZlvXcod1aQScqUCdnXb) [孝感污水处理](https://reliablesense.feishu.cn/drive/folder/fldcnzHlG6xjy4ECXtD2za7G62e) [内蒙古洗煤厂](https://reliablesense.feishu.cn/drive/folder/fldcn0XgPdqYb7z218keyA7wyhd) [恩菲固废](https://reliablesense.feishu.cn/drive/folder/fldcnbKqOCYwFonGRakDFNNiXIc) |
+| 赛峰定位 | `1-Projects/Work/赛峰定位/` | - | - | （无飞书目录链接） |
+| 赛力斯定位 | `1-Projects/Work/赛力斯定位/` | 2025-04-01 | 2025-04-08 | [飞书](https://reliablesense.feishu.cn/drive/folder/CAIWftFMilP7c1dCwg9cewJ3nKc) |
 
 #### `4-Archives/Projects/Work/`（已结束独立 Project）
 
-| 项目名 | 目标路径 | 飞书链接 |
-|--------|---------|---------|
-| 众合人员管理 | `4-Archives/Projects/Work/众合人员管理/` | [众合Demo](https://reliablesense.feishu.cn/drive/folder/fldcn9ihucqqZa3fG3Px0Gloixc) [众合科技](https://reliablesense.feishu.cn/drive/folder/fldcndJIt8gCWm2aGkk20nLuU3d) |
-| 博世定位 | `4-Archives/Projects/Work/博世定位/` | [Bosch](https://reliablesense.feishu.cn/drive/folder/P4GJfXpDolZ4EodGUF9cUCBonkc) |
-| 国核智慧工地 | `4-Archives/Projects/Work/国核智慧工地/` | [国和一号](https://reliablesense.feishu.cn/drive/folder/fldcnKTgV6OtJkwR2ijJyY5rVsc) [山东国核](https://reliablesense.feishu.cn/drive/folder/fldcnDKqBIiko7la9mEC6iWzlHf) [威海核电](https://reliablesense.feishu.cn/drive/folder/CxMIfqTrnlwHNcd2Spmc5KEinnh) |
-| 海尔工厂 | `4-Archives/Projects/Work/海尔工厂/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn9yq74Lu525sk4tf7ayUr0c) |
-| 供电局库位 | `4-Archives/Projects/Work/供电局库位/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnhoSboKetpXvMBzbKRSmGAb) |
-| 百度水厂 | `4-Archives/Projects/Work/百度水厂/` | [百度水厂](https://reliablesense.feishu.cn/drive/folder/fldcnCovrCdcKMYR4Ba3AybOCz2) [核电站](https://reliablesense.feishu.cn/drive/folder/fldcneAiPn70Fw4xDazm6L26llg) |
-| 联通定位一体化 | `4-Archives/Projects/Work/联通定位一体化/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnlVHJxmUEdxDWjt8LvVcTjc) |
-| 兰州机场 | `4-Archives/Projects/Work/兰州机场/` | [998兰州机场](https://reliablesense.feishu.cn/drive/folder/fldcn42BLWazsHzYslg6A34LLCd) [~其他兰州机场](https://reliablesense.feishu.cn/drive/folder/fldcnTnuXhdZedD0zw7DZ6Hqr5f) |
-| 武汉机场 | `4-Archives/Projects/Work/武汉机场/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnHmHajD7TQATmdiqbTIuGRe) |
-| 启程科技加气站 | `4-Archives/Projects/Work/启程科技加气站/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnoreuJsFnFpBJ6rVWisEtWc) |
-| 数讯云人员服务系统 | `4-Archives/Projects/Work/数讯云人员服务系统/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnnpIG8G9K1vU3IH1XexyQpb) |
-| 北京GE | `4-Archives/Projects/Work/北京GE/` | [飞书](https://reliablesense.feishu.cn/drive/folder/VL31fp5utl2g59dU3CbcBV1Onkc) |
-| 松下LED灯 | `4-Archives/Projects/Work/松下LED灯/` | [998松下照明](https://reliablesense.feishu.cn/drive/folder/fldcnvFOcvpYap90lcIGxwbRTVf) [~其他松下LED灯](https://reliablesense.feishu.cn/drive/folder/fldcnCb3VmyuRzhftSufgN2Caah) |
-| 天津眼科医院 | `4-Archives/Projects/Work/天津眼科医院/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn4LNTqNz05fkkDD51VReUoh) |
-| 电子价签管理 | `4-Archives/Projects/Work/电子价签管理/` | [飞书](https://reliablesense.feishu.cn/drive/folder/E3NmfOQ5Pl5w9wdaRkjcEAvHntf) |
-| 电网智能仓库 | `4-Archives/Projects/Work/电网智能仓库/` | [南方电网](https://reliablesense.feishu.cn/drive/folder/fldcnFfYXhVMbffAXURuPEYFZHg) [国家电网](https://reliablesense.feishu.cn/drive/folder/fldcnfcM9BxoadzLHM41eJujMUh) |
-| 国家图书馆 | `4-Archives/Projects/Work/国家图书馆/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn6yxWW1ngHsX0GkzZZdVkEc) |
-| 中东电子厂 | `4-Archives/Projects/Work/中东电子厂/` | [飞书](https://reliablesense.feishu.cn/drive/folder/UF9cfyxN7lnWIwd02auc28fFnOg) |
-| 中联核信 | `4-Archives/Projects/Work/中联核信/` | [飞书](https://reliablesense.feishu.cn/drive/folder/LaOOfNGfBlvZqOdTmgtcRQzxnJc) |
-| 嘉盛工厂 | `4-Archives/Projects/Work/嘉盛工厂/` | [飞书](https://reliablesense.feishu.cn/drive/folder/Q4jDfQS0alQqv2d0LjWcSR6rnVd) |
-| 长沙酒店 | `4-Archives/Projects/Work/长沙酒店/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnYRwI8knNNUXUtof87Fyajb) |
-| 民生物流 | `4-Archives/Projects/Work/民生物流/` | [飞书](https://reliablesense.feishu.cn/drive/folder/R07Dfa4FIlnT58dO8eWcFJ7WnXc) |
-| 可口可乐叉车定位 | `4-Archives/Projects/Work/可口可乐叉车定位/` | [999可口可乐](https://reliablesense.feishu.cn/drive/folder/fldcn0qXGrnl4W8rKS5z6C6uilc) [~其他可口可乐](https://reliablesense.feishu.cn/drive/folder/fldcnIAC2gwnUWTyYULDObMLhGe) |
-| 二手车管理 | `4-Archives/Projects/Work/二手车管理/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnu9ueOQWmpUM4axmkmYh7mf) |
-| 苏州KIT | `4-Archives/Projects/Work/苏州KIT/` | [飞书](https://reliablesense.feishu.cn/drive/folder/WWclfhyFulfuTYdxFAWcYvc4nLe) |
-| 丰田叉车 | `4-Archives/Projects/Work/丰田叉车/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnoZ28nWI3HHes9jTUz2hcGe) |
-| 泰康养老院 | `4-Archives/Projects/Work/泰康养老院/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn7OgGvIC4ToMxhxVQBS3Srh) |
-| 中远海运 | `4-Archives/Projects/Work/中远海运/` | [飞书](https://reliablesense.feishu.cn/drive/folder/Bnp4fUMeol0U1xdisfTcqv2xnCd) |
-| 业睿展厅 | `4-Archives/Projects/Work/业睿展厅/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnO0LHPDLthNOwEOzl87p3bg) |
-| 中科海微 | `4-Archives/Projects/Work/中科海微/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnDM4BkLZD0CfnzKBQZte1Og) |
-| 扬州群鑫 | `4-Archives/Projects/Work/扬州群鑫/` | [飞书](https://reliablesense.feishu.cn/drive/folder/FEzCf5OfWlFFZgdDptVcgBiYnQh) |
-| 电厂煤棚定位 | `4-Archives/Projects/Work/电厂煤棚定位/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn807AdSNZzZn4mJwa5qPv6b) |
-| 智能眼罩 | `4-Archives/Projects/Work/智能眼罩/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn6YEXgcxuHbZEpMs51QtkEd) |
-| 中广核电厂 | `4-Archives/Projects/Work/中广核电厂/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcneO36olE18KDvp2NxfMPYZb) |
-| 政府库房 | `4-Archives/Projects/Work/政府库房/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcni2L4SfC0jkmmESlKTeLskd) |
+| 项目名 | 目标路径 | 创建时间 | 最后修改 | 飞书链接 |
+|--------|---------|---------|---------|---------|
+| 众合人员管理 | `4-Archives/Projects/Work/众合人员管理/` | 2022-02-24 | 2022-02-24 | [众合Demo](https://reliablesense.feishu.cn/drive/folder/fldcn9ihucqqZa3fG3Px0Gloixc) [众合科技](https://reliablesense.feishu.cn/drive/folder/fldcndJIt8gCWm2aGkk20nLuU3d) |
+| 博世定位 | `4-Archives/Projects/Work/博世定位/` | 2023-10-06 | 2025-08-29 | [Bosch](https://reliablesense.feishu.cn/drive/folder/P4GJfXpDolZ4EodGUF9cUCBonkc) |
+| 国核智慧工地 | `4-Archives/Projects/Work/国核智慧工地/` | 2022-08-10 | 2023-03-09 | [国和一号](https://reliablesense.feishu.cn/drive/folder/fldcnKTgV6OtJkwR2ijJyY5rVsc) [山东国核](https://reliablesense.feishu.cn/drive/folder/fldcnDKqBIiko7la9mEC6iWzlHf) [威海核电](https://reliablesense.feishu.cn/drive/folder/CxMIfqTrnlwHNcd2Spmc5KEinnh) |
+| 海尔工厂 | `4-Archives/Projects/Work/海尔工厂/` | 2022-02-21 | 2022-02-21 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn9yq74Lu525sk4tf7ayUr0c) |
+| 供电局库位 | `4-Archives/Projects/Work/供电局库位/` | 2022-02-21 | 2022-02-21 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnhoSboKetpXvMBzbKRSmGAb) |
+| 百度水厂 | `4-Archives/Projects/Work/百度水厂/` | 2022-04-15 | 2023-07-14 | [百度水厂](https://reliablesense.feishu.cn/drive/folder/fldcnCovrCdcKMYR4Ba3AybOCz2) [核电站](https://reliablesense.feishu.cn/drive/folder/fldcneAiPn70Fw4xDazm6L26llg) |
+| 联通定位一体化 | `4-Archives/Projects/Work/联通定位一体化/` | 2022-02-21 | 2022-02-21 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnlVHJxmUEdxDWjt8LvVcTjc) |
+| 兰州机场 | `4-Archives/Projects/Work/兰州机场/` | 2022-11-04 | 2023-08-21 | [998兰州机场](https://reliablesense.feishu.cn/drive/folder/fldcn42BLWazsHzYslg6A34LLCd) [~其他兰州机场](https://reliablesense.feishu.cn/drive/folder/fldcnTnuXhdZedD0zw7DZ6Hqr5f) |
+| 武汉机场 | `4-Archives/Projects/Work/武汉机场/` | 2022-07-21 | 2024-06-04 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnHmHajD7TQATmdiqbTIuGRe) |
+| 启程科技加气站 | `4-Archives/Projects/Work/启程科技加气站/` | 2022-02-24 | 2022-02-24 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnoreuJsFnFpBJ6rVWisEtWc) |
+| 数讯云人员服务系统 | `4-Archives/Projects/Work/数讯云人员服务系统/` | 2022-02-21 | 2022-02-21 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnnpIG8G9K1vU3IH1XexyQpb) |
+| 北京GE | `4-Archives/Projects/Work/北京GE/` | 2024-05-27 | 2024-11-15 | [飞书](https://reliablesense.feishu.cn/drive/folder/VL31fp5utl2g59dU3CbcBV1Onkc) |
+| 松下LED灯 | `4-Archives/Projects/Work/松下LED灯/` | 2022-02-24 | 2022-02-24 | [998松下照明](https://reliablesense.feishu.cn/drive/folder/fldcnvFOcvpYap90lcIGxwbRTVf) [~其他松下LED灯](https://reliablesense.feishu.cn/drive/folder/fldcnCb3VmyuRzhftSufgN2Caah) |
+| 天津眼科医院 | `4-Archives/Projects/Work/天津眼科医院/` | 2022-02-24 | 2022-05-07 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn4LNTqNz05fkkDD51VReUoh) |
+| 电子价签管理 | `4-Archives/Projects/Work/电子价签管理/` | 2023-10-06 | 2023-11-10 | [飞书](https://reliablesense.feishu.cn/drive/folder/E3NmfOQ5Pl5w9wdaRkjcEAvHntf) |
+| 电网智能仓库 | `4-Archives/Projects/Work/电网智能仓库/` | 2022-02-19 | 2022-03-24 | [南方电网](https://reliablesense.feishu.cn/drive/folder/fldcnFfYXhVMbffAXURuPEYFZHg) [国家电网](https://reliablesense.feishu.cn/drive/folder/fldcnfcM9BxoadzLHM41eJujMUh) |
+| 国家图书馆 | `4-Archives/Projects/Work/国家图书馆/` | 2023-03-03 | 2025-05-26 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn6yxWW1ngHsX0GkzZZdVkEc) |
+| 中东电子厂 | `4-Archives/Projects/Work/中东电子厂/` | 2025-04-08 | 2026-02-02 | [飞书](https://reliablesense.feishu.cn/drive/folder/UF9cfyxN7lnWIwd02auc28fFnOg) |
+| 中联核信 | `4-Archives/Projects/Work/中联核信/` | 2025-04-19 | 2025-04-19 | [飞书](https://reliablesense.feishu.cn/drive/folder/LaOOfNGfBlvZqOdTmgtcRQzxnJc) |
+| 嘉盛工厂 | `4-Archives/Projects/Work/嘉盛工厂/` | 2025-04-01 | 2025-04-22 | [飞书](https://reliablesense.feishu.cn/drive/folder/Q4jDfQS0alQqv2d0LjWcSR6rnVd) |
+| 长沙酒店 | `4-Archives/Projects/Work/长沙酒店/` | 2022-02-24 | 2022-03-19 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnYRwI8knNNUXUtof87Fyajb) |
+| 民生物流 | `4-Archives/Projects/Work/民生物流/` | 2024-08-21 | 2024-12-06 | [飞书](https://reliablesense.feishu.cn/drive/folder/R07Dfa4FIlnT58dO8eWcFJ7WnXc) |
+| 可口可乐叉车定位 | `4-Archives/Projects/Work/可口可乐叉车定位/` | 2022-02-21 | 2022-02-21 | [999可口可乐](https://reliablesense.feishu.cn/drive/folder/fldcn0qXGrnl4W8rKS5z6C6uilc) [~其他可口可乐](https://reliablesense.feishu.cn/drive/folder/fldcnIAC2gwnUWTyYULDObMLhGe) |
+| 二手车管理 | `4-Archives/Projects/Work/二手车管理/` | 2022-02-20 | 2023-03-14 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnu9ueOQWmpUM4axmkmYh7mf) |
+| 苏州KIT | `4-Archives/Projects/Work/苏州KIT/` | 2024-03-31 | 2024-04-02 | [飞书](https://reliablesense.feishu.cn/drive/folder/WWclfhyFulfuTYdxFAWcYvc4nLe) |
+| 丰田叉车 | `4-Archives/Projects/Work/丰田叉车/` | 2022-02-21 | 2025-11-04 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnoZ28nWI3HHes9jTUz2hcGe) |
+| 泰康养老院 | `4-Archives/Projects/Work/泰康养老院/` | 2022-02-21 | 2022-02-21 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn7OgGvIC4ToMxhxVQBS3Srh) |
+| 中远海运 | `4-Archives/Projects/Work/中远海运/` | 2024-10-22 | 2024-12-10 | [飞书](https://reliablesense.feishu.cn/drive/folder/Bnp4fUMeol0U1xdisfTcqv2xnCd) |
+| 业睿展厅 | `4-Archives/Projects/Work/业睿展厅/` | 2022-02-21 | 2022-02-21 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnO0LHPDLthNOwEOzl87p3bg) |
+| 中科海微 | `4-Archives/Projects/Work/中科海微/` | 2022-02-24 | 2022-03-10 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnDM4BkLZD0CfnzKBQZte1Og) |
+| 扬州群鑫 | `4-Archives/Projects/Work/扬州群鑫/` | 2024-03-31 | 2026-04-09 | [飞书](https://reliablesense.feishu.cn/drive/folder/FEzCf5OfWlFFZgdDptVcgBiYnQh) |
+| 电厂煤棚定位 | `4-Archives/Projects/Work/电厂煤棚定位/` | 2022-02-24 | 2022-02-24 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn807AdSNZzZn4mJwa5qPv6b) |
+| 智能眼罩 | `4-Archives/Projects/Work/智能眼罩/` | 2022-02-21 | 2022-02-21 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn6YEXgcxuHbZEpMs51QtkEd) |
+| 中广核电厂 | `4-Archives/Projects/Work/中广核电厂/` | 2022-02-24 | 2022-02-24 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcneO36olE18KDvp2NxfMPYZb) |
+| 政府库房 | `4-Archives/Projects/Work/政府库房/` | 2022-02-24 | 2022-02-24 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcni2L4SfC0jkmmESlKTeLskd) |
+| 无动力设备管理 | `4-Archives/Projects/Work/无动力设备管理/` | - | - | （定制版子目录） |
 
 #### `4-Archives/Areas/Work/业务管理/`（已结束小项目）
 
-| 项目名 | 目标路径 | 飞书链接 |
-|--------|---------|---------|
-| 康利达定位 | `4-Archives/Areas/Work/业务管理/康利达定位/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnPZ5u2pC8jXrwCWYmW0zKsN) |
-| 厦门医院 | `4-Archives/Areas/Work/业务管理/厦门医院/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnH7FhGrBf94gG9RsIrIa8Zg) |
-| 无动力设备信息融合 | `4-Archives/Areas/Work/业务管理/无动力设备信息融合/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnByfvqKI5s5vK8WVniVvNMe) |
-| 上海易同科技 | `4-Archives/Areas/Work/业务管理/上海易同科技/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn8pIA6ElregB1Fggx07tGKg) |
-| 清华大学 | `4-Archives/Areas/Work/业务管理/清华大学/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnpJzwab38BtPYZAFQgcicrf) |
-| 振华项目 | `4-Archives/Areas/Work/业务管理/振华项目/` | [飞书](https://reliablesense.feishu.cn/drive/folder/S9lCfVWTwlUyORda8c5cb3BGnsb) |
-| 天津医科大学总医院 | `4-Archives/Areas/Work/业务管理/天津医科大学总医院/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnIVDi2da6SfdGwkyejbPZ1g) |
-| 广西电网 | `4-Archives/Areas/Work/业务管理/广西电网/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcndXOeB44cYlW012D2C05Hcf) |
-| 运输机大屏 | `4-Archives/Areas/Work/业务管理/运输机大屏/` | [飞书](https://reliablesense.feishu.cn/drive/folder/Uh1Nfl3eml9Nq1d3jhAc1kJ8nWg) |
-| 南通精机 | `4-Archives/Areas/Work/业务管理/南通精机/` | [飞书](https://reliablesense.feishu.cn/drive/folder/MOK6fhlmalZiZGdMGHbcPdHgnjf) |
-| 中软护理院 | `4-Archives/Areas/Work/业务管理/中软护理院/` | [飞书](https://reliablesense.feishu.cn/drive/folder/EE6nf30qtlkLzwdOkkmcLfHanGf) |
-| 胶州湾 | `4-Archives/Areas/Work/业务管理/胶州湾/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn03OeBw3cqEZQLPCLDKMsUe) |
-| 中奕信息 | `4-Archives/Areas/Work/业务管理/中奕信息/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnGYdaFxc8EybWdmNf25npwc) |
-| 天津展厅 | `4-Archives/Areas/Work/业务管理/天津展厅/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcniIKrxUSjvz71AJ07dL5Rhz) |
-| 创源微致 | `4-Archives/Areas/Work/业务管理/创源微致/` | [飞书](https://reliablesense.feishu.cn/drive/folder/UirYfKFX2lIwo0daKshcMCOyn0b) |
-| 济南炼化厂 | `4-Archives/Areas/Work/业务管理/济南炼化厂/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnW80ZP3Pl2In77nNl3YVSye) |
-| 捷普工厂 | `4-Archives/Areas/Work/业务管理/捷普工厂/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnly6jvJUH3XExdT0Fnr0OOe) |
-| 地铁停车场 | `4-Archives/Areas/Work/业务管理/地铁停车场/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnWzRLVtF16uOX9MP92WGz6e) |
-| 苏州美的 | `4-Archives/Areas/Work/业务管理/苏州美的/` | [飞书](https://reliablesense.feishu.cn/drive/folder/GLRUfUaRKlwsaJdpq6IcNENBn6c) |
-| 船只定位 | `4-Archives/Areas/Work/业务管理/船只定位/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnp91z9Kb0b3Oz9k8SxYL7Mh) |
-| 深圳物联AIoT | `4-Archives/Areas/Work/业务管理/深圳物联AIoT/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnqBKqbikUuASzpKbKOzAgEN) |
-| 宝冶钢厂 | `4-Archives/Areas/Work/业务管理/宝冶钢厂/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnoKLaAoSMItdOsjC8O7A5ub) |
-| 上海化工 | `4-Archives/Areas/Work/业务管理/上海化工/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn9H00DYxSAKglF8eSOezXTd) |
-| 机车检修 | `4-Archives/Areas/Work/业务管理/机车检修/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnL3DdEr4YbUvw1eeUZi8W2g) |
-| 保定轮毂厂 | `4-Archives/Areas/Work/业务管理/保定轮毂厂/` | [飞书](https://reliablesense.feishu.cn/drive/folder/SPS1fUblzlJcLRdqh9UcJUJtnJK) |
-| 仁爱学院地图 | `4-Archives/Areas/Work/业务管理/仁爱学院地图/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnyvb2Wvj908C5k8Yi5xlPJb) |
-| 世博软件 | `4-Archives/Areas/Work/业务管理/世博软件/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnIJEAyzC7kpOvwBhFkhIVvg) |
-| 科学馆展厅 | `4-Archives/Areas/Work/业务管理/科学馆展厅/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnMImMbAFHE9aR8oVR9ehPDb) |
-| 弘冉智能 | `4-Archives/Areas/Work/业务管理/弘冉智能/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcncDxpMwrMVeHMX6drrDqwsf) |
-| 天津地铁 | `4-Archives/Areas/Work/业务管理/天津地铁/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnZ7jRUe6KGGbATWoCYnakjh) |
-| 人效考勤 | `4-Archives/Areas/Work/业务管理/人效考勤/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnQPoRYuKFpdLFxVHYL0zzhf) |
-| 吉林工艺车 | `4-Archives/Areas/Work/业务管理/吉林工艺车/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn0GT2pYTiFSVAWnJyLplgab) |
-| 长兴视通 | `4-Archives/Areas/Work/业务管理/长兴视通/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn0597TNerxmay7zHPUgshoh) |
-| 安庆项目 | `4-Archives/Areas/Work/业务管理/安庆项目/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnOACxDl3JS0sASvaxzCXwSg) |
-| 国投生物 | `4-Archives/Areas/Work/业务管理/国投生物/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnvOTu0YqJ8PADcq1QR4aUVe) |
-| 百威仓库 | `4-Archives/Areas/Work/业务管理/百威仓库/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn3JnJx1DXaiSnrCKFBsTc6d) |
-| 政府小区 | `4-Archives/Areas/Work/业务管理/政府小区/` | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnFoCVwuLOSrlPm7BvgLWJ6e) |
-| 如视项目 | `4-Archives/Areas/Work/业务管理/如视项目/` | [飞书](https://reliablesense.feishu.cn/drive/folder/YB4ufHQhYlm0jSdEovRcOvQ1nuh) |
-| 哒咔定位 | `4-Archives/Areas/Work/业务管理/报价记录/` | （画板文档，无目录链接） |
-| 赛力斯定位 | `1-Projects/Work/赛力斯定位/` | [飞书](https://reliablesense.feishu.cn/drive/folder/CAIWftFMilP7c1dCwg9cewJ3nKc) |
-| 报价记录 | `4-Archives/Areas/Work/业务管理/报价记录/` | （无飞书目录链接） |
+| 项目名 | 目标路径 | 创建时间 | 最后修改 | 飞书链接 |
+|--------|---------|---------|---------|---------|
+| 康利达定位 | `4-Archives/Areas/Work/业务管理/康利达定位/` | 2022-02-24 | 2022-04-27 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnPZ5u2pC8jXrwCWYmW0zKsN) |
+| 厦门医院 | `4-Archives/Areas/Work/业务管理/厦门医院/` | 2022-02-21 | 2022-02-21 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnH7FhGrBf94gG9RsIrIa8Zg) |
+| 无动力设备信息融合 | `4-Archives/Areas/Work/业务管理/无动力设备信息融合/` | 2022-10-10 | 2022-12-09 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnByfvqKI5s5vK8WVniVvNMe) |
+| 上海易同科技 | `4-Archives/Areas/Work/业务管理/上海易同科技/` | 2022-02-24 | 2022-02-24 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn8pIA6ElregB1Fggx07tGKg) |
+| 清华大学 | `4-Archives/Areas/Work/业务管理/清华大学/` | 2022-02-24 | 2022-02-24 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnpJzwab38BtPYZAFQgcicrf) |
+| 振华项目 | `4-Archives/Areas/Work/业务管理/振华项目/` | 2024-08-14 | 2024-08-14 | [飞书](https://reliablesense.feishu.cn/drive/folder/S9lCfVWTwlUyORda8c5cb3BGnsb) |
+| 天津医科大学总医院 | `4-Archives/Areas/Work/业务管理/天津医科大学总医院/` | 2022-02-21 | 2022-02-21 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnIVDi2da6SfdGwkyejbPZ1g) |
+| 广西电网 | `4-Archives/Areas/Work/业务管理/广西电网/` | 2022-10-09 | 2024-01-16 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcndXOeB44cYlW012D2C05Hcf) |
+| 运输机大屏 | `4-Archives/Areas/Work/业务管理/运输机大屏/` | 2024-01-23 | 2024-01-30 | [飞书](https://reliablesense.feishu.cn/drive/folder/Uh1Nfl3eml9Nq1d3jhAc1kJ8nWg) |
+| 南通精机 | `4-Archives/Areas/Work/业务管理/南通精机/` | 2024-08-19 | 2024-11-04 | [飞书](https://reliablesense.feishu.cn/drive/folder/MOK6fhlmalZiZGdMGHbcPdHgnjf) |
+| 中软护理院 | `4-Archives/Areas/Work/业务管理/中软护理院/` | 2024-08-19 | 2024-08-19 | [飞书](https://reliablesense.feishu.cn/drive/folder/EE6nf30qtlkLzwdOkkmcLfHanGf) |
+| 胶州湾 | `4-Archives/Areas/Work/业务管理/胶州湾/` | 2022-10-18 | 2022-10-19 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn03OeBw3cqEZQLPCLDKMsUe) |
+| 中奕信息 | `4-Archives/Areas/Work/业务管理/中奕信息/` | 2022-02-21 | 2022-02-21 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnGYdaFxc8EybWdmNf25npwc) |
+| 天津展厅 | `4-Archives/Areas/Work/业务管理/天津展厅/` | 2022-02-21 | 2022-02-21 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcniIKrxUSjvz71AJ07dL5Rhz) |
+| 创源微致 | `4-Archives/Areas/Work/业务管理/创源微致/` | 2024-08-26 | 2024-11-02 | [飞书](https://reliablesense.feishu.cn/drive/folder/UirYfKFX2lIwo0daKshcMCOyn0b) |
+| 济南炼化厂 | `4-Archives/Areas/Work/业务管理/济南炼化厂/` | 2022-06-27 | 2022-06-30 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnW80ZP3Pl2In77nNl3YVSye) |
+| 捷普工厂 | `4-Archives/Areas/Work/业务管理/捷普工厂/` | 2022-02-21 | 2022-02-21 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnly6jvJUH3XExdT0Fnr0OOe) |
+| 地铁停车场 | `4-Archives/Areas/Work/业务管理/地铁停车场/` | 2022-02-21 | 2022-02-21 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnWzRLVtF16uOX9MP92WGz6e) |
+| 苏州美的 | `4-Archives/Areas/Work/业务管理/苏州美的/` | 2023-07-19 | 2023-07-19 | [飞书](https://reliablesense.feishu.cn/drive/folder/GLRUfUaRKlwsaJdpq6IcNENBn6c) |
+| 船只定位 | `4-Archives/Areas/Work/业务管理/船只定位/` | 2022-08-17 | 2022-08-17 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnp91z9Kb0b3Oz9k8SxYL7Mh) |
+| 深圳物联AIoT | `4-Archives/Areas/Work/业务管理/深圳物联AIoT/` | 2023-04-18 | 2023-05-09 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnqBKqbikUuASzpKbKOzAgEN) |
+| 宝冶钢厂 | `4-Archives/Areas/Work/业务管理/宝冶钢厂/` | 2022-02-21 | 2022-02-21 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnoKLaAoSMItdOsjC8O7A5ub) |
+| 上海化工 | `4-Archives/Areas/Work/业务管理/上海化工/` | 2023-03-10 | 2023-03-10 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn9H00DYxSAKglF8eSOezXTd) |
+| 机车检修 | `4-Archives/Areas/Work/业务管理/机车检修/` | 2022-02-21 | 2022-02-21 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnL3DdEr4YbUvw1eeUZi8W2g) |
+| 保定轮毂厂 | `4-Archives/Areas/Work/业务管理/保定轮毂厂/` | 2023-11-02 | 2023-11-02 | [飞书](https://reliablesense.feishu.cn/drive/folder/SPS1fUblzlJcLRdqh9UcJUJtnJK) |
+| 仁爱学院地图 | `4-Archives/Areas/Work/业务管理/仁爱学院地图/` | 2022-10-17 | 2022-10-17 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnyvb2Wvj908C5k8Yi5xlPJb) |
+| 世博软件 | `4-Archives/Areas/Work/业务管理/世博软件/` | 2022-07-21 | 2022-07-21 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnIJEAyzC7kpOvwBhFkhIVvg) |
+| 科学馆展厅 | `4-Archives/Areas/Work/业务管理/科学馆展厅/` | 2022-02-24 | 2022-02-24 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnMImMbAFHE9aR8oVR9ehPDb) |
+| 弘冉智能 | `4-Archives/Areas/Work/业务管理/弘冉智能/` | 2022-02-24 | 2022-02-24 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcncDxpMwrMVeHMX6drrDqwsf) |
+| 天津地铁 | `4-Archives/Areas/Work/业务管理/天津地铁/` | 2022-02-24 | 2022-02-24 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnZ7jRUe6KGGbATWoCYnakjh) |
+| 人效考勤 | `4-Archives/Areas/Work/业务管理/人效考勤/` | 2022-02-28 | 2022-02-28 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnQPoRYuKFpdLFxVHYL0zzhf) |
+| 吉林工艺车 | `4-Archives/Areas/Work/业务管理/吉林工艺车/` | 2022-02-24 | 2022-02-24 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn0GT2pYTiFSVAWnJyLplgab) |
+| 长兴视通 | `4-Archives/Areas/Work/业务管理/长兴视通/` | 2022-02-24 | 2022-02-24 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn0597TNerxmay7zHPUgshoh) |
+| 安庆项目 | `4-Archives/Areas/Work/业务管理/安庆项目/` | 2022-02-24 | 2022-02-24 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnOACxDl3JS0sASvaxzCXwSg) |
+| 国投生物 | `4-Archives/Areas/Work/业务管理/国投生物/` | 2022-02-24 | 2022-02-24 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnvOTu0YqJ8PADcq1QR4aUVe) |
+| 百威仓库 | `4-Archives/Areas/Work/业务管理/百威仓库/` | 2022-02-24 | 2022-02-24 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn3JnJx1DXaiSnrCKFBsTc6d) |
+| 政府小区 | `4-Archives/Areas/Work/业务管理/政府小区/` | 2022-02-24 | 2022-02-24 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnFoCVwuLOSrlPm7BvgLWJ6e) |
+| 如视项目 | `4-Archives/Areas/Work/业务管理/如视项目/` | 2025-05-07 | 2025-05-07 | [飞书](https://reliablesense.feishu.cn/drive/folder/YB4ufHQhYlm0jSdEovRcOvQ1nuh) |
+| 哒咔定位 | `4-Archives/Areas/Work/业务管理/报价记录/` | - | - | （画板文档，无目录链接） |
+| 安费诺 | `4-Archives/Areas/Work/业务管理/安费诺/` | 2025-01-10 | 2025-01-10 | [飞书](https://reliablesense.feishu.cn/docx/EhDyd1X29omJiHx63d7cT5X0nrf) |
+| 美的净饮成品仓库 | `4-Archives/Areas/Work/业务管理/美的净饮仓储管理/` | 2025-02-11 | 2025-02-11 | [飞书](https://reliablesense.feishu.cn/file/TnMFb5ha5o243IxcAFYcp77onVg) |
+| 长春车城乐园 | `4-Archives/Areas/Work/业务管理/长春车城乐园/` | 2024-08-23 | 2024-12-31 | [飞书](https://reliablesense.feishu.cn/drive/folder/JgzWfy33SlvnsSdrg5Uc3Fdrnm1) |
+| 湖南金旭 | `2-Areas/Work/业务管理/湖南金旭仓储管理/` | 2026-04-03 | ⚠️ 2026-04-07 | [飞书](https://reliablesense.feishu.cn/drive/folder/JgzWfy33SlvnsSdrg5Uc3Fdrnm1) |
+| 报价记录 | `4-Archives/Areas/Work/业务管理/报价记录/` | - | - | （无飞书目录链接） |
 
 #### `2-Areas/Work/设备管理/`（归入设备管理）
 
-| 项目名 | 目标路径 | 飞书链接 |
-|--------|---------|---------|
-| 合众思壮 | `2-Areas/Work/设备管理/合众思壮GPS/` | [飞书](https://reliablesense.feishu.cn/drive/folder/KS3BfWiA0lszPFdzHPHcltflnre) |
-| 博实结 | `2-Areas/Work/设备管理/博实结GPS/` | [飞书](https://reliablesense.feishu.cn/drive/folder/BudrfapCnl9fLkd8Rl3cXhwjnve) |
-| 红点定位 | `2-Areas/Work/设备管理/红点UWB/` | [飞书](https://reliablesense.feishu.cn/docx/YBASdNrzWo8e9ExCrZYcdClTnfg) |
+| 项目名 | 目标路径 | 创建时间 | 最后修改 | 飞书链接 |
+|--------|---------|---------|---------|---------|
+| 合众思壮 | `2-Areas/Work/设备管理/合众思壮GPS/` | 2023-09-27 | 2024-06-04 | [飞书](https://reliablesense.feishu.cn/drive/folder/KS3BfWiA0lszPFdzHPHcltflnre) |
+| 博实结 | `2-Areas/Work/设备管理/博实结GPS/` | 2025-04-01 | 2025-04-02 | [飞书](https://reliablesense.feishu.cn/drive/folder/BudrfapCnl9fLkd8Rl3cXhwjnve) |
+| 红点定位 | `2-Areas/Work/设备管理/红点UWB/` | 2023-12-26 | 2023-12-26 | [飞书](https://reliablesense.feishu.cn/docx/YBASdNrzWo8e9ExCrZYcdClTnfg) |
 
 ### 设备管理 — 设备厂家清单（→ `2-Areas/Work/设备管理/`）
 
