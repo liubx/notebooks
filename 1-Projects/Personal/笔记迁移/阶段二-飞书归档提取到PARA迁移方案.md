@@ -1339,7 +1339,7 @@ created: 2026-04-11
 | 国家图书馆 | 国家图书馆 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn6yxWW1ngHsX0GkzZZdVkEc) | 8 | 📁 Project | `国家图书馆` |
 | 厦门医院 | 厦门医院项目 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnH7FhGrBf94gG9RsIrIa8Zg) | 5 | 📋 归档业务管理 | `厦门医院` |
 | 无动力设备信息融合 | 机场-无动力设备信息融合系统 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnByfvqKI5s5vK8WVniVvNMe) | 4 | 📋 归档业务管理 | `无动力设备`, `信息融合` |
-| 核电站 | 核电站项目 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcneAiPn70Fw4xDazm6L26llg) | 3 | 归入百度水厂 | `核电站` |
+| 核电站 | 核电站项目 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcneAiPn70Fw4xDazm6L26llg) | 3 | 归入中广核电厂 | `核电站` |
 | 宏兴新能 | 宏兴新能人员定位管理系统 | [飞书](https://reliablesense.feishu.cn/drive/folder/BKYCfWVwOlXZRpdgjpscVhannlc) | 3 | 归入洛阳化工厂 | `宏兴新能` |
 | 上海易同科技 | 上海易同科技 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn8pIA6ElregB1Fggx07tGKg) | 3 | 📋 归档业务管理 | `易同` |
 | 清华大学 | 清华大学 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnpJzwab38BtPYZAFQgcicrf) | 2 | 📋 归档业务管理 | `清华大学` |
@@ -1472,7 +1472,7 @@ created: 2026-04-11
 | 国核智慧工地 | `4-Archives/Projects/Work/国核智慧工地/` | 2022-08-10 | 2023-03-09 | [国和一号](https://reliablesense.feishu.cn/drive/folder/fldcnKTgV6OtJkwR2ijJyY5rVsc) [山东国核](https://reliablesense.feishu.cn/drive/folder/fldcnDKqBIiko7la9mEC6iWzlHf) [威海核电](https://reliablesense.feishu.cn/drive/folder/CxMIfqTrnlwHNcd2Spmc5KEinnh) |
 | 海尔工厂 | `4-Archives/Projects/Work/海尔工厂/` | 2022-02-21 | 2022-02-21 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn9yq74Lu525sk4tf7ayUr0c) |
 | 供电局库位 | `4-Archives/Projects/Work/供电局库位/` | 2022-02-21 | 2022-02-21 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnhoSboKetpXvMBzbKRSmGAb) |
-| 百度水厂 | `4-Archives/Projects/Work/百度水厂/` | 2022-04-15 | 2023-07-14 | [百度水厂](https://reliablesense.feishu.cn/drive/folder/fldcnCovrCdcKMYR4Ba3AybOCz2) [核电站](https://reliablesense.feishu.cn/drive/folder/fldcneAiPn70Fw4xDazm6L26llg) |
+| 百度水厂 | `4-Archives/Projects/Work/百度水厂/` | 2022-04-15 | 2023-07-14 | [百度水厂](https://reliablesense.feishu.cn/drive/folder/fldcnCovrCdcKMYR4Ba3AybOCz2) |
 | 联通定位一体化 | `4-Archives/Projects/Work/联通定位一体化/` | 2022-02-21 | 2022-02-21 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnlVHJxmUEdxDWjt8LvVcTjc) |
 | 兰州机场 | `4-Archives/Projects/Work/兰州机场/` | 2022-11-04 | 2023-08-21 | [998兰州机场](https://reliablesense.feishu.cn/drive/folder/fldcn42BLWazsHzYslg6A34LLCd) [~其他兰州机场](https://reliablesense.feishu.cn/drive/folder/fldcnTnuXhdZedD0zw7DZ6Hqr5f) |
 | 武汉机场 | `4-Archives/Projects/Work/武汉机场/` | 2022-07-21 | 2024-06-04 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnHmHajD7TQATmdiqbTIuGRe) |
@@ -1500,7 +1500,7 @@ created: 2026-04-11
 | 扬州群鑫 | `4-Archives/Projects/Work/扬州群鑫/` | 2024-03-31 | 2026-04-09 | [飞书](https://reliablesense.feishu.cn/drive/folder/FEzCf5OfWlFFZgdDptVcgBiYnQh) |
 | 电厂煤棚定位 | `4-Archives/Projects/Work/电厂煤棚定位/` | 2022-02-24 | 2022-02-24 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn807AdSNZzZn4mJwa5qPv6b) |
 | 智能眼罩 | `4-Archives/Projects/Work/智能眼罩/` | 2022-02-21 | 2022-02-21 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn6YEXgcxuHbZEpMs51QtkEd) |
-| 中广核电厂 | `4-Archives/Projects/Work/中广核电厂/` | 2022-02-24 | 2022-02-24 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcneO36olE18KDvp2NxfMPYZb) |
+| 中广核电厂 | `4-Archives/Projects/Work/中广核电厂/` | 2022-02-24 | 2022-02-24 | [中广核](https://reliablesense.feishu.cn/drive/folder/fldcneO36olE18KDvp2NxfMPYZb) [核电站](https://reliablesense.feishu.cn/drive/folder/fldcneAiPn70Fw4xDazm6L26llg) |
 | 政府库房 | `4-Archives/Projects/Work/政府库房/` | 2022-02-24 | 2022-02-24 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcni2L4SfC0jkmmESlKTeLskd) |
 | 无动力设备管理 | `4-Archives/Projects/Work/无动力设备管理/` | - | - | （定制版子目录） |
 
