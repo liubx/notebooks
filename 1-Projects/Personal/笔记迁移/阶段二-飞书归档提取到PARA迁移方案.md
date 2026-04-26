@@ -1015,6 +1015,26 @@ lark-cli api POST /open-apis/wiki/v2/spaces/$SPACE_ID/nodes/move_docs_to_wiki \
 # 大文件（跳过的 mp4/zip 等）也用同样方式移入
 ```
 
+### 步骤 4a：复制副本回云空间原始目录
+
+move_docs_to_wiki 是移动操作，原始目录会变空。需要复制一份副本回去作为归档备份：
+
+```bash
+# 对每个已移入知识库的文件，复制副本回云空间原始目录
+lark-cli drive files copy \
+  --data '{"name":"{文件名}","type":"{类型}","folder_token":"{原始目录folder_token}"}' \
+  --params '{"file_token":"{文件token}"}' \
+  --as user
+
+# 支持类型：docx / doc / sheet / file
+# 不支持复制：slides / bitable（API 限制，这两种类型云空间不保留副本）
+```
+
+**原则**：
+- 知识库放原件（原 token，所有链接/历史/评论保留）
+- 云空间放副本（新 token，仅作归档备份，不记录不引用）
+- slides 和 bitable 无法复制，只在知识库中保留
+
 ### 步骤 5：创建本地 0-总览.md
 
 按以下模板创建，文件清单按内容分类：
