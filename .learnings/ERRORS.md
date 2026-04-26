@@ -428,3 +428,41 @@ markitdown document.pdf
 
 ### 补充场景：markitdown 已安装但缺少 pdf 依赖
 即使 markitdown 包已安装，如果没有安装 `[pdf]` 可选依赖，转换 PDF 时会报 `MissingDependencyException`。需要 `pip install 'markitdown[pdf]'` 或 `pip install 'markitdown[all]'`。
+
+
+## [ERR-20260426-001] lark-cli api 不支持 --timeout 参数
+
+**时间**: 2026-04-26
+**严重性**: low
+**领域**: lark-cli, api
+
+### 错误描述
+执行 `lark-cli api GET /open-apis/wiki/v2/spaces --params '...' --as user --timeout 30000` 时报错 `unknown flag: --timeout`。
+
+### 根因
+`lark-cli api` 子命令没有 `--timeout` flag。超时控制应该在 `executeBash` 的 `timeout` 参数中设置，而不是传给 lark-cli。
+
+### 正确做法
+```bash
+# 正确：timeout 放在 executeBash 层面
+executeBash: command="lark-cli api GET /open-apis/wiki/v2/spaces --params '...' --as user", timeout=30000
+
+# 错误：timeout 传给 lark-cli
+lark-cli api GET ... --timeout 30000
+```
+
+
+## [ERR-20260426-002] wiki setting API 无法修改知识库名称
+
+**时间**: 2026-04-26
+**严重性**: low
+**领域**: feishu, wiki, api
+
+### 错误描述
+`PUT /open-apis/wiki/v2/spaces/{space_id}/setting` 传入 `{"name":"新名称"}` 返回 `code: 0` 成功，但实际知识库名称未改变。
+
+### 根因
+飞书 wiki setting API 只能修改 `create_setting`（谁能创建节点）和 `security_setting`（安全设置）等配置项，`name` 字段不在 setting 的可修改范围内。飞书 OpenAPI 目前没有提供修改知识库名称的接口。
+
+### 正确做法
+知识库名称只能在飞书网页端手动修改（知识库设置页面）。创建知识库时就要确定好名称。
