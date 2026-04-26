@@ -956,6 +956,165 @@ created: 2026-04-11
 
 ---
 
+## 十二a、单个项目迁移标准步骤（以百度水厂为模板）
+
+以下是经百度水厂验证的完整迁移流程，后续每个项目按此执行。
+
+### 步骤 1：确认项目范围
+
+从 TSV 和阶段二方案中确认：
+- 飞书原始目录（主目录 + 关联目录）
+- 目标 PARA 路径（如 `4-Archives/Projects/Work/百度水厂/`）
+- 飞书知识库目标节点（如 `项目资料/归档项目/百度水厂`）
+- 是否有跨目录的关联文件（如山东国核中的百度水厂文件）
+
+### 步骤 2：本地文件复制
+
+```bash
+# 创建目标目录
+mkdir -p "4-Archives/Projects/Work/{项目名}"
+
+# 从归档目录复制 md 文件（排除 README.md）
+# 从归档目录复制 Attachments（md 引用的图片）
+# 从关联目录复制相关文件
+# 不复制 xlsx/docx/pptx/mp4/jpeg 等非 md 文件（飞书知识库已有）
+```
+
+**本地只保留**：
+- `.md` 文件（Obsidian 可渲染）
+- `Attachments/` 下的图片（md 引用的 png/jpg）
+
+**不保留**（飞书知识库有）：
+- `.xlsx`、`.docx`、`.pptx`、`.mp4`、`.jpeg`、`.zip` 等
+
+### 步骤 3：飞书知识库建节点
+
+```bash
+SPACE_ID="7632924686837418976"  # 项目资料知识库
+PARENT="PhpuwDqUvidfKRkUXMKcLMJ0nHc"  # 归档项目节点
+
+# 创建项目节点
+lark-cli api POST /open-apis/wiki/v2/spaces/$SPACE_ID/nodes \
+  --data '{"node_type":"origin","obj_type":"docx","title":"{项目名}","parent_node_token":"'$PARENT'"}' \
+  --as user
+# 记录返回的 node_token 和 obj_token
+```
+
+### 步骤 4：飞书文档移入知识库
+
+将飞书云空间中的原始文档逐个移入知识库节点：
+
+```bash
+# 每个文档执行一次（docx/doc/sheet/file 都支持）
+lark-cli api POST /open-apis/wiki/v2/spaces/$SPACE_ID/nodes/move_docs_to_wiki \
+  --data '{"parent_wiki_token":"{项目node_token}","obj_type":"{类型}","obj_token":"{文档token}"}' \
+  --as user
+
+# 类型：docx / doc / sheet / file
+# 每次一个命令，避免超时
+# 大文件（跳过的 mp4/zip 等）也用同样方式移入
+```
+
+### 步骤 5：创建本地 0-总览.md
+
+按以下模板创建，文件清单按内容分类：
+
+```markdown
+---
+title: {项目名}
+type: project
+category: work
+status: 已结束
+tags:
+  - project/{项目名}
+  - feishu-migration
+created: {项目创建日期}
+archived: {归档日期}
+---
+
+# {项目名}
+
+## 项目概述
+
+**项目目标**: ...
+**项目类型**: work
+**状态**: 已结束
+
+## 飞书信息
+
+- 飞书知识库：[项目资料 / 归档项目 / {项目名}](https://reliablesense.feishu.cn/wiki/{node_token})
+- 飞书原始目录：`云空间/莱讯科技/...`
+
+## 文件清单
+
+### 技术文档
+
+| 文件 | 类型 | 飞书链接 | 说明 |
+|------|------|---------|------|
+| [[文件名]] | docx | [飞书](url) | 说明 |
+| 附件名.docx | file | [飞书](url) | ☁️ 仅云端 |
+
+### 项目管理
+...
+
+### 演示与媒体
+...
+
+> 📌 仅本地 = 未移入飞书知识库　☁️ 仅云端 = 飞书知识库有，本地不保留非 md 文件
+
+## 迁移记录
+
+- **{日期}**：阶段二迁移完成
+```
+
+**分类规则**：
+- 按内容分类（技术文档/项目管理/演示与媒体），不按文件格式
+- md 文件用 `[[wikilink]]`，非 md 文件直接写文件名
+- ☁️ 仅云端 = 飞书有、本地不保留
+- 📌 仅本地 = 本地有、飞书没有
+- 无标记 = 双端都有
+- 文件少于 30 个时平铺不建子文件夹，超过 30 个再考虑
+
+### 步骤 6：写入飞书父节点文档
+
+将总览内容写入飞书知识库的项目节点文档，链接使用 `<mention-doc>` 格式实现飞书内部跳转：
+
+```bash
+# 准备飞书版 markdown（去掉 frontmatter 和 wikilink，链接改为 mention-doc）
+# 链接格式：<mention-doc token="{node_token}" type="wiki">文档标题</mention-doc>
+# 仅本地的文件不加 mention-doc，直接写文件名
+
+cat feishu_overview.md | lark-cli docs +update \
+  --doc {obj_token} --markdown - --mode overwrite --as user
+```
+
+**飞书版与本地版的区别**：
+- 去掉 YAML frontmatter
+- `[[wikilink]]` → `<mention-doc token="..." type="wiki">标题</mention-doc>`
+- 去掉"飞书链接"列，文件名本身就是 mention-doc 链接
+- 仅本地的文件保留文字，不加链接
+
+### 步骤 7：提交推送
+
+```bash
+git add "4-Archives/Projects/Work/{项目名}/"
+git commit -m "阶段二迁移：{项目名}项目归档（含飞书知识库同步）"
+git push
+```
+
+### 关键 token 速查
+
+| 知识库 | space_id |
+|--------|----------|
+| 项目资料 | `7632924686837418976` |
+
+| 节点 | node_token | 用途 |
+|------|-----------|------|
+| 归档项目 | `PhpuwDqUvidfKRkUXMKcLMJ0nHc` | 已结束项目的父节点 |
+| 百度水厂 | `HVnAwfonxibx3Fk2O3vcDqt5nXb` | 第一个迁移完成的项目（模板参考） |
+
+---
+
 ## 十三、王宗光个人文档（补充）
 
 ### 工作总结 → `4-Archives/Areas/Work/团队管理/团队成员/王宗光/`
