@@ -956,23 +956,50 @@ created: 2026-04-11
 
 ---
 
-## 十二a、单个项目迁移标准步骤（以百度水厂为模板）
+## 十二a、单个项目迁移标准步骤
 
-以下是经百度水厂验证的完整迁移流程，后续每个项目按此执行。
+适用于所有项目/业务管理目录的迁移，目标路径根据项目状态和类型决定：
+
+| 项目状态 | 目标路径 | 知识库位置 |
+|---------|---------|-----------|
+| 进行中项目 | `1-Projects/Work/{项目名}/` | 项目资料 / {项目名} |
+| 已结束项目 | `4-Archives/Projects/Work/{项目名}/` | 项目资料 / 归档项目 / {项目名} |
+| 进行中业务管理 | `2-Areas/Work/业务管理/{业务名}/` | 业务管理 / {业务名} |
+| 已归档业务管理 | `4-Archives/Areas/Work/业务管理/{业务名}/` | 业务管理 / 归档 / {业务名} |
+
+### 文件同步策略
+
+| 文件类型 | 本地 | 飞书云空间 | 飞书知识库 | 0-总览中 | 说明 |
+|---------|------|-----------|-----------|---------|------|
+| `.md`（docx 转换） | ✅ 保留 | ✅ 原件不动 | ✅ copy 副本 | `[[wikilink]]` | Obsidian 可渲染，双端都有 |
+| `Attachments/*.png/jpg` | ✅ 保留 | — | — | — | md 引用的图片，跟随 md 文件 |
+| `.docx/.xlsx/.pptx`（file 类型） | ❌ 不保留 | ✅ 原件不动 | ✅ copy 副本 | ☁️ 仅云端 + 飞书链接 | 非 md 文件不下载到本地 |
+| `sheet`（电子表格） | ❌ 不保留 | ✅ 原件不动 | ✅ copy 副本 | ☁️ 仅云端 + 飞书链接 | 在线表格 |
+| `bitable`（多维表格） | ❌ 不保留 | ✅ 原件不动 | ✅ copy 副本 | ☁️ 仅云端 + 飞书链接 | 在线多维表格 |
+| `slides`（幻灯片） | ❌ 不保留 | ✅ 原件不动 | ✅ copy 副本 | ☁️ 仅云端 + 飞书链接 | 在线幻灯片 |
+| `mindnote`（思维导图） | ❌ 不保留 | ✅ 原件不动 | ❌ 不支持 copy | ☁️ 仅云端 + 飞书链接 | API 不支持 copy mindnote |
+| `.mp4/.zip` 等大文件 | ❌ 不保留 | ✅ 原件不动 | ✅ copy 副本 | ☁️ 仅云端 + 飞书链接 | 视频/压缩包等 |
+| 本地独有笔记 | ✅ 保留 | — | — | `[[wikilink]]` + 📌 仅本地 | 本地手写的笔记，飞书没有 |
+
+**核心原则**：
+- **云空间永远不动**：原始文件保留在飞书云空间原位，不移动、不删除
+- **知识库放副本**：用 `drive files copy` 复制到知识库，用于结构化管理
+- **本地只放 md + 图片**：Obsidian 只管理 markdown 和引用的图片
+- **0-总览是索引**：所有文件（无论在哪里）都在 0-总览的文件清单中记录，☁️ 仅云端的文件附飞书链接
 
 ### 步骤 1：确认项目范围
 
 从 TSV 和阶段二方案中确认：
 - 飞书原始目录（主目录 + 关联目录）
-- 目标 PARA 路径（如 `4-Archives/Projects/Work/百度水厂/`）
-- 飞书知识库目标节点（如 `项目资料/归档项目/百度水厂`）
-- 是否有跨目录的关联文件（如山东国核中的百度水厂文件）
+- 目标 PARA 路径（见上表）
+- 飞书知识库目标节点
+- 是否有跨目录的关联文件
 
 ### 步骤 2：本地文件复制
 
 ```bash
 # 创建目标目录
-mkdir -p "4-Archives/Projects/Work/{项目名}"
+mkdir -p "{目标路径}"
 
 # 从归档目录复制 md 文件（排除 README.md）
 # 从归档目录复制 Attachments（md 引用的图片）
@@ -990,8 +1017,13 @@ mkdir -p "4-Archives/Projects/Work/{项目名}"
 ### 步骤 3：飞书知识库建节点
 
 ```bash
-SPACE_ID="7632924686837418976"  # 项目资料知识库
-PARENT="PhpuwDqUvidfKRkUXMKcLMJ0nHc"  # 归档项目节点
+# 项目资料知识库
+SPACE_ID="7632924686837418976"
+# 或业务管理知识库（2-Areas/Work/业务管理/ 下的项目用这个）
+# SPACE_ID="{业务管理知识库space_id}"
+
+# 选择父节点（根据项目状态）
+PARENT="{对应父节点node_token}"
 
 # 创建项目节点
 lark-cli api POST /open-apis/wiki/v2/spaces/$SPACE_ID/nodes \
@@ -1000,56 +1032,42 @@ lark-cli api POST /open-apis/wiki/v2/spaces/$SPACE_ID/nodes \
 # 记录返回的 node_token 和 obj_token
 ```
 
-### 步骤 4：飞书文档移入知识库
+### 步骤 4：飞书文档复制到知识库
 
-将飞书云空间中的原始文档逐个移入知识库节点：
+使用 `copy` 将云空间文档复制到知识库节点，**保持云空间原始文件不变**：
 
 ```bash
-# 每个文档执行一次（docx/doc/sheet/file 都支持）
-lark-cli api POST /open-apis/wiki/v2/spaces/$SPACE_ID/nodes/move_docs_to_wiki \
-  --data '{"parent_wiki_token":"{项目node_token}","obj_type":"{类型}","obj_token":"{文档token}"}' \
+# 每个文档执行一次（docx/doc/sheet/file/bitable 都支持）
+lark-cli api POST /open-apis/drive/v1/files/{文档token}/copy \
+  --data '{"type":"{类型}","folder_token":"{知识库节点obj_token}","name":"{文件名}"}' \
   --as user
 
-# 类型：docx / doc / sheet / file
+# 类型：docx / doc / sheet / file / bitable / slides
 # 每次一个命令，避免超时
-# 大文件（跳过的 mp4/zip 等）也用同样方式移入
-```
-
-### 步骤 4a：复制副本回云空间原始目录
-
-move_docs_to_wiki 是移动操作，原始目录会变空。需要复制一份副本回去作为归档备份：
-
-```bash
-# 对每个已移入知识库的文件，复制副本回云空间原始目录
-lark-cli drive files copy \
-  --data '{"name":"{文件名}","type":"{类型}","folder_token":"{原始目录folder_token}"}' \
-  --params '{"file_token":"{文件token}"}' \
-  --as user
-
-# 支持类型：docx / doc / sheet / file
-# 不支持复制：slides / bitable（API 限制，这两种类型云空间不保留副本）
 ```
 
 **原则**：
-- 知识库放原件（原 token，所有链接/历史/评论保留）
-- 云空间放副本（新 token，仅作归档备份，不记录不引用）
-- slides 和 bitable 无法复制，只在知识库中保留
+- **云空间保持不变**（原件留在原位，不移动）
+- **知识库放副本**（新 token，用于结构化管理和浏览）
+- 本地文档和迁移记录中记录知识库的新 token
+- slides 和 bitable 也支持 copy
+
+> ⚠️ 不要使用 `move_docs_to_wiki`！移动操作会导致云空间原始目录变空，且飞书 API 不支持从知识库移回云空间。
 
 ### 步骤 5：创建本地 0-总览.md
 
-按以下模板创建，文件清单按内容分类：
+所有项目/业务管理目录统一使用以下模板（`1-Projects`、`4-Archives/Projects`、`2-Areas/Work/业务管理`、`4-Archives/Areas/Work/业务管理` 保持一致）：
 
 ```markdown
 ---
 title: {项目名}
 type: project
 category: work
-status: 已结束
+status: {维护中/已结束/进行中}
 tags:
   - project/{项目名}
-  - feishu-migration
-created: {项目创建日期}
-archived: {归档日期}
+created: {创建日期}
+modified: {最后修改日期}
 ---
 
 # {项目名}
@@ -1058,37 +1076,60 @@ archived: {归档日期}
 
 **项目目标**: ...
 **项目类型**: work
-**状态**: 已结束
+**状态**: {维护中/已结束/进行中}
 
 ## 飞书信息
 
-- 飞书知识库：[项目资料 / 归档项目 / {项目名}](https://reliablesense.feishu.cn/wiki/{node_token})
-- 飞书原始目录：`云空间/莱讯科技/...`
+- 任务清单：{项目名}（`{tasklist_guid}`）→ [[{路径}/1-任务|1-任务]]
+- 项目群组：{项目名}（`{chat_id}`）
+- 飞书知识库：[{知识库路径}](https://reliablesense.feishu.cn/wiki/{node_token})
+- 飞书原始目录：[{目录名}](https://reliablesense.feishu.cn/drive/folder/{folder_token})
+- 集群标识：`{cluster_id}`
+
+## 任务总览
+
+（仅 `1-Projects` 下的项目包含，`2-Areas` 和 `4-Archives` 下不需要）
+
+\```tasks
+filter by function \
+  const t=moment(),d='day',{due:{moment:u},start:{moment:s},created:{moment:c},done:{moment:D}}=task,b=m=>m?.isSameOrBefore(t,d),q=m=>m?.isSame(t,d); \
+  return !!(!task.isDone?!u||b(u)||b(s)||q(c):D?.isAfter(moment().subtract(3,d),d)||false);
+path includes {当前目录路径}
+tags include #task/
+...
+\```
 
 ## 文件清单
 
-### 技术文档
+### {分类1}
 
 | 文件 | 类型 | 飞书链接 | 说明 |
 |------|------|---------|------|
 | [[文件名]] | docx | [飞书](url) | 说明 |
 | 附件名.docx | file | [飞书](url) | ☁️ 仅云端 |
 
-### 项目管理
+### {分类2}
 ...
 
-### 演示与媒体
-...
+> 📌 仅本地 = 飞书知识库没有　☁️ 仅云端 = 飞书知识库有，本地不保留非 md 文件
 
-> 📌 仅本地 = 未移入飞书知识库　☁️ 仅云端 = 飞书知识库有，本地不保留非 md 文件
+## 项目日志
 
-## 迁移记录
-
-- **{日期}**：阶段二迁移完成
+\```dataview
+LIST L.text + choice(length(L.children) > 0, "<br>" + join(map(L.children, (c) => "　　- " + c.text), "<br>"), "")
+FROM "0-Daily"
+FLATTEN file.lists AS L
+WHERE (contains(L.text, "{项目名}") OR contains(L.tags, "#project/{项目名}")) AND !L.parent
+SORT file.name DESC
+LIMIT 20
+\```
 ```
 
-**分类规则**：
-- 按内容分类（技术文档/项目管理/演示与媒体），不按文件格式
+**模板说明**：
+- `飞书信息` 部分：非工作项目（Personal）可省略；`2-Areas` 和 `4-Archives` 下的项目按实际情况填写
+- `任务总览`：仅 `1-Projects` 下的项目包含（有 `1-任务.md` 的项目）
+- `文件清单`：按内容分类（技术文档/项目管理/演示与媒体等），不按文件格式
+- `项目日志`：所有项目统一包含
 - md 文件用 `[[wikilink]]`，非 md 文件直接写文件名
 - ☁️ 仅云端 = 飞书有、本地不保留
 - 📌 仅本地 = 本地有、飞书没有
@@ -1117,21 +1158,29 @@ cat feishu_overview.md | lark-cli docs +update \
 ### 步骤 7：提交推送
 
 ```bash
-git add "4-Archives/Projects/Work/{项目名}/"
-git commit -m "阶段二迁移：{项目名}项目归档（含飞书知识库同步）"
+git add "{目标路径}/"
+git commit -m "阶段二迁移：{项目名}（{状态}）"
 git push
 ```
 
 ### 关键 token 速查
 
-| 知识库 | space_id |
-|--------|----------|
-| 项目资料 | `7632924686837418976` |
+| 知识库 | space_id | 用途 |
+|--------|----------|------|
+| 项目资料 | `7632924686837418976` | `1-Projects/Work/` 和 `4-Archives/Projects/Work/` |
+| 业务管理 | `7634233277791865798` | `2-Areas/Work/业务管理/` 和 `4-Archives/Areas/Work/业务管理/` |
 
 | 节点 | node_token | 用途 |
 |------|-----------|------|
 | 归档项目 | `PhpuwDqUvidfKRkUXMKcLMJ0nHc` | 已结束项目的父节点 |
 | 百度水厂 | `HVnAwfonxibx3Fk2O3vcDqt5nXb` | 第一个迁移完成的项目（模板参考） |
+
+### 迁移教训（2026-04-27 广州机场还原总结）
+
+1. **不要用 `move_docs_to_wiki`**：飞书 API 不支持从知识库移回云空间（没有 `move_wiki_docs_to_space`），`drive files move` 也无法移动知识库中的文件。一旦移入知识库就无法通过 API 移回。
+2. **用 `copy` 代替 `move`**：`drive files copy` 可以把知识库/云空间中的文件复制到任意位置，保持原件不变。
+3. **云空间保持不变**：原始文件留在云空间原位，知识库放副本用于结构化管理。这样即使知识库出问题，云空间还有完整的原始文件。
+4. **记录新 token**：copy 出来的文件有新 token，本地文档和迁移记录中应记录知识库的新 token。
 
 ---
 
