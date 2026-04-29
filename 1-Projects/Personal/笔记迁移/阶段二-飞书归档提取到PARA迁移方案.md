@@ -491,8 +491,8 @@ created: 2026-04-11
 | 文件 | 本地路径 | 飞书链接 | 决策 | 目标路径 |
 |------|---------|---------|------|---------|
 | 升级文档--20260126.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/升级文档/麦钉备份/升级文档--20260126]] | [飞书](https://reliablesense.feishu.cn/docx/YNlKdlNzMogEq3xSsrscEDcQnqg) | → 提取 | `1-Projects/Work/麦钉定位/升级文档-最新版.md` |
-| 导航服务器更新文档.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/998. 售后项目/百度-水厂定位导航平台/导航服务器更新文档]] | [飞书](https://reliablesense.feishu.cn/docx/Ffvddci64oATfcx9BVbckMwgnnh) | → 归档 | `4-Archives/Projects/Work/百度水厂/导航服务器更新文档.md` |
-| 导航服务器重启文档.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/998. 售后项目/百度-水厂定位导航平台/导航服务器重启文档]] | [飞书](https://reliablesense.feishu.cn/docx/JusGdT3I3oe2guxmy6SclellnYe) | → 归档 | `4-Archives/Projects/Work/百度水厂/导航服务器重启文档.md` |
+| 导航服务器更新文档.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/998. 售后项目/百度-水厂定位导航平台/导航服务器更新文档]] | [飞书](https://reliablesense.feishu.cn/docx/N9DWdU324oivVsxpVVIcTh9rnyb) | → 归档 | `4-Archives/Projects/Work/百度水厂/导航服务器更新文档.md` |
+| 导航服务器重启文档.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/998. 售后项目/百度-水厂定位导航平台/导航服务器重启文档]] | [飞书](https://reliablesense.feishu.cn/docx/G4AWd9nxLoweeJxa0JxcNhQGn5b) | → 归档 | `4-Archives/Projects/Work/百度水厂/导航服务器重启文档.md` |
 | 2.5升级文档.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/升级文档/2.5升级文档]] | [飞书](https://reliablesense.feishu.cn/docx/K2X3di1MWo7vymxykJecGQoZnFb) | → 提取 | `2-Areas/Work/运维管理/平台2.5升级文档.md` |
 | 2.4升级版本流程.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/升级文档/2.4升级版本流程]] | [飞书](https://reliablesense.feishu.cn/docx/YtbEdiE8boGjbyxtPK3cB3tXnmg) | → 提取 | `2-Areas/Work/运维管理/平台2.4升级版本流程.md` |
 
@@ -500,7 +500,7 @@ created: 2026-04-11
 
 | 文件 | 本地路径 | 飞书链接 | 决策 | 目标路径 |
 |------|---------|---------|------|---------|
-| 部署手册.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/998. 售后项目/百度-水厂定位导航平台/项目文档/部署手册]] | [飞书](https://reliablesense.feishu.cn/docs/doxcn3NLUHLJwrpSxVsnCtVfTfd) | → 归档 | `4-Archives/Projects/Work/百度水厂/部署手册.md` |
+| 部署手册.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/998. 售后项目/百度-水厂定位导航平台/项目文档/部署手册]] | [飞书](https://reliablesense.feishu.cn/docs/JI8zdWTaSocj3pxJP2ecSyd4nok) | → 归档 | `4-Archives/Projects/Work/百度水厂/部署手册.md` |
 | 部署文档离线版.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/交付文档/部署文档离线版]] | [飞书](https://reliablesense.feishu.cn/docx/LsHXdLWbmogiEKxZtK5c229nnad) | → 提取 | `2-Areas/Work/运维管理/部署文档-离线版.md` |
 | 私有化部署数据库生成步骤.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/交付文档/私有化部署数据库生成步骤]] | [飞书](https://reliablesense.feishu.cn/docx/ArEWdDLrCoeAMpxJV7tc2YC7ntb) | → 提取 | `2-Areas/Work/运维管理/私有化部署-数据库生成步骤.md` |
 | 地图交付标准.md | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目运维管理/交付文档/地图交付标准]] | [飞书](https://reliablesense.feishu.cn/docx/CHvwd4VPboHEtpxyhsWcP7PonPe) | → 提取 | `2-Areas/Work/运维管理/地图交付标准.md` |
@@ -1577,7 +1577,7 @@ git push
 | 国核智慧工地 | 国和一号（威海） | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnKTgV6OtJkwR2ijJyY5rVsc) | 84 | 📁 Project | `国和一号`, `威海`, `国核`, `智慧工地` |
 | 海尔工厂 | 海尔工厂 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn9yq74Lu525sk4tf7ayUr0c) | 72 | 📁 Project | `海尔` |
 | 供电局库位 | 供电局库位定位 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnhoSboKetpXvMBzbKRSmGAb) | 63 | 📁 Project | `供电局`, `库位定位` |
-| 百度水厂 | 百度-水厂定位导航平台 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnCovrCdcKMYR4Ba3AybOCz2) | 56 | 📁 Project | `百度`, `水厂` |
+| 百度水厂 | 百度-水厂定位导航平台 | [飞书](https://reliablesense.feishu.cn/drive/folder/PtrXfLdAglTcVXd6tvlcIUqBnDd) | 56 | 📁 Project | `百度`, `水厂` |
 | 联通定位一体化 | 联通室内外一体化 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnlVHJxmUEdxDWjt8LvVcTjc) | 54 | 📁 Project | `联通`, `室内外一体化` |
 | 兰州机场 | 兰州机场 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn42BLWazsHzYslg6A34LLCd) | 49 | 📁 Project | `兰州机场` |
 | 国家电网 | 北京技新科技有限公司（国家电网） | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnfcM9BxoadzLHM41eJujMUh) | 42 | 归入电网智能仓库 | `国家电网`, `技新` |
@@ -1733,7 +1733,7 @@ git push
 | 国核智慧工地 | `4-Archives/Projects/Work/国核智慧工地/` | 2022-08-10 | 2023-03-09 | [国和一号](https://reliablesense.feishu.cn/drive/folder/fldcnKTgV6OtJkwR2ijJyY5rVsc) [山东国核](https://reliablesense.feishu.cn/drive/folder/fldcnDKqBIiko7la9mEC6iWzlHf) [威海核电](https://reliablesense.feishu.cn/drive/folder/CxMIfqTrnlwHNcd2Spmc5KEinnh) |
 | 海尔工厂 | `4-Archives/Projects/Work/海尔工厂/` | 2022-02-21 | 2022-02-21 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcn9yq74Lu525sk4tf7ayUr0c) |
 | 供电局库位 | `4-Archives/Projects/Work/供电局库位/` | 2022-02-21 | 2022-02-21 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnhoSboKetpXvMBzbKRSmGAb) |
-| 百度水厂 | `4-Archives/Projects/Work/百度水厂/` | 2022-04-15 | 2023-07-14 | [百度水厂](https://reliablesense.feishu.cn/drive/folder/fldcnCovrCdcKMYR4Ba3AybOCz2) |
+| 百度水厂 | `4-Archives/Projects/Work/百度水厂/` | 2022-04-15 | 2023-07-14 | [百度水厂](https://reliablesense.feishu.cn/drive/folder/PtrXfLdAglTcVXd6tvlcIUqBnDd) |
 | 联通定位一体化 | `4-Archives/Projects/Work/联通定位一体化/` | 2022-02-21 | 2022-02-21 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnlVHJxmUEdxDWjt8LvVcTjc) |
 | 兰州机场 | `4-Archives/Projects/Work/兰州机场/` | 2022-11-04 | 2023-08-21 | [998兰州机场](https://reliablesense.feishu.cn/drive/folder/fldcn42BLWazsHzYslg6A34LLCd) [~其他兰州机场](https://reliablesense.feishu.cn/drive/folder/fldcnTnuXhdZedD0zw7DZ6Hqr5f) |
 | 武汉机场 | `4-Archives/Projects/Work/武汉机场/` | 2022-07-21 | 2024-06-04 | [飞书](https://reliablesense.feishu.cn/drive/folder/fldcnHmHajD7TQATmdiqbTIuGRe) |
