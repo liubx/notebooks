@@ -466,3 +466,80 @@ lark-cli api GET ... --timeout 30000
 
 ### 正确做法
 知识库名称只能在飞书网页端手动修改（知识库设置页面）。创建知识库时就要确定好名称。
+
+
+## [ERR-20260426-003] 飞书没有 move_wiki_docs_to_space API（知识库→云空间反向移动）
+
+**时间**: 2026-04-26
+**严重性**: medium
+**领域**: feishu, wiki, api
+
+### 错误描述
+尝试调用 `POST /open-apis/wiki/v2/spaces/{space_id}/nodes/move_wiki_docs_to_space` 将知识库文件移回云空间，返回 HTTP 404。
+
+### 根因
+飞书 OpenAPI 只提供了 `move_docs_to_wiki`（云空间→知识库）的单向移动 API，没有反向操作 `move_wiki_docs_to_space`。知识库中的文件无法通过 API 直接移回云空间。
+
+### 正确做法
+1. 知识库文件只能在飞书网页端手动拖拽移回云空间
+2. 或者通过 wiki `move` API 在知识库内部移动节点（不能移出知识库）
+3. 迁移前应该先复制副本到知识库，再确认无误后才移动原件，避免需要反向操作
+
+
+## [ERR-20260426-004] 知识库文件无法通过 drive files delete API 删除
+
+**时间**: 2026-04-26
+**严重性**: medium
+**领域**: feishu, wiki, drive, api
+
+### 错误描述
+尝试用 `DELETE /open-apis/drive/v1/files/{file_token}?type=docx` 删除知识库中的文件，返回 `1061004 forbidden`。
+
+### 根因
+知识库中的文件受知识库权限保护，不能通过云空间的 drive API 直接删除。飞书 wiki API 也没有提供删除节点的接口。
+
+### 正确做法
+1. 知识库节点只能在飞书网页端手动删除
+2. 或者通过知识库管理员在设置中操作
+3. API 层面目前无法删除知识库节点——这是飞书 OpenAPI 的限制
+
+
+## [ERR-20260426-005] drive files move API 也无法将知识库文件移回云空间
+
+**时间**: 2026-04-26
+**严重性**: medium
+**领域**: feishu, wiki, drive, api
+
+### 错误描述
+尝试用 `POST /open-apis/drive/v1/files/{file_token}/move` 将知识库中的文件（docx 和 file 类型都试过）移回云空间目录，返回 `1061002 params error`。
+
+### 根因
+知识库中的文件虽然有 obj_token，但它们已经属于知识库管理，drive move API 不支持跨知识库→云空间的移动。`1061002 params error` 实际上是"该文件不在云空间中，无法通过 drive API 移动"的意思。
+
+### 正确做法
+1. 飞书 API 层面完全无法将文件从知识库移回云空间（move_wiki_docs_to_space 不存在，drive move 也不行）
+2. 只能在飞书网页端手动操作
+3. 迁移时应该先复制到知识库，确认无误后再移动原件，避免需要反向操作
+
+
+## [ERR-20260428-001] 云空间文件夹 token 误用 wiki nodes API 查询
+
+**时间**: 2026-04-28
+**严重性**: low
+**领域**: feishu, wiki, drive, api
+
+### 错误描述
+将云空间文件夹的 token（如 `MrIOflncTlWrkEd4hJZcUxatncd`）作为 `parent_node_token` 传给 `GET /open-apis/wiki/v2/spaces/{space_id}/nodes`，返回 `131005 node not found by parent node token`。
+
+### 根因
+新 004/005 目录是云空间文件夹，不是知识库节点。Wiki API 只能查询知识库内的节点，云空间文件夹需要用 Drive API（`GET /open-apis/drive/v1/files`）来列出内容。
+
+### 正确做法
+区分 token 来源：
+- 知识库节点 → 用 `GET /open-apis/wiki/v2/spaces/{space_id}/nodes` + `parent_node_token`
+- 云空间文件夹 → 用 `lark-cli drive +list --folder-token <token>` 或 `GET /open-apis/drive/v1/files` + `folder_token`
+
+```bash
+# 列出云空间文件夹内容
+lark-cli drive +list --folder-token <folder_token> --as user
+```

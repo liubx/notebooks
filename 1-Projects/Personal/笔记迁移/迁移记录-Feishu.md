@@ -300,8 +300,8 @@ modified: 2026-04-11
 | 1 | 002. 上海上港 | IwSpfxmL5lfpO8dLuoccbdnLnre |
 | 2 | 南宁机场项目 | JuNOf2llHlkIa9dKw73cJm5pn3w |
 | 3 | 003. 中东电子厂客户 | UF9cfyxN7lnWIwd02auc28fFnOg |
-| 4 | 005. 广州机场-移动应用平台 | D0HIfmaPgleaANd8Cw1cDwpGnhb |
-| 5 | 004. 广州机场-综合定位 | NQ2RfyZM7lO2iadqk3rcmDjPnsb |
+| 4 | 005. 广州机场-移动应用平台 | DZVbfWCNnl1IaudvPBpcpXjenQf |
+| 5 | 004. 广州机场-综合定位 | MrIOflncTlWrkEd4hJZcUxatncd |
 | 6 | 998. 售后项目 | R0Jef62eAlU8d8dONehcJ0CdnOb |
 | 7 | ~其他项目 | fldcnRPjh6QcMmwt4l61XoCDfqd |
 | 8 | 中联核信 | LaOOfNGfBlvZqOdTmgtcRQzxnJc |
@@ -315,16 +315,16 @@ modified: 2026-04-11
 
 | # | 标题 | Token | 类型 | 迁移到 | 状态 |
 |---|------|-------|------|--------|------|
-| 1 | 大运控协同管理平台技术要求 | Gy3Pd3Yvho3aqUxqJJOcJqjjnBe | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场/大运控协同管理平台技术要求]] | ✅ 已迁移 |
-| 2 | 广州机场热备 | Gy3Pd3Yvho3aqUxqJJOcJqjjnBe | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场/广州机场热备]] | ✅ 已迁移 |
-| 3 | 航站楼协同决策管理系统（TCMD）技术要求 | Q8aPd8tcio0QHGxbuO6cmW8un3e | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场/航站楼协同决策管理系统（TCMD）技术要求]] | ✅ 已迁移 |
-| 4 | 项目情况汇报 | VDJOdnJhOoGMPixqVWBcFJOznBe | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场/项目情况汇报]] | ✅ 已迁移 |
-| 5 | 表C.2.5 深化评审记录(含附表)(三标段)(1205)最新 | WbRsd7TUgo7ASSx6VhicHCFynwF | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场/表C.2.5 深化评审记录]] | ✅ 已迁移 |
-| 6 | AESB总线业务联调方案 | FM2hdCBaqo3humx0p1ccd8a9nKc | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场/AESB总线业务联调方案]] | ✅ 已迁移 |
-| 7 | 项目情况汇报-2 | Qd1kdHm9lou4GpxZJuRckerQnFb | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场/项目情况汇报-2]] | ✅ 已迁移 |
-| 8 | 综合定位系统运维白皮书 | AMuadobIrozdlZxG96gcHgtPnxe | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场/综合定位系统运维白皮书]] | ✅ 已迁移 |
-| 9 | 综合定位系统技术要求 | Gi0MdNC9ToLxM0xfPDCcsKD2nzf | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场/综合定位系统技术要求]] | ✅ 已迁移 |
-| 10 | 深化设计说明书（移动应用服务平台）-2025 | B2erdpLOJo5lqoxNeyucOFo2nYf | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场/深化设计说明书（移动应用服务平台）-2025]] | ✅ 已迁移 |
+| 1 | 大运控协同管理平台技术要求 | WFy3dqxRgo5bO3x8q4kcoBNPnFb | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场/大运控协同管理平台技术要求]] | ✅ 已迁移 |
+| 2 | 广州机场热备 | BWZedSLuroXNuhxDNDKccf9FnVc | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场/广州机场热备]] | ✅ 已迁移 |
+| 3 | 航站楼协同决策管理系统（TCMD）技术要求 | Uiodd7F1xoRXTJxEH9CcdgzMnif | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场/航站楼协同决策管理系统（TCMD）技术要求]] | ✅ 已迁移 |
+| 4 | 项目情况汇报 | C7pkdd2dGoQM5qxzAUmcqW2jnNz | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场/项目情况汇报]] | ✅ 已迁移 |
+| 5 | 表C.2.5 深化评审记录(含附表)(三标段)(1205)最新 | Kv9CdK3wxoZMPVx1itycnmJjnvf | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场/表C.2.5 深化评审记录]] | ✅ 已迁移 |
+| 6 | AESB总线业务联调方案 | H7YOdh6ZGoaolqxAjHecSplxni8 | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场/AESB总线业务联调方案]] | ✅ 已迁移 |
+| 7 | 项目情况汇报-2 | FvXvd9EV9oIdgkxLOlpcq9AWnCE | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场/项目情况汇报-2]] | ✅ 已迁移 |
+| 8 | 综合定位系统运维白皮书 | FkStd6aA5opwrqxEoBycCFePnLg | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场/综合定位系统运维白皮书]] | ✅ 已迁移 |
+| 9 | 综合定位系统技术要求 | EfVedYaapo9NM7xS1gHc2GTPnNc | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场/综合定位系统技术要求]] | ✅ 已迁移 |
+| 10 | 深化设计说明书（移动应用服务平台）-2025 | LfzRdsmtOofjUkxPdVzcoRCbndb | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场/深化设计说明书（移动应用服务平台）-2025]] | ✅ 已迁移 |
 
 散落文件：
 - cle测算报告 (docx, `KsIRdMFKRoRWqQx8yYkce8G0nys`)
@@ -335,24 +335,24 @@ modified: 2026-04-11
 
 | # | 标题 | Token | 类型 | 迁移到 | 状态 |
 |---|------|-------|------|--------|------|
-| 1 | 移动应用平台运维白皮书编写内容框架 | AhnkdGgzroBd8Cx9KxDctcGjnAg | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场-移动应用平台/移动应用平台运维白皮书编写内容框架]] | ✅ 已迁移 |
-| 2 | 移动应用平台进程清单编写内容框架 | YCvydrOqHodVj8xC28EcVVMEnRf | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场-移动应用平台/移动应用平台进程清单编写内容框架]] | ✅ 已迁移 |
-| 3 | 移动应用平台故障处理手册编写内容框架 | RPtLdFSovoD4Yex9QP6c77E2ncg | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场-移动应用平台/移动应用平台故障处理手册编写内容框架]] | ✅ 已迁移 |
-| 4 | 移动应用平台配置清单编写内容框架 | Z5SFdZURjogTZ8xsMf0c5g6enos | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场-移动应用平台/移动应用平台配置清单编写内容框架]] | ✅ 已迁移 |
-| 5 | 移动应用服务平台操作手册 | ZYlPd9RQYoOrXVx90tEccfHEnQg | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场-移动应用平台/移动应用服务平台操作手册]] | ✅ 已迁移 |
+| 1 | 移动应用平台运维白皮书编写内容框架 | VkeOdlQ05ojf8VxrtcrcUOCDntf | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场-移动应用平台/移动应用平台运维白皮书编写内容框架]] | ✅ 已迁移 |
+| 2 | 移动应用平台进程清单编写内容框架 | KiSWdc5cmoOIirxYes3c8Wqjnce | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场-移动应用平台/移动应用平台进程清单编写内容框架]] | ✅ 已迁移 |
+| 3 | 移动应用平台故障处理手册编写内容框架 | HnsddTyJIodbs9x7likcPRPLnab | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场-移动应用平台/移动应用平台故障处理手册编写内容框架]] | ✅ 已迁移 |
+| 4 | 移动应用平台配置清单编写内容框架 | Q4eCdtns7oyYCXxD5iQc7QxanHg | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场-移动应用平台/移动应用平台配置清单编写内容框架]] | ✅ 已迁移 |
+| 5 | 移动应用服务平台操作手册 | Q1j3dniWgojaCExMlLPcGC1WnOb | docx | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/广州机场-移动应用平台/移动应用服务平台操作手册]] | ✅ 已迁移 |
 
 散落文件（file 类型，保留链接）：
-- 移动应用平台用户手册.docx (file, `UIrtb8LiKoAiUaxpRyWcRgPOnve`) https://reliablesense.feishu.cn/file/UIrtb8LiKoAiUaxpRyWcRgPOnve
-- 移动应用平台资产.xlsx (file, `LLVZbmV83oQqfDxp1AvcNk7cnUg`) https://reliablesense.feishu.cn/file/LLVZbmV83oQqfDxp1AvcNk7cnUg
-- 移动应用平台进程清单.xlsx (file, `PwExbhasyon68OxsTiJcXhrcnWc`) https://reliablesense.feishu.cn/file/PwExbhasyon68OxsTiJcXhrcnWc
-- 移动应用平台数据字典.docx (file, `BCd4bdxfwodyh7xMbHgcltnGn8b`) https://reliablesense.feishu.cn/file/BCd4bdxfwodyh7xMbHgcltnGn8b
-- 移动应用平台配置清单.docx (file, `LY7tboh44oKC38xYhiLcwqkUnmT`) https://reliablesense.feishu.cn/file/LY7tboh44oKC38xYhiLcwqkUnmT
-- 移动应用平台故障处理手册.docx (file, `UbD6bL2pzooRmIxaWM9ckhhunsb`) https://reliablesense.feishu.cn/file/UbD6bL2pzooRmIxaWM9ckhhunsb
-- T3移动应用平台测评资产调研20250811.xlsx (file, `MCZ1bb5KSoRy0bxuOQGcxfwNnX9`) https://reliablesense.feishu.cn/file/MCZ1bb5KSoRy0bxuOQGcxfwNnX9
-- 渗透测试系统域名调研 - 移动应用平台.xlsx (file, `CPDybNkttoyBfIxdxtBcwrPUntf`) https://reliablesense.feishu.cn/file/CPDybNkttoyBfIxdxtBcwrPUntf
-- 移动应用平台运维白皮书.docx (file, `Pnnub7W0WonNIDxnBQGcsWuinma`) https://reliablesense.feishu.cn/file/Pnnub7W0WonNIDxnBQGcsWuinma
-- 广州机场移动应用任务清单.xlsx (file, `T3xWbWNsmoJdxxxVV0McQszSnqg`) https://reliablesense.feishu.cn/file/T3xWbWNsmoJdxxxVV0McQszSnqg
-- 移动应用平台开发与测试进展汇报.pdf (file, `Kkf6bl2V4oAr5vx5m4QccUDDniI`) https://reliablesense.feishu.cn/file/Kkf6bl2V4oAr5vx5m4QccUDDniI
+- 移动应用平台用户手册.docx (file, `IjUbbUi6uoCt8LxnBZScDDXonOf`) https://reliablesense.feishu.cn/file/IjUbbUi6uoCt8LxnBZScDDXonOf
+- 移动应用平台资产.xlsx (file, `G3l4bqa2LoUmdcxV5h6c5tCAnbd`) https://reliablesense.feishu.cn/file/G3l4bqa2LoUmdcxV5h6c5tCAnbd
+- 移动应用平台进程清单.xlsx (file, `PivFbv6Tnoq2rFxV7XUcqArrneb`) https://reliablesense.feishu.cn/file/PivFbv6Tnoq2rFxV7XUcqArrneb
+- 移动应用平台数据字典.docx (file, `FQQ3bkzCnonmp7xtmcocn4Jpnwb`) https://reliablesense.feishu.cn/file/FQQ3bkzCnonmp7xtmcocn4Jpnwb
+- 移动应用平台配置清单.docx (file, `FsRubyUXFoQbzNxXIpScO321n4e`) https://reliablesense.feishu.cn/file/FsRubyUXFoQbzNxXIpScO321n4e
+- 移动应用平台故障处理手册.docx (file, `KCb9bskJDoozH2x68dpcgL1pnTe`) https://reliablesense.feishu.cn/file/KCb9bskJDoozH2x68dpcgL1pnTe
+- T3移动应用平台测评资产调研20250811.xlsx (file, `UiTabBNAEo93PxxchHYcYFX3n1E`) https://reliablesense.feishu.cn/file/UiTabBNAEo93PxxchHYcYFX3n1E
+- 渗透测试系统域名调研 - 移动应用平台.xlsx (file, `Ip3Hbcz16ozdWRxBeN4cpbVSnzd`) https://reliablesense.feishu.cn/file/Ip3Hbcz16ozdWRxBeN4cpbVSnzd
+- 移动应用平台运维白皮书.docx (file, `LxnrbOuhGolK4yxPW20cX3pgnud`) https://reliablesense.feishu.cn/file/LxnrbOuhGolK4yxPW20cX3pgnud
+- 广州机场移动应用任务清单.xlsx (file, `A9IZbCuDroWFO2xRea4cppRYn1f`) https://reliablesense.feishu.cn/file/A9IZbCuDroWFO2xRea4cppRYn1f
+- 移动应用平台开发与测试进展汇报.pdf (file, `LZnhbqFBeoajmHxm8rHc6fY8nRe`) https://reliablesense.feishu.cn/file/LZnhbqFBeoajmHxm8rHc6fY8nRe
 
 > 注：陈子杰个人文档中的 `深化设计说明书（移动应用服务平台）-2025` 已在 004 广州机场-综合定位 section 中迁移。
 
@@ -604,8 +604,8 @@ modified: 2026-04-11
 |---|------|-------|------|
 | 1 | appstore | V9sxf4h6xltx7Pd0OXccSy39ncf | folder |
 | 2 | 移动终端目前缺失功能 | RLRqbFnrPaokuRsVtTbcjkMLnZd | bitable |
-| 3 | 移动应用平台开发与测试进展汇报.pdf | Kkf6bl2V4oAr5vx5m4QccUDDniI | file |
-| 4 | 深化设计说明书（移动应用服务平台）-2025 | B2erdpLOJo5lqoxNeyucOFo2nYf | docx |
+| 3 | 移动应用平台开发与测试进展汇报.pdf | LZnhbqFBeoajmHxm8rHc6fY8nRe | file |
+| 4 | 深化设计说明书（移动应用服务平台）-2025 | LfzRdsmtOofjUkxPdVzcoRCbndb | docx |
 
 #### 散落 docx 文档
 

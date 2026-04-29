@@ -665,8 +665,8 @@ created: 2026-04-11
 | 飞书目录 | 本地路径 | 飞书链接 | 目标路径 |
 |---------|---------|---------|---------|
 | 002. 上海上港/ | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/002. 上海上港/README]] | [飞书（目录）](https://reliablesense.feishu.cn/drive/folder/IwSpfxmL5lfpO8dLuoccbdnLnre) | `1-Projects/Work/上港仓储管理/` |
-| 004. 广州机场-综合定位/ | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/004. 广州机场-综合定位/README]] | [飞书（目录）](https://reliablesense.feishu.cn/drive/folder/NQ2RfyZM7lO2iadqk3rcmDjPnsb) | `1-Projects/Work/广州机场/综合定位/` |
-| 005. 广州机场-移动应用平台/ | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/005. 广州机场-移动应用平台/README]] | [飞书（目录）](https://reliablesense.feishu.cn/drive/folder/D0HIfmaPgleaANd8Cw1cDwpGnhb) | `1-Projects/Work/广州机场/移动应用平台/` |
+| 004. 广州机场-综合定位/ | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/004. 广州机场-综合定位/README]] | [飞书（目录）](https://reliablesense.feishu.cn/drive/folder/MrIOflncTlWrkEd4hJZcUxatncd) | `1-Projects/Work/广州机场/综合定位/` |
+| 005. 广州机场-移动应用平台/ | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/005. 广州机场-移动应用平台/README]] | [飞书（目录）](https://reliablesense.feishu.cn/drive/folder/DZVbfWCNnl1IaudvPBpcpXjenQf) | `1-Projects/Work/广州机场/移动应用平台/` |
 | 南宁机场项目/ | [[4-Archives/Notes/Feishu/云空间/莱讯科技/项目资料管理/南宁机场项目/README]] | [飞书（目录）](https://reliablesense.feishu.cn/drive/folder/JuNOf2llHlkIa9dKw73cJm5pn3w) | `1-Projects/Work/南宁机场/` |
 
 > 只提取 .md 技术文档，.xlsx/.pptx/.docx/.mp4/.zip 等附件留归档。
@@ -1467,7 +1467,7 @@ git push
 
 | 项目名 | 飞书来源目录 | 飞书链接 | 目标路径 | 关键字 |
 |--------|------------|---------|---------|--------|
-| 广州机场 | 004. 广州机场-综合定位 + 005. 移动应用平台 | [飞书](https://reliablesense.feishu.cn/drive/folder/NQ2RfyZM7lO2iadqk3rcmDjPnsb) [飞书](https://reliablesense.feishu.cn/drive/folder/D0HIfmaPgleaANd8Cw1cDwpGnhb) | `1-Projects/Work/广州机场/` | `综合定位`, `A域/B域`, `巡检app`, `AESB`, `TCDM`, `gjtsg`, `shwl_gzhft` |
+| 广州机场 | 004. 广州机场-综合定位 + 005. 移动应用平台 | [飞书](https://reliablesense.feishu.cn/drive/folder/MrIOflncTlWrkEd4hJZcUxatncd) [飞书](https://reliablesense.feishu.cn/drive/folder/DZVbfWCNnl1IaudvPBpcpXjenQf) | `1-Projects/Work/广州机场/` | `综合定位`, `A域/B域`, `巡检app`, `AESB`, `TCDM`, `gjtsg`, `shwl_gzhft` |
 | 新太定位 | 998. 售后项目/内蒙新太元铬业 | [飞书](https://reliablesense.feishu.cn/drive/folder/IGJBfaqbJljC6adrtbCcumrrnCf) | `1-Projects/Work/新太定位/` | `新太`, `新钢联`, `料棚`, `卸料`, `上料`, `铲车`, `堆垛`, `xintai` |
 | 上港仓储管理 | 002. 上海上港 | [飞书](https://reliablesense.feishu.cn/drive/folder/IwSpfxmL5lfpO8dLuoccbdnLnre) | `1-Projects/Work/上港仓储管理/` | `上港`, `仓储`, `出入库`, `RFID`, `shwl_shsg` |
 | 洛阳化工厂 | 998. 售后项目/麦钉洛阳石化 | [飞书](https://reliablesense.feishu.cn/drive/folder/S3JWftxHWl14R5dz9FncpUPUnsd) | `1-Projects/Work/洛阳化工厂/` | `洛阳`, `石化`, `化工`, `宏兴`, `lyrydw`, `lyhx` |
@@ -1633,7 +1633,7 @@ git push
 
 | 项目名 | 目标路径 | 创建时间 | 最后修改 | 飞书链接 |
 |--------|---------|---------|---------|---------|
-| 广州机场 | `1-Projects/Work/广州机场/` | 2023-12-19 | 2026-04-17 | [综合定位](https://reliablesense.feishu.cn/drive/folder/NQ2RfyZM7lO2iadqk3rcmDjPnsb) [移动应用平台](https://reliablesense.feishu.cn/drive/folder/D0HIfmaPgleaANd8Cw1cDwpGnhb) |
+| 广州机场 | `1-Projects/Work/广州机场/` | 2023-12-19 | 2026-04-17 | [综合定位](https://reliablesense.feishu.cn/drive/folder/MrIOflncTlWrkEd4hJZcUxatncd) [移动应用平台](https://reliablesense.feishu.cn/drive/folder/DZVbfWCNnl1IaudvPBpcpXjenQf) |
 | 新太定位 | `1-Projects/Work/新太定位/` | 2024-12-31 | 2025-09-04 | [内蒙新太元铬业](https://reliablesense.feishu.cn/drive/folder/IGJBfaqbJljC6adrtbCcumrrnCf) |
 | 上港仓储管理 | `1-Projects/Work/上港仓储管理/` | 2023-12-25 | 2026-03-01 | [上海上港](https://reliablesense.feishu.cn/drive/folder/IwSpfxmL5lfpO8dLuoccbdnLnre) |
 | 洛阳化工厂 | `1-Projects/Work/洛阳化工厂/` | 2024-06-05 | 2025-02-11 | [麦钉洛阳石化](https://reliablesense.feishu.cn/drive/folder/S3JWftxHWl14R5dz9FncpUPUnsd) [宏兴新能](https://reliablesense.feishu.cn/drive/folder/BKYCfWVwOlXZRpdgjpscVhannlc) |
