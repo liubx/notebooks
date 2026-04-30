@@ -134,6 +134,15 @@ lark-cli task tasklists tasks xxx --params '{"page_size":"100"}' --as user
 lark-cli task tasks get --params '{"task_guid":"xxx","user_id_type":"open_id"}' --as user
 ```
 
+### 补充场景：drive files copy 的 file_token 也是路径参数
+```bash
+# 正确 — file_token 放在 --params 里
+lark-cli drive files copy --params '{"file_token":"xxx"}' --data '{"name":"名称","type":"docx","folder_token":"fldXXX"}' --as user
+
+# 错误 — 作为 flag
+lark-cli drive files copy --file_token xxx --data '...' --as user
+```
+
 
 ## [ERR-20260407-006] 任务被移到其他清单时误判为已删除
 
@@ -584,3 +593,51 @@ lark-cli api GET /open-apis/wiki/v2/tasks/<task_id> \
 2. **先规划好知识库结构，再一次性创建**——创建子节点 → copy 文件到子节点，不要先创建再调整
 3. **知识库节点无法通过 API 删除**——只能在飞书网页端手动删除，所以操作前要确认
 4. **迁移步骤中应该先确定总览结构，再同步到知识库**——不要边做边调整
+
+
+## [ERR-20260501-001] file 类型可以通过 drive copy + move_docs_to_wiki 加入知识库
+
+**时间**: 2026-05-01
+**严重性**: medium
+**领域**: feishu, wiki, api
+
+### 错误描述
+之前认为 file 类型（.docx/.xlsx/.pptx/.zip/.pdf/.png/.svg/.jpeg 等上传附件）无法加入知识库，因为 `wiki create node` API 不支持 `obj_type: file`（返回 131002 param err）。
+
+### 根因
+`wiki create node` API 确实不支持 file 类型。但 `move_docs_to_wiki` API 支持 file 类型。
+
+### 正确做法
+用两步操作把 file 类型文件加入知识库（不动原件）：
+1. `drive files copy` — 复制一份副本到临时位置
+2. `move_docs_to_wiki` — 把副本移入知识库节点
+
+```bash
+# 步骤1：复制副本
+lark-cli api POST /open-apis/drive/v1/files/{原件token}/copy \
+  --data '{"type":"file","folder_token":"{临时目录}","name":"{文件名}"}' --as user
+
+# 步骤2：把副本移入知识库
+lark-cli api POST /open-apis/wiki/v2/spaces/{space_id}/nodes/move_docs_to_wiki \
+  --data '{"parent_wiki_token":"{知识库节点}","obj_type":"file","obj_token":"{副本token}"}' --as user
+```
+
+注意：这里 move_docs_to_wiki 移的是副本，不是原件，所以不违反"不动原件"的原则。
+
+
+## [ERR-20260501-002] macOS 默认 bash 3.x 不支持 declare -A 关联数组
+
+**时间**: 2026-05-01
+**严重性**: low
+**领域**: bash, macos, shell
+
+### 错误描述
+在 macOS 上执行包含 `declare -A` 的 bash 脚本时报错 `declare: -A: invalid option`，导致脚本中所有关联数组操作失败。
+
+### 根因
+macOS 默认的 `/bin/bash` 是 3.2 版本（因 GPLv3 许可证问题未更新），而关联数组（`declare -A`）是 bash 4.0+ 的特性。
+
+### 正确做法
+1. 不要在脚本中使用 `declare -A`，改用普通数组或逐个变量
+2. 或者使用 `#!/usr/bin/env bash` 并确保 PATH 中有 bash 4+（如 Homebrew 安装的 `/opt/homebrew/bin/bash`）
+3. 对于批量操作，直接逐个调用命令更可靠
