@@ -543,3 +543,44 @@ lark-cli api GET ... --timeout 30000
 # 列出云空间文件夹内容
 lark-cli drive +list --folder-token <folder_token> --as user
 ```
+
+
+## [ERR-20260430-001] wiki tasks API 查询需要 task_type 参数
+
+**时间**: 2026-04-30
+**严重性**: low
+**领域**: feishu, wiki, api
+
+### 错误描述
+查询 `move_docs_to_wiki` 异步任务状态时，使用 `GET /open-apis/wiki/v2/tasks/{task_id}` 返回 `99992402 field validation failed: task_type is required`。
+
+### 根因
+wiki tasks API 需要 `task_type` 查询参数来区分不同类型的异步任务。
+
+### 正确做法
+```bash
+# 正确：带 task_type 参数
+lark-cli api GET /open-apis/wiki/v2/tasks/<task_id> \
+  --params '{"task_type":"move"}' --as user
+```
+
+
+## [ERR-20260430-001] 知识库节点操作应该用 copy 而不是 move，且无法通过 API 删除节点
+
+**时间**: 2026-04-30
+**严重性**: high
+**领域**: feishu, wiki, api
+
+### 错误描述
+在百度水厂项目中，多次使用 `wiki move` 在知识库内移动节点（从根节点移到子节点，又移回来），导致知识库结构混乱。后来用 `drive copy` + `move_docs_to_wiki` 复制文件到知识库，又产生了重复节点。飞书 API 不支持删除知识库节点，无法通过 API 清理重复。
+
+### 根因
+1. 没有遵守"不动原文件"的原则，在知识库内使用了 wiki move
+2. 多次反复操作导致重复文件
+3. 飞书 wiki API 没有删除节点的方法
+
+### 正确做法
+1. **永远不要用 wiki move 移动知识库中的文件**——一旦文件在知识库中的位置确定，就不要再动
+2. **先规划好知识库结构，再一次性创建**——创建子节点 → copy 文件到子节点，不要先创建再调整
+3. **知识库节点无法通过 API 删除**——只能在飞书网页端手动删除，所以操作前要确认
+4. **迁移步骤中应该先确定总览结构，再同步到知识库**——不要边做边调整
