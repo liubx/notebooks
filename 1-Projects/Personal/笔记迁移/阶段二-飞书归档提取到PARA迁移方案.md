@@ -1068,6 +1068,32 @@ lark-cli api POST /open-apis/wiki/v2/spaces/$SPACE_ID/nodes \
 # 记录返回的 node_token 和 obj_token
 ```
 
+### 步骤 3b：文件匹配与分类
+
+在执行知识库迁移前，先对照本地文件和飞书原始目录，逐个确认每个文件的类型和操作方式：
+
+```
+对照方法：
+1. 列出飞书原始目录下所有文件（lark-cli drive +list）
+2. 列出本地项目目录下所有文件
+3. 按文件名匹配，确认每个文件属于哪种情况
+```
+
+**文件匹配决策表**：
+
+| 匹配情况 | 判断条件 | 本地操作 | 知识库操作 |
+|---------|---------|---------|-----------|
+| 本地有 .md + 飞书有 docx | 文件名一致（如 `部署手册.md` ↔ `部署手册` docx） | 保留 .md | `drive copy` + `move_docs_to_wiki`（复制飞书原件副本） |
+| 本地有 .md + 飞书有 doc | 文件名一致，doc 旧版文档 | 保留 .md | `drive copy`（type=doc）+ `move_docs_to_wiki` |
+| 本地有 .xlsx + 飞书有 sheet | 文件名一致（如 `项目计划.xlsx` ↔ `项目计划` sheet） | 保留 .xlsx | `drive copy`（type=sheet）+ `move_docs_to_wiki` |
+| 本地有附件 + 飞书有 file | 文件名一致（如 `VR坐标测量.docx` ↔ file） | 保留附件 | `drive copy`（type=file）+ `move_docs_to_wiki` |
+| 本地无 + 飞书有 sheet/bitable/slides/mindnote | 仅云端的在线文档 | 不保留（或可选导出） | `drive copy` + `move_docs_to_wiki` |
+| 本地无 + 飞书有大文件（mp4/zip） | 仅云端的大文件 | 不保留 | `drive copy` + `move_docs_to_wiki` |
+| 本地有 .md + 飞书无 | 本地独有笔记 | 保留 .md | `wiki create node` + `docs +update` 写入内容 |
+| 本地有 Attachments/ 图片 | md 引用的内嵌图片 | 保留 | 不迁移到知识库 |
+
+**关键**：先确认文件类型，再选择对应的操作方式。不要盲目操作。
+
 ### 步骤 4：飞书文档复制到知识库
 
 分两步将云空间文档复制到知识库，**保持云空间原始文件不变**：
