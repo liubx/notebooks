@@ -980,7 +980,7 @@ created: 2026-04-11
 | `slides`（幻灯片） | ❌ 不保留 | ✅ 原件不动 | ✅ `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 | 在线幻灯片 |
 | `mindnote`（思维导图） | ❌ 不保留 | ✅ 原件不动 | ✅ `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 | 思维导图，可复制到知识库 |
 | `.mp4/.zip` 等大文件 | ❌ 不保留 | ✅ 原件不动 | ✅ `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 | 视频/压缩包等 |
-| 本地独有笔记 | ✅ 保留 | ✅ `docs +create` 创建 | ✅ `move_docs_to_wiki` 移入 | `[[wikilink]]` + 飞书链接 | 本地手写的 md，同步到飞书 |
+| 本地独有笔记 | ✅ 保留 | — | ✅ `wiki create node` + `docs +update` | `[[wikilink]]` + 飞书链接 | 本地手写的 md，直接在知识库创建并写入 |
 
 **核心原则**：
 - **云空间永远不动**：原始文件保留在飞书云空间原位，不移动、不删除
@@ -1082,8 +1082,10 @@ lark-cli api POST /open-apis/wiki/v2/spaces/{space_id}/nodes \
   --as user
 ```
 
-> ⚠️ `wiki create node` 只用于创建目录页（分类节点），**不要用来创建文档节点**！
-> 创建的 docx/sheet 节点是空的，没有内容。
+> ⚠️ `wiki create node` 用于创建目录页（分类节点）和本地独有笔记。
+> - 创建目录页：只需标题，不写入内容
+> - 本地独有笔记：创建后用 `docs +update` 写入 md 内容（注意：`<mention-user>` 等特殊标签和超大表格可能写入失败）
+> - **不要用 `wiki create node` 复制已有的飞书文档**——已有文档用 `drive copy` + `move_docs_to_wiki`
 
 **4b. 复制文档到知识库（drive copy + move_docs_to_wiki）**
 
@@ -1130,11 +1132,11 @@ lark-cli api GET /open-apis/drive/v1/files \
 | mindnote（思维导图） | — | 不保留 | `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 |
 | mp4/zip 等大文件 | `boxcn` | 不保留（太大） | `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 |
 | 文档内嵌图片 | `boxcn` | `docs +media-download` → Attachments/ | — | 不单独记录 |
-| 本地独有笔记 | — | 本地 .md 保留 | `docs +create` 创建飞书文档 + `move_docs_to_wiki` | `[[wikilink]]` + 飞书链接 |
+| 本地独有笔记 | — | 本地 .md 保留 | `wiki create node` + `docs +update` 写入内容 | `[[wikilink]]` + 飞书链接 |
 
 **关键说明**：
 - **所有类型统一用 `drive copy` + `move_docs_to_wiki`**（包括 mindnote），不要用 `wiki create node` 创建文档节点
-- **本地独有笔记**：先用 `docs +create` 在云空间创建飞书新版文档（写入 md 内容），再用 `move_docs_to_wiki` 移入知识库
+- **本地独有笔记**：用 `wiki create node` 在知识库直接创建 docx 节点，再用 `docs +update` 写入 md 内容（不经过云空间，不产生 shortcut）
 - **`drive copy` 的 `type` 参数**：docx → `"docx"`，sheet → `"sheet"`，file → `"file"`，bitable → `"bitable"`，mindnote → `"mindnote"`
 - **`move_docs_to_wiki` 的 `obj_type` 参数**：与 `drive copy` 的 `type` 一致
 - **doc 旧版文档**：`drive copy` 时 type 用 `"doc"`（不是 `"docx"`）
