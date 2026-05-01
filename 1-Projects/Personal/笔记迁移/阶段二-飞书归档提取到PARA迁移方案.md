@@ -971,21 +971,23 @@ created: 2026-04-11
 
 | 文件类型 | 本地 | 飞书云空间 | 飞书知识库 | 0-总览中 | 说明 |
 |---------|------|-----------|-----------|---------|------|
-| `.md`（docx 转换） | ✅ 保留 | ✅ 原件不动 | ✅ copy 副本 | `[[wikilink]]` | Obsidian 可渲染，双端都有 |
+| `.md`（docx 转换） | ✅ 保留 | ✅ 原件不动 | ✅ `drive copy` + `move_docs_to_wiki` | `[[wikilink]]` + 飞书链接 | Obsidian 可渲染，双端都有 |
+| `.md`（doc 导出+pandoc） | ✅ 保留 | ✅ 原件不动 | ✅ `drive copy` + `move_docs_to_wiki` | `[[wikilink]]` + 飞书链接 | 旧版文档转换 |
 | `Attachments/*.png/jpg` | ✅ 保留 | — | — | — | md 引用的图片，跟随 md 文件 |
-| `.docx/.xlsx/.pptx`（file 类型） | ✅ 下载保留 | ✅ 原件不动 | ✅ copy 副本 | 📌 本地附件 + 飞书链接 | 上传的附件文件，本地也保留一份 |
-| `sheet`（电子表格） | ❌ 不保留 | ✅ 原件不动 | ✅ copy 副本 | ☁️ 仅云端 + 飞书链接 | 在线表格 |
-| `bitable`（多维表格） | ❌ 不保留 | ✅ 原件不动 | ✅ copy 副本 | ☁️ 仅云端 + 飞书链接 | 在线多维表格 |
-| `slides`（幻灯片） | ❌ 不保留 | ✅ 原件不动 | ✅ copy 副本 | ☁️ 仅云端 + 飞书链接 | 在线幻灯片 |
-| `mindnote`（思维导图） | ❌ 不保留 | ✅ 原件不动 | ❌ 不支持 copy | ☁️ 仅云端 + 飞书链接 | API 不支持 copy mindnote |
-| `.mp4/.zip` 等大文件 | ❌ 不保留 | ✅ 原件不动 | ✅ copy 副本 | ☁️ 仅云端 + 飞书链接 | 视频/压缩包等 |
+| `.docx/.xlsx/.pptx`（file 类型） | ✅ 下载保留 | ✅ 原件不动 | ✅ `drive copy` + `move_docs_to_wiki` | 📌 本地有 + 飞书链接 | 上传的附件文件 |
+| `sheet`（电子表格） | 可选导出 xlsx | ✅ 原件不动 | ✅ `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 | 在线表格，可选导出 |
+| `bitable`（多维表格） | ❌ 不保留 | ✅ 原件不动 | ✅ `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 | 在线多维表格 |
+| `slides`（幻灯片） | ❌ 不保留 | ✅ 原件不动 | ✅ `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 | 在线幻灯片 |
+| `mindnote`（思维导图） | ❌ 不保留 | ✅ 原件不动 | ❌ 不支持 copy | ☁️ 仅云端 + 云空间链接 | API 不支持 copy mindnote |
+| `.mp4/.zip` 等大文件 | ❌ 不保留 | ✅ 原件不动 | ✅ `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 | 视频/压缩包等 |
 | 本地独有笔记 | ✅ 保留 | — | — | `[[wikilink]]` + 📌 仅本地 | 本地手写的笔记，飞书没有 |
 
 **核心原则**：
 - **云空间永远不动**：原始文件保留在飞书云空间原位，不移动、不删除
-- **知识库放副本**：用 `drive files copy` 复制到知识库，用于结构化管理
-- **本地只放 md + 图片**：Obsidian 只管理 markdown 和引用的图片
-- **0-总览是索引**：所有文件（无论在哪里）都在 0-总览的文件清单中记录，☁️ 仅云端的文件附飞书链接
+- **知识库放副本**：用 `drive copy` 复制副本 + `move_docs_to_wiki` 移入知识库（不要用 `wiki create node` 创建文档节点）
+- **move 后清理 shortcut**：`move_docs_to_wiki` 会在原位留下 shortcut，必须删除
+- **本地保留 md + 图片 + 附件**：Obsidian 管理 markdown、引用图片和需要离线查看的附件
+- **0-总览是索引**：所有文件（无论在哪里）都在 0-总览的文件清单中记录，飞书链接指向知识库节点（`/wiki/` 格式）
 
 ### 步骤 1：确认项目范围
 
@@ -1114,6 +1116,28 @@ lark-cli api GET /open-apis/drive/v1/files \
   --params '{"folder_token":"{目录token}","page_size":"50"}' --as user
 # 过滤 type=shortcut 的文件，逐个删除
 ```
+
+**各文件类型处理方式汇总**：
+
+| 飞书类型 | token 前缀 | 本地处理 | 知识库处理 | 总览记录 |
+|---------|-----------|---------|-----------|---------|
+| docx（新版文档） | `doxcn` | `docs +fetch` → .md | `drive copy` + `move_docs_to_wiki` | `[[wikilink]]` + 飞书链接 |
+| doc（旧版文档） | `doccn` | 导出 API → .docx → pandoc → .md | `drive copy` + `move_docs_to_wiki` | `[[wikilink]]` + 飞书链接 |
+| sheet（电子表格） | — | `sheets +export` → .xlsx（可选） | `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接（或 📌 本地有 xlsx） |
+| bitable（多维表格） | — | 不保留 | `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 |
+| file（上传附件） | `boxcn` | `drive +download` → 原始文件 | `drive copy` + `move_docs_to_wiki` | 📌 本地有 + 飞书链接 |
+| slides（幻灯片） | — | 不保留 | `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 |
+| mindnote（思维导图） | — | 不保留（API 不支持） | ❌ 不支持 copy | ☁️ 仅云端 + 云空间链接 |
+| mp4/zip 等大文件 | `boxcn` | 不保留（太大） | `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 |
+| 文档内嵌图片 | `boxcn` | `docs +media-download` → Attachments/ | — | 不单独记录 |
+
+**关键说明**：
+- **所有类型统一用 `drive copy` + `move_docs_to_wiki`**（除 mindnote 外），不要用 `wiki create node`
+- **`drive copy` 的 `type` 参数**：docx → `"docx"`，sheet → `"sheet"`，file → `"file"`，bitable → `"bitable"`
+- **`move_docs_to_wiki` 的 `obj_type` 参数**：与 `drive copy` 的 `type` 一致
+- **doc 旧版文档**：`drive copy` 时 type 用 `"doc"`（不是 `"docx"`）
+- **file 类型包含各种格式**：.docx/.xlsx/.pptx/.pdf/.zip/.png/.svg/.jpeg/.mp4 等上传的附件都是 file 类型
+- **sheet 本地是否保留**：如果项目需要离线查看表格数据，可以 `sheets +export` 导出 xlsx 到本地；否则只在总览中记录飞书链接
 
 **原则**：
 - **云空间保持不变**（原件留在原位，副本移入知识库后删除 shortcut）
