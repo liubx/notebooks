@@ -695,3 +695,19 @@ lark-cli api DELETE /open-apis/drive/v1/files/{shortcut_token} --params '{"type"
 2. `move_docs_to_wiki` 移入知识库
 3. 列出临时位置的 shortcut（`type=shortcut`）
 4. 逐个删除 shortcut
+
+
+## [ERR-20260501-003] docs +update 不支持 sub-page-list 标签
+
+**时间**: 2026-05-01
+**严重性**: low
+**领域**: feishu, docs, api
+
+### 错误描述
+通过 `docs +update --markdown` 写入包含 `<sub-page-list wiki-token="xxx"/>` 的内容时，标签被当作不支持的 HTML 标签移除，warning: `unsupported HTML tag removed: sub-page-list`。
+
+### 根因
+`docs +update` 的 markdown 解析器不支持 `<sub-page-list>` 这个飞书特有的组件标签。虽然 `docs +fetch` 能读取到这个标签，但写入时不支持。
+
+### 正确做法
+`<sub-page-list>` 只能在飞书网页端手动添加（在文档中输入 `/子页面列表` 或 `/sub-page-list`）。API 无法写入此组件。
