@@ -978,9 +978,9 @@ created: 2026-04-11
 | `sheet`（电子表格） | 可选导出 xlsx | ✅ 原件不动 | ✅ `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 | 在线表格，可选导出 |
 | `bitable`（多维表格） | ❌ 不保留 | ✅ 原件不动 | ✅ `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 | 在线多维表格 |
 | `slides`（幻灯片） | ❌ 不保留 | ✅ 原件不动 | ✅ `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 | 在线幻灯片 |
-| `mindnote`（思维导图） | ❌ 不保留 | ✅ 原件不动 | ❌ 不支持 copy | ☁️ 仅云端 + 云空间链接 | API 不支持 copy mindnote |
+| `mindnote`（思维导图） | ❌ 不保留 | ✅ 原件不动 | ✅ `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 | 思维导图，可复制到知识库 |
 | `.mp4/.zip` 等大文件 | ❌ 不保留 | ✅ 原件不动 | ✅ `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 | 视频/压缩包等 |
-| 本地独有笔记 | ✅ 保留 | — | — | `[[wikilink]]` + 📌 仅本地 | 本地手写的笔记，飞书没有 |
+| 本地独有笔记 | ✅ 保留 | ✅ `docs +create` 创建 | ✅ `move_docs_to_wiki` 移入 | `[[wikilink]]` + 飞书链接 | 本地手写的 md，同步到飞书 |
 
 **核心原则**：
 - **云空间永远不动**：原始文件保留在飞书云空间原位，不移动、不删除
@@ -1127,13 +1127,15 @@ lark-cli api GET /open-apis/drive/v1/files \
 | bitable（多维表格） | — | 不保留 | `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 |
 | file（上传附件） | `boxcn` | `drive +download` → 原始文件 | `drive copy` + `move_docs_to_wiki` | 📌 本地有 + 飞书链接 |
 | slides（幻灯片） | — | 不保留 | `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 |
-| mindnote（思维导图） | — | 不保留（API 不支持） | ❌ 不支持 copy | ☁️ 仅云端 + 云空间链接 |
+| mindnote（思维导图） | — | 不保留 | `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 |
 | mp4/zip 等大文件 | `boxcn` | 不保留（太大） | `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 |
 | 文档内嵌图片 | `boxcn` | `docs +media-download` → Attachments/ | — | 不单独记录 |
+| 本地独有笔记 | — | 本地 .md 保留 | `docs +create` 创建飞书文档 + `move_docs_to_wiki` | `[[wikilink]]` + 飞书链接 |
 
 **关键说明**：
-- **所有类型统一用 `drive copy` + `move_docs_to_wiki`**（除 mindnote 外），不要用 `wiki create node`
-- **`drive copy` 的 `type` 参数**：docx → `"docx"`，sheet → `"sheet"`，file → `"file"`，bitable → `"bitable"`
+- **所有类型统一用 `drive copy` + `move_docs_to_wiki`**（包括 mindnote），不要用 `wiki create node` 创建文档节点
+- **本地独有笔记**：先用 `docs +create` 在云空间创建飞书新版文档（写入 md 内容），再用 `move_docs_to_wiki` 移入知识库
+- **`drive copy` 的 `type` 参数**：docx → `"docx"`，sheet → `"sheet"`，file → `"file"`，bitable → `"bitable"`，mindnote → `"mindnote"`
 - **`move_docs_to_wiki` 的 `obj_type` 参数**：与 `drive copy` 的 `type` 一致
 - **doc 旧版文档**：`drive copy` 时 type 用 `"doc"`（不是 `"docx"`）
 - **file 类型包含各种格式**：.docx/.xlsx/.pptx/.pdf/.zip/.png/.svg/.jpeg/.mp4 等上传的附件都是 file 类型

@@ -54,8 +54,12 @@
 ### 无法导出（仅保留链接）
 | 类型 | 说明 | 原因 |
 |------|------|------|
-| mindnote | 飞书思维导图（10 个） | 导出 API 不支持 mindnote 类型 |
 | slides | 飞书幻灯片（2 个，已跳过） | 非本人文件，导出 API 也不支持 |
+
+### 可复制到知识库（drive copy + move_docs_to_wiki）
+| 类型 | 说明 |
+|------|------|
+| mindnote | 飞书思维导图（10 个），`drive copy`（type=mindnote）+ `move_docs_to_wiki` 可复制到知识库 |
 
 ## doc 旧版文档导出流程（52 个）
 
@@ -221,7 +225,7 @@ Markdown 中引用图片使用相对路径：`![](Attachments/Ccckbk2rCoBJ04xi6M
 - 知识库节点可能有层级关系，迁移时保留为平铺结构，用 wikilink 关联
 - 迁移完成后，原飞书文档不删除，保留作为备份
 - doc 旧版文档通过导出 API + pandoc 转换，可能丢失部分格式
-- mindnote 无法通过 API 导出，需手动在飞书界面导出为 FreeMind (.mm)
+- mindnote 无法通过 API 导出为本地文件，但可以通过 `drive copy`（type=mindnote）+ `move_docs_to_wiki` 复制到知识库
 - mindnote 也无法通过 API 创建或导入（飞书 OpenAPI 不支持 mindnote 的创建/编辑/导入，2026-04-12 测试确认）
 - 替代方案：可通过 whiteboard（画板）API 绘制思维导图，将 .mm 转为 Mermaid mindmap 格式后上传到飞书画板，效果接近 mindnote
 - slides 非本人文件，已跳过
