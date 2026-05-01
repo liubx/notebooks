@@ -1305,6 +1305,35 @@ cat feishu_overview.md | lark-cli docs +update \
 - 去掉"飞书链接"列，文件名本身就是 mention-doc 链接
 - 仅本地的文件保留文字，不加链接
 
+### 步骤 6b：写入分类节点子页面列表
+
+知识库中的分类目录节点（如"技术文档"、"项目管理"等）默认是空文档。需要写入子页面列表，方便在飞书中浏览：
+
+```bash
+# 获取分类节点的 obj_token
+lark-cli api GET /open-apis/wiki/v2/spaces/{space_id}/nodes/{node_token} --as user
+# 记录 obj_token
+
+# 获取子节点列表
+lark-cli api GET /open-apis/wiki/v2/spaces/{space_id}/nodes \
+  --params '{"parent_node_token":"{node_token}","page_size":"50"}' --as user
+
+# 生成 markdown 内容（标题 + mention-doc 列表）
+# 格式：
+# # {分类名}
+#
+# - <mention-doc token="{子节点node_token}" type="wiki">文档标题</mention-doc>（类型）
+# - ...
+
+# 写入
+echo '{markdown内容}' | lark-cli docs +update \
+  --doc {obj_token} --markdown - --mode overwrite --as user
+```
+
+**递归处理**：如果分类节点下还有子目录（如"项目文档"下有"中核验收文档"、"验收文档终版"等），也需要递归写入子页面列表。
+
+> ⚠️ `<sub-page-list wiki-token="..."/>` 标签虽然在飞书网页端可用，但 `docs +update` API 不支持写入此标签（会被当作不支持的 HTML 标签移除）。所以用 `<mention-doc>` 列表代替。
+
 ### 步骤 7：全面检查
 
 提交前做三方一致性检查，确保本地、总览、飞书三端一致：
