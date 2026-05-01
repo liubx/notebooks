@@ -977,9 +977,9 @@ created: 2026-04-11
 | `.docx/.xlsx/.pptx`（file 类型） | ✅ 下载保留 | ✅ 原件不动 | ✅ `drive copy` + `move_docs_to_wiki` | 📌 本地有 + 飞书链接 | 上传的附件文件 |
 | `.png/.jpg/.jpeg`（独立图片，file 类型） | ✅ 下载保留 | ✅ 原件不动 | ✅ `drive copy` + `move_docs_to_wiki` | 📌 本地有 + 飞书链接 | 非 Attachments 的独立图片文件 |
 | `sheet`（电子表格） | 可选导出 xlsx | ✅ 原件不动 | ✅ `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 | 在线表格，可选导出 |
-| `bitable`（多维表格） | ❌ 不保留 | ✅ 原件不动 | ✅ `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 | 在线多维表格 |
-| `slides`（幻灯片） | ❌ 不保留 | ✅ 原件不动 | ✅ `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 | 在线幻灯片 |
-| `mindnote`（思维导图） | ❌ 不保留 | ✅ 原件不动 | ✅ `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 | 思维导图，可复制到知识库 |
+| `bitable`（多维表格） | 可选导出 xlsx | ✅ 原件不动 | ✅ `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 | 导出 API 支持 xlsx；也可用 `base +record-list` 读取数据 |
+| `slides`（幻灯片） | ❌ API 不支持导出 | ✅ 原件不动 | ✅ `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 | 需在飞书网页端手动导出 pptx |
+| `mindnote`（思维导图） | ❌ API 不支持导出 | ✅ 原件不动 | ✅ `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 | 需在飞书网页端手动导出 .mm |
 | `.mp4/.zip` 等大文件 | ❌ 不保留 | ✅ 原件不动 | ✅ `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 | 视频/压缩包等 |
 | 本地独有笔记 | ✅ 保留 | — | ✅ `wiki create node` + `docs +update` | `[[wikilink]]` + 飞书链接 | 本地手写的 md，直接在知识库创建并写入 |
 
@@ -1127,11 +1127,11 @@ lark-cli api GET /open-apis/drive/v1/files \
 | docx（新版文档） | `doxcn` | `docs +fetch` → .md | `drive copy` + `move_docs_to_wiki` | `[[wikilink]]` + 飞书链接 |
 | doc（旧版文档） | `doccn` | 导出 API → .docx → pandoc → .md | `drive copy` + `move_docs_to_wiki` | `[[wikilink]]` + 飞书链接 |
 | sheet（电子表格） | — | `sheets +export` → .xlsx（可选） | `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接（或 📌 本地有 xlsx） |
-| bitable（多维表格） | — | 不保留 | `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 |
+| bitable（多维表格） | — | 可选：导出 API → xlsx 或 `base +record-list` → md | `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接（或 📌 本地有 xlsx） |
 | file（上传附件） | `boxcn` | `drive +download` → 原始文件 | `drive copy` + `move_docs_to_wiki` | 📌 本地有 + 飞书链接 |
 | file（独立图片 .png/.jpg/.jpeg） | `boxcn` | `drive +download` → 原始文件 | `drive copy` + `move_docs_to_wiki` | 📌 本地有 + 飞书链接 |
-| slides（幻灯片） | — | 不保留 | `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 |
-| mindnote（思维导图） | — | 不保留 | `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 |
+| slides（幻灯片） | — | ❌ API 不支持导出（手动导出 pptx） | `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 |
+| mindnote（思维导图） | — | ❌ API 不支持导出（手动导出 .mm） | `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 |
 | mp4/zip 等大文件 | `boxcn` | 不保留（太大） | `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 |
 | 文档内嵌图片 | `boxcn` | `docs +media-download` → Attachments/ | — | 不单独记录 |
 | 本地独有笔记 | — | 本地 .md 保留 | `wiki create node` + `docs +update` 写入内容 | `[[wikilink]]` + 飞书链接 |
