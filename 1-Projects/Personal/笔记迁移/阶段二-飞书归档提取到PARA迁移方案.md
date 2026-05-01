@@ -1067,25 +1067,65 @@ lark-cli api POST /open-apis/wiki/v2/spaces/$SPACE_ID/nodes \
 
 ### 步骤 4：飞书文档复制到知识库
 
-使用 `copy` 将云空间文档复制到知识库节点，**保持云空间原始文件不变**：
+分两步将云空间文档复制到知识库，**保持云空间原始文件不变**：
+
+**4a. 创建知识库分类节点（目录页）**
+
+用 `wiki create node` 创建分类目录节点（如"技术文档"、"项目管理"等）：
 
 ```bash
-# 每个文档执行一次（docx/doc/sheet/file/bitable 都支持）
-lark-cli api POST /open-apis/drive/v1/files/{文档token}/copy \
-  --data '{"type":"{类型}","folder_token":"{知识库节点obj_token}","name":"{文件名}"}' \
+# 创建分类目录节点（docx 类型的空文档作为目录页）
+lark-cli api POST /open-apis/wiki/v2/spaces/{space_id}/nodes \
+  --data '{"obj_type":"docx","parent_node_token":"{父节点}","node_type":"origin","title":"{分类名}"}' \
   --as user
+```
 
-# 类型：docx / doc / sheet / file / bitable / slides
-# 每次一个命令，避免超时
+> ⚠️ `wiki create node` 只用于创建目录页（分类节点），**不要用来创建文档节点**！
+> 创建的 docx/sheet 节点是空的，没有内容。
+
+**4b. 复制文档到知识库（drive copy + move_docs_to_wiki）**
+
+所有类型的文档（docx/sheet/file/bitable 等）统一使用以下两步操作：
+
+```bash
+# 步骤1：复制副本到云空间临时位置（原件所在目录即可）
+lark-cli api POST /open-apis/drive/v1/files/{原件token}/copy \
+  --params '{"file_token":"{原件token}"}' \
+  --data '{"type":"{类型}","name":"{文件名}","folder_token":"{原件所在目录}"}' \
+  --as user
+# 返回副本的新 token
+
+# 步骤2：将副本移入知识库对应分类节点
+lark-cli api POST /open-apis/wiki/v2/spaces/{space_id}/nodes/move_docs_to_wiki \
+  --data '{"parent_wiki_token":"{目标分类节点}","obj_type":"{类型}","obj_token":"{副本token}"}' \
+  --as user
+# 返回 task_id（异步操作）
+
+# 步骤3：删除 move_docs_to_wiki 留下的 shortcut
+lark-cli api DELETE /open-apis/drive/v1/files/{shortcut_token} \
+  --params '{"type":"shortcut"}' --as user
+```
+
+**批量操作后统一清理 shortcut**：
+
+```bash
+# 列出目录下所有 shortcut
+lark-cli api GET /open-apis/drive/v1/files \
+  --params '{"folder_token":"{目录token}","page_size":"50"}' --as user
+# 过滤 type=shortcut 的文件，逐个删除
 ```
 
 **原则**：
-- **云空间保持不变**（原件留在原位，不移动）
+- **云空间保持不变**（原件留在原位，副本移入知识库后删除 shortcut）
 - **知识库放副本**（新 token，用于结构化管理和浏览）
-- 本地文档和迁移记录中记录知识库的新 token
-- slides 和 bitable 也支持 copy
+- 本地文档和迁移记录中记录知识库的新 node_token
+- 所有文档类型（docx/sheet/file/bitable）都用 `drive copy` + `move_docs_to_wiki`
+- `move_docs_to_wiki` 会在原位留下 shortcut，**必须清理**
+- 操作完成后递归扫描所有子目录，确认无残留 shortcut
 
-> ⚠️ 不要使用 `move_docs_to_wiki`！移动操作会导致云空间原始目录变空，且飞书 API 不支持从知识库移回云空间。
+> ⚠️ **不要用 `wiki create node` 创建文档节点**——创建的 docx 是空文档，sheet 是空表格，没有原始数据。
+> ⚠️ **不要用 `move_docs_to_wiki` 移动原件**——只移副本，原件留在云空间。
+> ⚠️ **不要用 `wiki move` 调整知识库结构**——节点无法通过 API 删除，反复移动会产生混乱。
 
 ### 步骤 5：创建本地 0-总览.md
 
@@ -1235,8 +1275,18 @@ cat feishu_overview.md | lark-cli docs +update \
 
 - 本地缺文件 → 回到步骤 2 补下载
 - 总览缺记录 → 补充到总览
-- 知识库缺节点 → 用 copy 补充（不要用 move）
+- 知识库缺节点 → 用 `drive copy` + `move_docs_to_wiki` 补充（不要用 `wiki create node`）
 - 知识库有重复 → 在飞书网页端手动删除多余节点
+- 知识库文档内容为空 → 说明误用了 `wiki create node`，应删除空节点后用 `drive copy` 重做
+
+**7d. 清理 shortcut**
+
+递归扫描飞书云空间原始目录及所有子目录，删除 `move_docs_to_wiki` 留下的 shortcut：
+
+```bash
+# 遍历目录，找到所有 type=shortcut 的文件
+# 逐个删除：DELETE /open-apis/drive/v1/files/{token}?type=shortcut
+```
 
 ### 步骤 8：提交推送
 
@@ -1258,19 +1308,26 @@ git push
 | 归档项目 | `PhpuwDqUvidfKRkUXMKcLMJ0nHc` | 已结束项目的父节点 |
 | 百度水厂 | `HVnAwfonxibx3Fk2O3vcDqt5nXb` | 第一个迁移完成的项目（模板参考） |
 
-### 迁移教训（2026-04-27 广州机场还原 + 2026-04-30 百度水厂总结）
+### 迁移教训（2026-04-27 广州机场还原 + 2026-04-30 百度水厂总结 + 2026-05-01 补充）
 
-1. **不要用 `move_docs_to_wiki`**：飞书 API 不支持从知识库移回云空间，一旦移入就无法通过 API 移回。
+1. **不要用 `move_docs_to_wiki` 移动原件**：只用来移副本。飞书 API 不支持从知识库移回云空间，一旦移入就无法通过 API 移回。
 2. **不要用 `wiki move` 调整知识库结构**：知识库节点无法通过 API 删除，反复移动会产生混乱。一旦节点位置确定就不要再动。
-3. **用 `copy` 代替 `move`**：`drive files copy` 可以把文件复制到任意位置，保持原件不变。
-4. **云空间保持不变**：原始文件留在云空间原位，知识库放副本用于结构化管理。
-5. **先规划再执行**：先确定本地目录结构和总览分组，再一次性创建知识库节点结构并 copy 文件，不要边做边调整。
-6. **知识库节点无法通过 API 删除**：只能在飞书网页端手动删除。操作前要确认结构正确，避免产生重复节点。
-7. **总览结构规则**：
-   - 本地有的目录 → 总览中必须有对应的章节标题
-   - 本地没有的目录 → 总览中可以按内容分组
-   - 飞书知识库节点结构与总览章节一致
-   - 文件清单只记录本地有的和知识库有的文件，不记录只在云空间原始目录中的文件
+3. **不要用 `wiki create node` 创建文档节点**：创建的 docx 是空文档、sheet 是空表格，没有原始数据。`wiki create node` 只用于创建分类目录页。
+4. **统一用 `drive copy` + `move_docs_to_wiki` 移副本**：所有类型（docx/sheet/file/bitable）都用这个方式，知识库中的文档是原始文档的完整副本。
+5. **`move_docs_to_wiki` 会留下 shortcut**：移入知识库后，云空间原位会自动生成 shortcut。必须在操作后清理（`DELETE /open-apis/drive/v1/files/{token}?type=shortcut`）。递归扫描所有子目录确认无残留。
+6. **`docs +update` 写入内容有限制**：
+   - `<mention-user>`、`<reminder>` 等飞书特有标签会导致 `CreateDescendant forbidden`
+   - 超大表格（如 31 列甘特图）会导致 `field validation failed`
+   - 所以不要用 `wiki create node` + `docs +update` 的方式，直接用 `drive copy` 保留原始格式
+7. **云空间保持不变**：原始文件留在云空间原位，知识库放副本用于结构化管理。
+8. **先规划再执行**：先确定本地目录结构和总览分组，再一次性创建知识库节点结构并 copy 文件，不要边做边调整。
+9. **知识库节点无法通过 API 删除**：飞书 OpenAPI 的 wiki scope 中没有 `wiki:node:delete`。只能在飞书网页端手动删除。操作前要确认结构正确，避免产生重复节点。
+10. **总览结构规则**：
+    - 本地有的目录 → 总览中必须有对应的章节标题
+    - 本地没有的目录 → 总览中可以按内容分组
+    - 飞书知识库节点结构与总览章节一致
+    - 文件清单只记录本地有的和知识库有的文件，不记录只在云空间原始目录中的文件
+    - 飞书链接指向知识库节点（`/wiki/` 格式），不指向云空间原始目录
 
 ---
 
