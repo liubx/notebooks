@@ -512,6 +512,11 @@ lark-cli api GET ... --timeout 30000
 2. 或者通过知识库管理员在设置中操作
 3. API 层面目前无法删除知识库节点——这是飞书 OpenAPI 的限制
 
+### 补充确认（2026-05-01）
+- 飞书 OpenAPI 的 wiki scope 列表中没有 `wiki:node:delete`，只有 create/read/retrieve/update/copy/move
+- `DELETE /open-apis/wiki/v2/spaces/{space_id}/nodes/{node_token}` 路径虽然能接收请求（要求 `obj_type` body 参数），但 lark-cli 在 DELETE + `--data` 时路径参数解析异常（报 `node not found`），且即使修复也可能因缺少 scope 而失败
+- 结论：**飞书 OpenAPI 不支持删除知识库节点**，只能在网页端手动操作
+
 
 ## [ERR-20260426-005] drive files move API 也无法将知识库文件移回云空间
 
