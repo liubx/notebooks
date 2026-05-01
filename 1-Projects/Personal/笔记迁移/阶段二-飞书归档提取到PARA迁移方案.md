@@ -973,8 +973,9 @@ created: 2026-04-11
 |---------|------|-----------|-----------|---------|------|
 | `.md`（docx 转换） | ✅ 保留 | ✅ 原件不动 | ✅ `drive copy` + `move_docs_to_wiki` | `[[wikilink]]` + 飞书链接 | Obsidian 可渲染，双端都有 |
 | `.md`（doc 导出+pandoc） | ✅ 保留 | ✅ 原件不动 | ✅ `drive copy` + `move_docs_to_wiki` | `[[wikilink]]` + 飞书链接 | 旧版文档转换 |
-| `Attachments/*.png/jpg` | ✅ 保留 | — | — | — | md 引用的图片，跟随 md 文件 |
+| `Attachments/*.png/jpg` | ✅ 保留 | — | — | — | md 引用的内嵌图片，跟随 md 文件，不单独迁移 |
 | `.docx/.xlsx/.pptx`（file 类型） | ✅ 下载保留 | ✅ 原件不动 | ✅ `drive copy` + `move_docs_to_wiki` | 📌 本地有 + 飞书链接 | 上传的附件文件 |
+| `.png/.jpg/.jpeg`（独立图片，file 类型） | ✅ 下载保留 | ✅ 原件不动 | ✅ `drive copy` + `move_docs_to_wiki` | 📌 本地有 + 飞书链接 | 非 Attachments 的独立图片文件 |
 | `sheet`（电子表格） | 可选导出 xlsx | ✅ 原件不动 | ✅ `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 | 在线表格，可选导出 |
 | `bitable`（多维表格） | ❌ 不保留 | ✅ 原件不动 | ✅ `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 | 在线多维表格 |
 | `slides`（幻灯片） | ❌ 不保留 | ✅ 原件不动 | ✅ `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 | 在线幻灯片 |
@@ -1128,6 +1129,7 @@ lark-cli api GET /open-apis/drive/v1/files \
 | sheet（电子表格） | — | `sheets +export` → .xlsx（可选） | `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接（或 📌 本地有 xlsx） |
 | bitable（多维表格） | — | 不保留 | `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 |
 | file（上传附件） | `boxcn` | `drive +download` → 原始文件 | `drive copy` + `move_docs_to_wiki` | 📌 本地有 + 飞书链接 |
+| file（独立图片 .png/.jpg/.jpeg） | `boxcn` | `drive +download` → 原始文件 | `drive copy` + `move_docs_to_wiki` | 📌 本地有 + 飞书链接 |
 | slides（幻灯片） | — | 不保留 | `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 |
 | mindnote（思维导图） | — | 不保留 | `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 |
 | mp4/zip 等大文件 | `boxcn` | 不保留（太大） | `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 |
