@@ -761,3 +761,26 @@ for p in sorted(groups.keys()):
             created_categories[cat_name] = nt
         category_map[p] = created_categories[cat_name]
 ```
+
+
+## [ERR-20260502-002] lark-cli wiki 子命令用法错误
+
+**时间**: 2026-05-02
+**严重性**: low
+**领域**: lark-cli, wiki
+
+### 错误描述
+执行 `lark-cli wiki create_space_node --space-id xxx` 报错 `unknown flag: --space-id`。`create_space_node` 不是有效的 wiki 子命令。
+
+### 根因
+lark-cli wiki 的可用子命令是：`+node-create`、`members`、`nodes`、`spaces`。创建知识库节点应该用 `wiki +node-create` shortcut 或原生 API。
+
+### 正确做法
+```bash
+# 方式一：使用 shortcut
+lark-cli wiki +node-create --space-id <space_id> --title '标题' --obj-type docx --as user
+
+# 方式二：使用原生 API
+lark-cli api POST /open-apis/wiki/v2/spaces/<space_id>/nodes \
+  --data '{"obj_type":"docx","parent_node_token":"","title":"标题"}' --as user
+```
