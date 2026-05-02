@@ -1231,7 +1231,7 @@ tags include #task/
 
 ## 文件清单
 
-### {分类1}
+### [{分类1}](https://reliablesense.feishu.cn/wiki/{分类节点node_token})
 
 | 文件 | 类型 | 飞书链接 | 说明 |
 |------|------|---------|------|
@@ -1239,7 +1239,7 @@ tags include #task/
 | [[附件名.docx]] | file | [飞书](url) | 📌 本地有 |
 | 仅云端文件名 | file | [飞书](url) | ☁️ 仅云端 |
 
-### {分类2}
+### [{分类2}](https://reliablesense.feishu.cn/wiki/{分类节点node_token})
 ...
 
 > 📌 仅本地 = 飞书知识库没有　☁️ 仅云端 = 飞书知识库有，本地不保留非 md 文件
@@ -1290,6 +1290,7 @@ LIMIT 20
 **与飞书知识库的关系**：
 - 飞书知识库节点结构与总览章节结构一致
 - 总览中的分组标题 = 知识库中的子节点名称
+- 总览中的分组标题设为知识库对应分类节点的超链接，格式：`### [分类名](https://reliablesense.feishu.cn/wiki/{分类节点node_token})`
 
 ### 步骤 6：写入飞书父节点文档
 
@@ -1369,7 +1370,34 @@ echo '{markdown内容}' | lark-cli docs +update \
 - 知识库有重复 → 在飞书网页端手动删除多余节点
 - 知识库文档内容为空 → 说明误用了 `wiki create node`，应删除空节点后用 `drive copy` 重做
 
-**7d. 清理 shortcut**
+**7d. 验证分类节点 mention-doc 链接**
+
+步骤 6b 写入的分类节点子页面列表中，每个 `<mention-doc token="...">` 的 token 必须与实际子节点的 `obj_token` 一致：
+
+```bash
+# 1. 获取分类节点的 obj_token，然后 fetch 文档内容
+lark-cli wiki spaces get_node --params '{"token":"{分类节点node_token}"}' --as user
+lark-cli docs +fetch --doc {obj_token} --as user
+# 提取所有 mention-doc token
+
+# 2. 获取该分类节点的子节点列表
+lark-cli api GET /open-apis/wiki/v2/spaces/{space_id}/nodes \
+  --params '{"parent_node_token":"{分类节点node_token}","page_size":"50"}' --as user
+# 提取所有子节点的 obj_token
+
+# 3. 交叉比对：mention-doc token 集合 == 子节点 obj_token 集合
+# - 每个 mention-doc token 都能在子节点 obj_token 中找到 → ✅
+# - mention-doc 中有但子节点中没有 → ❌ 链接指向错误
+# - 子节点中有但 mention-doc 中没有 → ⚠️ 遗漏了文件
+```
+
+**7e. 检查本地总览分类标题链接**
+
+总览中的分类标题应设为知识库对应分类节点的超链接：
+- 格式：`### [分类名](https://reliablesense.feishu.cn/wiki/{分类节点node_token})`
+- 根节点直属文件（无分类节点）的标题不加链接
+
+**7f. 清理 shortcut**
 
 递归扫描飞书云空间原始目录及所有子目录，删除 `move_docs_to_wiki` 留下的 shortcut：
 
