@@ -981,7 +981,7 @@ created: 2026-04-11
 | `slides`（幻灯片） | ❌ API 不支持导出 | ✅ 原件不动 | ✅ `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 | 需在飞书网页端手动导出 pptx |
 | `mindnote`（思维导图） | ❌ API 不支持导出 | ✅ 原件不动 | ✅ `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 | 需在飞书网页端手动导出 .mm |
 | `.mp4/.zip` 等大文件 | ❌ 不保留 | ✅ 原件不动 | ✅ `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 | 视频/压缩包等 |
-| `.blend/.glb/.skp/.dwg/.sketch` 等 3D/设计文件 | ❌ 不保留 | ✅ 原件不动 | ✅ `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 | 3D模型/设计文件，本地不保留 |
+| 其他未知类型（.blend/.glb/.skp/.dwg/.sketch/.c4d/.fbx 等） | ❌ 不保留 | ✅ 原件不动 | ✅ `drive copy` + `move_docs_to_wiki` | ☁️ 仅云端 + 飞书链接 | 未在上述规则中的文件类型，默认本地不保留 |
 | 本地独有笔记 | ✅ 保留 | — | ✅ `wiki create node` + `docs +update` | `[[wikilink]]` + 飞书链接 | 本地手写的 md，直接在知识库创建并写入 |
 
 **核心原则**：
