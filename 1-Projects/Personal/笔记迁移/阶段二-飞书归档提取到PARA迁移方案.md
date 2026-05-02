@@ -2282,6 +2282,9 @@ git push
 - [ ] **子目录标题带知识库链接**：如 `### [文档整理](https://reliablesense.feishu.cn/wiki/xxx)`
 - [ ] **每个文件都有飞书链接**：file 类型的附件也要有对应的知识库 wiki 链接
 - [ ] **wikilink 路径正确**：`[[4-Archives/Projects/Work/项目名/文件名|显示名]]` 格式
+  - 根目录文件：`[[4-Archives/Projects/Work/项目名/文件名|显示名]]`
+  - 子目录文件：`[[4-Archives/Projects/Work/项目名/子目录/文件名|显示名]]`（必须包含子目录路径）
+  - **所有文件都要有 wikilink**，包括 file 类型的 docx/xlsx/pptx/pdf/png/mp4/zip/7z/cpa/dwg 等附件
 - [ ] **📌/☁️ 标记准确**：本地有的标 📌，仅云端的标 ☁️
 - [ ] **dataview 查询正确**：项目日志的 dataview 查询包含项目名和 tag
 
@@ -2318,3 +2321,5 @@ git push
 4. **知识库目录页为空**：`wiki +node-create` 创建的节点默认是空 docx，必须用 `docs +update` 写入内容
 5. **move_docs_to_wiki 对 file 类型返回 task_id**：这是正常的异步行为，不是失败
 6. **知识库节点未放到归档项目下**：已结束项目必须 `wiki move` 到归档项目节点下
+7. **子目录文件缺少 wikilink**：file 类型附件也必须用 `[[路径/子目录/文件名|显示名]]` 格式，不能只写文件名纯文本
+8. **子目录文件 wikilink 缺少子目录路径**：`文档整理/` 下的文件必须写 `[[.../博世项目/文档整理/xxx|xxx]]`，不能省略子目录
