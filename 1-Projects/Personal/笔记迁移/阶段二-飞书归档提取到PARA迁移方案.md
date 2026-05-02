@@ -2296,8 +2296,12 @@ git push
 - [ ] **无遗漏文件**：对比飞书云空间原始目录和知识库节点数量
 - [ ] **目录页已写入内容**：每个目录节点（根节点 + 子分类）的 docx 文档不为空
   - 根节点：`# 项目名` + `<mention-doc>` 列出子分类
-  - 子分类：`# 分类名` + `<mention-doc>` 列出子文件（参考百度水厂格式）
-  - 照片/文件多的分类：`# 分类名` + 文件摘要说明
+  - 子分类：`# 分类名` + `<mention-doc>` 列出所有子文件（参考百度水厂格式）
+  - 照片/文件多的分类：`# 分类名` + `<mention-doc>` 列出关键文件 + "现场照片 N 张"
+  - mention-doc 的 token 必须用 **obj_token**（不是 node_token）
+  - mention-doc 的 type 用 `docx` 或 `file`（与实际文件类型一致）
+  - **写入后必须验证**：用 `docs +fetch` 检查长度和内容，确认 mention-doc 标签存在
+  - **长 markdown 用文件传入**：`lark-cli docs +update --markdown "$(cat file.md)"`，不要直接在命令行写长内容
 - [ ] **无重复节点**：检查是否有脚本重跑或手动操作产生的重复，记录到迁移记录.md
 - [ ] **shortcut 已清理**：`move_docs_to_wiki` 产生的 shortcut 已删除（或记录待手动清理）
 
