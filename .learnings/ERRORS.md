@@ -711,3 +711,53 @@ lark-cli api DELETE /open-apis/drive/v1/files/{shortcut_token} --params '{"type"
 
 ### 正确做法
 `<sub-page-list>` 只能在飞书网页端手动添加（在文档中输入 `/子页面列表` 或 `/sub-page-list`）。API 无法写入此组件。
+
+
+## [ERR-20260501-004] lark-cli schema drive.files.copy 实际执行了 copy 操作
+
+**时间**: 2026-05-01
+**严重性**: medium
+**领域**: lark-cli, drive, api
+
+### 错误描述
+执行 `lark-cli schema drive.files.copy` 期望查看 API 参数结构，但实际返回了 `{"code":0,"data":{"task_id":"xxx"},"msg":"success"}`，说明它实际执行了 copy 操作而不是显示 schema。
+
+### 根因
+`lark-cli schema` 对某些 API 可能不支持或行为异常。`drive.files.copy` 可能被解析为实际的 API 调用。
+
+### 正确做法
+对于已知的 API（如 drive files copy、wiki move_docs_to_wiki），直接参考错误记录中已有的正确用法，不需要再查 schema。
+
+
+## [ERR-20260502-001] 迁移脚本分类逻辑 bug：重复创建同名分类节点
+
+**时间**: 2026-05-02
+**严重性**: high
+**领域**: feishu, wiki, migration-script
+
+### 错误描述
+`migrate_project.py` 的分类逻辑对每个子目录路径都创建新的分类节点，没有缓存已创建的分类名。导致武汉机场迁移时创建了 20+ 个重复的"接口对接"节点和 2 个重复的"会议纪要"节点。
+
+### 根因
+```python
+# bug 代码：每次都创建新节点
+for p in sorted(groups.keys()):
+    if p != '根目录':
+        cat_name = p.strip('/').split('/')[0]
+        # 没有检查 cat_name 是否已创建过
+        nt, ot = create_node(root_nt, cat_name)
+        category_map[p] = nt
+```
+
+### 正确做法
+用 dict 缓存已创建的分类名，同名分类只创建一次：
+```python
+created_categories = {}
+for p in sorted(groups.keys()):
+    if p != '根目录':
+        cat_name = p.strip('/').split('/')[0]
+        if cat_name not in created_categories:
+            nt, ot = create_node(root_nt, cat_name)
+            created_categories[cat_name] = nt
+        category_map[p] = created_categories[cat_name]
+```
