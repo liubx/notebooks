@@ -2265,14 +2265,15 @@ git push
 
 ### 一、本地文件检查
 
-- [ ] **全量同步**：飞书归档目录（`4-Archives/Notes/Feishu/...`）的所有文件已 rsync 到项目目录，用 `diff` 确认 0 差异
+- [ ] **全量同步**：飞书归档目录（`4-Archives/Notes/Feishu/...`）的可查看文件已同步到项目目录（md/docx/xlsx/pptx/pdf/png/jpg 等）
+- [ ] **大文件不保留本地**：视频(mp4/mov)、3D模型(glb/skp/blend)、源码包(zip/7z)、CAD图纸(dwg)、CLE配置(cpa)、设计源文件(ai/eps)等 Obsidian 无法打开的文件不保留本地，只在知识库保留，0-总览中标 ☁️ 仅云端
+- [ ] **删除大文件后检查空目录**：大文件删除后如果子目录变空（如项目设计稿/），删除空目录
 - [ ] **md 文件完整**：所有飞书 docx 转的 md 文件都已复制，包括子目录中的
 - [ ] **附件完整**：所有 docx/xlsx/pptx/pdf/png/jpg/mp4/zip/7z/cpa/dwg/html 等附件都已复制
 - [ ] **Attachments 图片**：md 文件引用的 Attachments/ 目录下的图片已一并复制
 - [ ] **清理临时文件**：删除 `~$` 开头的 Office 临时锁定文件（阶段一全量拉取时可能一起下载了）
 - [ ] **未下载文件补充**：飞书归档 README.md 中标记"未下载"的 docx 文件，通过 `docs +fetch` 获取并保存到本地
 - [ ] **本地目录结构与知识库一致**：子目录名和知识库子分类名完全一致，飞书原始目录名（如版本号 `0.1/0.2`）需重组为有意义的分类名
-- [ ] **大文件不保留本地**：视频(mp4/mov)、3D模型(glb/skp/blend)、源码包(zip/7z)、CAD图纸(dwg)、CLE配置(cpa)等 Obsidian 无法打开的文件不保留本地，只在知识库保留，0-总览中标 ☁️ 仅云端
 
 ### 二、0-总览.md 检查
 
@@ -2289,6 +2290,9 @@ git push
   - 子目录文件：`[[4-Archives/Projects/Work/项目名/子目录/文件名|显示名]]`（必须包含子目录路径）
   - **所有文件都要有 wikilink**，包括 file 类型的 docx/xlsx/pptx/pdf/png/mp4/zip/7z/cpa/dwg 等附件
 - [ ] **📌/☁️ 标记准确**：本地有的标 📌，仅云端的标 ☁️
+  - ☁️ 仅云端的文件不能有 wikilink（本地没有文件）
+  - 📌 本地有的文件必须有 wikilink（指向本地文件路径）
+  - 底部必须有 📌 和 ☁️ 的说明文字
 - [ ] **dataview 查询正确**：项目日志的 dataview 查询包含项目名和 tag
 
 ### 三、飞书知识库检查
@@ -2305,6 +2309,7 @@ git push
   - mention-doc 的 type 用 `docx` 或 `file`（与实际文件类型一致）
   - **写入后必须验证**：用 `docs +fetch` 检查长度和内容，确认 mention-doc 标签存在
   - **长 markdown 用文件传入**：`lark-cli docs +update --markdown "$(cat file.md)"`，不要直接在命令行写长内容
+- [ ] **目录页写入后二次验证**：每个目录页写入后立即用 `docs +fetch` 检查长度 > 0 且包含 mention-doc 标签，防止写入被覆盖或静默失败
 - [ ] **无重复节点**：检查是否有脚本重跑或手动操作产生的重复，记录到迁移记录.md
 - [ ] **shortcut 已清理**：`move_docs_to_wiki` 产生的 shortcut 已删除（或记录待手动清理）
 
