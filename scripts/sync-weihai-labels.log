@@ -1,0 +1,47 @@
+=== 威海标签贴膜同步开始 Sun May  3 14:17:15 CST 2026 ===
+[2/42] 贴膜-转曲.pdf
+  copy结果: {
+  "code": 0,
+  "data": {
+    "file": {
+      "name": "贴膜-转曲.pdf",
+      "parent_token": "fldcnRPjh6QcMmwt4l61XoCDfqd",
+      "token": "JZSvbjqhXobgkex5kd8cual7n2e",
+      "type": "file",
+      "url": "https://reliablesense.feishu.cn/file/JZSvbjqhXobgkex5kd8cual7n2e"
+    }
+  },
+  "msg": "success"
+}
+  ❌ copy 失败
+[3/42] 1.png
+  copy结果: {
+  "code": 0,
+  "data": {
+    "file": {
+      "name": "1.png",
+      "parent_token": "fldcnRPjh6QcMmwt4l61XoCDfqd",
+      "token": "IF4Obn46CoKpg8x9Mzccrb2XnYb",
+      "type": "file",
+      "url": "https://reliablesense.feishu.cn/file/IF4Obn46CoKpg8x9Mzccrb2XnYb"
+    }
+  },
+  "msg": "success"
+}
+  ❌ copy 失败
+[4/42] 1-2.psd
+  copy结果: {
+  "code": 0,
+  "data": {
+    "file": {
+      "name": "1-2.psd",
+      "parent_token": "fldcnRPjh6QcMmwt4l61XoCDfqd",
+      "token": "DBYYbcf03oBAjtxjJ4dcYjP3nRd",
+      "type": "file",
+      "url": "https://reliablesense.feishu.cn/file/DBYYbcf03oBAjtxjJ4dcYjP3nRd"
+    }
+  },
+  "msg": "success"
+}
+  ❌ copy 失败
+[5/42] 贴膜-转曲.ai
