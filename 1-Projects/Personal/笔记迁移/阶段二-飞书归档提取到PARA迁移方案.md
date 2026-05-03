@@ -2304,10 +2304,13 @@ git push
 - [ ] **目录页已写入内容**：每个目录节点（根节点 + 子分类）的 docx 文档不为空
   - **根节点统一格式**：`# 项目名` + `- <mention-doc token="obj_token" type="docx">子分类名</mention-doc>（docx）` 列表，只列子分类，不列根目录文件，不加描述行
   - **子分类统一格式**：`# 分类名` + `- <mention-doc token="obj_token" type="类型">文件名</mention-doc>（类型）` 列表，列出所有子文件
+  - **禁止的格式**：不要描述行、不要二级标题（`##`）、不要纯文本摘要（如"现场照片 N 张"）、不要 lark-table 表格
   - mention-doc 的 token 必须用 **obj_token**（不是 node_token）
-  - mention-doc 的 type 用 `docx` 或 `file`（与实际文件类型一致）
-  - **写入后必须验证**：用 `docs +fetch` 检查长度和内容，确认 mention-doc 标签存在
-  - **长 markdown 用文件传入**：`lark-cli docs +update --markdown "$(cat file.md)"`，不要直接在命令行写长内容
+  - mention-doc 的 type 统一用 `docx` 或 `file`（与实际文件类型一致），不用自定义描述（如"CLE 配置""现场视频"）
+  - 括号中的类型说明统一用 `（docx）` 或 `（file）`
+  - **写入方式**：用 `docs +update --mode overwrite --markdown "$(cat file.md)"`，长内容必须通过临时文件传入
+  - **写入后必须验证**：用 `docs +fetch` 检查长度 > 0 且包含 mention-doc 标签
+- [ ] **目录页格式一致性**：所有项目的根节点和子节点目录页必须使用完全相同的格式，不允许项目间有差异
 - [ ] **目录页写入后二次验证**：每个目录页写入后立即用 `docs +fetch` 检查长度 > 0 且包含 mention-doc 标签，防止写入被覆盖或静默失败
 - [ ] **无重复节点**：检查是否有脚本重跑或手动操作产生的重复，记录到迁移记录.md
 - [ ] **shortcut 已清理**：`move_docs_to_wiki` 产生的 shortcut 已删除（或记录待手动清理）
@@ -2336,3 +2339,5 @@ git push
 8. **子目录文件 wikilink 缺少子目录路径**：`文档整理/` 下的文件必须写 `[[.../博世项目/文档整理/xxx|xxx]]`，不能省略子目录
 9. **本地目录结构与知识库不一致**：本地子目录名必须和知识库子分类名一致，不能用飞书原始目录名（如 `0.1/0.2/0.3`），要重组为有意义的分类名（如 `设计方案/`）
 10. **大文件全量同步到本地**：视频/3D模型/源码包/CAD图纸等 Obsidian 无法打开的文件不应保留本地，只在飞书知识库保留。本地只保留 md/docx/xlsx/pptx/pdf/png/jpg 等可查看文件
+11. **目录页格式不统一**：根节点加了描述行、子节点用了二级标题或表格格式。所有目录页必须统一为 `# 标题` + `- <mention-doc>` 列表，不加任何额外内容
+12. **目录页用纯文本代替 mention-doc**：如"现场照片 38 张"——必须逐个列出每个文件的 mention-doc，不能用摘要代替

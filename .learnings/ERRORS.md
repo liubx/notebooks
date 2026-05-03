@@ -802,3 +802,48 @@ lark-cli api POST /open-apis/wiki/v2/spaces/<space_id>/nodes \
 1. 临时文件放到 `/tmp` 目录（不含特殊字符）：`TMPFILE="/tmp/xxx.json"`
 2. 或者用 Python 的 `sys.argv` 传递路径，避免在 `-c` 字符串中硬编码路径
 3. 永远不要假设工作目录路径不含特殊字符
+
+
+## [ERR-20260503-002] lark-cli docs +update @file 必须使用相对路径
+
+**时间**: 2026-05-03
+**严重性**: low
+**领域**: lark-cli, docs
+
+### 错误描述
+执行 `lark-cli docs +update --markdown @/tmp/shanghai_bosch.md` 时报错 `--file must be a relative path within the current directory`。
+
+### 根因
+lark-cli 的 `@file` 语法要求文件路径必须是当前工作目录下的相对路径，不支持绝对路径或当前目录外的路径。
+
+### 正确做法
+```bash
+# 正确：使用相对路径（文件在当前工作目录下）
+lark-cli docs +update --doc xxx --markdown @scripts/file.md --as user
+
+# 错误：使用绝对路径
+lark-cli docs +update --doc xxx --markdown @/tmp/file.md --as user
+```
+
+
+## [ERR-20260503-003] docs +update 无法写入 mention-doc 标签
+
+**时间**: 2026-05-03
+**严重性**: high
+**领域**: feishu, docs, api
+
+### 错误描述
+使用 `docs +update --mode append` 写入包含 `<mention-doc token="xxx" type="docx">文件名</mention-doc>` 的 markdown 内容时，API 返回 `errorCode=4000515, open api resource Not found`。纯文本内容可以正常写入，但 mention-doc 标签无法通过 API 创建。
+
+### 根因
+`<mention-doc>` 是飞书文档中的特殊块类型（文档引用/链接），docx API 的 `create descendant` 接口不支持通过 markdown 创建这种块。这些 mention-doc 块在迁移时是通过 `move_docs_to_wiki` 等操作自动生成的，不是通过 docs API 写入的。
+
+### 正确做法
+1. **不要删除包含 mention-doc 的文档内容**——一旦删除就无法通过 API 恢复
+2. 对于需要修改格式的目录页，只能做局部修改（删除描述行、纯文本摘要），不能重写整个文档
+3. 如果需要重建 mention-doc 列表，只能在飞书网页端手动操作
+4. `docs +fetch` 能读取 mention-doc，但 `docs +update` 不能写入——这是单向的
+
+
+### 补充场景（replace_all 也无法修改含 mention-doc 的行）
+`replace_all` 模式替换含 mention-doc 行中的文本时，也会报 `errorCode=4000515`。因为替换操作需要重建整个块，而重建时 mention-doc 元素无法通过 API 创建。结论：**任何需要重建含 mention-doc 块的操作都会失败**，只能删除纯文本行或追加纯文本内容。
