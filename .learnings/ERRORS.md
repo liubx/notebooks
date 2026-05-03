@@ -784,3 +784,21 @@ lark-cli wiki +node-create --space-id <space_id> --title '标题' --obj-type doc
 lark-cli api POST /open-apis/wiki/v2/spaces/<space_id>/nodes \
   --data '{"obj_type":"docx","parent_node_token":"","title":"标题"}' --as user
 ```
+
+
+## [ERR-20260503-001] bash 脚本中 $(pwd) 路径含单引号导致 python3 -c 解析失败
+
+**时间**: 2026-05-03
+**严重性**: medium
+**领域**: bash, python, shell
+
+### 错误描述
+迁移脚本中用 `TMPFILE="$(pwd)/api_result_tmp.json"` 生成临时文件路径，但工作目录 `Bingxin's Vault` 包含单引号，导致 `python3 -c` 内联代码中 `open('/Users/.../Bingxin's Vault/...')` 的字符串被单引号截断，报 `SyntaxError: unterminated string literal`。
+
+### 根因
+`$(pwd)` 展开后路径含单引号，嵌入到 Python 单引号字符串中会导致字符串提前终止。
+
+### 正确做法
+1. 临时文件放到 `/tmp` 目录（不含特殊字符）：`TMPFILE="/tmp/xxx.json"`
+2. 或者用 Python 的 `sys.argv` 传递路径，避免在 `-c` 字符串中硬编码路径
+3. 永远不要假设工作目录路径不含特殊字符
