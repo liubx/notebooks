@@ -2302,9 +2302,8 @@ git push
 - [ ] **所有文件已 drive copy + move_docs_to_wiki**：包括照片、视频、源码包等所有 file 类型
 - [ ] **无遗漏文件**：对比飞书云空间原始目录和知识库节点数量
 - [ ] **目录页已写入内容**：每个目录节点（根节点 + 子分类）的 docx 文档不为空
-  - 根节点：`# 项目名` + `<mention-doc>` 列出子分类
-  - 子分类：`# 分类名` + `<mention-doc>` 列出所有子文件（参考百度水厂格式）
-  - 照片/文件多的分类：`# 分类名` + `<mention-doc>` 列出关键文件 + "现场照片 N 张"
+  - **根节点统一格式**：`# 项目名` + `- <mention-doc token="obj_token" type="docx">子分类名</mention-doc>（docx）` 列表，只列子分类，不列根目录文件，不加描述行
+  - **子分类统一格式**：`# 分类名` + `- <mention-doc token="obj_token" type="类型">文件名</mention-doc>（类型）` 列表，列出所有子文件
   - mention-doc 的 token 必须用 **obj_token**（不是 node_token）
   - mention-doc 的 type 用 `docx` 或 `file`（与实际文件类型一致）
   - **写入后必须验证**：用 `docs +fetch` 检查长度和内容，确认 mention-doc 标签存在
