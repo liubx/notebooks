@@ -847,3 +847,22 @@ lark-cli docs +update --doc xxx --markdown @/tmp/file.md --as user
 
 ### 补充场景（replace_all 也无法修改含 mention-doc 的行）
 `replace_all` 模式替换含 mention-doc 行中的文本时，也会报 `errorCode=4000515`。因为替换操作需要重建整个块，而重建时 mention-doc 元素无法通过 API 创建。结论：**任何需要重建含 mention-doc 块的操作都会失败**，只能删除纯文本行或追加纯文本内容。
+
+
+## [ERR-20260503-004] doc 旧版文档 drive copy 后 move_docs_to_wiki 报 131005 document not found
+
+**时间**: 2026-05-03
+**严重性**: medium
+**领域**: feishu, wiki, drive, doc
+
+### 错误描述
+对 doc 旧版文档（`doccn` 前缀）执行 `drive files copy` 成功获得新 token，但随后执行 `move_docs_to_wiki` 时报 `131005 document not found by token`。即使等待后重试也一样失败。docx 和 file 类型不受影响。
+
+### 根因
+`drive files copy` 对 doc 旧版文档的 copy 行为可能不同于 docx——copy 可能返回了 token 但实际文档未完全创建，或者 doc 类型的副本不被 `move_docs_to_wiki` 识别。
+
+### 正确做法
+doc 旧版文档不要通过 `drive copy` + `move_docs_to_wiki` 迁移到知识库。替代方案：
+1. 这些文档已经通过导出 API + pandoc 转为本地 md 文件，本地有完整内容
+2. 在知识库目录页中标记为"仅本地"，提供原始飞书链接
+3. 或者在知识库中创建新的 docx 节点，手动写入内容
